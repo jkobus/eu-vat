@@ -1,0 +1,692 @@
+{
+    "additionalInformation": {},
+    "vatRateResults": [
+        {
+            "memberState": "CY",
+            "type": "REDUCED",
+            "rate": {
+                "type": "EXEMPTED",
+                "value": 0
+            },
+            "situationOn": "2022-07-01+02:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "82",
+                        "description": "Office administrative, office support and other business support services"
+                    },
+                    {
+                        "value": "85",
+                        "description": "Education services"
+                    },
+                    {
+                        "value": "86",
+                        "description": "Human health services"
+                    },
+                    {
+                        "value": "87",
+                        "description": "Residential care services"
+                    },
+                    {
+                        "value": "88",
+                        "description": "Social work services without accommodation"
+                    },
+                    {
+                        "value": "90",
+                        "description": "Creative, arts and entertainment services"
+                    },
+                    {
+                        "value": "91",
+                        "description": "Library, archive, museum and other cultural services"
+                    },
+                    {
+                        "value": "93",
+                        "description": "Sporting services and amusement and recreation services"
+                    },
+                    {
+                        "value": "94",
+                        "description": "Services furnished by membership organisations"
+                    },
+                    {
+                        "value": "99",
+                        "description": "Services provided by extraterritorial organisations and bodies"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "SOCIAL_WELLBEING",
+                "description": "Supply of goods and services by organisations recognised as being devoted to social wellbeing by Member States and engaged in welfare …"
+            }
+        },
+        {
+            "memberState": "CY",
+            "type": "REDUCED",
+            "rate": {
+                "type": "EXEMPTED",
+                "value": 0
+            },
+            "situationOn": "2022-07-01+02:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "86",
+                    "description": "Human health services"
+                }
+            },
+            "category": {
+                "identifier": "MEDICAL_CARE",
+                "description": "Provision of medical and dental care and thermal treatment in so far as those services are not exempt pursuant to points (b) to (e) of Article 132(1)"
+            }
+        },
+        {
+            "memberState": "CY",
+            "type": "REDUCED",
+            "rate": {
+                "type": "EXEMPTED",
+                "value": 0
+            },
+            "situationOn": "2022-07-01+02:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "91",
+                        "description": "Library, archive, museum and other cultural services"
+                    },
+                    {
+                        "value": "93",
+                        "description": "Sporting services and amusement and recreation services"
+                    },
+                    {
+                        "value": "94",
+                        "description": "Services furnished by membership organisations"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "CULTURAL_EVENTS",
+                "description": "Admission to shows, theatres, circuses, fairs, amusement parks, concerts, museums, zoos, cinemas, exhibitions and similar cultural events and facilities"
+            },
+            "comment": "When organized by non-profit organizations"
+        },
+        {
+            "memberState": "CY",
+            "type": "REDUCED",
+            "rate": {
+                "type": "NOT_APPLICABLE",
+                "value": 0
+            },
+            "situationOn": "2022-07-01+02:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "96",
+                    "description": "Other personal services"
+                }
+            },
+            "category": {
+                "identifier": "UNDERTAKERS_SERVICES",
+                "description": "Supply of services by undertakers and cremation services, and the supply of goods related thereto"
+            }
+        },
+        {
+            "memberState": "CY",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2022-07-01+02:00",
+            "cnCodes": {
+                "code": {
+                    "value": "01",
+                    "description": "CHAPTER 1 - LIVE ANIMALS"
+                }
+            },
+            "category": {
+                "identifier": "AGRICULTURAL_PRODUCTION",
+                "description": "Supply of goods and services of a kind normally intended for use in agricultural production but excluding capital goods such as machinery or buildings"
+            },
+            "comment": "Live animals, feeding stuffs (including food for birds and fish)"
+        },
+        {
+            "memberState": "CY",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2022-07-01+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "02",
+                        "description": "CHAPTER 2 - MEAT AND EDIBLE MEAT OFFAL"
+                    },
+                    {
+                        "value": "03",
+                        "description": "CHAPTER 3 - FISH AND CRUSTACEANS, MOLLUSCS AND OTHER AQUATIC INVERTEBRATES"
+                    },
+                    {
+                        "value": "04",
+                        "description": "CHAPTER 4 - DAIRY PRODUCE; BIRDS' EGGS; NATURAL HONEY; EDIBLE PRODUCTS OF ANIMAL ORIGIN, NOT ELSEWHERE SPECIFIED OR INCLUDED"
+                    },
+                    {
+                        "value": "07",
+                        "description": "CHAPTER 7 - EDIBLE VEGETABLES AND CERTAIN ROOTS AND TUBERS"
+                    },
+                    {
+                        "value": "08",
+                        "description": "CHAPTER 8 - EDIBLE FRUIT AND NUTS; PEEL OF CITRUS FRUIT OR MELONS"
+                    },
+                    {
+                        "value": "09",
+                        "description": "CHAPTER 9 - COFFEE, TEA, MATÉ AND SPICES"
+                    },
+                    {
+                        "value": "10",
+                        "description": "CHAPTER 10 - CEREALS"
+                    },
+                    {
+                        "value": "11",
+                        "description": "CHAPTER 11 - PRODUCTS OF THE MILLING INDUSTRY; MALT; STARCHES; INULIN; WHEAT GLUTEN"
+                    },
+                    {
+                        "value": "12",
+                        "description": "CHAPTER 12 - OIL SEEDS AND OLEAGINOUS FRUITS; MISCELLANEOUS GRAINS, SEEDS AND FRUIT; INDUSTRIAL OR MEDICINAL PLANTS; STRAW AND FODDER"
+                    },
+                    {
+                        "value": "14",
+                        "description": "CHAPTER 14 - VEGETABLE PLAITING MATERIALS; VEGETABLE PRODUCTS NOT ELSEWHERE SPECIFIED OR INCLUDED"
+                    },
+                    {
+                        "value": "15",
+                        "description": "CHAPTER 15 - ANIMAL, VEGETABLE OR MICROBIAL FATS AND OILS AND THEIR CLEAVAGE PRODUCTS; PREPARED EDIBLE FATS; ANIMAL OR VEGETABLE WAXES"
+                    },
+                    {
+                        "value": "17",
+                        "description": "CHAPTER 17 - SUGARS AND SUGAR CONFECTIONERY"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "FOODSTUFFS",
+                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and …"
+            }
+        },
+        {
+            "memberState": "CY",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2022-07-01+02:00",
+            "cnCodes": {
+                "code": {
+                    "value": "27",
+                    "description": "CHAPTER 27 - MINERAL FUELS, MINERAL OILS AND PRODUCTS OF THEIR DISTILLATION; BITUMINOUS SUBSTANCES; MINERAL WAXES"
+                }
+            },
+            "category": {
+                "identifier": "TEMPORARY",
+                "description": "Special temporary reduced rates (Articles 104a, 105, 112, 113, 115, 117, 122 of the VAT Directive)"
+            },
+            "comment": "Sale of LPG in cylinders"
+        },
+        {
+            "memberState": "CY",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2022-07-01+02:00",
+            "cnCodes": {
+                "code": {
+                    "value": "30",
+                    "description": "CHAPTER 30 - PHARMACEUTICAL PRODUCTS"
+                }
+            },
+            "category": {
+                "identifier": "PHARMACEUTICAL_PRODUCTS",
+                "description": "Pharmaceutical products of a kind normally used for health care, prevention of illness and as treatment for medical and veterinary purposes,…"
+            }
+        },
+        {
+            "memberState": "CY",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2022-07-01+02:00",
+            "cnCodes": {
+                "code": {
+                    "value": "31",
+                    "description": "CHAPTER 31 - FERTILISERS"
+                }
+            },
+            "category": {
+                "identifier": "AGRICULTURAL_PRODUCTION",
+                "description": "Supply of goods and services of a kind normally intended for use in agricultural production but excluding capital goods such as machinery or buildings"
+            },
+            "comment": "Fertilizers, insecticides, rodenticides, fungicides, herbicides, disinfectants (under tariff code 31)"
+        },
+        {
+            "memberState": "CY",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2022-07-01+02:00",
+            "cnCodes": {
+                "code": {
+                    "value": "49",
+                    "description": "CHAPTER 49 - PRINTED BOOKS, NEWSPAPERS, PICTURES AND OTHER PRODUCTS OF THE PRINTING INDUSTRY; MANUSCRIPTS, TYPESCRIPTS AND PLANS"
+                }
+            },
+            "category": {
+                "identifier": "NEWSPAPERS",
+                "description": "Newspapers"
+            },
+            "comment": "under tariff code 49.01-49.05"
+        },
+        {
+            "memberState": "CY",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2022-07-01+02:00",
+            "cnCodes": {
+                "code": {
+                    "value": "49",
+                    "description": "CHAPTER 49 - PRINTED BOOKS, NEWSPAPERS, PICTURES AND OTHER PRODUCTS OF THE PRINTING INDUSTRY; MANUSCRIPTS, TYPESCRIPTS AND PLANS"
+                }
+            },
+            "category": {
+                "identifier": "PERIODICALS",
+                "description": "Periodicals"
+            },
+            "comment": "under tariff code 49.01-49.05"
+        },
+        {
+            "memberState": "CY",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2022-07-01+02:00",
+            "cnCodes": {
+                "code": {
+                    "value": "49",
+                    "description": "CHAPTER 49 - PRINTED BOOKS, NEWSPAPERS, PICTURES AND OTHER PRODUCTS OF THE PRINTING INDUSTRY; MANUSCRIPTS, TYPESCRIPTS AND PLANS"
+                }
+            },
+            "category": {
+                "identifier": "LOAN_LIBRARIES",
+                "description": "Supply, including on loan by libraries, of books, newspapers and periodicals either on physical means of support …"
+            },
+            "comment": "under tariff code 49.01-49.05"
+        },
+        {
+            "memberState": "CY",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2022-07-01+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "84",
+                        "description": "CHAPTER 84 - NUCLEAR REACTORS, BOILERS, MACHINERY AND MECHANICAL APPLIANCES; PARTS THEREOF"
+                    },
+                    {
+                        "value": "90",
+                        "description": "CHAPTER 90 - OPTICAL, PHOTOGRAPHIC, CINEMATOGRAPHIC, MEASURING, CHECKING, PRECISION, MEDICAL OR SURGICAL INSTRUMENTS AND APPARATUS; PARTS AND ACCESSORIES THEREOF"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "MEDICAL_EQUIPMENT",
+                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
+            },
+            "comment": "Lifting devices for the disabled \n(under tariff code 84.28)\nBraille typewriters and pocket size specialized electronic communication devices for the disabled (under tariff code 84.69)\nHearing aids and orthopedic devices (under tariff code 90.21)\nWheelchairs for the disabled  \n(under tariff code 87.13)\n\nRepair services of the aforementioned goods - standard rate"
+        },
+        {
+            "memberState": "CY",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2022-07-01+02:00",
+            "cnCodes": {
+                "code": {
+                    "value": "87",
+                    "description": "CHAPTER 87 - VEHICLES OTHER THAN RAILWAY OR TRAMWAY ROLLING STOCK, AND PARTS AND ACCESSORIES THEREOF"
+                }
+            },
+            "category": {
+                "identifier": "CHILDREN_CAR_SEATS",
+                "description": "Supply of children’s car seats"
+            },
+            "comment": "Children's car seats to be used by land vehicles and specially designed for children up to 12 years old"
+        },
+        {
+            "memberState": "CY",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2022-07-01+02:00",
+            "cnCodes": {
+                "code": {
+                    "value": "97",
+                    "description": "CHAPTER 97 - WORKS OF ART, COLLECTORS' PIECES AND ANTIQUES"
+                }
+            },
+            "category": {
+                "identifier": "ZOOLOGICAL",
+                "description": "Collections and collector’s pieces of zoological, botanical, mineralogical, ethnographic or numismatic interest (CN code 9705 00 00)"
+            }
+        },
+        {
+            "memberState": "CY",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2022-07-01+02:00",
+            "cnCodes": {
+                "code": {
+                    "value": "97",
+                    "description": "CHAPTER 97 - WORKS OF ART, COLLECTORS' PIECES AND ANTIQUES"
+                }
+            },
+            "category": {
+                "identifier": "100_YEARS_OLD",
+                "description": "Goods, other than works of art or collector’s items, which are more than 100 years old (CN code 9706 00 00)"
+            },
+            "comment": "only the importation of archeological goods under tariff code 9706 00 00 - is liable at the reduced vat rate 5%"
+        },
+        {
+            "memberState": "CY",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2022-07-01+02:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "32",
+                    "description": "Other manufactured goods"
+                }
+            },
+            "category": {
+                "identifier": "UNDERTAKERS_SERVICES",
+                "description": "Supply of services by undertakers and cremation services, and the supply of goods related thereto"
+            },
+            "comment": "Only the sale of coffins is liable at the extra reduced rate of 5%"
+        },
+        {
+            "memberState": "CY",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2022-07-01+02:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "36",
+                    "description": "Natural water; water treatment and supply services"
+                }
+            },
+            "category": {
+                "identifier": "SUPPLY_WATER",
+                "description": "Supply of water"
+            }
+        },
+        {
+            "memberState": "CY",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2022-07-01+02:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "38",
+                    "description": "Waste collection, treatment and disposal services; materials recovery services"
+                }
+            },
+            "category": {
+                "identifier": "STREET_CLEANING",
+                "description": "Supply of services provided in connection with street cleaning, refuse collection and waste treatment, other than the supply of such services by bodies referred to in Article 13"
+            }
+        },
+        {
+            "memberState": "CY",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2022-07-01+02:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "41",
+                        "description": "Buildings and building construction works"
+                    },
+                    {
+                        "value": "43",
+                        "description": "Specialised construction works"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "PRIVATE_DWELLINGS",
+                "description": "The renovation and repair of private dwellings, excluding materials which account for a significant part of the value of the service supplied"
+            }
+        },
+        {
+            "memberState": "CY",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2022-07-01+02:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "49",
+                    "description": "Land transport services and transport services via pipelines"
+                }
+            },
+            "category": {
+                "identifier": "TRANSPORT_PASSENGERS",
+                "description": "Transport of passengers and their accompanying luggage"
+            },
+            "comment": "City and rural buses"
+        },
+        {
+            "memberState": "CY",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2022-07-01+02:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "58",
+                        "description": "Publishing services"
+                    },
+                    {
+                        "value": "90",
+                        "description": "Creative, arts and entertainment services"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "WRITERS_SERVICES",
+                "description": "Supply of services by writers, composers and performing artists, or of the royalties due to them"
+            }
+        },
+        {
+            "memberState": "CY",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2022-07-01+02:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "93",
+                    "description": "Sporting services and amusement and recreation services"
+                }
+            },
+            "category": {
+                "identifier": "CULTURAL_EVENTS",
+                "description": "Admission to shows, theatres, circuses, fairs, amusement parks, concerts, museums, zoos, cinemas, exhibitions and similar cultural events and facilities"
+            }
+        },
+        {
+            "memberState": "CY",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2022-07-01+02:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "93",
+                    "description": "Sporting services and amusement and recreation services"
+                }
+            },
+            "category": {
+                "identifier": "SPORTING_EVENTS",
+                "description": "Admission to sporting events"
+            }
+        },
+        {
+            "memberState": "CY",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2022-07-01+02:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "96",
+                    "description": "Other personal services"
+                }
+            },
+            "category": {
+                "identifier": "HAIRDRESSING",
+                "description": "Hairdressing"
+            },
+            "comment": "Hair extensions and wigs are liable at the standard rate"
+        },
+        {
+            "memberState": "CY",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 9
+            },
+            "situationOn": "2022-07-01+02:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "49",
+                    "description": "Land transport services and transport services via pipelines"
+                }
+            },
+            "category": {
+                "identifier": "TRANSPORT_PASSENGERS",
+                "description": "Transport of passengers and their accompanying luggage"
+            },
+            "comment": "Urban\/suburban\/rural taxi\nTouristic\/excursion\/intercity buses"
+        },
+        {
+            "memberState": "CY",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 9
+            },
+            "situationOn": "2022-07-01+02:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "55",
+                    "description": "Accommodation services"
+                }
+            },
+            "category": {
+                "identifier": "ACCOMMODATION",
+                "description": "Accommodation provided in hotels and similar establishments, including the provision of holiday accommodation and the letting of places on camping or caravan sites"
+            }
+        },
+        {
+            "memberState": "CY",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 9
+            },
+            "situationOn": "2022-07-01+02:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "56",
+                    "description": "Food and beverage serving services"
+                }
+            },
+            "category": {
+                "identifier": "RESTAURANT",
+                "description": "Restaurant and catering services, it being possible to exclude the supply of (alcoholic and\/or non-alcoholic) beverages"
+            }
+        },
+        {
+            "memberState": "CY",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 0
+            },
+            "situationOn": "2022-07-01+02:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "41",
+                    "description": "Buildings and building construction works"
+                }
+            },
+            "category": {
+                "identifier": "HOUSING_PROVISION",
+                "description": "Provision, construction, renovation and alteration of housing, as part of a social policy"
+            },
+            "comment": "Renovation services related to extension of house used as a residence"
+        },
+        {
+            "memberState": "CY",
+            "type": "STANDARD",
+            "rate": {
+                "type": "DEFAULT",
+                "value": 19
+            },
+            "situationOn": "2022-07-01+02:00"
+        }
+    ]
+}

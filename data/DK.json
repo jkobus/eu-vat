@@ -1,0 +1,181 @@
+{
+    "additionalInformation": {},
+    "vatRateResults": [
+        {
+            "memberState": "DK",
+            "type": "REDUCED",
+            "rate": {
+                "type": "EXEMPTED",
+                "value": 0
+            },
+            "situationOn": "2023-07-01+02:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "49.10",
+                        "description": "Passenger rail transport services, interurban"
+                    },
+                    {
+                        "value": "49.31",
+                        "description": "Urban and suburban passenger land transport services"
+                    },
+                    {
+                        "value": "49.32",
+                        "description": "Taxi operation services"
+                    },
+                    {
+                        "value": "49.39.1",
+                        "description": "Interurban and special-purpose scheduled passenger land transport services"
+                    },
+                    {
+                        "value": "49.39.2",
+                        "description": "Passenger transport services by funiculars, teleferics and ski-lifts"
+                    },
+                    {
+                        "value": "49.39.35",
+                        "description": "Road transport services of passengers by man- or animal-drawn vehicles"
+                    },
+                    {
+                        "value": "49.39.39",
+                        "description": "Passenger land transport services n.e.c."
+                    },
+                    {
+                        "value": "50.1",
+                        "description": "Sea and coastal passenger water transport services"
+                    },
+                    {
+                        "value": "50.3",
+                        "description": "Inland passenger water transport services"
+                    },
+                    {
+                        "value": "51.10.1",
+                        "description": "Passenger air transport services"
+                    },
+                    {
+                        "value": "51.10.2",
+                        "description": "Rental services of passenger air transport equipment with operator"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "TRANSPORT_PASSENGERS",
+                "description": "Transport of passengers and their accompanying luggage"
+            },
+            "comment": "Taxis, scheduled busses, trains and air transport are exempted. In connection with international transportation of passengers the exemption also covers accompanying luggage.\nPassenger transport in tourist busses and similar vehicles (CPA 49.39.32, 49.39.33, 49.39.34) are subject to VAT in Denmark (Standard rate)."
+        },
+        {
+            "memberState": "DK",
+            "type": "REDUCED",
+            "rate": {
+                "type": "EXEMPTED",
+                "value": 0
+            },
+            "situationOn": "2023-07-01+02:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "88.99.1",
+                    "description": "Other social work services without accommodation n.e.c."
+                }
+            },
+            "category": {
+                "identifier": "SOCIAL_WELLBEING",
+                "description": "Supply of goods and services by organisations recognised as being devoted to social wellbeing by Member States and engaged in welfare …"
+            },
+            "comment": "Delivery of goods and services related to charitable events - e.g. collection and sale of used items of little value - is exempt under certain conditions according to section 13(1)(17). Exemption obtained by prior application to the tax authorities on condition that the event does not distort competition in relation to commercial enterprises. An application for exemption is based on a specific assessment (event has a charitable purpose or has a commercial character)."
+        },
+        {
+            "memberState": "DK",
+            "type": "REDUCED",
+            "rate": {
+                "type": "EXEMPTED",
+                "value": 0
+            },
+            "situationOn": "2023-07-01+02:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "90.01",
+                        "description": "Services of performing artists"
+                    },
+                    {
+                        "value": "90.03.11",
+                        "description": "Services provided by authors, composers, sculptors and other artists, except performing artists"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "WRITERS_SERVICES",
+                "description": "Supply of services by writers, composers and performing artists, or of the royalties due to them"
+            }
+        },
+        {
+            "memberState": "DK",
+            "type": "REDUCED",
+            "rate": {
+                "type": "EXEMPTED",
+                "value": 0
+            },
+            "situationOn": "2023-07-01+02:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "91",
+                    "description": "Library, archive, museum and other cultural services"
+                }
+            },
+            "category": {
+                "identifier": "CULTURAL_EVENTS",
+                "description": "Admission to shows, theatres, circuses, fairs, amusement parks, concerts, museums, zoos, cinemas, exhibitions and similar cultural events and facilities"
+            },
+            "comment": "Services related to cultural activities, including libraries, museums, zoos and the like and supply of goods and services closely related to these services are exempt from VAT. The exemption does not cover radio and television broadcasts, movie display and theatre performances, concerts, etc."
+        },
+        {
+            "memberState": "DK",
+            "type": "REDUCED",
+            "rate": {
+                "type": "EXEMPTED",
+                "value": 0
+            },
+            "situationOn": "2023-07-01+02:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "93.12.10",
+                    "description": "Services of sport clubs"
+                }
+            },
+            "category": {
+                "identifier": "SPORTING_EVENTS",
+                "description": "Admission to sporting events"
+            },
+            "comment": "The exemption does not cover events with professional athletes as participants. It is a condition that the supplier is not acting for the purpose of gaining profit."
+        },
+        {
+            "memberState": "DK",
+            "type": "REDUCED",
+            "rate": {
+                "type": "EXEMPTED",
+                "value": 0
+            },
+            "situationOn": "2023-07-01+02:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "96.03.1",
+                    "description": "Funeral and related services"
+                }
+            },
+            "category": {
+                "identifier": "UNDERTAKERS_SERVICES",
+                "description": "Supply of services by undertakers and cremation services, and the supply of goods related thereto"
+            },
+            "comment": "The exemption does not include goods."
+        },
+        {
+            "memberState": "DK",
+            "type": "STANDARD",
+            "rate": {
+                "type": "DEFAULT",
+                "value": 25
+            },
+            "situationOn": "2023-07-01+02:00"
+        }
+    ]
+}
