@@ -2,7 +2,7 @@ name: VIES update
 
 on:
   schedule:
-    - cron: "*/5 * * * *"
+    - cron: "0 12 * * SAT"
 
 jobs:
   get-new-data:
