@@ -5,60 +5,10 @@
             "memberState": "SK",
             "type": "REDUCED",
             "rate": {
-                "type": "EXEMPTED",
-                "value": 0
-            },
-            "situationOn": "2023-07-01+02:00",
-            "cpaCodes": {
-                "code": {
-                    "value": "88",
-                    "description": "Social work services without accommodation"
-                }
-            },
-            "category": {
-                "identifier": "SOCIAL_WELLBEING",
-                "description": "Supply of goods and services by organisations recognised as being devoted to social wellbeing by Member States and engaged in welfare …"
-            },
-            "comment": "Supply of goods and services by organisations recognised as being devoted to social wellbeing by Member States and engaged in welfare or social security work, in so far as those transactions are not exempt pursuant to Articles 132, 135 and 136;"
-        },
-        {
-            "memberState": "SK",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2023-07-01+02:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "41",
-                        "description": "Buildings and building construction works"
-                    },
-                    {
-                        "value": "42",
-                        "description": "Constructions and construction works for civil engineering"
-                    },
-                    {
-                        "value": "68",
-                        "description": "Real estate services"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "HOUSING_PROVISION",
-                "description": "Provision, construction, renovation and alteration of housing, as part of a social policy"
-            },
-            "comment": "Construction of state-supported rental housing within the framework of the state's social policy (includes: delivery of a building or part of a building, including the construction land on which the building or part of the building stands, renovation and reconstruction of the building or part of the building, including construction and assembly work on the building)."
-        },
-        {
-            "memberState": "SK",
-            "type": "REDUCED",
-            "rate": {
                 "type": "REDUCED_RATE",
                 "value": 10
             },
-            "situationOn": "2023-07-01+02:00",
+            "situationOn": "2024-01-01+01:00",
             "cnCodes": {
                 "code": [
                     {
@@ -176,7 +126,7 @@
                 "type": "REDUCED_RATE",
                 "value": 10
             },
-            "situationOn": "2023-07-01+02:00",
+            "situationOn": "2024-01-01+01:00",
             "cnCodes": {
                 "code": [
                     {
@@ -210,7 +160,7 @@
                 "type": "REDUCED_RATE",
                 "value": 10
             },
-            "situationOn": "2023-07-01+02:00",
+            "situationOn": "2024-01-01+01:00",
             "cnCodes": {
                 "code": [
                     {
@@ -280,7 +230,7 @@
                 "type": "REDUCED_RATE",
                 "value": 10
             },
-            "situationOn": "2023-07-01+02:00",
+            "situationOn": "2024-01-01+01:00",
             "cnCodes": {
                 "code": [
                     {
@@ -314,7 +264,7 @@
                 "type": "REDUCED_RATE",
                 "value": 10
             },
-            "situationOn": "2023-07-01+02:00",
+            "situationOn": "2024-01-01+01:00",
             "cpaCodes": {
                 "code": {
                     "value": "55",
@@ -334,7 +284,7 @@
                 "type": "REDUCED_RATE",
                 "value": 10
             },
-            "situationOn": "2023-07-01+02:00",
+            "situationOn": "2024-01-01+01:00",
             "cpaCodes": {
                 "code": {
                     "value": "56",
@@ -345,7 +295,7 @@
                 "identifier": "RESTAURANT",
                 "description": "Restaurant and catering services, it being possible to exclude the supply of (alcoholic and\/or non-alcoholic) beverages"
             },
-            "comment": "Reduced VAT rate from 20% to 10%  on restaurant services. The reduced rate starts from 01\/01\/2023 onwards."
+            "comment": "Reduced VAT rate from 20% to 10%  on restaurant services. The reduced rate starts from 01\/01\/2023 onwards. An exception for all alcoholic beverages was added to the reduced rate of 10% for restaurants. Alcoholic beverages in restaurants to be taxed at a standard rate of 20% since 01\/01\/2024."
         },
         {
             "memberState": "SK",
@@ -354,7 +304,57 @@
                 "type": "DEFAULT",
                 "value": 20
             },
-            "situationOn": "2023-07-01+02:00"
+            "situationOn": "2024-01-01+01:00"
+        },
+        {
+            "memberState": "SK",
+            "type": "REDUCED",
+            "rate": {
+                "type": "EXEMPTED",
+                "value": 0
+            },
+            "situationOn": "2024-01-01+01:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "88",
+                    "description": "Social work services without accommodation"
+                }
+            },
+            "category": {
+                "identifier": "SOCIAL_WELLBEING",
+                "description": "Supply of goods and services by organisations recognised as being devoted to social wellbeing by Member States and engaged in welfare …"
+            },
+            "comment": "Supply of goods and services by organisations recognised as being devoted to social wellbeing by Member States and engaged in welfare or social security work, in so far as those transactions are not exempt pursuant to Articles 132, 135 and 136;"
+        },
+        {
+            "memberState": "SK",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2024-01-01+01:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "41",
+                        "description": "Buildings and building construction works"
+                    },
+                    {
+                        "value": "42",
+                        "description": "Constructions and construction works for civil engineering"
+                    },
+                    {
+                        "value": "68",
+                        "description": "Real estate services"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "HOUSING_PROVISION",
+                "description": "Provision, construction, renovation and alteration of housing, as part of a social policy"
+            },
+            "comment": "Construction of state-supported rental housing within the framework of the state's social policy (includes: delivery of a building or part of a building, including the construction land on which the building or part of the building stands, renovation and reconstruction of the building or part of the building, including construction and assembly work on the building)."
         }
     ]
 }

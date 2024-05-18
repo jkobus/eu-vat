@@ -8,7 +8,62 @@
                 "type": "EXEMPTED",
                 "value": 0
             },
-            "situationOn": "2022-07-01+02:00",
+            "situationOn": "2024-01-01+01:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "91",
+                        "description": "Library, archive, museum and other cultural services"
+                    },
+                    {
+                        "value": "93",
+                        "description": "Sporting services and amusement and recreation services"
+                    },
+                    {
+                        "value": "94",
+                        "description": "Services furnished by membership organisations"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "CULTURAL_EVENTS",
+                "description": "Admission to shows, theatres, circuses, fairs, amusement parks, concerts, museums, zoos, cinemas, exhibitions and similar cultural events and facilities"
+            },
+            "comment": "When organized by non-profit organizations and does not distort competition between them and profit organizations"
+        },
+        {
+            "memberState": "CY",
+            "type": "REDUCED",
+            "rate": {
+                "type": "NOT_APPLICABLE",
+                "value": 0
+            },
+            "situationOn": "2024-01-01+01:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "41",
+                        "description": "Buildings and building construction works"
+                    },
+                    {
+                        "value": "43",
+                        "description": "Specialised construction works"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "PRIVATE_DWELLINGS",
+                "description": "The renovation and repair of private dwellings, excluding materials which account for a significant part of the value of the service supplied"
+            }
+        },
+        {
+            "memberState": "CY",
+            "type": "REDUCED",
+            "rate": {
+                "type": "NOT_APPLICABLE",
+                "value": 0
+            },
+            "situationOn": "2024-01-01+01:00",
             "cpaCodes": {
                 "code": [
                     {
@@ -62,59 +117,10 @@
             "memberState": "CY",
             "type": "REDUCED",
             "rate": {
-                "type": "EXEMPTED",
-                "value": 0
-            },
-            "situationOn": "2022-07-01+02:00",
-            "cpaCodes": {
-                "code": {
-                    "value": "86",
-                    "description": "Human health services"
-                }
-            },
-            "category": {
-                "identifier": "MEDICAL_CARE",
-                "description": "Provision of medical and dental care and thermal treatment in so far as those services are not exempt pursuant to points (b) to (e) of Article 132(1)"
-            }
-        },
-        {
-            "memberState": "CY",
-            "type": "REDUCED",
-            "rate": {
-                "type": "EXEMPTED",
-                "value": 0
-            },
-            "situationOn": "2022-07-01+02:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "91",
-                        "description": "Library, archive, museum and other cultural services"
-                    },
-                    {
-                        "value": "93",
-                        "description": "Sporting services and amusement and recreation services"
-                    },
-                    {
-                        "value": "94",
-                        "description": "Services furnished by membership organisations"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "CULTURAL_EVENTS",
-                "description": "Admission to shows, theatres, circuses, fairs, amusement parks, concerts, museums, zoos, cinemas, exhibitions and similar cultural events and facilities"
-            },
-            "comment": "When organized by non-profit organizations"
-        },
-        {
-            "memberState": "CY",
-            "type": "REDUCED",
-            "rate": {
                 "type": "NOT_APPLICABLE",
                 "value": 0
             },
-            "situationOn": "2022-07-01+02:00",
+            "situationOn": "2024-01-01+01:00",
             "cpaCodes": {
                 "code": {
                     "value": "96",
@@ -133,7 +139,7 @@
                 "type": "REDUCED_RATE",
                 "value": 5
             },
-            "situationOn": "2022-07-01+02:00",
+            "situationOn": "2024-01-01+01:00",
             "cnCodes": {
                 "code": {
                     "value": "01",
@@ -153,7 +159,7 @@
                 "type": "REDUCED_RATE",
                 "value": 5
             },
-            "situationOn": "2022-07-01+02:00",
+            "situationOn": "2024-01-01+01:00",
             "cnCodes": {
                 "code": [
                     {
@@ -209,7 +215,8 @@
             "category": {
                 "identifier": "FOODSTUFFS",
                 "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and …"
-            }
+            },
+            "comment": "From 5\/5\/2023 the sale of the following: bread, milk, eggs, baby food are liable at the 0% VAT\nFrom 1\/11\/23 the sale of sugar and coffee are liable at the 0% VAT\nFrom 1\/12\/2023 up until 31\/5\/2024 - the sale of  raw meat (frozen or refrigerated) and meat byproducts, fresh or refrigerated vegetables of all kinds for human consumption are liable at the 0% VAT"
         },
         {
             "memberState": "CY",
@@ -218,27 +225,7 @@
                 "type": "REDUCED_RATE",
                 "value": 5
             },
-            "situationOn": "2022-07-01+02:00",
-            "cnCodes": {
-                "code": {
-                    "value": "27",
-                    "description": "CHAPTER 27 - MINERAL FUELS, MINERAL OILS AND PRODUCTS OF THEIR DISTILLATION; BITUMINOUS SUBSTANCES; MINERAL WAXES"
-                }
-            },
-            "category": {
-                "identifier": "TEMPORARY",
-                "description": "Special temporary reduced rates (Articles 104a, 105, 112, 113, 115, 117, 122 of the VAT Directive)"
-            },
-            "comment": "Sale of LPG in cylinders"
-        },
-        {
-            "memberState": "CY",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2022-07-01+02:00",
+            "situationOn": "2024-01-01+01:00",
             "cnCodes": {
                 "code": {
                     "value": "30",
@@ -248,7 +235,8 @@
             "category": {
                 "identifier": "PHARMACEUTICAL_PRODUCTS",
                 "description": "Pharmaceutical products of a kind normally used for health care, prevention of illness and as treatment for medical and veterinary purposes,…"
-            }
+            },
+            "comment": "The sale of in vitro products and vaccines related to virus covid 19 are liable at 0% from 13\/01\/2023 until 31\/5\/2023\n\nFrom 5\/5\/2023 the sale of the following: baby diapers, adult diapers, products related to feminine hygiene protection are liable at the 0%"
         },
         {
             "memberState": "CY",
@@ -257,7 +245,7 @@
                 "type": "REDUCED_RATE",
                 "value": 5
             },
-            "situationOn": "2022-07-01+02:00",
+            "situationOn": "2024-01-01+01:00",
             "cnCodes": {
                 "code": {
                     "value": "31",
@@ -277,67 +265,7 @@
                 "type": "REDUCED_RATE",
                 "value": 5
             },
-            "situationOn": "2022-07-01+02:00",
-            "cnCodes": {
-                "code": {
-                    "value": "49",
-                    "description": "CHAPTER 49 - PRINTED BOOKS, NEWSPAPERS, PICTURES AND OTHER PRODUCTS OF THE PRINTING INDUSTRY; MANUSCRIPTS, TYPESCRIPTS AND PLANS"
-                }
-            },
-            "category": {
-                "identifier": "NEWSPAPERS",
-                "description": "Newspapers"
-            },
-            "comment": "under tariff code 49.01-49.05"
-        },
-        {
-            "memberState": "CY",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2022-07-01+02:00",
-            "cnCodes": {
-                "code": {
-                    "value": "49",
-                    "description": "CHAPTER 49 - PRINTED BOOKS, NEWSPAPERS, PICTURES AND OTHER PRODUCTS OF THE PRINTING INDUSTRY; MANUSCRIPTS, TYPESCRIPTS AND PLANS"
-                }
-            },
-            "category": {
-                "identifier": "PERIODICALS",
-                "description": "Periodicals"
-            },
-            "comment": "under tariff code 49.01-49.05"
-        },
-        {
-            "memberState": "CY",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2022-07-01+02:00",
-            "cnCodes": {
-                "code": {
-                    "value": "49",
-                    "description": "CHAPTER 49 - PRINTED BOOKS, NEWSPAPERS, PICTURES AND OTHER PRODUCTS OF THE PRINTING INDUSTRY; MANUSCRIPTS, TYPESCRIPTS AND PLANS"
-                }
-            },
-            "category": {
-                "identifier": "LOAN_LIBRARIES",
-                "description": "Supply, including on loan by libraries, of books, newspapers and periodicals either on physical means of support …"
-            },
-            "comment": "under tariff code 49.01-49.05"
-        },
-        {
-            "memberState": "CY",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2022-07-01+02:00",
+            "situationOn": "2024-01-01+01:00",
             "cnCodes": {
                 "code": [
                     {
@@ -354,7 +282,7 @@
                 "identifier": "MEDICAL_EQUIPMENT",
                 "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
             },
-            "comment": "Lifting devices for the disabled \n(under tariff code 84.28)\nBraille typewriters and pocket size specialized electronic communication devices for the disabled (under tariff code 84.69)\nHearing aids and orthopedic devices (under tariff code 90.21)\nWheelchairs for the disabled  \n(under tariff code 87.13)\n\nRepair services of the aforementioned goods - standard rate"
+            "comment": "Lifting devices for the disabled \n(under tariff code 84.28)\nBraille typewriters and pocket size specialized electronic communication devices for the disabled (under tariff code 84.69)\nHearing aids and orthopedic devices (under tariff code 90.21)\nWheelchairs for the disabled  \n(under tariff code 87.13)\nRepair services of the aforementioned goods - standard rate"
         },
         {
             "memberState": "CY",
@@ -363,7 +291,7 @@
                 "type": "REDUCED_RATE",
                 "value": 5
             },
-            "situationOn": "2022-07-01+02:00",
+            "situationOn": "2024-01-01+01:00",
             "cnCodes": {
                 "code": {
                     "value": "87",
@@ -383,7 +311,7 @@
                 "type": "REDUCED_RATE",
                 "value": 5
             },
-            "situationOn": "2022-07-01+02:00",
+            "situationOn": "2024-01-01+01:00",
             "cnCodes": {
                 "code": {
                     "value": "97",
@@ -402,7 +330,7 @@
                 "type": "REDUCED_RATE",
                 "value": 5
             },
-            "situationOn": "2022-07-01+02:00",
+            "situationOn": "2024-01-01+01:00",
             "cnCodes": {
                 "code": {
                     "value": "97",
@@ -422,7 +350,7 @@
                 "type": "REDUCED_RATE",
                 "value": 5
             },
-            "situationOn": "2022-07-01+02:00",
+            "situationOn": "2024-01-01+01:00",
             "cpaCodes": {
                 "code": {
                     "value": "32",
@@ -442,7 +370,7 @@
                 "type": "REDUCED_RATE",
                 "value": 5
             },
-            "situationOn": "2022-07-01+02:00",
+            "situationOn": "2024-01-01+01:00",
             "cpaCodes": {
                 "code": {
                     "value": "36",
@@ -461,7 +389,7 @@
                 "type": "REDUCED_RATE",
                 "value": 5
             },
-            "situationOn": "2022-07-01+02:00",
+            "situationOn": "2024-01-01+01:00",
             "cpaCodes": {
                 "code": {
                     "value": "38",
@@ -480,23 +408,18 @@
                 "type": "REDUCED_RATE",
                 "value": 5
             },
-            "situationOn": "2022-07-01+02:00",
+            "situationOn": "2024-01-01+01:00",
             "cpaCodes": {
-                "code": [
-                    {
-                        "value": "41",
-                        "description": "Buildings and building construction works"
-                    },
-                    {
-                        "value": "43",
-                        "description": "Specialised construction works"
-                    }
-                ]
+                "code": {
+                    "value": "41",
+                    "description": "Buildings and building construction works"
+                }
             },
             "category": {
-                "identifier": "PRIVATE_DWELLINGS",
-                "description": "The renovation and repair of private dwellings, excluding materials which account for a significant part of the value of the service supplied"
-            }
+                "identifier": "HOUSING_PROVISION",
+                "description": "Provision, construction, renovation and alteration of housing, as part of a social policy"
+            },
+            "comment": "Renovation services related to extension of house used as a residence"
         },
         {
             "memberState": "CY",
@@ -505,7 +428,7 @@
                 "type": "REDUCED_RATE",
                 "value": 5
             },
-            "situationOn": "2022-07-01+02:00",
+            "situationOn": "2024-01-01+01:00",
             "cpaCodes": {
                 "code": {
                     "value": "49",
@@ -525,7 +448,7 @@
                 "type": "REDUCED_RATE",
                 "value": 5
             },
-            "situationOn": "2022-07-01+02:00",
+            "situationOn": "2024-01-01+01:00",
             "cpaCodes": {
                 "code": [
                     {
@@ -550,7 +473,26 @@
                 "type": "REDUCED_RATE",
                 "value": 5
             },
-            "situationOn": "2022-07-01+02:00",
+            "situationOn": "2024-01-01+01:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "86",
+                    "description": "Human health services"
+                }
+            },
+            "category": {
+                "identifier": "MEDICAL_CARE",
+                "description": "Provision of medical and dental care and thermal treatment in so far as those services are not exempt pursuant to points (b) to (e) of Article 132(1)"
+            }
+        },
+        {
+            "memberState": "CY",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2024-01-01+01:00",
             "cpaCodes": {
                 "code": {
                     "value": "93",
@@ -569,7 +511,7 @@
                 "type": "REDUCED_RATE",
                 "value": 5
             },
-            "situationOn": "2022-07-01+02:00",
+            "situationOn": "2024-01-01+01:00",
             "cpaCodes": {
                 "code": {
                     "value": "93",
@@ -588,7 +530,7 @@
                 "type": "REDUCED_RATE",
                 "value": 5
             },
-            "situationOn": "2022-07-01+02:00",
+            "situationOn": "2024-01-01+01:00",
             "cpaCodes": {
                 "code": {
                     "value": "96",
@@ -608,7 +550,7 @@
                 "type": "REDUCED_RATE",
                 "value": 9
             },
-            "situationOn": "2022-07-01+02:00",
+            "situationOn": "2024-01-01+01:00",
             "cpaCodes": {
                 "code": {
                     "value": "49",
@@ -628,7 +570,7 @@
                 "type": "REDUCED_RATE",
                 "value": 9
             },
-            "situationOn": "2022-07-01+02:00",
+            "situationOn": "2024-01-01+01:00",
             "cpaCodes": {
                 "code": {
                     "value": "55",
@@ -638,7 +580,8 @@
             "category": {
                 "identifier": "ACCOMMODATION",
                 "description": "Accommodation provided in hotels and similar establishments, including the provision of holiday accommodation and the letting of places on camping or caravan sites"
-            }
+            },
+            "comment": "Until 31\/8\/2022 was 5% - from 1\/9\/2022 is 9%"
         },
         {
             "memberState": "CY",
@@ -647,7 +590,7 @@
                 "type": "REDUCED_RATE",
                 "value": 9
             },
-            "situationOn": "2022-07-01+02:00",
+            "situationOn": "2024-01-01+01:00",
             "cpaCodes": {
                 "code": {
                     "value": "56",
@@ -657,27 +600,157 @@
             "category": {
                 "identifier": "RESTAURANT",
                 "description": "Restaurant and catering services, it being possible to exclude the supply of (alcoholic and\/or non-alcoholic) beverages"
+            },
+            "comment": "Until 31\/8\/2022 was 5% - from 1\/9\/2022 is 9%"
+        },
+        {
+            "memberState": "CY",
+            "type": "REDUCED",
+            "rate": {
+                "type": "SUPER_REDUCED_RATE",
+                "value": 3
+            },
+            "situationOn": "2024-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "49",
+                        "description": "CHAPTER 49 - PRINTED BOOKS, NEWSPAPERS, PICTURES AND OTHER PRODUCTS OF THE PRINTING INDUSTRY; MANUSCRIPTS, TYPESCRIPTS AND PLANS"
+                    },
+                    {
+                        "value": "85",
+                        "description": "CHAPTER 85 - ELECTRICAL MACHINERY AND EQUIPMENT AND PARTS THEREOF; SOUND RECORDERS AND REPRODUCERS, TELEVISION IMAGE AND SOUND RECORDERS AND REPRODUCERS, AND PARTS AND ACCESSORIES OF SUCH ARTICLES"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "BOOKS",
+                "description": "Books"
+            },
+            "comment": "Books under tariff code 49.01-49.05\nAudio books for persons with disability under tariff code 85.23"
+        },
+        {
+            "memberState": "CY",
+            "type": "REDUCED",
+            "rate": {
+                "type": "SUPER_REDUCED_RATE",
+                "value": 3
+            },
+            "situationOn": "2024-01-01+01:00",
+            "cnCodes": {
+                "code": {
+                    "value": "49",
+                    "description": "CHAPTER 49 - PRINTED BOOKS, NEWSPAPERS, PICTURES AND OTHER PRODUCTS OF THE PRINTING INDUSTRY; MANUSCRIPTS, TYPESCRIPTS AND PLANS"
+                }
+            },
+            "category": {
+                "identifier": "NEWSPAPERS",
+                "description": "Newspapers"
+            },
+            "comment": "under tariff code 49.01-49.05"
+        },
+        {
+            "memberState": "CY",
+            "type": "REDUCED",
+            "rate": {
+                "type": "SUPER_REDUCED_RATE",
+                "value": 3
+            },
+            "situationOn": "2024-01-01+01:00",
+            "cnCodes": {
+                "code": {
+                    "value": "49",
+                    "description": "CHAPTER 49 - PRINTED BOOKS, NEWSPAPERS, PICTURES AND OTHER PRODUCTS OF THE PRINTING INDUSTRY; MANUSCRIPTS, TYPESCRIPTS AND PLANS"
+                }
+            },
+            "category": {
+                "identifier": "PERIODICALS",
+                "description": "Periodicals"
+            },
+            "comment": "under tariff code 49.01-49.05"
+        },
+        {
+            "memberState": "CY",
+            "type": "REDUCED",
+            "rate": {
+                "type": "SUPER_REDUCED_RATE",
+                "value": 3
+            },
+            "situationOn": "2024-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "84",
+                        "description": "CHAPTER 84 - NUCLEAR REACTORS, BOILERS, MACHINERY AND MECHANICAL APPLIANCES; PARTS THEREOF"
+                    },
+                    {
+                        "value": "90",
+                        "description": "CHAPTER 90 - OPTICAL, PHOTOGRAPHIC, CINEMATOGRAPHIC, MEASURING, CHECKING, PRECISION, MEDICAL OR SURGICAL INSTRUMENTS AND APPARATUS; PARTS AND ACCESSORIES THEREOF"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "MEDICAL_EQUIPMENT",
+                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
+            },
+            "comment": "3% VAT rate from 21\/7\/2023 \nLifting devices for the disabled \n(under tariff code 84.28)\nBraille typewriters and pocket size specialized electronic communication devices for the disabled (under tariff code 84.69)\nOrthopedic devices including medical surgical belts, bandage and crutches, splints, supports and other items and devices for fractures, items and prosthetic devices, hearing devices for the deaf (under tariff code 90.21)\nWheelchairs for the disabled  \n(under tariff code 87.13)"
+        },
+        {
+            "memberState": "CY",
+            "type": "REDUCED",
+            "rate": {
+                "type": "SUPER_REDUCED_RATE",
+                "value": 3
+            },
+            "situationOn": "2024-01-01+01:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "38",
+                    "description": "Waste collection, treatment and disposal services; materials recovery services"
+                }
+            },
+            "category": {
+                "identifier": "WASTE_TREATMENT_REFUSAL",
+                "description": "Refuse collection and waste treatment"
             }
         },
         {
             "memberState": "CY",
             "type": "REDUCED",
             "rate": {
-                "type": "REDUCED_RATE",
-                "value": 0
+                "type": "SUPER_REDUCED_RATE",
+                "value": 3
             },
-            "situationOn": "2022-07-01+02:00",
+            "situationOn": "2024-01-01+01:00",
             "cpaCodes": {
                 "code": {
-                    "value": "41",
-                    "description": "Buildings and building construction works"
+                    "value": "38",
+                    "description": "Waste collection, treatment and disposal services; materials recovery services"
                 }
             },
             "category": {
-                "identifier": "HOUSING_PROVISION",
-                "description": "Provision, construction, renovation and alteration of housing, as part of a social policy"
+                "identifier": "WASTE_TREATMENT",
+                "description": "Sewage disposal and treatment and emptying of septic tanks and industrial tanks"
+            }
+        },
+        {
+            "memberState": "CY",
+            "type": "REDUCED",
+            "rate": {
+                "type": "SUPER_REDUCED_RATE",
+                "value": 3
             },
-            "comment": "Renovation services related to extension of house used as a residence"
+            "situationOn": "2024-01-01+01:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "93",
+                    "description": "Sporting services and amusement and recreation services"
+                }
+            },
+            "category": {
+                "identifier": "THEATRE_PERFORMANCES",
+                "description": "140 first theatre and circus performances"
+            }
         },
         {
             "memberState": "CY",
@@ -686,7 +759,7 @@
                 "type": "DEFAULT",
                 "value": 19
             },
-            "situationOn": "2022-07-01+02:00"
+            "situationOn": "2024-01-01+01:00"
         }
     ]
 }

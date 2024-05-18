@@ -8,7 +8,7 @@
                 "type": "EXEMPTED",
                 "value": 0
             },
-            "situationOn": "2023-07-01+02:00",
+            "situationOn": "2024-01-01+01:00",
             "cnCodes": {
                 "code": [
                     {
@@ -50,7 +50,7 @@
                 "type": "EXEMPTED",
                 "value": 0
             },
-            "situationOn": "2023-07-01+02:00",
+            "situationOn": "2024-01-01+01:00",
             "cnCodes": {
                 "code": [
                     {
@@ -84,7 +84,7 @@
                 "type": "EXEMPTED",
                 "value": 0
             },
-            "situationOn": "2023-07-01+02:00",
+            "situationOn": "2024-01-01+01:00",
             "cnCodes": {
                 "code": {
                     "value": "2308 00",
@@ -104,7 +104,7 @@
                 "type": "EXEMPTED",
                 "value": 0
             },
-            "situationOn": "2023-07-01+02:00",
+            "situationOn": "2024-01-01+01:00",
             "cnCodes": {
                 "code": [
                     {
@@ -134,7 +134,7 @@
                 "type": "EXEMPTED",
                 "value": 0
             },
-            "situationOn": "2023-07-01+02:00",
+            "situationOn": "2024-01-01+01:00",
             "cnCodes": {
                 "code": [
                     {
@@ -155,7 +155,7 @@
                 "identifier": "LOAN_LIBRARIES",
                 "description": "Supply, including on loan by libraries, of books, newspapers and periodicals either on physical means of support …"
             },
-            "comment": "The Zero Rate applies to newspapers, printed books, atlases, annual publications, children’s picture, colouring and music books. For a printed booklet to qualify for the zero rating, it must consist of essentially pictorial or textual matter, must have a distinctive front cover devoid of body text, must be no less than eight pages (excluding the cover) and must be bound, stitched or stapled."
+            "comment": "The Zero Rate applies to newspapers, printed books, e-books, audiobooks, atlases, annual publications, children’s picture, colouring and music books. For a printed booklet to qualify for the zero rating, it must consist of essentially pictorial or textual matter, must have a distinctive front cover devoid of body text, must be no less than eight pages (excluding the cover) and must be bound, stitched or stapled."
         },
         {
             "memberState": "IE",
@@ -164,7 +164,7 @@
                 "type": "EXEMPTED",
                 "value": 0
             },
-            "situationOn": "2023-07-01+02:00",
+            "situationOn": "2024-01-01+01:00",
             "cnCodes": {
                 "code": [
                     {
@@ -187,10 +187,30 @@
             "memberState": "IE",
             "type": "REDUCED",
             "rate": {
+                "type": "EXEMPTED",
+                "value": 0
+            },
+            "situationOn": "2024-01-01+01:00",
+            "cnCodes": {
+                "code": {
+                    "value": "8541 43 00",
+                    "description": "Photovoltaic cells assembled in modules or made up into panels"
+                }
+            },
+            "category": {
+                "identifier": "SOLAR_PANELS",
+                "description": "Supply and installation of solar panels on and adjacent to private dwellings, housing and public and other buildings used for activities in the public interest"
+            },
+            "comment": "Zero rate of VAT applies to the supply and installation of solar panels in private dwellings (from 1 May 2023); and to primary and secondary schools from 1 January 2024."
+        },
+        {
+            "memberState": "IE",
+            "type": "REDUCED",
+            "rate": {
                 "type": "NOT_APPLICABLE",
                 "value": 0
             },
-            "situationOn": "2023-07-01+02:00",
+            "situationOn": "2024-01-01+01:00",
             "cpaCodes": {
                 "code": {
                     "value": "86.90.19",
@@ -209,7 +229,7 @@
                 "type": "NOT_APPLICABLE",
                 "value": 0
             },
-            "situationOn": "2023-07-01+02:00",
+            "situationOn": "2024-01-01+01:00",
             "cpaCodes": {
                 "code": [
                     {
@@ -234,7 +254,7 @@
                 "type": "NOT_APPLICABLE",
                 "value": 0
             },
-            "situationOn": "2023-07-01+02:00",
+            "situationOn": "2024-01-01+01:00",
             "cpaCodes": {
                 "code": {
                     "value": "95.29.11",
@@ -253,57 +273,7 @@
                 "type": "REDUCED_RATE",
                 "value": 9
             },
-            "situationOn": "2023-07-01+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "1905",
-                        "description": "Bread, pastry, cakes, biscuits and other bakers' wares, whether or not containing cocoa; communion wafers, empty cachets of a kind suitable for pharmaceutical use, sealing wafers, rice paper and similar products"
-                    },
-                    {
-                        "value": "1905 31",
-                        "description": "Sweet biscuits"
-                    },
-                    {
-                        "value": "1905 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "2106",
-                        "description": "Food preparations not elsewhere specified or included"
-                    }
-                ]
-            },
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "56.10",
-                        "description": "Restaurant and mobile food serving services"
-                    },
-                    {
-                        "value": "56.10.1",
-                        "description": "Restaurant and mobile food serving services"
-                    },
-                    {
-                        "value": "56.29",
-                        "description": "Other food serving services"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "FOODSTUFFS",
-                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and …"
-            },
-            "comment": "Restaurant food, food served in canteens, and take away food is subject to the reduced rate of VAT of 9%."
-        },
-        {
-            "memberState": "IE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 9
-            },
-            "situationOn": "2023-07-01+02:00",
+            "situationOn": "2024-01-01+01:00",
             "cnCodes": {
                 "code": [
                     {
@@ -350,7 +320,7 @@
                 "identifier": "LOAN_LIBRARIES",
                 "description": "Supply, including on loan by libraries, of books, newspapers and periodicals either on physical means of support …"
             },
-            "comment": "9% applies to brochures, leaflets, programmes, catalogues, directories, maps, hydrographic and similar charts, and printed music- other than in book or booklet form; excluding matter devoted to advertising. The rate for these items has been temporarily reduced from 13.5% to 9% from 1 November 2020 to 31 August 2023."
+            "comment": "9% applies to brochures, leaflets, programmes, catalogues, directories, maps, hydrographic and similar charts, and printed music- other than in book or booklet form; excluding matter devoted to advertising. The rate for these items was temporarily reduced from 13.5% to 9% from 1 November 2020 to 31 August 2023."
         },
         {
             "memberState": "IE",
@@ -359,7 +329,7 @@
                 "type": "REDUCED_RATE",
                 "value": 9
             },
-            "situationOn": "2023-07-01+02:00",
+            "situationOn": "2024-01-01+01:00",
             "cnCodes": {
                 "code": {
                     "value": "4902",
@@ -379,7 +349,7 @@
                 "type": "REDUCED_RATE",
                 "value": 9
             },
-            "situationOn": "2023-07-01+02:00",
+            "situationOn": "2024-01-01+01:00",
             "cpaCodes": {
                 "code": [
                     {
@@ -396,7 +366,7 @@
                 "identifier": "ACCOMMODATION",
                 "description": "Accommodation provided in hotels and similar establishments, including the provision of holiday accommodation and the letting of places on camping or caravan sites"
             },
-            "comment": "The rate for these items has been temporarily reduced from 13.5% to 9% from 1 November 2020 to 31 August 2023"
+            "comment": "The rate for these items was temporarily reduced from 13.5% to 9% from 1 November 2020 to 31 August 2023"
         },
         {
             "memberState": "IE",
@@ -405,7 +375,7 @@
                 "type": "REDUCED_RATE",
                 "value": 9
             },
-            "situationOn": "2023-07-01+02:00",
+            "situationOn": "2024-01-01+01:00",
             "cpaCodes": {
                 "code": [
                     {
@@ -439,7 +409,7 @@
                 "type": "REDUCED_RATE",
                 "value": 9
             },
-            "situationOn": "2023-07-01+02:00",
+            "situationOn": "2024-01-01+01:00",
             "cpaCodes": {
                 "code": [
                     {
@@ -456,7 +426,7 @@
                 "identifier": "CULTURAL_EVENTS",
                 "description": "Admission to shows, theatres, circuses, fairs, amusement parks, concerts, museums, zoos, cinemas, exhibitions and similar cultural events and facilities"
             },
-            "comment": "The rate for these items has been temporarily reduced from 13.5% to 9% from 1 November 2020 to 31 August  2023."
+            "comment": "The rate for these items was temporarily reduced from 13.5% to 9% from 1 November 2020 to 31 August 2023."
         },
         {
             "memberState": "IE",
@@ -465,7 +435,7 @@
                 "type": "REDUCED_RATE",
                 "value": 9
             },
-            "situationOn": "2023-07-01+02:00",
+            "situationOn": "2024-01-01+01:00",
             "cpaCodes": {
                 "code": [
                     {
@@ -482,7 +452,7 @@
                 "identifier": "HAIRDRESSING",
                 "description": "Hairdressing"
             },
-            "comment": "The rate for these items has been temporarily reduced from 13.5% to 9% from 1 November 2020 to 31 August  2023."
+            "comment": "The rate for these items was temporarily reduced from 13.5% to 9% from 1 November 2020 to 31 August  2023."
         },
         {
             "memberState": "IE",
@@ -491,7 +461,57 @@
                 "type": "REDUCED_RATE",
                 "value": 13.5
             },
-            "situationOn": "2023-07-01+02:00",
+            "situationOn": "2024-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "1905",
+                        "description": "Bread, pastry, cakes, biscuits and other bakers' wares, whether or not containing cocoa; communion wafers, empty cachets of a kind suitable for pharmaceutical use, sealing wafers, rice paper and similar products"
+                    },
+                    {
+                        "value": "1905 31",
+                        "description": "Sweet biscuits"
+                    },
+                    {
+                        "value": "1905 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "2106",
+                        "description": "Food preparations not elsewhere specified or included"
+                    }
+                ]
+            },
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "56.10",
+                        "description": "Restaurant and mobile food serving services"
+                    },
+                    {
+                        "value": "56.10.1",
+                        "description": "Restaurant and mobile food serving services"
+                    },
+                    {
+                        "value": "56.29",
+                        "description": "Other food serving services"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "FOODSTUFFS",
+                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and …"
+            },
+            "comment": "Restaurant food, food served in canteens, and take away food is subject to the reduced rate of VAT of 13.5%."
+        },
+        {
+            "memberState": "IE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 13.5
+            },
+            "situationOn": "2024-01-01+01:00",
             "cnCodes": {
                 "code": [
                     {
@@ -517,7 +537,7 @@
                 "type": "REDUCED_RATE",
                 "value": 13.5
             },
-            "situationOn": "2023-07-01+02:00",
+            "situationOn": "2024-01-01+01:00",
             "cnCodes": {
                 "code": {
                     "value": "4911 91 00",
@@ -536,7 +556,7 @@
                 "type": "REDUCED_RATE",
                 "value": 13.5
             },
-            "situationOn": "2023-07-01+02:00",
+            "situationOn": "2024-01-01+01:00",
             "cnCodes": {
                 "code": [
                     {
@@ -561,7 +581,7 @@
                 "type": "REDUCED_RATE",
                 "value": 13.5
             },
-            "situationOn": "2023-07-01+02:00",
+            "situationOn": "2024-01-01+01:00",
             "cnCodes": {
                 "code": [
                     {
@@ -586,7 +606,7 @@
                 "type": "REDUCED_RATE",
                 "value": 13.5
             },
-            "situationOn": "2023-07-01+02:00",
+            "situationOn": "2024-01-01+01:00",
             "cnCodes": {
                 "code": {
                     "value": "8201",
@@ -625,7 +645,7 @@
                 "type": "REDUCED_RATE",
                 "value": 13.5
             },
-            "situationOn": "2023-07-01+02:00",
+            "situationOn": "2024-01-01+01:00",
             "cnCodes": {
                 "code": {
                     "value": "9401 20 00",
@@ -657,7 +677,7 @@
                 "type": "REDUCED_RATE",
                 "value": 13.5
             },
-            "situationOn": "2023-07-01+02:00",
+            "situationOn": "2024-01-01+01:00",
             "cnCodes": {
                 "code": {
                     "value": "9701",
@@ -676,7 +696,7 @@
                 "type": "REDUCED_RATE",
                 "value": 13.5
             },
-            "situationOn": "2023-07-01+02:00",
+            "situationOn": "2024-01-01+01:00",
             "cnCodes": {
                 "code": {
                     "value": "9702 00 00",
@@ -695,7 +715,7 @@
                 "type": "REDUCED_RATE",
                 "value": 13.5
             },
-            "situationOn": "2023-07-01+02:00",
+            "situationOn": "2024-01-01+01:00",
             "cnCodes": {
                 "code": {
                     "value": "9703 00 00",
@@ -714,7 +734,7 @@
                 "type": "REDUCED_RATE",
                 "value": 13.5
             },
-            "situationOn": "2023-07-01+02:00",
+            "situationOn": "2024-01-01+01:00",
             "cnCodes": {
                 "code": {
                     "value": "9703 00 00",
@@ -733,7 +753,7 @@
                 "type": "REDUCED_RATE",
                 "value": 13.5
             },
-            "situationOn": "2023-07-01+02:00",
+            "situationOn": "2024-01-01+01:00",
             "cnCodes": {
                 "code": {
                     "value": "9703 00 00",
@@ -752,7 +772,7 @@
                 "type": "REDUCED_RATE",
                 "value": 13.5
             },
-            "situationOn": "2023-07-01+02:00",
+            "situationOn": "2024-01-01+01:00",
             "cnCodes": {
                 "code": {
                     "value": "9706 00 00",
@@ -771,7 +791,7 @@
                 "type": "REDUCED_RATE",
                 "value": 13.5
             },
-            "situationOn": "2023-07-01+02:00",
+            "situationOn": "2024-01-01+01:00",
             "cpaCodes": {
                 "code": [
                     {
@@ -796,7 +816,7 @@
                 "type": "REDUCED_RATE",
                 "value": 13.5
             },
-            "situationOn": "2023-07-01+02:00",
+            "situationOn": "2024-01-01+01:00",
             "cpaCodes": {
                 "code": [
                     {
@@ -821,7 +841,7 @@
                 "type": "REDUCED_RATE",
                 "value": 13.5
             },
-            "situationOn": "2023-07-01+02:00",
+            "situationOn": "2024-01-01+01:00",
             "cpaCodes": {
                 "code": [
                     {
@@ -846,7 +866,7 @@
                 "type": "REDUCED_RATE",
                 "value": 13.5
             },
-            "situationOn": "2023-07-01+02:00",
+            "situationOn": "2024-01-01+01:00",
             "cpaCodes": {
                 "code": {
                     "value": "84.12.13",
@@ -866,7 +886,7 @@
                 "type": "DEFAULT",
                 "value": 23
             },
-            "situationOn": "2023-07-01+02:00",
+            "situationOn": "2024-01-01+01:00",
             "comment": "<p>The Standard Rate of VAT was temporarily reduced from 23% to 21% from 1 September 2020 to 28 February 2021. It has been restored to 23% from 1 March 2021.<\/p>"
         }
     ]
