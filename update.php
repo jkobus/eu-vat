@@ -53,6 +53,7 @@ foreach ($countries as $country) {
         }
 
         file_put_contents(__DIR__ . '/data/' . $country . '.json', json_encode($response, JSON_PRETTY_PRINT|JSON_UNESCAPED_UNICODE));
+        echo 'Updated ' . $country . PHP_EOL;
 
     } catch (\Throwable $e) {
         echo 'Failed during update of ' . $country . PHP_EOL;
@@ -62,6 +63,8 @@ foreach ($countries as $country) {
 
 ksort($cnCodes);
 file_put_contents(__DIR__ . '/data/cnCodes.json', json_encode($cnCodes, JSON_PRETTY_PRINT|JSON_UNESCAPED_UNICODE));
+
+echo 'Done' . PHP_EOL;
 
 function stripNbsp(string $text): string {
     return str_replace("\xc2\xa0", ' ', $text);
