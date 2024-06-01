@@ -12,6 +12,36 @@
             "cnCodes": {
                 "code": [
                     {
+                        "value": "3822 00 00",
+                        "description": "Diagnostic or laboratory reagents on a backing, prepared diagnostic or laboratory reagents whether or not on a backing, other than those of heading 3002 or 3006; certified reference materials"
+                    },
+                    {
+                        "value": "8517",
+                        "description": "Telephone sets, including smartphones and other telephones for cellular networks or for other wireless networks; other apparatus for the transmission or reception of voice, images or other data, including apparatus for communication in a wired or wireless network (such as a local or wide area network), other than transmission or reception apparatus of heading 8443, 8525, 8527 or 8528"
+                    },
+                    {
+                        "value": "8531",
+                        "description": "Electric sound or visual signalling apparatus (for example, bells, sirens, indicator panels, burglar or fire alarms), other than those of heading 8512 or 8530"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "MEDICAL_EQUIPMENT",
+                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
+            },
+            "comment": "For tariff headings of goods intended for the service of persons with disabilities needs, the reduced rate applies only on sugar measuring tapes (3822),luminous system alarm (8531), light signal receiver (8517)"
+        },
+        {
+            "memberState": "EL",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 6
+            },
+            "situationOn": "2024-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
                         "value": "4901",
                         "description": "Printed books, brochures, leaflets and similar printed matter, whether or not in single sheets"
                     },
@@ -130,36 +160,6 @@
                 "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
             },
             "comment": "For tariff headings of goods intended to service people with vision disabilities the reduced rate applies only on white sticks (6602) Braille typewriters  (8472), on computer programs (jaws, supernova, hall, loudspeaker, fine reader, cellphone programs in Greek and foreign version-mobile speak, speaking phone) (8523), on  Braille printers (8443)  writing frames for people with reduced abilities vision (Braille) (3926)"
-        },
-        {
-            "memberState": "EL",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 6
-            },
-            "situationOn": "2024-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "3822 00 00",
-                        "description": "Diagnostic or laboratory reagents on a backing, prepared diagnostic or laboratory reagents whether or not on a backing, other than those of heading 3002 or 3006; certified reference materials"
-                    },
-                    {
-                        "value": "8517",
-                        "description": "Telephone sets, including smartphones and other telephones for cellular networks or for other wireless networks; other apparatus for the transmission or reception of voice, images or other data, including apparatus for communication in a wired or wireless network (such as a local or wide area network), other than transmission or reception apparatus of heading 8443, 8525, 8527 or 8528"
-                    },
-                    {
-                        "value": "8531",
-                        "description": "Electric sound or visual signalling apparatus (for example, bells, sirens, indicator panels, burglar or fire alarms), other than those of heading 8512 or 8530"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "MEDICAL_EQUIPMENT",
-                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
-            },
-            "comment": "For tariff headings of goods intended for the service of persons with disabilities needs, the reduced rate applies only on sugar measuring tapes (3822),luminous system alarm (8531), light signal receiver (8517)"
         },
         {
             "memberState": "EL",
@@ -1405,40 +1405,6 @@
             "cnCodes": {
                 "code": [
                     {
-                        "value": "2836",
-                        "description": "Carbonates; peroxocarbonates (percarbonates); commercial ammonium carbonate containing ammonium carbamate"
-                    },
-                    {
-                        "value": "3926",
-                        "description": "Other articles of plastics and articles of other materials of headings 3901 to 3914"
-                    },
-                    {
-                        "value": "8108",
-                        "description": "Titanium and articles thereof, including waste and scrap"
-                    },
-                    {
-                        "value": "9018",
-                        "description": "Instruments and appliances used in medical, surgical, dental or veterinary sciences, including scintigraphic apparatus, other electromedical apparatus and sight-testing instruments"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "MEDICAL_EQUIPMENT",
-                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
-            },
-            "comment": "•For tariff headings of goods intended for the service of persons with disabilities needs, the reduced rate applies only on filter bags for liquid filtration collection (3926),Y connectors, venipuncture kit during dialysis (9018), bicarbonate cartridges (2836), titanium binder (9018, 8108)"
-        },
-        {
-            "memberState": "EL",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 13
-            },
-            "situationOn": "2024-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
                         "value": "6211",
                         "description": "Tracksuits, ski suits and swimwear; other garments"
                     },
@@ -1477,6 +1443,40 @@
                 "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
             },
             "comment": "•For tariff heading 8428, reduced rate applies only on special lifting equipment (stairs, lifts, machinery up and down disabled and the like), used for service for the disabled\n•For tariff heading 8714, reduced rate applies only on wheelchair spare parts and back"
+        },
+        {
+            "memberState": "EL",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 13
+            },
+            "situationOn": "2024-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "2836",
+                        "description": "Carbonates; peroxocarbonates (percarbonates); commercial ammonium carbonate containing ammonium carbamate"
+                    },
+                    {
+                        "value": "3926",
+                        "description": "Other articles of plastics and articles of other materials of headings 3901 to 3914"
+                    },
+                    {
+                        "value": "8108",
+                        "description": "Titanium and articles thereof, including waste and scrap"
+                    },
+                    {
+                        "value": "9018",
+                        "description": "Instruments and appliances used in medical, surgical, dental or veterinary sciences, including scintigraphic apparatus, other electromedical apparatus and sight-testing instruments"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "MEDICAL_EQUIPMENT",
+                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
+            },
+            "comment": "•For tariff headings of goods intended for the service of persons with disabilities needs, the reduced rate applies only on filter bags for liquid filtration collection (3926),Y connectors, venipuncture kit during dialysis (9018), bicarbonate cartridges (2836), titanium binder (9018, 8108)"
         },
         {
             "memberState": "EL",
@@ -1715,6 +1715,36 @@
                 "description": "Collections and collector’s pieces of zoological, botanical, mineralogical, ethnographic or numismatic interest (CN code 9705 00 00)"
             },
             "comment": "Reduced rate applies on tariff heading 9705 for import of art objects, collections or antiquities and delivery of objects of artistic value provided by their creator or successors"
+        },
+        {
+            "memberState": "EL",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 13
+            },
+            "situationOn": "2024-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "0603",
+                        "description": "Cut flowers and flower buds of a kind suitable for bouquets or for ornamental purposes, fresh, dried, dyed, bleached, impregnated or otherwise prepared"
+                    },
+                    {
+                        "value": "0604",
+                        "description": "Foliage, branches and other parts of plants, without flowers or flower buds, and grasses, mosses and lichens, being goods of a kind suitable for bouquets or for ornamental purposes, fresh, dried, dyed, bleached, impregnated or otherwise prepared"
+                    },
+                    {
+                        "value": "1108",
+                        "description": "Starches; inulin"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "FOODSTUFFS",
+                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and …"
+            },
+            "comment": "•For tariff heading 0603,0604, reduced rate applies only on flowers and flower buds,  and other parts of plants, without flowers nor flower buds, and greenery, moss and lichens, for bouquets or decorations, fresh.\n•For tariff heading 1108, reduced rate applies only on flour milling products, starches of all kinds."
         },
         {
             "memberState": "EL",
@@ -1970,36 +2000,6 @@
                 "description": "Supply of goods and services by organisations recognised as being devoted to social wellbeing by Member States and engaged in welfare …"
             },
             "comment": "The supply of services by old people’s homes etc in the framework of social wellbeing, in so far as they are not exempt pursuant to Article 22 of the Greek VAT Code"
-        },
-        {
-            "memberState": "EL",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 13
-            },
-            "situationOn": "2024-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "0603",
-                        "description": "Cut flowers and flower buds of a kind suitable for bouquets or for ornamental purposes, fresh, dried, dyed, bleached, impregnated or otherwise prepared"
-                    },
-                    {
-                        "value": "0604",
-                        "description": "Foliage, branches and other parts of plants, without flowers or flower buds, and grasses, mosses and lichens, being goods of a kind suitable for bouquets or for ornamental purposes, fresh, dried, dyed, bleached, impregnated or otherwise prepared"
-                    },
-                    {
-                        "value": "1108",
-                        "description": "Starches; inulin"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "FOODSTUFFS",
-                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and …"
-            },
-            "comment": "•For tariff heading 0603,0604, reduced rate applies only on flowers and flower buds,  and other parts of plants, without flowers nor flower buds, and greenery, moss and lichens, for bouquets or decorations, fresh.\n•For tariff heading 1108, reduced rate applies only on flour milling products, starches of all kinds."
         },
         {
             "memberState": "EL",

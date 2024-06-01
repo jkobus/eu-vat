@@ -631,6 +631,25 @@
             "memberState": "AT",
             "type": "REDUCED",
             "rate": {
+                "type": "REDUCED_RATE",
+                "value": 10
+            },
+            "situationOn": "2024-01-01+01:00",
+            "cnCodes": {
+                "code": {
+                    "value": "2201 90 00",
+                    "description": "Other"
+                }
+            },
+            "category": {
+                "identifier": "SUPPLY_WATER",
+                "description": "Supply of water"
+            }
+        },
+        {
+            "memberState": "AT",
+            "type": "REDUCED",
+            "rate": {
                 "type": "EXEMPTED",
                 "value": 0
             },
@@ -1383,25 +1402,6 @@
                 "value": 20
             },
             "situationOn": "2024-01-01+01:00"
-        },
-        {
-            "memberState": "AT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 10
-            },
-            "situationOn": "2024-01-01+01:00",
-            "cnCodes": {
-                "code": {
-                    "value": "2201 90 00",
-                    "description": "Other"
-                }
-            },
-            "category": {
-                "identifier": "SUPPLY_WATER",
-                "description": "Supply of water"
-            }
         }
     ]
 }
