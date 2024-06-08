@@ -353,7 +353,7 @@
                 "identifier": "FOODSTUFFS",
                 "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and …"
             },
-            "comment": "VAT - Import - Annex 2 of the German VAT Act contains a list of goods falling under the reduced rate of 7% such as live animals, meat, milk and so on (https:\/\/usth.bundesfinanzministerium.de\/usth\/2019-2020\/A-Umsatzsteuergesetz\/IV-Steuer-und-Vorsteuer\/Paragraf-12\/inhalt.html). For legal certainty please have a look at the German VAT Act."
+            "comment": "Annex 2 of the German VAT Act contains a list of goods falling under the reduced rate of 7% such as live animals, meat, milk and so on (https:\/\/usth.bundesfinanzministerium.de\/usth\/2019-2020\/A-Umsatzsteuergesetz\/IV-Steuer-und-Vorsteuer\/Paragraf-12\/inhalt.html). For legal certainty please have a look at the German VAT Act."
         },
         {
             "memberState": "DE",
@@ -707,7 +707,7 @@
                 "identifier": "FOODSTUFFS",
                 "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and …"
             },
-            "comment": "Annex 2 of the German VAT Act contains a list of goods falling under the reduced rate of 7% such as live animals, meat, milk and so on (https:\/\/usth.bundesfinanzministerium.de\/usth\/2019-2020\/A-Umsatzsteuergesetz\/IV-Steuer-und-Vorsteuer\/Paragraf-12\/inhalt.html). For legal certainty please have a look at the German VAT Act."
+            "comment": "VAT - Import - Annex 2 of the German VAT Act contains a list of goods falling under the reduced rate of 7% such as live animals, meat, milk and so on (https:\/\/usth.bundesfinanzministerium.de\/usth\/2019-2020\/A-Umsatzsteuergesetz\/IV-Steuer-und-Vorsteuer\/Paragraf-12\/inhalt.html). For legal certainty please have a look at the German VAT Act."
         },
         {
             "memberState": "DE",
@@ -818,104 +818,16 @@
             },
             "situationOn": "2024-01-01+01:00",
             "cnCodes": {
-                "code": [
-                    {
-                        "value": "8713",
-                        "description": "Carriages for disabled persons, whether or not motorised or otherwise mechanically propelled"
-                    },
-                    {
-                        "value": "9021 10",
-                        "description": "Orthopaedic or fracture appliances"
-                    },
-                    {
-                        "value": "9021 21",
-                        "description": "Artificial teeth"
-                    },
-                    {
-                        "value": "9021 29 00",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "9021 31 00",
-                        "description": "Artificial joints"
-                    },
-                    {
-                        "value": "9021 39",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "9021 40 00",
-                        "description": "Hearing aids, excluding parts and accessories"
-                    },
-                    {
-                        "value": "9021 50 00",
-                        "description": "Pacemakers for stimulating heart muscles, excluding parts and accessories"
-                    },
-                    {
-                        "value": "9021 90",
-                        "description": "Other"
-                    }
-                ]
+                "code": {
+                    "value": "2201 90 00",
+                    "description": "Other"
+                }
             },
             "category": {
-                "identifier": "MEDICAL_EQUIPMENT",
-                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
+                "identifier": "SUPPLY_WATER",
+                "description": "Supply of water"
             },
-            "comment": "VAT - Import - Annex 2 of the German VAT Act contains a list of goods falling under the reduced rate of 7% such as wheelchairs, orthopaedic appliances, human body replacement parts and so on (https:\/\/usth.bundesfinanzministerium.de\/usth\/2019-2020\/A-Umsatzsteuergesetz\/IV-Steuer-und-Vorsteuer\/Paragraf-12\/inhalt.html). For legal certainty please have a look at the German VAT Act."
-        },
-        {
-            "memberState": "DE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 7
-            },
-            "situationOn": "2024-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "8713",
-                        "description": "Carriages for disabled persons, whether or not motorised or otherwise mechanically propelled"
-                    },
-                    {
-                        "value": "9021 10",
-                        "description": "Orthopaedic or fracture appliances"
-                    },
-                    {
-                        "value": "9021 21",
-                        "description": "Artificial teeth"
-                    },
-                    {
-                        "value": "9021 29 00",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "9021 31 00",
-                        "description": "Artificial joints"
-                    },
-                    {
-                        "value": "9021 39",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "9021 40 00",
-                        "description": "Hearing aids, excluding parts and accessories"
-                    },
-                    {
-                        "value": "9021 50 00",
-                        "description": "Pacemakers for stimulating heart muscles, excluding parts and accessories"
-                    },
-                    {
-                        "value": "9021 90",
-                        "description": "Other"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "MEDICAL_EQUIPMENT",
-                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
-            },
-            "comment": "Annex 2 of the German VAT Act contains a list of goods falling under the reduced rate of 7% such as wheelchairs, orthopaedic appliances, human body replacement parts and so on (https:\/\/usth.bundesfinanzministerium.de\/usth\/2019-2020\/A-Umsatzsteuergesetz\/IV-Steuer-und-Vorsteuer\/Paragraf-12\/inhalt.html). For legal certainty please have a look at the German VAT Act."
+            "comment": "No reduced rate for bottled water, healing water and steam"
         },
         {
             "memberState": "DE",
@@ -927,155 +839,15 @@
             "situationOn": "2024-01-01+01:00",
             "cnCodes": {
                 "code": {
-                    "value": "9701",
-                    "description": "Paintings, drawings and pastels, executed entirely by hand, other than drawings of heading 4906 and other than hand-painted or hand-decorated manufactured articles; collages, mosaics and similar decorative plaques"
+                    "value": "2201 90 00",
+                    "description": "Other"
                 }
             },
             "category": {
-                "identifier": "PICTURES",
-                "description": "Pictures, collages and similar decorative plaques, paintings and drawings, executed entirely by hand by the artist…"
+                "identifier": "SUPPLY_WATER",
+                "description": "Supply of water"
             },
-            "comment": "Reduced rate generally only applicable to works of arts imported to the EU (Section 12(2) No 13 of the German VAT Act contains further requirements for the application of the reduced rate for intra-community acquisitions of works of art."
-        },
-        {
-            "memberState": "DE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 7
-            },
-            "situationOn": "2024-01-01+01:00",
-            "cnCodes": {
-                "code": {
-                    "value": "9701",
-                    "description": "Paintings, drawings and pastels, executed entirely by hand, other than drawings of heading 4906 and other than hand-painted or hand-decorated manufactured articles; collages, mosaics and similar decorative plaques"
-                }
-            },
-            "category": {
-                "identifier": "PICTURES",
-                "description": "Pictures, collages and similar decorative plaques, paintings and drawings, executed entirely by hand by the artist…"
-            },
-            "comment": "VAT - Import - "
-        },
-        {
-            "memberState": "DE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 7
-            },
-            "situationOn": "2024-01-01+01:00",
-            "cnCodes": {
-                "code": {
-                    "value": "9702 00 00",
-                    "description": "Original engravings, prints and lithographs"
-                }
-            },
-            "category": {
-                "identifier": "IMPRESSIONS",
-                "description": "Original engravings, prints and lithographs, being impressions produced in the limited numbers directly in black and white…"
-            },
-            "comment": "Reduced rate generally only applicable to works of arts imported to the EU (Section 12(2) No 13 of the German VAT Act contains further requirements for the application of the reduced rate for intra-community acquisitions of works of art."
-        },
-        {
-            "memberState": "DE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 7
-            },
-            "situationOn": "2024-01-01+01:00",
-            "cnCodes": {
-                "code": {
-                    "value": "9702 00 00",
-                    "description": "Original engravings, prints and lithographs"
-                }
-            },
-            "category": {
-                "identifier": "IMPRESSIONS",
-                "description": "Original engravings, prints and lithographs, being impressions produced in the limited numbers directly in black and white…"
-            },
-            "comment": "VAT - Import - "
-        },
-        {
-            "memberState": "DE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 7
-            },
-            "situationOn": "2024-01-01+01:00",
-            "cnCodes": {
-                "code": {
-                    "value": "9703 00 00",
-                    "description": "Original sculptures and statuary, in any material"
-                }
-            },
-            "category": {
-                "identifier": "SCULPTURES",
-                "description": "Original sculptures and statuary, in any material, provided that they are executed entirely by the artists"
-            },
-            "comment": "Reduced rate generally only applicable to works of arts imported to the EU (Section 12(2) No 13 of the German VAT Act contains further requirements for the application of the reduced rate for intra-community acquisitions of works of art."
-        },
-        {
-            "memberState": "DE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 7
-            },
-            "situationOn": "2024-01-01+01:00",
-            "cnCodes": {
-                "code": {
-                    "value": "9703 00 00",
-                    "description": "Original sculptures and statuary, in any material"
-                }
-            },
-            "category": {
-                "identifier": "SCULPTURE_CASTS",
-                "description": "Sculpture casts the production of which is limited to eight copies and supervised by the artist or his successors in title…"
-            },
-            "comment": "Reduced rate generally only applicable to works of arts imported to the EU (Section 12(2) No 13 of the German VAT Act contains further requirements for the application of the reduced rate for intra-community acquisitions of works of art."
-        },
-        {
-            "memberState": "DE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 7
-            },
-            "situationOn": "2024-01-01+01:00",
-            "cnCodes": {
-                "code": {
-                    "value": "9703 00 00",
-                    "description": "Original sculptures and statuary, in any material"
-                }
-            },
-            "category": {
-                "identifier": "SCULPTURES",
-                "description": "Original sculptures and statuary, in any material, provided that they are executed entirely by the artists"
-            },
-            "comment": "VAT - Import - "
-        },
-        {
-            "memberState": "DE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 7
-            },
-            "situationOn": "2024-01-01+01:00",
-            "cnCodes": {
-                "code": {
-                    "value": "9703 00 00",
-                    "description": "Original sculptures and statuary, in any material"
-                }
-            },
-            "category": {
-                "identifier": "SCULPTURE_CASTS",
-                "description": "Sculpture casts the production of which is limited to eight copies and supervised by the artist or his successors in title…"
-            },
-            "comment": "VAT - Import - "
+            "comment": "VAT - Import - No reduced rate for bottled water, healing water and steam"
         },
         {
             "memberState": "DE",
@@ -1170,6 +942,86 @@
             },
             "situationOn": "2024-01-01+01:00",
             "cnCodes": {
+                "code": {
+                    "value": "4902",
+                    "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
+                }
+            },
+            "category": {
+                "identifier": "NEWSPAPERS",
+                "description": "Newspapers"
+            },
+            "comment": "Annex 2 of the German VAT Act contains a list of goods falling under the reduced rate of 7% e.g. excluding newspapers whose content is harmful to minors or is predominantly devoted to advertising (https:\/\/usth.bundesfinanzministerium.de\/usth\/2019-2020\/A-Umsatzsteuergesetz\/IV-Steuer-und-Vorsteuer\/Paragraf-12\/inhalt.html). For legal certainty please have a look at the German VAT Act."
+        },
+        {
+            "memberState": "DE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 7
+            },
+            "situationOn": "2024-01-01+01:00",
+            "cnCodes": {
+                "code": {
+                    "value": "4902",
+                    "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
+                }
+            },
+            "category": {
+                "identifier": "PERIODICALS",
+                "description": "Periodicals"
+            },
+            "comment": "Annex 2 of the German VAT Act contains a list of goods falling under the reduced rate of 7% e.g. excluding periodicals whose content is harmful to minors or is predominantly devoted to advertising (https:\/\/usth.bundesfinanzministerium.de\/usth\/2019-2020\/A-Umsatzsteuergesetz\/IV-Steuer-und-Vorsteuer\/Paragraf-12\/inhalt.html). For legal certainty please have a look at the German VAT Act."
+        },
+        {
+            "memberState": "DE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 7
+            },
+            "situationOn": "2024-01-01+01:00",
+            "cnCodes": {
+                "code": {
+                    "value": "4902",
+                    "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
+                }
+            },
+            "category": {
+                "identifier": "NEWSPAPERS",
+                "description": "Newspapers"
+            },
+            "comment": "VAT - Import - Annex 2 of the German VAT Act contains a list of goods falling under the reduced rate of 7% e.g. excluding newspapers whose content is harmful to minors or is predominantly devoted to advertising (https:\/\/usth.bundesfinanzministerium.de\/usth\/2019-2020\/A-Umsatzsteuergesetz\/IV-Steuer-und-Vorsteuer\/Paragraf-12\/inhalt.html). For legal certainty please have a look at the German VAT Act."
+        },
+        {
+            "memberState": "DE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 7
+            },
+            "situationOn": "2024-01-01+01:00",
+            "cnCodes": {
+                "code": {
+                    "value": "4902",
+                    "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
+                }
+            },
+            "category": {
+                "identifier": "PERIODICALS",
+                "description": "Periodicals"
+            },
+            "comment": "VAT - Import - Annex 2 of the German VAT Act contains a list of goods falling under the reduced rate of 7% e.g. excluding periodicals whose content is harmful to minors or is predominantly devoted to advertising (https:\/\/usth.bundesfinanzministerium.de\/usth\/2019-2020\/A-Umsatzsteuergesetz\/IV-Steuer-und-Vorsteuer\/Paragraf-12\/inhalt.html). For legal certainty please have a look at the German VAT Act."
+        },
+        {
+            "memberState": "DE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 7
+            },
+            "situationOn": "2024-01-01+01:00",
+            "cnCodes": {
                 "code": [
                     {
                         "value": "7118",
@@ -1188,6 +1040,274 @@
             "category": {
                 "identifier": "ZOOLOGICAL",
                 "description": "Collections and collector’s pieces of zoological, botanical, mineralogical, ethnographic or numismatic interest (CN code 9705 00 00)"
+            },
+            "comment": "VAT - Import - "
+        },
+        {
+            "memberState": "DE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 7
+            },
+            "situationOn": "2024-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "8713",
+                        "description": "Carriages for disabled persons, whether or not motorised or otherwise mechanically propelled"
+                    },
+                    {
+                        "value": "9021 10",
+                        "description": "Orthopaedic or fracture appliances"
+                    },
+                    {
+                        "value": "9021 21",
+                        "description": "Artificial teeth"
+                    },
+                    {
+                        "value": "9021 29 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "9021 31 00",
+                        "description": "Artificial joints"
+                    },
+                    {
+                        "value": "9021 39",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "9021 40 00",
+                        "description": "Hearing aids, excluding parts and accessories"
+                    },
+                    {
+                        "value": "9021 50 00",
+                        "description": "Pacemakers for stimulating heart muscles, excluding parts and accessories"
+                    },
+                    {
+                        "value": "9021 90",
+                        "description": "Other"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "MEDICAL_EQUIPMENT",
+                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
+            },
+            "comment": "Annex 2 of the German VAT Act contains a list of goods falling under the reduced rate of 7% such as wheelchairs, orthopaedic appliances, human body replacement parts and so on (https:\/\/usth.bundesfinanzministerium.de\/usth\/2019-2020\/A-Umsatzsteuergesetz\/IV-Steuer-und-Vorsteuer\/Paragraf-12\/inhalt.html). For legal certainty please have a look at the German VAT Act."
+        },
+        {
+            "memberState": "DE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 7
+            },
+            "situationOn": "2024-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "8713",
+                        "description": "Carriages for disabled persons, whether or not motorised or otherwise mechanically propelled"
+                    },
+                    {
+                        "value": "9021 10",
+                        "description": "Orthopaedic or fracture appliances"
+                    },
+                    {
+                        "value": "9021 21",
+                        "description": "Artificial teeth"
+                    },
+                    {
+                        "value": "9021 29 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "9021 31 00",
+                        "description": "Artificial joints"
+                    },
+                    {
+                        "value": "9021 39",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "9021 40 00",
+                        "description": "Hearing aids, excluding parts and accessories"
+                    },
+                    {
+                        "value": "9021 50 00",
+                        "description": "Pacemakers for stimulating heart muscles, excluding parts and accessories"
+                    },
+                    {
+                        "value": "9021 90",
+                        "description": "Other"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "MEDICAL_EQUIPMENT",
+                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
+            },
+            "comment": "VAT - Import - Annex 2 of the German VAT Act contains a list of goods falling under the reduced rate of 7% such as wheelchairs, orthopaedic appliances, human body replacement parts and so on (https:\/\/usth.bundesfinanzministerium.de\/usth\/2019-2020\/A-Umsatzsteuergesetz\/IV-Steuer-und-Vorsteuer\/Paragraf-12\/inhalt.html). For legal certainty please have a look at the German VAT Act."
+        },
+        {
+            "memberState": "DE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 7
+            },
+            "situationOn": "2024-01-01+01:00",
+            "cnCodes": {
+                "code": {
+                    "value": "9701",
+                    "description": "Paintings, drawings and pastels, executed entirely by hand, other than drawings of heading 4906 and other than hand-painted or hand-decorated manufactured articles; collages, mosaics and similar decorative plaques"
+                }
+            },
+            "category": {
+                "identifier": "PICTURES",
+                "description": "Pictures, collages and similar decorative plaques, paintings and drawings, executed entirely by hand by the artist…"
+            },
+            "comment": "Reduced rate generally only applicable to works of arts imported to the EU (Section 12(2) No 13 of the German VAT Act contains further requirements for the application of the reduced rate for intra-community acquisitions of works of art."
+        },
+        {
+            "memberState": "DE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 7
+            },
+            "situationOn": "2024-01-01+01:00",
+            "cnCodes": {
+                "code": {
+                    "value": "9701",
+                    "description": "Paintings, drawings and pastels, executed entirely by hand, other than drawings of heading 4906 and other than hand-painted or hand-decorated manufactured articles; collages, mosaics and similar decorative plaques"
+                }
+            },
+            "category": {
+                "identifier": "PICTURES",
+                "description": "Pictures, collages and similar decorative plaques, paintings and drawings, executed entirely by hand by the artist…"
+            },
+            "comment": "VAT - Import - "
+        },
+        {
+            "memberState": "DE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 7
+            },
+            "situationOn": "2024-01-01+01:00",
+            "cnCodes": {
+                "code": {
+                    "value": "9702 00 00",
+                    "description": "Original engravings, prints and lithographs"
+                }
+            },
+            "category": {
+                "identifier": "IMPRESSIONS",
+                "description": "Original engravings, prints and lithographs, being impressions produced in the limited numbers directly in black and white…"
+            },
+            "comment": "Reduced rate generally only applicable to works of arts imported to the EU (Section 12(2) No 13 of the German VAT Act contains further requirements for the application of the reduced rate for intra-community acquisitions of works of art."
+        },
+        {
+            "memberState": "DE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 7
+            },
+            "situationOn": "2024-01-01+01:00",
+            "cnCodes": {
+                "code": {
+                    "value": "9702 00 00",
+                    "description": "Original engravings, prints and lithographs"
+                }
+            },
+            "category": {
+                "identifier": "IMPRESSIONS",
+                "description": "Original engravings, prints and lithographs, being impressions produced in the limited numbers directly in black and white…"
+            },
+            "comment": "VAT - Import - "
+        },
+        {
+            "memberState": "DE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 7
+            },
+            "situationOn": "2024-01-01+01:00",
+            "cnCodes": {
+                "code": {
+                    "value": "9703 00 00",
+                    "description": "Original sculptures and statuary, in any material"
+                }
+            },
+            "category": {
+                "identifier": "SCULPTURES",
+                "description": "Original sculptures and statuary, in any material, provided that they are executed entirely by the artists"
+            },
+            "comment": "Reduced rate generally only applicable to works of arts imported to the EU (Section 12(2) No 13 of the German VAT Act contains further requirements for the application of the reduced rate for intra-community acquisitions of works of art."
+        },
+        {
+            "memberState": "DE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 7
+            },
+            "situationOn": "2024-01-01+01:00",
+            "cnCodes": {
+                "code": {
+                    "value": "9703 00 00",
+                    "description": "Original sculptures and statuary, in any material"
+                }
+            },
+            "category": {
+                "identifier": "SCULPTURE_CASTS",
+                "description": "Sculpture casts the production of which is limited to eight copies and supervised by the artist or his successors in title…"
+            },
+            "comment": "Reduced rate generally only applicable to works of arts imported to the EU (Section 12(2) No 13 of the German VAT Act contains further requirements for the application of the reduced rate for intra-community acquisitions of works of art."
+        },
+        {
+            "memberState": "DE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 7
+            },
+            "situationOn": "2024-01-01+01:00",
+            "cnCodes": {
+                "code": {
+                    "value": "9703 00 00",
+                    "description": "Original sculptures and statuary, in any material"
+                }
+            },
+            "category": {
+                "identifier": "SCULPTURES",
+                "description": "Original sculptures and statuary, in any material, provided that they are executed entirely by the artists"
+            },
+            "comment": "VAT - Import - "
+        },
+        {
+            "memberState": "DE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 7
+            },
+            "situationOn": "2024-01-01+01:00",
+            "cnCodes": {
+                "code": {
+                    "value": "9703 00 00",
+                    "description": "Original sculptures and statuary, in any material"
+                }
+            },
+            "category": {
+                "identifier": "SCULPTURE_CASTS",
+                "description": "Sculpture casts the production of which is limited to eight copies and supervised by the artist or his successors in title…"
             },
             "comment": "VAT - Import - "
         },
@@ -1335,126 +1455,6 @@
                 "value": 19
             },
             "situationOn": "2024-01-01+01:00"
-        },
-        {
-            "memberState": "DE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 7
-            },
-            "situationOn": "2024-01-01+01:00",
-            "cnCodes": {
-                "code": {
-                    "value": "2201 90 00",
-                    "description": "Other"
-                }
-            },
-            "category": {
-                "identifier": "SUPPLY_WATER",
-                "description": "Supply of water"
-            },
-            "comment": "No reduced rate for bottled water, healing water and steam"
-        },
-        {
-            "memberState": "DE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 7
-            },
-            "situationOn": "2024-01-01+01:00",
-            "cnCodes": {
-                "code": {
-                    "value": "2201 90 00",
-                    "description": "Other"
-                }
-            },
-            "category": {
-                "identifier": "SUPPLY_WATER",
-                "description": "Supply of water"
-            },
-            "comment": "VAT - Import - No reduced rate for bottled water, healing water and steam"
-        },
-        {
-            "memberState": "DE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 7
-            },
-            "situationOn": "2024-01-01+01:00",
-            "cnCodes": {
-                "code": {
-                    "value": "4902",
-                    "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
-                }
-            },
-            "category": {
-                "identifier": "NEWSPAPERS",
-                "description": "Newspapers"
-            },
-            "comment": "Annex 2 of the German VAT Act contains a list of goods falling under the reduced rate of 7% e.g. excluding newspapers whose content is harmful to minors or is predominantly devoted to advertising (https:\/\/usth.bundesfinanzministerium.de\/usth\/2019-2020\/A-Umsatzsteuergesetz\/IV-Steuer-und-Vorsteuer\/Paragraf-12\/inhalt.html). For legal certainty please have a look at the German VAT Act."
-        },
-        {
-            "memberState": "DE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 7
-            },
-            "situationOn": "2024-01-01+01:00",
-            "cnCodes": {
-                "code": {
-                    "value": "4902",
-                    "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
-                }
-            },
-            "category": {
-                "identifier": "PERIODICALS",
-                "description": "Periodicals"
-            },
-            "comment": "Annex 2 of the German VAT Act contains a list of goods falling under the reduced rate of 7% e.g. excluding periodicals whose content is harmful to minors or is predominantly devoted to advertising (https:\/\/usth.bundesfinanzministerium.de\/usth\/2019-2020\/A-Umsatzsteuergesetz\/IV-Steuer-und-Vorsteuer\/Paragraf-12\/inhalt.html). For legal certainty please have a look at the German VAT Act."
-        },
-        {
-            "memberState": "DE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 7
-            },
-            "situationOn": "2024-01-01+01:00",
-            "cnCodes": {
-                "code": {
-                    "value": "4902",
-                    "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
-                }
-            },
-            "category": {
-                "identifier": "NEWSPAPERS",
-                "description": "Newspapers"
-            },
-            "comment": "VAT - Import - Annex 2 of the German VAT Act contains a list of goods falling under the reduced rate of 7% e.g. excluding newspapers whose content is harmful to minors or is predominantly devoted to advertising (https:\/\/usth.bundesfinanzministerium.de\/usth\/2019-2020\/A-Umsatzsteuergesetz\/IV-Steuer-und-Vorsteuer\/Paragraf-12\/inhalt.html). For legal certainty please have a look at the German VAT Act."
-        },
-        {
-            "memberState": "DE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 7
-            },
-            "situationOn": "2024-01-01+01:00",
-            "cnCodes": {
-                "code": {
-                    "value": "4902",
-                    "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
-                }
-            },
-            "category": {
-                "identifier": "PERIODICALS",
-                "description": "Periodicals"
-            },
-            "comment": "VAT - Import - Annex 2 of the German VAT Act contains a list of goods falling under the reduced rate of 7% e.g. excluding periodicals whose content is harmful to minors or is predominantly devoted to advertising (https:\/\/usth.bundesfinanzministerium.de\/usth\/2019-2020\/A-Umsatzsteuergesetz\/IV-Steuer-und-Vorsteuer\/Paragraf-12\/inhalt.html). For legal certainty please have a look at the German VAT Act."
         }
     ]
 }

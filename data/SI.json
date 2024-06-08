@@ -1032,98 +1032,72 @@
             "cnCodes": {
                 "code": [
                     {
-                        "value": "3214 10 10",
-                        "description": "Glaziers' putty, grafting putty, resin cements, caulking compounds and other mastics"
+                        "value": "0101",
+                        "description": "Live horses, asses, mules and hinnies"
                     },
                     {
-                        "value": "3506 10 00",
-                        "description": "Products suitable for use as glues or adhesives, put up for retail sale as glues or adhesives, not exceeding a net weight of 1 kg"
+                        "value": "0102",
+                        "description": "Live bovine animals"
                     },
                     {
-                        "value": "3923",
-                        "description": "Articles for the conveyance or packing of goods, of plastics; stoppers, lids, caps and other closures, of plastics"
+                        "value": "0103",
+                        "description": "Live swine"
                     },
                     {
-                        "value": "3926 90 97",
+                        "value": "0104",
+                        "description": "Live sheep and goats"
+                    },
+                    {
+                        "value": "0105",
+                        "description": "Live poultry, that is to say, fowls of the species Gallus domesticus, ducks, geese, turkeys and guinea fowls"
+                    },
+                    {
+                        "value": "0301",
+                        "description": "Live fish"
+                    },
+                    {
+                        "value": "0306",
+                        "description": "Crustaceans, whether in shell or not, live, fresh, chilled, frozen, dried, salted or in brine; smoked crustaceans, whether in shell or not, whether or not cooked before or during the smoking process; crustaceans, in shell, cooked by steaming or by boiling in water, whether or not chilled, frozen, dried, salted or in brine"
+                    },
+                    {
+                        "value": "0307",
+                        "description": "Molluscs, whether in shell or not, live, fresh, chilled, frozen, dried, salted or in brine; smoked molluscs, whether in shell or not, whether or not cooked before or during the smoking process"
+                    },
+                    {
+                        "value": "0407 11 00",
+                        "description": "Of fowls of the species Gallus domesticus"
+                    },
+                    {
+                        "value": "0407 19 11",
+                        "description": "Of turkeys or geese"
+                    },
+                    {
+                        "value": "0407 19 19",
                         "description": "Other"
                     },
                     {
-                        "value": "4803 00 90",
+                        "value": "0407 19 90",
                         "description": "Other"
                     },
                     {
-                        "value": "6108 21 00",
-                        "description": "Of cotton"
+                        "value": "0511 10 00",
+                        "description": "Bovine semen"
                     },
                     {
-                        "value": "6108 22 00",
-                        "description": "Of man-made fibres"
-                    },
-                    {
-                        "value": "6108 29 00",
-                        "description": "Of other textile materials"
-                    },
-                    {
-                        "value": "9018 39 00",
+                        "value": "0511 91 90",
                         "description": "Other"
                     },
                     {
-                        "value": "9021 90 90",
+                        "value": "0511 99 85",
                         "description": "Other"
-                    },
-                    {
-                        "value": "9619 00",
-                        "description": "Sanitary towels (pads) and tampons, napkins (diapers), napkin liners  and similar articles, of any material"
                     }
                 ]
             },
             "category": {
-                "identifier": "MEDICAL_EQUIPMENT",
-                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
+                "identifier": "AGRICULTURAL_PRODUCTION",
+                "description": "Supply of goods and services of a kind normally intended for use in agricultural production but excluding capital goods such as machinery or buildings"
             },
-            "comment": "Devices for urinary incontinence, urine bags, patient liners, knitted mesh underpants for the installation of incontinence inserts"
-        },
-        {
-            "memberState": "SI",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2024-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "4901",
-                        "description": "Printed books, brochures, leaflets and similar printed matter, whether or not in single sheets"
-                    },
-                    {
-                        "value": "4902",
-                        "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
-                    },
-                    {
-                        "value": "4903 00 00",
-                        "description": "Children's picture, drawing or colouring books"
-                    },
-                    {
-                        "value": "4904 00 00",
-                        "description": "Music, printed or in manuscript, whether or not bound or illustrated"
-                    },
-                    {
-                        "value": "4905",
-                        "description": "Maps and hydrographic or similar charts of all kinds, including atlases, wall maps, topographical plans and globes, printed"
-                    },
-                    {
-                        "value": "8523",
-                        "description": "Discs, tapes, solid-state non-volatile storage devices, ‘smart cards’ and other media for the recording of sound or of other phenomena, whether or not recorded, including matrices and masters for the production of discs, but excluding products of Chapter 37"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "LOAN_LIBRARIES",
-                "description": "Supply, including on loan by libraries, of books, newspapers and periodicals either on physical means of support …"
-            },
-            "comment": "Except: supply of material with more than 50 % of space to advertising and music, films, games, including games of chance and lotteries, interactive learning, broadcasting, and events in the fields of politics, culture, art, sports, science, and entertainment\nIncludes also: electronic provision of services via the Internet or an electronic network to access electronic books, periodicals, electronically updated content"
+            "comment": "Animals for fattening include domestic animals, normally intended for reproduction and breeding within livestock activities and aquaculture activities, including rabbits and bees.\n0511 91 90: only inedible fish eggs\nExcept: 0301 11 00, 0301 19 00, eggs for hatching ornamental birds"
         },
         {
             "memberState": "SI",
@@ -1222,6 +1196,160 @@
                 "description": "Pharmaceutical products of a kind normally used for health care, prevention of illness and as treatment for medical and veterinary purposes,…"
             },
             "comment": "3002:only antiserums, fractions of blood and  immunological products for treatment; vaccines; toxins; microbiological cultures (except yeasts); viruses, antiviral drugs and bacteriophages; 3822 00 00: only diagnostic reagents; 3926 90 97: only sheath contraceptives; 3924 90 00 and 4014 90 00: only menstrual cups;  9018 90 84 \n only intrauterine contraceptive device \nExcept: please see Article 49 of the Rules on the implementation of the Valued Added Tax Act"
+        },
+        {
+            "memberState": "SI",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 9.5
+            },
+            "situationOn": "2024-01-01+01:00",
+            "cnCodes": {
+                "code": {
+                    "value": "3006 70 00",
+                    "description": "Gel preparations designed to be used in human or veterinary medicine as a lubricant for parts of the body for surgical operations or physical examinations or as a coupling agent between the body and medical instruments"
+                }
+            },
+            "category": {
+                "identifier": "MEDICAL_EQUIPMENT",
+                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
+            },
+            "comment": "Gels for use in childbirth"
+        },
+        {
+            "memberState": "SI",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 9.5
+            },
+            "situationOn": "2024-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "3006 91 00",
+                        "description": "Appliances identifiable for ostomy use"
+                    },
+                    {
+                        "value": "3214 10 10",
+                        "description": "Glaziers' putty, grafting putty, resin cements, caulking compounds and other mastics"
+                    },
+                    {
+                        "value": "3506 10 00",
+                        "description": "Products suitable for use as glues or adhesives, put up for retail sale as glues or adhesives, not exceeding a net weight of 1 kg"
+                    },
+                    {
+                        "value": "9018 39 00",
+                        "description": "Other"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "MEDICAL_EQUIPMENT",
+                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
+            },
+            "comment": "Stoma accessories: bags cut into shapes for colostomy, ileostomy and urostomy; adhesive leather linings or tiles; leather putties and adhesives; bags fort the small intestine, large intestine, or urinary tract; adapters; adapters in combination with various bags"
+        },
+        {
+            "memberState": "SI",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 9.5
+            },
+            "situationOn": "2024-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "3101 00 00",
+                        "description": "Animal or vegetable fertilisers, whether or not mixed together or chemically treated; fertilisers produced by the mixing or chemical treatment of animal or vegetable products"
+                    },
+                    {
+                        "value": "3102",
+                        "description": "Mineral or chemical fertilisers, nitrogenous"
+                    },
+                    {
+                        "value": "3103",
+                        "description": "Mineral or chemical fertilisers, phosphatic"
+                    },
+                    {
+                        "value": "3104",
+                        "description": "Mineral or chemical fertilisers, potassic"
+                    },
+                    {
+                        "value": "3105",
+                        "description": "Mineral or chemical fertilisers containing two or three of the fertilising elements nitrogen, phosphorus and potassium; other fertilisers; goods of this chapter in tablets or similar forms or in packages of a gross weight not exceeding 10 kg"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "AGRICULTURAL_PRODUCTION",
+                "description": "Supply of goods and services of a kind normally intended for use in agricultural production but excluding capital goods such as machinery or buildings"
+            },
+            "comment": "Fertilizers"
+        },
+        {
+            "memberState": "SI",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 9.5
+            },
+            "situationOn": "2024-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "3214 10 10",
+                        "description": "Glaziers' putty, grafting putty, resin cements, caulking compounds and other mastics"
+                    },
+                    {
+                        "value": "3506 10 00",
+                        "description": "Products suitable for use as glues or adhesives, put up for retail sale as glues or adhesives, not exceeding a net weight of 1 kg"
+                    },
+                    {
+                        "value": "3923",
+                        "description": "Articles for the conveyance or packing of goods, of plastics; stoppers, lids, caps and other closures, of plastics"
+                    },
+                    {
+                        "value": "3926 90 97",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "4803 00 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "6108 21 00",
+                        "description": "Of cotton"
+                    },
+                    {
+                        "value": "6108 22 00",
+                        "description": "Of man-made fibres"
+                    },
+                    {
+                        "value": "6108 29 00",
+                        "description": "Of other textile materials"
+                    },
+                    {
+                        "value": "9018 39 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "9021 90 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "9619 00",
+                        "description": "Sanitary towels (pads) and tampons, napkins (diapers), napkin liners  and similar articles, of any material"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "MEDICAL_EQUIPMENT",
+                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
+            },
+            "comment": "Devices for urinary incontinence, urine bags, patient liners, knitted mesh underpants for the installation of incontinence inserts"
         },
         {
             "memberState": "SI",
@@ -1335,84 +1463,6 @@
                 "identifier": "TAPESTRIES",
                 "description": "Tapestries (CN code 5805 00 00) and wall textiles (CN code 6304 00 00) made by hand from original designs provided by artists…"
             }
-        },
-        {
-            "memberState": "SI",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 9.5
-            },
-            "situationOn": "2024-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "0101",
-                        "description": "Live horses, asses, mules and hinnies"
-                    },
-                    {
-                        "value": "0102",
-                        "description": "Live bovine animals"
-                    },
-                    {
-                        "value": "0103",
-                        "description": "Live swine"
-                    },
-                    {
-                        "value": "0104",
-                        "description": "Live sheep and goats"
-                    },
-                    {
-                        "value": "0105",
-                        "description": "Live poultry, that is to say, fowls of the species Gallus domesticus, ducks, geese, turkeys and guinea fowls"
-                    },
-                    {
-                        "value": "0301",
-                        "description": "Live fish"
-                    },
-                    {
-                        "value": "0306",
-                        "description": "Crustaceans, whether in shell or not, live, fresh, chilled, frozen, dried, salted or in brine; smoked crustaceans, whether in shell or not, whether or not cooked before or during the smoking process; crustaceans, in shell, cooked by steaming or by boiling in water, whether or not chilled, frozen, dried, salted or in brine"
-                    },
-                    {
-                        "value": "0307",
-                        "description": "Molluscs, whether in shell or not, live, fresh, chilled, frozen, dried, salted or in brine; smoked molluscs, whether in shell or not, whether or not cooked before or during the smoking process"
-                    },
-                    {
-                        "value": "0407 11 00",
-                        "description": "Of fowls of the species Gallus domesticus"
-                    },
-                    {
-                        "value": "0407 19 11",
-                        "description": "Of turkeys or geese"
-                    },
-                    {
-                        "value": "0407 19 19",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "0407 19 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "0511 10 00",
-                        "description": "Bovine semen"
-                    },
-                    {
-                        "value": "0511 91 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "0511 99 85",
-                        "description": "Other"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "AGRICULTURAL_PRODUCTION",
-                "description": "Supply of goods and services of a kind normally intended for use in agricultural production but excluding capital goods such as machinery or buildings"
-            },
-            "comment": "Animals for fattening include domestic animals, normally intended for reproduction and breeding within livestock activities and aquaculture activities, including rabbits and bees.\n0511 91 90: only inedible fish eggs\nExcept: 0301 11 00, 0301 19 00, eggs for hatching ornamental birds"
         },
         {
             "memberState": "SI",
@@ -1607,34 +1657,42 @@
             "type": "REDUCED",
             "rate": {
                 "type": "REDUCED_RATE",
-                "value": 9.5
+                "value": 5
             },
             "situationOn": "2024-01-01+01:00",
             "cnCodes": {
                 "code": [
                     {
-                        "value": "3006 91 00",
-                        "description": "Appliances identifiable for ostomy use"
+                        "value": "4901",
+                        "description": "Printed books, brochures, leaflets and similar printed matter, whether or not in single sheets"
                     },
                     {
-                        "value": "3214 10 10",
-                        "description": "Glaziers' putty, grafting putty, resin cements, caulking compounds and other mastics"
+                        "value": "4902",
+                        "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
                     },
                     {
-                        "value": "3506 10 00",
-                        "description": "Products suitable for use as glues or adhesives, put up for retail sale as glues or adhesives, not exceeding a net weight of 1 kg"
+                        "value": "4903 00 00",
+                        "description": "Children's picture, drawing or colouring books"
                     },
                     {
-                        "value": "9018 39 00",
-                        "description": "Other"
+                        "value": "4904 00 00",
+                        "description": "Music, printed or in manuscript, whether or not bound or illustrated"
+                    },
+                    {
+                        "value": "4905",
+                        "description": "Maps and hydrographic or similar charts of all kinds, including atlases, wall maps, topographical plans and globes, printed"
+                    },
+                    {
+                        "value": "8523",
+                        "description": "Discs, tapes, solid-state non-volatile storage devices, ‘smart cards’ and other media for the recording of sound or of other phenomena, whether or not recorded, including matrices and masters for the production of discs, but excluding products of Chapter 37"
                     }
                 ]
             },
             "category": {
-                "identifier": "MEDICAL_EQUIPMENT",
-                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
+                "identifier": "LOAN_LIBRARIES",
+                "description": "Supply, including on loan by libraries, of books, newspapers and periodicals either on physical means of support …"
             },
-            "comment": "Stoma accessories: bags cut into shapes for colostomy, ileostomy and urostomy; adhesive leather linings or tiles; leather putties and adhesives; bags fort the small intestine, large intestine, or urinary tract; adapters; adapters in combination with various bags"
+            "comment": "Except: supply of material with more than 50 % of space to advertising and music, films, games, including games of chance and lotteries, interactive learning, broadcasting, and events in the fields of politics, culture, art, sports, science, and entertainment\nIncludes also: electronic provision of services via the Internet or an electronic network to access electronic books, periodicals, electronically updated content"
         },
         {
             "memberState": "SI",
@@ -2368,64 +2426,6 @@
                 "value": 22
             },
             "situationOn": "2024-01-01+01:00"
-        },
-        {
-            "memberState": "SI",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 9.5
-            },
-            "situationOn": "2024-01-01+01:00",
-            "cnCodes": {
-                "code": {
-                    "value": "3006 70 00",
-                    "description": "Gel preparations designed to be used in human or veterinary medicine as a lubricant for parts of the body for surgical operations or physical examinations or as a coupling agent between the body and medical instruments"
-                }
-            },
-            "category": {
-                "identifier": "MEDICAL_EQUIPMENT",
-                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
-            },
-            "comment": "Gels for use in childbirth"
-        },
-        {
-            "memberState": "SI",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 9.5
-            },
-            "situationOn": "2024-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "3101 00 00",
-                        "description": "Animal or vegetable fertilisers, whether or not mixed together or chemically treated; fertilisers produced by the mixing or chemical treatment of animal or vegetable products"
-                    },
-                    {
-                        "value": "3102",
-                        "description": "Mineral or chemical fertilisers, nitrogenous"
-                    },
-                    {
-                        "value": "3103",
-                        "description": "Mineral or chemical fertilisers, phosphatic"
-                    },
-                    {
-                        "value": "3104",
-                        "description": "Mineral or chemical fertilisers, potassic"
-                    },
-                    {
-                        "value": "3105",
-                        "description": "Mineral or chemical fertilisers containing two or three of the fertilising elements nitrogen, phosphorus and potassium; other fertilisers; goods of this chapter in tablets or similar forms or in packages of a gross weight not exceeding 10 kg"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "AGRICULTURAL_PRODUCTION",
-                "description": "Supply of goods and services of a kind normally intended for use in agricultural production but excluding capital goods such as machinery or buildings"
-            },
-            "comment": "Fertilizers"
         }
     ]
 }

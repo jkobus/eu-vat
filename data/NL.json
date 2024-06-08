@@ -1519,6 +1519,86 @@
                 "value": 9
             },
             "situationOn": "2024-01-01+01:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "79.90.39",
+                        "description": "Reservation services for event tickets, entertainment and recreational services and other reservation services n.e.c."
+                    },
+                    {
+                        "value": "90.04",
+                        "description": "Arts facility operation services"
+                    },
+                    {
+                        "value": "91.02.10",
+                        "description": "Museum operation services"
+                    },
+                    {
+                        "value": "91.03",
+                        "description": "Operation services of historical sites and buildings and similar visitor attractions"
+                    },
+                    {
+                        "value": "91.04",
+                        "description": "Botanical and zoological garden services and nature reserve services"
+                    },
+                    {
+                        "value": "93.29.1",
+                        "description": "Other recreational services n.e.c."
+                    },
+                    {
+                        "value": "93.29.19",
+                        "description": "Miscellaneous recreational services n.e.c."
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "CULTURAL_EVENTS",
+                "description": "Admission to shows, theatres, circuses, fairs, amusement parks, concerts, museums, zoos, cinemas, exhibitions and similar cultural events and facilities"
+            },
+            "comment": "Tabel I prov. b.14 to b.15: granting (physical) access to circusses; zoos; public museums or collections (including closely related supplies of goods, such as catalogs, photographs); music and stage performances, including lectures (excluding peep shows\/other performances primarily aimed at erotic entertainment); cinemas; amusement parks, playgrounds and gardens, other facilities primarily and permanently furnished to entertainment and day recreation."
+        },
+        {
+            "memberState": "NL",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 9
+            },
+            "situationOn": "2024-01-01+01:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "85.51",
+                        "description": "Sports and recreation education services"
+                    },
+                    {
+                        "value": "93.11",
+                        "description": "Sports facility operation services"
+                    },
+                    {
+                        "value": "93.12",
+                        "description": "Services of sport clubs"
+                    },
+                    {
+                        "value": "93.19.19",
+                        "description": "Other sports and recreational sports services"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "SPORTING_EVENTS",
+                "description": "Admission to sporting events"
+            },
+            "comment": "Tabel I prov. b.3 and b.14, f: the granting of (physical) access to spectators of sports competitions, demonstrations and the like. Sports competitions are events where people actively participate in sports. Sports demonstrations are, for example, shows of the Harlem Globetrotters (basketball), performances of the Spanish Riding School (horse dressage) and shows of Wrestlemania (wrestling); use of sporting facilities."
+        },
+        {
+            "memberState": "NL",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 9
+            },
+            "situationOn": "2024-01-01+01:00",
             "cnCodes": {
                 "code": [
                     {
@@ -1624,86 +1704,6 @@
                 "description": "Supply of goods and services of a kind normally intended for use in agricultural production but excluding capital goods such as machinery or buildings"
             },
             "comment": "Tabel I prov. a.40 to a.46: beetroot (only fresh produce harvested by growers (raw beet)); beetroot plants; agricultural and horticultural seeds, insofar as they are used for the cultivation of products and oilseeds subjected to the reduced rate; roundwood; straw (leaf reed and other products used as bedding in cubicle sheds and the like, such as sawdust, paper sludge\/pulp, wood fiber and tree bark are excluded); fodder; flax; wool, raw and unwashed (obtained from the fur of sheep and lambs)."
-        },
-        {
-            "memberState": "NL",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 9
-            },
-            "situationOn": "2024-01-01+01:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "79.90.39",
-                        "description": "Reservation services for event tickets, entertainment and recreational services and other reservation services n.e.c."
-                    },
-                    {
-                        "value": "90.04",
-                        "description": "Arts facility operation services"
-                    },
-                    {
-                        "value": "91.02.10",
-                        "description": "Museum operation services"
-                    },
-                    {
-                        "value": "91.03",
-                        "description": "Operation services of historical sites and buildings and similar visitor attractions"
-                    },
-                    {
-                        "value": "91.04",
-                        "description": "Botanical and zoological garden services and nature reserve services"
-                    },
-                    {
-                        "value": "93.29.1",
-                        "description": "Other recreational services n.e.c."
-                    },
-                    {
-                        "value": "93.29.19",
-                        "description": "Miscellaneous recreational services n.e.c."
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "CULTURAL_EVENTS",
-                "description": "Admission to shows, theatres, circuses, fairs, amusement parks, concerts, museums, zoos, cinemas, exhibitions and similar cultural events and facilities"
-            },
-            "comment": "Tabel I prov. b.14 to b.15: granting (physical) access to circusses; zoos; public museums or collections (including closely related supplies of goods, such as catalogs, photographs); music and stage performances, including lectures (excluding peep shows\/other performances primarily aimed at erotic entertainment); cinemas; amusement parks, playgrounds and gardens, other facilities primarily and permanently furnished to entertainment and day recreation."
-        },
-        {
-            "memberState": "NL",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 9
-            },
-            "situationOn": "2024-01-01+01:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "85.51",
-                        "description": "Sports and recreation education services"
-                    },
-                    {
-                        "value": "93.11",
-                        "description": "Sports facility operation services"
-                    },
-                    {
-                        "value": "93.12",
-                        "description": "Services of sport clubs"
-                    },
-                    {
-                        "value": "93.19.19",
-                        "description": "Other sports and recreational sports services"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "SPORTING_EVENTS",
-                "description": "Admission to sporting events"
-            },
-            "comment": "Tabel I prov. b.3 and b.14, f: the granting of (physical) access to spectators of sports competitions, demonstrations and the like. Sports competitions are events where people actively participate in sports. Sports demonstrations are, for example, shows of the Harlem Globetrotters (basketball), performances of the Spanish Riding School (horse dressage) and shows of Wrestlemania (wrestling); use of sporting facilities."
         },
         {
             "memberState": "NL",

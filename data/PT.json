@@ -1174,102 +1174,6 @@
             "cpaCodes": {
                 "code": [
                     {
-                        "value": "49.1",
-                        "description": "Passenger rail transport services, interurban"
-                    },
-                    {
-                        "value": "49.3",
-                        "description": "Other passenger land transport services"
-                    },
-                    {
-                        "value": "50.1",
-                        "description": "Sea and coastal passenger water transport services"
-                    },
-                    {
-                        "value": "50.3",
-                        "description": "Inland passenger water transport services"
-                    },
-                    {
-                        "value": "51.1",
-                        "description": "Passenger air transport services"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "TRANSPORT_PASSENGERS",
-                "description": "Transport of passengers and their accompanying luggage"
-            },
-            "comment": "International transport of passengers is subject to a zero rate."
-        },
-        {
-            "memberState": "PT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 6
-            },
-            "situationOn": "2024-01-01+01:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "55.1",
-                        "description": "Hotel and similar accommodation services"
-                    },
-                    {
-                        "value": "55.2",
-                        "description": "Holiday and other short stay accommodation services"
-                    },
-                    {
-                        "value": "55.30.11",
-                        "description": "Camping ground services"
-                    },
-                    {
-                        "value": "55.9",
-                        "description": "Other accommodation services"
-                    },
-                    {
-                        "value": "55.90.13",
-                        "description": "Sleeping car and similar services in other transport media"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "ACCOMMODATION",
-                "description": "Accommodation provided in hotels and similar establishments, including the provision of holiday accommodation and the letting of places on camping or caravan sites"
-            },
-            "comment": "- Portuguese VAT law does not depend of CN or CPA codes to apply reduced taxes rates. For this reason, the following codes are approximate and not legally binding. For sake of certainty, reference should be made to the Portuguese VAT law (decree law n.º 394-B\/1984, of December 28).\nThe reduced rate applies only to accommodation including breakfast, if not separately invoiced, being equivalent to half of the full board price, or ¾ of the half board price."
-        },
-        {
-            "memberState": "PT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 6
-            },
-            "situationOn": "2024-01-01+01:00",
-            "cpaCodes": {
-                "code": {
-                    "value": "86.10",
-                    "description": "Hospital services"
-                }
-            },
-            "category": {
-                "identifier": "MEDICAL_CARE",
-                "description": "Provision of medical and dental care and thermal treatment in so far as those services are not exempt pursuant to points (b) to (e) of Article 132(1)"
-            },
-            "comment": "Portuguese VAT law does not depend of CN or CPA codes to apply reduced taxes rates. For this reason, the following codes are approximate and not legally binding. For sake of certainty, reference should be made to the Portuguese VAT law (decree law n.º 394-B\/1984, of December 28)\nWhen not exempt under Article 132 (1) (b) to (e)"
-        },
-        {
-            "memberState": "PT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 6
-            },
-            "situationOn": "2024-01-01+01:00",
-            "cpaCodes": {
-                "code": [
-                    {
                         "value": "88.10.11",
                         "description": "Visiting and assistance services for the elderly"
                     },
@@ -1845,6 +1749,102 @@
                 "description": "The renovation and repair of private dwellings, excluding materials which account for a significant part of the value of the service supplied"
             },
             "comment": "The reduced rate on the repairing of private dwellings excludes cleaning, garden upkeep, swimming pools, sauna, tennis court, golf or mini-golf court, or similar. Includes materials that accounts for less than 20% of the value of the service supplied."
+        },
+        {
+            "memberState": "PT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 6
+            },
+            "situationOn": "2024-01-01+01:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "49.1",
+                        "description": "Passenger rail transport services, interurban"
+                    },
+                    {
+                        "value": "49.3",
+                        "description": "Other passenger land transport services"
+                    },
+                    {
+                        "value": "50.1",
+                        "description": "Sea and coastal passenger water transport services"
+                    },
+                    {
+                        "value": "50.3",
+                        "description": "Inland passenger water transport services"
+                    },
+                    {
+                        "value": "51.1",
+                        "description": "Passenger air transport services"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "TRANSPORT_PASSENGERS",
+                "description": "Transport of passengers and their accompanying luggage"
+            },
+            "comment": "International transport of passengers is subject to a zero rate."
+        },
+        {
+            "memberState": "PT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 6
+            },
+            "situationOn": "2024-01-01+01:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "55.1",
+                        "description": "Hotel and similar accommodation services"
+                    },
+                    {
+                        "value": "55.2",
+                        "description": "Holiday and other short stay accommodation services"
+                    },
+                    {
+                        "value": "55.30.11",
+                        "description": "Camping ground services"
+                    },
+                    {
+                        "value": "55.9",
+                        "description": "Other accommodation services"
+                    },
+                    {
+                        "value": "55.90.13",
+                        "description": "Sleeping car and similar services in other transport media"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "ACCOMMODATION",
+                "description": "Accommodation provided in hotels and similar establishments, including the provision of holiday accommodation and the letting of places on camping or caravan sites"
+            },
+            "comment": "- Portuguese VAT law does not depend of CN or CPA codes to apply reduced taxes rates. For this reason, the following codes are approximate and not legally binding. For sake of certainty, reference should be made to the Portuguese VAT law (decree law n.º 394-B\/1984, of December 28).\nThe reduced rate applies only to accommodation including breakfast, if not separately invoiced, being equivalent to half of the full board price, or ¾ of the half board price."
+        },
+        {
+            "memberState": "PT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 6
+            },
+            "situationOn": "2024-01-01+01:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "86.10",
+                    "description": "Hospital services"
+                }
+            },
+            "category": {
+                "identifier": "MEDICAL_CARE",
+                "description": "Provision of medical and dental care and thermal treatment in so far as those services are not exempt pursuant to points (b) to (e) of Article 132(1)"
+            },
+            "comment": "Portuguese VAT law does not depend of CN or CPA codes to apply reduced taxes rates. For this reason, the following codes are approximate and not legally binding. For sake of certainty, reference should be made to the Portuguese VAT law (decree law n.º 394-B\/1984, of December 28)\nWhen not exempt under Article 132 (1) (b) to (e)"
         }
     ]
 }
