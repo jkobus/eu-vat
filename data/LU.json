@@ -12,6 +12,360 @@
             "cnCodes": {
                 "code": [
                     {
+                        "value": "0101 30 00",
+                        "description": "Asses"
+                    },
+                    {
+                        "value": "0101 90 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "0102",
+                        "description": "Live bovine animals"
+                    },
+                    {
+                        "value": "0103",
+                        "description": "Live swine"
+                    },
+                    {
+                        "value": "0104",
+                        "description": "Live sheep and goats"
+                    },
+                    {
+                        "value": "0105",
+                        "description": "Live poultry, that is to say, fowls of the species Gallus domesticus, ducks, geese, turkeys and guinea fowls"
+                    },
+                    {
+                        "value": "0106 14 10",
+                        "description": "Domestic rabbits"
+                    },
+                    {
+                        "value": "0106 14 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "0106 41 00",
+                        "description": "Bees"
+                    },
+                    {
+                        "value": "0511 10 00",
+                        "description": "Bovine semen"
+                    },
+                    {
+                        "value": "0602 10 10",
+                        "description": "Of vines"
+                    },
+                    {
+                        "value": "0602 20",
+                        "description": "Trees, shrubs and bushes, grafted or not, of kinds which bear edible fruit or nuts"
+                    },
+                    {
+                        "value": "0602 90 10",
+                        "description": "Mushroom spawn"
+                    },
+                    {
+                        "value": "0602 90 30",
+                        "description": "Vegetable and strawberry plants"
+                    },
+                    {
+                        "value": "0602 90 41",
+                        "description": "Forest trees"
+                    },
+                    {
+                        "value": "10",
+                        "description": "CHAPTER 10 - CEREALS"
+                    },
+                    {
+                        "value": "1201",
+                        "description": "Soya beans, whether or not broken"
+                    },
+                    {
+                        "value": "1202",
+                        "description": "Groundnuts, not roasted or otherwise cooked, whether or not shelled or broken"
+                    },
+                    {
+                        "value": "1203 00 00",
+                        "description": "Copra"
+                    },
+                    {
+                        "value": "1204 00",
+                        "description": "Linseed, whether or not broken"
+                    },
+                    {
+                        "value": "1205",
+                        "description": "Rape or colza seeds, whether or not broken"
+                    },
+                    {
+                        "value": "1206 00",
+                        "description": "Sunflower seeds, whether or not broken"
+                    },
+                    {
+                        "value": "1207",
+                        "description": "Other oil seeds and oleaginous fruits, whether or not broken"
+                    },
+                    {
+                        "value": "1208",
+                        "description": "Flours and meals of oil seeds or oleaginous fruits, other than those of mustard"
+                    },
+                    {
+                        "value": "1209",
+                        "description": "Seeds, fruit and spores, of a kind used for sowing"
+                    },
+                    {
+                        "value": "1212 91",
+                        "description": "Sugar beet"
+                    },
+                    {
+                        "value": "1212 93 00",
+                        "description": "Sugar cane"
+                    },
+                    {
+                        "value": "1213 00 00",
+                        "description": "Cereal straw and husks, unprepared, whether or not chopped, ground, pressed or in the form of pellets"
+                    },
+                    {
+                        "value": "2522 10 00",
+                        "description": "Quicklime"
+                    },
+                    {
+                        "value": "2522 20 00",
+                        "description": "Slaked lime"
+                    },
+                    {
+                        "value": "2703 00 00",
+                        "description": "Peat (including peat litter), whether or not agglomerated"
+                    }
+                ]
+            },
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "01.62",
+                        "description": "Support services to animal production"
+                    },
+                    {
+                        "value": "01.63",
+                        "description": "Post-harvest crop services"
+                    },
+                    {
+                        "value": "01.64",
+                        "description": "Seed processing services for propagation"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "EXEMPTION_SUPERREDUCED",
+                "description": "Exemptions and super-reduced rates (Article 105a(1) of the VAT Directive)"
+            },
+            "comment": "Supply of goods and services of a kind normally intended for use in agricultural production but excluding capital goods such as machinery or buildings, excluding leasing and renting of agricultural and forestry machinery and utensils, transport of agricultural and forestry products and felling and logging of trees"
+        },
+        {
+            "memberState": "LU",
+            "type": "REDUCED",
+            "rate": {
+                "type": "SUPER_REDUCED_RATE",
+                "value": 3
+            },
+            "situationOn": "2024-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "0101 30 00",
+                        "description": "Asses"
+                    },
+                    {
+                        "value": "0101 90 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "0102",
+                        "description": "Live bovine animals"
+                    },
+                    {
+                        "value": "0103",
+                        "description": "Live swine"
+                    },
+                    {
+                        "value": "0104",
+                        "description": "Live sheep and goats"
+                    },
+                    {
+                        "value": "0105",
+                        "description": "Live poultry, that is to say, fowls of the species Gallus domesticus, ducks, geese, turkeys and guinea fowls"
+                    },
+                    {
+                        "value": "0106 14 10",
+                        "description": "Domestic rabbits"
+                    },
+                    {
+                        "value": "0106 14 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "0106 41 00",
+                        "description": "Bees"
+                    },
+                    {
+                        "value": "0511 10 00",
+                        "description": "Bovine semen"
+                    },
+                    {
+                        "value": "0602 10 10",
+                        "description": "Of vines"
+                    },
+                    {
+                        "value": "0602 20",
+                        "description": "Trees, shrubs and bushes, grafted or not, of kinds which bear edible fruit or nuts"
+                    },
+                    {
+                        "value": "0602 90 10",
+                        "description": "Mushroom spawn"
+                    },
+                    {
+                        "value": "0602 90 30",
+                        "description": "Vegetable and strawberry plants"
+                    },
+                    {
+                        "value": "0602 90 41",
+                        "description": "Forest trees"
+                    },
+                    {
+                        "value": "10",
+                        "description": "CHAPTER 10 - CEREALS"
+                    },
+                    {
+                        "value": "1201",
+                        "description": "Soya beans, whether or not broken"
+                    },
+                    {
+                        "value": "1202",
+                        "description": "Groundnuts, not roasted or otherwise cooked, whether or not shelled or broken"
+                    },
+                    {
+                        "value": "1203 00 00",
+                        "description": "Copra"
+                    },
+                    {
+                        "value": "1204 00",
+                        "description": "Linseed, whether or not broken"
+                    },
+                    {
+                        "value": "1205",
+                        "description": "Rape or colza seeds, whether or not broken"
+                    },
+                    {
+                        "value": "1206 00",
+                        "description": "Sunflower seeds, whether or not broken"
+                    },
+                    {
+                        "value": "1207",
+                        "description": "Other oil seeds and oleaginous fruits, whether or not broken"
+                    },
+                    {
+                        "value": "1208",
+                        "description": "Flours and meals of oil seeds or oleaginous fruits, other than those of mustard"
+                    },
+                    {
+                        "value": "1209",
+                        "description": "Seeds, fruit and spores, of a kind used for sowing"
+                    },
+                    {
+                        "value": "1212 91",
+                        "description": "Sugar beet"
+                    },
+                    {
+                        "value": "1212 93 00",
+                        "description": "Sugar cane"
+                    },
+                    {
+                        "value": "1213 00 00",
+                        "description": "Cereal straw and husks, unprepared, whether or not chopped, ground, pressed or in the form of pellets"
+                    },
+                    {
+                        "value": "2522 10 00",
+                        "description": "Quicklime"
+                    },
+                    {
+                        "value": "2522 20 00",
+                        "description": "Slaked lime"
+                    },
+                    {
+                        "value": "2703 00 00",
+                        "description": "Peat (including peat litter), whether or not agglomerated"
+                    },
+                    {
+                        "value": "31",
+                        "description": "CHAPTER 31 - FERTILISERS"
+                    }
+                ]
+            },
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "01.61",
+                        "description": "Support services to crop production"
+                    },
+                    {
+                        "value": "01.62",
+                        "description": "Support services to animal production"
+                    },
+                    {
+                        "value": "01.63",
+                        "description": "Post-harvest crop services"
+                    },
+                    {
+                        "value": "01.64",
+                        "description": "Seed processing services for propagation"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "CERTAIN_AGRICULTURAL_INPUT",
+                "description": "Certain agricultural inputs"
+            },
+            "comment": "Services excluded : leasing and renting of agricultural and forestry machinery and utensils; transport of agricultural and forestry products; felling and logging of trees"
+        },
+        {
+            "memberState": "LU",
+            "type": "REDUCED",
+            "rate": {
+                "type": "SUPER_REDUCED_RATE",
+                "value": 3
+            },
+            "situationOn": "2024-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "1211",
+                        "description": "Plants and parts of plants (including seeds and fruits), of a kind used primarily in perfumery, in pharmacy or for insecticidal, fungicidal or similar purposes, fresh, chilled, frozen or dried, whether or not cut, crushed or powdered"
+                    },
+                    {
+                        "value": "3003",
+                        "description": "Medicaments (excluding goods of heading 3002, 3005 or 3006) consisting of two or more constituents which have been mixed together for therapeutic or prophylactic uses, not put up in measured doses or in forms or packings for retail sale"
+                    },
+                    {
+                        "value": "3004",
+                        "description": "Medicaments (excluding goods of heading 3002, 3005 or 3006) consisting of mixed or unmixed products for therapeutic or prophylactic uses, put up in measured doses (including those in the form of transdermal administration systems) or in forms or packings for retail sale"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "FOODSTUFFS",
+                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and …"
+            },
+            "comment": "Plants and part of plants, seeds and grains, used for preparing infusions or teas"
+        },
+        {
+            "memberState": "LU",
+            "type": "REDUCED",
+            "rate": {
+                "type": "SUPER_REDUCED_RATE",
+                "value": 3
+            },
+            "situationOn": "2024-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
                         "value": "0101 29 10",
                         "description": "For slaughter"
                     },
@@ -542,6 +896,279 @@
             "memberState": "LU",
             "type": "REDUCED",
             "rate": {
+                "type": "SUPER_REDUCED_RATE",
+                "value": 3
+            },
+            "situationOn": "2024-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "1501",
+                        "description": "Pig fat (including lard) and poultry fat, other than that of heading 0209 or1503"
+                    },
+                    {
+                        "value": "1502",
+                        "description": "Fats of bovine animals, sheep or goats, other than those of heading 1503"
+                    },
+                    {
+                        "value": "1503 00",
+                        "description": "Lard stearin, lard oil, oleostearin, oleo-oil and tallow oil, not emulsified or mixed or otherwise prepared"
+                    },
+                    {
+                        "value": "1504",
+                        "description": "Fats and oils and their fractions, of fish or marine mammals, whether or not refined, but not chemically modified"
+                    },
+                    {
+                        "value": "1505 00",
+                        "description": "Wool grease and fatty substances derived therefrom (including lanolin)"
+                    },
+                    {
+                        "value": "1506 00 00",
+                        "description": "Other animal fats and oils and their fractions, whether or not refined, but not chemically modified"
+                    },
+                    {
+                        "value": "1507",
+                        "description": "Soya-bean oil and its fractions, whether or not refined, but not chemically modified"
+                    },
+                    {
+                        "value": "1508",
+                        "description": "Groundnut oil and its fractions, whether or not refined, but not chemically modified"
+                    },
+                    {
+                        "value": "1509",
+                        "description": "Olive oil and its fractions, whether or not refined, but not chemically modified"
+                    },
+                    {
+                        "value": "1510 00",
+                        "description": "Other oils and their fractions, obtained solely from olives, whether or not refined, but not chemically modified, including blends of these oils or fractions with oils or fractions of heading 1509"
+                    },
+                    {
+                        "value": "1511",
+                        "description": "Palm oil and its fractions, whether or not refined, but not chemically modified"
+                    },
+                    {
+                        "value": "1512",
+                        "description": "Sunflower-seed, safflower or cotton-seed oil and fractions thereof, whether or not refined, but not chemically modified"
+                    },
+                    {
+                        "value": "1513",
+                        "description": "Coconut (copra), palm kernel or babassu oil and fractions thereof, whether or not refined, but not chemically modified"
+                    },
+                    {
+                        "value": "1514",
+                        "description": "Rape, colza or mustard oil and fractions thereof, whether or not refined, but not chemically modified"
+                    },
+                    {
+                        "value": "1515",
+                        "description": "Other fixed vegetable or microbial fats and oils (including jojoba oil) and their fractions, whether or not refined, but not chemically modified"
+                    },
+                    {
+                        "value": "1516",
+                        "description": "Animal, vegetable or microbial fats and oils and their fractions, partly or wholly hydrogenated, inter-esterified, re-esterified or elaidinised, whether or not refined, but not further prepared"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "FOODSTUFFS",
+                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and …"
+            },
+            "comment": "Animal or vegetable fats and oils for human and animal consumption or  normally intended for use in the preparation of foodstuffs"
+        },
+        {
+            "memberState": "LU",
+            "type": "REDUCED",
+            "rate": {
+                "type": "SUPER_REDUCED_RATE",
+                "value": 3
+            },
+            "situationOn": "2024-01-01+01:00",
+            "cnCodes": {
+                "code": {
+                    "value": "0301",
+                    "description": "Live fish"
+                }
+            },
+            "category": {
+                "identifier": "FOODSTUFFS",
+                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and …"
+            },
+            "comment": "Live Fish, for human and animal consumption or  normally intended for use in the preparation of foodstuffs"
+        },
+        {
+            "memberState": "LU",
+            "type": "REDUCED",
+            "rate": {
+                "type": "SUPER_REDUCED_RATE",
+                "value": 3
+            },
+            "situationOn": "2024-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "0511 99 31",
+                        "description": "Raw"
+                    },
+                    {
+                        "value": "0511 99 39",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "3924 90 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "4014 90 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "9619 00 30",
+                        "description": "Of wadding of textile materials"
+                    },
+                    {
+                        "value": "9619 00 40",
+                        "description": "Sanitary towels (pads), tampons and similar articles"
+                    },
+                    {
+                        "value": "9619 00 71",
+                        "description": "Sanitary towels (pads)"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "PHARMACEUTICAL_PRODUCTS",
+                "description": "Pharmaceutical products of a kind normally used for health care, prevention of illness and as treatment for medical and veterinary purposes,…"
+            },
+            "comment": "Products used for sanitary protection: sanitary towels (pads), tampons, panty liners, period panties, menstrual cups, menstrual sponges and similar feminine hygiene products"
+        },
+        {
+            "memberState": "LU",
+            "type": "REDUCED",
+            "rate": {
+                "type": "SUPER_REDUCED_RATE",
+                "value": 3
+            },
+            "situationOn": "2024-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "0101 21 00",
+                        "description": "Pure-bred breeding animals"
+                    },
+                    {
+                        "value": "0101 29 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "0511 99 85",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "0601",
+                        "description": "Bulbs, tubers, tuberous roots, corms, crowns and rhizomes, dormant, in growth or in flower; chicory plants and roots other than roots of heading 1212"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "EXEMPTION_SUPERREDUCED",
+                "description": "Exemptions and super-reduced rates (Article 105a(1) of the VAT Directive)"
+            },
+            "comment": "Supply of goods and services of a kind normally intended for use in agricultural production:\n- Draft horses\n- Ova of animals used in agricultural production\n- Rhubarb rhizomes; Asparagus crowns; Chicory plants and roots other than roots of heading 1212"
+        },
+        {
+            "memberState": "LU",
+            "type": "REDUCED",
+            "rate": {
+                "type": "SUPER_REDUCED_RATE",
+                "value": 3
+            },
+            "situationOn": "2024-01-01+01:00",
+            "cnCodes": {
+                "code": {
+                    "value": "0511 99 85",
+                    "description": "Other"
+                }
+            },
+            "category": {
+                "identifier": "CERTAIN_AGRICULTURAL_INPUT",
+                "description": "Certain agricultural inputs"
+            },
+            "comment": "Ova of animals used in agricultural production"
+        },
+        {
+            "memberState": "LU",
+            "type": "REDUCED",
+            "rate": {
+                "type": "SUPER_REDUCED_RATE",
+                "value": 3
+            },
+            "situationOn": "2024-01-01+01:00",
+            "cnCodes": {
+                "code": {
+                    "value": "0601",
+                    "description": "Bulbs, tubers, tuberous roots, corms, crowns and rhizomes, dormant, in growth or in flower; chicory plants and roots other than roots of heading 1212"
+                }
+            },
+            "category": {
+                "identifier": "CERTAIN_AGRICULTURAL_INPUT",
+                "description": "Certain agricultural inputs"
+            },
+            "comment": "Rhubarb rhizomes; Asparagus crowns; Chicory plants and roots other than roots of heading 1212"
+        },
+        {
+            "memberState": "LU",
+            "type": "REDUCED",
+            "rate": {
+                "type": "SUPER_REDUCED_RATE",
+                "value": 3
+            },
+            "situationOn": "2024-01-01+01:00",
+            "cnCodes": {
+                "code": {
+                    "value": "2201",
+                    "description": "Waters, including natural or artificial mineral waters and aerated waters, not containing added sugar or other sweetening matter nor flavoured; ice and snow"
+                }
+            },
+            "category": {
+                "identifier": "FOODSTUFFS",
+                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and …"
+            },
+            "comment": "Waters, including natural or artificial mineral waters and aerated waters, not containing added sugar or other sweetening matter nor flavoured"
+        },
+        {
+            "memberState": "LU",
+            "type": "REDUCED",
+            "rate": {
+                "type": "SUPER_REDUCED_RATE",
+                "value": 3
+            },
+            "situationOn": "2024-01-01+01:00",
+            "cnCodes": {
+                "code": {
+                    "value": "2201 90 00",
+                    "description": "Other"
+                }
+            },
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "36.00.11",
+                        "description": "Drinking water"
+                    },
+                    {
+                        "value": "36.00.30",
+                        "description": "Trade services of water through mains"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "SUPPLY_WATER",
+                "description": "Supply of water"
+            }
+        },
+        {
+            "memberState": "LU",
+            "type": "REDUCED",
+            "rate": {
                 "type": "EXEMPTED",
                 "value": 0
             },
@@ -721,330 +1348,6 @@
                 "identifier": "CLEANING_PRODUCT",
                 "description": "Washing and cleaning preparations"
             }
-        },
-        {
-            "memberState": "LU",
-            "type": "REDUCED",
-            "rate": {
-                "type": "SUPER_REDUCED_RATE",
-                "value": 3
-            },
-            "situationOn": "2024-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "0101 30 00",
-                        "description": "Asses"
-                    },
-                    {
-                        "value": "0101 90 00",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "0102",
-                        "description": "Live bovine animals"
-                    },
-                    {
-                        "value": "0103",
-                        "description": "Live swine"
-                    },
-                    {
-                        "value": "0104",
-                        "description": "Live sheep and goats"
-                    },
-                    {
-                        "value": "0105",
-                        "description": "Live poultry, that is to say, fowls of the species Gallus domesticus, ducks, geese, turkeys and guinea fowls"
-                    },
-                    {
-                        "value": "0106 14 10",
-                        "description": "Domestic rabbits"
-                    },
-                    {
-                        "value": "0106 14 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "0106 41 00",
-                        "description": "Bees"
-                    },
-                    {
-                        "value": "0511 10 00",
-                        "description": "Bovine semen"
-                    },
-                    {
-                        "value": "0602 10 10",
-                        "description": "Of vines"
-                    },
-                    {
-                        "value": "0602 20",
-                        "description": "Trees, shrubs and bushes, grafted or not, of kinds which bear edible fruit or nuts"
-                    },
-                    {
-                        "value": "0602 90 10",
-                        "description": "Mushroom spawn"
-                    },
-                    {
-                        "value": "0602 90 30",
-                        "description": "Vegetable and strawberry plants"
-                    },
-                    {
-                        "value": "0602 90 41",
-                        "description": "Forest trees"
-                    },
-                    {
-                        "value": "10",
-                        "description": "CHAPTER 10 - CEREALS"
-                    },
-                    {
-                        "value": "1201",
-                        "description": "Soya beans, whether or not broken"
-                    },
-                    {
-                        "value": "1202",
-                        "description": "Groundnuts, not roasted or otherwise cooked, whether or not shelled or broken"
-                    },
-                    {
-                        "value": "1203 00 00",
-                        "description": "Copra"
-                    },
-                    {
-                        "value": "1204 00",
-                        "description": "Linseed, whether or not broken"
-                    },
-                    {
-                        "value": "1205",
-                        "description": "Rape or colza seeds, whether or not broken"
-                    },
-                    {
-                        "value": "1206 00",
-                        "description": "Sunflower seeds, whether or not broken"
-                    },
-                    {
-                        "value": "1207",
-                        "description": "Other oil seeds and oleaginous fruits, whether or not broken"
-                    },
-                    {
-                        "value": "1208",
-                        "description": "Flours and meals of oil seeds or oleaginous fruits, other than those of mustard"
-                    },
-                    {
-                        "value": "1209",
-                        "description": "Seeds, fruit and spores, of a kind used for sowing"
-                    },
-                    {
-                        "value": "1212 91",
-                        "description": "Sugar beet"
-                    },
-                    {
-                        "value": "1212 93 00",
-                        "description": "Sugar cane"
-                    },
-                    {
-                        "value": "1213 00 00",
-                        "description": "Cereal straw and husks, unprepared, whether or not chopped, ground, pressed or in the form of pellets"
-                    },
-                    {
-                        "value": "2522 10 00",
-                        "description": "Quicklime"
-                    },
-                    {
-                        "value": "2522 20 00",
-                        "description": "Slaked lime"
-                    },
-                    {
-                        "value": "2703 00 00",
-                        "description": "Peat (including peat litter), whether or not agglomerated"
-                    }
-                ]
-            },
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "01.62",
-                        "description": "Support services to animal production"
-                    },
-                    {
-                        "value": "01.63",
-                        "description": "Post-harvest crop services"
-                    },
-                    {
-                        "value": "01.64",
-                        "description": "Seed processing services for propagation"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "EXEMPTION_SUPERREDUCED",
-                "description": "Exemptions and super-reduced rates (Article 105a(1) of the VAT Directive)"
-            },
-            "comment": "Supply of goods and services of a kind normally intended for use in agricultural production but excluding capital goods such as machinery or buildings, excluding leasing and renting of agricultural and forestry machinery and utensils, transport of agricultural and forestry products and felling and logging of trees"
-        },
-        {
-            "memberState": "LU",
-            "type": "REDUCED",
-            "rate": {
-                "type": "SUPER_REDUCED_RATE",
-                "value": 3
-            },
-            "situationOn": "2024-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "0101 30 00",
-                        "description": "Asses"
-                    },
-                    {
-                        "value": "0101 90 00",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "0102",
-                        "description": "Live bovine animals"
-                    },
-                    {
-                        "value": "0103",
-                        "description": "Live swine"
-                    },
-                    {
-                        "value": "0104",
-                        "description": "Live sheep and goats"
-                    },
-                    {
-                        "value": "0105",
-                        "description": "Live poultry, that is to say, fowls of the species Gallus domesticus, ducks, geese, turkeys and guinea fowls"
-                    },
-                    {
-                        "value": "0106 14 10",
-                        "description": "Domestic rabbits"
-                    },
-                    {
-                        "value": "0106 14 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "0106 41 00",
-                        "description": "Bees"
-                    },
-                    {
-                        "value": "0511 10 00",
-                        "description": "Bovine semen"
-                    },
-                    {
-                        "value": "0602 10 10",
-                        "description": "Of vines"
-                    },
-                    {
-                        "value": "0602 20",
-                        "description": "Trees, shrubs and bushes, grafted or not, of kinds which bear edible fruit or nuts"
-                    },
-                    {
-                        "value": "0602 90 10",
-                        "description": "Mushroom spawn"
-                    },
-                    {
-                        "value": "0602 90 30",
-                        "description": "Vegetable and strawberry plants"
-                    },
-                    {
-                        "value": "0602 90 41",
-                        "description": "Forest trees"
-                    },
-                    {
-                        "value": "10",
-                        "description": "CHAPTER 10 - CEREALS"
-                    },
-                    {
-                        "value": "1201",
-                        "description": "Soya beans, whether or not broken"
-                    },
-                    {
-                        "value": "1202",
-                        "description": "Groundnuts, not roasted or otherwise cooked, whether or not shelled or broken"
-                    },
-                    {
-                        "value": "1203 00 00",
-                        "description": "Copra"
-                    },
-                    {
-                        "value": "1204 00",
-                        "description": "Linseed, whether or not broken"
-                    },
-                    {
-                        "value": "1205",
-                        "description": "Rape or colza seeds, whether or not broken"
-                    },
-                    {
-                        "value": "1206 00",
-                        "description": "Sunflower seeds, whether or not broken"
-                    },
-                    {
-                        "value": "1207",
-                        "description": "Other oil seeds and oleaginous fruits, whether or not broken"
-                    },
-                    {
-                        "value": "1208",
-                        "description": "Flours and meals of oil seeds or oleaginous fruits, other than those of mustard"
-                    },
-                    {
-                        "value": "1209",
-                        "description": "Seeds, fruit and spores, of a kind used for sowing"
-                    },
-                    {
-                        "value": "1212 91",
-                        "description": "Sugar beet"
-                    },
-                    {
-                        "value": "1212 93 00",
-                        "description": "Sugar cane"
-                    },
-                    {
-                        "value": "1213 00 00",
-                        "description": "Cereal straw and husks, unprepared, whether or not chopped, ground, pressed or in the form of pellets"
-                    },
-                    {
-                        "value": "2522 10 00",
-                        "description": "Quicklime"
-                    },
-                    {
-                        "value": "2522 20 00",
-                        "description": "Slaked lime"
-                    },
-                    {
-                        "value": "2703 00 00",
-                        "description": "Peat (including peat litter), whether or not agglomerated"
-                    },
-                    {
-                        "value": "31",
-                        "description": "CHAPTER 31 - FERTILISERS"
-                    }
-                ]
-            },
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "01.61",
-                        "description": "Support services to crop production"
-                    },
-                    {
-                        "value": "01.62",
-                        "description": "Support services to animal production"
-                    },
-                    {
-                        "value": "01.63",
-                        "description": "Post-harvest crop services"
-                    },
-                    {
-                        "value": "01.64",
-                        "description": "Seed processing services for propagation"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "CERTAIN_AGRICULTURAL_INPUT",
-                "description": "Certain agricultural inputs"
-            },
-            "comment": "Services excluded : leasing and renting of agricultural and forestry machinery and utensils; transport of agricultural and forestry products; felling and logging of trees"
         },
         {
             "memberState": "LU",
@@ -1923,40 +2226,6 @@
                     {
                         "value": "0101 29 90",
                         "description": "Other"
-                    },
-                    {
-                        "value": "0511 99 85",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "0601",
-                        "description": "Bulbs, tubers, tuberous roots, corms, crowns and rhizomes, dormant, in growth or in flower; chicory plants and roots other than roots of heading 1212"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "EXEMPTION_SUPERREDUCED",
-                "description": "Exemptions and super-reduced rates (Article 105a(1) of the VAT Directive)"
-            },
-            "comment": "Supply of goods and services of a kind normally intended for use in agricultural production:\n- Draft horses\n- Ova of animals used in agricultural production\n- Rhubarb rhizomes; Asparagus crowns; Chicory plants and roots other than roots of heading 1212"
-        },
-        {
-            "memberState": "LU",
-            "type": "REDUCED",
-            "rate": {
-                "type": "SUPER_REDUCED_RATE",
-                "value": 3
-            },
-            "situationOn": "2024-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "0101 21 00",
-                        "description": "Pure-bred breeding animals"
-                    },
-                    {
-                        "value": "0101 29 90",
-                        "description": "Other"
                     }
                 ]
             },
@@ -1968,109 +2237,13 @@
         },
         {
             "memberState": "LU",
-            "type": "REDUCED",
+            "type": "STANDARD",
             "rate": {
-                "type": "SUPER_REDUCED_RATE",
-                "value": 3
+                "type": "DEFAULT",
+                "value": 17
             },
             "situationOn": "2024-01-01+01:00",
-            "cnCodes": {
-                "code": {
-                    "value": "0301",
-                    "description": "Live fish"
-                }
-            },
-            "category": {
-                "identifier": "FOODSTUFFS",
-                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and …"
-            },
-            "comment": "Live Fish, for human and animal consumption or  normally intended for use in the preparation of foodstuffs"
-        },
-        {
-            "memberState": "LU",
-            "type": "REDUCED",
-            "rate": {
-                "type": "SUPER_REDUCED_RATE",
-                "value": 3
-            },
-            "situationOn": "2024-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "0511 99 31",
-                        "description": "Raw"
-                    },
-                    {
-                        "value": "0511 99 39",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "3924 90 00",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "4014 90 00",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "9619 00 30",
-                        "description": "Of wadding of textile materials"
-                    },
-                    {
-                        "value": "9619 00 40",
-                        "description": "Sanitary towels (pads), tampons and similar articles"
-                    },
-                    {
-                        "value": "9619 00 71",
-                        "description": "Sanitary towels (pads)"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "PHARMACEUTICAL_PRODUCTS",
-                "description": "Pharmaceutical products of a kind normally used for health care, prevention of illness and as treatment for medical and veterinary purposes,…"
-            },
-            "comment": "Products used for sanitary protection: sanitary towels (pads), tampons, panty liners, period panties, menstrual cups, menstrual sponges and similar feminine hygiene products"
-        },
-        {
-            "memberState": "LU",
-            "type": "REDUCED",
-            "rate": {
-                "type": "SUPER_REDUCED_RATE",
-                "value": 3
-            },
-            "situationOn": "2024-01-01+01:00",
-            "cnCodes": {
-                "code": {
-                    "value": "0511 99 85",
-                    "description": "Other"
-                }
-            },
-            "category": {
-                "identifier": "CERTAIN_AGRICULTURAL_INPUT",
-                "description": "Certain agricultural inputs"
-            },
-            "comment": "Ova of animals used in agricultural production"
-        },
-        {
-            "memberState": "LU",
-            "type": "REDUCED",
-            "rate": {
-                "type": "SUPER_REDUCED_RATE",
-                "value": 3
-            },
-            "situationOn": "2024-01-01+01:00",
-            "cnCodes": {
-                "code": {
-                    "value": "0601",
-                    "description": "Bulbs, tubers, tuberous roots, corms, crowns and rhizomes, dormant, in growth or in flower; chicory plants and roots other than roots of heading 1212"
-                }
-            },
-            "category": {
-                "identifier": "CERTAIN_AGRICULTURAL_INPUT",
-                "description": "Certain agricultural inputs"
-            },
-            "comment": "Rhubarb rhizomes; Asparagus crowns; Chicory plants and roots other than roots of heading 1212"
+            "comment": "<p>Art. 39(3) of VAT law<\/p>"
         },
         {
             "memberState": "LU",
@@ -2127,36 +2300,6 @@
                 "description": "Pharmaceutical products of a kind normally used for health care, prevention of illness and as treatment for medical and veterinary purposes,…"
             },
             "comment": "- Proprietary medicinal products, ready-made medicinal products and medicinal products, as defined in Article 1 of the law of 11 April 1983 regulating the publicity and marketing of pharmaceutical products\n- Veterinary medical products as defined in Article 1 of the law of 18 December 1985 concerning veterinary medical products \n- Pharmaceutical preparations\n- Products used for contraception"
-        },
-        {
-            "memberState": "LU",
-            "type": "REDUCED",
-            "rate": {
-                "type": "SUPER_REDUCED_RATE",
-                "value": 3
-            },
-            "situationOn": "2024-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "1211",
-                        "description": "Plants and parts of plants (including seeds and fruits), of a kind used primarily in perfumery, in pharmacy or for insecticidal, fungicidal or similar purposes, fresh, chilled, frozen or dried, whether or not cut, crushed or powdered"
-                    },
-                    {
-                        "value": "3003",
-                        "description": "Medicaments (excluding goods of heading 3002, 3005 or 3006) consisting of two or more constituents which have been mixed together for therapeutic or prophylactic uses, not put up in measured doses or in forms or packings for retail sale"
-                    },
-                    {
-                        "value": "3004",
-                        "description": "Medicaments (excluding goods of heading 3002, 3005 or 3006) consisting of mixed or unmixed products for therapeutic or prophylactic uses, put up in measured doses (including those in the form of transdermal administration systems) or in forms or packings for retail sale"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "FOODSTUFFS",
-                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and …"
-            },
-            "comment": "Plants and part of plants, seeds and grains, used for preparing infusions or teas"
         },
         {
             "memberState": "LU",
@@ -2410,37 +2553,6 @@
                 "description": "Clothing, headgear, scarves, gloves and shoes for children under 14 years of age"
             },
             "comment": "- Children clothing, if clearly intended for children of a max. age of thirteen \n- Children footwear; for boys up to and included size 40; for girls up to and included size 35.5 (35 if half sizes not available) for pumps, and up to and included size 38.5 (38 if half sizes not available) for any other shoe type unless heel hight, sole hight included, exceeds 4 cm"
-        },
-        {
-            "memberState": "LU",
-            "type": "REDUCED",
-            "rate": {
-                "type": "SUPER_REDUCED_RATE",
-                "value": 3
-            },
-            "situationOn": "2024-01-01+01:00",
-            "cnCodes": {
-                "code": {
-                    "value": "2201 90 00",
-                    "description": "Other"
-                }
-            },
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "36.00.11",
-                        "description": "Drinking water"
-                    },
-                    {
-                        "value": "36.00.30",
-                        "description": "Trade services of water through mains"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "SUPPLY_WATER",
-                "description": "Supply of water"
-            }
         },
         {
             "memberState": "LU",
@@ -2983,88 +3095,6 @@
                 "value": 3
             },
             "situationOn": "2024-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "1501",
-                        "description": "Pig fat (including lard) and poultry fat, other than that of heading 0209 or1503"
-                    },
-                    {
-                        "value": "1502",
-                        "description": "Fats of bovine animals, sheep or goats, other than those of heading 1503"
-                    },
-                    {
-                        "value": "1503 00",
-                        "description": "Lard stearin, lard oil, oleostearin, oleo-oil and tallow oil, not emulsified or mixed or otherwise prepared"
-                    },
-                    {
-                        "value": "1504",
-                        "description": "Fats and oils and their fractions, of fish or marine mammals, whether or not refined, but not chemically modified"
-                    },
-                    {
-                        "value": "1505 00",
-                        "description": "Wool grease and fatty substances derived therefrom (including lanolin)"
-                    },
-                    {
-                        "value": "1506 00 00",
-                        "description": "Other animal fats and oils and their fractions, whether or not refined, but not chemically modified"
-                    },
-                    {
-                        "value": "1507",
-                        "description": "Soya-bean oil and its fractions, whether or not refined, but not chemically modified"
-                    },
-                    {
-                        "value": "1508",
-                        "description": "Groundnut oil and its fractions, whether or not refined, but not chemically modified"
-                    },
-                    {
-                        "value": "1509",
-                        "description": "Olive oil and its fractions, whether or not refined, but not chemically modified"
-                    },
-                    {
-                        "value": "1510 00",
-                        "description": "Other oils and their fractions, obtained solely from olives, whether or not refined, but not chemically modified, including blends of these oils or fractions with oils or fractions of heading 1509"
-                    },
-                    {
-                        "value": "1511",
-                        "description": "Palm oil and its fractions, whether or not refined, but not chemically modified"
-                    },
-                    {
-                        "value": "1512",
-                        "description": "Sunflower-seed, safflower or cotton-seed oil and fractions thereof, whether or not refined, but not chemically modified"
-                    },
-                    {
-                        "value": "1513",
-                        "description": "Coconut (copra), palm kernel or babassu oil and fractions thereof, whether or not refined, but not chemically modified"
-                    },
-                    {
-                        "value": "1514",
-                        "description": "Rape, colza or mustard oil and fractions thereof, whether or not refined, but not chemically modified"
-                    },
-                    {
-                        "value": "1515",
-                        "description": "Other fixed vegetable or microbial fats and oils (including jojoba oil) and their fractions, whether or not refined, but not chemically modified"
-                    },
-                    {
-                        "value": "1516",
-                        "description": "Animal, vegetable or microbial fats and oils and their fractions, partly or wholly hydrogenated, inter-esterified, re-esterified or elaidinised, whether or not refined, but not further prepared"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "FOODSTUFFS",
-                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and …"
-            },
-            "comment": "Animal or vegetable fats and oils for human and animal consumption or  normally intended for use in the preparation of foodstuffs"
-        },
-        {
-            "memberState": "LU",
-            "type": "REDUCED",
-            "rate": {
-                "type": "SUPER_REDUCED_RATE",
-                "value": 3
-            },
-            "situationOn": "2024-01-01+01:00",
             "category": {
                 "identifier": "EVENT_ACCESS",
                 "description": "Granting of access to certain events and premises"
@@ -3098,36 +3128,6 @@
                 "description": "Certain renovation work carried out for the benefit of a dwelling used as a principal residence by a person other than the owner of the dwelling"
             },
             "comment": "Renovation and repairs : substantial works on housing used as principal dwelling and (i) constructed more than 10 years prior to the start of the works (ii) newly acquired, the works to be completed in the five years following the acquisition"
-        },
-        {
-            "memberState": "LU",
-            "type": "STANDARD",
-            "rate": {
-                "type": "DEFAULT",
-                "value": 17
-            },
-            "situationOn": "2024-01-01+01:00",
-            "comment": "<p>Art. 39(3) of VAT law<\/p>"
-        },
-        {
-            "memberState": "LU",
-            "type": "REDUCED",
-            "rate": {
-                "type": "SUPER_REDUCED_RATE",
-                "value": 3
-            },
-            "situationOn": "2024-01-01+01:00",
-            "cnCodes": {
-                "code": {
-                    "value": "2201",
-                    "description": "Waters, including natural or artificial mineral waters and aerated waters, not containing added sugar or other sweetening matter nor flavoured; ice and snow"
-                }
-            },
-            "category": {
-                "identifier": "FOODSTUFFS",
-                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and …"
-            },
-            "comment": "Waters, including natural or artificial mineral waters and aerated waters, not containing added sugar or other sweetening matter nor flavoured"
         }
     ]
 }
