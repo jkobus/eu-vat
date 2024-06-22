@@ -847,6 +847,20 @@
             "memberState": "PT",
             "type": "REDUCED",
             "rate": {
+                "type": "PARKING_RATE",
+                "value": 13
+            },
+            "situationOn": "2024-01-01+01:00",
+            "category": {
+                "identifier": "NEW_PARKING_RATE",
+                "description": "Parking rates (Article 105a(3) of the VAT Directive)"
+            },
+            "comment": "The parking rate of 13% applies to: 1. Wine, with the exclusion of “special wines” as fortified wines, liqueur wines or sparkling wines. 2. Agricultural tools and utensils, mobile silos, tractors, pumps and other machinery designed exclusively or mainly for the purpose of agriculture, cattle breeding or forestry. 3. Diesel for agriculture."
+        },
+        {
+            "memberState": "PT",
+            "type": "REDUCED",
+            "rate": {
                 "type": "REDUCED_RATE",
                 "value": 6
             },
@@ -1153,80 +1167,6 @@
             "memberState": "PT",
             "type": "REDUCED",
             "rate": {
-                "type": "PARKING_RATE",
-                "value": 13
-            },
-            "situationOn": "2024-01-01+01:00",
-            "category": {
-                "identifier": "NEW_PARKING_RATE",
-                "description": "Parking rates (Article 105a(3) of the VAT Directive)"
-            },
-            "comment": "The parking rate of 13% applies to: 1. Wine, with the exclusion of “special wines” as fortified wines, liqueur wines or sparkling wines. 2. Agricultural tools and utensils, mobile silos, tractors, pumps and other machinery designed exclusively or mainly for the purpose of agriculture, cattle breeding or forestry. 3. Diesel for agriculture."
-        },
-        {
-            "memberState": "PT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 6
-            },
-            "situationOn": "2024-01-01+01:00",
-            "cnCodes": {
-                "code": {
-                    "value": "9703 00 00",
-                    "description": "Original sculptures and statuary, in any material"
-                }
-            },
-            "category": {
-                "identifier": "SCULPTURE_CASTS",
-                "description": "Sculpture casts the production of which is limited to eight copies and supervised by the artist or his successors in title…"
-            },
-            "comment": "Portuguese VAT law does not depend of CN or CPA codes to apply reduced taxes rates. For this reason, the following codes are approximate and not legally binding. For sake of certainty, reference should be made to the Portuguese VAT law (decree law n.º 394-B\/1984, of December 28)"
-        },
-        {
-            "memberState": "PT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 6
-            },
-            "situationOn": "2024-01-01+01:00",
-            "cnCodes": {
-                "code": {
-                    "value": "9703 00 00",
-                    "description": "Original sculptures and statuary, in any material"
-                }
-            },
-            "category": {
-                "identifier": "CERAMICS",
-                "description": "Individual pieces of ceramics executed entirely by the artist and signed by him"
-            },
-            "comment": "Portuguese VAT law does not depend of CN or CPA codes to apply reduced taxes rates. For this reason, the following codes are approximate and not legally binding. For sake of certainty, reference should be made to the Portuguese VAT law (decree law n.º 394-B\/1984, of December 28)"
-        },
-        {
-            "memberState": "PT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 6
-            },
-            "situationOn": "2024-01-01+01:00",
-            "cnCodes": {
-                "code": {
-                    "value": "9703 00 00",
-                    "description": "Original sculptures and statuary, in any material"
-                }
-            },
-            "category": {
-                "identifier": "ENAMELS",
-                "description": "Enamels on copper, executed entirely by hand, limited to eight numbered copies bearing the signature of the artist or the studio, excluding articles of jewellery and goldsmith’s and silversmith’s wares"
-            },
-            "comment": "Portuguese VAT law does not depend of CN or CPA codes to apply reduced taxes rates. For this reason, the following codes are approximate and not legally binding. For sake of certainty, reference should be made to the Portuguese VAT law (decree law n.º 394-B\/1984, of December 28)"
-        },
-        {
-            "memberState": "PT",
-            "type": "REDUCED",
-            "rate": {
                 "type": "REDUCED_RATE",
                 "value": 6
             },
@@ -1306,6 +1246,214 @@
                 "description": "Supply, including on loan by libraries, of books, newspapers and periodicals either on physical means of support …"
             },
             "comment": "Portuguese VAT law does not depend of CN or CPA codes to apply reduced taxes rates. For this reason, the following codes are approximate and not legally binding. For sake of certainty, reference should be made to the Portuguese VAT law (decree law n.º 394-B\/1984, of December 28)\n23% rate applies to books, newspapers and periodicals containing mainly publicity, private advertisements, obscene or pornographic material."
+        },
+        {
+            "memberState": "PT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 6
+            },
+            "situationOn": "2024-01-01+01:00",
+            "cnCodes": {
+                "code": {
+                    "value": "4911 91 00",
+                    "description": "Pictures, designs and photographs"
+                }
+            },
+            "category": {
+                "identifier": "PHOTOGRAPHS",
+                "description": "Photographs taken by the artist, printed by him or under his supervision, signed and numbered and limited to 30 copies, all sizes and mounts included"
+            },
+            "comment": "Portuguese VAT law does not depend of CN or CPA codes to apply reduced taxes rates. For this reason, the following codes are approximate and not legally binding. For sake of certainty, reference should be made to the Portuguese VAT law (decree law n.º 394-B\/1984, of December 28)"
+        },
+        {
+            "memberState": "PT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 6
+            },
+            "situationOn": "2024-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "5805 00 00",
+                        "description": "Hand-woven tapestries of the type Gobelins, Flanders, Aubusson, Beauvais and the like, and needle-worked tapestries (for example, petit point, cross stitch), whether or not made up"
+                    },
+                    {
+                        "value": "6304",
+                        "description": "Other furnishing articles, excluding those of heading 9404"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "TAPESTRIES",
+                "description": "Tapestries (CN code 5805 00 00) and wall textiles (CN code 6304 00 00) made by hand from original designs provided by artists…"
+            },
+            "comment": "Portuguese VAT law does not depend of CN or CPA codes to apply reduced taxes rates. For this reason, the following codes are approximate and not legally binding. For sake of certainty, reference should be made to the Portuguese VAT law (decree law n.º 394-B\/1984, of December 28)"
+        },
+        {
+            "memberState": "PT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 6
+            },
+            "situationOn": "2024-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "6115",
+                        "description": "Pantyhose, tights, stockings, socks and other hosiery, including graduated compression hosiery (for example, stockings for varicose veins) and footwear without applied soles, knitted or crocheted"
+                    },
+                    {
+                        "value": "6704",
+                        "description": "Wigs, false beards, eyebrows and eyelashes, switches and the like, of human or animal hair or of textile materials; articles of human hair not elsewhere specified or included"
+                    },
+                    {
+                        "value": "8713",
+                        "description": "Carriages for disabled persons, whether or not motorised or otherwise mechanically propelled"
+                    },
+                    {
+                        "value": "9001 40",
+                        "description": "Spectacle lenses of glass"
+                    },
+                    {
+                        "value": "9001 50",
+                        "description": "Spectacle lenses of other materials"
+                    },
+                    {
+                        "value": "9021",
+                        "description": "Orthopaedic appliances, including crutches, surgical belts and trusses; splints and other fracture appliances; artificial parts of the body; hearing aids and other appliances which are worn or carried, or implanted in the body, to compensate for a defect or disability"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "MEDICAL_EQUIPMENT",
+                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
+            },
+            "comment": "Portuguese VAT law does not depend of CN or CPA codes to apply reduced taxes rates. For this reason, the following codes are approximate and not legally binding. For sake of certainty, reference should be made to the Portuguese VAT law (decree law n.º 394-B\/1984, of December 28)\nReduced rate does not apply  to parts and accessories."
+        },
+        {
+            "memberState": "PT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 6
+            },
+            "situationOn": "2024-01-01+01:00",
+            "cnCodes": {
+                "code": {
+                    "value": "9701",
+                    "description": "Paintings, drawings and pastels, executed entirely by hand, other than drawings of heading 4906 and other than hand-painted or hand-decorated manufactured articles; collages, mosaics and similar decorative plaques"
+                }
+            },
+            "category": {
+                "identifier": "PICTURES",
+                "description": "Pictures, collages and similar decorative plaques, paintings and drawings, executed entirely by hand by the artist…"
+            },
+            "comment": "Portuguese VAT law does not depend of CN or CPA codes to apply reduced taxes rates. For this reason, the following codes are approximate and not legally binding. For sake of certainty, reference should be made to the Portuguese VAT law (decree law n.º 394-B\/1984, of December 28)"
+        },
+        {
+            "memberState": "PT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 6
+            },
+            "situationOn": "2024-01-01+01:00",
+            "cnCodes": {
+                "code": {
+                    "value": "9702 00 00",
+                    "description": "Original engravings, prints and lithographs"
+                }
+            },
+            "category": {
+                "identifier": "IMPRESSIONS",
+                "description": "Original engravings, prints and lithographs, being impressions produced in the limited numbers directly in black and white…"
+            },
+            "comment": "Portuguese VAT law does not depend of CN or CPA codes to apply reduced taxes rates. For this reason, the following codes are approximate and not legally binding. For sake of certainty, reference should be made to the Portuguese VAT law (decree law n.º 394-B\/1984, of December 28)"
+        },
+        {
+            "memberState": "PT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 6
+            },
+            "situationOn": "2024-01-01+01:00",
+            "cnCodes": {
+                "code": {
+                    "value": "9703 00 00",
+                    "description": "Original sculptures and statuary, in any material"
+                }
+            },
+            "category": {
+                "identifier": "SCULPTURES",
+                "description": "Original sculptures and statuary, in any material, provided that they are executed entirely by the artists"
+            },
+            "comment": "Portuguese VAT law does not depend of CN or CPA codes to apply reduced taxes rates. For this reason, the following codes are approximate and not legally binding. For sake of certainty, reference should be made to the Portuguese VAT law (decree law n.º 394-B\/1984, of December 28)"
+        },
+        {
+            "memberState": "PT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 6
+            },
+            "situationOn": "2024-01-01+01:00",
+            "cnCodes": {
+                "code": {
+                    "value": "9703 00 00",
+                    "description": "Original sculptures and statuary, in any material"
+                }
+            },
+            "category": {
+                "identifier": "SCULPTURE_CASTS",
+                "description": "Sculpture casts the production of which is limited to eight copies and supervised by the artist or his successors in title…"
+            },
+            "comment": "Portuguese VAT law does not depend of CN or CPA codes to apply reduced taxes rates. For this reason, the following codes are approximate and not legally binding. For sake of certainty, reference should be made to the Portuguese VAT law (decree law n.º 394-B\/1984, of December 28)"
+        },
+        {
+            "memberState": "PT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 6
+            },
+            "situationOn": "2024-01-01+01:00",
+            "cnCodes": {
+                "code": {
+                    "value": "9703 00 00",
+                    "description": "Original sculptures and statuary, in any material"
+                }
+            },
+            "category": {
+                "identifier": "CERAMICS",
+                "description": "Individual pieces of ceramics executed entirely by the artist and signed by him"
+            },
+            "comment": "Portuguese VAT law does not depend of CN or CPA codes to apply reduced taxes rates. For this reason, the following codes are approximate and not legally binding. For sake of certainty, reference should be made to the Portuguese VAT law (decree law n.º 394-B\/1984, of December 28)"
+        },
+        {
+            "memberState": "PT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 6
+            },
+            "situationOn": "2024-01-01+01:00",
+            "cnCodes": {
+                "code": {
+                    "value": "9703 00 00",
+                    "description": "Original sculptures and statuary, in any material"
+                }
+            },
+            "category": {
+                "identifier": "ENAMELS",
+                "description": "Enamels on copper, executed entirely by hand, limited to eight numbered copies bearing the signature of the artist or the studio, excluding articles of jewellery and goldsmith’s and silversmith’s wares"
+            },
+            "comment": "Portuguese VAT law does not depend of CN or CPA codes to apply reduced taxes rates. For this reason, the following codes are approximate and not legally binding. For sake of certainty, reference should be made to the Portuguese VAT law (decree law n.º 394-B\/1984, of December 28)"
         },
         {
             "memberState": "PT",
@@ -1697,154 +1845,6 @@
                 "description": "Supply of electricity, district heating and district cooling, and biogas produced by the feedstock listed in Annex IX, Part A, to Directive (EU) 2018\/2001 of the European Parliament and of the Council;"
             },
             "comment": "6% for the fixed component of electricity supplies in power contracts 3.45 kVA and for the supply of electricity for consumption, excluding its fixed components, in power contracts 6.90 kVA, and with limits in kWh consumption per 30 days;  \n6% for the fixed component of natural gas supplies in lower pressure contracts (10 000 m3); supply and installation of highly efficient low emissions heating systems; firewood"
-        },
-        {
-            "memberState": "PT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 6
-            },
-            "situationOn": "2024-01-01+01:00",
-            "cnCodes": {
-                "code": {
-                    "value": "4911 91 00",
-                    "description": "Pictures, designs and photographs"
-                }
-            },
-            "category": {
-                "identifier": "PHOTOGRAPHS",
-                "description": "Photographs taken by the artist, printed by him or under his supervision, signed and numbered and limited to 30 copies, all sizes and mounts included"
-            },
-            "comment": "Portuguese VAT law does not depend of CN or CPA codes to apply reduced taxes rates. For this reason, the following codes are approximate and not legally binding. For sake of certainty, reference should be made to the Portuguese VAT law (decree law n.º 394-B\/1984, of December 28)"
-        },
-        {
-            "memberState": "PT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 6
-            },
-            "situationOn": "2024-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "5805 00 00",
-                        "description": "Hand-woven tapestries of the type Gobelins, Flanders, Aubusson, Beauvais and the like, and needle-worked tapestries (for example, petit point, cross stitch), whether or not made up"
-                    },
-                    {
-                        "value": "6304",
-                        "description": "Other furnishing articles, excluding those of heading 9404"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "TAPESTRIES",
-                "description": "Tapestries (CN code 5805 00 00) and wall textiles (CN code 6304 00 00) made by hand from original designs provided by artists…"
-            },
-            "comment": "Portuguese VAT law does not depend of CN or CPA codes to apply reduced taxes rates. For this reason, the following codes are approximate and not legally binding. For sake of certainty, reference should be made to the Portuguese VAT law (decree law n.º 394-B\/1984, of December 28)"
-        },
-        {
-            "memberState": "PT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 6
-            },
-            "situationOn": "2024-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "6115",
-                        "description": "Pantyhose, tights, stockings, socks and other hosiery, including graduated compression hosiery (for example, stockings for varicose veins) and footwear without applied soles, knitted or crocheted"
-                    },
-                    {
-                        "value": "6704",
-                        "description": "Wigs, false beards, eyebrows and eyelashes, switches and the like, of human or animal hair or of textile materials; articles of human hair not elsewhere specified or included"
-                    },
-                    {
-                        "value": "8713",
-                        "description": "Carriages for disabled persons, whether or not motorised or otherwise mechanically propelled"
-                    },
-                    {
-                        "value": "9001 40",
-                        "description": "Spectacle lenses of glass"
-                    },
-                    {
-                        "value": "9001 50",
-                        "description": "Spectacle lenses of other materials"
-                    },
-                    {
-                        "value": "9021",
-                        "description": "Orthopaedic appliances, including crutches, surgical belts and trusses; splints and other fracture appliances; artificial parts of the body; hearing aids and other appliances which are worn or carried, or implanted in the body, to compensate for a defect or disability"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "MEDICAL_EQUIPMENT",
-                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
-            },
-            "comment": "Portuguese VAT law does not depend of CN or CPA codes to apply reduced taxes rates. For this reason, the following codes are approximate and not legally binding. For sake of certainty, reference should be made to the Portuguese VAT law (decree law n.º 394-B\/1984, of December 28)\nReduced rate does not apply  to parts and accessories."
-        },
-        {
-            "memberState": "PT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 6
-            },
-            "situationOn": "2024-01-01+01:00",
-            "cnCodes": {
-                "code": {
-                    "value": "9701",
-                    "description": "Paintings, drawings and pastels, executed entirely by hand, other than drawings of heading 4906 and other than hand-painted or hand-decorated manufactured articles; collages, mosaics and similar decorative plaques"
-                }
-            },
-            "category": {
-                "identifier": "PICTURES",
-                "description": "Pictures, collages and similar decorative plaques, paintings and drawings, executed entirely by hand by the artist…"
-            },
-            "comment": "Portuguese VAT law does not depend of CN or CPA codes to apply reduced taxes rates. For this reason, the following codes are approximate and not legally binding. For sake of certainty, reference should be made to the Portuguese VAT law (decree law n.º 394-B\/1984, of December 28)"
-        },
-        {
-            "memberState": "PT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 6
-            },
-            "situationOn": "2024-01-01+01:00",
-            "cnCodes": {
-                "code": {
-                    "value": "9702 00 00",
-                    "description": "Original engravings, prints and lithographs"
-                }
-            },
-            "category": {
-                "identifier": "IMPRESSIONS",
-                "description": "Original engravings, prints and lithographs, being impressions produced in the limited numbers directly in black and white…"
-            },
-            "comment": "Portuguese VAT law does not depend of CN or CPA codes to apply reduced taxes rates. For this reason, the following codes are approximate and not legally binding. For sake of certainty, reference should be made to the Portuguese VAT law (decree law n.º 394-B\/1984, of December 28)"
-        },
-        {
-            "memberState": "PT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 6
-            },
-            "situationOn": "2024-01-01+01:00",
-            "cnCodes": {
-                "code": {
-                    "value": "9703 00 00",
-                    "description": "Original sculptures and statuary, in any material"
-                }
-            },
-            "category": {
-                "identifier": "SCULPTURES",
-                "description": "Original sculptures and statuary, in any material, provided that they are executed entirely by the artists"
-            },
-            "comment": "Portuguese VAT law does not depend of CN or CPA codes to apply reduced taxes rates. For this reason, the following codes are approximate and not legally binding. For sake of certainty, reference should be made to the Portuguese VAT law (decree law n.º 394-B\/1984, of December 28)"
         }
     ]
 }

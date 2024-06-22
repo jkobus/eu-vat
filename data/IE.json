@@ -5,136 +5,6 @@
             "memberState": "IE",
             "type": "REDUCED",
             "rate": {
-                "type": "REDUCED_RATE",
-                "value": 13.5
-            },
-            "situationOn": "2024-01-01+01:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "41.00.3",
-                        "description": "Construction works for residential buildings (new works, additions, alterations and renovation works)"
-                    },
-                    {
-                        "value": "41.00.30",
-                        "description": "Construction works for residential buildings (new works, additions, alterations and renovation works)"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "PRIVATE_DWELLINGS",
-                "description": "The renovation and repair of private dwellings, excluding materials which account for a significant part of the value of the service supplied"
-            }
-        },
-        {
-            "memberState": "IE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 13.5
-            },
-            "situationOn": "2024-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "1905",
-                        "description": "Bread, pastry, cakes, biscuits and other bakers' wares, whether or not containing cocoa; communion wafers, empty cachets of a kind suitable for pharmaceutical use, sealing wafers, rice paper and similar products"
-                    },
-                    {
-                        "value": "1905 31",
-                        "description": "Sweet biscuits"
-                    },
-                    {
-                        "value": "1905 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "2106",
-                        "description": "Food preparations not elsewhere specified or included"
-                    }
-                ]
-            },
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "56.10",
-                        "description": "Restaurant and mobile food serving services"
-                    },
-                    {
-                        "value": "56.10.1",
-                        "description": "Restaurant and mobile food serving services"
-                    },
-                    {
-                        "value": "56.29",
-                        "description": "Other food serving services"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "FOODSTUFFS",
-                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and …"
-            },
-            "comment": "Restaurant food, food served in canteens, and take away food is subject to the reduced rate of VAT of 13.5%."
-        },
-        {
-            "memberState": "IE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 13.5
-            },
-            "situationOn": "2024-01-01+01:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "81.21.10",
-                        "description": "General cleaning services of buildings"
-                    },
-                    {
-                        "value": "81.22.11",
-                        "description": "Window cleaning services"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "WINDOW_CLEANING",
-                "description": "Window cleaning and cleaning in private households"
-            }
-        },
-        {
-            "memberState": "IE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 13.5
-            },
-            "situationOn": "2024-01-01+01:00",
-            "cpaCodes": {
-                "code": {
-                    "value": "84.12.13",
-                    "description": "Administrative housing and community amenity services"
-                }
-            },
-            "category": {
-                "identifier": "STREET_CLEANING",
-                "description": "Supply of services provided in connection with street cleaning, refuse collection and waste treatment, other than the supply of such services by bodies referred to in Article 13"
-            },
-            "comment": "Street cleaning and refuse collecting apply at the 13.5% rate, waste treatment is at the standard VAT rate of 23%."
-        },
-        {
-            "memberState": "IE",
-            "type": "STANDARD",
-            "rate": {
-                "type": "DEFAULT",
-                "value": 23
-            },
-            "situationOn": "2024-01-01+01:00",
-            "comment": "<p>The Standard Rate of VAT was temporarily reduced from 23% to 21% from 1 September 2020 to 28 February 2021. It has been restored to 23% from 1 March 2021.<\/p>"
-        },
-        {
-            "memberState": "IE",
-            "type": "REDUCED",
-            "rate": {
                 "type": "EXEMPTED",
                 "value": 0
             },
@@ -595,6 +465,56 @@
             "cnCodes": {
                 "code": [
                     {
+                        "value": "1905",
+                        "description": "Bread, pastry, cakes, biscuits and other bakers' wares, whether or not containing cocoa; communion wafers, empty cachets of a kind suitable for pharmaceutical use, sealing wafers, rice paper and similar products"
+                    },
+                    {
+                        "value": "1905 31",
+                        "description": "Sweet biscuits"
+                    },
+                    {
+                        "value": "1905 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "2106",
+                        "description": "Food preparations not elsewhere specified or included"
+                    }
+                ]
+            },
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "56.10",
+                        "description": "Restaurant and mobile food serving services"
+                    },
+                    {
+                        "value": "56.10.1",
+                        "description": "Restaurant and mobile food serving services"
+                    },
+                    {
+                        "value": "56.29",
+                        "description": "Other food serving services"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "FOODSTUFFS",
+                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and …"
+            },
+            "comment": "Restaurant food, food served in canteens, and take away food is subject to the reduced rate of VAT of 13.5%."
+        },
+        {
+            "memberState": "IE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 13.5
+            },
+            "situationOn": "2024-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
                         "value": "3006 60 00",
                         "description": "Chemical contraceptive preparations based on hormones, on other products of heading 2937 or on spermicides"
                     },
@@ -888,6 +808,86 @@
                 "identifier": "HOUSING_PROVISION",
                 "description": "Provision, construction, renovation and alteration of housing, as part of a social policy"
             }
+        },
+        {
+            "memberState": "IE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 13.5
+            },
+            "situationOn": "2024-01-01+01:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "41.00.3",
+                        "description": "Construction works for residential buildings (new works, additions, alterations and renovation works)"
+                    },
+                    {
+                        "value": "41.00.30",
+                        "description": "Construction works for residential buildings (new works, additions, alterations and renovation works)"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "PRIVATE_DWELLINGS",
+                "description": "The renovation and repair of private dwellings, excluding materials which account for a significant part of the value of the service supplied"
+            }
+        },
+        {
+            "memberState": "IE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 13.5
+            },
+            "situationOn": "2024-01-01+01:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "81.21.10",
+                        "description": "General cleaning services of buildings"
+                    },
+                    {
+                        "value": "81.22.11",
+                        "description": "Window cleaning services"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "WINDOW_CLEANING",
+                "description": "Window cleaning and cleaning in private households"
+            }
+        },
+        {
+            "memberState": "IE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 13.5
+            },
+            "situationOn": "2024-01-01+01:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "84.12.13",
+                    "description": "Administrative housing and community amenity services"
+                }
+            },
+            "category": {
+                "identifier": "STREET_CLEANING",
+                "description": "Supply of services provided in connection with street cleaning, refuse collection and waste treatment, other than the supply of such services by bodies referred to in Article 13"
+            },
+            "comment": "Street cleaning and refuse collecting apply at the 13.5% rate, waste treatment is at the standard VAT rate of 23%."
+        },
+        {
+            "memberState": "IE",
+            "type": "STANDARD",
+            "rate": {
+                "type": "DEFAULT",
+                "value": 23
+            },
+            "situationOn": "2024-01-01+01:00",
+            "comment": "<p>The Standard Rate of VAT was temporarily reduced from 23% to 21% from 1 September 2020 to 28 February 2021. It has been restored to 23% from 1 March 2021.<\/p>"
         }
     ]
 }
