@@ -3,6 +3,15 @@
     "vatRateResults": [
         {
             "memberState": "HU",
+            "type": "STANDARD",
+            "rate": {
+                "type": "DEFAULT",
+                "value": 27
+            },
+            "situationOn": "2024-01-01+01:00"
+        },
+        {
+            "memberState": "HU",
             "type": "REDUCED",
             "rate": {
                 "type": "EXEMPTED",
@@ -1663,15 +1672,6 @@
                 "description": "Admission to shows, theatres, circuses, fairs, amusement parks, concerts, museums, zoos, cinemas, exhibitions and similar cultural events and facilities"
             },
             "comment": "entrance to open-air festival"
-        },
-        {
-            "memberState": "HU",
-            "type": "STANDARD",
-            "rate": {
-                "type": "DEFAULT",
-                "value": 27
-            },
-            "situationOn": "2024-01-01+01:00"
         }
     ]
 }
