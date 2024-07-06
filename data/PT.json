@@ -8,7 +8,7 @@
                 "type": "REDUCED_RATE",
                 "value": 6
             },
-            "situationOn": "2024-01-01+01:00",
+            "situationOn": "2024-07-01+02:00",
             "cnCodes": {
                 "code": [
                     {
@@ -850,7 +850,7 @@
                 "type": "REDUCED_RATE",
                 "value": 6
             },
-            "situationOn": "2024-01-01+01:00",
+            "situationOn": "2024-07-01+02:00",
             "cnCodes": {
                 "code": [
                     {
@@ -1156,7 +1156,7 @@
                 "type": "PARKING_RATE",
                 "value": 13
             },
-            "situationOn": "2024-01-01+01:00",
+            "situationOn": "2024-07-01+02:00",
             "category": {
                 "identifier": "NEW_PARKING_RATE",
                 "description": "Parking rates (Article 105a(3) of the VAT Directive)"
@@ -1170,389 +1170,7 @@
                 "type": "REDUCED_RATE",
                 "value": 6
             },
-            "situationOn": "2024-01-01+01:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "38.11.1",
-                        "description": "Collection services of non-hazardous recyclable waste"
-                    },
-                    {
-                        "value": "38.11.2",
-                        "description": "Collection services of non-hazardous non-recyclable waste"
-                    },
-                    {
-                        "value": "38.12.1",
-                        "description": "Collection services of hazardous waste"
-                    },
-                    {
-                        "value": "38.21.1",
-                        "description": "Non-hazardous waste treatment for final disposal services"
-                    },
-                    {
-                        "value": "38.21.2",
-                        "description": "Non-hazardous waste disposal services"
-                    },
-                    {
-                        "value": "38.22.1",
-                        "description": "Nuclear and other hazardous waste treatment services"
-                    },
-                    {
-                        "value": "38.22.2",
-                        "description": "Nuclear and other hazardous waste disposal services"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "STREET_CLEANING",
-                "description": "Supply of services provided in connection with street cleaning, refuse collection and waste treatment, other than the supply of such services by bodies referred to in Article 13"
-            },
-            "comment": "Portuguese VAT law does not depend of CN or CPA codes to apply reduced taxes rates. For this reason, the following codes are approximate and not legally binding. For sake of certainty, reference should be made to the Portuguese VAT law (decree law n.º 394-B\/1984, of December 28)"
-        },
-        {
-            "memberState": "PT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 6
-            },
-            "situationOn": "2024-01-01+01:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "41.00",
-                        "description": "Buildings and building construction works"
-                    },
-                    {
-                        "value": "41.00.3",
-                        "description": "Construction works for residential buildings (new works, additions, alterations and renovation works)"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "HOUSING_PROVISION",
-                "description": "Provision, construction, renovation and alteration of housing, as part of a social policy"
-            },
-            "comment": "Portuguese VAT law does not depend of CN or CPA codes to apply reduced taxes rates. For this reason, the following codes are approximate and not legally binding. For sake of certainty, reference should be made to the Portuguese VAT law (decree law n.º 394-B\/1984, of December 28)\nConstruction services on social housing or houses with controlled costs; whose promoters are cooperatives, where the dwellings fall within the scope of the social housing policy."
-        },
-        {
-            "memberState": "PT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 6
-            },
-            "situationOn": "2024-01-01+01:00",
-            "cpaCodes": {
-                "code": {
-                    "value": "41.00.3",
-                    "description": "Construction works for residential buildings (new works, additions, alterations and renovation works)"
-                }
-            },
-            "category": {
-                "identifier": "PRIVATE_DWELLINGS",
-                "description": "The renovation and repair of private dwellings, excluding materials which account for a significant part of the value of the service supplied"
-            },
-            "comment": "The reduced rate on the repairing of private dwellings excludes cleaning, garden upkeep, swimming pools, sauna, tennis court, golf or mini-golf court, or similar. Includes materials that accounts for less than 20% of the value of the service supplied."
-        },
-        {
-            "memberState": "PT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 6
-            },
-            "situationOn": "2024-01-01+01:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "49.1",
-                        "description": "Passenger rail transport services, interurban"
-                    },
-                    {
-                        "value": "49.3",
-                        "description": "Other passenger land transport services"
-                    },
-                    {
-                        "value": "50.1",
-                        "description": "Sea and coastal passenger water transport services"
-                    },
-                    {
-                        "value": "50.3",
-                        "description": "Inland passenger water transport services"
-                    },
-                    {
-                        "value": "51.1",
-                        "description": "Passenger air transport services"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "TRANSPORT_PASSENGERS",
-                "description": "Transport of passengers and their accompanying luggage"
-            },
-            "comment": "International transport of passengers is subject to a zero rate."
-        },
-        {
-            "memberState": "PT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 6
-            },
-            "situationOn": "2024-01-01+01:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "55.1",
-                        "description": "Hotel and similar accommodation services"
-                    },
-                    {
-                        "value": "55.2",
-                        "description": "Holiday and other short stay accommodation services"
-                    },
-                    {
-                        "value": "55.30.11",
-                        "description": "Camping ground services"
-                    },
-                    {
-                        "value": "55.9",
-                        "description": "Other accommodation services"
-                    },
-                    {
-                        "value": "55.90.13",
-                        "description": "Sleeping car and similar services in other transport media"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "ACCOMMODATION",
-                "description": "Accommodation provided in hotels and similar establishments, including the provision of holiday accommodation and the letting of places on camping or caravan sites"
-            },
-            "comment": "- Portuguese VAT law does not depend of CN or CPA codes to apply reduced taxes rates. For this reason, the following codes are approximate and not legally binding. For sake of certainty, reference should be made to the Portuguese VAT law (decree law n.º 394-B\/1984, of December 28).\nThe reduced rate applies only to accommodation including breakfast, if not separately invoiced, being equivalent to half of the full board price, or ¾ of the half board price."
-        },
-        {
-            "memberState": "PT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 6
-            },
-            "situationOn": "2024-01-01+01:00",
-            "cpaCodes": {
-                "code": {
-                    "value": "86.10",
-                    "description": "Hospital services"
-                }
-            },
-            "category": {
-                "identifier": "MEDICAL_CARE",
-                "description": "Provision of medical and dental care and thermal treatment in so far as those services are not exempt pursuant to points (b) to (e) of Article 132(1)"
-            },
-            "comment": "Portuguese VAT law does not depend of CN or CPA codes to apply reduced taxes rates. For this reason, the following codes are approximate and not legally binding. For sake of certainty, reference should be made to the Portuguese VAT law (decree law n.º 394-B\/1984, of December 28)\nWhen not exempt under Article 132 (1) (b) to (e)"
-        },
-        {
-            "memberState": "PT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 6
-            },
-            "situationOn": "2024-01-01+01:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "88.10.11",
-                        "description": "Visiting and assistance services for the elderly"
-                    },
-                    {
-                        "value": "88.10.14",
-                        "description": "Visiting and assistance services for persons with disabilities"
-                    },
-                    {
-                        "value": "88.91.13",
-                        "description": "Baby-sitting services"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "DOMESTIC_CARE",
-                "description": "Domestic care services such as home help and care of the young, elderly, sick or disabled"
-            },
-            "comment": "Portuguese VAT law does not depend of CN or CPA codes to apply reduced taxes rates. For this reason, the following codes are approximate and not legally binding. For sake of certainty, reference should be made to the Portuguese VAT law (decree law n.º 394-B\/1984, of December 28)\nSupplies of home help services to children, the elderly, drug addicts, the sick or the disabled. Assistance services by telephone to the elderly and chronic patients."
-        },
-        {
-            "memberState": "PT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 13
-            },
-            "situationOn": "2024-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "1104 30 90",
-                        "description": "Of other cereals"
-                    },
-                    {
-                        "value": "2201",
-                        "description": "Waters, including natural or artificial mineral waters and aerated waters, not containing added sugar or other sweetening matter nor flavoured; ice and snow"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "FOODSTUFFS",
-                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and …"
-            }
-        },
-        {
-            "memberState": "PT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 13
-            },
-            "situationOn": "2024-01-01+01:00",
-            "cnCodes": {
-                "code": {
-                    "value": "2201",
-                    "description": "Waters, including natural or artificial mineral waters and aerated waters, not containing added sugar or other sweetening matter nor flavoured; ice and snow"
-                }
-            },
-            "category": {
-                "identifier": "SUPPLY_WATER",
-                "description": "Supply of water"
-            }
-        },
-        {
-            "memberState": "PT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 13
-            },
-            "situationOn": "2024-01-01+01:00",
-            "category": {
-                "identifier": "RESTAURANT",
-                "description": "Restaurant and catering services, it being possible to exclude the supply of (alcoholic and\/or non-alcoholic) beverages"
-            },
-            "comment": "The reduced rate excludes alcoholic beverages and soft drinks ."
-        },
-        {
-            "memberState": "PT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 16
-            },
-            "situationOn": "2024-01-01+01:00",
-            "cnCodes": {
-                "code": {
-                    "value": "4801 00 00",
-                    "description": "Newsprint, in rolls or sheets"
-                }
-            },
-            "cpaCodes": {
-                "code": {
-                    "value": "69",
-                    "description": "Legal and accounting services"
-                }
-            },
-            "category": {
-                "identifier": "REGION",
-                "description": "Special reduced rate for specific regions (including articles 104, 105 and 120 of the VAT Directive)"
-            },
-            "comment": "Azores Autonomous Region"
-        },
-        {
-            "memberState": "PT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 22
-            },
-            "situationOn": "2024-01-01+01:00",
-            "category": {
-                "identifier": "REGION",
-                "description": "Special reduced rate for specific regions (including articles 104, 105 and 120 of the VAT Directive)"
-            },
-            "comment": "Madeira Autonomous Region"
-        },
-        {
-            "memberState": "PT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "SUPER_REDUCED_RATE",
-                "value": 6
-            },
-            "situationOn": "2024-01-01+01:00",
-            "cnCodes": {
-                "code": {
-                    "value": "4801 00 00",
-                    "description": "Newsprint, in rolls or sheets"
-                }
-            },
-            "category": {
-                "identifier": "TEMPORARY_EXEMPTION_RATE",
-                "description": "Temporary Exemptions, super-reduced or reduced rates (Article 105a(2) of the VAT Directive)"
-            },
-            "comment": "newsprint"
-        },
-        {
-            "memberState": "PT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 6
-            },
-            "situationOn": "2024-01-01+01:00",
-            "cnCodes": {
-                "code": {
-                    "value": "2201",
-                    "description": "Waters, including natural or artificial mineral waters and aerated waters, not containing added sugar or other sweetening matter nor flavoured; ice and snow"
-                }
-            },
-            "category": {
-                "identifier": "SUPPLY_WATER",
-                "description": "Supply of water"
-            },
-            "comment": "Supply of bottled water is also taxed at 13%. Portuguese VAT law does not depend of CN or CPA codes to apply reduced taxes rates. For this reason, the following codes are approximate and not legally binding. For sake of certainty, reference should be made to the Portuguese VAT law (decree law n.º 394-B\/1984, of December 28)"
-        },
-        {
-            "memberState": "PT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 6
-            },
-            "situationOn": "2024-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "2711 11 00",
-                        "description": "Natural gas"
-                    },
-                    {
-                        "value": "2716 00 00",
-                        "description": "Electrical energy"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "SUSTAINABLE_ENERGY",
-                "description": "Supply of electricity, district heating and district cooling, and biogas produced by the feedstock listed in Annex IX, Part A, to Directive (EU) 2018\/2001 of the European Parliament and of the Council;"
-            },
-            "comment": "6% for the fixed component of electricity supplies in power contracts 3.45 kVA and for the supply of electricity for consumption, excluding its fixed components, in power contracts 6.90 kVA, and with limits in kWh consumption per 30 days;  \n6% for the fixed component of natural gas supplies in lower pressure contracts (10 000 m3); supply and installation of highly efficient low emissions heating systems; firewood"
-        },
-        {
-            "memberState": "PT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 6
-            },
-            "situationOn": "2024-01-01+01:00",
+            "situationOn": "2024-07-01+02:00",
             "cnCodes": {
                 "code": [
                     {
@@ -1598,7 +1216,7 @@
                 "type": "REDUCED_RATE",
                 "value": 6
             },
-            "situationOn": "2024-01-01+01:00",
+            "situationOn": "2024-07-01+02:00",
             "cnCodes": {
                 "code": [
                     {
@@ -1636,7 +1254,7 @@
                 "type": "REDUCED_RATE",
                 "value": 6
             },
-            "situationOn": "2024-01-01+01:00",
+            "situationOn": "2024-07-01+02:00",
             "cnCodes": {
                 "code": {
                     "value": "4911 91 00",
@@ -1656,7 +1274,7 @@
                 "type": "REDUCED_RATE",
                 "value": 6
             },
-            "situationOn": "2024-01-01+01:00",
+            "situationOn": "2024-07-01+02:00",
             "cnCodes": {
                 "code": [
                     {
@@ -1682,7 +1300,7 @@
                 "type": "REDUCED_RATE",
                 "value": 6
             },
-            "situationOn": "2024-01-01+01:00",
+            "situationOn": "2024-07-01+02:00",
             "cnCodes": {
                 "code": [
                     {
@@ -1724,7 +1342,7 @@
                 "type": "REDUCED_RATE",
                 "value": 6
             },
-            "situationOn": "2024-01-01+01:00",
+            "situationOn": "2024-07-01+02:00",
             "cnCodes": {
                 "code": {
                     "value": "9701",
@@ -1744,7 +1362,7 @@
                 "type": "REDUCED_RATE",
                 "value": 6
             },
-            "situationOn": "2024-01-01+01:00",
+            "situationOn": "2024-07-01+02:00",
             "cnCodes": {
                 "code": {
                     "value": "9702 00 00",
@@ -1764,7 +1382,7 @@
                 "type": "REDUCED_RATE",
                 "value": 6
             },
-            "situationOn": "2024-01-01+01:00",
+            "situationOn": "2024-07-01+02:00",
             "cnCodes": {
                 "code": {
                     "value": "9703 00 00",
@@ -1784,7 +1402,7 @@
                 "type": "REDUCED_RATE",
                 "value": 6
             },
-            "situationOn": "2024-01-01+01:00",
+            "situationOn": "2024-07-01+02:00",
             "cnCodes": {
                 "code": {
                     "value": "9703 00 00",
@@ -1804,7 +1422,7 @@
                 "type": "REDUCED_RATE",
                 "value": 6
             },
-            "situationOn": "2024-01-01+01:00",
+            "situationOn": "2024-07-01+02:00",
             "cnCodes": {
                 "code": {
                     "value": "9703 00 00",
@@ -1824,7 +1442,7 @@
                 "type": "REDUCED_RATE",
                 "value": 6
             },
-            "situationOn": "2024-01-01+01:00",
+            "situationOn": "2024-07-01+02:00",
             "cnCodes": {
                 "code": {
                     "value": "9703 00 00",
@@ -1839,12 +1457,382 @@
         },
         {
             "memberState": "PT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 6
+            },
+            "situationOn": "2024-07-01+02:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "38.11.1",
+                        "description": "Collection services of non-hazardous recyclable waste"
+                    },
+                    {
+                        "value": "38.11.2",
+                        "description": "Collection services of non-hazardous non-recyclable waste"
+                    },
+                    {
+                        "value": "38.12.1",
+                        "description": "Collection services of hazardous waste"
+                    },
+                    {
+                        "value": "38.21.1",
+                        "description": "Non-hazardous waste treatment for final disposal services"
+                    },
+                    {
+                        "value": "38.21.2",
+                        "description": "Non-hazardous waste disposal services"
+                    },
+                    {
+                        "value": "38.22.1",
+                        "description": "Nuclear and other hazardous waste treatment services"
+                    },
+                    {
+                        "value": "38.22.2",
+                        "description": "Nuclear and other hazardous waste disposal services"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "STREET_CLEANING",
+                "description": "Supply of services provided in connection with street cleaning, refuse collection and waste treatment, other than the supply of such services by bodies referred to in Article 13"
+            },
+            "comment": "Portuguese VAT law does not depend of CN or CPA codes to apply reduced taxes rates. For this reason, the following codes are approximate and not legally binding. For sake of certainty, reference should be made to the Portuguese VAT law (decree law n.º 394-B\/1984, of December 28)"
+        },
+        {
+            "memberState": "PT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 6
+            },
+            "situationOn": "2024-07-01+02:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "41.00",
+                        "description": "Buildings and building construction works"
+                    },
+                    {
+                        "value": "41.00.3",
+                        "description": "Construction works for residential buildings (new works, additions, alterations and renovation works)"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "HOUSING_PROVISION",
+                "description": "Provision, construction, renovation and alteration of housing, as part of a social policy"
+            },
+            "comment": "Portuguese VAT law does not depend of CN or CPA codes to apply reduced taxes rates. For this reason, the following codes are approximate and not legally binding. For sake of certainty, reference should be made to the Portuguese VAT law (decree law n.º 394-B\/1984, of December 28)\nConstruction services on social housing or houses with controlled costs; whose promoters are cooperatives, where the dwellings fall within the scope of the social housing policy."
+        },
+        {
+            "memberState": "PT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 6
+            },
+            "situationOn": "2024-07-01+02:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "41.00.3",
+                    "description": "Construction works for residential buildings (new works, additions, alterations and renovation works)"
+                }
+            },
+            "category": {
+                "identifier": "PRIVATE_DWELLINGS",
+                "description": "The renovation and repair of private dwellings, excluding materials which account for a significant part of the value of the service supplied"
+            },
+            "comment": "The reduced rate on the repairing of private dwellings excludes cleaning, garden upkeep, swimming pools, sauna, tennis court, golf or mini-golf court, or similar. Includes materials that accounts for less than 20% of the value of the service supplied."
+        },
+        {
+            "memberState": "PT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 6
+            },
+            "situationOn": "2024-07-01+02:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "49.1",
+                        "description": "Passenger rail transport services, interurban"
+                    },
+                    {
+                        "value": "49.3",
+                        "description": "Other passenger land transport services"
+                    },
+                    {
+                        "value": "50.1",
+                        "description": "Sea and coastal passenger water transport services"
+                    },
+                    {
+                        "value": "50.3",
+                        "description": "Inland passenger water transport services"
+                    },
+                    {
+                        "value": "51.1",
+                        "description": "Passenger air transport services"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "TRANSPORT_PASSENGERS",
+                "description": "Transport of passengers and their accompanying luggage"
+            },
+            "comment": "International transport of passengers is subject to a zero rate."
+        },
+        {
+            "memberState": "PT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 6
+            },
+            "situationOn": "2024-07-01+02:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "55.1",
+                        "description": "Hotel and similar accommodation services"
+                    },
+                    {
+                        "value": "55.2",
+                        "description": "Holiday and other short stay accommodation services"
+                    },
+                    {
+                        "value": "55.30.11",
+                        "description": "Camping ground services"
+                    },
+                    {
+                        "value": "55.9",
+                        "description": "Other accommodation services"
+                    },
+                    {
+                        "value": "55.90.13",
+                        "description": "Sleeping car and similar services in other transport media"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "ACCOMMODATION",
+                "description": "Accommodation provided in hotels and similar establishments, including the provision of holiday accommodation and the letting of places on camping or caravan sites"
+            },
+            "comment": "- Portuguese VAT law does not depend of CN or CPA codes to apply reduced taxes rates. For this reason, the following codes are approximate and not legally binding. For sake of certainty, reference should be made to the Portuguese VAT law (decree law n.º 394-B\/1984, of December 28).\nThe reduced rate applies only to accommodation including breakfast, if not separately invoiced, being equivalent to half of the full board price, or ¾ of the half board price."
+        },
+        {
+            "memberState": "PT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 6
+            },
+            "situationOn": "2024-07-01+02:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "86.10",
+                    "description": "Hospital services"
+                }
+            },
+            "category": {
+                "identifier": "MEDICAL_CARE",
+                "description": "Provision of medical and dental care and thermal treatment in so far as those services are not exempt pursuant to points (b) to (e) of Article 132(1)"
+            },
+            "comment": "Portuguese VAT law does not depend of CN or CPA codes to apply reduced taxes rates. For this reason, the following codes are approximate and not legally binding. For sake of certainty, reference should be made to the Portuguese VAT law (decree law n.º 394-B\/1984, of December 28)\nWhen not exempt under Article 132 (1) (b) to (e)"
+        },
+        {
+            "memberState": "PT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 6
+            },
+            "situationOn": "2024-07-01+02:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "88.10.11",
+                        "description": "Visiting and assistance services for the elderly"
+                    },
+                    {
+                        "value": "88.10.14",
+                        "description": "Visiting and assistance services for persons with disabilities"
+                    },
+                    {
+                        "value": "88.91.13",
+                        "description": "Baby-sitting services"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "DOMESTIC_CARE",
+                "description": "Domestic care services such as home help and care of the young, elderly, sick or disabled"
+            },
+            "comment": "Portuguese VAT law does not depend of CN or CPA codes to apply reduced taxes rates. For this reason, the following codes are approximate and not legally binding. For sake of certainty, reference should be made to the Portuguese VAT law (decree law n.º 394-B\/1984, of December 28)\nSupplies of home help services to children, the elderly, drug addicts, the sick or the disabled. Assistance services by telephone to the elderly and chronic patients."
+        },
+        {
+            "memberState": "PT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 13
+            },
+            "situationOn": "2024-07-01+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "1104 30 90",
+                        "description": "Of other cereals"
+                    },
+                    {
+                        "value": "2201",
+                        "description": "Waters, including natural or artificial mineral waters and aerated waters, not containing added sugar or other sweetening matter nor flavoured; ice and snow"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "FOODSTUFFS",
+                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and …"
+            }
+        },
+        {
+            "memberState": "PT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 13
+            },
+            "situationOn": "2024-07-01+02:00",
+            "cnCodes": {
+                "code": {
+                    "value": "2201",
+                    "description": "Waters, including natural or artificial mineral waters and aerated waters, not containing added sugar or other sweetening matter nor flavoured; ice and snow"
+                }
+            },
+            "category": {
+                "identifier": "SUPPLY_WATER",
+                "description": "Supply of water"
+            }
+        },
+        {
+            "memberState": "PT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 13
+            },
+            "situationOn": "2024-07-01+02:00",
+            "category": {
+                "identifier": "RESTAURANT",
+                "description": "Restaurant and catering services, it being possible to exclude the supply of (alcoholic and\/or non-alcoholic) beverages"
+            },
+            "comment": "The reduced rate excludes alcoholic beverages and soft drinks ."
+        },
+        {
+            "memberState": "PT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 16
+            },
+            "situationOn": "2024-07-01+02:00",
+            "category": {
+                "identifier": "REGION",
+                "description": "Special reduced rate for specific regions (including articles 104, 105 and 120 of the VAT Directive)"
+            },
+            "comment": "Azores Autonomous Region"
+        },
+        {
+            "memberState": "PT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 22
+            },
+            "situationOn": "2024-07-01+02:00",
+            "category": {
+                "identifier": "REGION",
+                "description": "Special reduced rate for specific regions (including articles 104, 105 and 120 of the VAT Directive)"
+            },
+            "comment": "Madeira Autonomous Region"
+        },
+        {
+            "memberState": "PT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "SUPER_REDUCED_RATE",
+                "value": 6
+            },
+            "situationOn": "2024-07-01+02:00",
+            "cnCodes": {
+                "code": {
+                    "value": "4801 00 00",
+                    "description": "Newsprint, in rolls or sheets"
+                }
+            },
+            "category": {
+                "identifier": "TEMPORARY_EXEMPTION_RATE",
+                "description": "Temporary Exemptions, super-reduced or reduced rates (Article 105a(2) of the VAT Directive)"
+            },
+            "comment": "newsprint"
+        },
+        {
+            "memberState": "PT",
             "type": "STANDARD",
             "rate": {
                 "type": "DEFAULT",
                 "value": 23
             },
-            "situationOn": "2024-01-01+01:00"
+            "situationOn": "2024-07-01+02:00"
+        },
+        {
+            "memberState": "PT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 6
+            },
+            "situationOn": "2024-07-01+02:00",
+            "cnCodes": {
+                "code": {
+                    "value": "2201",
+                    "description": "Waters, including natural or artificial mineral waters and aerated waters, not containing added sugar or other sweetening matter nor flavoured; ice and snow"
+                }
+            },
+            "category": {
+                "identifier": "SUPPLY_WATER",
+                "description": "Supply of water"
+            },
+            "comment": "Supply of bottled water is also taxed at 13%. Portuguese VAT law does not depend of CN or CPA codes to apply reduced taxes rates. For this reason, the following codes are approximate and not legally binding. For sake of certainty, reference should be made to the Portuguese VAT law (decree law n.º 394-B\/1984, of December 28)"
+        },
+        {
+            "memberState": "PT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 6
+            },
+            "situationOn": "2024-07-01+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "2711 11 00",
+                        "description": "Natural gas"
+                    },
+                    {
+                        "value": "2716 00 00",
+                        "description": "Electrical energy"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "SUSTAINABLE_ENERGY",
+                "description": "Supply of electricity, district heating and district cooling, and biogas produced by the feedstock listed in Annex IX, Part A, to Directive (EU) 2018\/2001 of the European Parliament and of the Council;"
+            },
+            "comment": "6% for the fixed component of electricity supplies in power contracts 3.45 kVA and for the supply of electricity for consumption, excluding its fixed components, in power contracts 6.90 kVA, and with limits in kWh consumption per 30 days;  \n6% for the fixed component of natural gas supplies in lower pressure contracts (10 000 m3); supply and installation of highly efficient low emissions heating systems; firewood"
         }
     ]
 }
