@@ -5,6 +5,284 @@
             "memberState": "MT",
             "type": "REDUCED",
             "rate": {
+                "type": "EXEMPTED",
+                "value": 0
+            },
+            "situationOn": "2024-01-01+01:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "49.39",
+                        "description": "Other passenger land transport services n.e.c."
+                    },
+                    {
+                        "value": "50.10",
+                        "description": "Sea and coastal passenger water transport services"
+                    },
+                    {
+                        "value": "51.10",
+                        "description": "Passenger air transport services"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "TRANSPORT_PASSENGERS",
+                "description": "Transport of passengers and their accompanying luggage"
+            },
+            "comment": "Exemption with credit limited to domestic public passenger transport services consisting of trips on scheduled routes by an operator contracted in terms of the provisions of regulation 68B of the Passenger Transport Services Regulations; International air and sea transport of passengers; Domestic inter-island sea passenger transport by authorised carriers and other scheduled sea transport of passengers recognised as such."
+        },
+        {
+            "memberState": "MT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "EXEMPTED",
+                "value": 0
+            },
+            "situationOn": "2024-01-01+01:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "60.10.11",
+                        "description": "Radio programming and broadcasting services"
+                    },
+                    {
+                        "value": "60.10.12",
+                        "description": "Radio broadcasting originals"
+                    },
+                    {
+                        "value": "60.20.11",
+                        "description": "Linear television programming and broadcasting services"
+                    },
+                    {
+                        "value": "60.20.20",
+                        "description": "Television broadcasting originals"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "BROADCASTING_SERVICES",
+                "description": "Reception of radio and television broadcasting services"
+            },
+            "comment": "The exemption applies to the below CPA codes but only limited to all activities of public radio and television bodies, excluding those of a commercial nature."
+        },
+        {
+            "memberState": "MT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "EXEMPTED",
+                "value": 0
+            },
+            "situationOn": "2024-01-01+01:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "86",
+                    "description": "Human health services"
+                }
+            },
+            "category": {
+                "identifier": "MEDICAL_CARE",
+                "description": "Provision of medical and dental care and thermal treatment in so far as those services are not exempt pursuant to points (b) to (e) of Article 132(1)"
+            },
+            "comment": "Exemption is only limited to persons in the exercise of any profession regulated by the Health Care Professions Act or Psychology Profession Act (or any Acts substituted therefor)."
+        },
+        {
+            "memberState": "MT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "EXEMPTED",
+                "value": 0
+            },
+            "situationOn": "2024-01-01+01:00",
+            "category": {
+                "identifier": "SUPPLY_WATER",
+                "description": "Supply of water"
+            },
+            "comment": "The exemption refers to the supply of water services by a public authority."
+        },
+        {
+            "memberState": "MT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "PARKING_RATE",
+                "value": 12
+            },
+            "situationOn": "2024-01-01+01:00",
+            "category": {
+                "identifier": "SECURITY_MANAGEMENT",
+                "description": "Custody and management of securities"
+            }
+        },
+        {
+            "memberState": "MT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "PARKING_RATE",
+                "value": 12
+            },
+            "situationOn": "2024-01-01+01:00",
+            "category": {
+                "identifier": "CREDIT_MANAGEMENT",
+                "description": "Management of credits and credit guarantees by a person or body other than those who granted the credits"
+            }
+        },
+        {
+            "memberState": "MT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "PARKING_RATE",
+                "value": 12
+            },
+            "situationOn": "2024-01-01+01:00",
+            "category": {
+                "identifier": "HIRING_SHORT_PERIOD",
+                "description": "Hiring for short period"
+            },
+            "comment": "Hiring of a pleasure boat to a person according to an agreement for any term or part of a term that, when added to the term of a previous hiring, of the same goods or of other goods of the same kind, to the said person during the previous twelve (12) months ending on the date of the beginning of the existing hiring, does not exceed five (5) weeks."
+        },
+        {
+            "memberState": "MT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "PARKING_RATE",
+                "value": 12
+            },
+            "situationOn": "2024-01-01+01:00",
+            "category": {
+                "identifier": "BODY_CARE_SERVICES",
+                "description": "Certain services consisting of the care of the human body"
+            },
+            "comment": "Services consisting of the care of the human body required to be delivered by a person in the exercise of any profession regulated by the Health Care Professions Act (Cap.464), including services supplied in the course of a health studio business or similar business, but not including exempt supplies referred to in item 11 of Part Two of the Fifth Schedule."
+        },
+        {
+            "memberState": "MT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2024-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "1207 99 91",
+                        "description": "Hemp seeds"
+                    },
+                    {
+                        "value": "1302 11 00",
+                        "description": "Opium"
+                    },
+                    {
+                        "value": "1302 14 00",
+                        "description": "Of ephedra"
+                    },
+                    {
+                        "value": "1302 19",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "1302 19 05",
+                        "description": "Vanilla oleoresin"
+                    },
+                    {
+                        "value": "1302 20 10",
+                        "description": "Dry"
+                    },
+                    {
+                        "value": "1302 20 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "1503 00 19",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "1517 90 93",
+                        "description": "Edible mixtures or preparations of a kind used as mould-release preparations"
+                    },
+                    {
+                        "value": "1520 00 00",
+                        "description": "Glycerol, crude; glycerol waters and glycerol lyes"
+                    },
+                    {
+                        "value": "1522 00 10",
+                        "description": "Degras"
+                    },
+                    {
+                        "value": "1702 90 10",
+                        "description": "Chemically pure maltose"
+                    },
+                    {
+                        "value": "1704 10",
+                        "description": "Chewing gum, whether or not sugar-coated"
+                    },
+                    {
+                        "value": "1704 90 10",
+                        "description": "Liquorice extract containing more than 10 % by weight of sucrose but not containing other added substances"
+                    },
+                    {
+                        "value": "1704 90 55",
+                        "description": "Throat pastilles and cough drops"
+                    },
+                    {
+                        "value": "1704 90 61",
+                        "description": "Sugar-coated (panned) goods"
+                    },
+                    {
+                        "value": "1704 90 65",
+                        "description": "Gum confectionery and jelly confectionery, including fruit pastes in the form of sugar confectionery"
+                    },
+                    {
+                        "value": "1704 90 71",
+                        "description": "Boiled sweets, whether or not filled"
+                    },
+                    {
+                        "value": "1704 90 75",
+                        "description": "Toffees, caramels and similar sweets"
+                    },
+                    {
+                        "value": "1704 90 81",
+                        "description": "Compressed tablets"
+                    },
+                    {
+                        "value": "2006 00 10",
+                        "description": "Ginger"
+                    },
+                    {
+                        "value": "2009",
+                        "description": "Fruit or nut juices (including grape must and coconut water) and vegetable juices, unfermented and not containing added spirit, whether or not containing added sugar or other sweetening matter"
+                    },
+                    {
+                        "value": "2105 00 10",
+                        "description": "Containing no milkfats or containing less than 3 % by weight of such fats"
+                    },
+                    {
+                        "value": "2105 00 91",
+                        "description": "3 % or more but less than 7 %"
+                    },
+                    {
+                        "value": "2105 00 99",
+                        "description": "7 % or more"
+                    },
+                    {
+                        "value": "2501 00 10",
+                        "description": "Sea water and salt liquors"
+                    },
+                    {
+                        "value": "3302 10 21",
+                        "description": "Containing no milkfats, sucrose, isoglucose, glucose or starch or containing, by weight, less than 1,5 % milkfat, 5 % sucrose or isoglucose, 5 % glucose or starch"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "FOODSTUFFS",
+                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and …"
+            },
+            "comment": "Some confectionery & similar items are taxed at the reduced rate of 5%."
+        },
+        {
+            "memberState": "MT",
+            "type": "REDUCED",
+            "rate": {
                 "type": "REDUCED_RATE",
                 "value": 5
             },
@@ -515,86 +793,6 @@
             "memberState": "MT",
             "type": "REDUCED",
             "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2024-01-01+01:00",
-            "cnCodes": {
-                "code": {
-                    "value": "9701",
-                    "description": "Paintings, drawings and pastels, executed entirely by hand, other than drawings of heading 4906 and other than hand-painted or hand-decorated manufactured articles; collages, mosaics and similar decorative plaques"
-                }
-            },
-            "category": {
-                "identifier": "PICTURES",
-                "description": "Pictures, collages and similar decorative plaques, paintings and drawings, executed entirely by hand by the artist…"
-            },
-            "comment": "Reduced rate only limited to the importation of works of art, collector’s items and antiques as defined in the VAT Act."
-        },
-        {
-            "memberState": "MT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2024-01-01+01:00",
-            "cnCodes": {
-                "code": {
-                    "value": "9702 00 00",
-                    "description": "Original engravings, prints and lithographs"
-                }
-            },
-            "category": {
-                "identifier": "IMPRESSIONS",
-                "description": "Original engravings, prints and lithographs, being impressions produced in the limited numbers directly in black and white…"
-            },
-            "comment": "Reduced rate only applicable to the importation of works of art, collector’s items and antiques as defined in the VAT Act."
-        },
-        {
-            "memberState": "MT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2024-01-01+01:00",
-            "cnCodes": {
-                "code": {
-                    "value": "9703 00 00",
-                    "description": "Original sculptures and statuary, in any material"
-                }
-            },
-            "category": {
-                "identifier": "SCULPTURES",
-                "description": "Original sculptures and statuary, in any material, provided that they are executed entirely by the artists"
-            },
-            "comment": "Reduced rate only applicable to the importation of works of art, collector’s items and antiques as defined in the VAT Act."
-        },
-        {
-            "memberState": "MT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2024-01-01+01:00",
-            "cnCodes": {
-                "code": {
-                    "value": "9704 00 00",
-                    "description": "Postage or revenue stamps, stamp-postmarks, first-day covers, postal stationery (stamped paper), and the like, used or unused, other than those of heading 4907"
-                }
-            },
-            "category": {
-                "identifier": "POSTAGE",
-                "description": "Postage or revenue stamps, postmarks, first-day covers, pre-stamped stationery and the like, used, or if unused not current and not intended to be current (CN code 9704 00 00)"
-            },
-            "comment": "Reduced rate only applicable to the importation of works of art, collector’s items and antiques as defined in the VAT Act."
-        },
-        {
-            "memberState": "MT",
-            "type": "REDUCED",
-            "rate": {
                 "type": "EXEMPTED",
                 "value": 0
             },
@@ -616,15 +814,6 @@
                 "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and …"
             },
             "comment": "Food for human consumption, excluding food supplied for catering, is taxed at 0% (exempt with credit) (part 2).  \n\nThe above exemption does not apply to items classified under the following subheadings in the First Schedule of the Import Duties Act:\n\n(1) 1207.30.90; 1207.99.91.00; 1209.30.00.00; 1209.99.10; 1209.99.91.00; 1209.99.99.00; 1211.90.30\n\n(2) 1301.10.00.00; 1302.11.00; 1302.14.00; 1302.19.05; 1302.19.30; 1302.19.91; 1302.19.98; 1302.20.10; 1302.20.90"
-        },
-        {
-            "memberState": "MT",
-            "type": "STANDARD",
-            "rate": {
-                "type": "DEFAULT",
-                "value": 18
-            },
-            "situationOn": "2024-01-01+01:00"
         },
         {
             "memberState": "MT",
@@ -704,111 +893,81 @@
             "memberState": "MT",
             "type": "REDUCED",
             "rate": {
-                "type": "EXEMPTED",
-                "value": 0
+                "type": "REDUCED_RATE",
+                "value": 5
             },
             "situationOn": "2024-01-01+01:00",
             "cnCodes": {
-                "code": [
-                    {
-                        "value": "1515 19 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "1515 21 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "1515 29 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "1515 50 19",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "1515 50 99",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "1515 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "1516",
-                        "description": "Animal, vegetable or microbial fats and oils and their fractions, partly or wholly hydrogenated, inter-esterified, re-esterified or elaidinised, whether or not refined, but not further prepared"
-                    },
-                    {
-                        "value": "1517",
-                        "description": "Margarine; edible mixtures or preparations of animal, vegetable or microbial fats or oils or of fractions of different fats or oils of this chapter, other than edible fats or oils or their fractions of heading 1516"
-                    },
-                    {
-                        "value": "1521 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "1522 00 99",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "1704 90 30",
-                        "description": "White chocolate"
-                    },
-                    {
-                        "value": "1704 90 51",
-                        "description": "Pastes, including marzipan, in immediate packings of a net content of 1 kg or more"
-                    },
-                    {
-                        "value": "1704 90 99",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "20",
-                        "description": "CHAPTER 20 - PREPARATIONS OF VEGETABLES, FRUIT, NUTS OR OTHER PARTS OF PLANTS"
-                    },
-                    {
-                        "value": "21",
-                        "description": "CHAPTER 21 - MISCELLANEOUS EDIBLE PREPARATIONS"
-                    },
-                    {
-                        "value": "2202 99",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "2209 00",
-                        "description": "Vinegar and substitutes for vinegar obtained from acetic acid"
-                    },
-                    {
-                        "value": "23",
-                        "description": "CHAPTER 23 - RESIDUES AND WASTE FROM THE FOOD INDUSTRIES; PREPARED ANIMAL FODDER"
-                    },
-                    {
-                        "value": "2501 00 91",
-                        "description": "Salt suitable for human consumption"
-                    },
-                    {
-                        "value": "3301 90 21",
-                        "description": "Of liquorice and hops"
-                    },
-                    {
-                        "value": "3302 10 29",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "3302 10 40",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "3302 10 90",
-                        "description": "Of a kind used in the food industries"
-                    }
-                ]
+                "code": {
+                    "value": "9701",
+                    "description": "Paintings, drawings and pastels, executed entirely by hand, other than drawings of heading 4906 and other than hand-painted or hand-decorated manufactured articles; collages, mosaics and similar decorative plaques"
+                }
             },
             "category": {
-                "identifier": "FOODSTUFFS",
-                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and …"
+                "identifier": "PICTURES",
+                "description": "Pictures, collages and similar decorative plaques, paintings and drawings, executed entirely by hand by the artist…"
             },
-            "comment": "Food for human consumption, excluding food supplied for catering, is taxed at 0% (exempt with credit) (part 4).  \n\nThe above exemption does not apply to items classified under the following subheadings in the First Schedule of the Import Duties Act:\n\n(1) 1515.90.15.00;1515.90.15.90;1515.90.21.00; 1515.90.31.00;1515.90.40.00;1515.90.60.00; 1516.20.10.00; 1517.90.93; 1521.90.10.00\n\n(2) 2006.00.10; 2009\n\n(3) 2105.00; 2106.90.20.00; 2106.90.98.33; 2106.90.98.37; 2106.90.98.39\n\n(4) 2307.00"
+            "comment": "Reduced rate only limited to the importation of works of art, collector’s items and antiques as defined in the VAT Act."
+        },
+        {
+            "memberState": "MT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2024-01-01+01:00",
+            "cnCodes": {
+                "code": {
+                    "value": "9702 00 00",
+                    "description": "Original engravings, prints and lithographs"
+                }
+            },
+            "category": {
+                "identifier": "IMPRESSIONS",
+                "description": "Original engravings, prints and lithographs, being impressions produced in the limited numbers directly in black and white…"
+            },
+            "comment": "Reduced rate only applicable to the importation of works of art, collector’s items and antiques as defined in the VAT Act."
+        },
+        {
+            "memberState": "MT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2024-01-01+01:00",
+            "cnCodes": {
+                "code": {
+                    "value": "9703 00 00",
+                    "description": "Original sculptures and statuary, in any material"
+                }
+            },
+            "category": {
+                "identifier": "SCULPTURES",
+                "description": "Original sculptures and statuary, in any material, provided that they are executed entirely by the artists"
+            },
+            "comment": "Reduced rate only applicable to the importation of works of art, collector’s items and antiques as defined in the VAT Act."
+        },
+        {
+            "memberState": "MT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2024-01-01+01:00",
+            "cnCodes": {
+                "code": {
+                    "value": "9704 00 00",
+                    "description": "Postage or revenue stamps, stamp-postmarks, first-day covers, postal stationery (stamped paper), and the like, used or unused, other than those of heading 4907"
+                }
+            },
+            "category": {
+                "identifier": "POSTAGE",
+                "description": "Postage or revenue stamps, postmarks, first-day covers, pre-stamped stationery and the like, used, or if unused not current and not intended to be current (CN code 9704 00 00)"
+            },
+            "comment": "Reduced rate only applicable to the importation of works of art, collector’s items and antiques as defined in the VAT Act."
         },
         {
             "memberState": "MT",
@@ -1055,6 +1214,125 @@
         },
         {
             "memberState": "MT",
+            "type": "STANDARD",
+            "rate": {
+                "type": "DEFAULT",
+                "value": 18
+            },
+            "situationOn": "2024-01-01+01:00"
+        },
+        {
+            "memberState": "MT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "EXEMPTED",
+                "value": 0
+            },
+            "situationOn": "2024-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "1515 19 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "1515 21 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "1515 29 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "1515 50 19",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "1515 50 99",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "1515 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "1516",
+                        "description": "Animal, vegetable or microbial fats and oils and their fractions, partly or wholly hydrogenated, inter-esterified, re-esterified or elaidinised, whether or not refined, but not further prepared"
+                    },
+                    {
+                        "value": "1517",
+                        "description": "Margarine; edible mixtures or preparations of animal, vegetable or microbial fats or oils or of fractions of different fats or oils of this chapter, other than edible fats or oils or their fractions of heading 1516"
+                    },
+                    {
+                        "value": "1521 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "1522 00 99",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "1704 90 30",
+                        "description": "White chocolate"
+                    },
+                    {
+                        "value": "1704 90 51",
+                        "description": "Pastes, including marzipan, in immediate packings of a net content of 1 kg or more"
+                    },
+                    {
+                        "value": "1704 90 99",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "20",
+                        "description": "CHAPTER 20 - PREPARATIONS OF VEGETABLES, FRUIT, NUTS OR OTHER PARTS OF PLANTS"
+                    },
+                    {
+                        "value": "21",
+                        "description": "CHAPTER 21 - MISCELLANEOUS EDIBLE PREPARATIONS"
+                    },
+                    {
+                        "value": "2202 99",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "2209 00",
+                        "description": "Vinegar and substitutes for vinegar obtained from acetic acid"
+                    },
+                    {
+                        "value": "23",
+                        "description": "CHAPTER 23 - RESIDUES AND WASTE FROM THE FOOD INDUSTRIES; PREPARED ANIMAL FODDER"
+                    },
+                    {
+                        "value": "2501 00 91",
+                        "description": "Salt suitable for human consumption"
+                    },
+                    {
+                        "value": "3301 90 21",
+                        "description": "Of liquorice and hops"
+                    },
+                    {
+                        "value": "3302 10 29",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "3302 10 40",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "3302 10 90",
+                        "description": "Of a kind used in the food industries"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "FOODSTUFFS",
+                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and …"
+            },
+            "comment": "Food for human consumption, excluding food supplied for catering, is taxed at 0% (exempt with credit) (part 4).  \n\nThe above exemption does not apply to items classified under the following subheadings in the First Schedule of the Import Duties Act:\n\n(1) 1515.90.15.00;1515.90.15.90;1515.90.21.00; 1515.90.31.00;1515.90.40.00;1515.90.60.00; 1516.20.10.00; 1517.90.93; 1521.90.10.00\n\n(2) 2006.00.10; 2009\n\n(3) 2105.00; 2106.90.20.00; 2106.90.98.33; 2106.90.98.37; 2106.90.98.39\n\n(4) 2307.00"
+        },
+        {
+            "memberState": "MT",
             "type": "REDUCED",
             "rate": {
                 "type": "EXEMPTED",
@@ -1098,284 +1376,6 @@
                 "description": "Pharmaceutical products of a kind normally used for health care, prevention of illness and as treatment for medical and veterinary purposes,…"
             },
             "comment": "Supply of pharmaceutical products taxed at 0% (exempt with credit) from VAT.\n\nPharmaceutical products refers to the goods specified in the Customs Tariff contained in the First Schedule to the Import Duties Act classified under the CN codes listed.\n\nThe exemption does not apply to items falling under sub-headings 3001 and 3002 where these items are not used for therapeutic or prophylactic purposes"
-        },
-        {
-            "memberState": "MT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "EXEMPTED",
-                "value": 0
-            },
-            "situationOn": "2024-01-01+01:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "49.39",
-                        "description": "Other passenger land transport services n.e.c."
-                    },
-                    {
-                        "value": "50.10",
-                        "description": "Sea and coastal passenger water transport services"
-                    },
-                    {
-                        "value": "51.10",
-                        "description": "Passenger air transport services"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "TRANSPORT_PASSENGERS",
-                "description": "Transport of passengers and their accompanying luggage"
-            },
-            "comment": "Exemption with credit limited to domestic public passenger transport services consisting of trips on scheduled routes by an operator contracted in terms of the provisions of regulation 68B of the Passenger Transport Services Regulations; International air and sea transport of passengers; Domestic inter-island sea passenger transport by authorised carriers and other scheduled sea transport of passengers recognised as such."
-        },
-        {
-            "memberState": "MT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "EXEMPTED",
-                "value": 0
-            },
-            "situationOn": "2024-01-01+01:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "60.10.11",
-                        "description": "Radio programming and broadcasting services"
-                    },
-                    {
-                        "value": "60.10.12",
-                        "description": "Radio broadcasting originals"
-                    },
-                    {
-                        "value": "60.20.11",
-                        "description": "Linear television programming and broadcasting services"
-                    },
-                    {
-                        "value": "60.20.20",
-                        "description": "Television broadcasting originals"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "BROADCASTING_SERVICES",
-                "description": "Reception of radio and television broadcasting services"
-            },
-            "comment": "The exemption applies to the below CPA codes but only limited to all activities of public radio and television bodies, excluding those of a commercial nature."
-        },
-        {
-            "memberState": "MT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "EXEMPTED",
-                "value": 0
-            },
-            "situationOn": "2024-01-01+01:00",
-            "cpaCodes": {
-                "code": {
-                    "value": "86",
-                    "description": "Human health services"
-                }
-            },
-            "category": {
-                "identifier": "MEDICAL_CARE",
-                "description": "Provision of medical and dental care and thermal treatment in so far as those services are not exempt pursuant to points (b) to (e) of Article 132(1)"
-            },
-            "comment": "Exemption is only limited to persons in the exercise of any profession regulated by the Health Care Professions Act or Psychology Profession Act (or any Acts substituted therefor)."
-        },
-        {
-            "memberState": "MT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "EXEMPTED",
-                "value": 0
-            },
-            "situationOn": "2024-01-01+01:00",
-            "category": {
-                "identifier": "SUPPLY_WATER",
-                "description": "Supply of water"
-            },
-            "comment": "The exemption refers to the supply of water services by a public authority."
-        },
-        {
-            "memberState": "MT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "PARKING_RATE",
-                "value": 12
-            },
-            "situationOn": "2024-01-01+01:00",
-            "category": {
-                "identifier": "SECURITY_MANAGEMENT",
-                "description": "Custody and management of securities"
-            }
-        },
-        {
-            "memberState": "MT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "PARKING_RATE",
-                "value": 12
-            },
-            "situationOn": "2024-01-01+01:00",
-            "category": {
-                "identifier": "CREDIT_MANAGEMENT",
-                "description": "Management of credits and credit guarantees by a person or body other than those who granted the credits"
-            }
-        },
-        {
-            "memberState": "MT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "PARKING_RATE",
-                "value": 12
-            },
-            "situationOn": "2024-01-01+01:00",
-            "category": {
-                "identifier": "HIRING_SHORT_PERIOD",
-                "description": "Hiring for short period"
-            },
-            "comment": "Hiring of a pleasure boat to a person according to an agreement for any term or part of a term that, when added to the term of a previous hiring, of the same goods or of other goods of the same kind, to the said person during the previous twelve (12) months ending on the date of the beginning of the existing hiring, does not exceed five (5) weeks."
-        },
-        {
-            "memberState": "MT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "PARKING_RATE",
-                "value": 12
-            },
-            "situationOn": "2024-01-01+01:00",
-            "category": {
-                "identifier": "BODY_CARE_SERVICES",
-                "description": "Certain services consisting of the care of the human body"
-            },
-            "comment": "Services consisting of the care of the human body required to be delivered by a person in the exercise of any profession regulated by the Health Care Professions Act (Cap.464), including services supplied in the course of a health studio business or similar business, but not including exempt supplies referred to in item 11 of Part Two of the Fifth Schedule."
-        },
-        {
-            "memberState": "MT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2024-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "1207 99 91",
-                        "description": "Hemp seeds"
-                    },
-                    {
-                        "value": "1302 11 00",
-                        "description": "Opium"
-                    },
-                    {
-                        "value": "1302 14 00",
-                        "description": "Of ephedra"
-                    },
-                    {
-                        "value": "1302 19",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "1302 19 05",
-                        "description": "Vanilla oleoresin"
-                    },
-                    {
-                        "value": "1302 20 10",
-                        "description": "Dry"
-                    },
-                    {
-                        "value": "1302 20 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "1503 00 19",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "1517 90 93",
-                        "description": "Edible mixtures or preparations of a kind used as mould-release preparations"
-                    },
-                    {
-                        "value": "1520 00 00",
-                        "description": "Glycerol, crude; glycerol waters and glycerol lyes"
-                    },
-                    {
-                        "value": "1522 00 10",
-                        "description": "Degras"
-                    },
-                    {
-                        "value": "1702 90 10",
-                        "description": "Chemically pure maltose"
-                    },
-                    {
-                        "value": "1704 10",
-                        "description": "Chewing gum, whether or not sugar-coated"
-                    },
-                    {
-                        "value": "1704 90 10",
-                        "description": "Liquorice extract containing more than 10 % by weight of sucrose but not containing other added substances"
-                    },
-                    {
-                        "value": "1704 90 55",
-                        "description": "Throat pastilles and cough drops"
-                    },
-                    {
-                        "value": "1704 90 61",
-                        "description": "Sugar-coated (panned) goods"
-                    },
-                    {
-                        "value": "1704 90 65",
-                        "description": "Gum confectionery and jelly confectionery, including fruit pastes in the form of sugar confectionery"
-                    },
-                    {
-                        "value": "1704 90 71",
-                        "description": "Boiled sweets, whether or not filled"
-                    },
-                    {
-                        "value": "1704 90 75",
-                        "description": "Toffees, caramels and similar sweets"
-                    },
-                    {
-                        "value": "1704 90 81",
-                        "description": "Compressed tablets"
-                    },
-                    {
-                        "value": "2006 00 10",
-                        "description": "Ginger"
-                    },
-                    {
-                        "value": "2009",
-                        "description": "Fruit or nut juices (including grape must and coconut water) and vegetable juices, unfermented and not containing added spirit, whether or not containing added sugar or other sweetening matter"
-                    },
-                    {
-                        "value": "2105 00 10",
-                        "description": "Containing no milkfats or containing less than 3 % by weight of such fats"
-                    },
-                    {
-                        "value": "2105 00 91",
-                        "description": "3 % or more but less than 7 %"
-                    },
-                    {
-                        "value": "2105 00 99",
-                        "description": "7 % or more"
-                    },
-                    {
-                        "value": "2501 00 10",
-                        "description": "Sea water and salt liquors"
-                    },
-                    {
-                        "value": "3302 10 21",
-                        "description": "Containing no milkfats, sucrose, isoglucose, glucose or starch or containing, by weight, less than 1,5 % milkfat, 5 % sucrose or isoglucose, 5 % glucose or starch"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "FOODSTUFFS",
-                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and …"
-            },
-            "comment": "Some confectionery & similar items are taxed at the reduced rate of 5%."
         }
     ]
 }
