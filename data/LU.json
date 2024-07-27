@@ -5,6 +5,366 @@
             "memberState": "LU",
             "type": "REDUCED",
             "rate": {
+                "type": "PARKING_RATE",
+                "value": 14
+            },
+            "situationOn": "2024-07-01+02:00",
+            "cnCodes": {
+                "code": {
+                    "value": "2204",
+                    "description": "Wine of fresh grapes, including fortified wines; grape must other than that of heading 2009"
+                }
+            },
+            "category": {
+                "identifier": "WINE_FRESH_GRAPE",
+                "description": "Wine of fresh grapes containing 13° or less of alcohol, with the exception of fortified wines, sparkling wines and liqueur wines"
+            }
+        },
+        {
+            "memberState": "LU",
+            "type": "REDUCED",
+            "rate": {
+                "type": "PARKING_RATE",
+                "value": 14
+            },
+            "situationOn": "2024-07-01+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "2701 20 00",
+                        "description": "Briquettes, ovoids and similar solid fuels manufactured from coal"
+                    },
+                    {
+                        "value": "2702 20 00",
+                        "description": "Agglomerated lignite"
+                    },
+                    {
+                        "value": "2703 00 00",
+                        "description": "Peat (including peat litter), whether or not agglomerated"
+                    },
+                    {
+                        "value": "2710 19",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "4403",
+                        "description": "Wood in the rough, whether or not stripped of bark or sapwood, or roughly squared"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "NEW_PARKING_RATE",
+                "description": "Parking rates (Article 105a(3) of the VAT Directive)"
+            },
+            "comment": "Fuels: solid mineral fuels; mineral oils; wood other than for use as firewood"
+        },
+        {
+            "memberState": "LU",
+            "type": "REDUCED",
+            "rate": {
+                "type": "PARKING_RATE",
+                "value": 14
+            },
+            "situationOn": "2024-07-01+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "2701 20 00",
+                        "description": "Briquettes, ovoids and similar solid fuels manufactured from coal"
+                    },
+                    {
+                        "value": "2702 20 00",
+                        "description": "Agglomerated lignite"
+                    },
+                    {
+                        "value": "2703 00 00",
+                        "description": "Peat (including peat litter), whether or not agglomerated"
+                    },
+                    {
+                        "value": "2710 19",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "4403",
+                        "description": "Wood in the rough, whether or not stripped of bark or sapwood, or roughly squared"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "FUEL_MINERAL_OIL",
+                "description": "Solid mineral fuels; mineral oils and wood for use as fuel"
+            },
+            "comment": "Wood other than use as firewood"
+        },
+        {
+            "memberState": "LU",
+            "type": "REDUCED",
+            "rate": {
+                "type": "PARKING_RATE",
+                "value": 14
+            },
+            "situationOn": "2024-07-01+02:00",
+            "cnCodes": {
+                "code": {
+                    "value": "3402 20 90",
+                    "description": "Washing preparations and cleaning preparations"
+                }
+            },
+            "category": {
+                "identifier": "NEW_PARKING_RATE",
+                "description": "Parking rates (Article 105a(3) of the VAT Directive)"
+            },
+            "comment": "Preparations for washing and cleaning"
+        },
+        {
+            "memberState": "LU",
+            "type": "REDUCED",
+            "rate": {
+                "type": "PARKING_RATE",
+                "value": 14
+            },
+            "situationOn": "2024-07-01+02:00",
+            "cnCodes": {
+                "code": {
+                    "value": "3402 20 90",
+                    "description": "Washing preparations and cleaning preparations"
+                }
+            },
+            "category": {
+                "identifier": "CLEANING_PRODUCT",
+                "description": "Washing and cleaning preparations"
+            }
+        },
+        {
+            "memberState": "LU",
+            "type": "REDUCED",
+            "rate": {
+                "type": "PARKING_RATE",
+                "value": 14
+            },
+            "situationOn": "2024-07-01+02:00",
+            "cnCodes": {
+                "code": {
+                    "value": "4911 10",
+                    "description": "Trade advertising material, commercial catalogues and the like"
+                }
+            },
+            "category": {
+                "identifier": "NEW_PARKING_RATE",
+                "description": "Parking rates (Article 105a(3) of the VAT Directive)"
+            },
+            "comment": "Trade advertising material; commercial catalogues and the like; tourist publicity"
+        },
+        {
+            "memberState": "LU",
+            "type": "REDUCED",
+            "rate": {
+                "type": "PARKING_RATE",
+                "value": 14
+            },
+            "situationOn": "2024-07-01+02:00",
+            "cnCodes": {
+                "code": {
+                    "value": "4911 10",
+                    "description": "Trade advertising material, commercial catalogues and the like"
+                }
+            },
+            "category": {
+                "identifier": "PRINTED_ADVERTISING_MATERIAL",
+                "description": "Printed advertising material, trade catalogues and the like; tourist propaganda publications"
+            }
+        },
+        {
+            "memberState": "LU",
+            "type": "REDUCED",
+            "rate": {
+                "type": "PARKING_RATE",
+                "value": 14
+            },
+            "situationOn": "2024-07-01+02:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "35.3",
+                    "description": "Steam and air conditioning supply services"
+                }
+            },
+            "category": {
+                "identifier": "NEW_PARKING_RATE",
+                "description": "Parking rates (Article 105a(3) of the VAT Directive)"
+            },
+            "comment": "Supply of heat other than supply of district heating; supply of air conditioning"
+        },
+        {
+            "memberState": "LU",
+            "type": "REDUCED",
+            "rate": {
+                "type": "PARKING_RATE",
+                "value": 14
+            },
+            "situationOn": "2024-07-01+02:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "35.3",
+                    "description": "Steam and air conditioning supply services"
+                }
+            },
+            "category": {
+                "identifier": "HEAT_COOLING_STEAM",
+                "description": "Heat, cooling and steam, except heat supplied by means of certain heating networks"
+            }
+        },
+        {
+            "memberState": "LU",
+            "type": "REDUCED",
+            "rate": {
+                "type": "PARKING_RATE",
+                "value": 14
+            },
+            "situationOn": "2024-07-01+02:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "64.92.1",
+                    "description": "Other credit granting services, other than by monetary institutions"
+                }
+            },
+            "category": {
+                "identifier": "CREDIT_MANAGEMENT",
+                "description": "Management of credits and credit guarantees by a person or body other than those who granted the credits"
+            }
+        },
+        {
+            "memberState": "LU",
+            "type": "REDUCED",
+            "rate": {
+                "type": "PARKING_RATE",
+                "value": 14
+            },
+            "situationOn": "2024-07-01+02:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "66.19",
+                        "description": "Other services auxiliary to financial services, except insurance and pension funding"
+                    },
+                    {
+                        "value": "66.30",
+                        "description": "Fund management services"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "SECURITY_MANAGEMENT",
+                "description": "Custody and management of securities"
+            }
+        },
+        {
+            "memberState": "LU",
+            "type": "REDUCED",
+            "rate": {
+                "type": "PARKING_RATE",
+                "value": 14
+            },
+            "situationOn": "2024-07-01+02:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "66.19.32",
+                        "description": "Custody services"
+                    },
+                    {
+                        "value": "66.19.99",
+                        "description": "Other services auxiliary to financial services n.e.c., except insurance and pension funding"
+                    },
+                    {
+                        "value": "66.30.11",
+                        "description": "Portfolio management services, except pension funds"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "NEW_PARKING_RATE",
+                "description": "Parking rates (Article 105a(3) of the VAT Directive)"
+            },
+            "comment": "Management and safekeeping of securities; management of credit and credit guarantees by a person other than the person who granted the credits"
+        },
+        {
+            "memberState": "LU",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 8
+            },
+            "situationOn": "2024-07-01+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "0601 10",
+                        "description": "Bulbs, tubers, tuberous roots, corms, crowns and rhizomes, dormant"
+                    },
+                    {
+                        "value": "0602 10 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "0602 30 00",
+                        "description": "Rhododendrons and azaleas, grafted or not"
+                    },
+                    {
+                        "value": "0602 40 00",
+                        "description": "Roses, grafted or not"
+                    },
+                    {
+                        "value": "0602 90 45",
+                        "description": "Rooted cuttings and young plants"
+                    },
+                    {
+                        "value": "0602 90 46",
+                        "description": "With bare roots"
+                    },
+                    {
+                        "value": "0602 90 47",
+                        "description": "Conifers and evergreens"
+                    },
+                    {
+                        "value": "0602 90 48",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "0602 90 50",
+                        "description": "Other outdoor plants"
+                    },
+                    {
+                        "value": "0602 90 70",
+                        "description": "Rooted cuttings and young plants, excluding cacti"
+                    },
+                    {
+                        "value": "0602 90 91",
+                        "description": "Flowering plants with buds or flowers, excluding cacti"
+                    },
+                    {
+                        "value": "0602 90 99",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "0603",
+                        "description": "Cut flowers and flower buds of a kind suitable for bouquets or for ornamental purposes, fresh, dried, dyed, bleached, impregnated or otherwise prepared"
+                    },
+                    {
+                        "value": "0604",
+                        "description": "Foliage, branches and other parts of plants, without flowers or flower buds, and grasses, mosses and lichens, being goods of a kind suitable for bouquets or for ornamental purposes, fresh, dried, dyed, bleached, impregnated or otherwise prepared"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "PLANT",
+                "description": "Live plants and other floricultural products, including bulbs, cotton, roots and the like, cut flowers and ornamental foliage"
+            },
+            "comment": "- Bulbs, tubers, tuberous roots, corms, crowns and rhizomes, dormant\n- Other ornamental live plants (including their roots), cuttings and slips\n- Cut flowers and flower buds of a kind suitable for bouquets or for ornamental purposes, fresh or dried\n- Foliage, branches and other parts of plants, without flowers or flower buds, and grasses, mosses and lichens, being goods of a kind suitable for bouquets or for ornamental purposes, fresh or dried"
+        },
+        {
+            "memberState": "LU",
+            "type": "REDUCED",
+            "rate": {
                 "type": "SUPER_REDUCED_RATE",
                 "value": 3
             },
@@ -707,6 +1067,168 @@
             "cnCodes": {
                 "code": [
                     {
+                        "value": "61",
+                        "description": "CHAPTER 61 - ARTICLES OF APPAREL AND CLOTHING ACCESSORIES, KNITTED OR CROCHETED"
+                    },
+                    {
+                        "value": "62",
+                        "description": "CHAPTER 62 - ARTICLES OF APPAREL AND CLOTHING ACCESSORIES, NOT KNITTED OR CROCHETED"
+                    },
+                    {
+                        "value": "64",
+                        "description": "CHAPTER 64 - FOOTWEAR, GAITERS AND THE LIKE; PARTS OF SUCH ARTICLES"
+                    },
+                    {
+                        "value": "65",
+                        "description": "CHAPTER 65 - HEADGEAR AND PARTS THEREOF"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "EXEMPTION_SUPERREDUCED",
+                "description": "Exemptions and super-reduced rates (Article 105a(1) of the VAT Directive)"
+            },
+            "comment": "Children clothing, if clearly intended for children of a max. age of thirteen; - Children footwear; for boys up to and included size 40; for girls up to and included size 35.5 (35 if half sizes not available) for pumps, and up to and included size 38.5 (38 if half sizes not available) for any other shoe type unless heel hight, sole hight included, exceeds 4 cm"
+        },
+        {
+            "memberState": "LU",
+            "type": "REDUCED",
+            "rate": {
+                "type": "SUPER_REDUCED_RATE",
+                "value": 3
+            },
+            "situationOn": "2024-07-01+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "61",
+                        "description": "CHAPTER 61 - ARTICLES OF APPAREL AND CLOTHING ACCESSORIES, KNITTED OR CROCHETED"
+                    },
+                    {
+                        "value": "62",
+                        "description": "CHAPTER 62 - ARTICLES OF APPAREL AND CLOTHING ACCESSORIES, NOT KNITTED OR CROCHETED"
+                    },
+                    {
+                        "value": "64",
+                        "description": "CHAPTER 64 - FOOTWEAR, GAITERS AND THE LIKE; PARTS OF SUCH ARTICLES"
+                    },
+                    {
+                        "value": "65",
+                        "description": "CHAPTER 65 - HEADGEAR AND PARTS THEREOF"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "CHILD_WEAR",
+                "description": "Clothing, headgear, scarves, gloves and shoes for children under 14 years of age"
+            },
+            "comment": "- Children clothing, if clearly intended for children of a max. age of thirteen \n- Children footwear; for boys up to and included size 40; for girls up to and included size 35.5 (35 if half sizes not available) for pumps, and up to and included size 38.5 (38 if half sizes not available) for any other shoe type unless heel hight, sole hight included, exceeds 4 cm"
+        },
+        {
+            "memberState": "LU",
+            "type": "REDUCED",
+            "rate": {
+                "type": "SUPER_REDUCED_RATE",
+                "value": 3
+            },
+            "situationOn": "2024-07-01+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "3005",
+                        "description": "Wadding, gauze, bandages and similar articles (for example, dressings, adhesive plasters, poultices), impregnated or coated with pharmaceutical substances or put up in forms or packings for retail sale for medical, surgical, dental or veterinary purposes"
+                    },
+                    {
+                        "value": "3006 10 10",
+                        "description": "Sterile surgical catgut"
+                    },
+                    {
+                        "value": "3006 10 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "3006 20 00",
+                        "description": "Blood-grouping reagents"
+                    },
+                    {
+                        "value": "3006 30 00",
+                        "description": "Opacifying preparations for X-ray examinations; diagnostic reagents designed to be administered to the patient"
+                    },
+                    {
+                        "value": "3006 40 00",
+                        "description": "Dental cements and other dental fillings; bone reconstruction cements"
+                    },
+                    {
+                        "value": "3006 50 00",
+                        "description": "First-aid boxes and kits"
+                    },
+                    {
+                        "value": "6115 10",
+                        "description": "Graduated compression hosiery (for example, stockings for varicose veins)"
+                    },
+                    {
+                        "value": "8713",
+                        "description": "Carriages for disabled persons, whether or not motorised or otherwise mechanically propelled"
+                    },
+                    {
+                        "value": "9001 30 00",
+                        "description": "Contact lenses"
+                    },
+                    {
+                        "value": "9001 40 41",
+                        "description": "Single focal"
+                    },
+                    {
+                        "value": "9001 40 49",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "9001 40 80",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "9001 50 41",
+                        "description": "Single focal"
+                    },
+                    {
+                        "value": "9001 50 49",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "9001 50 80",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "9003 19 00",
+                        "description": "Of other materials"
+                    },
+                    {
+                        "value": "9004",
+                        "description": "Spectacles, goggles and the like, corrective, protective or other"
+                    },
+                    {
+                        "value": "9021",
+                        "description": "Orthopaedic appliances, including crutches, surgical belts and trusses; splints and other fracture appliances; artificial parts of the body; hearing aids and other appliances which are worn or carried, or implanted in the body, to compensate for a defect or disability"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "MEDICAL_EQUIPMENT",
+                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
+            },
+            "comment": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
+        },
+        {
+            "memberState": "LU",
+            "type": "REDUCED",
+            "rate": {
+                "type": "SUPER_REDUCED_RATE",
+                "value": 3
+            },
+            "situationOn": "2024-07-01+02:00",
+            "cnCodes": {
+                "code": [
+                    {
                         "value": "0101 30 00",
                         "description": "Asses"
                     },
@@ -912,880 +1434,6 @@
             "memberState": "LU",
             "type": "REDUCED",
             "rate": {
-                "type": "SUPER_REDUCED_RATE",
-                "value": 3
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "0101 21 00",
-                        "description": "Pure-bred breeding animals"
-                    },
-                    {
-                        "value": "0101 29 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "0511 99 85",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "0601",
-                        "description": "Bulbs, tubers, tuberous roots, corms, crowns and rhizomes, dormant, in growth or in flower; chicory plants and roots other than roots of heading 1212"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "EXEMPTION_SUPERREDUCED",
-                "description": "Exemptions and super-reduced rates (Article 105a(1) of the VAT Directive)"
-            },
-            "comment": "Supply of goods and services of a kind normally intended for use in agricultural production:\n- Draft horses\n- Ova of animals used in agricultural production\n- Rhubarb rhizomes; Asparagus crowns; Chicory plants and roots other than roots of heading 1212"
-        },
-        {
-            "memberState": "LU",
-            "type": "REDUCED",
-            "rate": {
-                "type": "SUPER_REDUCED_RATE",
-                "value": 3
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cnCodes": {
-                "code": {
-                    "value": "0511 99 85",
-                    "description": "Other"
-                }
-            },
-            "category": {
-                "identifier": "CERTAIN_AGRICULTURAL_INPUT",
-                "description": "Certain agricultural inputs"
-            },
-            "comment": "Ova of animals used in agricultural production"
-        },
-        {
-            "memberState": "LU",
-            "type": "REDUCED",
-            "rate": {
-                "type": "SUPER_REDUCED_RATE",
-                "value": 3
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cnCodes": {
-                "code": {
-                    "value": "0601",
-                    "description": "Bulbs, tubers, tuberous roots, corms, crowns and rhizomes, dormant, in growth or in flower; chicory plants and roots other than roots of heading 1212"
-                }
-            },
-            "category": {
-                "identifier": "CERTAIN_AGRICULTURAL_INPUT",
-                "description": "Certain agricultural inputs"
-            },
-            "comment": "Rhubarb rhizomes; Asparagus crowns; Chicory plants and roots other than roots of heading 1212"
-        },
-        {
-            "memberState": "LU",
-            "type": "REDUCED",
-            "rate": {
-                "type": "SUPER_REDUCED_RATE",
-                "value": 3
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cnCodes": {
-                "code": {
-                    "value": "2201",
-                    "description": "Waters, including natural or artificial mineral waters and aerated waters, not containing added sugar or other sweetening matter nor flavoured; ice and snow"
-                }
-            },
-            "category": {
-                "identifier": "FOODSTUFFS",
-                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and …"
-            },
-            "comment": "Waters, including natural or artificial mineral waters and aerated waters, not containing added sugar or other sweetening matter nor flavoured"
-        },
-        {
-            "memberState": "LU",
-            "type": "REDUCED",
-            "rate": {
-                "type": "SUPER_REDUCED_RATE",
-                "value": 3
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cnCodes": {
-                "code": {
-                    "value": "2201 90 00",
-                    "description": "Other"
-                }
-            },
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "36.00.11",
-                        "description": "Drinking water"
-                    },
-                    {
-                        "value": "36.00.30",
-                        "description": "Trade services of water through mains"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "SUPPLY_WATER",
-                "description": "Supply of water"
-            }
-        },
-        {
-            "memberState": "LU",
-            "type": "REDUCED",
-            "rate": {
-                "type": "SUPER_REDUCED_RATE",
-                "value": 3
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cnCodes": {
-                "code": {
-                    "value": "2501 00",
-                    "description": "Salt (including table salt and denatured salt) and pure sodium chloride, whether or not in aqueous solution or containing added anti-caking or free-flowing agents; sea water"
-                }
-            },
-            "category": {
-                "identifier": "FOODSTUFFS",
-                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and …"
-            },
-            "comment": "Agricultural salt; Salt licks"
-        },
-        {
-            "memberState": "LU",
-            "type": "REDUCED",
-            "rate": {
-                "type": "SUPER_REDUCED_RATE",
-                "value": 3
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "3002 20",
-                        "description": "Vaccines for human medicine"
-                    },
-                    {
-                        "value": "3002 30 00",
-                        "description": "Vaccines for veterinary medicine"
-                    },
-                    {
-                        "value": "3006 60 00",
-                        "description": "Chemical contraceptive preparations based on hormones, on other products of heading 2937 or on spermicides"
-                    }
-                ]
-            },
-            "cpaCodes": {
-                "code": {
-                    "value": "21.20.1",
-                    "description": "Medicaments"
-                }
-            },
-            "category": {
-                "identifier": "PHARMACEUTICAL_PRODUCTS",
-                "description": "Pharmaceutical products of a kind normally used for health care, prevention of illness and as treatment for medical and veterinary purposes,…"
-            },
-            "comment": "- Proprietary medicinal products, ready-made medicinal products and medicinal products, as defined in Article 1 of the law of 11 April 1983 regulating the publicity and marketing of pharmaceutical products\n- Veterinary medical products as defined in Article 1 of the law of 18 December 1985 concerning veterinary medical products \n- Pharmaceutical preparations\n- Products used for contraception"
-        },
-        {
-            "memberState": "LU",
-            "type": "REDUCED",
-            "rate": {
-                "type": "SUPER_REDUCED_RATE",
-                "value": 3
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "1211",
-                        "description": "Plants and parts of plants (including seeds and fruits), of a kind used primarily in perfumery, in pharmacy or for insecticidal, fungicidal or similar purposes, fresh, chilled, frozen or dried, whether or not cut, crushed or powdered"
-                    },
-                    {
-                        "value": "3003",
-                        "description": "Medicaments (excluding goods of heading 3002, 3005 or 3006) consisting of two or more constituents which have been mixed together for therapeutic or prophylactic uses, not put up in measured doses or in forms or packings for retail sale"
-                    },
-                    {
-                        "value": "3004",
-                        "description": "Medicaments (excluding goods of heading 3002, 3005 or 3006) consisting of mixed or unmixed products for therapeutic or prophylactic uses, put up in measured doses (including those in the form of transdermal administration systems) or in forms or packings for retail sale"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "FOODSTUFFS",
-                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and …"
-            },
-            "comment": "Plants and part of plants, seeds and grains, used for preparing infusions or teas"
-        },
-        {
-            "memberState": "LU",
-            "type": "REDUCED",
-            "rate": {
-                "type": "SUPER_REDUCED_RATE",
-                "value": 3
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "3005",
-                        "description": "Wadding, gauze, bandages and similar articles (for example, dressings, adhesive plasters, poultices), impregnated or coated with pharmaceutical substances or put up in forms or packings for retail sale for medical, surgical, dental or veterinary purposes"
-                    },
-                    {
-                        "value": "3006 10 10",
-                        "description": "Sterile surgical catgut"
-                    },
-                    {
-                        "value": "3006 10 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "3006 20 00",
-                        "description": "Blood-grouping reagents"
-                    },
-                    {
-                        "value": "3006 30 00",
-                        "description": "Opacifying preparations for X-ray examinations; diagnostic reagents designed to be administered to the patient"
-                    },
-                    {
-                        "value": "3006 40 00",
-                        "description": "Dental cements and other dental fillings; bone reconstruction cements"
-                    },
-                    {
-                        "value": "3006 50 00",
-                        "description": "First-aid boxes and kits"
-                    },
-                    {
-                        "value": "6115 10",
-                        "description": "Graduated compression hosiery (for example, stockings for varicose veins)"
-                    },
-                    {
-                        "value": "8713",
-                        "description": "Carriages for disabled persons, whether or not motorised or otherwise mechanically propelled"
-                    },
-                    {
-                        "value": "9001 30 00",
-                        "description": "Contact lenses"
-                    },
-                    {
-                        "value": "9001 40 41",
-                        "description": "Single focal"
-                    },
-                    {
-                        "value": "9001 40 49",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "9001 40 80",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "9001 50 41",
-                        "description": "Single focal"
-                    },
-                    {
-                        "value": "9001 50 49",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "9001 50 80",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "9003 19 00",
-                        "description": "Of other materials"
-                    },
-                    {
-                        "value": "9004",
-                        "description": "Spectacles, goggles and the like, corrective, protective or other"
-                    },
-                    {
-                        "value": "9021",
-                        "description": "Orthopaedic appliances, including crutches, surgical belts and trusses; splints and other fracture appliances; artificial parts of the body; hearing aids and other appliances which are worn or carried, or implanted in the body, to compensate for a defect or disability"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "MEDICAL_EQUIPMENT",
-                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
-            },
-            "comment": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
-        },
-        {
-            "memberState": "LU",
-            "type": "REDUCED",
-            "rate": {
-                "type": "EXEMPTED",
-                "value": 0
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "49.1",
-                        "description": "Passenger rail transport services, interurban"
-                    },
-                    {
-                        "value": "49.32.11",
-                        "description": "Taxi services"
-                    },
-                    {
-                        "value": "49.39.34",
-                        "description": "Non-scheduled long distance bus and coach charter services"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "TRANSPORT_PASSENGERS",
-                "description": "Transport of passengers and their accompanying luggage"
-            },
-            "comment": "Article 371 of 2006\/112\/EC\n\nTransport within the national territory where the point of departure or\/and point of arrival is\/are not within the national territory"
-        },
-        {
-            "memberState": "LU",
-            "type": "REDUCED",
-            "rate": {
-                "type": "PARKING_RATE",
-                "value": 14
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cnCodes": {
-                "code": {
-                    "value": "2204",
-                    "description": "Wine of fresh grapes, including fortified wines; grape must other than that of heading 2009"
-                }
-            },
-            "category": {
-                "identifier": "NEW_PARKING_RATE",
-                "description": "Parking rates (Article 105a(3) of the VAT Directive)"
-            },
-            "comment": "Wines of fresh grapes with 13% vol. or less (fortified wines, sparkling wines and so-called liqueur wines excluded)"
-        },
-        {
-            "memberState": "LU",
-            "type": "REDUCED",
-            "rate": {
-                "type": "PARKING_RATE",
-                "value": 14
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cnCodes": {
-                "code": {
-                    "value": "2204",
-                    "description": "Wine of fresh grapes, including fortified wines; grape must other than that of heading 2009"
-                }
-            },
-            "category": {
-                "identifier": "WINE_FRESH_GRAPE",
-                "description": "Wine of fresh grapes containing 13° or less of alcohol, with the exception of fortified wines, sparkling wines and liqueur wines"
-            }
-        },
-        {
-            "memberState": "LU",
-            "type": "REDUCED",
-            "rate": {
-                "type": "PARKING_RATE",
-                "value": 14
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "2701 20 00",
-                        "description": "Briquettes, ovoids and similar solid fuels manufactured from coal"
-                    },
-                    {
-                        "value": "2702 20 00",
-                        "description": "Agglomerated lignite"
-                    },
-                    {
-                        "value": "2703 00 00",
-                        "description": "Peat (including peat litter), whether or not agglomerated"
-                    },
-                    {
-                        "value": "2710 19",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "4403",
-                        "description": "Wood in the rough, whether or not stripped of bark or sapwood, or roughly squared"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "NEW_PARKING_RATE",
-                "description": "Parking rates (Article 105a(3) of the VAT Directive)"
-            },
-            "comment": "Fuels: solid mineral fuels; mineral oils; wood other than for use as firewood"
-        },
-        {
-            "memberState": "LU",
-            "type": "REDUCED",
-            "rate": {
-                "type": "PARKING_RATE",
-                "value": 14
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "2701 20 00",
-                        "description": "Briquettes, ovoids and similar solid fuels manufactured from coal"
-                    },
-                    {
-                        "value": "2702 20 00",
-                        "description": "Agglomerated lignite"
-                    },
-                    {
-                        "value": "2703 00 00",
-                        "description": "Peat (including peat litter), whether or not agglomerated"
-                    },
-                    {
-                        "value": "2710 19",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "4403",
-                        "description": "Wood in the rough, whether or not stripped of bark or sapwood, or roughly squared"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "FUEL_MINERAL_OIL",
-                "description": "Solid mineral fuels; mineral oils and wood for use as fuel"
-            },
-            "comment": "Wood other than use as firewood"
-        },
-        {
-            "memberState": "LU",
-            "type": "REDUCED",
-            "rate": {
-                "type": "PARKING_RATE",
-                "value": 14
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cnCodes": {
-                "code": {
-                    "value": "3402 20 90",
-                    "description": "Washing preparations and cleaning preparations"
-                }
-            },
-            "category": {
-                "identifier": "NEW_PARKING_RATE",
-                "description": "Parking rates (Article 105a(3) of the VAT Directive)"
-            },
-            "comment": "Preparations for washing and cleaning"
-        },
-        {
-            "memberState": "LU",
-            "type": "REDUCED",
-            "rate": {
-                "type": "PARKING_RATE",
-                "value": 14
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cnCodes": {
-                "code": {
-                    "value": "3402 20 90",
-                    "description": "Washing preparations and cleaning preparations"
-                }
-            },
-            "category": {
-                "identifier": "CLEANING_PRODUCT",
-                "description": "Washing and cleaning preparations"
-            }
-        },
-        {
-            "memberState": "LU",
-            "type": "REDUCED",
-            "rate": {
-                "type": "PARKING_RATE",
-                "value": 14
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cnCodes": {
-                "code": {
-                    "value": "4911 10",
-                    "description": "Trade advertising material, commercial catalogues and the like"
-                }
-            },
-            "category": {
-                "identifier": "NEW_PARKING_RATE",
-                "description": "Parking rates (Article 105a(3) of the VAT Directive)"
-            },
-            "comment": "Trade advertising material; commercial catalogues and the like; tourist publicity"
-        },
-        {
-            "memberState": "LU",
-            "type": "REDUCED",
-            "rate": {
-                "type": "PARKING_RATE",
-                "value": 14
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cnCodes": {
-                "code": {
-                    "value": "4911 10",
-                    "description": "Trade advertising material, commercial catalogues and the like"
-                }
-            },
-            "category": {
-                "identifier": "PRINTED_ADVERTISING_MATERIAL",
-                "description": "Printed advertising material, trade catalogues and the like; tourist propaganda publications"
-            }
-        },
-        {
-            "memberState": "LU",
-            "type": "REDUCED",
-            "rate": {
-                "type": "PARKING_RATE",
-                "value": 14
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cpaCodes": {
-                "code": {
-                    "value": "35.3",
-                    "description": "Steam and air conditioning supply services"
-                }
-            },
-            "category": {
-                "identifier": "NEW_PARKING_RATE",
-                "description": "Parking rates (Article 105a(3) of the VAT Directive)"
-            },
-            "comment": "Supply of heat other than supply of district heating; supply of air conditioning"
-        },
-        {
-            "memberState": "LU",
-            "type": "REDUCED",
-            "rate": {
-                "type": "PARKING_RATE",
-                "value": 14
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cpaCodes": {
-                "code": {
-                    "value": "35.3",
-                    "description": "Steam and air conditioning supply services"
-                }
-            },
-            "category": {
-                "identifier": "HEAT_COOLING_STEAM",
-                "description": "Heat, cooling and steam, except heat supplied by means of certain heating networks"
-            }
-        },
-        {
-            "memberState": "LU",
-            "type": "REDUCED",
-            "rate": {
-                "type": "PARKING_RATE",
-                "value": 14
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cpaCodes": {
-                "code": {
-                    "value": "64.92.1",
-                    "description": "Other credit granting services, other than by monetary institutions"
-                }
-            },
-            "category": {
-                "identifier": "CREDIT_MANAGEMENT",
-                "description": "Management of credits and credit guarantees by a person or body other than those who granted the credits"
-            }
-        },
-        {
-            "memberState": "LU",
-            "type": "REDUCED",
-            "rate": {
-                "type": "PARKING_RATE",
-                "value": 14
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "66.19",
-                        "description": "Other services auxiliary to financial services, except insurance and pension funding"
-                    },
-                    {
-                        "value": "66.30",
-                        "description": "Fund management services"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "SECURITY_MANAGEMENT",
-                "description": "Custody and management of securities"
-            }
-        },
-        {
-            "memberState": "LU",
-            "type": "REDUCED",
-            "rate": {
-                "type": "SUPER_REDUCED_RATE",
-                "value": 3
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "3102",
-                        "description": "Mineral or chemical fertilisers, nitrogenous"
-                    },
-                    {
-                        "value": "3103",
-                        "description": "Mineral or chemical fertilisers, phosphatic"
-                    },
-                    {
-                        "value": "3104",
-                        "description": "Mineral or chemical fertilisers, potassic"
-                    },
-                    {
-                        "value": "3105",
-                        "description": "Mineral or chemical fertilisers containing two or three of the fertilising elements nitrogen, phosphorus and potassium; other fertilisers; goods of this chapter in tablets or similar forms or in packages of a gross weight not exceeding 10 kg"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "CHEMICAL_FERTILISERS",
-                "description": "Until 1 January 2032: Chemical fertilisers"
-            }
-        },
-        {
-            "memberState": "LU",
-            "type": "REDUCED",
-            "rate": {
-                "type": "SUPER_REDUCED_RATE",
-                "value": 3
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "4901",
-                        "description": "Printed books, brochures, leaflets and similar printed matter, whether or not in single sheets"
-                    },
-                    {
-                        "value": "4902",
-                        "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
-                    },
-                    {
-                        "value": "4903 00 00",
-                        "description": "Children's picture, drawing or colouring books"
-                    },
-                    {
-                        "value": "4904 00 00",
-                        "description": "Music, printed or in manuscript, whether or not bound or illustrated"
-                    },
-                    {
-                        "value": "4905",
-                        "description": "Maps and hydrographic or similar charts of all kinds, including atlases, wall maps, topographical plans and globes, printed"
-                    }
-                ]
-            },
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "58.11.30",
-                        "description": "On-line books"
-                    },
-                    {
-                        "value": "58.13.20",
-                        "description": "On-line newspapers"
-                    },
-                    {
-                        "value": "58.14.20",
-                        "description": "On-line journals and periodicals"
-                    },
-                    {
-                        "value": "91.01.11",
-                        "description": "Library services"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "LOAN_LIBRARIES",
-                "description": "Supply, including on loan by libraries, of books, newspapers and periodicals either on physical means of support …"
-            },
-            "comment": "Excluding materials with predominately adult content"
-        },
-        {
-            "memberState": "LU",
-            "type": "REDUCED",
-            "rate": {
-                "type": "SUPER_REDUCED_RATE",
-                "value": 3
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "61",
-                        "description": "CHAPTER 61 - ARTICLES OF APPAREL AND CLOTHING ACCESSORIES, KNITTED OR CROCHETED"
-                    },
-                    {
-                        "value": "62",
-                        "description": "CHAPTER 62 - ARTICLES OF APPAREL AND CLOTHING ACCESSORIES, NOT KNITTED OR CROCHETED"
-                    },
-                    {
-                        "value": "64",
-                        "description": "CHAPTER 64 - FOOTWEAR, GAITERS AND THE LIKE; PARTS OF SUCH ARTICLES"
-                    },
-                    {
-                        "value": "65",
-                        "description": "CHAPTER 65 - HEADGEAR AND PARTS THEREOF"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "EXEMPTION_SUPERREDUCED",
-                "description": "Exemptions and super-reduced rates (Article 105a(1) of the VAT Directive)"
-            },
-            "comment": "Children clothing, if clearly intended for children of a max. age of thirteen; - Children footwear; for boys up to and included size 40; for girls up to and included size 35.5 (35 if half sizes not available) for pumps, and up to and included size 38.5 (38 if half sizes not available) for any other shoe type unless heel hight, sole hight included, exceeds 4 cm"
-        },
-        {
-            "memberState": "LU",
-            "type": "REDUCED",
-            "rate": {
-                "type": "SUPER_REDUCED_RATE",
-                "value": 3
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "61",
-                        "description": "CHAPTER 61 - ARTICLES OF APPAREL AND CLOTHING ACCESSORIES, KNITTED OR CROCHETED"
-                    },
-                    {
-                        "value": "62",
-                        "description": "CHAPTER 62 - ARTICLES OF APPAREL AND CLOTHING ACCESSORIES, NOT KNITTED OR CROCHETED"
-                    },
-                    {
-                        "value": "64",
-                        "description": "CHAPTER 64 - FOOTWEAR, GAITERS AND THE LIKE; PARTS OF SUCH ARTICLES"
-                    },
-                    {
-                        "value": "65",
-                        "description": "CHAPTER 65 - HEADGEAR AND PARTS THEREOF"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "CHILD_WEAR",
-                "description": "Clothing, headgear, scarves, gloves and shoes for children under 14 years of age"
-            },
-            "comment": "- Children clothing, if clearly intended for children of a max. age of thirteen \n- Children footwear; for boys up to and included size 40; for girls up to and included size 35.5 (35 if half sizes not available) for pumps, and up to and included size 38.5 (38 if half sizes not available) for any other shoe type unless heel hight, sole hight included, exceeds 4 cm"
-        },
-        {
-            "memberState": "LU",
-            "type": "REDUCED",
-            "rate": {
-                "type": "PARKING_RATE",
-                "value": 14
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "66.19.32",
-                        "description": "Custody services"
-                    },
-                    {
-                        "value": "66.19.99",
-                        "description": "Other services auxiliary to financial services n.e.c., except insurance and pension funding"
-                    },
-                    {
-                        "value": "66.30.11",
-                        "description": "Portfolio management services, except pension funds"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "NEW_PARKING_RATE",
-                "description": "Parking rates (Article 105a(3) of the VAT Directive)"
-            },
-            "comment": "Management and safekeeping of securities; management of credit and credit guarantees by a person other than the person who granted the credits"
-        },
-        {
-            "memberState": "LU",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 8
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "0601 10",
-                        "description": "Bulbs, tubers, tuberous roots, corms, crowns and rhizomes, dormant"
-                    },
-                    {
-                        "value": "0602 10 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "0602 30 00",
-                        "description": "Rhododendrons and azaleas, grafted or not"
-                    },
-                    {
-                        "value": "0602 40 00",
-                        "description": "Roses, grafted or not"
-                    },
-                    {
-                        "value": "0602 90 45",
-                        "description": "Rooted cuttings and young plants"
-                    },
-                    {
-                        "value": "0602 90 46",
-                        "description": "With bare roots"
-                    },
-                    {
-                        "value": "0602 90 47",
-                        "description": "Conifers and evergreens"
-                    },
-                    {
-                        "value": "0602 90 48",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "0602 90 50",
-                        "description": "Other outdoor plants"
-                    },
-                    {
-                        "value": "0602 90 70",
-                        "description": "Rooted cuttings and young plants, excluding cacti"
-                    },
-                    {
-                        "value": "0602 90 91",
-                        "description": "Flowering plants with buds or flowers, excluding cacti"
-                    },
-                    {
-                        "value": "0602 90 99",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "0603",
-                        "description": "Cut flowers and flower buds of a kind suitable for bouquets or for ornamental purposes, fresh, dried, dyed, bleached, impregnated or otherwise prepared"
-                    },
-                    {
-                        "value": "0604",
-                        "description": "Foliage, branches and other parts of plants, without flowers or flower buds, and grasses, mosses and lichens, being goods of a kind suitable for bouquets or for ornamental purposes, fresh, dried, dyed, bleached, impregnated or otherwise prepared"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "PLANT",
-                "description": "Live plants and other floricultural products, including bulbs, cotton, roots and the like, cut flowers and ornamental foliage"
-            },
-            "comment": "- Bulbs, tubers, tuberous roots, corms, crowns and rhizomes, dormant\n- Other ornamental live plants (including their roots), cuttings and slips\n- Cut flowers and flower buds of a kind suitable for bouquets or for ornamental purposes, fresh or dried\n- Foliage, branches and other parts of plants, without flowers or flower buds, and grasses, mosses and lichens, being goods of a kind suitable for bouquets or for ornamental purposes, fresh or dried"
-        },
-        {
-            "memberState": "LU",
-            "type": "REDUCED",
-            "rate": {
                 "type": "REDUCED_RATE",
                 "value": 8
             },
@@ -1932,112 +1580,67 @@
             "memberState": "LU",
             "type": "REDUCED",
             "rate": {
-                "type": "REDUCED_RATE",
-                "value": 8
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cnCodes": {
-                "code": {
-                    "value": "4401",
-                    "description": "Fuel wood, in logs, in billets, in twigs, in faggots or in similar forms; wood in chips or particles; sawdust and wood waste and scrap, whether or not agglomerated in logs, briquettes, pellets or similar forms"
-                }
-            },
-            "category": {
-                "identifier": "WOOD_ARTICLE98",
-                "description": "Wood used as firewood (until 1 January 2030)"
-            }
-        },
-        {
-            "memberState": "LU",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 8
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cnCodes": {
-                "code": {
-                    "value": "4401",
-                    "description": "Fuel wood, in logs, in billets, in twigs, in faggots or in similar forms; wood in chips or particles; sawdust and wood waste and scrap, whether or not agglomerated in logs, briquettes, pellets or similar forms"
-                }
-            },
-            "category": {
-                "identifier": "WOOD",
-                "description": "Until 1 January 2030: Wood used as firewood"
-            }
-        },
-        {
-            "memberState": "LU",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 8
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cnCodes": {
-                "code": {
-                    "value": "4911 91 00",
-                    "description": "Pictures, designs and photographs"
-                }
-            },
-            "category": {
-                "identifier": "PHOTOGRAPHS",
-                "description": "Photographs taken by the artist, printed by him or under his supervision, signed and numbered and limited to 30 copies, all sizes and mounts included"
-            },
-            "comment": "Conditional to represent an intended work of art"
-        },
-        {
-            "memberState": "LU",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 8
+                "type": "SUPER_REDUCED_RATE",
+                "value": 3
             },
             "situationOn": "2024-07-01+02:00",
             "cnCodes": {
                 "code": [
                     {
-                        "value": "5805 00 00",
-                        "description": "Hand-woven tapestries of the type Gobelins, Flanders, Aubusson, Beauvais and the like, and needle-worked tapestries (for example, petit point, cross stitch), whether or not made up"
+                        "value": "3002 20",
+                        "description": "Vaccines for human medicine"
                     },
                     {
-                        "value": "6304 92 00",
-                        "description": "Not knitted or crocheted, of cotton"
+                        "value": "3002 30 00",
+                        "description": "Vaccines for veterinary medicine"
                     },
                     {
-                        "value": "6304 99 00",
-                        "description": "Not knitted or crocheted, of other textile materials"
+                        "value": "3006 60 00",
+                        "description": "Chemical contraceptive preparations based on hormones, on other products of heading 2937 or on spermicides"
                     }
                 ]
             },
+            "cpaCodes": {
+                "code": {
+                    "value": "21.20.1",
+                    "description": "Medicaments"
+                }
+            },
             "category": {
-                "identifier": "TAPESTRIES",
-                "description": "Tapestries (CN code 5805 00 00) and wall textiles (CN code 6304 00 00) made by hand from original designs provided by artists…"
-            }
+                "identifier": "PHARMACEUTICAL_PRODUCTS",
+                "description": "Pharmaceutical products of a kind normally used for health care, prevention of illness and as treatment for medical and veterinary purposes,…"
+            },
+            "comment": "- Proprietary medicinal products, ready-made medicinal products and medicinal products, as defined in Article 1 of the law of 11 April 1983 regulating the publicity and marketing of pharmaceutical products\n- Veterinary medical products as defined in Article 1 of the law of 18 December 1985 concerning veterinary medical products \n- Pharmaceutical preparations\n- Products used for contraception"
         },
         {
             "memberState": "LU",
             "type": "REDUCED",
             "rate": {
-                "type": "REDUCED_RATE",
-                "value": 8
+                "type": "SUPER_REDUCED_RATE",
+                "value": 3
             },
             "situationOn": "2024-07-01+02:00",
             "cnCodes": {
+                "code": {
+                    "value": "2201 90 00",
+                    "description": "Other"
+                }
+            },
+            "cpaCodes": {
                 "code": [
                     {
-                        "value": "6913 90 93",
-                        "description": "Earthenware or fine pottery"
+                        "value": "36.00.11",
+                        "description": "Drinking water"
                     },
                     {
-                        "value": "6913 90 98",
-                        "description": "Other"
+                        "value": "36.00.30",
+                        "description": "Trade services of water through mains"
                     }
                 ]
             },
             "category": {
-                "identifier": "CERAMICS",
-                "description": "Individual pieces of ceramics executed entirely by the artist and signed by him"
+                "identifier": "SUPPLY_WATER",
+                "description": "Supply of water"
             }
         },
         {
@@ -2230,6 +1833,118 @@
             },
             "situationOn": "2024-07-01+02:00",
             "cnCodes": {
+                "code": {
+                    "value": "4401",
+                    "description": "Fuel wood, in logs, in billets, in twigs, in faggots or in similar forms; wood in chips or particles; sawdust and wood waste and scrap, whether or not agglomerated in logs, briquettes, pellets or similar forms"
+                }
+            },
+            "category": {
+                "identifier": "WOOD_ARTICLE98",
+                "description": "Wood used as firewood (until 1 January 2030)"
+            }
+        },
+        {
+            "memberState": "LU",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 8
+            },
+            "situationOn": "2024-07-01+02:00",
+            "cnCodes": {
+                "code": {
+                    "value": "4401",
+                    "description": "Fuel wood, in logs, in billets, in twigs, in faggots or in similar forms; wood in chips or particles; sawdust and wood waste and scrap, whether or not agglomerated in logs, briquettes, pellets or similar forms"
+                }
+            },
+            "category": {
+                "identifier": "WOOD",
+                "description": "Until 1 January 2030: Wood used as firewood"
+            }
+        },
+        {
+            "memberState": "LU",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 8
+            },
+            "situationOn": "2024-07-01+02:00",
+            "cnCodes": {
+                "code": {
+                    "value": "4911 91 00",
+                    "description": "Pictures, designs and photographs"
+                }
+            },
+            "category": {
+                "identifier": "PHOTOGRAPHS",
+                "description": "Photographs taken by the artist, printed by him or under his supervision, signed and numbered and limited to 30 copies, all sizes and mounts included"
+            },
+            "comment": "Conditional to represent an intended work of art"
+        },
+        {
+            "memberState": "LU",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 8
+            },
+            "situationOn": "2024-07-01+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "5805 00 00",
+                        "description": "Hand-woven tapestries of the type Gobelins, Flanders, Aubusson, Beauvais and the like, and needle-worked tapestries (for example, petit point, cross stitch), whether or not made up"
+                    },
+                    {
+                        "value": "6304 92 00",
+                        "description": "Not knitted or crocheted, of cotton"
+                    },
+                    {
+                        "value": "6304 99 00",
+                        "description": "Not knitted or crocheted, of other textile materials"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "TAPESTRIES",
+                "description": "Tapestries (CN code 5805 00 00) and wall textiles (CN code 6304 00 00) made by hand from original designs provided by artists…"
+            }
+        },
+        {
+            "memberState": "LU",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 8
+            },
+            "situationOn": "2024-07-01+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "6913 90 93",
+                        "description": "Earthenware or fine pottery"
+                    },
+                    {
+                        "value": "6913 90 98",
+                        "description": "Other"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "CERAMICS",
+                "description": "Individual pieces of ceramics executed entirely by the artist and signed by him"
+            }
+        },
+        {
+            "memberState": "LU",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 8
+            },
+            "situationOn": "2024-07-01+02:00",
+            "cnCodes": {
                 "code": [
                     {
                         "value": "8711 60",
@@ -2358,6 +2073,249 @@
             "category": {
                 "identifier": "POSTAGE",
                 "description": "Postage or revenue stamps, postmarks, first-day covers, pre-stamped stationery and the like, used, or if unused not current and not intended to be current (CN code 9704 00 00)"
+            }
+        },
+        {
+            "memberState": "LU",
+            "type": "REDUCED",
+            "rate": {
+                "type": "SUPER_REDUCED_RATE",
+                "value": 3
+            },
+            "situationOn": "2024-07-01+02:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "55.10",
+                        "description": "Hotel and similar accommodation services"
+                    },
+                    {
+                        "value": "55.20",
+                        "description": "Holiday and other short stay accommodation services"
+                    },
+                    {
+                        "value": "55.30",
+                        "description": "Camping ground, recreational and vacation camp services"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "EXEMPTION_SUPERREDUCED",
+                "description": "Exemptions and super-reduced rates (Article 105a(1) of the VAT Directive)"
+            },
+            "comment": "Accommodation provided in hotels and similar establishments, including the provision of holiday accommodation and the letting of places on camping or caravan sites"
+        },
+        {
+            "memberState": "LU",
+            "type": "REDUCED",
+            "rate": {
+                "type": "SUPER_REDUCED_RATE",
+                "value": 3
+            },
+            "situationOn": "2024-07-01+02:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "55.10",
+                        "description": "Hotel and similar accommodation services"
+                    },
+                    {
+                        "value": "55.20",
+                        "description": "Holiday and other short stay accommodation services"
+                    },
+                    {
+                        "value": "55.30",
+                        "description": "Camping ground, recreational and vacation camp services"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "HOLIDAY_ACCOMMODATION",
+                "description": "Transient accommodation of persons and the letting of holiday camps or camping sites"
+            }
+        },
+        {
+            "memberState": "LU",
+            "type": "REDUCED",
+            "rate": {
+                "type": "SUPER_REDUCED_RATE",
+                "value": 3
+            },
+            "situationOn": "2024-07-01+02:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "56.1",
+                        "description": "Restaurant and mobile food serving services"
+                    },
+                    {
+                        "value": "56.2",
+                        "description": "Event catering services and other food serving services"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "EXEMPTION_SUPERREDUCED",
+                "description": "Exemptions and super-reduced rates (Article 105a(1) of the VAT Directive)"
+            },
+            "comment": "Restaurant and catering services, excluding services involving alcoholic beverages"
+        },
+        {
+            "memberState": "LU",
+            "type": "REDUCED",
+            "rate": {
+                "type": "SUPER_REDUCED_RATE",
+                "value": 3
+            },
+            "situationOn": "2024-07-01+02:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "56.1",
+                        "description": "Restaurant and mobile food serving services"
+                    },
+                    {
+                        "value": "56.2",
+                        "description": "Event catering services and other food serving services"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "FOOD_SERVICE",
+                "description": "Restaurant and catering services, excluding services involving alcoholic beverages"
+            }
+        },
+        {
+            "memberState": "LU",
+            "type": "REDUCED",
+            "rate": {
+                "type": "SUPER_REDUCED_RATE",
+                "value": 3
+            },
+            "situationOn": "2024-07-01+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "4901",
+                        "description": "Printed books, brochures, leaflets and similar printed matter, whether or not in single sheets"
+                    },
+                    {
+                        "value": "4902",
+                        "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
+                    },
+                    {
+                        "value": "4903 00 00",
+                        "description": "Children's picture, drawing or colouring books"
+                    },
+                    {
+                        "value": "4904 00 00",
+                        "description": "Music, printed or in manuscript, whether or not bound or illustrated"
+                    },
+                    {
+                        "value": "4905",
+                        "description": "Maps and hydrographic or similar charts of all kinds, including atlases, wall maps, topographical plans and globes, printed"
+                    }
+                ]
+            },
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "58.11.30",
+                        "description": "On-line books"
+                    },
+                    {
+                        "value": "58.13.20",
+                        "description": "On-line newspapers"
+                    },
+                    {
+                        "value": "58.14.20",
+                        "description": "On-line journals and periodicals"
+                    },
+                    {
+                        "value": "91.01.11",
+                        "description": "Library services"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "LOAN_LIBRARIES",
+                "description": "Supply, including on loan by libraries, of books, newspapers and periodicals either on physical means of support …"
+            },
+            "comment": "Excluding materials with predominately adult content"
+        },
+        {
+            "memberState": "LU",
+            "type": "REDUCED",
+            "rate": {
+                "type": "SUPER_REDUCED_RATE",
+                "value": 3
+            },
+            "situationOn": "2024-07-01+02:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "58.11.60",
+                        "description": "Licensing services for books"
+                    },
+                    {
+                        "value": "58.14.40",
+                        "description": "Licensing services for journals and periodicals"
+                    },
+                    {
+                        "value": "59.20.40",
+                        "description": "Licensing services for the right to use acoustic originals"
+                    },
+                    {
+                        "value": "90.01",
+                        "description": "Services of performing artists"
+                    },
+                    {
+                        "value": "90.03.11",
+                        "description": "Services provided by authors, composers, sculptors and other artists, except performing artists"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "EXEMPTION_SUPERREDUCED",
+                "description": "Exemptions and super-reduced rates (Article 105a(1) of the VAT Directive)"
+            },
+            "comment": "Services provided by writers, composers and performers and the royalties due to them"
+        },
+        {
+            "memberState": "LU",
+            "type": "REDUCED",
+            "rate": {
+                "type": "SUPER_REDUCED_RATE",
+                "value": 3
+            },
+            "situationOn": "2024-07-01+02:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "58.11.60",
+                        "description": "Licensing services for books"
+                    },
+                    {
+                        "value": "58.14.40",
+                        "description": "Licensing services for journals and periodicals"
+                    },
+                    {
+                        "value": "59.20.40",
+                        "description": "Licensing services for the right to use acoustic originals"
+                    },
+                    {
+                        "value": "90.01",
+                        "description": "Services of performing artists"
+                    },
+                    {
+                        "value": "90.03.11",
+                        "description": "Services provided by authors, composers, sculptors and other artists, except performing artists"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "ROYALTIES",
+                "description": "Services provided by writers, composers and performers and the royalties due to them"
             }
         },
         {
@@ -2614,6 +2572,40 @@
                     {
                         "value": "0101 29 90",
                         "description": "Other"
+                    },
+                    {
+                        "value": "0511 99 85",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "0601",
+                        "description": "Bulbs, tubers, tuberous roots, corms, crowns and rhizomes, dormant, in growth or in flower; chicory plants and roots other than roots of heading 1212"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "EXEMPTION_SUPERREDUCED",
+                "description": "Exemptions and super-reduced rates (Article 105a(1) of the VAT Directive)"
+            },
+            "comment": "Supply of goods and services of a kind normally intended for use in agricultural production:\n- Draft horses\n- Ova of animals used in agricultural production\n- Rhubarb rhizomes; Asparagus crowns; Chicory plants and roots other than roots of heading 1212"
+        },
+        {
+            "memberState": "LU",
+            "type": "REDUCED",
+            "rate": {
+                "type": "SUPER_REDUCED_RATE",
+                "value": 3
+            },
+            "situationOn": "2024-07-01+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "0101 21 00",
+                        "description": "Pure-bred breeding animals"
+                    },
+                    {
+                        "value": "0101 29 90",
+                        "description": "Other"
                     }
                 ]
             },
@@ -2631,256 +2623,19 @@
                 "value": 3
             },
             "situationOn": "2024-07-01+02:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "55.10",
-                        "description": "Hotel and similar accommodation services"
-                    },
-                    {
-                        "value": "55.20",
-                        "description": "Holiday and other short stay accommodation services"
-                    },
-                    {
-                        "value": "55.30",
-                        "description": "Camping ground, recreational and vacation camp services"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "EXEMPTION_SUPERREDUCED",
-                "description": "Exemptions and super-reduced rates (Article 105a(1) of the VAT Directive)"
-            },
-            "comment": "Accommodation provided in hotels and similar establishments, including the provision of holiday accommodation and the letting of places on camping or caravan sites"
-        },
-        {
-            "memberState": "LU",
-            "type": "REDUCED",
-            "rate": {
-                "type": "SUPER_REDUCED_RATE",
-                "value": 3
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "55.10",
-                        "description": "Hotel and similar accommodation services"
-                    },
-                    {
-                        "value": "55.20",
-                        "description": "Holiday and other short stay accommodation services"
-                    },
-                    {
-                        "value": "55.30",
-                        "description": "Camping ground, recreational and vacation camp services"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "HOLIDAY_ACCOMMODATION",
-                "description": "Transient accommodation of persons and the letting of holiday camps or camping sites"
-            }
-        },
-        {
-            "memberState": "LU",
-            "type": "REDUCED",
-            "rate": {
-                "type": "SUPER_REDUCED_RATE",
-                "value": 3
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "56.1",
-                        "description": "Restaurant and mobile food serving services"
-                    },
-                    {
-                        "value": "56.2",
-                        "description": "Event catering services and other food serving services"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "EXEMPTION_SUPERREDUCED",
-                "description": "Exemptions and super-reduced rates (Article 105a(1) of the VAT Directive)"
-            },
-            "comment": "Restaurant and catering services, excluding services involving alcoholic beverages"
-        },
-        {
-            "memberState": "LU",
-            "type": "REDUCED",
-            "rate": {
-                "type": "SUPER_REDUCED_RATE",
-                "value": 3
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "56.1",
-                        "description": "Restaurant and mobile food serving services"
-                    },
-                    {
-                        "value": "56.2",
-                        "description": "Event catering services and other food serving services"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "FOOD_SERVICE",
-                "description": "Restaurant and catering services, excluding services involving alcoholic beverages"
-            }
-        },
-        {
-            "memberState": "LU",
-            "type": "REDUCED",
-            "rate": {
-                "type": "SUPER_REDUCED_RATE",
-                "value": 3
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "58.11.60",
-                        "description": "Licensing services for books"
-                    },
-                    {
-                        "value": "58.14.40",
-                        "description": "Licensing services for journals and periodicals"
-                    },
-                    {
-                        "value": "59.20.40",
-                        "description": "Licensing services for the right to use acoustic originals"
-                    },
-                    {
-                        "value": "90.01",
-                        "description": "Services of performing artists"
-                    },
-                    {
-                        "value": "90.03.11",
-                        "description": "Services provided by authors, composers, sculptors and other artists, except performing artists"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "EXEMPTION_SUPERREDUCED",
-                "description": "Exemptions and super-reduced rates (Article 105a(1) of the VAT Directive)"
-            },
-            "comment": "Services provided by writers, composers and performers and the royalties due to them"
-        },
-        {
-            "memberState": "LU",
-            "type": "REDUCED",
-            "rate": {
-                "type": "SUPER_REDUCED_RATE",
-                "value": 3
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "58.11.60",
-                        "description": "Licensing services for books"
-                    },
-                    {
-                        "value": "58.14.40",
-                        "description": "Licensing services for journals and periodicals"
-                    },
-                    {
-                        "value": "59.20.40",
-                        "description": "Licensing services for the right to use acoustic originals"
-                    },
-                    {
-                        "value": "90.01",
-                        "description": "Services of performing artists"
-                    },
-                    {
-                        "value": "90.03.11",
-                        "description": "Services provided by authors, composers, sculptors and other artists, except performing artists"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "ROYALTIES",
-                "description": "Services provided by writers, composers and performers and the royalties due to them"
-            }
-        },
-        {
-            "memberState": "LU",
-            "type": "REDUCED",
-            "rate": {
-                "type": "SUPER_REDUCED_RATE",
-                "value": 3
-            },
-            "situationOn": "2024-07-01+02:00",
             "cnCodes": {
                 "code": [
                     {
-                        "value": "1501",
-                        "description": "Pig fat (including lard) and poultry fat, other than that of heading 0209 or1503"
+                        "value": "1211",
+                        "description": "Plants and parts of plants (including seeds and fruits), of a kind used primarily in perfumery, in pharmacy or for insecticidal, fungicidal or similar purposes, fresh, chilled, frozen or dried, whether or not cut, crushed or powdered"
                     },
                     {
-                        "value": "1502",
-                        "description": "Fats of bovine animals, sheep or goats, other than those of heading 1503"
+                        "value": "3003",
+                        "description": "Medicaments (excluding goods of heading 3002, 3005 or 3006) consisting of two or more constituents which have been mixed together for therapeutic or prophylactic uses, not put up in measured doses or in forms or packings for retail sale"
                     },
                     {
-                        "value": "1503 00",
-                        "description": "Lard stearin, lard oil, oleostearin, oleo-oil and tallow oil, not emulsified or mixed or otherwise prepared"
-                    },
-                    {
-                        "value": "1504",
-                        "description": "Fats and oils and their fractions, of fish or marine mammals, whether or not refined, but not chemically modified"
-                    },
-                    {
-                        "value": "1505 00",
-                        "description": "Wool grease and fatty substances derived therefrom (including lanolin)"
-                    },
-                    {
-                        "value": "1506 00 00",
-                        "description": "Other animal fats and oils and their fractions, whether or not refined, but not chemically modified"
-                    },
-                    {
-                        "value": "1507",
-                        "description": "Soya-bean oil and its fractions, whether or not refined, but not chemically modified"
-                    },
-                    {
-                        "value": "1508",
-                        "description": "Groundnut oil and its fractions, whether or not refined, but not chemically modified"
-                    },
-                    {
-                        "value": "1509",
-                        "description": "Olive oil and its fractions, whether or not refined, but not chemically modified"
-                    },
-                    {
-                        "value": "1510 00",
-                        "description": "Other oils and their fractions, obtained solely from olives, whether or not refined, but not chemically modified, including blends of these oils or fractions with oils or fractions of heading 1509"
-                    },
-                    {
-                        "value": "1511",
-                        "description": "Palm oil and its fractions, whether or not refined, but not chemically modified"
-                    },
-                    {
-                        "value": "1512",
-                        "description": "Sunflower-seed, safflower or cotton-seed oil and fractions thereof, whether or not refined, but not chemically modified"
-                    },
-                    {
-                        "value": "1513",
-                        "description": "Coconut (copra), palm kernel or babassu oil and fractions thereof, whether or not refined, but not chemically modified"
-                    },
-                    {
-                        "value": "1514",
-                        "description": "Rape, colza or mustard oil and fractions thereof, whether or not refined, but not chemically modified"
-                    },
-                    {
-                        "value": "1515",
-                        "description": "Other fixed vegetable or microbial fats and oils (including jojoba oil) and their fractions, whether or not refined, but not chemically modified"
-                    },
-                    {
-                        "value": "1516",
-                        "description": "Animal, vegetable or microbial fats and oils and their fractions, partly or wholly hydrogenated, inter-esterified, re-esterified or elaidinised, whether or not refined, but not further prepared"
+                        "value": "3004",
+                        "description": "Medicaments (excluding goods of heading 3002, 3005 or 3006) consisting of mixed or unmixed products for therapeutic or prophylactic uses, put up in measured doses (including those in the form of transdermal administration systems) or in forms or packings for retail sale"
                     }
                 ]
             },
@@ -2888,7 +2643,7 @@
                 "identifier": "FOODSTUFFS",
                 "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and …"
             },
-            "comment": "Animal or vegetable fats and oils for human and animal consumption or  normally intended for use in the preparation of foodstuffs"
+            "comment": "Plants and part of plants, seeds and grains, used for preparing infusions or teas"
         },
         {
             "memberState": "LU",
@@ -3093,6 +2848,88 @@
                 "value": 3
             },
             "situationOn": "2024-07-01+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "1501",
+                        "description": "Pig fat (including lard) and poultry fat, other than that of heading 0209 or1503"
+                    },
+                    {
+                        "value": "1502",
+                        "description": "Fats of bovine animals, sheep or goats, other than those of heading 1503"
+                    },
+                    {
+                        "value": "1503 00",
+                        "description": "Lard stearin, lard oil, oleostearin, oleo-oil and tallow oil, not emulsified or mixed or otherwise prepared"
+                    },
+                    {
+                        "value": "1504",
+                        "description": "Fats and oils and their fractions, of fish or marine mammals, whether or not refined, but not chemically modified"
+                    },
+                    {
+                        "value": "1505 00",
+                        "description": "Wool grease and fatty substances derived therefrom (including lanolin)"
+                    },
+                    {
+                        "value": "1506 00 00",
+                        "description": "Other animal fats and oils and their fractions, whether or not refined, but not chemically modified"
+                    },
+                    {
+                        "value": "1507",
+                        "description": "Soya-bean oil and its fractions, whether or not refined, but not chemically modified"
+                    },
+                    {
+                        "value": "1508",
+                        "description": "Groundnut oil and its fractions, whether or not refined, but not chemically modified"
+                    },
+                    {
+                        "value": "1509",
+                        "description": "Olive oil and its fractions, whether or not refined, but not chemically modified"
+                    },
+                    {
+                        "value": "1510 00",
+                        "description": "Other oils and their fractions, obtained solely from olives, whether or not refined, but not chemically modified, including blends of these oils or fractions with oils or fractions of heading 1509"
+                    },
+                    {
+                        "value": "1511",
+                        "description": "Palm oil and its fractions, whether or not refined, but not chemically modified"
+                    },
+                    {
+                        "value": "1512",
+                        "description": "Sunflower-seed, safflower or cotton-seed oil and fractions thereof, whether or not refined, but not chemically modified"
+                    },
+                    {
+                        "value": "1513",
+                        "description": "Coconut (copra), palm kernel or babassu oil and fractions thereof, whether or not refined, but not chemically modified"
+                    },
+                    {
+                        "value": "1514",
+                        "description": "Rape, colza or mustard oil and fractions thereof, whether or not refined, but not chemically modified"
+                    },
+                    {
+                        "value": "1515",
+                        "description": "Other fixed vegetable or microbial fats and oils (including jojoba oil) and their fractions, whether or not refined, but not chemically modified"
+                    },
+                    {
+                        "value": "1516",
+                        "description": "Animal, vegetable or microbial fats and oils and their fractions, partly or wholly hydrogenated, inter-esterified, re-esterified or elaidinised, whether or not refined, but not further prepared"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "FOODSTUFFS",
+                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and …"
+            },
+            "comment": "Animal or vegetable fats and oils for human and animal consumption or  normally intended for use in the preparation of foodstuffs"
+        },
+        {
+            "memberState": "LU",
+            "type": "REDUCED",
+            "rate": {
+                "type": "SUPER_REDUCED_RATE",
+                "value": 3
+            },
+            "situationOn": "2024-07-01+02:00",
             "category": {
                 "identifier": "NON_OWNED_RESIDENCY_RENOVATION",
                 "description": "Certain renovation work carried out for the benefit of a dwelling used as a principal residence by a person other than the owner of the dwelling"
@@ -3128,6 +2965,169 @@
                 "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and …"
             },
             "comment": "Live Fish, for human and animal consumption or  normally intended for use in the preparation of foodstuffs"
+        },
+        {
+            "memberState": "LU",
+            "type": "REDUCED",
+            "rate": {
+                "type": "SUPER_REDUCED_RATE",
+                "value": 3
+            },
+            "situationOn": "2024-07-01+02:00",
+            "cnCodes": {
+                "code": {
+                    "value": "0511 99 85",
+                    "description": "Other"
+                }
+            },
+            "category": {
+                "identifier": "CERTAIN_AGRICULTURAL_INPUT",
+                "description": "Certain agricultural inputs"
+            },
+            "comment": "Ova of animals used in agricultural production"
+        },
+        {
+            "memberState": "LU",
+            "type": "REDUCED",
+            "rate": {
+                "type": "SUPER_REDUCED_RATE",
+                "value": 3
+            },
+            "situationOn": "2024-07-01+02:00",
+            "cnCodes": {
+                "code": {
+                    "value": "0601",
+                    "description": "Bulbs, tubers, tuberous roots, corms, crowns and rhizomes, dormant, in growth or in flower; chicory plants and roots other than roots of heading 1212"
+                }
+            },
+            "category": {
+                "identifier": "CERTAIN_AGRICULTURAL_INPUT",
+                "description": "Certain agricultural inputs"
+            },
+            "comment": "Rhubarb rhizomes; Asparagus crowns; Chicory plants and roots other than roots of heading 1212"
+        },
+        {
+            "memberState": "LU",
+            "type": "REDUCED",
+            "rate": {
+                "type": "SUPER_REDUCED_RATE",
+                "value": 3
+            },
+            "situationOn": "2024-07-01+02:00",
+            "cnCodes": {
+                "code": {
+                    "value": "2201",
+                    "description": "Waters, including natural or artificial mineral waters and aerated waters, not containing added sugar or other sweetening matter nor flavoured; ice and snow"
+                }
+            },
+            "category": {
+                "identifier": "FOODSTUFFS",
+                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and …"
+            },
+            "comment": "Waters, including natural or artificial mineral waters and aerated waters, not containing added sugar or other sweetening matter nor flavoured"
+        },
+        {
+            "memberState": "LU",
+            "type": "REDUCED",
+            "rate": {
+                "type": "SUPER_REDUCED_RATE",
+                "value": 3
+            },
+            "situationOn": "2024-07-01+02:00",
+            "cnCodes": {
+                "code": {
+                    "value": "2501 00",
+                    "description": "Salt (including table salt and denatured salt) and pure sodium chloride, whether or not in aqueous solution or containing added anti-caking or free-flowing agents; sea water"
+                }
+            },
+            "category": {
+                "identifier": "FOODSTUFFS",
+                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and …"
+            },
+            "comment": "Agricultural salt; Salt licks"
+        },
+        {
+            "memberState": "LU",
+            "type": "REDUCED",
+            "rate": {
+                "type": "EXEMPTED",
+                "value": 0
+            },
+            "situationOn": "2024-07-01+02:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "49.1",
+                        "description": "Passenger rail transport services, interurban"
+                    },
+                    {
+                        "value": "49.32.11",
+                        "description": "Taxi services"
+                    },
+                    {
+                        "value": "49.39.34",
+                        "description": "Non-scheduled long distance bus and coach charter services"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "TRANSPORT_PASSENGERS",
+                "description": "Transport of passengers and their accompanying luggage"
+            },
+            "comment": "Article 371 of 2006\/112\/EC\n\nTransport within the national territory where the point of departure or\/and point of arrival is\/are not within the national territory"
+        },
+        {
+            "memberState": "LU",
+            "type": "REDUCED",
+            "rate": {
+                "type": "PARKING_RATE",
+                "value": 14
+            },
+            "situationOn": "2024-07-01+02:00",
+            "cnCodes": {
+                "code": {
+                    "value": "2204",
+                    "description": "Wine of fresh grapes, including fortified wines; grape must other than that of heading 2009"
+                }
+            },
+            "category": {
+                "identifier": "NEW_PARKING_RATE",
+                "description": "Parking rates (Article 105a(3) of the VAT Directive)"
+            },
+            "comment": "Wines of fresh grapes with 13% vol. or less (fortified wines, sparkling wines and so-called liqueur wines excluded)"
+        },
+        {
+            "memberState": "LU",
+            "type": "REDUCED",
+            "rate": {
+                "type": "SUPER_REDUCED_RATE",
+                "value": 3
+            },
+            "situationOn": "2024-07-01+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "3102",
+                        "description": "Mineral or chemical fertilisers, nitrogenous"
+                    },
+                    {
+                        "value": "3103",
+                        "description": "Mineral or chemical fertilisers, phosphatic"
+                    },
+                    {
+                        "value": "3104",
+                        "description": "Mineral or chemical fertilisers, potassic"
+                    },
+                    {
+                        "value": "3105",
+                        "description": "Mineral or chemical fertilisers containing two or three of the fertilising elements nitrogen, phosphorus and potassium; other fertilisers; goods of this chapter in tablets or similar forms or in packages of a gross weight not exceeding 10 kg"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "CHEMICAL_FERTILISERS",
+                "description": "Until 1 January 2032: Chemical fertilisers"
+            }
         }
     ]
 }
