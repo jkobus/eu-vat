@@ -5,56 +5,6 @@
             "memberState": "HU",
             "type": "REDUCED",
             "rate": {
-                "type": "EXEMPTED",
-                "value": 0
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cnCodes": {
-                "code": {
-                    "value": "4902",
-                    "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
-                }
-            },
-            "category": {
-                "identifier": "NEWSPAPERS",
-                "description": "Newspapers"
-            },
-            "comment": "Daily newspapers (journals published at least four times in a week)"
-        },
-        {
-            "memberState": "HU",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "0102 21 10",
-                        "description": "Heifers (female bovines that have never calved)"
-                    },
-                    {
-                        "value": "0102 21 30",
-                        "description": "Cows"
-                    },
-                    {
-                        "value": "0102 21 90",
-                        "description": "Other"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "FOODSTUFFS",
-                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and …"
-            },
-            "comment": "Pure-bred cattle for breeding"
-        },
-        {
-            "memberState": "HU",
-            "type": "REDUCED",
-            "rate": {
                 "type": "REDUCED_RATE",
                 "value": 5
             },
@@ -1672,6 +1622,56 @@
                 "value": 27
             },
             "situationOn": "2024-07-01+02:00"
+        },
+        {
+            "memberState": "HU",
+            "type": "REDUCED",
+            "rate": {
+                "type": "EXEMPTED",
+                "value": 0
+            },
+            "situationOn": "2024-07-01+02:00",
+            "cnCodes": {
+                "code": {
+                    "value": "4902",
+                    "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
+                }
+            },
+            "category": {
+                "identifier": "NEWSPAPERS",
+                "description": "Newspapers"
+            },
+            "comment": "Daily newspapers (journals published at least four times in a week)"
+        },
+        {
+            "memberState": "HU",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2024-07-01+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "0102 21 10",
+                        "description": "Heifers (female bovines that have never calved)"
+                    },
+                    {
+                        "value": "0102 21 30",
+                        "description": "Cows"
+                    },
+                    {
+                        "value": "0102 21 90",
+                        "description": "Other"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "FOODSTUFFS",
+                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and …"
+            },
+            "comment": "Pure-bred cattle for breeding"
         }
     ]
 }

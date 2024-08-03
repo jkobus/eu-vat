@@ -353,7 +353,7 @@
                 "identifier": "FOODSTUFFS",
                 "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and …"
             },
-            "comment": "Annex 2 of the German VAT Act contains a list of goods falling under the reduced rate of 7% such as live animals, meat, milk and so on (https:\/\/usth.bundesfinanzministerium.de\/usth\/2019-2020\/A-Umsatzsteuergesetz\/IV-Steuer-und-Vorsteuer\/Paragraf-12\/inhalt.html). For legal certainty please have a look at the German VAT Act."
+            "comment": "VAT - Import - Annex 2 of the German VAT Act contains a list of goods falling under the reduced rate of 7% such as live animals, meat, milk and so on (https:\/\/usth.bundesfinanzministerium.de\/usth\/2019-2020\/A-Umsatzsteuergesetz\/IV-Steuer-und-Vorsteuer\/Paragraf-12\/inhalt.html). For legal certainty please have a look at the German VAT Act."
         },
         {
             "memberState": "DE",
@@ -707,7 +707,7 @@
                 "identifier": "FOODSTUFFS",
                 "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and …"
             },
-            "comment": "VAT - Import - Annex 2 of the German VAT Act contains a list of goods falling under the reduced rate of 7% such as live animals, meat, milk and so on (https:\/\/usth.bundesfinanzministerium.de\/usth\/2019-2020\/A-Umsatzsteuergesetz\/IV-Steuer-und-Vorsteuer\/Paragraf-12\/inhalt.html). For legal certainty please have a look at the German VAT Act."
+            "comment": "Annex 2 of the German VAT Act contains a list of goods falling under the reduced rate of 7% such as live animals, meat, milk and so on (https:\/\/usth.bundesfinanzministerium.de\/usth\/2019-2020\/A-Umsatzsteuergesetz\/IV-Steuer-und-Vorsteuer\/Paragraf-12\/inhalt.html). For legal certainty please have a look at the German VAT Act."
         },
         {
             "memberState": "DE",
@@ -808,26 +808,6 @@
                 "description": "Live plants and other floricultural products, including bulbs, cotton, roots and the like, cut flowers and ornamental foliage"
             },
             "comment": "Annex 2 of the German VAT Act contains a list of goods falling under the reduced rate of 7% such as live plants, bulbs, roots and so on (https:\/\/usth.bundesfinanzministerium.de\/usth\/2019-2020\/A-Umsatzsteuergesetz\/IV-Steuer-und-Vorsteuer\/Paragraf-12\/inhalt.html). For legal certainty please have a look at the German VAT Act."
-        },
-        {
-            "memberState": "DE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 7
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cnCodes": {
-                "code": {
-                    "value": "2201 90 00",
-                    "description": "Other"
-                }
-            },
-            "category": {
-                "identifier": "SUPPLY_WATER",
-                "description": "Supply of water"
-            },
-            "comment": "VAT - Import - No reduced rate for bottled water, healing water and steam"
         },
         {
             "memberState": "DE",
@@ -1441,6 +1421,26 @@
                 "description": "Supply of water"
             },
             "comment": "No reduced rate for bottled water, healing water and steam"
+        },
+        {
+            "memberState": "DE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 7
+            },
+            "situationOn": "2024-07-01+02:00",
+            "cnCodes": {
+                "code": {
+                    "value": "2201 90 00",
+                    "description": "Other"
+                }
+            },
+            "category": {
+                "identifier": "SUPPLY_WATER",
+                "description": "Supply of water"
+            },
+            "comment": "VAT - Import - No reduced rate for bottled water, healing water and steam"
         }
     ]
 }
