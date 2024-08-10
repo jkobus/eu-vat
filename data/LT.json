@@ -6,45 +6,6 @@
             "type": "REDUCED",
             "rate": {
                 "type": "REDUCED_RATE",
-                "value": 9
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "55.10.1",
-                        "description": "Room or unit accommodation services for visitors, with daily housekeeping (except time-share)"
-                    },
-                    {
-                        "value": "55.20.1",
-                        "description": "Holiday and other short stay accommodation services"
-                    },
-                    {
-                        "value": "55.30.1",
-                        "description": "Camping ground, recreational and vacation camp services"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "ACCOMMODATION",
-                "description": "Accommodation provided in hotels and similar establishments, including the provision of holiday accommodation and the letting of places on camping or caravan sites"
-            },
-            "comment": "In accordance with the procedure laid down in the legislation governing tourism (therein Law on turism)"
-        },
-        {
-            "memberState": "LT",
-            "type": "STANDARD",
-            "rate": {
-                "type": "DEFAULT",
-                "value": 21
-            },
-            "situationOn": "2024-07-01+02:00"
-        },
-        {
-            "memberState": "LT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
                 "value": 5
             },
             "situationOn": "2024-07-01+02:00",
@@ -459,6 +420,45 @@
                 "description": "Transport of passengers and their accompanying luggage"
             },
             "comment": "Applies only for established domestic regular routes"
+        },
+        {
+            "memberState": "LT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 9
+            },
+            "situationOn": "2024-07-01+02:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "55.10.1",
+                        "description": "Room or unit accommodation services for visitors, with daily housekeeping (except time-share)"
+                    },
+                    {
+                        "value": "55.20.1",
+                        "description": "Holiday and other short stay accommodation services"
+                    },
+                    {
+                        "value": "55.30.1",
+                        "description": "Camping ground, recreational and vacation camp services"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "ACCOMMODATION",
+                "description": "Accommodation provided in hotels and similar establishments, including the provision of holiday accommodation and the letting of places on camping or caravan sites"
+            },
+            "comment": "In accordance with the procedure laid down in the legislation governing tourism (therein Law on turism)"
+        },
+        {
+            "memberState": "LT",
+            "type": "STANDARD",
+            "rate": {
+                "type": "DEFAULT",
+                "value": 21
+            },
+            "situationOn": "2024-07-01+02:00"
         }
     ]
 }
