@@ -1243,6 +1243,68 @@
             "memberState": "RO",
             "type": "REDUCED",
             "rate": {
+                "type": "EXEMPTED",
+                "value": 0
+            },
+            "situationOn": "2024-07-01+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "8713",
+                        "description": "Carriages for disabled persons, whether or not motorised or otherwise mechanically propelled"
+                    },
+                    {
+                        "value": "8714 20 00",
+                        "description": "Of carriages for disabled persons"
+                    },
+                    {
+                        "value": "9021 10 10",
+                        "description": "Orthopaedic appliances"
+                    },
+                    {
+                        "value": "9021 10 90",
+                        "description": "Splints and other fracture appliances"
+                    },
+                    {
+                        "value": "9021 21",
+                        "description": "Artificial teeth"
+                    },
+                    {
+                        "value": "9021 29 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "9021 31 00",
+                        "description": "Artificial joints"
+                    },
+                    {
+                        "value": "9021 39",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "9021 40 00",
+                        "description": "Hearing aids, excluding parts and accessories"
+                    },
+                    {
+                        "value": "9021 50 00",
+                        "description": "Pacemakers for stimulating heart muscles, excluding parts and accessories"
+                    },
+                    {
+                        "value": "9021 90",
+                        "description": "Other"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "MEDICAL_EQUIPMENT",
+                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
+            },
+            "comment": "Supply of prostheses and their accessories, with the exception of dental prostheses exempt from tax under art.292 para.(1) lett.(b) and supply of orthopedic products. When those goods are imported from a third territory or a third country, the reduced VAT rate is conditioned by submission of the Customs Notice for medical devices or the Declaration of conformity of the medical device manufacturer according to art.2 of the Order no.1009\/2016. Art.294 para.(5) letters c) and d) of the Fiscal Code."
+        },
+        {
+            "memberState": "RO",
+            "type": "REDUCED",
+            "rate": {
                 "type": "REDUCED_RATE",
                 "value": 9
             },
@@ -1356,138 +1418,6 @@
                 "description": "Pharmaceutical products of a kind normally used for health care, prevention of illness and as treatment for medical and veterinary purposes,…"
             },
             "comment": "The reduced TVA rate is applied for the supply of medicines for human and veterinary use. See art. 291 para. (2) letter c) of the Fiscal Code."
-        },
-        {
-            "memberState": "RO",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 9
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "3102",
-                        "description": "Mineral or chemical fertilisers, nitrogenous"
-                    },
-                    {
-                        "value": "3103",
-                        "description": "Mineral or chemical fertilisers, phosphatic"
-                    },
-                    {
-                        "value": "3104",
-                        "description": "Mineral or chemical fertilisers, potassic"
-                    },
-                    {
-                        "value": "3105 90 80",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "3808 52 00",
-                        "description": "DDT (ISO) (clofenotane (INN)), in packings of a net weight content not exceeding 300 g"
-                    },
-                    {
-                        "value": "3808 59 00",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "3808 61 00",
-                        "description": "In packings of a net weight content not exceeding 300 g"
-                    },
-                    {
-                        "value": "3808 62 00",
-                        "description": "In packings of a net weight content exceeding 300 g but not exceeding 7,5 kg"
-                    },
-                    {
-                        "value": "3808 69 00",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "3808 91",
-                        "description": "Insecticides"
-                    },
-                    {
-                        "value": "3808 92",
-                        "description": "Fungicides"
-                    },
-                    {
-                        "value": "3808 93",
-                        "description": "Herbicides, anti-sprouting products and plant-growth regulators"
-                    },
-                    {
-                        "value": "3808 99 10",
-                        "description": "Rodenticides"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "AGRICULTURAL_PRODUCTION",
-                "description": "Supply of goods and services of a kind normally intended for use in agricultural production but excluding capital goods such as machinery or buildings"
-            },
-            "comment": "The reduced VAT rate shall be applied for the supply of chemical fertilizers and chemical pesticides used in agriculture, corresponding to the CN codes mentioned below. For details see art. 291 para. (2) letter l) of the Fiscal Code and art. 1 para. (2) of the Order no. 4634\/2022. The provisions shall apply until 31st of December 2031."
-        },
-        {
-            "memberState": "RO",
-            "type": "REDUCED",
-            "rate": {
-                "type": "EXEMPTED",
-                "value": 0
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "8713",
-                        "description": "Carriages for disabled persons, whether or not motorised or otherwise mechanically propelled"
-                    },
-                    {
-                        "value": "8714 20 00",
-                        "description": "Of carriages for disabled persons"
-                    },
-                    {
-                        "value": "9021 10 10",
-                        "description": "Orthopaedic appliances"
-                    },
-                    {
-                        "value": "9021 10 90",
-                        "description": "Splints and other fracture appliances"
-                    },
-                    {
-                        "value": "9021 21",
-                        "description": "Artificial teeth"
-                    },
-                    {
-                        "value": "9021 29 00",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "9021 31 00",
-                        "description": "Artificial joints"
-                    },
-                    {
-                        "value": "9021 39",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "9021 40 00",
-                        "description": "Hearing aids, excluding parts and accessories"
-                    },
-                    {
-                        "value": "9021 50 00",
-                        "description": "Pacemakers for stimulating heart muscles, excluding parts and accessories"
-                    },
-                    {
-                        "value": "9021 90",
-                        "description": "Other"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "MEDICAL_EQUIPMENT",
-                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
-            },
-            "comment": "Supply of prostheses and their accessories, with the exception of dental prostheses exempt from tax under art.292 para.(1) lett.(b) and supply of orthopedic products. When those goods are imported from a third territory or a third country, the reduced VAT rate is conditioned by submission of the Customs Notice for medical devices or the Declaration of conformity of the medical device manufacturer according to art.2 of the Order no.1009\/2016. Art.294 para.(5) letters c) and d) of the Fiscal Code."
         },
         {
             "memberState": "RO",
@@ -2340,6 +2270,76 @@
                 "description": "Admission to sporting events"
             },
             "comment": "See art. 291 para. (2) letter s) of the Fiscal Code."
+        },
+        {
+            "memberState": "RO",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 9
+            },
+            "situationOn": "2024-07-01+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "3102",
+                        "description": "Mineral or chemical fertilisers, nitrogenous"
+                    },
+                    {
+                        "value": "3103",
+                        "description": "Mineral or chemical fertilisers, phosphatic"
+                    },
+                    {
+                        "value": "3104",
+                        "description": "Mineral or chemical fertilisers, potassic"
+                    },
+                    {
+                        "value": "3105 90 80",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "3808 52 00",
+                        "description": "DDT (ISO) (clofenotane (INN)), in packings of a net weight content not exceeding 300 g"
+                    },
+                    {
+                        "value": "3808 59 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "3808 61 00",
+                        "description": "In packings of a net weight content not exceeding 300 g"
+                    },
+                    {
+                        "value": "3808 62 00",
+                        "description": "In packings of a net weight content exceeding 300 g but not exceeding 7,5 kg"
+                    },
+                    {
+                        "value": "3808 69 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "3808 91",
+                        "description": "Insecticides"
+                    },
+                    {
+                        "value": "3808 92",
+                        "description": "Fungicides"
+                    },
+                    {
+                        "value": "3808 93",
+                        "description": "Herbicides, anti-sprouting products and plant-growth regulators"
+                    },
+                    {
+                        "value": "3808 99 10",
+                        "description": "Rodenticides"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "AGRICULTURAL_PRODUCTION",
+                "description": "Supply of goods and services of a kind normally intended for use in agricultural production but excluding capital goods such as machinery or buildings"
+            },
+            "comment": "The reduced VAT rate shall be applied for the supply of chemical fertilizers and chemical pesticides used in agriculture, corresponding to the CN codes mentioned below. For details see art. 291 para. (2) letter l) of the Fiscal Code and art. 1 para. (2) of the Order no. 4634\/2022. The provisions shall apply until 31st of December 2031."
         },
         {
             "memberState": "RO",
