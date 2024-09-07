@@ -713,6 +713,34 @@
             "memberState": "DE",
             "type": "REDUCED",
             "rate": {
+                "type": "EXEMPTED",
+                "value": 0
+            },
+            "situationOn": "2024-07-01+02:00",
+            "category": {
+                "identifier": "SUPPLY_ELECTRICITY",
+                "description": "Supply of electricity"
+            },
+            "comment": "Article 12 paragraph 3 of the German VAT Act contains a list of services falling under the zero rate e.g. the supply of certain photovoltaic power(https:\/\/usth.bundesfinanzministerium.de\/usth\/2019-2020\/A-Umsatzsteuergesetz\/IV-Steuer-und-Vorsteuer\/Paragraf-12\/inhalt.html). For legal certainty please have a look at the German VAT Act."
+        },
+        {
+            "memberState": "DE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "OUT_OF_SCOPE",
+                "value": 0
+            },
+            "situationOn": "2024-07-01+02:00",
+            "category": {
+                "identifier": "BROADCASTING_SERVICES",
+                "description": "Reception of radio and television broadcasting services"
+            },
+            "comment": "Public radio and television broadcasting services are out of scope."
+        },
+        {
+            "memberState": "DE",
+            "type": "REDUCED",
+            "rate": {
                 "type": "REDUCED_RATE",
                 "value": 7
             },
@@ -785,279 +813,6 @@
             "memberState": "DE",
             "type": "REDUCED",
             "rate": {
-                "type": "EXEMPTED",
-                "value": 0
-            },
-            "situationOn": "2024-07-01+02:00",
-            "category": {
-                "identifier": "SUPPLY_ELECTRICITY",
-                "description": "Supply of electricity"
-            },
-            "comment": "Article 12 paragraph 3 of the German VAT Act contains a list of services falling under the zero rate e.g. the supply of certain photovoltaic power(https:\/\/usth.bundesfinanzministerium.de\/usth\/2019-2020\/A-Umsatzsteuergesetz\/IV-Steuer-und-Vorsteuer\/Paragraf-12\/inhalt.html). For legal certainty please have a look at the German VAT Act."
-        },
-        {
-            "memberState": "DE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "OUT_OF_SCOPE",
-                "value": 0
-            },
-            "situationOn": "2024-07-01+02:00",
-            "category": {
-                "identifier": "BROADCASTING_SERVICES",
-                "description": "Reception of radio and television broadcasting services"
-            },
-            "comment": "Public radio and television broadcasting services are out of scope."
-        },
-        {
-            "memberState": "DE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 7
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "4901",
-                        "description": "Printed books, brochures, leaflets and similar printed matter, whether or not in single sheets"
-                    },
-                    {
-                        "value": "4903 00 00",
-                        "description": "Children's picture, drawing or colouring books"
-                    },
-                    {
-                        "value": "4904 00 00",
-                        "description": "Music, printed or in manuscript, whether or not bound or illustrated"
-                    },
-                    {
-                        "value": "4905",
-                        "description": "Maps and hydrographic or similar charts of all kinds, including atlases, wall maps, topographical plans and globes, printed"
-                    },
-                    {
-                        "value": "9705 00 00",
-                        "description": "Collections and collectors' pieces of zoological, botanical, mineralogical, anatomical, historical, archaeological, palaeontological, ethnographic or numismatic interest"
-                    },
-                    {
-                        "value": "9706 00 00",
-                        "description": "Antiques of an age exceeding 100 years"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "LOAN_LIBRARIES",
-                "description": "Supply, including on loan by libraries, of books, newspapers and periodicals either on physical means of support …"
-            },
-            "comment": "VAT - Import - Annex 2 of the German VAT Act contains a list of goods falling under the reduced rate of 7% such as printed books, music, maps and so on (https:\/\/usth.bundesfinanzministerium.de\/usth\/2019-2020\/A-Umsatzsteuergesetz\/IV-Steuer-und-Vorsteuer\/Paragraf-12\/inhalt.html). For legal certainty please have a look at the German VAT Act."
-        },
-        {
-            "memberState": "DE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 7
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "7118",
-                        "description": "Coin"
-                    },
-                    {
-                        "value": "9705 00 00",
-                        "description": "Collections and collectors' pieces of zoological, botanical, mineralogical, anatomical, historical, archaeological, palaeontological, ethnographic or numismatic interest"
-                    },
-                    {
-                        "value": "9706 00 00",
-                        "description": "Antiques of an age exceeding 100 years"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "ZOOLOGICAL",
-                "description": "Collections and collector’s pieces of zoological, botanical, mineralogical, ethnographic or numismatic interest (CN code 9705 00 00)"
-            },
-            "comment": "VAT - Import - "
-        },
-        {
-            "memberState": "DE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 7
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "4901",
-                        "description": "Printed books, brochures, leaflets and similar printed matter, whether or not in single sheets"
-                    },
-                    {
-                        "value": "4903 00 00",
-                        "description": "Children's picture, drawing or colouring books"
-                    },
-                    {
-                        "value": "4904 00 00",
-                        "description": "Music, printed or in manuscript, whether or not bound or illustrated"
-                    },
-                    {
-                        "value": "4905",
-                        "description": "Maps and hydrographic or similar charts of all kinds, including atlases, wall maps, topographical plans and globes, printed"
-                    },
-                    {
-                        "value": "9705 00 00",
-                        "description": "Collections and collectors' pieces of zoological, botanical, mineralogical, anatomical, historical, archaeological, palaeontological, ethnographic or numismatic interest"
-                    },
-                    {
-                        "value": "9706 00 00",
-                        "description": "Antiques of an age exceeding 100 years"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "LOAN_LIBRARIES",
-                "description": "Supply, including on loan by libraries, of books, newspapers and periodicals either on physical means of support …"
-            },
-            "comment": "Annex 2 of the German VAT Act contains a list of goods falling under the reduced rate of 7% such as printed books, music, maps and so on (https:\/\/usth.bundesfinanzministerium.de\/usth\/2019-2020\/A-Umsatzsteuergesetz\/IV-Steuer-und-Vorsteuer\/Paragraf-12\/inhalt.html). For legal certainty please have a look at the German VAT Act."
-        },
-        {
-            "memberState": "DE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 7
-            },
-            "situationOn": "2024-07-01+02:00",
-            "category": {
-                "identifier": "TRANSPORT_PASSENGERS",
-                "description": "Transport of passengers and their accompanying luggage"
-            },
-            "comment": "Reduced rate on local transport (within a local community or if the transport distance does not exceed 50 km) and rail-bound transport.\nSee preliminary remarks to “Reduced rates” and the “General comments” field"
-        },
-        {
-            "memberState": "DE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 7
-            },
-            "situationOn": "2024-07-01+02:00",
-            "category": {
-                "identifier": "CULTURAL_EVENTS",
-                "description": "Admission to shows, theatres, circuses, fairs, amusement parks, concerts, museums, zoos, cinemas, exhibitions and similar cultural events and facilities"
-            },
-            "comment": "Reduced rate only on admissions to theatres, concerts and museums, as well as circus performances, performances as performers and transactions directly linked to the operation of zoological gardens.\nSee preliminary remarks to “Reduced rates” and the “General comments” field"
-        },
-        {
-            "memberState": "DE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 7
-            },
-            "situationOn": "2024-07-01+02:00",
-            "category": {
-                "identifier": "WRITERS_SERVICES",
-                "description": "Supply of services by writers, composers and performing artists, or of the royalties due to them"
-            },
-            "comment": "See preliminary remarks to “Reduced rates” and the “General comments” field"
-        },
-        {
-            "memberState": "DE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 7
-            },
-            "situationOn": "2024-07-01+02:00",
-            "category": {
-                "identifier": "ACCOMMODATION",
-                "description": "Accommodation provided in hotels and similar establishments, including the provision of holiday accommodation and the letting of places on camping or caravan sites"
-            },
-            "comment": "Only for short-term accommodation.\nSee preliminary remarks to “Reduced rates” and the “General comments” field"
-        },
-        {
-            "memberState": "DE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 7
-            },
-            "situationOn": "2024-07-01+02:00",
-            "category": {
-                "identifier": "SOCIAL_WELLBEING",
-                "description": "Supply of goods and services by organisations recognised as being devoted to social wellbeing by Member States and engaged in welfare …"
-            },
-            "comment": "Reduced rate only applicable to supplies of goods and services of organisations pursuing non-profit making, charitable or ecclesiastical purposes. VAT reduction not applicable to supply of goods or services to be made within the context of a profitable Business.\nSee preliminary remarks to “Reduced rates” and the “General comments” field"
-        },
-        {
-            "memberState": "DE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 7
-            },
-            "situationOn": "2024-07-01+02:00",
-            "category": {
-                "identifier": "MEDICAL_CARE",
-                "description": "Provision of medical and dental care and thermal treatment in so far as those services are not exempt pursuant to points (b) to (e) of Article 132(1)"
-            },
-            "comment": "Reduced rate only on the supply of services by dental technicians in their professional capacity and the supply of dental prostheses by dentists and dental technicians.\nSee preliminary remarks to “Reduced rates” and the “General comments” field"
-        },
-        {
-            "memberState": "DE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 7
-            },
-            "situationOn": "2024-07-01+02:00",
-            "category": {
-                "identifier": "SUPPLY_GAS",
-                "description": "Supply of natural gas"
-            },
-            "comment": "Temporary reduction of the VAT rate on supplies of gas through the natural gas network from 19% to 7%. The tax rate reduction shall apply for the period from 2022\/10\/01 to 2024\/03\/31."
-        },
-        {
-            "memberState": "DE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 7
-            },
-            "situationOn": "2024-07-01+02:00",
-            "category": {
-                "identifier": "SOCIAL_WELLBEING",
-                "description": "Supply of goods and services by organisations recognised as being devoted to social wellbeing by Member States and engaged in welfare …"
-            },
-            "comment": "VAT - Import - Reduced rate only applicable to supplies of goods and services of organisations pursuing non-profit making, charitable or ecclesiastical purposes. VAT reduction not applicable to supply of goods or services to be made within the context of a profitable Business."
-        },
-        {
-            "memberState": "DE",
-            "type": "STANDARD",
-            "rate": {
-                "type": "DEFAULT",
-                "value": 19
-            },
-            "situationOn": "2024-07-01+02:00",
-            "comment": "VAT - Import - "
-        },
-        {
-            "memberState": "DE",
-            "type": "STANDARD",
-            "rate": {
-                "type": "DEFAULT",
-                "value": 19
-            },
-            "situationOn": "2024-07-01+02:00"
-        },
-        {
-            "memberState": "DE",
-            "type": "REDUCED",
-            "rate": {
                 "type": "REDUCED_RATE",
                 "value": 7
             },
@@ -1093,86 +848,6 @@
                 "description": "Supply of water"
             },
             "comment": "VAT - Import - No reduced rate for bottled water, healing water and steam"
-        },
-        {
-            "memberState": "DE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 7
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cnCodes": {
-                "code": {
-                    "value": "4902",
-                    "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
-                }
-            },
-            "category": {
-                "identifier": "NEWSPAPERS",
-                "description": "Newspapers"
-            },
-            "comment": "Annex 2 of the German VAT Act contains a list of goods falling under the reduced rate of 7% e.g. excluding newspapers whose content is harmful to minors or is predominantly devoted to advertising (https:\/\/usth.bundesfinanzministerium.de\/usth\/2019-2020\/A-Umsatzsteuergesetz\/IV-Steuer-und-Vorsteuer\/Paragraf-12\/inhalt.html). For legal certainty please have a look at the German VAT Act."
-        },
-        {
-            "memberState": "DE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 7
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cnCodes": {
-                "code": {
-                    "value": "4902",
-                    "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
-                }
-            },
-            "category": {
-                "identifier": "PERIODICALS",
-                "description": "Periodicals"
-            },
-            "comment": "Annex 2 of the German VAT Act contains a list of goods falling under the reduced rate of 7% e.g. excluding periodicals whose content is harmful to minors or is predominantly devoted to advertising (https:\/\/usth.bundesfinanzministerium.de\/usth\/2019-2020\/A-Umsatzsteuergesetz\/IV-Steuer-und-Vorsteuer\/Paragraf-12\/inhalt.html). For legal certainty please have a look at the German VAT Act."
-        },
-        {
-            "memberState": "DE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 7
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cnCodes": {
-                "code": {
-                    "value": "4902",
-                    "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
-                }
-            },
-            "category": {
-                "identifier": "NEWSPAPERS",
-                "description": "Newspapers"
-            },
-            "comment": "VAT - Import - Annex 2 of the German VAT Act contains a list of goods falling under the reduced rate of 7% e.g. excluding newspapers whose content is harmful to minors or is predominantly devoted to advertising (https:\/\/usth.bundesfinanzministerium.de\/usth\/2019-2020\/A-Umsatzsteuergesetz\/IV-Steuer-und-Vorsteuer\/Paragraf-12\/inhalt.html). For legal certainty please have a look at the German VAT Act."
-        },
-        {
-            "memberState": "DE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 7
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cnCodes": {
-                "code": {
-                    "value": "4902",
-                    "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
-                }
-            },
-            "category": {
-                "identifier": "PERIODICALS",
-                "description": "Periodicals"
-            },
-            "comment": "VAT - Import - Annex 2 of the German VAT Act contains a list of goods falling under the reduced rate of 7% e.g. excluding periodicals whose content is harmful to minors or is predominantly devoted to advertising (https:\/\/usth.bundesfinanzministerium.de\/usth\/2019-2020\/A-Umsatzsteuergesetz\/IV-Steuer-und-Vorsteuer\/Paragraf-12\/inhalt.html). For legal certainty please have a look at the German VAT Act."
         },
         {
             "memberState": "DE",
@@ -1441,6 +1116,331 @@
                 "description": "Sculpture casts the production of which is limited to eight copies and supervised by the artist or his successors in title…"
             },
             "comment": "VAT - Import - "
+        },
+        {
+            "memberState": "DE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 7
+            },
+            "situationOn": "2024-07-01+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "4901",
+                        "description": "Printed books, brochures, leaflets and similar printed matter, whether or not in single sheets"
+                    },
+                    {
+                        "value": "4903 00 00",
+                        "description": "Children's picture, drawing or colouring books"
+                    },
+                    {
+                        "value": "4904 00 00",
+                        "description": "Music, printed or in manuscript, whether or not bound or illustrated"
+                    },
+                    {
+                        "value": "4905",
+                        "description": "Maps and hydrographic or similar charts of all kinds, including atlases, wall maps, topographical plans and globes, printed"
+                    },
+                    {
+                        "value": "9705 00 00",
+                        "description": "Collections and collectors' pieces of zoological, botanical, mineralogical, anatomical, historical, archaeological, palaeontological, ethnographic or numismatic interest"
+                    },
+                    {
+                        "value": "9706 00 00",
+                        "description": "Antiques of an age exceeding 100 years"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "LOAN_LIBRARIES",
+                "description": "Supply, including on loan by libraries, of books, newspapers and periodicals either on physical means of support …"
+            },
+            "comment": "Annex 2 of the German VAT Act contains a list of goods falling under the reduced rate of 7% such as printed books, music, maps and so on (https:\/\/usth.bundesfinanzministerium.de\/usth\/2019-2020\/A-Umsatzsteuergesetz\/IV-Steuer-und-Vorsteuer\/Paragraf-12\/inhalt.html). For legal certainty please have a look at the German VAT Act."
+        },
+        {
+            "memberState": "DE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 7
+            },
+            "situationOn": "2024-07-01+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "4901",
+                        "description": "Printed books, brochures, leaflets and similar printed matter, whether or not in single sheets"
+                    },
+                    {
+                        "value": "4903 00 00",
+                        "description": "Children's picture, drawing or colouring books"
+                    },
+                    {
+                        "value": "4904 00 00",
+                        "description": "Music, printed or in manuscript, whether or not bound or illustrated"
+                    },
+                    {
+                        "value": "4905",
+                        "description": "Maps and hydrographic or similar charts of all kinds, including atlases, wall maps, topographical plans and globes, printed"
+                    },
+                    {
+                        "value": "9705 00 00",
+                        "description": "Collections and collectors' pieces of zoological, botanical, mineralogical, anatomical, historical, archaeological, palaeontological, ethnographic or numismatic interest"
+                    },
+                    {
+                        "value": "9706 00 00",
+                        "description": "Antiques of an age exceeding 100 years"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "LOAN_LIBRARIES",
+                "description": "Supply, including on loan by libraries, of books, newspapers and periodicals either on physical means of support …"
+            },
+            "comment": "VAT - Import - Annex 2 of the German VAT Act contains a list of goods falling under the reduced rate of 7% such as printed books, music, maps and so on (https:\/\/usth.bundesfinanzministerium.de\/usth\/2019-2020\/A-Umsatzsteuergesetz\/IV-Steuer-und-Vorsteuer\/Paragraf-12\/inhalt.html). For legal certainty please have a look at the German VAT Act."
+        },
+        {
+            "memberState": "DE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 7
+            },
+            "situationOn": "2024-07-01+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "7118",
+                        "description": "Coin"
+                    },
+                    {
+                        "value": "9705 00 00",
+                        "description": "Collections and collectors' pieces of zoological, botanical, mineralogical, anatomical, historical, archaeological, palaeontological, ethnographic or numismatic interest"
+                    },
+                    {
+                        "value": "9706 00 00",
+                        "description": "Antiques of an age exceeding 100 years"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "ZOOLOGICAL",
+                "description": "Collections and collector’s pieces of zoological, botanical, mineralogical, ethnographic or numismatic interest (CN code 9705 00 00)"
+            },
+            "comment": "VAT - Import - "
+        },
+        {
+            "memberState": "DE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 7
+            },
+            "situationOn": "2024-07-01+02:00",
+            "category": {
+                "identifier": "TRANSPORT_PASSENGERS",
+                "description": "Transport of passengers and their accompanying luggage"
+            },
+            "comment": "Reduced rate on local transport (within a local community or if the transport distance does not exceed 50 km) and rail-bound transport.\nSee preliminary remarks to “Reduced rates” and the “General comments” field"
+        },
+        {
+            "memberState": "DE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 7
+            },
+            "situationOn": "2024-07-01+02:00",
+            "category": {
+                "identifier": "CULTURAL_EVENTS",
+                "description": "Admission to shows, theatres, circuses, fairs, amusement parks, concerts, museums, zoos, cinemas, exhibitions and similar cultural events and facilities"
+            },
+            "comment": "Reduced rate only on admissions to theatres, concerts and museums, as well as circus performances, performances as performers and transactions directly linked to the operation of zoological gardens.\nSee preliminary remarks to “Reduced rates” and the “General comments” field"
+        },
+        {
+            "memberState": "DE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 7
+            },
+            "situationOn": "2024-07-01+02:00",
+            "category": {
+                "identifier": "WRITERS_SERVICES",
+                "description": "Supply of services by writers, composers and performing artists, or of the royalties due to them"
+            },
+            "comment": "See preliminary remarks to “Reduced rates” and the “General comments” field"
+        },
+        {
+            "memberState": "DE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 7
+            },
+            "situationOn": "2024-07-01+02:00",
+            "category": {
+                "identifier": "ACCOMMODATION",
+                "description": "Accommodation provided in hotels and similar establishments, including the provision of holiday accommodation and the letting of places on camping or caravan sites"
+            },
+            "comment": "Only for short-term accommodation.\nSee preliminary remarks to “Reduced rates” and the “General comments” field"
+        },
+        {
+            "memberState": "DE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 7
+            },
+            "situationOn": "2024-07-01+02:00",
+            "category": {
+                "identifier": "SOCIAL_WELLBEING",
+                "description": "Supply of goods and services by organisations recognised as being devoted to social wellbeing by Member States and engaged in welfare …"
+            },
+            "comment": "Reduced rate only applicable to supplies of goods and services of organisations pursuing non-profit making, charitable or ecclesiastical purposes. VAT reduction not applicable to supply of goods or services to be made within the context of a profitable Business.\nSee preliminary remarks to “Reduced rates” and the “General comments” field"
+        },
+        {
+            "memberState": "DE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 7
+            },
+            "situationOn": "2024-07-01+02:00",
+            "category": {
+                "identifier": "MEDICAL_CARE",
+                "description": "Provision of medical and dental care and thermal treatment in so far as those services are not exempt pursuant to points (b) to (e) of Article 132(1)"
+            },
+            "comment": "Reduced rate only on the supply of services by dental technicians in their professional capacity and the supply of dental prostheses by dentists and dental technicians.\nSee preliminary remarks to “Reduced rates” and the “General comments” field"
+        },
+        {
+            "memberState": "DE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 7
+            },
+            "situationOn": "2024-07-01+02:00",
+            "category": {
+                "identifier": "SUPPLY_GAS",
+                "description": "Supply of natural gas"
+            },
+            "comment": "Temporary reduction of the VAT rate on supplies of gas through the natural gas network from 19% to 7%. The tax rate reduction shall apply for the period from 2022\/10\/01 to 2024\/03\/31."
+        },
+        {
+            "memberState": "DE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 7
+            },
+            "situationOn": "2024-07-01+02:00",
+            "category": {
+                "identifier": "SOCIAL_WELLBEING",
+                "description": "Supply of goods and services by organisations recognised as being devoted to social wellbeing by Member States and engaged in welfare …"
+            },
+            "comment": "VAT - Import - Reduced rate only applicable to supplies of goods and services of organisations pursuing non-profit making, charitable or ecclesiastical purposes. VAT reduction not applicable to supply of goods or services to be made within the context of a profitable Business."
+        },
+        {
+            "memberState": "DE",
+            "type": "STANDARD",
+            "rate": {
+                "type": "DEFAULT",
+                "value": 19
+            },
+            "situationOn": "2024-07-01+02:00",
+            "comment": "VAT - Import - "
+        },
+        {
+            "memberState": "DE",
+            "type": "STANDARD",
+            "rate": {
+                "type": "DEFAULT",
+                "value": 19
+            },
+            "situationOn": "2024-07-01+02:00"
+        },
+        {
+            "memberState": "DE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 7
+            },
+            "situationOn": "2024-07-01+02:00",
+            "cnCodes": {
+                "code": {
+                    "value": "4902",
+                    "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
+                }
+            },
+            "category": {
+                "identifier": "NEWSPAPERS",
+                "description": "Newspapers"
+            },
+            "comment": "Annex 2 of the German VAT Act contains a list of goods falling under the reduced rate of 7% e.g. excluding newspapers whose content is harmful to minors or is predominantly devoted to advertising (https:\/\/usth.bundesfinanzministerium.de\/usth\/2019-2020\/A-Umsatzsteuergesetz\/IV-Steuer-und-Vorsteuer\/Paragraf-12\/inhalt.html). For legal certainty please have a look at the German VAT Act."
+        },
+        {
+            "memberState": "DE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 7
+            },
+            "situationOn": "2024-07-01+02:00",
+            "cnCodes": {
+                "code": {
+                    "value": "4902",
+                    "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
+                }
+            },
+            "category": {
+                "identifier": "PERIODICALS",
+                "description": "Periodicals"
+            },
+            "comment": "Annex 2 of the German VAT Act contains a list of goods falling under the reduced rate of 7% e.g. excluding periodicals whose content is harmful to minors or is predominantly devoted to advertising (https:\/\/usth.bundesfinanzministerium.de\/usth\/2019-2020\/A-Umsatzsteuergesetz\/IV-Steuer-und-Vorsteuer\/Paragraf-12\/inhalt.html). For legal certainty please have a look at the German VAT Act."
+        },
+        {
+            "memberState": "DE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 7
+            },
+            "situationOn": "2024-07-01+02:00",
+            "cnCodes": {
+                "code": {
+                    "value": "4902",
+                    "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
+                }
+            },
+            "category": {
+                "identifier": "NEWSPAPERS",
+                "description": "Newspapers"
+            },
+            "comment": "VAT - Import - Annex 2 of the German VAT Act contains a list of goods falling under the reduced rate of 7% e.g. excluding newspapers whose content is harmful to minors or is predominantly devoted to advertising (https:\/\/usth.bundesfinanzministerium.de\/usth\/2019-2020\/A-Umsatzsteuergesetz\/IV-Steuer-und-Vorsteuer\/Paragraf-12\/inhalt.html). For legal certainty please have a look at the German VAT Act."
+        },
+        {
+            "memberState": "DE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 7
+            },
+            "situationOn": "2024-07-01+02:00",
+            "cnCodes": {
+                "code": {
+                    "value": "4902",
+                    "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
+                }
+            },
+            "category": {
+                "identifier": "PERIODICALS",
+                "description": "Periodicals"
+            },
+            "comment": "VAT - Import - Annex 2 of the German VAT Act contains a list of goods falling under the reduced rate of 7% e.g. excluding periodicals whose content is harmful to minors or is predominantly devoted to advertising (https:\/\/usth.bundesfinanzministerium.de\/usth\/2019-2020\/A-Umsatzsteuergesetz\/IV-Steuer-und-Vorsteuer\/Paragraf-12\/inhalt.html). For legal certainty please have a look at the German VAT Act."
         }
     ]
 }

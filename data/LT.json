@@ -6,6 +6,99 @@
             "type": "REDUCED",
             "rate": {
                 "type": "REDUCED_RATE",
+                "value": 9
+            },
+            "situationOn": "2024-07-01+02:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "49.10.19",
+                        "description": "Other passenger rail transport services, interurban"
+                    },
+                    {
+                        "value": "49.31.10",
+                        "description": "Urban and suburban railway transport services of passengers"
+                    },
+                    {
+                        "value": "49.31.2",
+                        "description": "Other urban and suburban passenger land transport services"
+                    },
+                    {
+                        "value": "49.39.11",
+                        "description": "Interurban scheduled road transport services of passengers"
+                    },
+                    {
+                        "value": "50.10.11",
+                        "description": "Sea and coastal passenger water transport services by ferries"
+                    },
+                    {
+                        "value": "50.10.19",
+                        "description": "Other sea and coastal passenger water transport services"
+                    },
+                    {
+                        "value": "50.30.11",
+                        "description": "Inland passenger water transport services by ferries"
+                    },
+                    {
+                        "value": "50.30.19",
+                        "description": "Other inland passenger water transport services"
+                    },
+                    {
+                        "value": "51.10.11",
+                        "description": "Domestic scheduled air transport services of passengers"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "TRANSPORT_PASSENGERS",
+                "description": "Transport of passengers and their accompanying luggage"
+            },
+            "comment": "Applies only for established domestic regular routes"
+        },
+        {
+            "memberState": "LT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 9
+            },
+            "situationOn": "2024-07-01+02:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "55.10.1",
+                        "description": "Room or unit accommodation services for visitors, with daily housekeeping (except time-share)"
+                    },
+                    {
+                        "value": "55.20.1",
+                        "description": "Holiday and other short stay accommodation services"
+                    },
+                    {
+                        "value": "55.30.1",
+                        "description": "Camping ground, recreational and vacation camp services"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "ACCOMMODATION",
+                "description": "Accommodation provided in hotels and similar establishments, including the provision of holiday accommodation and the letting of places on camping or caravan sites"
+            },
+            "comment": "In accordance with the procedure laid down in the legislation governing tourism (therein Law on turism)"
+        },
+        {
+            "memberState": "LT",
+            "type": "STANDARD",
+            "rate": {
+                "type": "DEFAULT",
+                "value": 21
+            },
+            "situationOn": "2024-07-01+02:00"
+        },
+        {
+            "memberState": "LT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
                 "value": 5
             },
             "situationOn": "2024-07-01+02:00",
@@ -366,99 +459,6 @@
                 "description": "Supply of water"
             },
             "comment": "Applies to the hot water or cold water for preparing of hot water, supplied to residential premises."
-        },
-        {
-            "memberState": "LT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 9
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "49.10.19",
-                        "description": "Other passenger rail transport services, interurban"
-                    },
-                    {
-                        "value": "49.31.10",
-                        "description": "Urban and suburban railway transport services of passengers"
-                    },
-                    {
-                        "value": "49.31.2",
-                        "description": "Other urban and suburban passenger land transport services"
-                    },
-                    {
-                        "value": "49.39.11",
-                        "description": "Interurban scheduled road transport services of passengers"
-                    },
-                    {
-                        "value": "50.10.11",
-                        "description": "Sea and coastal passenger water transport services by ferries"
-                    },
-                    {
-                        "value": "50.10.19",
-                        "description": "Other sea and coastal passenger water transport services"
-                    },
-                    {
-                        "value": "50.30.11",
-                        "description": "Inland passenger water transport services by ferries"
-                    },
-                    {
-                        "value": "50.30.19",
-                        "description": "Other inland passenger water transport services"
-                    },
-                    {
-                        "value": "51.10.11",
-                        "description": "Domestic scheduled air transport services of passengers"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "TRANSPORT_PASSENGERS",
-                "description": "Transport of passengers and their accompanying luggage"
-            },
-            "comment": "Applies only for established domestic regular routes"
-        },
-        {
-            "memberState": "LT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 9
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "55.10.1",
-                        "description": "Room or unit accommodation services for visitors, with daily housekeeping (except time-share)"
-                    },
-                    {
-                        "value": "55.20.1",
-                        "description": "Holiday and other short stay accommodation services"
-                    },
-                    {
-                        "value": "55.30.1",
-                        "description": "Camping ground, recreational and vacation camp services"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "ACCOMMODATION",
-                "description": "Accommodation provided in hotels and similar establishments, including the provision of holiday accommodation and the letting of places on camping or caravan sites"
-            },
-            "comment": "In accordance with the procedure laid down in the legislation governing tourism (therein Law on turism)"
-        },
-        {
-            "memberState": "LT",
-            "type": "STANDARD",
-            "rate": {
-                "type": "DEFAULT",
-                "value": 21
-            },
-            "situationOn": "2024-07-01+02:00"
         }
     ]
 }
