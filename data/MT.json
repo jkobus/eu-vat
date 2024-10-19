@@ -189,6 +189,127 @@
             "memberState": "MT",
             "type": "REDUCED",
             "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2024-07-01+02:00",
+            "category": {
+                "identifier": "SCULPTURE_CASTS",
+                "description": "Sculpture casts the production of which is limited to eight copies and supervised by the artist or his successors in title…"
+            },
+            "comment": "Reduced rate only applicable to the importation of works of art, collector’s items and antiques as defined in the VAT Act."
+        },
+        {
+            "memberState": "MT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2024-07-01+02:00",
+            "category": {
+                "identifier": "ENAMELS",
+                "description": "Enamels on copper, executed entirely by hand, limited to eight numbered copies bearing the signature of the artist or the studio, excluding articles of jewellery and goldsmith’s and silversmith’s wares"
+            },
+            "comment": "Reduced rate only applicable to the importation of works of art, collector’s items and antiques as defined in the VAT Act."
+        },
+        {
+            "memberState": "MT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2024-07-01+02:00",
+            "category": {
+                "identifier": "TAPESTRIES",
+                "description": "Tapestries (CN code 5805 00 00) and wall textiles (CN code 6304 00 00) made by hand from original designs provided by artists…"
+            },
+            "comment": "Reduced rate only applicable to the importation of works of art, collector’s items and antiques as defined in the VAT Act."
+        },
+        {
+            "memberState": "MT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2024-07-01+02:00",
+            "category": {
+                "identifier": "CERAMICS",
+                "description": "Individual pieces of ceramics executed entirely by the artist and signed by him"
+            },
+            "comment": "Reduced rate only applicable to the importation of works of art, collector’s items and antiques as defined in the VAT Act."
+        },
+        {
+            "memberState": "MT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2024-07-01+02:00",
+            "category": {
+                "identifier": "PHOTOGRAPHS",
+                "description": "Photographs taken by the artist, printed by him or under his supervision, signed and numbered and limited to 30 copies, all sizes and mounts included"
+            },
+            "comment": "Reduced rate only applicable to the importation of works of art, collector’s items and antiques as defined in the VAT Act."
+        },
+        {
+            "memberState": "MT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 7
+            },
+            "situationOn": "2024-07-01+02:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "55.1",
+                        "description": "Hotel and similar accommodation services"
+                    },
+                    {
+                        "value": "55.2",
+                        "description": "Holiday and other short stay accommodation services"
+                    },
+                    {
+                        "value": "55.3",
+                        "description": "Camping ground, recreational and vacation camp services"
+                    },
+                    {
+                        "value": "55.90.11",
+                        "description": "Room or unit accommodation services for students in student residences and school dormitories"
+                    },
+                    {
+                        "value": "55.90.12",
+                        "description": "Room or unit accommodation services for workers in workers hostels or camps"
+                    },
+                    {
+                        "value": "55.90.19",
+                        "description": "Other accommodation services n.e.c."
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "ACCOMMODATION",
+                "description": "Accommodation provided in hotels and similar establishments, including the provision of holiday accommodation and the letting of places on camping or caravan sites"
+            },
+            "comment": "The reduced rate is limited to accommodation required to be licensed in virtue of the Malta Travel and Tourism Services Act (or any Act substituted therefor)."
+        },
+        {
+            "memberState": "MT",
+            "type": "STANDARD",
+            "rate": {
+                "type": "DEFAULT",
+                "value": 18
+            },
+            "situationOn": "2024-07-01+02:00"
+        },
+        {
+            "memberState": "MT",
+            "type": "REDUCED",
+            "rate": {
                 "type": "EXEMPTED",
                 "value": 0
             },
@@ -1259,127 +1380,6 @@
                 "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and …"
             },
             "comment": "Food for human consumption, excluding food supplied for catering, is taxed at 0% (exempt with credit) (part 2).  \n\nThe above exemption does not apply to items classified under the following subheadings in the First Schedule of the Import Duties Act:\n\n(1) 1207.30.90; 1207.99.91.00; 1209.30.00.00; 1209.99.10; 1209.99.91.00; 1209.99.99.00; 1211.90.30\n\n(2) 1301.10.00.00; 1302.11.00; 1302.14.00; 1302.19.05; 1302.19.30; 1302.19.91; 1302.19.98; 1302.20.10; 1302.20.90"
-        },
-        {
-            "memberState": "MT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2024-07-01+02:00",
-            "category": {
-                "identifier": "SCULPTURE_CASTS",
-                "description": "Sculpture casts the production of which is limited to eight copies and supervised by the artist or his successors in title…"
-            },
-            "comment": "Reduced rate only applicable to the importation of works of art, collector’s items and antiques as defined in the VAT Act."
-        },
-        {
-            "memberState": "MT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2024-07-01+02:00",
-            "category": {
-                "identifier": "ENAMELS",
-                "description": "Enamels on copper, executed entirely by hand, limited to eight numbered copies bearing the signature of the artist or the studio, excluding articles of jewellery and goldsmith’s and silversmith’s wares"
-            },
-            "comment": "Reduced rate only applicable to the importation of works of art, collector’s items and antiques as defined in the VAT Act."
-        },
-        {
-            "memberState": "MT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2024-07-01+02:00",
-            "category": {
-                "identifier": "TAPESTRIES",
-                "description": "Tapestries (CN code 5805 00 00) and wall textiles (CN code 6304 00 00) made by hand from original designs provided by artists…"
-            },
-            "comment": "Reduced rate only applicable to the importation of works of art, collector’s items and antiques as defined in the VAT Act."
-        },
-        {
-            "memberState": "MT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2024-07-01+02:00",
-            "category": {
-                "identifier": "CERAMICS",
-                "description": "Individual pieces of ceramics executed entirely by the artist and signed by him"
-            },
-            "comment": "Reduced rate only applicable to the importation of works of art, collector’s items and antiques as defined in the VAT Act."
-        },
-        {
-            "memberState": "MT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2024-07-01+02:00",
-            "category": {
-                "identifier": "PHOTOGRAPHS",
-                "description": "Photographs taken by the artist, printed by him or under his supervision, signed and numbered and limited to 30 copies, all sizes and mounts included"
-            },
-            "comment": "Reduced rate only applicable to the importation of works of art, collector’s items and antiques as defined in the VAT Act."
-        },
-        {
-            "memberState": "MT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 7
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "55.1",
-                        "description": "Hotel and similar accommodation services"
-                    },
-                    {
-                        "value": "55.2",
-                        "description": "Holiday and other short stay accommodation services"
-                    },
-                    {
-                        "value": "55.3",
-                        "description": "Camping ground, recreational and vacation camp services"
-                    },
-                    {
-                        "value": "55.90.11",
-                        "description": "Room or unit accommodation services for students in student residences and school dormitories"
-                    },
-                    {
-                        "value": "55.90.12",
-                        "description": "Room or unit accommodation services for workers in workers hostels or camps"
-                    },
-                    {
-                        "value": "55.90.19",
-                        "description": "Other accommodation services n.e.c."
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "ACCOMMODATION",
-                "description": "Accommodation provided in hotels and similar establishments, including the provision of holiday accommodation and the letting of places on camping or caravan sites"
-            },
-            "comment": "The reduced rate is limited to accommodation required to be licensed in virtue of the Malta Travel and Tourism Services Act (or any Act substituted therefor)."
-        },
-        {
-            "memberState": "MT",
-            "type": "STANDARD",
-            "rate": {
-                "type": "DEFAULT",
-                "value": 18
-            },
-            "situationOn": "2024-07-01+02:00"
         }
     ]
 }

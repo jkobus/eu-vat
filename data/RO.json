@@ -5,6 +5,68 @@
             "memberState": "RO",
             "type": "REDUCED",
             "rate": {
+                "type": "EXEMPTED",
+                "value": 0
+            },
+            "situationOn": "2024-07-01+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "8713",
+                        "description": "Carriages for disabled persons, whether or not motorised or otherwise mechanically propelled"
+                    },
+                    {
+                        "value": "8714 20 00",
+                        "description": "Of carriages for disabled persons"
+                    },
+                    {
+                        "value": "9021 10 10",
+                        "description": "Orthopaedic appliances"
+                    },
+                    {
+                        "value": "9021 10 90",
+                        "description": "Splints and other fracture appliances"
+                    },
+                    {
+                        "value": "9021 21",
+                        "description": "Artificial teeth"
+                    },
+                    {
+                        "value": "9021 29 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "9021 31 00",
+                        "description": "Artificial joints"
+                    },
+                    {
+                        "value": "9021 39",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "9021 40 00",
+                        "description": "Hearing aids, excluding parts and accessories"
+                    },
+                    {
+                        "value": "9021 50 00",
+                        "description": "Pacemakers for stimulating heart muscles, excluding parts and accessories"
+                    },
+                    {
+                        "value": "9021 90",
+                        "description": "Other"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "MEDICAL_EQUIPMENT",
+                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
+            },
+            "comment": "Supply of prostheses and their accessories, with the exception of dental prostheses exempt from tax under art.292 para.(1) lett.(b) and supply of orthopedic products. When those goods are imported from a third territory or a third country, the reduced VAT rate is conditioned by submission of the Customs Notice for medical devices or the Declaration of conformity of the medical device manufacturer according to art.2 of the Order no.1009\/2016. Art.294 para.(5) letters c) and d) of the Fiscal Code."
+        },
+        {
+            "memberState": "RO",
+            "type": "REDUCED",
+            "rate": {
                 "type": "REDUCED_RATE",
                 "value": 9
             },
@@ -1317,186 +1379,6 @@
                 "value": 0
             },
             "situationOn": "2024-07-01+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "8713",
-                        "description": "Carriages for disabled persons, whether or not motorised or otherwise mechanically propelled"
-                    },
-                    {
-                        "value": "8714 20 00",
-                        "description": "Of carriages for disabled persons"
-                    },
-                    {
-                        "value": "9021 10 10",
-                        "description": "Orthopaedic appliances"
-                    },
-                    {
-                        "value": "9021 10 90",
-                        "description": "Splints and other fracture appliances"
-                    },
-                    {
-                        "value": "9021 21",
-                        "description": "Artificial teeth"
-                    },
-                    {
-                        "value": "9021 29 00",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "9021 31 00",
-                        "description": "Artificial joints"
-                    },
-                    {
-                        "value": "9021 39",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "9021 40 00",
-                        "description": "Hearing aids, excluding parts and accessories"
-                    },
-                    {
-                        "value": "9021 50 00",
-                        "description": "Pacemakers for stimulating heart muscles, excluding parts and accessories"
-                    },
-                    {
-                        "value": "9021 90",
-                        "description": "Other"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "MEDICAL_EQUIPMENT",
-                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
-            },
-            "comment": "Supply of prostheses and their accessories, with the exception of dental prostheses exempt from tax under art.292 para.(1) lett.(b) and supply of orthopedic products. When those goods are imported from a third territory or a third country, the reduced VAT rate is conditioned by submission of the Customs Notice for medical devices or the Declaration of conformity of the medical device manufacturer according to art.2 of the Order no.1009\/2016. Art.294 para.(5) letters c) and d) of the Fiscal Code."
-        },
-        {
-            "memberState": "RO",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 9
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "2106 90 20",
-                        "description": "Compound alcoholic preparations, other than those based on odoriferous substances, of a kind used for the manufacture of beverages"
-                    },
-                    {
-                        "value": "2811 29 30",
-                        "description": "Nitrogen oxides"
-                    },
-                    {
-                        "value": "3001 20",
-                        "description": "Extracts of glands or other organs or of their secretions"
-                    },
-                    {
-                        "value": "3001 90 20",
-                        "description": "Of human origin"
-                    },
-                    {
-                        "value": "3001 90 91",
-                        "description": "Heparin and its salts"
-                    },
-                    {
-                        "value": "3001 90 98",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "3002 12 00",
-                        "description": "Antisera and other blood fractions"
-                    },
-                    {
-                        "value": "3002 13 00",
-                        "description": "Immunological products, unmixed, not put up in measured doses or in forms or packings for retail sale"
-                    },
-                    {
-                        "value": "3002 14 00",
-                        "description": "Immunological products, mixed, not put up in measured doses or in forms or packings for retail sale"
-                    },
-                    {
-                        "value": "3002 15 00",
-                        "description": "Immunological products, put up in measured doses or in forms or packings for retail sale"
-                    },
-                    {
-                        "value": "3002 90 30",
-                        "description": "Animal blood prepared for therapeutic, prophylactic or diagnostic uses"
-                    },
-                    {
-                        "value": "3003",
-                        "description": "Medicaments (excluding goods of heading 3002, 3005 or 3006) consisting of two or more constituents which have been mixed together for therapeutic or prophylactic uses, not put up in measured doses or in forms or packings for retail sale"
-                    },
-                    {
-                        "value": "3004",
-                        "description": "Medicaments (excluding goods of heading 3002, 3005 or 3006) consisting of mixed or unmixed products for therapeutic or prophylactic uses, put up in measured doses (including those in the form of transdermal administration systems) or in forms or packings for retail sale"
-                    },
-                    {
-                        "value": "3005",
-                        "description": "Wadding, gauze, bandages and similar articles (for example, dressings, adhesive plasters, poultices), impregnated or coated with pharmaceutical substances or put up in forms or packings for retail sale for medical, surgical, dental or veterinary purposes"
-                    },
-                    {
-                        "value": "3006",
-                        "description": "Pharmaceutical goods specified in note 4 to this chapter"
-                    },
-                    {
-                        "value": "3305 10 00",
-                        "description": "Shampoos"
-                    },
-                    {
-                        "value": "3002 41",
-                        "description": "Vaccines for human medicine"
-                    },
-                    {
-                        "value": "3002 42 00",
-                        "description": "Vaccines for veterinary medicine"
-                    },
-                    {
-                        "value": "3002 49 00",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "3002 51 00",
-                        "description": "Cell therapy products"
-                    },
-                    {
-                        "value": "3002 59 00",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "3822 11 00",
-                        "description": "For malaria"
-                    },
-                    {
-                        "value": "3822 12 00",
-                        "description": "For Zika and other diseases transmitted by mosquitoes of the genus Aedes"
-                    },
-                    {
-                        "value": "3822 13 00",
-                        "description": "For blood-grouping"
-                    },
-                    {
-                        "value": "3822 19 00",
-                        "description": "Other"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "PHARMACEUTICAL_PRODUCTS",
-                "description": "Pharmaceutical products of a kind normally used for health care, prevention of illness and as treatment for medical and veterinary purposes,…"
-            },
-            "comment": "The reduced TVA rate is applied for the supply of medicines for human and veterinary use. See art. 291 para. (2) letter c) of the Fiscal Code."
-        },
-        {
-            "memberState": "RO",
-            "type": "REDUCED",
-            "rate": {
-                "type": "EXEMPTED",
-                "value": 0
-            },
-            "situationOn": "2024-07-01+02:00",
             "cpaCodes": {
                 "code": [
                     {
@@ -1600,110 +1482,6 @@
                 "description": "The renovation and repair of private dwellings, excluding materials which account for a significant part of the value of the service supplied"
             },
             "comment": "The construction, rehabilitation, modernization services of hospitals, provided to companies wholly owned by non-profit entities registered in the Public Register organized by A.N.A.F., if the services are available free of charge to public hospitals or are intended for hospitals owned and operated by these companies, under the cumulative conditions laid down in art. 294 para. (5) letter (a^1) of the Fiscal Code. See also art. 294 para. (6) and (6^1) of the Fiscal Code."
-        },
-        {
-            "memberState": "RO",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 9
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cpaCodes": {
-                "code": {
-                    "value": "43.99.90",
-                    "description": "Specialised construction works n.e.c."
-                }
-            },
-            "category": {
-                "identifier": "AGRICULTURAL_PRODUCTION",
-                "description": "Supply of goods and services of a kind normally intended for use in agricultural production but excluding capital goods such as machinery or buildings"
-            },
-            "comment": "The reduced rate shall be applied for Operations for installing protected spaces, respectively greenhouses and\/or solariums; Installation of hail and rain protection systems in vineyards and orchards. For details see art. 291 para. (2) letter h) of the Fiscal Code and points 26 and 39 of the Annex to the Order no. 4634\/2022."
-        },
-        {
-            "memberState": "RO",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 9
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "55.10.10",
-                        "description": "Room or unit accommodation services for visitors, with daily housekeeping (except time-share)"
-                    },
-                    {
-                        "value": "55.20.11",
-                        "description": "Room or unit accommodation services for visitors in youth hostels and holiday cabins"
-                    },
-                    {
-                        "value": "55.20.12",
-                        "description": "Room or unit accommodation services for visitors in time-share properties"
-                    },
-                    {
-                        "value": "55.20.19",
-                        "description": "Other room or unit accommodation services for visitors, without daily housekeeping"
-                    },
-                    {
-                        "value": "55.30.11",
-                        "description": "Camping ground services"
-                    },
-                    {
-                        "value": "55.30.12",
-                        "description": "Recreational and vacation camp services"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "ACCOMMODATION",
-                "description": "Accommodation provided in hotels and similar establishments, including the provision of holiday accommodation and the letting of places on camping or caravan sites"
-            },
-            "comment": "The reduced VAT rate is applied for accommodation in the hotel sector or sectors with similar function, including renting of camping sites. For details see art. 291 para. (2) letter j) of the Fiscal Code corroborated with point 37 para. (14) of the Methodological Norms."
-        },
-        {
-            "memberState": "RO",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 9
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "56.10.11",
-                        "description": "Meal serving services with full restaurant service"
-                    },
-                    {
-                        "value": "56.10.12",
-                        "description": "Meal serving services in railway dining cars and on ships"
-                    },
-                    {
-                        "value": "56.10.13",
-                        "description": "Meal serving services in self-service establishments"
-                    },
-                    {
-                        "value": "56.10.19",
-                        "description": "Other meal serving services"
-                    },
-                    {
-                        "value": "56.21.11",
-                        "description": "Event catering services for private households"
-                    },
-                    {
-                        "value": "56.21.19",
-                        "description": "Other event catering services"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "RESTAURANT",
-                "description": "Restaurant and catering services, it being possible to exclude the supply of (alcoholic and\/or non-alcoholic) beverages"
-            },
-            "comment": "The reduced VAT rate is applied for restaurant and catering services, excluding alcoholic beverages as well as non-alcoholic beverages, falling within CN codes 2202. For details see art. 291 para. (2) letter k) of the Fiscal Code corroborated with point 37 para. (15) of the Methodological Norms."
         },
         {
             "memberState": "RO",
@@ -1846,6 +1624,154 @@
                 "description": "Wood used as firewood (until 1 January 2030)"
             },
             "comment": "The supply for the use as heating fuel of sawdust, waste and non-agglomerated wood scraps, carried out to final beneficiaries, on the basis of a statement of liability made available to the supplier. See art. 291 para. (3) letters m), n) of the Fiscal Code."
+        },
+        {
+            "memberState": "RO",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2024-07-01+02:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "91.02.10",
+                        "description": "Museum operation services"
+                    },
+                    {
+                        "value": "91.03.10",
+                        "description": "Operation services of historical sites and buildings and similar visitor attractions"
+                    },
+                    {
+                        "value": "91.04.11",
+                        "description": "Botanical and zoological garden services"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "CULTURAL_EVENTS",
+                "description": "Admission to shows, theatres, circuses, fairs, amusement parks, concerts, museums, zoos, cinemas, exhibitions and similar cultural events and facilities"
+            },
+            "comment": "The reduced VAT rate is applied for the services consisting in allowing access to castles, museums, memorial houses, historical monuments, architectural and archaeological monuments, zoological and botanical gardens. See art. 291 para. (3) letter b) of the Fiscal Code."
+        },
+        {
+            "memberState": "RO",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 9
+            },
+            "situationOn": "2024-07-01+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "2106 90 20",
+                        "description": "Compound alcoholic preparations, other than those based on odoriferous substances, of a kind used for the manufacture of beverages"
+                    },
+                    {
+                        "value": "2811 29 30",
+                        "description": "Nitrogen oxides"
+                    },
+                    {
+                        "value": "3001 20",
+                        "description": "Extracts of glands or other organs or of their secretions"
+                    },
+                    {
+                        "value": "3001 90 20",
+                        "description": "Of human origin"
+                    },
+                    {
+                        "value": "3001 90 91",
+                        "description": "Heparin and its salts"
+                    },
+                    {
+                        "value": "3001 90 98",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "3002 12 00",
+                        "description": "Antisera and other blood fractions"
+                    },
+                    {
+                        "value": "3002 13 00",
+                        "description": "Immunological products, unmixed, not put up in measured doses or in forms or packings for retail sale"
+                    },
+                    {
+                        "value": "3002 14 00",
+                        "description": "Immunological products, mixed, not put up in measured doses or in forms or packings for retail sale"
+                    },
+                    {
+                        "value": "3002 15 00",
+                        "description": "Immunological products, put up in measured doses or in forms or packings for retail sale"
+                    },
+                    {
+                        "value": "3002 90 30",
+                        "description": "Animal blood prepared for therapeutic, prophylactic or diagnostic uses"
+                    },
+                    {
+                        "value": "3003",
+                        "description": "Medicaments (excluding goods of heading 3002, 3005 or 3006) consisting of two or more constituents which have been mixed together for therapeutic or prophylactic uses, not put up in measured doses or in forms or packings for retail sale"
+                    },
+                    {
+                        "value": "3004",
+                        "description": "Medicaments (excluding goods of heading 3002, 3005 or 3006) consisting of mixed or unmixed products for therapeutic or prophylactic uses, put up in measured doses (including those in the form of transdermal administration systems) or in forms or packings for retail sale"
+                    },
+                    {
+                        "value": "3005",
+                        "description": "Wadding, gauze, bandages and similar articles (for example, dressings, adhesive plasters, poultices), impregnated or coated with pharmaceutical substances or put up in forms or packings for retail sale for medical, surgical, dental or veterinary purposes"
+                    },
+                    {
+                        "value": "3006",
+                        "description": "Pharmaceutical goods specified in note 4 to this chapter"
+                    },
+                    {
+                        "value": "3305 10 00",
+                        "description": "Shampoos"
+                    },
+                    {
+                        "value": "3002 41",
+                        "description": "Vaccines for human medicine"
+                    },
+                    {
+                        "value": "3002 42 00",
+                        "description": "Vaccines for veterinary medicine"
+                    },
+                    {
+                        "value": "3002 49 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "3002 51 00",
+                        "description": "Cell therapy products"
+                    },
+                    {
+                        "value": "3002 59 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "3822 11 00",
+                        "description": "For malaria"
+                    },
+                    {
+                        "value": "3822 12 00",
+                        "description": "For Zika and other diseases transmitted by mosquitoes of the genus Aedes"
+                    },
+                    {
+                        "value": "3822 13 00",
+                        "description": "For blood-grouping"
+                    },
+                    {
+                        "value": "3822 19 00",
+                        "description": "Other"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "PHARMACEUTICAL_PRODUCTS",
+                "description": "Pharmaceutical products of a kind normally used for health care, prevention of illness and as treatment for medical and veterinary purposes,…"
+            },
+            "comment": "The reduced TVA rate is applied for the supply of medicines for human and veterinary use. See art. 291 para. (2) letter c) of the Fiscal Code."
         },
         {
             "memberState": "RO",
@@ -2058,36 +1984,6 @@
             "type": "REDUCED",
             "rate": {
                 "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "91.02.10",
-                        "description": "Museum operation services"
-                    },
-                    {
-                        "value": "91.03.10",
-                        "description": "Operation services of historical sites and buildings and similar visitor attractions"
-                    },
-                    {
-                        "value": "91.04.11",
-                        "description": "Botanical and zoological garden services"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "CULTURAL_EVENTS",
-                "description": "Admission to shows, theatres, circuses, fairs, amusement parks, concerts, museums, zoos, cinemas, exhibitions and similar cultural events and facilities"
-            },
-            "comment": "The reduced VAT rate is applied for the services consisting in allowing access to castles, museums, memorial houses, historical monuments, architectural and archaeological monuments, zoological and botanical gardens. See art. 291 para. (3) letter b) of the Fiscal Code."
-        },
-        {
-            "memberState": "RO",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
                 "value": 9
             },
             "situationOn": "2024-07-01+02:00",
@@ -2212,6 +2108,110 @@
                 "description": "Supply of goods and services of a kind normally intended for use in agricultural production but excluding capital goods such as machinery or buildings"
             },
             "comment": "The reduced rate shall be applied for Cleaning of unwanted vegetation and destruction of heaps on pastures and hayfields; Arrangement of water sources for the animals on meadows, parcelling of meadows; Draining services. For details see art. 291 para. (2) letter h) of the Fiscal Code and points 27, 28, 42 of the Annex to the Order no. 4634\/2022. Draining services are provided in point 42 of Order no. 4634\/2012, respectively in Order no. 157\/2011."
+        },
+        {
+            "memberState": "RO",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 9
+            },
+            "situationOn": "2024-07-01+02:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "43.99.90",
+                    "description": "Specialised construction works n.e.c."
+                }
+            },
+            "category": {
+                "identifier": "AGRICULTURAL_PRODUCTION",
+                "description": "Supply of goods and services of a kind normally intended for use in agricultural production but excluding capital goods such as machinery or buildings"
+            },
+            "comment": "The reduced rate shall be applied for Operations for installing protected spaces, respectively greenhouses and\/or solariums; Installation of hail and rain protection systems in vineyards and orchards. For details see art. 291 para. (2) letter h) of the Fiscal Code and points 26 and 39 of the Annex to the Order no. 4634\/2022."
+        },
+        {
+            "memberState": "RO",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 9
+            },
+            "situationOn": "2024-07-01+02:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "55.10.10",
+                        "description": "Room or unit accommodation services for visitors, with daily housekeeping (except time-share)"
+                    },
+                    {
+                        "value": "55.20.11",
+                        "description": "Room or unit accommodation services for visitors in youth hostels and holiday cabins"
+                    },
+                    {
+                        "value": "55.20.12",
+                        "description": "Room or unit accommodation services for visitors in time-share properties"
+                    },
+                    {
+                        "value": "55.20.19",
+                        "description": "Other room or unit accommodation services for visitors, without daily housekeeping"
+                    },
+                    {
+                        "value": "55.30.11",
+                        "description": "Camping ground services"
+                    },
+                    {
+                        "value": "55.30.12",
+                        "description": "Recreational and vacation camp services"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "ACCOMMODATION",
+                "description": "Accommodation provided in hotels and similar establishments, including the provision of holiday accommodation and the letting of places on camping or caravan sites"
+            },
+            "comment": "The reduced VAT rate is applied for accommodation in the hotel sector or sectors with similar function, including renting of camping sites. For details see art. 291 para. (2) letter j) of the Fiscal Code corroborated with point 37 para. (14) of the Methodological Norms."
+        },
+        {
+            "memberState": "RO",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 9
+            },
+            "situationOn": "2024-07-01+02:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "56.10.11",
+                        "description": "Meal serving services with full restaurant service"
+                    },
+                    {
+                        "value": "56.10.12",
+                        "description": "Meal serving services in railway dining cars and on ships"
+                    },
+                    {
+                        "value": "56.10.13",
+                        "description": "Meal serving services in self-service establishments"
+                    },
+                    {
+                        "value": "56.10.19",
+                        "description": "Other meal serving services"
+                    },
+                    {
+                        "value": "56.21.11",
+                        "description": "Event catering services for private households"
+                    },
+                    {
+                        "value": "56.21.19",
+                        "description": "Other event catering services"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "RESTAURANT",
+                "description": "Restaurant and catering services, it being possible to exclude the supply of (alcoholic and\/or non-alcoholic) beverages"
+            },
+            "comment": "The reduced VAT rate is applied for restaurant and catering services, excluding alcoholic beverages as well as non-alcoholic beverages, falling within CN codes 2202. For details see art. 291 para. (2) letter k) of the Fiscal Code corroborated with point 37 para. (15) of the Methodological Norms."
         },
         {
             "memberState": "RO",
