@@ -33,7 +33,7 @@
                     },
                     {
                         "value": "0102 29 10",
-                        "description": "Of a weight not exceeding 80 kg"
+                        "description": "Of a weight not exceeding 80 kg"
                     },
                     {
                         "value": "0102 29 21",
@@ -89,11 +89,11 @@
                     },
                     {
                         "value": "0103 91",
-                        "description": "Weighing less than 50 kg"
+                        "description": "Weighing less than 50 kg"
                     },
                     {
                         "value": "0103 92",
-                        "description": "Weighing 50 kg or more"
+                        "description": "Weighing 50 kg or more"
                     },
                     {
                         "value": "0104 10 30",
@@ -117,7 +117,7 @@
                     },
                     {
                         "value": "02",
-                        "description": "CHAPTER 2 - MEAT AND EDIBLE MEAT OFFAL"
+                        "description": "CHAPTER 2 - MEAT AND EDIBLE MEAT OFFAL"
                     },
                     {
                         "value": "0301 91",
@@ -145,11 +145,11 @@
                     },
                     {
                         "value": "0302",
-                        "description": "Fish, fresh or chilled, excluding fish fillets and other fish meat of heading 0304"
+                        "description": "Fish, fresh or chilled, excluding fish fillets and other fish meat of heading 0304"
                     },
                     {
                         "value": "0303",
-                        "description": "Fish, frozen, excluding fish fillets and other fish meat of heading 0304"
+                        "description": "Fish, frozen, excluding fish fillets and other fish meat of heading 0304"
                     },
                     {
                         "value": "0304",
@@ -221,7 +221,7 @@
                     },
                     {
                         "value": "0601",
-                        "description": "Bulbs, tubers, tuberous roots, corms, crowns and rhizomes, dormant, in growth or in flower; chicory plants and roots other than roots of heading 1212"
+                        "description": "Bulbs, tubers, tuberous roots, corms, crowns and rhizomes, dormant, in growth or in flower; chicory plants and roots other than roots of heading 1212"
                     },
                     {
                         "value": "0602 30 00",
@@ -353,11 +353,11 @@
                     },
                     {
                         "value": "18",
-                        "description": "CHAPTER 18 - COCOA AND COCOA PREPARATIONS"
+                        "description": "CHAPTER 18 - COCOA AND COCOA PREPARATIONS"
                     },
                     {
                         "value": "19",
-                        "description": "CHAPTER 19 - PREPARATIONS OF CEREALS, FLOUR, STARCH OR MILK; PASTRYCOOKS' PRODUCTS"
+                        "description": "CHAPTER 19 - PREPARATIONS OF CEREALS, FLOUR, STARCH OR MILK; PASTRYCOOKS' PRODUCTS"
                     },
                     {
                         "value": "2001",
@@ -373,11 +373,11 @@
                     },
                     {
                         "value": "2004",
-                        "description": "Other vegetables prepared or preserved otherwise than by vinegar or acetic acid, frozen, other than products of heading 2006"
+                        "description": "Other vegetables prepared or preserved otherwise than by vinegar or acetic acid, frozen, other than products of heading 2006"
                     },
                     {
                         "value": "2005",
-                        "description": "Other vegetables prepared or preserved otherwise than by vinegar or acetic acid, not frozen, other than products of heading 2006"
+                        "description": "Other vegetables prepared or preserved otherwise than by vinegar or acetic acid, not frozen, other than products of heading 2006"
                     },
                     {
                         "value": "2006 00",
@@ -397,7 +397,7 @@
                     },
                     {
                         "value": "21",
-                        "description": "CHAPTER 21 - MISCELLANEOUS EDIBLE PREPARATIONS"
+                        "description": "CHAPTER 21 - MISCELLANEOUS EDIBLE PREPARATIONS"
                     },
                     {
                         "value": "2209 00",
@@ -411,9 +411,28 @@
             },
             "category": {
                 "identifier": "FOODSTUFFS",
-                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and …"
+                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
             },
             "comment": "As from 01\/01\/2021 sugar-sweetened beverages are subject to the standard VAT rate (21%)"
+        },
+        {
+            "memberState": "ES",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 10
+            },
+            "situationOn": "2024-07-01+02:00",
+            "cnCodes": {
+                "code": {
+                    "value": "2201",
+                    "description": "Waters, including natural or artificial mineral waters and aerated waters, not containing added sugar or other sweetening matter nor flavoured; ice and snow"
+                }
+            },
+            "category": {
+                "identifier": "SUPPLY_WATER",
+                "description": "Supply of water"
+            }
         },
         {
             "memberState": "ES",
@@ -465,7 +484,7 @@
             },
             "category": {
                 "identifier": "PHARMACEUTICAL_PRODUCTS",
-                "description": "Pharmaceutical products of a kind normally used for health care, prevention of illness and as treatment for medical and veterinary purposes,…"
+                "description": "Pharmaceutical products used for medical and veterinary purposes, including products used for contraception and female sanitary protection, and absorbent hygiene products"
             },
             "comment": "products used for contraception and sanitary protection will be taxed at a VAT reduced 4% VAT rate from now on (see below)"
         },
@@ -480,7 +499,7 @@
             "cnCodes": {
                 "code": {
                     "value": "31",
-                    "description": "CHAPTER 31 - FERTILISERS"
+                    "description": "CHAPTER 31 - FERTILISERS"
                 }
             },
             "cpaCodes": {
@@ -505,7 +524,7 @@
             },
             "category": {
                 "identifier": "AGRICULTURAL_PRODUCTION",
-                "description": "Supply of goods and services of a kind normally intended for use in agricultural production but excluding capital goods such as machinery or buildings"
+                "description": "Supply of goods and services of a kind normally intended for use in agricultural production but excluding capital goods such as machinery or buildings and, until 1 January 2032, supply of chemical pesticides and chemical fertilisers"
             }
         },
         {
@@ -538,7 +557,7 @@
             },
             "category": {
                 "identifier": "TAPESTRIES",
-                "description": "Tapestries (CN code 5805 00 00) and wall textiles (CN code 6304 00 00) made by hand from original designs provided by artists…"
+                "description": "Tapestries (CN code 5805 00 00) and wall textiles (CN code 6304 00 00) made by hand from original designs provided by artists, provided that there are not more than eight copies of each"
             }
         },
         {
@@ -643,7 +662,7 @@
             },
             "category": {
                 "identifier": "MEDICAL_EQUIPMENT",
-                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
+                "description": "Medical equipment, appliances, devices, items, aids and protective gear, including health protection masks, normally intended for use in health care or for the use of the disabled, goods essential to compensate and overcome disability, as well as the adaptation, repair, rental and leasing of such goods"
             },
             "comment": "excluding 9018 90 30 subject to 4%"
         },
@@ -658,12 +677,12 @@
             "cnCodes": {
                 "code": {
                     "value": "9701",
-                    "description": "Paintings, drawings and pastels, executed entirely by hand, other than drawings of heading 4906 and other than hand-painted or hand-decorated manufactured articles; collages, mosaics and similar decorative plaques"
+                    "description": "Paintings, drawings and pastels, executed entirely by hand, other than drawings of heading 4906 and other than hand-painted or hand-decorated manufactured articles; collages, mosaics and similar decorative plaques"
                 }
             },
             "category": {
                 "identifier": "PICTURES",
-                "description": "Pictures, collages and similar decorative plaques, paintings and drawings, executed entirely by hand by the artist…"
+                "description": "Pictures, collages and similar decorative plaques, paintings and drawings, executed entirely by hand by the artist, other than plans and drawings for architectural, engineering, industrial, commercial, topographical or similar purposes, hand-decorated manufactured articles, theatrical scenery, studio back cloths or the like of painted canvas (CN code 9701)"
             }
         },
         {
@@ -682,7 +701,7 @@
             },
             "category": {
                 "identifier": "IMPRESSIONS",
-                "description": "Original engravings, prints and lithographs, being impressions produced in the limited numbers directly in black and white…"
+                "description": "Original engravings, prints and lithographs, being impressions produced in the limited numbers directly in black and white or in colour of one or of several plates executed entirely by hand by the artist, irrespective of the process or of the material employed, but not including any mechanical or photomechanical process (CN code 9702 00 00)"
             }
         },
         {
@@ -740,7 +759,7 @@
             },
             "category": {
                 "identifier": "SCULPTURE_CASTS",
-                "description": "Sculpture casts the production of which is limited to eight copies and supervised by the artist or his successors in title…"
+                "description": "Sculpture casts the production of which is limited to eight copies and supervised by the artist or his successors in title (CN code 9703 00 00) on an exceptional basis, in cases determined by the Member States, the limit of eight copies may be exceeded for statuary casts produced before 1 January 1989"
             },
             "comment": "9703.00.00"
         },
@@ -795,7 +814,7 @@
             "cnCodes": {
                 "code": {
                     "value": "9704 00 00",
-                    "description": "Postage or revenue stamps, stamp-postmarks, first-day covers, postal stationery (stamped paper), and the like, used or unused, other than those of heading 4907"
+                    "description": "Postage or revenue stamps, stamp-postmarks, first-day covers, postal stationery (stamped paper), and the like, used or unused, other than those of heading 4907"
                 }
             },
             "category": {
@@ -820,7 +839,7 @@
             },
             "category": {
                 "identifier": "ZOOLOGICAL",
-                "description": "Collections and collector’s pieces of zoological, botanical, mineralogical, ethnographic or numismatic interest (CN code 9705 00 00)"
+                "description": "Importation of collections and collectors' pieces of zoological, botanical, mineralogical, anatomical, historical, archaeological, paleontological, ethnographic or numismatic interest (CN code 9705 00 00)"
             },
             "comment": "9705.00.00"
         },
@@ -866,7 +885,7 @@
             },
             "category": {
                 "identifier": "STREET_CLEANING",
-                "description": "Supply of services provided in connection with street cleaning, refuse collection and waste treatment, other than the supply of such services by bodies referred to in Article 13"
+                "description": "Supply of services provided in connection with sewage, street cleaning, refuse collection and waste treatment or waste recycling, other than the supply of such services by bodies referred to in Article 13"
             }
         },
         {
@@ -885,7 +904,7 @@
             },
             "category": {
                 "identifier": "PRIVATE_DWELLINGS",
-                "description": "The renovation and repair of private dwellings, excluding materials which account for a significant part of the value of the service supplied"
+                "description": "The renovation and repairing of public and other buildings used for activities in the public interest"
             }
         },
         {
@@ -914,7 +933,7 @@
             },
             "category": {
                 "identifier": "TRANSPORT_PASSENGERS",
-                "description": "Transport of passengers and their accompanying luggage"
+                "description": "Transport of passengers and the transport of goods accompanying them, such as luggage, bicycles, including electric bicycles, motor or other vehicles, or the supply of services relating to the transport of passengers"
             }
         },
         {
@@ -981,7 +1000,7 @@
             },
             "category": {
                 "identifier": "CULTURAL_EVENTS",
-                "description": "Admission to shows, theatres, circuses, fairs, amusement parks, concerts, museums, zoos, cinemas, exhibitions and similar cultural events and facilities"
+                "description": "Admission to shows, theatres, circuses, fairs, amusement parks, concerts, museums, zoos, cinemas, exhibitions and similar cultural events and facilities or access to the live-streaming of those events or visits or both"
             }
         },
         {
@@ -1000,7 +1019,7 @@
             },
             "category": {
                 "identifier": "SPORTING_EVENTS",
-                "description": "Admission to sporting events"
+                "description": "Admission to sporting events or access to the live-streaming of those events or both; use of sporting facilities, and the supply of sport or physical exercise classes also when live-streamed"
             },
             "comment": "The 10% rate only applies to the amateur sporting events."
         },
@@ -1014,7 +1033,7 @@
             "situationOn": "2024-07-01+02:00",
             "category": {
                 "identifier": "SOCIAL_WELLBEING",
-                "description": "Supply of goods and services by organisations recognised as being devoted to social wellbeing by Member States and engaged in welfare …"
+                "description": "Supply of goods and services by organisations engaged in welfare or social security work as defined by Member States and recognised as being devoted to social wellbeing by Member States, in so far as those transactions are not exempt pursuant to Articles 132, 135 and 136"
             },
             "comment": "The 10% rate only applies to not accessory supply of good. The supply of services is exempted"
         },
@@ -1036,25 +1055,6 @@
                 "value": 21
             },
             "situationOn": "2024-07-01+02:00"
-        },
-        {
-            "memberState": "ES",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 10
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cnCodes": {
-                "code": {
-                    "value": "2201",
-                    "description": "Waters, including natural or artificial mineral waters and aerated waters, not containing added sugar or other sweetening matter nor flavoured; ice and snow"
-                }
-            },
-            "category": {
-                "identifier": "SUPPLY_WATER",
-                "description": "Supply of water"
-            }
         }
     ]
 }

@@ -5,6 +5,56 @@
             "memberState": "SK",
             "type": "REDUCED",
             "rate": {
+                "type": "EXEMPTED",
+                "value": 0
+            },
+            "situationOn": "2024-07-01+02:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "88",
+                    "description": "Social work services without accommodation"
+                }
+            },
+            "category": {
+                "identifier": "SOCIAL_WELLBEING",
+                "description": "Supply of goods and services by organisations engaged in welfare or social security work as defined by Member States and recognised as being devoted to social wellbeing by Member States, in so far as those transactions are not exempt pursuant to Articles 132, 135 and 136"
+            },
+            "comment": "Supply of goods and services by organisations recognised as being devoted to social wellbeing by Member States and engaged in welfare or social security work, in so far as those transactions are not exempt pursuant to Articles 132, 135 and 136;"
+        },
+        {
+            "memberState": "SK",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2024-07-01+02:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "41",
+                        "description": "Buildings and building construction works"
+                    },
+                    {
+                        "value": "42",
+                        "description": "Constructions and construction works for civil engineering"
+                    },
+                    {
+                        "value": "68",
+                        "description": "Real estate services"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "HOUSING_PROVISION",
+                "description": "Supply and construction, of housing, as part of a social policy, as defined by the Member States; renovation and alteration, including demolition and reconstruction, and repairing of housing and private dwellings; letting of immovable property for residential use"
+            },
+            "comment": "Construction of state-supported rental housing within the framework of the state's social policy (includes: delivery of a building or part of a building, including the construction land on which the building or part of the building stands, renovation and reconstruction of the building or part of the building, including construction and assembly work on the building)."
+        },
+        {
+            "memberState": "SK",
+            "type": "REDUCED",
+            "rate": {
                 "type": "REDUCED_RATE",
                 "value": 10
             },
@@ -25,7 +75,7 @@
                     },
                     {
                         "value": "0207",
-                        "description": "Meat and edible offal, of the poultry of heading 0105, fresh, chilled or frozen"
+                        "description": "Meat and edible offal, of the poultry of heading 0105, fresh, chilled or frozen"
                     },
                     {
                         "value": "0208",
@@ -37,7 +87,7 @@
                     },
                     {
                         "value": "0302",
-                        "description": "Fish, fresh or chilled, excluding fish fillets and other fish meat of heading 0304"
+                        "description": "Fish, fresh or chilled, excluding fish fillets and other fish meat of heading 0304"
                     },
                     {
                         "value": "0304",
@@ -49,7 +99,7 @@
                     },
                     {
                         "value": "0403",
-                        "description": "Yogurt; buttermilk, curdled milk and cream,  kephir and other fermented or acidified milk and cream, whether or not concentrated or containing added sugar or other sweetening matter or flavoured or containing added fruit, nuts or cocoa"
+                        "description": "Yogurt; buttermilk, curdled milk and cream, kephir and other fermented or acidified milk and cream, whether or not concentrated or containing added sugar or other sweetening matter or flavoured or containing added fruit, nuts or cocoa"
                     },
                     {
                         "value": "0405 10",
@@ -105,7 +155,7 @@
                     },
                     {
                         "value": "1905 90 30",
-                        "description": "Bread, not containing added honey, eggs, cheese or fruit, and containing by weight in the dry matter state not more than 5 % of sugars and not more than 5 % of fat"
+                        "description": "Bread, not containing added honey, eggs, cheese or fruit, and containing by weight in the dry matter state not more than 5 % of sugars and not more than 5 % of fat"
                     },
                     {
                         "value": "2009",
@@ -115,7 +165,7 @@
             },
             "category": {
                 "identifier": "FOODSTUFFS",
-                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and …"
+                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
             },
             "comment": "Only selected items - fresh or chilled meat, live fish, fresh or chilled fish, milk, butter, bread and other selected foodstuffs. List can be found in Annex 7 of Act No. 222\/2004 Coll. on Value Added Tax as amended via the following link https:\/\/www.mfsr.sk\/en\/taxes-customs-accounting\/indirect-taxes\/vat\/"
         },
@@ -143,13 +193,13 @@
                     },
                     {
                         "value": "30",
-                        "description": "CHAPTER 30 - PHARMACEUTICAL PRODUCTS"
+                        "description": "CHAPTER 30 - PHARMACEUTICAL PRODUCTS"
                     }
                 ]
             },
             "category": {
                 "identifier": "PHARMACEUTICAL_PRODUCTS",
-                "description": "Pharmaceutical products of a kind normally used for health care, prevention of illness and as treatment for medical and veterinary purposes,…"
+                "description": "Pharmaceutical products used for medical and veterinary purposes, including products used for contraception and female sanitary protection, and absorbent hygiene products"
             },
             "comment": "Only selected items.\nExhaustive list can be found in Annex 7 of Act No. 222\/2004 Coll. on Value Added Tax as amended via the following link https:\/\/www.mfsr.sk\/en\/taxes-customs-accounting\/indirect-taxes\/vat\/"
         },
@@ -213,13 +263,13 @@
                     },
                     {
                         "value": "9619 00",
-                        "description": "Sanitary towels (pads) and tampons, napkins (diapers), napkin liners  and similar articles, of any material"
+                        "description": "Sanitary towels (pads) and tampons, napkins (diapers), napkin liners and similar articles, of any material"
                     }
                 ]
             },
             "category": {
                 "identifier": "MEDICAL_EQUIPMENT",
-                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
+                "description": "Medical equipment, appliances, devices, items, aids and protective gear, including health protection masks, normally intended for use in health care or for the use of the disabled, goods essential to compensate and overcome disability, as well as the adaptation, repair, rental and leasing of such goods"
             },
             "comment": "Only selected items.\nExhaustive list can be found in Annex 7 of Act No. 222\/2004 Coll. on Value Added Tax as amended via the following link https:\/\/www.mfsr.sk\/en\/taxes-customs-accounting\/indirect-taxes\/vat\/"
         },
@@ -305,56 +355,6 @@
                 "value": 20
             },
             "situationOn": "2024-07-01+02:00"
-        },
-        {
-            "memberState": "SK",
-            "type": "REDUCED",
-            "rate": {
-                "type": "EXEMPTED",
-                "value": 0
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cpaCodes": {
-                "code": {
-                    "value": "88",
-                    "description": "Social work services without accommodation"
-                }
-            },
-            "category": {
-                "identifier": "SOCIAL_WELLBEING",
-                "description": "Supply of goods and services by organisations recognised as being devoted to social wellbeing by Member States and engaged in welfare …"
-            },
-            "comment": "Supply of goods and services by organisations recognised as being devoted to social wellbeing by Member States and engaged in welfare or social security work, in so far as those transactions are not exempt pursuant to Articles 132, 135 and 136;"
-        },
-        {
-            "memberState": "SK",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "41",
-                        "description": "Buildings and building construction works"
-                    },
-                    {
-                        "value": "42",
-                        "description": "Constructions and construction works for civil engineering"
-                    },
-                    {
-                        "value": "68",
-                        "description": "Real estate services"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "HOUSING_PROVISION",
-                "description": "Provision, construction, renovation and alteration of housing, as part of a social policy"
-            },
-            "comment": "Construction of state-supported rental housing within the framework of the state's social policy (includes: delivery of a building or part of a building, including the construction land on which the building or part of the building stands, renovation and reconstruction of the building or part of the building, including construction and assembly work on the building)."
         }
     ]
 }
