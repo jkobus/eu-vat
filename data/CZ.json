@@ -5,6 +5,148 @@
             "memberState": "CZ",
             "type": "REDUCED",
             "rate": {
+                "type": "REDUCED_RATE",
+                "value": 12
+            },
+            "situationOn": "2024-07-01+02:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "88.10",
+                        "description": "Social work services without accommodation for the elderly and disabled"
+                    },
+                    {
+                        "value": "88.91",
+                        "description": "Child day-care services"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "DOMESTIC_CARE",
+                "description": "Domestic care services such as home help and care of the young, elderly, sick or disabled"
+            },
+            "comment": "Domestic care of the young, elderly, sick or disabled."
+        },
+        {
+            "memberState": "CZ",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 12
+            },
+            "situationOn": "2024-07-01+02:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "59.14",
+                        "description": "Motion picture projection services"
+                    },
+                    {
+                        "value": "90",
+                        "description": "Creative, arts and entertainment services"
+                    },
+                    {
+                        "value": "91",
+                        "description": "Library, archive, museum and other cultural services"
+                    },
+                    {
+                        "value": "93",
+                        "description": "Sporting services and amusement and recreation services"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "CULTURAL_EVENTS",
+                "description": "Admission to shows, theatres, circuses, fairs, amusement parks, concerts, museums, zoos, cinemas, exhibitions and similar cultural events and facilities or access to the live-streaming of those events or visits or both"
+            },
+            "comment": "Admission to shows, theatres, circuses, amusement parks, concerts, museums, zoos, cinemas, exhibitions and similar cultural events and facilities, botanical gardens, nature reserves and national parks."
+        },
+        {
+            "memberState": "CZ",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 12
+            },
+            "situationOn": "2024-07-01+02:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "93.11",
+                        "description": "Sports facility operation services"
+                    },
+                    {
+                        "value": "93.12",
+                        "description": "Services of sport clubs"
+                    },
+                    {
+                        "value": "93.13",
+                        "description": "Services of fitness facilities"
+                    },
+                    {
+                        "value": "93.29.11",
+                        "description": "Recreation parks and beach services"
+                    },
+                    {
+                        "value": "93.29.19",
+                        "description": "Miscellaneous recreational services n.e.c."
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "SPORTING_EVENTS",
+                "description": "Admission to sporting events or access to the live-streaming of those events or both; use of sporting facilities, and the supply of sport or physical exercise classes also when live-streamed"
+            },
+            "comment": "Admission to sporting events; use of indoor and outdoor sports facilities for sports activities; services related to the operation of recreational parks and beaches; operation of ski slopes."
+        },
+        {
+            "memberState": "CZ",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 12
+            },
+            "situationOn": "2024-07-01+02:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "96.03",
+                    "description": "Funeral and related services"
+                }
+            },
+            "category": {
+                "identifier": "UNDERTAKERS_SERVICES",
+                "description": "Supply of services by undertakers and cremation services, and the supply of goods related thereto"
+            },
+            "comment": "Funerals and related services, except for funeral services for animals."
+        },
+        {
+            "memberState": "CZ",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 12
+            },
+            "situationOn": "2024-07-01+02:00",
+            "category": {
+                "identifier": "MEDICAL_EQUIPMENT",
+                "description": "Medical equipment, appliances, devices, items, aids and protective gear, including health protection masks, normally intended for use in health care or for the use of the disabled, goods essential to compensate and overcome disability, as well as the adaptation, repair, rental and leasing of such goods"
+            },
+            "comment": "Selected medical devices and their accessories according to the Regulation of the European Parliament and the Council on medical devices and in vitro diagnostic medical devices and their accessories according to the Regulation of the European Parliament and the Council on in vitro diagnostic medical devices (e.g. they can be classified in table no. 1 of section C of Annex no. 3 or Annex No. 4 of the Act on Public Health Insurance). Repair or modification of such medical equipment."
+        },
+        {
+            "memberState": "CZ",
+            "type": "STANDARD",
+            "rate": {
+                "type": "DEFAULT",
+                "value": 21
+            },
+            "situationOn": "2024-07-01+02:00",
+            "comment": "<p>Art. 47 of the VAT Act.<\/p>"
+        },
+        {
+            "memberState": "CZ",
+            "type": "REDUCED",
+            "rate": {
                 "type": "EXEMPTED",
                 "value": 0
             },
@@ -584,40 +726,6 @@
             },
             "situationOn": "2024-07-01+02:00",
             "cpaCodes": {
-                "code": [
-                    {
-                        "value": "59.14",
-                        "description": "Motion picture projection services"
-                    },
-                    {
-                        "value": "90",
-                        "description": "Creative, arts and entertainment services"
-                    },
-                    {
-                        "value": "91",
-                        "description": "Library, archive, museum and other cultural services"
-                    },
-                    {
-                        "value": "93",
-                        "description": "Sporting services and amusement and recreation services"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "CULTURAL_EVENTS",
-                "description": "Admission to shows, theatres, circuses, fairs, amusement parks, concerts, museums, zoos, cinemas, exhibitions and similar cultural events and facilities or access to the live-streaming of those events or visits or both"
-            },
-            "comment": "Admission to shows, theatres, circuses, amusement parks, concerts, museums, zoos, cinemas, exhibitions and similar cultural events and facilities, botanical gardens, nature reserves and national parks."
-        },
-        {
-            "memberState": "CZ",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 12
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cpaCodes": {
                 "code": {
                     "value": "86",
                     "description": "Human health services"
@@ -648,114 +756,6 @@
                 "description": "Supply of goods and services by organisations engaged in welfare or social security work as defined by Member States and recognised as being devoted to social wellbeing by Member States, in so far as those transactions are not exempt pursuant to Articles 132, 135 and 136"
             },
             "comment": "Social care, in so far as those transactions are not exempt."
-        },
-        {
-            "memberState": "CZ",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 12
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "88.10",
-                        "description": "Social work services without accommodation for the elderly and disabled"
-                    },
-                    {
-                        "value": "88.91",
-                        "description": "Child day-care services"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "DOMESTIC_CARE",
-                "description": "Domestic care services such as home help and care of the young, elderly, sick or disabled"
-            },
-            "comment": "Domestic care of the young, elderly, sick or disabled."
-        },
-        {
-            "memberState": "CZ",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 12
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "93.11",
-                        "description": "Sports facility operation services"
-                    },
-                    {
-                        "value": "93.12",
-                        "description": "Services of sport clubs"
-                    },
-                    {
-                        "value": "93.13",
-                        "description": "Services of fitness facilities"
-                    },
-                    {
-                        "value": "93.29.11",
-                        "description": "Recreation parks and beach services"
-                    },
-                    {
-                        "value": "93.29.19",
-                        "description": "Miscellaneous recreational services n.e.c."
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "SPORTING_EVENTS",
-                "description": "Admission to sporting events or access to the live-streaming of those events or both; use of sporting facilities, and the supply of sport or physical exercise classes also when live-streamed"
-            },
-            "comment": "Admission to sporting events; use of indoor and outdoor sports facilities for sports activities; services related to the operation of recreational parks and beaches; operation of ski slopes."
-        },
-        {
-            "memberState": "CZ",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 12
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cpaCodes": {
-                "code": {
-                    "value": "96.03",
-                    "description": "Funeral and related services"
-                }
-            },
-            "category": {
-                "identifier": "UNDERTAKERS_SERVICES",
-                "description": "Supply of services by undertakers and cremation services, and the supply of goods related thereto"
-            },
-            "comment": "Funerals and related services, except for funeral services for animals."
-        },
-        {
-            "memberState": "CZ",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 12
-            },
-            "situationOn": "2024-07-01+02:00",
-            "category": {
-                "identifier": "MEDICAL_EQUIPMENT",
-                "description": "Medical equipment, appliances, devices, items, aids and protective gear, including health protection masks, normally intended for use in health care or for the use of the disabled, goods essential to compensate and overcome disability, as well as the adaptation, repair, rental and leasing of such goods"
-            },
-            "comment": "Selected medical devices and their accessories according to the Regulation of the European Parliament and the Council on medical devices and in vitro diagnostic medical devices and their accessories according to the Regulation of the European Parliament and the Council on in vitro diagnostic medical devices (e.g. they can be classified in table no. 1 of section C of Annex no. 3 or Annex No. 4 of the Act on Public Health Insurance). Repair or modification of such medical equipment."
-        },
-        {
-            "memberState": "CZ",
-            "type": "STANDARD",
-            "rate": {
-                "type": "DEFAULT",
-                "value": 21
-            },
-            "situationOn": "2024-07-01+02:00",
-            "comment": "<p>Art. 47 of the VAT Act.<\/p>"
         }
     ]
 }
