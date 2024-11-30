@@ -12,6 +12,80 @@
             "cnCodes": {
                 "code": [
                     {
+                        "value": "1501",
+                        "description": "Pig fat (including lard) and poultry fat, other than that of heading 0209 or 1503"
+                    },
+                    {
+                        "value": "1502",
+                        "description": "Fats of bovine animals, sheep or goats, other than those of heading 1503"
+                    },
+                    {
+                        "value": "1503 00 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "1504",
+                        "description": "Fats and oils and their fractions, of fish or marine mammals, whether or not refined, but not chemically modified"
+                    },
+                    {
+                        "value": "1506 00 00",
+                        "description": "Other animal fats and oils and their fractions, whether or not refined, but not chemically modified"
+                    },
+                    {
+                        "value": "1507 10 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "1507 90 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "1508 10 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "1508 90 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "1509",
+                        "description": "Olive oil and its fractions, whether or not refined, but not chemically modified"
+                    },
+                    {
+                        "value": "1510 00",
+                        "description": "Other oils and their fractions, obtained solely from olives, whether or not refined, but not chemically modified, including blends of these oils or fractions with oils or fractions of heading 1509"
+                    },
+                    {
+                        "value": "1511",
+                        "description": "Palm oil and its fractions, whether or not refined, but not chemically modified"
+                    },
+                    {
+                        "value": "1512",
+                        "description": "Sunflower-seed, safflower or cotton-seed oil and fractions thereof, whether or not refined, but not chemically modified"
+                    },
+                    {
+                        "value": "1513",
+                        "description": "Coconut (copra), palm kernel or babassu oil and fractions thereof, whether or not refined, but not chemically modified"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "FOODSTUFFS",
+                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
+            },
+            "comment": "Food for human consumption, excluding food supplied for catering, is taxed at 0% (exempt with credit) (part 3).  \n\nThe above exemption does not apply to items classified under the following subheadings in the First Schedule of the Import Duties Act:\n\n1501.00.11.00; 1502.00.10.00; 1511.10.10.00; \n1511.90.91.00; 1512.11.10.00; 1512.19.10.00;   1512.21.10.00; 1512.29.10.00; 1513.11.10.00; 1513.19.30.00; 1513.21.11.00; 1513.21.19.00; 1513.29.30.00"
+        },
+        {
+            "memberState": "MT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "EXEMPTED",
+                "value": 0
+            },
+            "situationOn": "2024-07-01+02:00",
+            "cnCodes": {
+                "code": [
+                    {
                         "value": "1515 19 90",
                         "description": "Other"
                     },
@@ -971,32 +1045,6 @@
             "memberState": "MT",
             "type": "REDUCED",
             "rate": {
-                "type": "EXEMPTED",
-                "value": 0
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "12",
-                        "description": "CHAPTER 12 - OIL SEEDS AND OLEAGINOUS FRUITS; MISCELLANEOUS GRAINS, SEEDS AND FRUIT; INDUSTRIAL OR MEDICINAL PLANTS; STRAW AND FODDER"
-                    },
-                    {
-                        "value": "13",
-                        "description": "CHAPTER 13 - LAC; GUMS, RESINS AND OTHER VEGETABLE SAPS AND EXTRACTS"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "FOODSTUFFS",
-                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
-            },
-            "comment": "Food for human consumption, excluding food supplied for catering, is taxed at 0% (exempt with credit) (part 2).  \n\nThe above exemption does not apply to items classified under the following subheadings in the First Schedule of the Import Duties Act:\n\n(1) 1207.30.90; 1207.99.91.00; 1209.30.00.00; 1209.99.10; 1209.99.91.00; 1209.99.99.00; 1211.90.30\n\n(2) 1301.10.00.00; 1302.11.00; 1302.14.00; 1302.19.05; 1302.19.30; 1302.19.91; 1302.19.98; 1302.20.10; 1302.20.90"
-        },
-        {
-            "memberState": "MT",
-            "type": "REDUCED",
-            "rate": {
                 "type": "REDUCED_RATE",
                 "value": 5
             },
@@ -1190,6 +1238,32 @@
             "memberState": "MT",
             "type": "REDUCED",
             "rate": {
+                "type": "EXEMPTED",
+                "value": 0
+            },
+            "situationOn": "2024-07-01+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "12",
+                        "description": "CHAPTER 12 - OIL SEEDS AND OLEAGINOUS FRUITS; MISCELLANEOUS GRAINS, SEEDS AND FRUIT; INDUSTRIAL OR MEDICINAL PLANTS; STRAW AND FODDER"
+                    },
+                    {
+                        "value": "13",
+                        "description": "CHAPTER 13 - LAC; GUMS, RESINS AND OTHER VEGETABLE SAPS AND EXTRACTS"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "FOODSTUFFS",
+                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
+            },
+            "comment": "Food for human consumption, excluding food supplied for catering, is taxed at 0% (exempt with credit) (part 2).  \n\nThe above exemption does not apply to items classified under the following subheadings in the First Schedule of the Import Duties Act:\n\n(1) 1207.30.90; 1207.99.91.00; 1209.30.00.00; 1209.99.10; 1209.99.91.00; 1209.99.99.00; 1211.90.30\n\n(2) 1301.10.00.00; 1302.11.00; 1302.14.00; 1302.19.05; 1302.19.30; 1302.19.91; 1302.19.98; 1302.20.10; 1302.20.90"
+        },
+        {
+            "memberState": "MT",
+            "type": "REDUCED",
+            "rate": {
                 "type": "REDUCED_RATE",
                 "value": 5
             },
@@ -1297,80 +1371,6 @@
                 "description": "Accommodation provided in hotels and similar establishments, including the provision of holiday accommodation and the letting of places on camping or caravan sites"
             },
             "comment": "The reduced rate is limited to accommodation required to be licensed in virtue of the Malta Travel and Tourism Services Act (or any Act substituted therefor)."
-        },
-        {
-            "memberState": "MT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "EXEMPTED",
-                "value": 0
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "1501",
-                        "description": "Pig fat (including lard) and poultry fat, other than that of heading 0209 or 1503"
-                    },
-                    {
-                        "value": "1502",
-                        "description": "Fats of bovine animals, sheep or goats, other than those of heading 1503"
-                    },
-                    {
-                        "value": "1503 00 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "1504",
-                        "description": "Fats and oils and their fractions, of fish or marine mammals, whether or not refined, but not chemically modified"
-                    },
-                    {
-                        "value": "1506 00 00",
-                        "description": "Other animal fats and oils and their fractions, whether or not refined, but not chemically modified"
-                    },
-                    {
-                        "value": "1507 10 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "1507 90 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "1508 10 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "1508 90 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "1509",
-                        "description": "Olive oil and its fractions, whether or not refined, but not chemically modified"
-                    },
-                    {
-                        "value": "1510 00",
-                        "description": "Other oils and their fractions, obtained solely from olives, whether or not refined, but not chemically modified, including blends of these oils or fractions with oils or fractions of heading 1509"
-                    },
-                    {
-                        "value": "1511",
-                        "description": "Palm oil and its fractions, whether or not refined, but not chemically modified"
-                    },
-                    {
-                        "value": "1512",
-                        "description": "Sunflower-seed, safflower or cotton-seed oil and fractions thereof, whether or not refined, but not chemically modified"
-                    },
-                    {
-                        "value": "1513",
-                        "description": "Coconut (copra), palm kernel or babassu oil and fractions thereof, whether or not refined, but not chemically modified"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "FOODSTUFFS",
-                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
-            },
-            "comment": "Food for human consumption, excluding food supplied for catering, is taxed at 0% (exempt with credit) (part 3).  \n\nThe above exemption does not apply to items classified under the following subheadings in the First Schedule of the Import Duties Act:\n\n1501.00.11.00; 1502.00.10.00; 1511.10.10.00; \n1511.90.91.00; 1512.11.10.00; 1512.19.10.00;   1512.21.10.00; 1512.29.10.00; 1513.11.10.00; 1513.19.30.00; 1513.21.11.00; 1513.21.19.00; 1513.29.30.00"
         },
         {
             "memberState": "MT",
