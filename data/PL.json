@@ -393,6 +393,15 @@
         },
         {
             "memberState": "PL",
+            "type": "STANDARD",
+            "rate": {
+                "type": "DEFAULT",
+                "value": 23
+            },
+            "situationOn": "2024-07-01+02:00"
+        },
+        {
+            "memberState": "PL",
             "type": "REDUCED",
             "rate": {
                 "type": "REDUCED_RATE",
@@ -1137,15 +1146,6 @@
                 "description": "Supply of goods and services of a kind normally intended for use in agricultural production but excluding capital goods such as machinery or buildings and, until 1 January 2032, supply of chemical pesticides and chemical fertilisers"
             },
             "comment": "(continuation) As regards CN codes:0511 (semen of certain animals), 09 (seeds),12 (except for human consumption); \nCPA Codes: 01.6 (exc. services of farriers and services relating to running farm animal shelters), CPA 02.40.10 (exc. forest patrolling ordered by units other than forest units and advising on forest management), 03.00.7 (exc. services related to sea fishery)"
-        },
-        {
-            "memberState": "PL",
-            "type": "STANDARD",
-            "rate": {
-                "type": "DEFAULT",
-                "value": 23
-            },
-            "situationOn": "2024-07-01+02:00"
         }
     ]
 }
