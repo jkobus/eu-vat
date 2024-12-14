@@ -1431,6 +1431,32 @@
             "memberState": "NL",
             "type": "REDUCED",
             "rate": {
+                "type": "EXEMPTED",
+                "value": 0
+            },
+            "situationOn": "2024-07-01+02:00",
+            "cnCodes": {
+                "code": {
+                    "value": "8541 43 00",
+                    "description": "Photovoltaic cells assembled in modules or made up into panels"
+                }
+            },
+            "cpaCodes": {
+                "code": {
+                    "value": "33.20.70",
+                    "description": "Installation services of other goods n.e.c."
+                }
+            },
+            "category": {
+                "identifier": "SOLAR_PANELS",
+                "description": "Supply and installation of solar panels on and adjacent to private dwellings, housing and public and other buildings used for activities in the public interest"
+            },
+            "comment": "Tabel II prov. a.10: A zero rate is applicable for the supply and installation of solar panels [panels that have the function of generating electricity from sunlight with photovoltaic cells (also known as PV cells or solar cells)] on and adjacent to private dwellings. An important condition for the 0% rate is that the panels are installed on or near a home."
+        },
+        {
+            "memberState": "NL",
+            "type": "REDUCED",
+            "rate": {
                 "type": "REDUCED_RATE",
                 "value": 9
             },
@@ -1484,138 +1510,6 @@
                 "description": "Medical equipment, appliances, devices, items, aids and protective gear, including health protection masks, normally intended for use in health care or for the use of the disabled, goods essential to compensate and overcome disability, as well as the adaptation, repair, rental and leasing of such goods"
             },
             "comment": "Tabel I prov. a.31 and b.1: certain braille products; clocks, optical reading devices, TV magnifiers, reading platforms, orientation aids, support, tactile and recognition canes designed for personal use of blind and partially sighted persons; guide dogs; other aids designated by ministerial regulation that have been specially designed for exclusive and personal use by blind and partially sighted persons; reading pens and other equipment with similar function, equipment for use by dyslexics."
-        },
-        {
-            "memberState": "NL",
-            "type": "REDUCED",
-            "rate": {
-                "type": "EXEMPTED",
-                "value": 0
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cnCodes": {
-                "code": {
-                    "value": "8541 43 00",
-                    "description": "Photovoltaic cells assembled in modules or made up into panels"
-                }
-            },
-            "cpaCodes": {
-                "code": {
-                    "value": "33.20.70",
-                    "description": "Installation services of other goods n.e.c."
-                }
-            },
-            "category": {
-                "identifier": "SOLAR_PANELS",
-                "description": "Supply and installation of solar panels on and adjacent to private dwellings, housing and public and other buildings used for activities in the public interest"
-            },
-            "comment": "Tabel II prov. a.10: A zero rate is applicable for the supply and installation of solar panels [panels that have the function of generating electricity from sunlight with photovoltaic cells (also known as PV cells or solar cells)] on and adjacent to private dwellings. An important condition for the 0% rate is that the panels are installed on or near a home."
-        },
-        {
-            "memberState": "NL",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 9
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "3001 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "3002 12 00",
-                        "description": "Antisera and other blood fractions"
-                    },
-                    {
-                        "value": "3002 13 00",
-                        "description": "Immunological products, unmixed, not put up in measured doses or in forms or packings for retail sale"
-                    },
-                    {
-                        "value": "3002 14 00",
-                        "description": "Immunological products, mixed, not put up in measured doses or in forms or packings for retail sale"
-                    },
-                    {
-                        "value": "3002 15 00",
-                        "description": "Immunological products, put up in measured doses or in forms or packings for retail sale"
-                    },
-                    {
-                        "value": "3002 19 00",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "3002 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "3003",
-                        "description": "Medicaments (excluding goods of heading 3002, 3005 or 3006) consisting of two or more constituents which have been mixed together for therapeutic or prophylactic uses, not put up in measured doses or in forms or packings for retail sale"
-                    },
-                    {
-                        "value": "3004 10 00",
-                        "description": "Containing penicillins or derivatives thereof, with a penicillanic acid structure, or streptomycins or their derivatives"
-                    },
-                    {
-                        "value": "3004 20 00",
-                        "description": "Other, containing antibiotics"
-                    },
-                    {
-                        "value": "3004 31 00",
-                        "description": "Containing insulin"
-                    },
-                    {
-                        "value": "3004 32 00",
-                        "description": "Containing corticosteroid hormones, their derivatives or structural analogues"
-                    },
-                    {
-                        "value": "3004 39 00",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "3004 41 00",
-                        "description": "Containing ephedrine or its salts"
-                    },
-                    {
-                        "value": "3004 42 00",
-                        "description": "Containing pseudoephedrine (INN) or its salts"
-                    },
-                    {
-                        "value": "3004 43 00",
-                        "description": "Containing norephedrine or its salts"
-                    },
-                    {
-                        "value": "3004 49 00",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "3004 50 00",
-                        "description": "Other, containing vitamins or other products of heading 2936"
-                    },
-                    {
-                        "value": "3004 60 00",
-                        "description": "Other, containing antimalarial active principles described in Subheading Note 2 to this Chapter"
-                    },
-                    {
-                        "value": "3004 90 00",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "4014 90 00",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "3002 42 00",
-                        "description": "Vaccines for veterinary medicine"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "PHARMACEUTICAL_PRODUCTS",
-                "description": "Pharmaceutical products used for medical and veterinary purposes, including products used for contraception and female sanitary protection, and absorbent hygiene products"
-            },
-            "comment": "Tabel I prov. a.7: veterinary medicines as referred to in the 'Wet dieren' (Dutch 'Animal Act'), which are used in or on the animal itself (in vivo use). \nExcluded: products that are necessary to make a diagnosis and that are applied to tissue or body fluids originating from animals (in vitro use) are excluded; products that are used in the animal's living environment."
         },
         {
             "memberState": "NL",
@@ -1796,6 +1690,123 @@
             "cnCodes": {
                 "code": [
                     {
+                        "value": "9018 31",
+                        "description": "Syringes, with or without needles"
+                    },
+                    {
+                        "value": "9018 32",
+                        "description": "Tubular metal needles and needles for sutures"
+                    },
+                    {
+                        "value": "9018 90",
+                        "description": "Other instruments and appliances"
+                    }
+                ]
+            },
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "33",
+                        "description": "Repair and installation services of machinery and equipment"
+                    },
+                    {
+                        "value": "95",
+                        "description": "Repair services of computers and personal and household goods"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "MEDICAL_EQUIPMENT",
+                "description": "Medical equipment, appliances, devices, items, aids and protective gear, including health protection masks, normally intended for use in health care or for the use of the disabled, goods essential to compensate and overcome disability, as well as the adaptation, repair, rental and leasing of such goods"
+            },
+            "comment": "Tabel I prov. a.36 and b.1: aids that are usually used for the subcutaneous administration of insulin, with the exception of syringes and needles that are apparently also suitable for other purposes; aids that are usually used for the self-diagnosis of blood sugar levels. \n\nOnly included are the mentioned devices specifically developed for diabetics and offered as such. Generally applicable aids such as individual injection needles and syringes are excluded."
+        },
+        {
+            "memberState": "NL",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 9
+            },
+            "situationOn": "2024-07-01+02:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "95.23",
+                    "description": "Repair services of footwear and leather goods"
+                }
+            },
+            "category": {
+                "identifier": "SHOES_REPAIR",
+                "description": "Shoes and leather goods"
+            },
+            "comment": "Tabel I prov. b.5: Footwear: all kinds of footwear such as (sports) shoes, sandals, ski boots. Skates, inline skates and such can be regarded as footwear for the shoe part. Which material the footwear is made of is irrelevant. 'Leather goods' include small articles made from leather (leather suitcases and bags, gloves, wallets and belts, etc). Repair of large leather utensils (such as furniture); grinding and straightening skates and supplies of goods sold separately (laces etc.)are excluded."
+        },
+        {
+            "memberState": "NL",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 9
+            },
+            "situationOn": "2024-07-01+02:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "95.29.11",
+                    "description": "Repair and alteration services of garment and household textile articles"
+                }
+            },
+            "category": {
+                "identifier": "CLOTHING_REPAIR",
+                "description": "Clothing and household linen"
+            },
+            "comment": "Tabel I prov. b.6 Household linen: all textile items used in a household (curtains, cloths, and (beach) towels, etc.). Rugs and the upholstery of sofas and chairs are not considered household linen. \nBoth repairing and altering are included (sealing holes and tears and replacing buttons, zippers, lengthening\/shortening and tightenig\/loosening etc.). Excluded are, a.o.: washing, dry cleaning, steaming, pressing, embroidery\/appliqué, and  production of clothing\/household linen on commission."
+        },
+        {
+            "memberState": "NL",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 9
+            },
+            "situationOn": "2024-07-01+02:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "96.02.11",
+                        "description": "Hairdressing services for women and girls"
+                    },
+                    {
+                        "value": "96.02.12",
+                        "description": "Hairdressing and barbers' services for men and boys"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "HAIRDRESSING",
+                "description": "Hairdressing"
+            },
+            "comment": "Tabel I prov. b.7: activities a hairdresser usually performs on human hair (cutting, washing, blow drying, dyeing, shaving etc). Products that hairdressers use when treating hair ( shampoo, hair dye, etc.) and inexpensive hair ornaments incorporated into a hairstyle that are not separately charged and application of hair extensions and measurement and overhaul of wigs and toupees are also included. The material used for those services (hair extension, wig or toupee) is excluded."
+        },
+        {
+            "memberState": "NL",
+            "type": "STANDARD",
+            "rate": {
+                "type": "DEFAULT",
+                "value": 21
+            },
+            "situationOn": "2024-07-01+02:00"
+        },
+        {
+            "memberState": "NL",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 9
+            },
+            "situationOn": "2024-07-01+02:00",
+            "cnCodes": {
+                "code": [
+                    {
                         "value": "4401 39 00",
                         "description": "Other"
                     },
@@ -1910,6 +1921,56 @@
             "cnCodes": {
                 "code": [
                     {
+                        "value": "3005 10 00",
+                        "description": "Adhesive dressings and other articles having an adhesive layer"
+                    },
+                    {
+                        "value": "3005 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "3006 10",
+                        "description": "Sterile surgical catgut, similar sterile suture materials (including sterile absorbable surgical or dental yarns) and sterile tissue adhesives for surgical wound closure; sterile laminaria and sterile laminaria tents; sterile absorbable surgical or dental haemostatics; sterile surgical or dental adhesion barriers, whether or not absorbable"
+                    },
+                    {
+                        "value": "3006 50 00",
+                        "description": "First-aid boxes and kits"
+                    },
+                    {
+                        "value": "4803 00",
+                        "description": "Toilet or facial tissue stock, towel or napkin stock and similar paper of a kind used for household or sanitary purposes, cellulose wadding and webs of cellulose fibres, whether or not creped, crinkled, embossed, perforated, surface-coloured, surface-decorated or printed, in rolls or sheets"
+                    },
+                    {
+                        "value": "5601 21",
+                        "description": "Of cotton"
+                    },
+                    {
+                        "value": "5601 22",
+                        "description": "Of man-made fibres"
+                    },
+                    {
+                        "value": "9619 00",
+                        "description": "Sanitary towels (pads) and tampons, napkins (diapers), napkin liners and similar articles, of any material"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "PHARMACEUTICAL_PRODUCTS",
+                "description": "Pharmaceutical products used for medical and veterinary purposes, including products used for contraception and female sanitary protection, and absorbent hygiene products"
+            },
+            "comment": "Tabel I prov. a.8: bandages such as cottonwool, mesh, adhesives, band aids, tampons, splints and similar products for pharmaceutical purposes; first aid kits; sanitary napkins; maternity matrasses; incontinence products; products that with regard to use can be equated with said bandages and are developed and offered for medical purposes. 'Bandages' only encompasses products that serve to cover injured body parts. \nExcluded: consumer articles (such as clothing) which have a therapeutic effect."
+        },
+        {
+            "memberState": "NL",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 9
+            },
+            "situationOn": "2024-07-01+02:00",
+            "cnCodes": {
+                "code": [
+                    {
                         "value": "4901",
                         "description": "Printed books, brochures, leaflets and similar printed matter, whether or not in single sheets"
                     },
@@ -1953,17 +2014,259 @@
                 "value": 9
             },
             "situationOn": "2024-07-01+02:00",
-            "cpaCodes": {
-                "code": {
-                    "value": "01.62.10",
-                    "description": "Support services to animal production"
-                }
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "4907 00",
+                        "description": "Unused postage, revenue or similar stamps of current or new issue in the country in which they have, or will have, a recognised face value; stamp-impressed paper; banknotes; cheque forms; stock, share or bond certificates and similar documents of title"
+                    },
+                    {
+                        "value": "4911",
+                        "description": "Other printed matter, including printed pictures and photographs"
+                    },
+                    {
+                        "value": "4911 10",
+                        "description": "Trade advertising material, commercial catalogues and the like"
+                    },
+                    {
+                        "value": "4911 91 00",
+                        "description": "Pictures, designs and photographs"
+                    },
+                    {
+                        "value": "4911 99 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "5805 00 00",
+                        "description": "Hand-woven tapestries of the type Gobelins, Flanders, Aubusson, Beauvais and the like, and needle-worked tapestries (for example, petit point, cross stitch), whether or not made up"
+                    },
+                    {
+                        "value": "6304",
+                        "description": "Other furnishing articles, excluding those of heading 9404"
+                    },
+                    {
+                        "value": "6913",
+                        "description": "Statuettes and other ornamental ceramic articles"
+                    },
+                    {
+                        "value": "7118 90 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "9701",
+                        "description": "Paintings, drawings and pastels, executed entirely by hand, other than drawings of heading 4906 and other than hand-painted or hand-decorated manufactured articles; collages, mosaics and similar decorative plaques"
+                    },
+                    {
+                        "value": "9702 00 00",
+                        "description": "Original engravings, prints and lithographs"
+                    },
+                    {
+                        "value": "9703 00 00",
+                        "description": "Original sculptures and statuary, in any material"
+                    },
+                    {
+                        "value": "9704 00 00",
+                        "description": "Postage or revenue stamps, stamp-postmarks, first-day covers, postal stationery (stamped paper), and the like, used or unused, other than those of heading 4907"
+                    },
+                    {
+                        "value": "9705 00 00",
+                        "description": "Collections and collectors' pieces of zoological, botanical, mineralogical, anatomical, historical, archaeological, palaeontological, ethnographic or numismatic interest"
+                    },
+                    {
+                        "value": "9706 00 00",
+                        "description": "Antiques of an age exceeding 100 years"
+                    }
+                ]
             },
             "category": {
-                "identifier": "LIVE_EQUINES",
-                "description": "Live equines and the supply services related to live equines"
+                "identifier": "ANTIQUES",
+                "description": "Supply of works of art, collectors' items and antiques listed in Annex IX, Parts A, B and C"
             },
-            "comment": "The rearing and training of horses falls under the 9% rate. Rearing is the time when a foal grows into a young adult horse. Training is socializing the horse, breaking it into the saddle and making it suitable as a riding horse and driving horse."
+            "comment": "Tabel I, prov. a.29: works of art, collectors' items and antiques, insofar as these are imported; or insofar these are supplied by: the maker or his successor in title under universal title; or an entrepreneur, other than a reseller, who fully deducts the tax on his  acquisition\nWorks of art, objects for collections and antiques are defined in Article 2a, first paragraph, under m, of the Act in connection with Article 4, second paragraph, of the implementing order and the annex J to that order."
+        },
+        {
+            "memberState": "NL",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 9
+            },
+            "situationOn": "2024-07-01+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "3001 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "3002 12 00",
+                        "description": "Antisera and other blood fractions"
+                    },
+                    {
+                        "value": "3002 13 00",
+                        "description": "Immunological products, unmixed, not put up in measured doses or in forms or packings for retail sale"
+                    },
+                    {
+                        "value": "3002 14 00",
+                        "description": "Immunological products, mixed, not put up in measured doses or in forms or packings for retail sale"
+                    },
+                    {
+                        "value": "3002 15 00",
+                        "description": "Immunological products, put up in measured doses or in forms or packings for retail sale"
+                    },
+                    {
+                        "value": "3002 19 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "3002 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "3003",
+                        "description": "Medicaments (excluding goods of heading 3002, 3005 or 3006) consisting of two or more constituents which have been mixed together for therapeutic or prophylactic uses, not put up in measured doses or in forms or packings for retail sale"
+                    },
+                    {
+                        "value": "3004 10 00",
+                        "description": "Containing penicillins or derivatives thereof, with a penicillanic acid structure, or streptomycins or their derivatives"
+                    },
+                    {
+                        "value": "3004 20 00",
+                        "description": "Other, containing antibiotics"
+                    },
+                    {
+                        "value": "3004 31 00",
+                        "description": "Containing insulin"
+                    },
+                    {
+                        "value": "3004 32 00",
+                        "description": "Containing corticosteroid hormones, their derivatives or structural analogues"
+                    },
+                    {
+                        "value": "3004 39 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "3004 41 00",
+                        "description": "Containing ephedrine or its salts"
+                    },
+                    {
+                        "value": "3004 42 00",
+                        "description": "Containing pseudoephedrine (INN) or its salts"
+                    },
+                    {
+                        "value": "3004 43 00",
+                        "description": "Containing norephedrine or its salts"
+                    },
+                    {
+                        "value": "3004 49 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "3004 50 00",
+                        "description": "Other, containing vitamins or other products of heading 2936"
+                    },
+                    {
+                        "value": "3004 60 00",
+                        "description": "Other, containing antimalarial active principles described in Subheading Note 2 to this Chapter"
+                    },
+                    {
+                        "value": "3004 90 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "4014 90 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "3002 42 00",
+                        "description": "Vaccines for veterinary medicine"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "PHARMACEUTICAL_PRODUCTS",
+                "description": "Pharmaceutical products used for medical and veterinary purposes, including products used for contraception and female sanitary protection, and absorbent hygiene products"
+            },
+            "comment": "Tabel I prov. a.7: veterinary medicines as referred to in the 'Wet dieren' (Dutch 'Animal Act'), which are used in or on the animal itself (in vivo use). \nExcluded: products that are necessary to make a diagnosis and that are applied to tissue or body fluids originating from animals (in vitro use) are excluded; products that are used in the animal's living environment."
+        },
+        {
+            "memberState": "NL",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 9
+            },
+            "situationOn": "2024-07-01+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "3006 40 00",
+                        "description": "Dental cements and other dental fillings; bone reconstruction cements"
+                    },
+                    {
+                        "value": "3006 91 00",
+                        "description": "Appliances identifiable for ostomy use"
+                    },
+                    {
+                        "value": "6212 90 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "8506 10",
+                        "description": "Manganese dioxide"
+                    },
+                    {
+                        "value": "8506 30 00",
+                        "description": "Mercuric oxide"
+                    },
+                    {
+                        "value": "8506 40 00",
+                        "description": "Silver oxide"
+                    },
+                    {
+                        "value": "8506 50",
+                        "description": "Lithium"
+                    },
+                    {
+                        "value": "8506 60 00",
+                        "description": "Air-zinc"
+                    },
+                    {
+                        "value": "9021 10",
+                        "description": "Orthopaedic or fracture appliances"
+                    },
+                    {
+                        "value": "9021 29 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "9021 31 00",
+                        "description": "Artificial joints"
+                    },
+                    {
+                        "value": "9021 39",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "9021 40 00",
+                        "description": "Hearing aids, excluding parts and accessories"
+                    },
+                    {
+                        "value": "9021 50 00",
+                        "description": "Pacemakers for stimulating heart muscles, excluding parts and accessories"
+                    },
+                    {
+                        "value": "9021 90",
+                        "description": "Other"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "MEDICAL_EQUIPMENT",
+                "description": "Medical equipment, appliances, devices, items, aids and protective gear, including health protection masks, normally intended for use in health care or for the use of the disabled, goods essential to compensate and overcome disability, as well as the adaptation, repair, rental and leasing of such goods"
+            },
+            "comment": "Tabel I prov. a.35 and b.1: artificial limbs; devices for taking over the fixation function of a malfunctioning hand; leg braces, fracture bands, artificial joints; artificial eyes, -ears, -kidneys; certain prostheses; heart and muscle stimulators; hearing aids; stuttering ear aids; aids for stoma patients; orthopedic footwear; devices for taking off therapeutic elastic compression stockings; orthopedic corsets; parts, components and accessories apparently intended for the aforementioned goods"
         },
         {
             "memberState": "NL",
@@ -2050,28 +2353,20 @@
             "cnCodes": {
                 "code": [
                     {
-                        "value": "9018 31",
-                        "description": "Syringes, with or without needles"
-                    },
-                    {
-                        "value": "9018 32",
-                        "description": "Tubular metal needles and needles for sutures"
+                        "value": "9018 39 00",
+                        "description": "Other"
                     },
                     {
                         "value": "9018 90",
                         "description": "Other instruments and appliances"
-                    }
-                ]
-            },
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "33",
-                        "description": "Repair and installation services of machinery and equipment"
                     },
                     {
-                        "value": "95",
-                        "description": "Repair services of computers and personal and household goods"
+                        "value": "9018 90 84",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "9019 20",
+                        "description": "Ozone therapy, oxygen therapy, aerosol therapy, artificial respiration or other therapeutic respiration apparatus"
                     }
                 ]
             },
@@ -2079,7 +2374,27 @@
                 "identifier": "MEDICAL_EQUIPMENT",
                 "description": "Medical equipment, appliances, devices, items, aids and protective gear, including health protection masks, normally intended for use in health care or for the use of the disabled, goods essential to compensate and overcome disability, as well as the adaptation, repair, rental and leasing of such goods"
             },
-            "comment": "Tabel I prov. a.36 and b.1: aids that are usually used for the subcutaneous administration of insulin, with the exception of syringes and needles that are apparently also suitable for other purposes; aids that are usually used for the self-diagnosis of blood sugar levels. \n\nOnly included are the mentioned devices specifically developed for diabetics and offered as such. Generally applicable aids such as individual injection needles and syringes are excluded."
+            "comment": "Tabel I prov. a.37 and b.1: measuring equipment and accessories for self-diagnosis of the coagulation time of blood; drug nebulizers; catheters; urine bags; allergen-free covers; anti-decubitus mattresses; portable infusion pumps; oxygen concentrates and accessories, and carrying straps or bags specially designed for personal mobile use for an oxygen cylinder or oxygen container; computer mouse software, whether or not supplied by electronic means, specially developed for users with tremor."
+        },
+        {
+            "memberState": "NL",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 9
+            },
+            "situationOn": "2024-07-01+02:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "01.62.10",
+                    "description": "Support services to animal production"
+                }
+            },
+            "category": {
+                "identifier": "LIVE_EQUINES",
+                "description": "Live equines and the supply services related to live equines"
+            },
+            "comment": "The rearing and training of horses falls under the 9% rate. Rearing is the time when a foal grows into a young adult horse. Training is socializing the horse, breaking it into the saddle and making it suitable as a riding horse and driving horse."
         },
         {
             "memberState": "NL",
@@ -2344,321 +2659,6 @@
                 "description": "Supply of services by writers, composers and performing artists, or of the royalties due to them"
             },
             "comment": "Tabel I prov. b.17: performances by performing artists. This includes performances by artists in music and stage performances as meant in the foregoing item. The reduced VAT rate only applies to performances that can be (in)directly heard or viewed by an audience. Rehearsals associated with and necessary for those performances are included. Excluded: providing the opportunity to participate in a performance and organizing performances."
-        },
-        {
-            "memberState": "NL",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 9
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cpaCodes": {
-                "code": {
-                    "value": "95.23",
-                    "description": "Repair services of footwear and leather goods"
-                }
-            },
-            "category": {
-                "identifier": "SHOES_REPAIR",
-                "description": "Shoes and leather goods"
-            },
-            "comment": "Tabel I prov. b.5: Footwear: all kinds of footwear such as (sports) shoes, sandals, ski boots. Skates, inline skates and such can be regarded as footwear for the shoe part. Which material the footwear is made of is irrelevant. 'Leather goods' include small articles made from leather (leather suitcases and bags, gloves, wallets and belts, etc). Repair of large leather utensils (such as furniture); grinding and straightening skates and supplies of goods sold separately (laces etc.)are excluded."
-        },
-        {
-            "memberState": "NL",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 9
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cpaCodes": {
-                "code": {
-                    "value": "95.29.11",
-                    "description": "Repair and alteration services of garment and household textile articles"
-                }
-            },
-            "category": {
-                "identifier": "CLOTHING_REPAIR",
-                "description": "Clothing and household linen"
-            },
-            "comment": "Tabel I prov. b.6 Household linen: all textile items used in a household (curtains, cloths, and (beach) towels, etc.). Rugs and the upholstery of sofas and chairs are not considered household linen. \nBoth repairing and altering are included (sealing holes and tears and replacing buttons, zippers, lengthening\/shortening and tightenig\/loosening etc.). Excluded are, a.o.: washing, dry cleaning, steaming, pressing, embroidery\/appliqué, and  production of clothing\/household linen on commission."
-        },
-        {
-            "memberState": "NL",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 9
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "96.02.11",
-                        "description": "Hairdressing services for women and girls"
-                    },
-                    {
-                        "value": "96.02.12",
-                        "description": "Hairdressing and barbers' services for men and boys"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "HAIRDRESSING",
-                "description": "Hairdressing"
-            },
-            "comment": "Tabel I prov. b.7: activities a hairdresser usually performs on human hair (cutting, washing, blow drying, dyeing, shaving etc). Products that hairdressers use when treating hair ( shampoo, hair dye, etc.) and inexpensive hair ornaments incorporated into a hairstyle that are not separately charged and application of hair extensions and measurement and overhaul of wigs and toupees are also included. The material used for those services (hair extension, wig or toupee) is excluded."
-        },
-        {
-            "memberState": "NL",
-            "type": "STANDARD",
-            "rate": {
-                "type": "DEFAULT",
-                "value": 21
-            },
-            "situationOn": "2024-07-01+02:00"
-        },
-        {
-            "memberState": "NL",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 9
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "3005 10 00",
-                        "description": "Adhesive dressings and other articles having an adhesive layer"
-                    },
-                    {
-                        "value": "3005 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "3006 10",
-                        "description": "Sterile surgical catgut, similar sterile suture materials (including sterile absorbable surgical or dental yarns) and sterile tissue adhesives for surgical wound closure; sterile laminaria and sterile laminaria tents; sterile absorbable surgical or dental haemostatics; sterile surgical or dental adhesion barriers, whether or not absorbable"
-                    },
-                    {
-                        "value": "3006 50 00",
-                        "description": "First-aid boxes and kits"
-                    },
-                    {
-                        "value": "4803 00",
-                        "description": "Toilet or facial tissue stock, towel or napkin stock and similar paper of a kind used for household or sanitary purposes, cellulose wadding and webs of cellulose fibres, whether or not creped, crinkled, embossed, perforated, surface-coloured, surface-decorated or printed, in rolls or sheets"
-                    },
-                    {
-                        "value": "5601 21",
-                        "description": "Of cotton"
-                    },
-                    {
-                        "value": "5601 22",
-                        "description": "Of man-made fibres"
-                    },
-                    {
-                        "value": "9619 00",
-                        "description": "Sanitary towels (pads) and tampons, napkins (diapers), napkin liners and similar articles, of any material"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "PHARMACEUTICAL_PRODUCTS",
-                "description": "Pharmaceutical products used for medical and veterinary purposes, including products used for contraception and female sanitary protection, and absorbent hygiene products"
-            },
-            "comment": "Tabel I prov. a.8: bandages such as cottonwool, mesh, adhesives, band aids, tampons, splints and similar products for pharmaceutical purposes; first aid kits; sanitary napkins; maternity matrasses; incontinence products; products that with regard to use can be equated with said bandages and are developed and offered for medical purposes. 'Bandages' only encompasses products that serve to cover injured body parts. \nExcluded: consumer articles (such as clothing) which have a therapeutic effect."
-        },
-        {
-            "memberState": "NL",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 9
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "4907 00",
-                        "description": "Unused postage, revenue or similar stamps of current or new issue in the country in which they have, or will have, a recognised face value; stamp-impressed paper; banknotes; cheque forms; stock, share or bond certificates and similar documents of title"
-                    },
-                    {
-                        "value": "4911",
-                        "description": "Other printed matter, including printed pictures and photographs"
-                    },
-                    {
-                        "value": "4911 10",
-                        "description": "Trade advertising material, commercial catalogues and the like"
-                    },
-                    {
-                        "value": "4911 91 00",
-                        "description": "Pictures, designs and photographs"
-                    },
-                    {
-                        "value": "4911 99 00",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "5805 00 00",
-                        "description": "Hand-woven tapestries of the type Gobelins, Flanders, Aubusson, Beauvais and the like, and needle-worked tapestries (for example, petit point, cross stitch), whether or not made up"
-                    },
-                    {
-                        "value": "6304",
-                        "description": "Other furnishing articles, excluding those of heading 9404"
-                    },
-                    {
-                        "value": "6913",
-                        "description": "Statuettes and other ornamental ceramic articles"
-                    },
-                    {
-                        "value": "7118 90 00",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "9701",
-                        "description": "Paintings, drawings and pastels, executed entirely by hand, other than drawings of heading 4906 and other than hand-painted or hand-decorated manufactured articles; collages, mosaics and similar decorative plaques"
-                    },
-                    {
-                        "value": "9702 00 00",
-                        "description": "Original engravings, prints and lithographs"
-                    },
-                    {
-                        "value": "9703 00 00",
-                        "description": "Original sculptures and statuary, in any material"
-                    },
-                    {
-                        "value": "9704 00 00",
-                        "description": "Postage or revenue stamps, stamp-postmarks, first-day covers, postal stationery (stamped paper), and the like, used or unused, other than those of heading 4907"
-                    },
-                    {
-                        "value": "9705 00 00",
-                        "description": "Collections and collectors' pieces of zoological, botanical, mineralogical, anatomical, historical, archaeological, palaeontological, ethnographic or numismatic interest"
-                    },
-                    {
-                        "value": "9706 00 00",
-                        "description": "Antiques of an age exceeding 100 years"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "ANTIQUES",
-                "description": "Supply of works of art, collectors' items and antiques listed in Annex IX, Parts A, B and C"
-            },
-            "comment": "Tabel I, prov. a.29: works of art, collectors' items and antiques, insofar as these are imported; or insofar these are supplied by: the maker or his successor in title under universal title; or an entrepreneur, other than a reseller, who fully deducts the tax on his  acquisition\nWorks of art, objects for collections and antiques are defined in Article 2a, first paragraph, under m, of the Act in connection with Article 4, second paragraph, of the implementing order and the annex J to that order."
-        },
-        {
-            "memberState": "NL",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 9
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "3006 40 00",
-                        "description": "Dental cements and other dental fillings; bone reconstruction cements"
-                    },
-                    {
-                        "value": "3006 91 00",
-                        "description": "Appliances identifiable for ostomy use"
-                    },
-                    {
-                        "value": "6212 90 00",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "8506 10",
-                        "description": "Manganese dioxide"
-                    },
-                    {
-                        "value": "8506 30 00",
-                        "description": "Mercuric oxide"
-                    },
-                    {
-                        "value": "8506 40 00",
-                        "description": "Silver oxide"
-                    },
-                    {
-                        "value": "8506 50",
-                        "description": "Lithium"
-                    },
-                    {
-                        "value": "8506 60 00",
-                        "description": "Air-zinc"
-                    },
-                    {
-                        "value": "9021 10",
-                        "description": "Orthopaedic or fracture appliances"
-                    },
-                    {
-                        "value": "9021 29 00",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "9021 31 00",
-                        "description": "Artificial joints"
-                    },
-                    {
-                        "value": "9021 39",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "9021 40 00",
-                        "description": "Hearing aids, excluding parts and accessories"
-                    },
-                    {
-                        "value": "9021 50 00",
-                        "description": "Pacemakers for stimulating heart muscles, excluding parts and accessories"
-                    },
-                    {
-                        "value": "9021 90",
-                        "description": "Other"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "MEDICAL_EQUIPMENT",
-                "description": "Medical equipment, appliances, devices, items, aids and protective gear, including health protection masks, normally intended for use in health care or for the use of the disabled, goods essential to compensate and overcome disability, as well as the adaptation, repair, rental and leasing of such goods"
-            },
-            "comment": "Tabel I prov. a.35 and b.1: artificial limbs; devices for taking over the fixation function of a malfunctioning hand; leg braces, fracture bands, artificial joints; artificial eyes, -ears, -kidneys; certain prostheses; heart and muscle stimulators; hearing aids; stuttering ear aids; aids for stoma patients; orthopedic footwear; devices for taking off therapeutic elastic compression stockings; orthopedic corsets; parts, components and accessories apparently intended for the aforementioned goods"
-        },
-        {
-            "memberState": "NL",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 9
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "9018 39 00",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "9018 90",
-                        "description": "Other instruments and appliances"
-                    },
-                    {
-                        "value": "9018 90 84",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "9019 20",
-                        "description": "Ozone therapy, oxygen therapy, aerosol therapy, artificial respiration or other therapeutic respiration apparatus"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "MEDICAL_EQUIPMENT",
-                "description": "Medical equipment, appliances, devices, items, aids and protective gear, including health protection masks, normally intended for use in health care or for the use of the disabled, goods essential to compensate and overcome disability, as well as the adaptation, repair, rental and leasing of such goods"
-            },
-            "comment": "Tabel I prov. a.37 and b.1: measuring equipment and accessories for self-diagnosis of the coagulation time of blood; drug nebulizers; catheters; urine bags; allergen-free covers; anti-decubitus mattresses; portable infusion pumps; oxygen concentrates and accessories, and carrying straps or bags specially designed for personal mobile use for an oxygen cylinder or oxygen container; computer mouse software, whether or not supplied by electronic means, specially developed for users with tremor."
         }
     ]
 }

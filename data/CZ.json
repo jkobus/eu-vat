@@ -3,6 +3,16 @@
     "vatRateResults": [
         {
             "memberState": "CZ",
+            "type": "STANDARD",
+            "rate": {
+                "type": "DEFAULT",
+                "value": 21
+            },
+            "situationOn": "2024-07-01+02:00",
+            "comment": "<p>Art. 47 of the VAT Act.<\/p>"
+        },
+        {
+            "memberState": "CZ",
             "type": "REDUCED",
             "rate": {
                 "type": "EXEMPTED",
@@ -746,16 +756,6 @@
                 "description": "Medical equipment, appliances, devices, items, aids and protective gear, including health protection masks, normally intended for use in health care or for the use of the disabled, goods essential to compensate and overcome disability, as well as the adaptation, repair, rental and leasing of such goods"
             },
             "comment": "Selected medical devices and their accessories according to the Regulation of the European Parliament and the Council on medical devices and in vitro diagnostic medical devices and their accessories according to the Regulation of the European Parliament and the Council on in vitro diagnostic medical devices (e.g. they can be classified in table no. 1 of section C of Annex no. 3 or Annex No. 4 of the Act on Public Health Insurance). Repair or modification of such medical equipment."
-        },
-        {
-            "memberState": "CZ",
-            "type": "STANDARD",
-            "rate": {
-                "type": "DEFAULT",
-                "value": 21
-            },
-            "situationOn": "2024-07-01+02:00",
-            "comment": "<p>Art. 47 of the VAT Act.<\/p>"
         }
     ]
 }

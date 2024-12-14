@@ -5,579 +5,63 @@
             "memberState": "RO",
             "type": "REDUCED",
             "rate": {
-                "type": "REDUCED_RATE",
-                "value": 9
+                "type": "EXEMPTED",
+                "value": 0
             },
             "situationOn": "2024-07-01+02:00",
             "cnCodes": {
                 "code": [
                     {
-                        "value": "1207 10 00",
-                        "description": "Palm nuts and kernels"
+                        "value": "8713",
+                        "description": "Carriages for disabled persons, whether or not motorised or otherwise mechanically propelled"
                     },
                     {
-                        "value": "1207 29 00",
+                        "value": "8714 20 00",
+                        "description": "Of carriages for disabled persons"
+                    },
+                    {
+                        "value": "9021 10 10",
+                        "description": "Orthopaedic appliances"
+                    },
+                    {
+                        "value": "9021 10 90",
+                        "description": "Splints and other fracture appliances"
+                    },
+                    {
+                        "value": "9021 21",
+                        "description": "Artificial teeth"
+                    },
+                    {
+                        "value": "9021 29 00",
                         "description": "Other"
                     },
                     {
-                        "value": "1207 30 00",
-                        "description": "Castor oil seeds"
+                        "value": "9021 31 00",
+                        "description": "Artificial joints"
                     },
                     {
-                        "value": "1207 40 90",
+                        "value": "9021 39",
                         "description": "Other"
                     },
                     {
-                        "value": "1207 50 90",
+                        "value": "9021 40 00",
+                        "description": "Hearing aids, excluding parts and accessories"
+                    },
+                    {
+                        "value": "9021 50 00",
+                        "description": "Pacemakers for stimulating heart muscles, excluding parts and accessories"
+                    },
+                    {
+                        "value": "9021 90",
                         "description": "Other"
-                    },
-                    {
-                        "value": "1207 60 00",
-                        "description": "Safflower (Carthamus tinctorius) seeds"
-                    },
-                    {
-                        "value": "1207 91 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "1207 99 91",
-                        "description": "Hemp seeds"
-                    },
-                    {
-                        "value": "1207 99 96",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "1211",
-                        "description": "Plants and parts of plants (including seeds and fruits), of a kind used primarily in perfumery, in pharmacy or for insecticidal, fungicidal or similar purposes, fresh, chilled, frozen or dried, whether or not cut, crushed or powdered"
-                    },
-                    {
-                        "value": "1212",
-                        "description": "Locust beans, seaweeds and other algae, sugar beet and sugar cane, fresh, chilled, frozen or dried, whether or not ground; fruit stones and kernels and other vegetable products (including unroasted chicory roots of the variety Cichorium intybus sativum) of a kind used primarily for human consumption, not elsewhere specified or included"
-                    },
-                    {
-                        "value": "1301",
-                        "description": "Lac; natural gums, resins, gum-resins and oleoresins (for example, balsams)"
-                    },
-                    {
-                        "value": "1302 12 00",
-                        "description": "Of liquorice"
-                    },
-                    {
-                        "value": "1302 13 00",
-                        "description": "Of hops"
-                    },
-                    {
-                        "value": "1302 14 00",
-                        "description": "Of ephedra"
-                    },
-                    {
-                        "value": "1302 19",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "1302 20",
-                        "description": "Pectic substances, pectinates and pectates"
-                    },
-                    {
-                        "value": "1302 31 00",
-                        "description": "Agar-agar"
-                    },
-                    {
-                        "value": "1302 32",
-                        "description": "Mucilages and thickeners, whether or not modified, derived from locust beans, locust bean seeds or guar seeds"
-                    },
-                    {
-                        "value": "1302 39 00",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "1518 00",
-                        "description": "Animal, vegetable or microbial fats and oils and their fractions, boiled, oxidised, dehydrated, sulphurised, blown, polymerised by heat in vacuum or in inert gas or otherwise chemically modified, excluding those of heading 1516; inedible mixtures or preparations of animal, vegetable or microbial fats or oils or of fractions of different fats or oils of this chapter, not elsewhere specified or included"
-                    },
-                    {
-                        "value": "1520 00 00",
-                        "description": "Glycerol, crude; glycerol waters and glycerol lyes"
-                    },
-                    {
-                        "value": "1521",
-                        "description": "Vegetable waxes (other than triglycerides), beeswax, other insect waxes and spermaceti, whether or not refined or coloured"
-                    },
-                    {
-                        "value": "1522 00",
-                        "description": "Degras; residues resulting from the treatment of fatty substances or animal or vegetable waxes"
-                    },
-                    {
-                        "value": "2303",
-                        "description": "Residues of starch manufacture and similar residues, beet-pulp, bagasse and other waste of sugar manufacture, brewing or distilling dregs and waste, whether or not in the form of pellets"
-                    },
-                    {
-                        "value": "2307 00",
-                        "description": "Wine lees; argol"
-                    },
-                    {
-                        "value": "2501 00",
-                        "description": "Salt (including table salt and denatured salt) and pure sodium chloride, whether or not in aqueous solution or containing added anti-caking or free-flowing agents; sea water"
-                    },
-                    {
-                        "value": "2801",
-                        "description": "Fluorine, chlorine, bromine and iodine"
-                    },
-                    {
-                        "value": "2802 00 00",
-                        "description": "Sulphur, sublimed or precipitated; colloidal sulphur"
-                    },
-                    {
-                        "value": "2803 00 00",
-                        "description": "Carbon (carbon blacks and other forms of carbon not elsewhere specified or included)"
-                    },
-                    {
-                        "value": "2804",
-                        "description": "Hydrogen, rare gases and other non-metals"
-                    },
-                    {
-                        "value": "2805 11 00",
-                        "description": "Sodium"
-                    },
-                    {
-                        "value": "2805 12 00",
-                        "description": "Calcium"
-                    },
-                    {
-                        "value": "2805 19",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "2805 30",
-                        "description": "Rare-earth metals, scandium and yttrium, whether or not intermixed or interalloyed"
-                    },
-                    {
-                        "value": "2806",
-                        "description": "Hydrogen chloride (hydrochloric acid); chlorosulphuric acid"
-                    },
-                    {
-                        "value": "2807 00 00",
-                        "description": "Sulphuric acid; oleum"
-                    },
-                    {
-                        "value": "2808 00 00",
-                        "description": "Nitric acid; sulphonitric acids"
-                    },
-                    {
-                        "value": "2809",
-                        "description": "Diphosphorus pentaoxide; phosphoric acid; polyphosphoric acids, whether or not chemically defined"
-                    },
-                    {
-                        "value": "2810 00",
-                        "description": "Oxides of boron; boric acids"
-                    },
-                    {
-                        "value": "2811",
-                        "description": "Other inorganic acids and other inorganic oxygen compounds of non-metals"
-                    },
-                    {
-                        "value": "2812",
-                        "description": "Halides and halide oxides of non-metals"
-                    },
-                    {
-                        "value": "2813",
-                        "description": "Sulphides of non-metals; commercial phosphorus trisulphide"
-                    },
-                    {
-                        "value": "2814",
-                        "description": "Ammonia, anhydrous or in aqueous solution"
-                    },
-                    {
-                        "value": "2815 20 00",
-                        "description": "Potassium hydroxide (caustic potash)"
-                    },
-                    {
-                        "value": "2816",
-                        "description": "Hydroxide and peroxide of magnesium; oxides, hydroxides and peroxides, of strontium or barium"
-                    },
-                    {
-                        "value": "2817 00 00",
-                        "description": "Zinc oxide; zinc peroxide"
-                    },
-                    {
-                        "value": "2826",
-                        "description": "Fluorides; fluorosilicates, fluoroaluminates and other complex fluorine salts"
-                    },
-                    {
-                        "value": "2827",
-                        "description": "Chlorides, chloride oxides and chloride hydroxides; bromides and bromide oxides; iodides and iodide oxides"
-                    },
-                    {
-                        "value": "2829",
-                        "description": "Chlorates and perchlorates; bromates and perbromates; iodates and periodates"
-                    },
-                    {
-                        "value": "2830",
-                        "description": "Sulphides; polysulphides, whether or not chemically defined"
-                    },
-                    {
-                        "value": "2831",
-                        "description": "Dithionites and sulphoxylates"
-                    },
-                    {
-                        "value": "2832",
-                        "description": "Sulphites; thiosulphates"
-                    },
-                    {
-                        "value": "2833",
-                        "description": "Sulphates; alums; peroxosulphates (persulphates)"
-                    },
-                    {
-                        "value": "2834 10 00",
-                        "description": "Nitrites"
-                    },
-                    {
-                        "value": "2834 21 00",
-                        "description": "Of potassium"
-                    },
-                    {
-                        "value": "2835",
-                        "description": "Phosphinates (hypophosphites), phosphonates (phosphites) and phosphates; polyphosphates, whether or not chemically defined"
-                    },
-                    {
-                        "value": "2836",
-                        "description": "Carbonates; peroxocarbonates (percarbonates); commercial ammonium carbonate containing ammonium carbamate"
-                    },
-                    {
-                        "value": "2839",
-                        "description": "Silicates; commercial alkali metal silicates"
-                    },
-                    {
-                        "value": "2840",
-                        "description": "Borates; peroxoborates (perborates)"
-                    },
-                    {
-                        "value": "2841",
-                        "description": "Salts of oxometallic or peroxometallic acids"
-                    },
-                    {
-                        "value": "2842",
-                        "description": "Other salts of inorganic acids or peroxoacids (including aluminosilicates whether or not chemically defined), other than azides"
-                    },
-                    {
-                        "value": "2847 00 00",
-                        "description": "Hydrogen peroxide, whether or not solidified with urea"
-                    },
-                    {
-                        "value": "2853 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "2905 41 00",
-                        "description": "2-Ethyl-2-(hydroxymethyl)propane-1,3-diol (trimethylolpropane)"
-                    },
-                    {
-                        "value": "2905 42 00",
-                        "description": "Pentaerythritol"
-                    },
-                    {
-                        "value": "2905 43 00",
-                        "description": "Mannitol"
-                    },
-                    {
-                        "value": "2905 44",
-                        "description": "D-glucitol (sorbitol)"
-                    },
-                    {
-                        "value": "2905 45 00",
-                        "description": "Glycerol"
-                    },
-                    {
-                        "value": "2905 49 00",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "2905 51 00",
-                        "description": "Ethchlorvynol (INN)"
-                    },
-                    {
-                        "value": "2905 59",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "2906",
-                        "description": "Cyclic alcohols and their halogenated, sulphonated, nitrated or nitrosated derivatives"
-                    },
-                    {
-                        "value": "2907",
-                        "description": "Phenols; phenol-alcohols"
-                    },
-                    {
-                        "value": "2908",
-                        "description": "Halogenated, sulphonated, nitrated or nitrosated derivatives of phenols or phenol-alcohols"
-                    },
-                    {
-                        "value": "2911 00 00",
-                        "description": "Acetals and hemiacetals, whether or not with other oxygen function, and their halogenated, sulphonated, nitrated or nitrosated derivatives"
-                    },
-                    {
-                        "value": "2912",
-                        "description": "Aldehydes, whether or not with other oxygen function; cyclic polymers of aldehydes; paraformaldehyde"
-                    },
-                    {
-                        "value": "2913 00 00",
-                        "description": "Halogenated, sulphonated, nitrated or nitrosated derivatives of products of heading 2912"
-                    },
-                    {
-                        "value": "2914",
-                        "description": "Ketones and quinones, whether or not with other oxygen function, and their halogenated, sulphonated, nitrated or nitrosated derivatives"
-                    },
-                    {
-                        "value": "2915",
-                        "description": "Saturated acyclic monocarboxylic acids and their anhydrides, halides, peroxides and peroxyacids; their halogenated, sulphonated, nitrated or nitrosated derivatives"
-                    },
-                    {
-                        "value": "2916",
-                        "description": "Unsaturated acyclic monocarboxylic acids, cyclic monocarboxylic acids, their anhydrides, halides, peroxides and peroxyacids; their halogenated, sulphonated, nitrated or nitrosated derivatives"
-                    },
-                    {
-                        "value": "2917",
-                        "description": "Polycarboxylic acids, their anhydrides, halides, peroxides and peroxyacids; their halogenated, sulphonated, nitrated or nitrosated derivatives"
-                    },
-                    {
-                        "value": "2918",
-                        "description": "Carboxylic acids with additional oxygen function and their anhydrides, halides, peroxides and peroxyacids; their halogenated, sulphonated, nitrated or nitrosated derivatives"
-                    },
-                    {
-                        "value": "2919",
-                        "description": "Phosphoric esters and their salts, including lactophosphates; their halogenated, sulphonated, nitrated or nitrosated derivatives"
-                    },
-                    {
-                        "value": "2920",
-                        "description": "Esters of other inorganic acids of non-metals (excluding esters of hydrogen halides) and their salts; their halogenated, sulphonated, nitrated or nitrosated derivatives"
-                    },
-                    {
-                        "value": "2921",
-                        "description": "Amine-function compounds"
-                    },
-                    {
-                        "value": "2922",
-                        "description": "Oxygen-function amino-compounds"
-                    },
-                    {
-                        "value": "2923",
-                        "description": "Quaternary ammonium salts and hydroxides; lecithins and other phosphoaminolipids, whether or not chemically defined"
-                    },
-                    {
-                        "value": "2924",
-                        "description": "Carboxyamide-function compounds; amide-function compounds of carbonic acid"
-                    },
-                    {
-                        "value": "2925",
-                        "description": "Carboxyimide-function compounds (including saccharin and its salts) and imine-function compounds"
-                    },
-                    {
-                        "value": "2926",
-                        "description": "Nitrile-function compounds"
-                    },
-                    {
-                        "value": "2927 00 00",
-                        "description": "Diazo-, azo- or azoxy-compounds"
-                    },
-                    {
-                        "value": "2928 00",
-                        "description": "Organic derivatives of hydrazine or of hydroxylamine"
-                    },
-                    {
-                        "value": "2929",
-                        "description": "Compounds with other nitrogen function"
-                    },
-                    {
-                        "value": "2930",
-                        "description": "Organo-sulphur compounds"
-                    },
-                    {
-                        "value": "2931",
-                        "description": "Other organo-inorganic compounds"
-                    },
-                    {
-                        "value": "2932",
-                        "description": "Heterocyclic compounds with oxygen hetero-atom(s) only"
-                    },
-                    {
-                        "value": "2933",
-                        "description": "Heterocyclic compounds with nitrogen hetero-atom(s) only"
-                    },
-                    {
-                        "value": "2934",
-                        "description": "Nucleic acids and their salts, whether or not chemically defined; other heterocyclic compounds"
-                    },
-                    {
-                        "value": "2935",
-                        "description": "Sulphonamides"
-                    },
-                    {
-                        "value": "2936",
-                        "description": "Provitamins and vitamins, natural or reproduced by synthesis (including natural concentrates), derivatives thereof used primarily as vitamins, and intermixtures of the foregoing, whether or not in any solvent"
-                    },
-                    {
-                        "value": "2937",
-                        "description": "Hormones, prostaglandins, thromboxanes and leukotrienes, natural or reproduced by synthesis; derivatives and structural analogues thereof, including chain modified polypeptides, used primarily as hormones"
-                    },
-                    {
-                        "value": "2938",
-                        "description": "Glycosides, natural or reproduced by synthesis, and their salts, ethers, esters and other derivatives"
-                    },
-                    {
-                        "value": "2939",
-                        "description": "Alkaloids, natural or reproduced by synthesis, and their salts, ethers, esters and other derivatives"
-                    },
-                    {
-                        "value": "2940 00 00",
-                        "description": "Sugars, chemically pure, other than sucrose, lactose, maltose, glucose and fructose; sugar ethers, sugar acetals and sugar esters, and their salts, other than products of heading 2937, 2938 or 2939"
-                    },
-                    {
-                        "value": "2941",
-                        "description": "Antibiotics"
-                    },
-                    {
-                        "value": "2942 00 00",
-                        "description": "Other organic compounds"
-                    },
-                    {
-                        "value": "3203 00",
-                        "description": "Colouring matter of vegetable or animal origin (including dyeing extracts but excluding animal black), whether or not chemically defined; preparations as specified in note 3 to this chapter based on colouring matter of vegetable or animal origin"
-                    },
-                    {
-                        "value": "3204",
-                        "description": "Synthetic organic colouring matter, whether or not chemically defined; preparations as specified in note 3 to this chapter based on synthetic organic colouring matter; synthetic organic products of a kind used as fluorescent brightening agents or as luminophores, whether or not chemically defined"
-                    },
-                    {
-                        "value": "3301",
-                        "description": "Essential oils (terpeneless or not), including concretes and absolutes; resinoids; extracted oleoresins; concentrates of essential oils in fats, in fixed oils, in waxes or the like, obtained by enfleurage or maceration; terpenic by-products of the deterpenation of essential oils; aqueous distillates and aqueous solutions of essential oils"
-                    },
-                    {
-                        "value": "3302 10",
-                        "description": "Of a kind used in the food or drink industries"
-                    },
-                    {
-                        "value": "3501",
-                        "description": "Casein, caseinates and other casein derivatives; casein glues"
-                    },
-                    {
-                        "value": "3502",
-                        "description": "Albumins (including concentrates of two or more whey proteins, containing by weight more than 80 % whey proteins, calculated on the dry matter), albuminates and other albumin derivatives"
-                    },
-                    {
-                        "value": "3503 00",
-                        "description": "Gelatin (including gelatin in rectangular (including square) sheets, whether or not surface-worked or coloured) and gelatin derivatives; isinglass; other glues of animal origin, excluding casein glues of heading 3501"
-                    },
-                    {
-                        "value": "3504 00",
-                        "description": "Peptones and their derivatives; other protein substances and their derivatives, not elsewhere specified or included; hide powder, whether or not chromed"
-                    },
-                    {
-                        "value": "3505",
-                        "description": "Dextrins and other modified starches (for example, pregelatinised or esterified starches); glues based on starches, or on dextrins or other modified starches"
-                    },
-                    {
-                        "value": "3507",
-                        "description": "Enzymes; prepared enzymes not elsewhere specified or included"
-                    },
-                    {
-                        "value": "3823",
-                        "description": "Industrial monocarboxylic fatty acids; acid oils from refining; industrial fatty alcohols"
-                    },
-                    {
-                        "value": "3824 60",
-                        "description": "Sorbitol other than that of subheading 290544"
-                    },
-                    {
-                        "value": "3824 84 00",
-                        "description": "Containing aldrin (ISO), camphechlor (ISO) (toxaphene), chlordane (ISO), chlordecone (ISO), DDT (ISO) (clofenotane (INN), 1,1,1-trichloro-2,2-bis(p-chlorophenyl)ethane), dieldrin (ISO, INN), endosulfan (ISO), endrin (ISO), heptachlor (ISO) or mirex (ISO)"
-                    },
-                    {
-                        "value": "3824 85 00",
-                        "description": "Containing 1,2,3,4,5,6-hexachlorocyclohexane (HCH (ISO)), including lindane (ISO, INN)"
-                    },
-                    {
-                        "value": "3824 86 00",
-                        "description": "Containing pentachlorobenzene (ISO) or hexachlorobenzene (ISO)"
-                    },
-                    {
-                        "value": "3824 87 00",
-                        "description": "Containing perfluorooctane sulphonic acid, its salts, perfluorooctane sulphonamides, or perfluorooctane sulphonyl fluoride"
-                    },
-                    {
-                        "value": "3824 88 00",
-                        "description": "Containing tetra-, penta-, hexa-, hepta- or octabromodiphenyl ethers"
-                    },
-                    {
-                        "value": "3824 99 25",
-                        "description": "Pyrolignites (for example, of calcium); crude calcium tartrate; crude calcium citrate"
-                    },
-                    {
-                        "value": "3824 99 55",
-                        "description": "Mixtures of mono-, di- and tri-, fatty acid esters of glycerol (emulsifiers for fats)"
-                    },
-                    {
-                        "value": "3824 99 62",
-                        "description": "Intermediate products from the manufacture of monensin salts"
-                    },
-                    {
-                        "value": "3824 99 64",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "3824 99 80",
-                        "description": "Mixture of amines derived from dimerised fatty acids, of an average molecular weight of 520 or more but not exceeding 550"
-                    },
-                    {
-                        "value": "3824 99 92",
-                        "description": "In the form of a liquid at 20 °C"
-                    },
-                    {
-                        "value": "3824 99 93",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "3824 99 96",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "3912 31 00",
-                        "description": "Carboxymethylcellulose and its salts"
-                    },
-                    {
-                        "value": "3913 10 00",
-                        "description": "Alginic acid, its salts and esters"
-                    },
-                    {
-                        "value": "3917 10",
-                        "description": "Artificial guts (sausage casings) of hardened protein or of cellulosic materials"
-                    },
-                    {
-                        "value": "4706 91 00",
-                        "description": "Mechanical"
-                    },
-                    {
-                        "value": "2909 60 10",
-                        "description": "Acetals and hemiacetals peroxides"
-                    },
-                    {
-                        "value": "3402 42 00",
-                        "description": "Non-ionic"
-                    },
-                    {
-                        "value": "3824 89 00",
-                        "description": "Containing short-chain chlorinated paraffins"
-                    },
-                    {
-                        "value": "3824 92 00",
-                        "description": "Polyglycol esters of methylphosphonic acid"
                     }
                 ]
             },
             "category": {
-                "identifier": "FOODSTUFFS",
-                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
+                "identifier": "MEDICAL_EQUIPMENT",
+                "description": "Medical equipment, appliances, devices, items, aids and protective gear, including health protection masks, normally intended for use in health care or for the use of the disabled, goods essential to compensate and overcome disability, as well as the adaptation, repair, rental and leasing of such goods"
             },
-            "comment": "The reduced rate is applied only if the supplier can prove that the goods, except foods with added sugar, whose total sugar content is at least 10g\/100g product, are used for the preparation or to supplement or replace food for human or animal consumption. When those goods are imported from a third territory or a third country, the application of the reduced rate is conditioned by the submission of the Commitment Declaration regarding the destination of the goods. Point 37 para.(5)-(9) of Norms."
+            "comment": "Supply of prostheses and their accessories, with the exception of dental prostheses exempt from tax under art.292 para.(1) lett.(b) and supply of orthopedic products. When those goods are imported from a third territory or a third country, the reduced VAT rate is conditioned by submission of the Customs Notice for medical devices or the Declaration of conformity of the medical device manufacturer according to art.2 of the Order no.1009\/2016. Art.294 para.(5) letters c) and d) of the Fiscal Code."
         },
         {
             "memberState": "RO",
@@ -1250,244 +734,572 @@
             "cnCodes": {
                 "code": [
                     {
-                        "value": "2106 90 20",
-                        "description": "Compound alcoholic preparations, other than those based on odoriferous substances, of a kind used for the manufacture of beverages"
+                        "value": "1207 10 00",
+                        "description": "Palm nuts and kernels"
                     },
                     {
-                        "value": "2811 29 30",
-                        "description": "Nitrogen oxides"
-                    },
-                    {
-                        "value": "3001 20",
-                        "description": "Extracts of glands or other organs or of their secretions"
-                    },
-                    {
-                        "value": "3001 90 20",
-                        "description": "Of human origin"
-                    },
-                    {
-                        "value": "3001 90 91",
-                        "description": "Heparin and its salts"
-                    },
-                    {
-                        "value": "3001 90 98",
+                        "value": "1207 29 00",
                         "description": "Other"
                     },
                     {
-                        "value": "3002 12 00",
-                        "description": "Antisera and other blood fractions"
+                        "value": "1207 30 00",
+                        "description": "Castor oil seeds"
                     },
                     {
-                        "value": "3002 13 00",
-                        "description": "Immunological products, unmixed, not put up in measured doses or in forms or packings for retail sale"
-                    },
-                    {
-                        "value": "3002 14 00",
-                        "description": "Immunological products, mixed, not put up in measured doses or in forms or packings for retail sale"
-                    },
-                    {
-                        "value": "3002 15 00",
-                        "description": "Immunological products, put up in measured doses or in forms or packings for retail sale"
-                    },
-                    {
-                        "value": "3002 90 30",
-                        "description": "Animal blood prepared for therapeutic, prophylactic or diagnostic uses"
-                    },
-                    {
-                        "value": "3003",
-                        "description": "Medicaments (excluding goods of heading 3002, 3005 or 3006) consisting of two or more constituents which have been mixed together for therapeutic or prophylactic uses, not put up in measured doses or in forms or packings for retail sale"
-                    },
-                    {
-                        "value": "3004",
-                        "description": "Medicaments (excluding goods of heading 3002, 3005 or 3006) consisting of mixed or unmixed products for therapeutic or prophylactic uses, put up in measured doses (including those in the form of transdermal administration systems) or in forms or packings for retail sale"
-                    },
-                    {
-                        "value": "3005",
-                        "description": "Wadding, gauze, bandages and similar articles (for example, dressings, adhesive plasters, poultices), impregnated or coated with pharmaceutical substances or put up in forms or packings for retail sale for medical, surgical, dental or veterinary purposes"
-                    },
-                    {
-                        "value": "3006",
-                        "description": "Pharmaceutical goods specified in note 4 to this chapter"
-                    },
-                    {
-                        "value": "3305 10 00",
-                        "description": "Shampoos"
-                    },
-                    {
-                        "value": "3002 41",
-                        "description": "Vaccines for human medicine"
-                    },
-                    {
-                        "value": "3002 42 00",
-                        "description": "Vaccines for veterinary medicine"
-                    },
-                    {
-                        "value": "3002 49 00",
+                        "value": "1207 40 90",
                         "description": "Other"
                     },
                     {
-                        "value": "3002 51 00",
-                        "description": "Cell therapy products"
-                    },
-                    {
-                        "value": "3002 59 00",
+                        "value": "1207 50 90",
                         "description": "Other"
                     },
                     {
-                        "value": "3822 11 00",
-                        "description": "For malaria"
+                        "value": "1207 60 00",
+                        "description": "Safflower (Carthamus tinctorius) seeds"
                     },
                     {
-                        "value": "3822 12 00",
-                        "description": "For Zika and other diseases transmitted by mosquitoes of the genus Aedes"
-                    },
-                    {
-                        "value": "3822 13 00",
-                        "description": "For blood-grouping"
-                    },
-                    {
-                        "value": "3822 19 00",
+                        "value": "1207 91 90",
                         "description": "Other"
+                    },
+                    {
+                        "value": "1207 99 91",
+                        "description": "Hemp seeds"
+                    },
+                    {
+                        "value": "1207 99 96",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "1211",
+                        "description": "Plants and parts of plants (including seeds and fruits), of a kind used primarily in perfumery, in pharmacy or for insecticidal, fungicidal or similar purposes, fresh, chilled, frozen or dried, whether or not cut, crushed or powdered"
+                    },
+                    {
+                        "value": "1212",
+                        "description": "Locust beans, seaweeds and other algae, sugar beet and sugar cane, fresh, chilled, frozen or dried, whether or not ground; fruit stones and kernels and other vegetable products (including unroasted chicory roots of the variety Cichorium intybus sativum) of a kind used primarily for human consumption, not elsewhere specified or included"
+                    },
+                    {
+                        "value": "1301",
+                        "description": "Lac; natural gums, resins, gum-resins and oleoresins (for example, balsams)"
+                    },
+                    {
+                        "value": "1302 12 00",
+                        "description": "Of liquorice"
+                    },
+                    {
+                        "value": "1302 13 00",
+                        "description": "Of hops"
+                    },
+                    {
+                        "value": "1302 14 00",
+                        "description": "Of ephedra"
+                    },
+                    {
+                        "value": "1302 19",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "1302 20",
+                        "description": "Pectic substances, pectinates and pectates"
+                    },
+                    {
+                        "value": "1302 31 00",
+                        "description": "Agar-agar"
+                    },
+                    {
+                        "value": "1302 32",
+                        "description": "Mucilages and thickeners, whether or not modified, derived from locust beans, locust bean seeds or guar seeds"
+                    },
+                    {
+                        "value": "1302 39 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "1518 00",
+                        "description": "Animal, vegetable or microbial fats and oils and their fractions, boiled, oxidised, dehydrated, sulphurised, blown, polymerised by heat in vacuum or in inert gas or otherwise chemically modified, excluding those of heading 1516; inedible mixtures or preparations of animal, vegetable or microbial fats or oils or of fractions of different fats or oils of this chapter, not elsewhere specified or included"
+                    },
+                    {
+                        "value": "1520 00 00",
+                        "description": "Glycerol, crude; glycerol waters and glycerol lyes"
+                    },
+                    {
+                        "value": "1521",
+                        "description": "Vegetable waxes (other than triglycerides), beeswax, other insect waxes and spermaceti, whether or not refined or coloured"
+                    },
+                    {
+                        "value": "1522 00",
+                        "description": "Degras; residues resulting from the treatment of fatty substances or animal or vegetable waxes"
+                    },
+                    {
+                        "value": "2303",
+                        "description": "Residues of starch manufacture and similar residues, beet-pulp, bagasse and other waste of sugar manufacture, brewing or distilling dregs and waste, whether or not in the form of pellets"
+                    },
+                    {
+                        "value": "2307 00",
+                        "description": "Wine lees; argol"
+                    },
+                    {
+                        "value": "2501 00",
+                        "description": "Salt (including table salt and denatured salt) and pure sodium chloride, whether or not in aqueous solution or containing added anti-caking or free-flowing agents; sea water"
+                    },
+                    {
+                        "value": "2801",
+                        "description": "Fluorine, chlorine, bromine and iodine"
+                    },
+                    {
+                        "value": "2802 00 00",
+                        "description": "Sulphur, sublimed or precipitated; colloidal sulphur"
+                    },
+                    {
+                        "value": "2803 00 00",
+                        "description": "Carbon (carbon blacks and other forms of carbon not elsewhere specified or included)"
+                    },
+                    {
+                        "value": "2804",
+                        "description": "Hydrogen, rare gases and other non-metals"
+                    },
+                    {
+                        "value": "2805 11 00",
+                        "description": "Sodium"
+                    },
+                    {
+                        "value": "2805 12 00",
+                        "description": "Calcium"
+                    },
+                    {
+                        "value": "2805 19",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "2805 30",
+                        "description": "Rare-earth metals, scandium and yttrium, whether or not intermixed or interalloyed"
+                    },
+                    {
+                        "value": "2806",
+                        "description": "Hydrogen chloride (hydrochloric acid); chlorosulphuric acid"
+                    },
+                    {
+                        "value": "2807 00 00",
+                        "description": "Sulphuric acid; oleum"
+                    },
+                    {
+                        "value": "2808 00 00",
+                        "description": "Nitric acid; sulphonitric acids"
+                    },
+                    {
+                        "value": "2809",
+                        "description": "Diphosphorus pentaoxide; phosphoric acid; polyphosphoric acids, whether or not chemically defined"
+                    },
+                    {
+                        "value": "2810 00",
+                        "description": "Oxides of boron; boric acids"
+                    },
+                    {
+                        "value": "2811",
+                        "description": "Other inorganic acids and other inorganic oxygen compounds of non-metals"
+                    },
+                    {
+                        "value": "2812",
+                        "description": "Halides and halide oxides of non-metals"
+                    },
+                    {
+                        "value": "2813",
+                        "description": "Sulphides of non-metals; commercial phosphorus trisulphide"
+                    },
+                    {
+                        "value": "2814",
+                        "description": "Ammonia, anhydrous or in aqueous solution"
+                    },
+                    {
+                        "value": "2815 20 00",
+                        "description": "Potassium hydroxide (caustic potash)"
+                    },
+                    {
+                        "value": "2816",
+                        "description": "Hydroxide and peroxide of magnesium; oxides, hydroxides and peroxides, of strontium or barium"
+                    },
+                    {
+                        "value": "2817 00 00",
+                        "description": "Zinc oxide; zinc peroxide"
+                    },
+                    {
+                        "value": "2826",
+                        "description": "Fluorides; fluorosilicates, fluoroaluminates and other complex fluorine salts"
+                    },
+                    {
+                        "value": "2827",
+                        "description": "Chlorides, chloride oxides and chloride hydroxides; bromides and bromide oxides; iodides and iodide oxides"
+                    },
+                    {
+                        "value": "2829",
+                        "description": "Chlorates and perchlorates; bromates and perbromates; iodates and periodates"
+                    },
+                    {
+                        "value": "2830",
+                        "description": "Sulphides; polysulphides, whether or not chemically defined"
+                    },
+                    {
+                        "value": "2831",
+                        "description": "Dithionites and sulphoxylates"
+                    },
+                    {
+                        "value": "2832",
+                        "description": "Sulphites; thiosulphates"
+                    },
+                    {
+                        "value": "2833",
+                        "description": "Sulphates; alums; peroxosulphates (persulphates)"
+                    },
+                    {
+                        "value": "2834 10 00",
+                        "description": "Nitrites"
+                    },
+                    {
+                        "value": "2834 21 00",
+                        "description": "Of potassium"
+                    },
+                    {
+                        "value": "2835",
+                        "description": "Phosphinates (hypophosphites), phosphonates (phosphites) and phosphates; polyphosphates, whether or not chemically defined"
+                    },
+                    {
+                        "value": "2836",
+                        "description": "Carbonates; peroxocarbonates (percarbonates); commercial ammonium carbonate containing ammonium carbamate"
+                    },
+                    {
+                        "value": "2839",
+                        "description": "Silicates; commercial alkali metal silicates"
+                    },
+                    {
+                        "value": "2840",
+                        "description": "Borates; peroxoborates (perborates)"
+                    },
+                    {
+                        "value": "2841",
+                        "description": "Salts of oxometallic or peroxometallic acids"
+                    },
+                    {
+                        "value": "2842",
+                        "description": "Other salts of inorganic acids or peroxoacids (including aluminosilicates whether or not chemically defined), other than azides"
+                    },
+                    {
+                        "value": "2847 00 00",
+                        "description": "Hydrogen peroxide, whether or not solidified with urea"
+                    },
+                    {
+                        "value": "2853 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "2905 41 00",
+                        "description": "2-Ethyl-2-(hydroxymethyl)propane-1,3-diol (trimethylolpropane)"
+                    },
+                    {
+                        "value": "2905 42 00",
+                        "description": "Pentaerythritol"
+                    },
+                    {
+                        "value": "2905 43 00",
+                        "description": "Mannitol"
+                    },
+                    {
+                        "value": "2905 44",
+                        "description": "D-glucitol (sorbitol)"
+                    },
+                    {
+                        "value": "2905 45 00",
+                        "description": "Glycerol"
+                    },
+                    {
+                        "value": "2905 49 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "2905 51 00",
+                        "description": "Ethchlorvynol (INN)"
+                    },
+                    {
+                        "value": "2905 59",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "2906",
+                        "description": "Cyclic alcohols and their halogenated, sulphonated, nitrated or nitrosated derivatives"
+                    },
+                    {
+                        "value": "2907",
+                        "description": "Phenols; phenol-alcohols"
+                    },
+                    {
+                        "value": "2908",
+                        "description": "Halogenated, sulphonated, nitrated or nitrosated derivatives of phenols or phenol-alcohols"
+                    },
+                    {
+                        "value": "2911 00 00",
+                        "description": "Acetals and hemiacetals, whether or not with other oxygen function, and their halogenated, sulphonated, nitrated or nitrosated derivatives"
+                    },
+                    {
+                        "value": "2912",
+                        "description": "Aldehydes, whether or not with other oxygen function; cyclic polymers of aldehydes; paraformaldehyde"
+                    },
+                    {
+                        "value": "2913 00 00",
+                        "description": "Halogenated, sulphonated, nitrated or nitrosated derivatives of products of heading 2912"
+                    },
+                    {
+                        "value": "2914",
+                        "description": "Ketones and quinones, whether or not with other oxygen function, and their halogenated, sulphonated, nitrated or nitrosated derivatives"
+                    },
+                    {
+                        "value": "2915",
+                        "description": "Saturated acyclic monocarboxylic acids and their anhydrides, halides, peroxides and peroxyacids; their halogenated, sulphonated, nitrated or nitrosated derivatives"
+                    },
+                    {
+                        "value": "2916",
+                        "description": "Unsaturated acyclic monocarboxylic acids, cyclic monocarboxylic acids, their anhydrides, halides, peroxides and peroxyacids; their halogenated, sulphonated, nitrated or nitrosated derivatives"
+                    },
+                    {
+                        "value": "2917",
+                        "description": "Polycarboxylic acids, their anhydrides, halides, peroxides and peroxyacids; their halogenated, sulphonated, nitrated or nitrosated derivatives"
+                    },
+                    {
+                        "value": "2918",
+                        "description": "Carboxylic acids with additional oxygen function and their anhydrides, halides, peroxides and peroxyacids; their halogenated, sulphonated, nitrated or nitrosated derivatives"
+                    },
+                    {
+                        "value": "2919",
+                        "description": "Phosphoric esters and their salts, including lactophosphates; their halogenated, sulphonated, nitrated or nitrosated derivatives"
+                    },
+                    {
+                        "value": "2920",
+                        "description": "Esters of other inorganic acids of non-metals (excluding esters of hydrogen halides) and their salts; their halogenated, sulphonated, nitrated or nitrosated derivatives"
+                    },
+                    {
+                        "value": "2921",
+                        "description": "Amine-function compounds"
+                    },
+                    {
+                        "value": "2922",
+                        "description": "Oxygen-function amino-compounds"
+                    },
+                    {
+                        "value": "2923",
+                        "description": "Quaternary ammonium salts and hydroxides; lecithins and other phosphoaminolipids, whether or not chemically defined"
+                    },
+                    {
+                        "value": "2924",
+                        "description": "Carboxyamide-function compounds; amide-function compounds of carbonic acid"
+                    },
+                    {
+                        "value": "2925",
+                        "description": "Carboxyimide-function compounds (including saccharin and its salts) and imine-function compounds"
+                    },
+                    {
+                        "value": "2926",
+                        "description": "Nitrile-function compounds"
+                    },
+                    {
+                        "value": "2927 00 00",
+                        "description": "Diazo-, azo- or azoxy-compounds"
+                    },
+                    {
+                        "value": "2928 00",
+                        "description": "Organic derivatives of hydrazine or of hydroxylamine"
+                    },
+                    {
+                        "value": "2929",
+                        "description": "Compounds with other nitrogen function"
+                    },
+                    {
+                        "value": "2930",
+                        "description": "Organo-sulphur compounds"
+                    },
+                    {
+                        "value": "2931",
+                        "description": "Other organo-inorganic compounds"
+                    },
+                    {
+                        "value": "2932",
+                        "description": "Heterocyclic compounds with oxygen hetero-atom(s) only"
+                    },
+                    {
+                        "value": "2933",
+                        "description": "Heterocyclic compounds with nitrogen hetero-atom(s) only"
+                    },
+                    {
+                        "value": "2934",
+                        "description": "Nucleic acids and their salts, whether or not chemically defined; other heterocyclic compounds"
+                    },
+                    {
+                        "value": "2935",
+                        "description": "Sulphonamides"
+                    },
+                    {
+                        "value": "2936",
+                        "description": "Provitamins and vitamins, natural or reproduced by synthesis (including natural concentrates), derivatives thereof used primarily as vitamins, and intermixtures of the foregoing, whether or not in any solvent"
+                    },
+                    {
+                        "value": "2937",
+                        "description": "Hormones, prostaglandins, thromboxanes and leukotrienes, natural or reproduced by synthesis; derivatives and structural analogues thereof, including chain modified polypeptides, used primarily as hormones"
+                    },
+                    {
+                        "value": "2938",
+                        "description": "Glycosides, natural or reproduced by synthesis, and their salts, ethers, esters and other derivatives"
+                    },
+                    {
+                        "value": "2939",
+                        "description": "Alkaloids, natural or reproduced by synthesis, and their salts, ethers, esters and other derivatives"
+                    },
+                    {
+                        "value": "2940 00 00",
+                        "description": "Sugars, chemically pure, other than sucrose, lactose, maltose, glucose and fructose; sugar ethers, sugar acetals and sugar esters, and their salts, other than products of heading 2937, 2938 or 2939"
+                    },
+                    {
+                        "value": "2941",
+                        "description": "Antibiotics"
+                    },
+                    {
+                        "value": "2942 00 00",
+                        "description": "Other organic compounds"
+                    },
+                    {
+                        "value": "3203 00",
+                        "description": "Colouring matter of vegetable or animal origin (including dyeing extracts but excluding animal black), whether or not chemically defined; preparations as specified in note 3 to this chapter based on colouring matter of vegetable or animal origin"
+                    },
+                    {
+                        "value": "3204",
+                        "description": "Synthetic organic colouring matter, whether or not chemically defined; preparations as specified in note 3 to this chapter based on synthetic organic colouring matter; synthetic organic products of a kind used as fluorescent brightening agents or as luminophores, whether or not chemically defined"
+                    },
+                    {
+                        "value": "3301",
+                        "description": "Essential oils (terpeneless or not), including concretes and absolutes; resinoids; extracted oleoresins; concentrates of essential oils in fats, in fixed oils, in waxes or the like, obtained by enfleurage or maceration; terpenic by-products of the deterpenation of essential oils; aqueous distillates and aqueous solutions of essential oils"
+                    },
+                    {
+                        "value": "3302 10",
+                        "description": "Of a kind used in the food or drink industries"
+                    },
+                    {
+                        "value": "3501",
+                        "description": "Casein, caseinates and other casein derivatives; casein glues"
+                    },
+                    {
+                        "value": "3502",
+                        "description": "Albumins (including concentrates of two or more whey proteins, containing by weight more than 80 % whey proteins, calculated on the dry matter), albuminates and other albumin derivatives"
+                    },
+                    {
+                        "value": "3503 00",
+                        "description": "Gelatin (including gelatin in rectangular (including square) sheets, whether or not surface-worked or coloured) and gelatin derivatives; isinglass; other glues of animal origin, excluding casein glues of heading 3501"
+                    },
+                    {
+                        "value": "3504 00",
+                        "description": "Peptones and their derivatives; other protein substances and their derivatives, not elsewhere specified or included; hide powder, whether or not chromed"
+                    },
+                    {
+                        "value": "3505",
+                        "description": "Dextrins and other modified starches (for example, pregelatinised or esterified starches); glues based on starches, or on dextrins or other modified starches"
+                    },
+                    {
+                        "value": "3507",
+                        "description": "Enzymes; prepared enzymes not elsewhere specified or included"
+                    },
+                    {
+                        "value": "3823",
+                        "description": "Industrial monocarboxylic fatty acids; acid oils from refining; industrial fatty alcohols"
+                    },
+                    {
+                        "value": "3824 60",
+                        "description": "Sorbitol other than that of subheading 290544"
+                    },
+                    {
+                        "value": "3824 84 00",
+                        "description": "Containing aldrin (ISO), camphechlor (ISO) (toxaphene), chlordane (ISO), chlordecone (ISO), DDT (ISO) (clofenotane (INN), 1,1,1-trichloro-2,2-bis(p-chlorophenyl)ethane), dieldrin (ISO, INN), endosulfan (ISO), endrin (ISO), heptachlor (ISO) or mirex (ISO)"
+                    },
+                    {
+                        "value": "3824 85 00",
+                        "description": "Containing 1,2,3,4,5,6-hexachlorocyclohexane (HCH (ISO)), including lindane (ISO, INN)"
+                    },
+                    {
+                        "value": "3824 86 00",
+                        "description": "Containing pentachlorobenzene (ISO) or hexachlorobenzene (ISO)"
+                    },
+                    {
+                        "value": "3824 87 00",
+                        "description": "Containing perfluorooctane sulphonic acid, its salts, perfluorooctane sulphonamides, or perfluorooctane sulphonyl fluoride"
+                    },
+                    {
+                        "value": "3824 88 00",
+                        "description": "Containing tetra-, penta-, hexa-, hepta- or octabromodiphenyl ethers"
+                    },
+                    {
+                        "value": "3824 99 25",
+                        "description": "Pyrolignites (for example, of calcium); crude calcium tartrate; crude calcium citrate"
+                    },
+                    {
+                        "value": "3824 99 55",
+                        "description": "Mixtures of mono-, di- and tri-, fatty acid esters of glycerol (emulsifiers for fats)"
+                    },
+                    {
+                        "value": "3824 99 62",
+                        "description": "Intermediate products from the manufacture of monensin salts"
+                    },
+                    {
+                        "value": "3824 99 64",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "3824 99 80",
+                        "description": "Mixture of amines derived from dimerised fatty acids, of an average molecular weight of 520 or more but not exceeding 550"
+                    },
+                    {
+                        "value": "3824 99 92",
+                        "description": "In the form of a liquid at 20 °C"
+                    },
+                    {
+                        "value": "3824 99 93",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "3824 99 96",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "3912 31 00",
+                        "description": "Carboxymethylcellulose and its salts"
+                    },
+                    {
+                        "value": "3913 10 00",
+                        "description": "Alginic acid, its salts and esters"
+                    },
+                    {
+                        "value": "3917 10",
+                        "description": "Artificial guts (sausage casings) of hardened protein or of cellulosic materials"
+                    },
+                    {
+                        "value": "4706 91 00",
+                        "description": "Mechanical"
+                    },
+                    {
+                        "value": "2909 60 10",
+                        "description": "Acetals and hemiacetals peroxides"
+                    },
+                    {
+                        "value": "3402 42 00",
+                        "description": "Non-ionic"
+                    },
+                    {
+                        "value": "3824 89 00",
+                        "description": "Containing short-chain chlorinated paraffins"
+                    },
+                    {
+                        "value": "3824 92 00",
+                        "description": "Polyglycol esters of methylphosphonic acid"
                     }
                 ]
             },
             "category": {
-                "identifier": "PHARMACEUTICAL_PRODUCTS",
-                "description": "Pharmaceutical products used for medical and veterinary purposes, including products used for contraception and female sanitary protection, and absorbent hygiene products"
+                "identifier": "FOODSTUFFS",
+                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
             },
-            "comment": "The reduced TVA rate is applied for the supply of medicines for human and veterinary use. See art. 291 para. (2) letter c) of the Fiscal Code."
-        },
-        {
-            "memberState": "RO",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 9
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "3102",
-                        "description": "Mineral or chemical fertilisers, nitrogenous"
-                    },
-                    {
-                        "value": "3103",
-                        "description": "Mineral or chemical fertilisers, phosphatic"
-                    },
-                    {
-                        "value": "3104",
-                        "description": "Mineral or chemical fertilisers, potassic"
-                    },
-                    {
-                        "value": "3105 90 80",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "3808 52 00",
-                        "description": "DDT (ISO) (clofenotane (INN)), in packings of a net weight content not exceeding 300 g"
-                    },
-                    {
-                        "value": "3808 59 00",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "3808 61 00",
-                        "description": "In packings of a net weight content not exceeding 300 g"
-                    },
-                    {
-                        "value": "3808 62 00",
-                        "description": "In packings of a net weight content exceeding 300 g but not exceeding 7,5 kg"
-                    },
-                    {
-                        "value": "3808 69 00",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "3808 91",
-                        "description": "Insecticides"
-                    },
-                    {
-                        "value": "3808 92",
-                        "description": "Fungicides"
-                    },
-                    {
-                        "value": "3808 93",
-                        "description": "Herbicides, anti-sprouting products and plant-growth regulators"
-                    },
-                    {
-                        "value": "3808 99 10",
-                        "description": "Rodenticides"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "AGRICULTURAL_PRODUCTION",
-                "description": "Supply of goods and services of a kind normally intended for use in agricultural production but excluding capital goods such as machinery or buildings and, until 1 January 2032, supply of chemical pesticides and chemical fertilisers"
-            },
-            "comment": "The reduced VAT rate shall be applied for the supply of chemical fertilizers and chemical pesticides used in agriculture, corresponding to the CN codes mentioned below. For details see art. 291 para. (2) letter l) of the Fiscal Code and art. 1 para. (2) of the Order no. 4634\/2022. The provisions shall apply until 31st of December 2031."
-        },
-        {
-            "memberState": "RO",
-            "type": "REDUCED",
-            "rate": {
-                "type": "EXEMPTED",
-                "value": 0
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "8713",
-                        "description": "Carriages for disabled persons, whether or not motorised or otherwise mechanically propelled"
-                    },
-                    {
-                        "value": "8714 20 00",
-                        "description": "Of carriages for disabled persons"
-                    },
-                    {
-                        "value": "9021 10 10",
-                        "description": "Orthopaedic appliances"
-                    },
-                    {
-                        "value": "9021 10 90",
-                        "description": "Splints and other fracture appliances"
-                    },
-                    {
-                        "value": "9021 21",
-                        "description": "Artificial teeth"
-                    },
-                    {
-                        "value": "9021 29 00",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "9021 31 00",
-                        "description": "Artificial joints"
-                    },
-                    {
-                        "value": "9021 39",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "9021 40 00",
-                        "description": "Hearing aids, excluding parts and accessories"
-                    },
-                    {
-                        "value": "9021 50 00",
-                        "description": "Pacemakers for stimulating heart muscles, excluding parts and accessories"
-                    },
-                    {
-                        "value": "9021 90",
-                        "description": "Other"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "MEDICAL_EQUIPMENT",
-                "description": "Medical equipment, appliances, devices, items, aids and protective gear, including health protection masks, normally intended for use in health care or for the use of the disabled, goods essential to compensate and overcome disability, as well as the adaptation, repair, rental and leasing of such goods"
-            },
-            "comment": "Supply of prostheses and their accessories, with the exception of dental prostheses exempt from tax under art.292 para.(1) lett.(b) and supply of orthopedic products. When those goods are imported from a third territory or a third country, the reduced VAT rate is conditioned by submission of the Customs Notice for medical devices or the Declaration of conformity of the medical device manufacturer according to art.2 of the Order no.1009\/2016. Art.294 para.(5) letters c) and d) of the Fiscal Code."
+            "comment": "The reduced rate is applied only if the supplier can prove that the goods, except foods with added sugar, whose total sugar content is at least 10g\/100g product, are used for the preparation or to supplement or replace food for human or animal consumption. When those goods are imported from a third territory or a third country, the application of the reduced rate is conditioned by the submission of the Commitment Declaration regarding the destination of the goods. Point 37 para.(5)-(9) of Norms."
         },
         {
             "memberState": "RO",
@@ -1722,6 +1534,124 @@
             "type": "REDUCED",
             "rate": {
                 "type": "REDUCED_RATE",
+                "value": 9
+            },
+            "situationOn": "2024-07-01+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "2106 90 20",
+                        "description": "Compound alcoholic preparations, other than those based on odoriferous substances, of a kind used for the manufacture of beverages"
+                    },
+                    {
+                        "value": "2811 29 30",
+                        "description": "Nitrogen oxides"
+                    },
+                    {
+                        "value": "3001 20",
+                        "description": "Extracts of glands or other organs or of their secretions"
+                    },
+                    {
+                        "value": "3001 90 20",
+                        "description": "Of human origin"
+                    },
+                    {
+                        "value": "3001 90 91",
+                        "description": "Heparin and its salts"
+                    },
+                    {
+                        "value": "3001 90 98",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "3002 12 00",
+                        "description": "Antisera and other blood fractions"
+                    },
+                    {
+                        "value": "3002 13 00",
+                        "description": "Immunological products, unmixed, not put up in measured doses or in forms or packings for retail sale"
+                    },
+                    {
+                        "value": "3002 14 00",
+                        "description": "Immunological products, mixed, not put up in measured doses or in forms or packings for retail sale"
+                    },
+                    {
+                        "value": "3002 15 00",
+                        "description": "Immunological products, put up in measured doses or in forms or packings for retail sale"
+                    },
+                    {
+                        "value": "3002 90 30",
+                        "description": "Animal blood prepared for therapeutic, prophylactic or diagnostic uses"
+                    },
+                    {
+                        "value": "3003",
+                        "description": "Medicaments (excluding goods of heading 3002, 3005 or 3006) consisting of two or more constituents which have been mixed together for therapeutic or prophylactic uses, not put up in measured doses or in forms or packings for retail sale"
+                    },
+                    {
+                        "value": "3004",
+                        "description": "Medicaments (excluding goods of heading 3002, 3005 or 3006) consisting of mixed or unmixed products for therapeutic or prophylactic uses, put up in measured doses (including those in the form of transdermal administration systems) or in forms or packings for retail sale"
+                    },
+                    {
+                        "value": "3005",
+                        "description": "Wadding, gauze, bandages and similar articles (for example, dressings, adhesive plasters, poultices), impregnated or coated with pharmaceutical substances or put up in forms or packings for retail sale for medical, surgical, dental or veterinary purposes"
+                    },
+                    {
+                        "value": "3006",
+                        "description": "Pharmaceutical goods specified in note 4 to this chapter"
+                    },
+                    {
+                        "value": "3305 10 00",
+                        "description": "Shampoos"
+                    },
+                    {
+                        "value": "3002 41",
+                        "description": "Vaccines for human medicine"
+                    },
+                    {
+                        "value": "3002 42 00",
+                        "description": "Vaccines for veterinary medicine"
+                    },
+                    {
+                        "value": "3002 49 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "3002 51 00",
+                        "description": "Cell therapy products"
+                    },
+                    {
+                        "value": "3002 59 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "3822 11 00",
+                        "description": "For malaria"
+                    },
+                    {
+                        "value": "3822 12 00",
+                        "description": "For Zika and other diseases transmitted by mosquitoes of the genus Aedes"
+                    },
+                    {
+                        "value": "3822 13 00",
+                        "description": "For blood-grouping"
+                    },
+                    {
+                        "value": "3822 19 00",
+                        "description": "Other"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "PHARMACEUTICAL_PRODUCTS",
+                "description": "Pharmaceutical products used for medical and veterinary purposes, including products used for contraception and female sanitary protection, and absorbent hygiene products"
+            },
+            "comment": "The reduced TVA rate is applied for the supply of medicines for human and veterinary use. See art. 291 para. (2) letter c) of the Fiscal Code."
+        },
+        {
+            "memberState": "RO",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
                 "value": 5
             },
             "situationOn": "2024-07-01+02:00",
@@ -1772,6 +1702,76 @@
                 "description": "Admission to shows, theatres, circuses, fairs, amusement parks, concerts, museums, zoos, cinemas, exhibitions and similar cultural events and facilities or access to the live-streaming of those events or visits or both"
             },
             "comment": "The reduced VAT rate is applied for the services consisting in allowing access to castles, museums, memorial houses, historical monuments, architectural and archaeological monuments, zoological and botanical gardens. See art. 291 para. (3) letter b) of the Fiscal Code."
+        },
+        {
+            "memberState": "RO",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 9
+            },
+            "situationOn": "2024-07-01+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "3102",
+                        "description": "Mineral or chemical fertilisers, nitrogenous"
+                    },
+                    {
+                        "value": "3103",
+                        "description": "Mineral or chemical fertilisers, phosphatic"
+                    },
+                    {
+                        "value": "3104",
+                        "description": "Mineral or chemical fertilisers, potassic"
+                    },
+                    {
+                        "value": "3105 90 80",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "3808 52 00",
+                        "description": "DDT (ISO) (clofenotane (INN)), in packings of a net weight content not exceeding 300 g"
+                    },
+                    {
+                        "value": "3808 59 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "3808 61 00",
+                        "description": "In packings of a net weight content not exceeding 300 g"
+                    },
+                    {
+                        "value": "3808 62 00",
+                        "description": "In packings of a net weight content exceeding 300 g but not exceeding 7,5 kg"
+                    },
+                    {
+                        "value": "3808 69 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "3808 91",
+                        "description": "Insecticides"
+                    },
+                    {
+                        "value": "3808 92",
+                        "description": "Fungicides"
+                    },
+                    {
+                        "value": "3808 93",
+                        "description": "Herbicides, anti-sprouting products and plant-growth regulators"
+                    },
+                    {
+                        "value": "3808 99 10",
+                        "description": "Rodenticides"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "AGRICULTURAL_PRODUCTION",
+                "description": "Supply of goods and services of a kind normally intended for use in agricultural production but excluding capital goods such as machinery or buildings and, until 1 January 2032, supply of chemical pesticides and chemical fertilisers"
+            },
+            "comment": "The reduced VAT rate shall be applied for the supply of chemical fertilizers and chemical pesticides used in agriculture, corresponding to the CN codes mentioned below. For details see art. 291 para. (2) letter l) of the Fiscal Code and art. 1 para. (2) of the Order no. 4634\/2022. The provisions shall apply until 31st of December 2031."
         },
         {
             "memberState": "RO",
@@ -2118,6 +2118,26 @@
             },
             "situationOn": "2024-07-01+02:00",
             "cpaCodes": {
+                "code": {
+                    "value": "43.99.90",
+                    "description": "Specialised construction works n.e.c."
+                }
+            },
+            "category": {
+                "identifier": "AGRICULTURAL_PRODUCTION",
+                "description": "Supply of goods and services of a kind normally intended for use in agricultural production but excluding capital goods such as machinery or buildings and, until 1 January 2032, supply of chemical pesticides and chemical fertilisers"
+            },
+            "comment": "The reduced rate shall be applied for Operations for installing protected spaces, respectively greenhouses and\/or solariums; Installation of hail and rain protection systems in vineyards and orchards. For details see art. 291 para. (2) letter h) of the Fiscal Code and points 26 and 39 of the Annex to the Order no. 4634\/2022."
+        },
+        {
+            "memberState": "RO",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 9
+            },
+            "situationOn": "2024-07-01+02:00",
+            "cpaCodes": {
                 "code": [
                     {
                         "value": "55.10.10",
@@ -2150,26 +2170,6 @@
                 "description": "Accommodation provided in hotels and similar establishments, including the provision of holiday accommodation and the letting of places on camping or caravan sites"
             },
             "comment": "The reduced VAT rate is applied for accommodation in the hotel sector or sectors with similar function, including renting of camping sites. For details see art. 291 para. (2) letter j) of the Fiscal Code corroborated with point 37 para. (14) of the Methodological Norms."
-        },
-        {
-            "memberState": "RO",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 9
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cpaCodes": {
-                "code": {
-                    "value": "43.99.90",
-                    "description": "Specialised construction works n.e.c."
-                }
-            },
-            "category": {
-                "identifier": "AGRICULTURAL_PRODUCTION",
-                "description": "Supply of goods and services of a kind normally intended for use in agricultural production but excluding capital goods such as machinery or buildings and, until 1 January 2032, supply of chemical pesticides and chemical fertilisers"
-            },
-            "comment": "The reduced rate shall be applied for Operations for installing protected spaces, respectively greenhouses and\/or solariums; Installation of hail and rain protection systems in vineyards and orchards. For details see art. 291 para. (2) letter h) of the Fiscal Code and points 26 and 39 of the Annex to the Order no. 4634\/2022."
         },
         {
             "memberState": "RO",
