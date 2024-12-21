@@ -3,6 +3,16 @@
     "vatRateResults": [
         {
             "memberState": "IE",
+            "type": "STANDARD",
+            "rate": {
+                "type": "DEFAULT",
+                "value": 23
+            },
+            "situationOn": "2024-07-01+02:00",
+            "comment": "<p>The Standard Rate of VAT was temporarily reduced from 23% to 21% from 1 September 2020 to 28 February 2021. It has been restored to 23% from 1 March 2021.<\/p>"
+        },
+        {
+            "memberState": "IE",
             "type": "REDUCED",
             "rate": {
                 "type": "EXEMPTED",
@@ -878,16 +888,6 @@
                 "description": "Supply of services provided in connection with sewage, street cleaning, refuse collection and waste treatment or waste recycling, other than the supply of such services by bodies referred to in Article 13"
             },
             "comment": "Street cleaning and refuse collecting apply at the 13.5% rate, waste treatment is at the standard VAT rate of 23%."
-        },
-        {
-            "memberState": "IE",
-            "type": "STANDARD",
-            "rate": {
-                "type": "DEFAULT",
-                "value": 23
-            },
-            "situationOn": "2024-07-01+02:00",
-            "comment": "<p>The Standard Rate of VAT was temporarily reduced from 23% to 21% from 1 September 2020 to 28 February 2021. It has been restored to 23% from 1 March 2021.<\/p>"
         }
     ]
 }

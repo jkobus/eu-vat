@@ -713,46 +713,6 @@
             "memberState": "DE",
             "type": "REDUCED",
             "rate": {
-                "type": "REDUCED_RATE",
-                "value": 7
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cnCodes": {
-                "code": {
-                    "value": "2201 90 00",
-                    "description": "Other"
-                }
-            },
-            "category": {
-                "identifier": "SUPPLY_WATER",
-                "description": "Supply of water"
-            },
-            "comment": "No reduced rate for bottled water, healing water and steam"
-        },
-        {
-            "memberState": "DE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 7
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cnCodes": {
-                "code": {
-                    "value": "2201 90 00",
-                    "description": "Other"
-                }
-            },
-            "category": {
-                "identifier": "SUPPLY_WATER",
-                "description": "Supply of water"
-            },
-            "comment": "VAT - Import - No reduced rate for bottled water, healing water and steam"
-        },
-        {
-            "memberState": "DE",
-            "type": "REDUCED",
-            "rate": {
                 "type": "EXEMPTED",
                 "value": 0
             },
@@ -848,6 +808,46 @@
                 "description": "Live plants and other floricultural products, including bulbs, cotton, roots and the like, cut flowers and ornamental foliage"
             },
             "comment": "Annex 2 of the German VAT Act contains a list of goods falling under the reduced rate of 7% such as live plants, bulbs, roots and so on (https:\/\/usth.bundesfinanzministerium.de\/usth\/2019-2020\/A-Umsatzsteuergesetz\/IV-Steuer-und-Vorsteuer\/Paragraf-12\/inhalt.html). For legal certainty please have a look at the German VAT Act."
+        },
+        {
+            "memberState": "DE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 7
+            },
+            "situationOn": "2024-07-01+02:00",
+            "cnCodes": {
+                "code": {
+                    "value": "2201 90 00",
+                    "description": "Other"
+                }
+            },
+            "category": {
+                "identifier": "SUPPLY_WATER",
+                "description": "Supply of water"
+            },
+            "comment": "No reduced rate for bottled water, healing water and steam"
+        },
+        {
+            "memberState": "DE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 7
+            },
+            "situationOn": "2024-07-01+02:00",
+            "cnCodes": {
+                "code": {
+                    "value": "2201 90 00",
+                    "description": "Other"
+                }
+            },
+            "category": {
+                "identifier": "SUPPLY_WATER",
+                "description": "Supply of water"
+            },
+            "comment": "VAT - Import - No reduced rate for bottled water, healing water and steam"
         },
         {
             "memberState": "DE",
@@ -1193,6 +1193,25 @@
         },
         {
             "memberState": "DE",
+            "type": "STANDARD",
+            "rate": {
+                "type": "DEFAULT",
+                "value": 19
+            },
+            "situationOn": "2024-07-01+02:00",
+            "comment": "VAT - Import - "
+        },
+        {
+            "memberState": "DE",
+            "type": "STANDARD",
+            "rate": {
+                "type": "DEFAULT",
+                "value": 19
+            },
+            "situationOn": "2024-07-01+02:00"
+        },
+        {
+            "memberState": "DE",
             "type": "REDUCED",
             "rate": {
                 "type": "REDUCED_RATE",
@@ -1422,25 +1441,6 @@
                 "description": "Supply of goods and services by organisations engaged in welfare or social security work as defined by Member States and recognised as being devoted to social wellbeing by Member States, in so far as those transactions are not exempt pursuant to Articles 132, 135 and 136"
             },
             "comment": "VAT - Import - Reduced rate only applicable to supplies of goods and services of organisations pursuing non-profit making, charitable or ecclesiastical purposes. VAT reduction not applicable to supply of goods or services to be made within the context of a profitable Business."
-        },
-        {
-            "memberState": "DE",
-            "type": "STANDARD",
-            "rate": {
-                "type": "DEFAULT",
-                "value": 19
-            },
-            "situationOn": "2024-07-01+02:00",
-            "comment": "VAT - Import - "
-        },
-        {
-            "memberState": "DE",
-            "type": "STANDARD",
-            "rate": {
-                "type": "DEFAULT",
-                "value": 19
-            },
-            "situationOn": "2024-07-01+02:00"
         }
     ]
 }

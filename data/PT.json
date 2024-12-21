@@ -847,15 +847,21 @@
             "memberState": "PT",
             "type": "REDUCED",
             "rate": {
-                "type": "PARKING_RATE",
-                "value": 13
+                "type": "REDUCED_RATE",
+                "value": 6
             },
             "situationOn": "2024-07-01+02:00",
-            "category": {
-                "identifier": "NEW_PARKING_RATE",
-                "description": "Parking rates (Article 105a(3) of the VAT Directive)"
+            "cnCodes": {
+                "code": {
+                    "value": "2201",
+                    "description": "Waters, including natural or artificial mineral waters and aerated waters, not containing added sugar or other sweetening matter nor flavoured; ice and snow"
+                }
             },
-            "comment": "The parking rate of 13% applies to: 1. Wine, with the exclusion of “special wines” as fortified wines, liqueur wines or sparkling wines. 2. Agricultural tools and utensils, mobile silos, tractors, pumps and other machinery designed exclusively or mainly for the purpose of agriculture, cattle breeding or forestry. 3. Diesel for agriculture."
+            "category": {
+                "identifier": "SUPPLY_WATER",
+                "description": "Supply of water"
+            },
+            "comment": "Supply of bottled water is also taxed at 13%. Portuguese VAT law does not depend of CN or CPA codes to apply reduced taxes rates. For this reason, the following codes are approximate and not legally binding. For sake of certainty, reference should be made to the Portuguese VAT law (decree law n.º 394-B\/1984, of December 28)"
         },
         {
             "memberState": "PT",
@@ -1162,26 +1168,6 @@
                 "description": "Supply of goods and services of a kind normally intended for use in agricultural production but excluding capital goods such as machinery or buildings and, until 1 January 2032, supply of chemical pesticides and chemical fertilisers"
             },
             "comment": "Portuguese VAT law does not depend of CN or CPA codes to apply reduced taxes rates. For this reason, the following codes are approximate and not legally binding. For sake of certainty, reference should be made to the Portuguese VAT law (decree law n.º 394-B\/1984, of December 28)\nSome products are taxed at 13%. \nThe tax rate on animals applies only to live stock, agricultural labor and reproductive."
-        },
-        {
-            "memberState": "PT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 6
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cnCodes": {
-                "code": {
-                    "value": "2201",
-                    "description": "Waters, including natural or artificial mineral waters and aerated waters, not containing added sugar or other sweetening matter nor flavoured; ice and snow"
-                }
-            },
-            "category": {
-                "identifier": "SUPPLY_WATER",
-                "description": "Supply of water"
-            },
-            "comment": "Supply of bottled water is also taxed at 13%. Portuguese VAT law does not depend of CN or CPA codes to apply reduced taxes rates. For this reason, the following codes are approximate and not legally binding. For sake of certainty, reference should be made to the Portuguese VAT law (decree law n.º 394-B\/1984, of December 28)"
         },
         {
             "memberState": "PT",
@@ -1500,6 +1486,20 @@
                 "description": "Enamels on copper, executed entirely by hand, limited to eight numbered copies bearing the signature of the artist or the studio, excluding articles of jewellery and goldsmith’s and silversmith’s wares"
             },
             "comment": "Portuguese VAT law does not depend of CN or CPA codes to apply reduced taxes rates. For this reason, the following codes are approximate and not legally binding. For sake of certainty, reference should be made to the Portuguese VAT law (decree law n.º 394-B\/1984, of December 28)"
+        },
+        {
+            "memberState": "PT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "PARKING_RATE",
+                "value": 13
+            },
+            "situationOn": "2024-07-01+02:00",
+            "category": {
+                "identifier": "NEW_PARKING_RATE",
+                "description": "Parking rates (Article 105a(3) of the VAT Directive)"
+            },
+            "comment": "The parking rate of 13% applies to: 1. Wine, with the exclusion of “special wines” as fortified wines, liqueur wines or sparkling wines. 2. Agricultural tools and utensils, mobile silos, tractors, pumps and other machinery designed exclusively or mainly for the purpose of agriculture, cattle breeding or forestry. 3. Diesel for agriculture."
         },
         {
             "memberState": "PT",
