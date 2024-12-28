@@ -3,6 +3,51 @@
     "vatRateResults": [
         {
             "memberState": "IE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 13.5
+            },
+            "situationOn": "2024-07-01+02:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "81.21.10",
+                        "description": "General cleaning services of buildings"
+                    },
+                    {
+                        "value": "81.22.11",
+                        "description": "Window cleaning services"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "WINDOW_CLEANING",
+                "description": "Window cleaning and cleaning in private households"
+            }
+        },
+        {
+            "memberState": "IE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 13.5
+            },
+            "situationOn": "2024-07-01+02:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "84.12.13",
+                    "description": "Administrative housing and community amenity services"
+                }
+            },
+            "category": {
+                "identifier": "STREET_CLEANING",
+                "description": "Supply of services provided in connection with sewage, street cleaning, refuse collection and waste treatment or waste recycling, other than the supply of such services by bodies referred to in Article 13"
+            },
+            "comment": "Street cleaning and refuse collecting apply at the 13.5% rate, waste treatment is at the standard VAT rate of 23%."
+        },
+        {
+            "memberState": "IE",
             "type": "STANDARD",
             "rate": {
                 "type": "DEFAULT",
@@ -843,51 +888,6 @@
                 "identifier": "PRIVATE_DWELLINGS",
                 "description": "The renovation and repairing of public and other buildings used for activities in the public interest"
             }
-        },
-        {
-            "memberState": "IE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 13.5
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "81.21.10",
-                        "description": "General cleaning services of buildings"
-                    },
-                    {
-                        "value": "81.22.11",
-                        "description": "Window cleaning services"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "WINDOW_CLEANING",
-                "description": "Window cleaning and cleaning in private households"
-            }
-        },
-        {
-            "memberState": "IE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 13.5
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cpaCodes": {
-                "code": {
-                    "value": "84.12.13",
-                    "description": "Administrative housing and community amenity services"
-                }
-            },
-            "category": {
-                "identifier": "STREET_CLEANING",
-                "description": "Supply of services provided in connection with sewage, street cleaning, refuse collection and waste treatment or waste recycling, other than the supply of such services by bodies referred to in Article 13"
-            },
-            "comment": "Street cleaning and refuse collecting apply at the 13.5% rate, waste treatment is at the standard VAT rate of 23%."
         }
     ]
 }
