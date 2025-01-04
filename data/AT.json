@@ -8,7 +8,7 @@
                 "type": "REDUCED_RATE",
                 "value": 10
             },
-            "situationOn": "2024-07-01+02:00",
+            "situationOn": "2025-01-01+01:00",
             "cnCodes": {
                 "code": [
                     {
@@ -631,41 +631,20 @@
             "memberState": "AT",
             "type": "REDUCED",
             "rate": {
-                "type": "EXEMPTED",
-                "value": 0
+                "type": "REDUCED_RATE",
+                "value": 10
             },
-            "situationOn": "2024-07-01+02:00",
+            "situationOn": "2025-01-01+01:00",
             "cnCodes": {
-                "code": [
-                    {
-                        "value": "4818 90 10",
-                        "description": "Articles of a kind used for surgical, medical or hygienic purposes, not put up for retail sale"
-                    },
-                    {
-                        "value": "4818 90 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "6307 90 10",
-                        "description": "Knitted or crocheted"
-                    },
-                    {
-                        "value": "6307 90 98",
-                        "description": "Other"
-                    }
-                ]
-            },
-            "cpaCodes": {
                 "code": {
-                    "value": "21.20.1",
-                    "description": "Medicaments"
+                    "value": "2201 90 00",
+                    "description": "Other"
                 }
             },
             "category": {
-                "identifier": "PHARMACEUTICAL_PRODUCTS",
-                "description": "Pharmaceutical products used for medical and veterinary purposes, including products used for contraception and female sanitary protection, and absorbent hygiene products"
-            },
-            "comment": "application of temporary Zero tax rate for face masks til 30 June 2023"
+                "identifier": "SUPPLY_WATER",
+                "description": "Supply of water"
+            }
         },
         {
             "memberState": "AT",
@@ -674,7 +653,7 @@
                 "type": "EXEMPTED",
                 "value": 0
             },
-            "situationOn": "2024-07-01+02:00",
+            "situationOn": "2025-01-01+01:00",
             "cnCodes": {
                 "code": {
                     "value": "8541",
@@ -694,7 +673,7 @@
                 "type": "EXEMPTED",
                 "value": 0
             },
-            "situationOn": "2024-07-01+02:00",
+            "situationOn": "2025-01-01+01:00",
             "cpaCodes": {
                 "code": {
                     "value": "49.3",
@@ -703,7 +682,7 @@
             },
             "category": {
                 "identifier": "TRANSPORT_PASSENGERS",
-                "description": "Transport of passengers and the transport of goods accompanying them, such as luggage, bicycles, including electric bicycles, motor or other vehicles, or the supply of services relating to the transport of passengers"
+                "description": "Transport of passengers and their accompanying luggage"
             },
             "comment": "From January 1, 2023 the Austrian section of the journey in cross-border rail passenger transport is zero tax rated"
         },
@@ -711,20 +690,15 @@
             "memberState": "AT",
             "type": "REDUCED",
             "rate": {
-                "type": "REDUCED_RATE",
-                "value": 10
+                "type": "EXEMPTED",
+                "value": 0
             },
-            "situationOn": "2024-07-01+02:00",
-            "cnCodes": {
-                "code": {
-                    "value": "2201 90 00",
-                    "description": "Other"
-                }
-            },
+            "situationOn": "2025-01-01+01:00",
             "category": {
-                "identifier": "SUPPLY_WATER",
-                "description": "Supply of water"
-            }
+                "identifier": "FOODSTUFFS",
+                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
+            },
+            "comment": "From August 1, 2024 donations for charitable purposes of  food listed in Annex 1 to Sec. 10 of the Austrian VAT Act 1994, concerning CN Codes please see above"
         },
         {
             "memberState": "AT",
@@ -733,239 +707,7 @@
                 "type": "REDUCED_RATE",
                 "value": 10
             },
-            "situationOn": "2024-07-01+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "4901",
-                        "description": "Printed books, brochures, leaflets and similar printed matter, whether or not in single sheets"
-                    },
-                    {
-                        "value": "4902",
-                        "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
-                    },
-                    {
-                        "value": "4903 00 00",
-                        "description": "Children's picture, drawing or colouring books"
-                    },
-                    {
-                        "value": "4904 00 00",
-                        "description": "Music, printed or in manuscript, whether or not bound or illustrated"
-                    },
-                    {
-                        "value": "4905",
-                        "description": "Maps and hydrographic or similar charts of all kinds, including atlases, wall maps, topographical plans and globes, printed"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "LOAN_LIBRARIES",
-                "description": "Supply, including on loan by libraries, of books, newspapers and periodicals either on physical means of support or supplied electronically, or both, (including brochures, leaflets and similar printed matter, children's picture, drawing or colouring books, music printed or in manuscript form, maps and hydrographic or similar charts), other than publications wholly or predominantly devoted to advertising and other than publications wholly or predominantly consisting of video content or audible music; production of publications of non-profit-making organisations and services related to such production"
-            }
-        },
-        {
-            "memberState": "AT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 10
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cnCodes": {
-                "code": {
-                    "value": "4902",
-                    "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
-                }
-            },
-            "category": {
-                "identifier": "NEWSPAPERS",
-                "description": "Newspapers"
-            }
-        },
-        {
-            "memberState": "AT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 10
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cnCodes": {
-                "code": {
-                    "value": "4902",
-                    "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
-                }
-            },
-            "category": {
-                "identifier": "PERIODICALS",
-                "description": "Periodicals"
-            }
-        },
-        {
-            "memberState": "AT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 10
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "37",
-                        "description": "Sewerage services; sewage sludge"
-                    },
-                    {
-                        "value": "38",
-                        "description": "Waste collection, treatment and disposal services; materials recovery services"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "STREET_CLEANING",
-                "description": "Supply of services provided in connection with sewage, street cleaning, refuse collection and waste treatment or waste recycling, other than the supply of such services by bodies referred to in Article 13"
-            }
-        },
-        {
-            "memberState": "AT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 10
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "55",
-                        "description": "Accommodation services"
-                    },
-                    {
-                        "value": "55.10",
-                        "description": "Hotel and similar accommodation services"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "ACCOMMODATION",
-                "description": "Accommodation provided in hotels and similar establishments, including the provision of holiday accommodation and the letting of places on camping or caravan sites"
-            }
-        },
-        {
-            "memberState": "AT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 10
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "56.1",
-                        "description": "Restaurant and mobile food serving services"
-                    },
-                    {
-                        "value": "56.2",
-                        "description": "Event catering services and other food serving services"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "RESTAURANT",
-                "description": "Restaurant and catering services, it being possible to exclude the supply of (alcoholic and\/or non-alcoholic) beverages"
-            }
-        },
-        {
-            "memberState": "AT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 10
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "58.11.2",
-                        "description": "Books on disk, tape or other physical media"
-                    },
-                    {
-                        "value": "58.11.3",
-                        "description": "On-line books"
-                    },
-                    {
-                        "value": "58.13.2",
-                        "description": "On-line newspapers"
-                    },
-                    {
-                        "value": "58.14.2",
-                        "description": "On-line journals and periodicals"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "LOAN_LIBRARIES",
-                "description": "Supply, including on loan by libraries, of books, newspapers and periodicals either on physical means of support or supplied electronically, or both, (including brochures, leaflets and similar printed matter, children's picture, drawing or colouring books, music printed or in manuscript form, maps and hydrographic or similar charts), other than publications wholly or predominantly devoted to advertising and other than publications wholly or predominantly consisting of video content or audible music; production of publications of non-profit-making organisations and services related to such production"
-            }
-        },
-        {
-            "memberState": "AT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 10
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "60",
-                        "description": "Programming and broadcasting services"
-                    },
-                    {
-                        "value": "60.10",
-                        "description": "Radio broadcasting services"
-                    },
-                    {
-                        "value": "60.2",
-                        "description": "Television programming and broadcasting services; broadcasting originals"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "BROADCASTING_SERVICES",
-                "description": "Reception of radio and television broadcasting services and webcasting of such programmes provided by a media service provider; internet access services provided as part of digitalisation policy, defined by Member States"
-            }
-        },
-        {
-            "memberState": "AT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 10
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cpaCodes": {
-                "code": {
-                    "value": "88",
-                    "description": "Social work services without accommodation"
-                }
-            },
-            "category": {
-                "identifier": "SOCIAL_WELLBEING",
-                "description": "Supply of goods and services by organisations engaged in welfare or social security work as defined by Member States and recognised as being devoted to social wellbeing by Member States, in so far as those transactions are not exempt pursuant to Articles 132, 135 and 136"
-            },
-            "comment": "if not exempted (for information about the type of organisations falling under the exemption please see Sec. 6 of the Austrian VAT Act 1994)"
-        },
-        {
-            "memberState": "AT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 10
-            },
-            "situationOn": "2024-07-01+02:00",
+            "situationOn": "2025-01-01+01:00",
             "cpaCodes": {
                 "code": {
                     "value": "95.2",
@@ -974,7 +716,7 @@
             },
             "category": {
                 "identifier": "CLOTHING_REPAIR",
-                "description": "Clothing and household linen"
+                "description": "Minor repairs of clothing and household linen (including mending and alteration)"
             }
         },
         {
@@ -984,7 +726,7 @@
                 "type": "REDUCED_RATE",
                 "value": 10
             },
-            "situationOn": "2024-07-01+02:00",
+            "situationOn": "2025-01-01+01:00",
             "cpaCodes": {
                 "code": {
                     "value": "95.23.1",
@@ -993,7 +735,7 @@
             },
             "category": {
                 "identifier": "SHOES_REPAIR",
-                "description": "Shoes and leather goods"
+                "description": "Minor repairs of shoes and leather goods"
             }
         },
         {
@@ -1003,7 +745,7 @@
                 "type": "REDUCED_RATE",
                 "value": 13
             },
-            "situationOn": "2024-07-01+02:00",
+            "situationOn": "2025-01-01+01:00",
             "cnCodes": {
                 "code": [
                     {
@@ -1089,7 +831,7 @@
                 "type": "REDUCED_RATE",
                 "value": 13
             },
-            "situationOn": "2024-07-01+02:00",
+            "situationOn": "2025-01-01+01:00",
             "cnCodes": {
                 "code": [
                     {
@@ -1160,7 +902,7 @@
             },
             "category": {
                 "identifier": "AGRICULTURAL_PRODUCTION",
-                "description": "Supply of goods and services of a kind normally intended for use in agricultural production but excluding capital goods such as machinery or buildings and, until 1 January 2032, supply of chemical pesticides and chemical fertilisers"
+                "description": "Supply of goods and services of a kind normally intended for use in agricultural production but excluding capital goods such as machinery or buildings"
             },
             "comment": "Annex 2 to Sec. 10 of the Austrian VAT Act 1994 contains a list of goods falling under the reduced rate of 13% such as life-stock, living plants (https:\/\/www.ris.bka.gv.at\/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10004873&FassungVom=2016-01-01&Artikel=&Paragraf=&Anlage=2&Uebergangsrecht=).\nFor legal certainty please have a look at the Austrian VAT Act 1994 (can be found at www.ris.bka.gv.at)."
         },
@@ -1171,7 +913,7 @@
                 "type": "REDUCED_RATE",
                 "value": 13
             },
-            "situationOn": "2024-07-01+02:00",
+            "situationOn": "2025-01-01+01:00",
             "cnCodes": {
                 "code": [
                     {
@@ -1196,7 +938,7 @@
                 "type": "REDUCED_RATE",
                 "value": 13
             },
-            "situationOn": "2024-07-01+02:00",
+            "situationOn": "2025-01-01+01:00",
             "cnCodes": {
                 "code": {
                     "value": "9701",
@@ -1215,7 +957,7 @@
                 "type": "REDUCED_RATE",
                 "value": 13
             },
-            "situationOn": "2024-07-01+02:00",
+            "situationOn": "2025-01-01+01:00",
             "cnCodes": {
                 "code": {
                     "value": "9702 00 00",
@@ -1234,7 +976,7 @@
                 "type": "REDUCED_RATE",
                 "value": 13
             },
-            "situationOn": "2024-07-01+02:00",
+            "situationOn": "2025-01-01+01:00",
             "cnCodes": {
                 "code": {
                     "value": "9703 00 00",
@@ -1253,7 +995,7 @@
                 "type": "REDUCED_RATE",
                 "value": 13
             },
-            "situationOn": "2024-07-01+02:00",
+            "situationOn": "2025-01-01+01:00",
             "cnCodes": {
                 "code": [
                     {
@@ -1279,7 +1021,7 @@
                 "type": "REDUCED_RATE",
                 "value": 13
             },
-            "situationOn": "2024-07-01+02:00",
+            "situationOn": "2025-01-01+01:00",
             "cnCodes": {
                 "code": {
                     "value": "9706 00 00",
@@ -1299,7 +1041,7 @@
                 "type": "REDUCED_RATE",
                 "value": 13
             },
-            "situationOn": "2024-07-01+02:00",
+            "situationOn": "2025-01-01+01:00",
             "cpaCodes": {
                 "code": {
                     "value": "51.10",
@@ -1308,7 +1050,7 @@
             },
             "category": {
                 "identifier": "TRANSPORT_PASSENGERS",
-                "description": "Transport of passengers and the transport of goods accompanying them, such as luggage, bicycles, including electric bicycles, motor or other vehicles, or the supply of services relating to the transport of passengers"
+                "description": "Transport of passengers and their accompanying luggage"
             },
             "comment": "domestic transport of passengers by aircrafts"
         },
@@ -1319,7 +1061,7 @@
                 "type": "REDUCED_RATE",
                 "value": 13
             },
-            "situationOn": "2024-07-01+02:00",
+            "situationOn": "2025-01-01+01:00",
             "cpaCodes": {
                 "code": {
                     "value": "90.0",
@@ -1338,7 +1080,7 @@
                 "type": "REDUCED_RATE",
                 "value": 13
             },
-            "situationOn": "2024-07-01+02:00",
+            "situationOn": "2025-01-01+01:00",
             "cpaCodes": {
                 "code": [
                     {
@@ -1357,7 +1099,7 @@
             },
             "category": {
                 "identifier": "CULTURAL_EVENTS",
-                "description": "Admission to shows, theatres, circuses, fairs, amusement parks, concerts, museums, zoos, cinemas, exhibitions and similar cultural events and facilities or access to the live-streaming of those events or visits or both"
+                "description": "Admission to shows, theatres, circuses, fairs, amusement parks, concerts, museums, zoos, cinemas, exhibitions and similar cultural events and facilities"
             },
             "comment": "if not exempted: theaters, concerts, museums, zoos or botanical gardens"
         },
@@ -1368,7 +1110,7 @@
                 "type": "REDUCED_RATE",
                 "value": 13
             },
-            "situationOn": "2024-07-01+02:00",
+            "situationOn": "2025-01-01+01:00",
             "cpaCodes": {
                 "code": {
                     "value": "93.11",
@@ -1377,7 +1119,7 @@
             },
             "category": {
                 "identifier": "SPORTING_EVENTS",
-                "description": "Admission to sporting events or access to the live-streaming of those events or both; use of sporting facilities, and the supply of sport or physical exercise classes also when live-streamed"
+                "description": "Admission to sporting events"
             }
         },
         {
@@ -1387,10 +1129,10 @@
                 "type": "REDUCED_RATE",
                 "value": 19
             },
-            "situationOn": "2024-07-01+02:00",
+            "situationOn": "2025-01-01+01:00",
             "category": {
                 "identifier": "REGION",
-                "description": "Special reduced rate for specific regions (including Article 104 of the VAT Directive)"
+                "description": "Special reduced rate for specific regions (including articles 104, 105 and 120 of the VAT Directive)"
             },
             "comment": "Jungholz, Mittelberg"
         },
@@ -1401,7 +1143,239 @@
                 "type": "DEFAULT",
                 "value": 20
             },
-            "situationOn": "2024-07-01+02:00"
+            "situationOn": "2025-01-01+01:00"
+        },
+        {
+            "memberState": "AT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 10
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "4901",
+                        "description": "Printed books, brochures, leaflets and similar printed matter, whether or not in single sheets"
+                    },
+                    {
+                        "value": "4902",
+                        "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
+                    },
+                    {
+                        "value": "4903 00 00",
+                        "description": "Children's picture, drawing or colouring books"
+                    },
+                    {
+                        "value": "4904 00 00",
+                        "description": "Music, printed or in manuscript, whether or not bound or illustrated"
+                    },
+                    {
+                        "value": "4905",
+                        "description": "Maps and hydrographic or similar charts of all kinds, including atlases, wall maps, topographical plans and globes, printed"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "LOAN_LIBRARIES",
+                "description": "Supply, including on loan by libraries, of books, newspapers and periodicals either on physical means of support or supplied electronically or both (including brochures, leaflets and similar printed matter, children's picture, drawing or colouring books, music printed or in manuscript form, maps and hydrographic or similar charts), other than publications wholly or predominantly devoted to advertising and other than publications wholly or predominantly consisting of video content or audible music."
+            }
+        },
+        {
+            "memberState": "AT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 10
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cnCodes": {
+                "code": {
+                    "value": "4902",
+                    "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
+                }
+            },
+            "category": {
+                "identifier": "NEWSPAPERS",
+                "description": "Newspapers"
+            }
+        },
+        {
+            "memberState": "AT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 10
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cnCodes": {
+                "code": {
+                    "value": "4902",
+                    "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
+                }
+            },
+            "category": {
+                "identifier": "PERIODICALS",
+                "description": "Periodicals"
+            }
+        },
+        {
+            "memberState": "AT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 10
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "37",
+                        "description": "Sewerage services; sewage sludge"
+                    },
+                    {
+                        "value": "38",
+                        "description": "Waste collection, treatment and disposal services; materials recovery services"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "STREET_CLEANING",
+                "description": "Supply of services provided in connection with street cleaning, refuse collection and waste treatment, other than the supply of such services by bodies referred to in Article 13"
+            }
+        },
+        {
+            "memberState": "AT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 10
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "55",
+                        "description": "Accommodation services"
+                    },
+                    {
+                        "value": "55.10",
+                        "description": "Hotel and similar accommodation services"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "ACCOMMODATION",
+                "description": "Accommodation provided in hotels and similar establishments, including the provision of holiday accommodation and the letting of places on camping or caravan sites"
+            }
+        },
+        {
+            "memberState": "AT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 10
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "56.1",
+                        "description": "Restaurant and mobile food serving services"
+                    },
+                    {
+                        "value": "56.2",
+                        "description": "Event catering services and other food serving services"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "RESTAURANT",
+                "description": "Restaurant and catering services, it being possible to exclude the supply of (alcoholic and\/or non-alcoholic) beverages"
+            }
+        },
+        {
+            "memberState": "AT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 10
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "58.11.2",
+                        "description": "Books on disk, tape or other physical media"
+                    },
+                    {
+                        "value": "58.11.3",
+                        "description": "On-line books"
+                    },
+                    {
+                        "value": "58.13.2",
+                        "description": "On-line newspapers"
+                    },
+                    {
+                        "value": "58.14.2",
+                        "description": "On-line journals and periodicals"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "LOAN_LIBRARIES",
+                "description": "Supply, including on loan by libraries, of books, newspapers and periodicals either on physical means of support or supplied electronically or both (including brochures, leaflets and similar printed matter, children's picture, drawing or colouring books, music printed or in manuscript form, maps and hydrographic or similar charts), other than publications wholly or predominantly devoted to advertising and other than publications wholly or predominantly consisting of video content or audible music."
+            }
+        },
+        {
+            "memberState": "AT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 10
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "60",
+                        "description": "Programming and broadcasting services"
+                    },
+                    {
+                        "value": "60.10",
+                        "description": "Radio broadcasting services"
+                    },
+                    {
+                        "value": "60.2",
+                        "description": "Television programming and broadcasting services; broadcasting originals"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "BROADCASTING_SERVICES",
+                "description": "Reception of radio and television broadcasting services"
+            }
+        },
+        {
+            "memberState": "AT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 10
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "88",
+                    "description": "Social work services without accommodation"
+                }
+            },
+            "category": {
+                "identifier": "SOCIAL_WELLBEING",
+                "description": "Supply of goods and services by organisations recognised as being devoted to social wellbeing by Member States and engaged in welfare or social security work"
+            },
+            "comment": "if not exempted (for information about the type of organisations falling under the exemption please see Sec. 6 of the Austrian VAT Act 1994)"
         }
     ]
 }

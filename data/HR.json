@@ -8,7 +8,7 @@
                 "type": "REDUCED_RATE",
                 "value": 5
             },
-            "situationOn": "2024-07-01+02:00",
+            "situationOn": "2025-01-01+01:00",
             "cnCodes": {
                 "code": [
                     {
@@ -1158,95 +1158,7 @@
                 "type": "REDUCED_RATE",
                 "value": 5
             },
-            "situationOn": "2024-07-01+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "0401",
-                        "description": "Milk and cream, not concentrated nor containing added sugar or other sweetening matter"
-                    },
-                    {
-                        "value": "0402 91",
-                        "description": "Not containing added sugar or other sweetening matter"
-                    },
-                    {
-                        "value": "0402 99",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "1905 10 00",
-                        "description": "Crispbread"
-                    },
-                    {
-                        "value": "1905 20 10",
-                        "description": "Containing by weight less than 30 % of sucrose (including invert sugar expressed as sucrose)"
-                    },
-                    {
-                        "value": "1905 40",
-                        "description": "Rusks, toasted bread and similar toasted products"
-                    },
-                    {
-                        "value": "1905 90 30",
-                        "description": "Bread, not containing added honey, eggs, cheese or fruit, and containing by weight in the dry matter state not more than 5 % of sugars and not more than 5 % of fat"
-                    },
-                    {
-                        "value": "1905 90 70",
-                        "description": "Containing 5 % or more, by weight, of sucrose, invert sugar or isoglucose"
-                    },
-                    {
-                        "value": "1905 90 80",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "2202 99 91",
-                        "description": "Less than 0,2 %"
-                    },
-                    {
-                        "value": "2202 99 95",
-                        "description": "0,2 % or more but less than 2 %"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "FOODSTUFFS",
-                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
-            },
-            "comment": "Reduced rate applies to all types of bread,\nand all types of milk (cow, sheep, goat) placed on the market under the same name in the liquid state, fresh, pasteurized, homogenized, condensed (other than sour milk, yoghurt, kefir, chocolate milk and other milk products), substitute for mother’s milk."
-        },
-        {
-            "memberState": "HR",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "2711 11 00",
-                        "description": "Natural gas"
-                    },
-                    {
-                        "value": "2711 21 00",
-                        "description": "Natural gas"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "SUPPLY_GAS",
-                "description": "Natural gas (until 1 January 2030)"
-            },
-            "comment": "Applies to supply of natural gas, including fees related to that supply, made until March 31, 2025."
-        },
-        {
-            "memberState": "HR",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2024-07-01+02:00",
+            "situationOn": "2025-01-01+01:00",
             "cnCodes": {
                 "code": [
                     {
@@ -1405,7 +1317,7 @@
             },
             "category": {
                 "identifier": "PHARMACEUTICAL_PRODUCTS",
-                "description": "Pharmaceutical products used for medical and veterinary purposes, including products used for contraception and female sanitary protection, and absorbent hygiene products"
+                "description": "Pharmaceutical products of a kind normally used for health care, prevention of illness and as treatment for medical and veterinary purposes, including products used for contraception and sanitary protection"
             },
             "comment": "Applies to medicines which have the approval of the competent authority for medicines and medical products."
         },
@@ -1416,7 +1328,69 @@
                 "type": "REDUCED_RATE",
                 "value": 5
             },
-            "situationOn": "2024-07-01+02:00",
+            "situationOn": "2025-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "0401",
+                        "description": "Milk and cream, not concentrated nor containing added sugar or other sweetening matter"
+                    },
+                    {
+                        "value": "0402 91",
+                        "description": "Not containing added sugar or other sweetening matter"
+                    },
+                    {
+                        "value": "0402 99",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "1905 10 00",
+                        "description": "Crispbread"
+                    },
+                    {
+                        "value": "1905 20 10",
+                        "description": "Containing by weight less than 30 % of sucrose (including invert sugar expressed as sucrose)"
+                    },
+                    {
+                        "value": "1905 40",
+                        "description": "Rusks, toasted bread and similar toasted products"
+                    },
+                    {
+                        "value": "1905 90 30",
+                        "description": "Bread, not containing added honey, eggs, cheese or fruit, and containing by weight in the dry matter state not more than 5 % of sugars and not more than 5 % of fat"
+                    },
+                    {
+                        "value": "1905 90 70",
+                        "description": "Containing 5 % or more, by weight, of sucrose, invert sugar or isoglucose"
+                    },
+                    {
+                        "value": "1905 90 80",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "2202 99 91",
+                        "description": "Less than 0,2 %"
+                    },
+                    {
+                        "value": "2202 99 95",
+                        "description": "0,2 % or more but less than 2 %"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "FOODSTUFFS",
+                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
+            },
+            "comment": "Reduced rate applies to all types of bread,\nand all types of milk (cow, sheep, goat) placed on the market under the same name in the liquid state, fresh, pasteurized, homogenized, condensed (other than sour milk, yoghurt, kefir, chocolate milk and other milk products), substitute for mother’s milk."
+        },
+        {
+            "memberState": "HR",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2025-01-01+01:00",
             "cnCodes": {
                 "code": [
                     {
@@ -1847,7 +1821,7 @@
             },
             "category": {
                 "identifier": "MEDICAL_EQUIPMENT",
-                "description": "Medical equipment, appliances, devices, items, aids and protective gear, including health protection masks, normally intended for use in health care or for the use of the disabled, goods essential to compensate and overcome disability, as well as the adaptation, repair, rental and leasing of such goods"
+                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
             },
             "comment": "Applies to medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled people, prescribed by an act of general application on orthopaedic and other aids."
         },
@@ -1858,7 +1832,33 @@
                 "type": "REDUCED_RATE",
                 "value": 5
             },
-            "situationOn": "2024-07-01+02:00",
+            "situationOn": "2025-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "2711 11 00",
+                        "description": "Natural gas"
+                    },
+                    {
+                        "value": "2711 21 00",
+                        "description": "Natural gas"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "SUPPLY_GAS",
+                "description": "Supply of natural gas"
+            },
+            "comment": "Applies to supply of natural gas, including fees related to that supply, made until March 31, 2025."
+        },
+        {
+            "memberState": "HR",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2025-01-01+01:00",
             "cnCodes": {
                 "code": [
                     {
@@ -1917,7 +1917,7 @@
             },
             "category": {
                 "identifier": "LOAN_LIBRARIES",
-                "description": "Supply, including on loan by libraries, of books, newspapers and periodicals either on physical means of support or supplied electronically, or both, (including brochures, leaflets and similar printed matter, children's picture, drawing or colouring books, music printed or in manuscript form, maps and hydrographic or similar charts), other than publications wholly or predominantly devoted to advertising and other than publications wholly or predominantly consisting of video content or audible music; production of publications of non-profit-making organisations and services related to such production"
+                "description": "Supply, including on loan by libraries, of books, newspapers and periodicals either on physical means of support or supplied electronically or both (including brochures, leaflets and similar printed matter, children's picture, drawing or colouring books, music printed or in manuscript form, maps and hydrographic or similar charts), other than publications wholly or predominantly devoted to advertising and other than publications wholly or predominantly consisting of video content or audible music."
             },
             "comment": "Applies to books of professional, scientific, artistic, cultural or educational content, textbooks for education, for primary, secondary and tertiary education, other than those that contain, in whole or for the most part, advertisements or serve for advertising, and other than those that contain, in whole or for the most part, video recording or music content."
         },
@@ -1928,7 +1928,7 @@
                 "type": "REDUCED_RATE",
                 "value": 5
             },
-            "situationOn": "2024-07-01+02:00",
+            "situationOn": "2025-01-01+01:00",
             "cnCodes": {
                 "code": [
                     {
@@ -1943,7 +1943,7 @@
             },
             "category": {
                 "identifier": "AGRICULTURAL_PRODUCTION",
-                "description": "Supply of goods and services of a kind normally intended for use in agricultural production but excluding capital goods such as machinery or buildings and, until 1 January 2032, supply of chemical pesticides and chemical fertilisers"
+                "description": "Supply of goods and services of a kind normally intended for use in agricultural production but excluding capital goods such as machinery or buildings"
             },
             "comment": "Pesticides and other agrochemical products are insecticides, rodenticides, fungicides, herbicides, anti-germination agents, plant growth regulators, disinfectants and similar products, put up in forms or packings for individual sale or as preparations or articles of CN 3808.\nResidues and waste from the food industry and prepared animal food from Ch. 23 excluding greaves CN 2301 10, wine lees and tartar CN 2307 and other than dog and cat food, put up in packings for individual sale CN 2309 10;"
         },
@@ -1952,9 +1952,163 @@
             "type": "REDUCED",
             "rate": {
                 "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cnCodes": {
+                "code": {
+                    "value": "4401",
+                    "description": "Fuel wood, in logs, in billets, in twigs, in faggots or in similar forms; wood in chips or particles; sawdust and wood waste and scrap, whether or not agglomerated in logs, briquettes, pellets or similar forms"
+                }
+            },
+            "category": {
+                "identifier": "WOOD_ARTICLE98",
+                "description": "Wood used as firewood (until 1 January 2030)"
+            },
+            "comment": "Applies to supply of firewood, pellets, briquettes and wood chips made until March 31, 2025."
+        },
+        {
+            "memberState": "HR",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "4901 99 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "4902",
+                        "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "PERIODICALS",
+                "description": "Periodicals"
+            },
+            "comment": "Applies to scientific periodicals"
+        },
+        {
+            "memberState": "HR",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "4901 99 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "4902",
+                        "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "NEWSPAPERS",
+                "description": "Newspapers"
+            },
+            "comment": "Applies to newspaper of the newspaper publisher which has the status of a medium, published daily, other than those that contain, in whole or for the most part, advertisements or serve for advertising, and other than those that contain, in whole or for the most part, video recording or music content."
+        },
+        {
+            "memberState": "HR",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2025-01-01+01:00",
+            "category": {
+                "identifier": "CULTURAL_EVENTS",
+                "description": "Admission to shows, theatres, circuses, fairs, amusement parks, concerts, museums, zoos, cinemas, exhibitions and similar cultural events and facilities"
+            },
+            "comment": "Applies to tickets for cinema, tickets for concerts and cultural events."
+        },
+        {
+            "memberState": "HR",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2025-01-01+01:00",
+            "category": {
+                "identifier": "SPORTING_EVENTS",
+                "description": "Admission to sporting events"
+            },
+            "comment": "Applies to tickets for sporting events of a competitive or revival character."
+        },
+        {
+            "memberState": "HR",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2025-01-01+01:00",
+            "category": {
+                "identifier": "SUPPLY_HEATING",
+                "description": "Supply of district heating"
+            },
+            "comment": "Applies to supply of heating from heating stations, including charges relating to such supplies made until March 31, 2025."
+        },
+        {
+            "memberState": "HR",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
                 "value": 13
             },
-            "situationOn": "2024-07-01+02:00",
+            "situationOn": "2025-01-01+01:00",
+            "cnCodes": {
+                "code": {
+                    "value": "2201 90 00",
+                    "description": "Other"
+                }
+            },
+            "category": {
+                "identifier": "SUPPLY_WATER",
+                "description": "Supply of water"
+            },
+            "comment": "Applies to supply of water, other than water marketed in bottles or other packaging, in terms of public water supply and public drainage under special regulation."
+        },
+        {
+            "memberState": "HR",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 13
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cnCodes": {
+                "code": {
+                    "value": "2716 00 00",
+                    "description": "Electrical energy"
+                }
+            },
+            "category": {
+                "identifier": "SUPPLY_ELECTRICITY",
+                "description": "Supply of electricity"
+            },
+            "comment": "Applies to supply of electricity towards other supplier or end-user, including fees related to the supply."
+        },
+        {
+            "memberState": "HR",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 13
+            },
+            "situationOn": "2025-01-01+01:00",
             "cnCodes": {
                 "code": [
                     {
@@ -2080,7 +2234,33 @@
                 "type": "REDUCED_RATE",
                 "value": 13
             },
-            "situationOn": "2024-07-01+02:00",
+            "situationOn": "2025-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "4901 99 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "4902",
+                        "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "NEWSPAPERS",
+                "description": "Newspapers"
+            },
+            "comment": "Applies to newspapers and periodicals of a newspaper publisher with the status of a medium, as well as those for which there is no obligation to issue the medium status under special regulation, other than those referred to in paragraph 2 item g) of Article 38, issued periodically and other than those that contain, in whole or for the most part, advertisements or serve for advertising, and other than those that contain, in whole or for the most part, video recording or music content."
+        },
+        {
+            "memberState": "HR",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 13
+            },
+            "situationOn": "2025-01-01+01:00",
             "cnCodes": {
                 "code": [
                     {
@@ -2103,7 +2283,7 @@
             },
             "category": {
                 "identifier": "CHILDREN_CAR_SEATS",
-                "description": "Children’s car seats"
+                "description": "Supply of children’s car seats"
             },
             "comment": "Applies to car seats for children. \nReduced rate of 13% applies also on baby diapers."
         },
@@ -2114,7 +2294,7 @@
                 "type": "REDUCED_RATE",
                 "value": 13
             },
-            "situationOn": "2024-07-01+02:00",
+            "situationOn": "2025-01-01+01:00",
             "category": {
                 "identifier": "ACCOMMODATION",
                 "description": "Accommodation provided in hotels and similar establishments, including the provision of holiday accommodation and the letting of places on camping or caravan sites"
@@ -2126,123 +2306,9 @@
             "type": "REDUCED",
             "rate": {
                 "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cnCodes": {
-                "code": {
-                    "value": "4401",
-                    "description": "Fuel wood, in logs, in billets, in twigs, in faggots or in similar forms; wood in chips or particles; sawdust and wood waste and scrap, whether or not agglomerated in logs, briquettes, pellets or similar forms"
-                }
-            },
-            "category": {
-                "identifier": "WOOD_ARTICLE98",
-                "description": "Wood used as firewood (until 1 January 2030)"
-            },
-            "comment": "Applies to supply of firewood, pellets, briquettes and wood chips made until March 31, 2025."
-        },
-        {
-            "memberState": "HR",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "4901 99 00",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "4902",
-                        "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "PERIODICALS",
-                "description": "Periodicals"
-            },
-            "comment": "Applies to scientific periodicals"
-        },
-        {
-            "memberState": "HR",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2024-07-01+02:00",
-            "category": {
-                "identifier": "CULTURAL_EVENTS",
-                "description": "Admission to shows, theatres, circuses, fairs, amusement parks, concerts, museums, zoos, cinemas, exhibitions and similar cultural events and facilities or access to the live-streaming of those events or visits or both"
-            },
-            "comment": "Applies to tickets for cinema, tickets for concerts and cultural events."
-        },
-        {
-            "memberState": "HR",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2024-07-01+02:00",
-            "category": {
-                "identifier": "SPORTING_EVENTS",
-                "description": "Admission to sporting events or access to the live-streaming of those events or both; use of sporting facilities, and the supply of sport or physical exercise classes also when live-streamed"
-            },
-            "comment": "Applies to tickets for sporting events of a competitive or revival character."
-        },
-        {
-            "memberState": "HR",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2024-07-01+02:00",
-            "category": {
-                "identifier": "SUPPLY_HEATING",
-                "description": "District heating and district cooling"
-            },
-            "comment": "Applies to supply of heating from heating stations, including charges relating to such supplies made until March 31, 2025."
-        },
-        {
-            "memberState": "HR",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "4901 99 00",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "4902",
-                        "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "NEWSPAPERS",
-                "description": "Newspapers"
-            },
-            "comment": "Applies to newspaper of the newspaper publisher which has the status of a medium, published daily, other than those that contain, in whole or for the most part, advertisements or serve for advertising, and other than those that contain, in whole or for the most part, video recording or music content."
-        },
-        {
-            "memberState": "HR",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
                 "value": 13
             },
-            "situationOn": "2024-07-01+02:00",
+            "situationOn": "2025-01-01+01:00",
             "category": {
                 "identifier": "WRITERS_SERVICES",
                 "description": "Supply of services by writers, composers and performing artists, or of the royalties due to them"
@@ -2256,10 +2322,10 @@
                 "type": "REDUCED_RATE",
                 "value": 13
             },
-            "situationOn": "2024-07-01+02:00",
+            "situationOn": "2025-01-01+01:00",
             "category": {
                 "identifier": "STREET_CLEANING",
-                "description": "Supply of services provided in connection with sewage, street cleaning, refuse collection and waste treatment or waste recycling, other than the supply of such services by bodies referred to in Article 13"
+                "description": "Supply of services provided in connection with street cleaning, refuse collection and waste treatment, other than the supply of such services by bodies referred to in Article 13"
             },
             "comment": "Applies to public service of collecting mixed communal waste, biodegradable communal waste and separate waste collection according to a special regulation"
         },
@@ -2270,7 +2336,7 @@
                 "type": "REDUCED_RATE",
                 "value": 13
             },
-            "situationOn": "2024-07-01+02:00",
+            "situationOn": "2025-01-01+01:00",
             "category": {
                 "identifier": "RESTAURANT",
                 "description": "Restaurant and catering services, it being possible to exclude the supply of (alcoholic and\/or non-alcoholic) beverages"
@@ -2284,78 +2350,12 @@
                 "type": "REDUCED_RATE",
                 "value": 13
             },
-            "situationOn": "2024-07-01+02:00",
+            "situationOn": "2025-01-01+01:00",
             "category": {
                 "identifier": "PHARMACEUTICAL_PRODUCTS",
-                "description": "Pharmaceutical products used for medical and veterinary purposes, including products used for contraception and female sanitary protection, and absorbent hygiene products"
+                "description": "Pharmaceutical products of a kind normally used for health care, prevention of illness and as treatment for medical and veterinary purposes, including products used for contraception and sanitary protection"
             },
             "comment": "Applies to menstrual products: sanitary pads, daily pads, tampons, menstrual cups, menstrual panties, menstrual sponge, menstrual disc, etc., which are used specifically during menstruation, regardless of whether they are intended for single or multiple use."
-        },
-        {
-            "memberState": "HR",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 13
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cnCodes": {
-                "code": {
-                    "value": "2201 90 00",
-                    "description": "Other"
-                }
-            },
-            "category": {
-                "identifier": "SUPPLY_WATER",
-                "description": "Supply of water"
-            },
-            "comment": "Applies to supply of water, other than water marketed in bottles or other packaging, in terms of public water supply and public drainage under special regulation."
-        },
-        {
-            "memberState": "HR",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 13
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cnCodes": {
-                "code": {
-                    "value": "2716 00 00",
-                    "description": "Electrical energy"
-                }
-            },
-            "category": {
-                "identifier": "SUPPLY_ELECTRICITY",
-                "description": "Electricity"
-            },
-            "comment": "Applies to supply of electricity towards other supplier or end-user, including fees related to the supply."
-        },
-        {
-            "memberState": "HR",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 13
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "4901 99 00",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "4902",
-                        "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "NEWSPAPERS",
-                "description": "Newspapers"
-            },
-            "comment": "Applies to newspapers and periodicals of a newspaper publisher with the status of a medium, as well as those for which there is no obligation to issue the medium status under special regulation, other than those referred to in paragraph 2 item g) of Article 38, issued periodically and other than those that contain, in whole or for the most part, advertisements or serve for advertising, and other than those that contain, in whole or for the most part, video recording or music content."
         },
         {
             "memberState": "HR",
@@ -2364,7 +2364,7 @@
                 "type": "DEFAULT",
                 "value": 25
             },
-            "situationOn": "2024-07-01+02:00"
+            "situationOn": "2025-01-01+01:00"
         }
     ]
 }

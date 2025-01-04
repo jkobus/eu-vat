@@ -5,65 +5,10 @@
             "memberState": "IE",
             "type": "REDUCED",
             "rate": {
-                "type": "REDUCED_RATE",
-                "value": 13.5
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "81.21.10",
-                        "description": "General cleaning services of buildings"
-                    },
-                    {
-                        "value": "81.22.11",
-                        "description": "Window cleaning services"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "WINDOW_CLEANING",
-                "description": "Window cleaning and cleaning in private households"
-            }
-        },
-        {
-            "memberState": "IE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 13.5
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cpaCodes": {
-                "code": {
-                    "value": "84.12.13",
-                    "description": "Administrative housing and community amenity services"
-                }
-            },
-            "category": {
-                "identifier": "STREET_CLEANING",
-                "description": "Supply of services provided in connection with sewage, street cleaning, refuse collection and waste treatment or waste recycling, other than the supply of such services by bodies referred to in Article 13"
-            },
-            "comment": "Street cleaning and refuse collecting apply at the 13.5% rate, waste treatment is at the standard VAT rate of 23%."
-        },
-        {
-            "memberState": "IE",
-            "type": "STANDARD",
-            "rate": {
-                "type": "DEFAULT",
-                "value": 23
-            },
-            "situationOn": "2024-07-01+02:00",
-            "comment": "<p>The Standard Rate of VAT was temporarily reduced from 23% to 21% from 1 September 2020 to 28 February 2021. It has been restored to 23% from 1 March 2021.<\/p>"
-        },
-        {
-            "memberState": "IE",
-            "type": "REDUCED",
-            "rate": {
                 "type": "EXEMPTED",
                 "value": 0
             },
-            "situationOn": "2024-07-01+02:00",
+            "situationOn": "2025-01-01+01:00",
             "cnCodes": {
                 "code": [
                     {
@@ -105,7 +50,7 @@
                 "type": "EXEMPTED",
                 "value": 0
             },
-            "situationOn": "2024-07-01+02:00",
+            "situationOn": "2025-01-01+01:00",
             "cnCodes": {
                 "code": [
                     {
@@ -139,7 +84,7 @@
                 "type": "EXEMPTED",
                 "value": 0
             },
-            "situationOn": "2024-07-01+02:00",
+            "situationOn": "2025-01-01+01:00",
             "cnCodes": {
                 "code": {
                     "value": "2308 00",
@@ -159,7 +104,7 @@
                 "type": "EXEMPTED",
                 "value": 0
             },
-            "situationOn": "2024-07-01+02:00",
+            "situationOn": "2025-01-01+01:00",
             "cnCodes": {
                 "code": [
                     {
@@ -178,7 +123,7 @@
             },
             "category": {
                 "identifier": "PHARMACEUTICAL_PRODUCTS",
-                "description": "Pharmaceutical products used for medical and veterinary purposes, including products used for contraception and female sanitary protection, and absorbent hygiene products"
+                "description": "Pharmaceutical products of a kind normally used for health care, prevention of illness and as treatment for medical and veterinary purposes, including products used for contraception and sanitary protection"
             },
             "comment": "Human Oral Medicine, Oral and Non-oral hormone replacement therapy, Oral and Non-oral Nicotine Replacement Therapy, Oral Contraception, and sanitary products are zero-rated for VAT purposes (e. Animal Oral medicine is also zero-rated (excluding medicine for dogs, cats, cage birds or domestic pets, which is standard rated. All non-oral animal medicines are also standard rated.)"
         },
@@ -189,7 +134,7 @@
                 "type": "EXEMPTED",
                 "value": 0
             },
-            "situationOn": "2024-07-01+02:00",
+            "situationOn": "2025-01-01+01:00",
             "cnCodes": {
                 "code": [
                     {
@@ -208,7 +153,7 @@
             },
             "category": {
                 "identifier": "LOAN_LIBRARIES",
-                "description": "Supply, including on loan by libraries, of books, newspapers and periodicals either on physical means of support or supplied electronically, or both, (including brochures, leaflets and similar printed matter, children's picture, drawing or colouring books, music printed or in manuscript form, maps and hydrographic or similar charts), other than publications wholly or predominantly devoted to advertising and other than publications wholly or predominantly consisting of video content or audible music; production of publications of non-profit-making organisations and services related to such production"
+                "description": "Supply, including on loan by libraries, of books, newspapers and periodicals either on physical means of support or supplied electronically or both (including brochures, leaflets and similar printed matter, children's picture, drawing or colouring books, music printed or in manuscript form, maps and hydrographic or similar charts), other than publications wholly or predominantly devoted to advertising and other than publications wholly or predominantly consisting of video content or audible music."
             },
             "comment": "The Zero Rate applies to newspapers, printed books, e-books, audiobooks, atlases, annual publications, children’s picture, colouring and music books. For a printed booklet to qualify for the zero rating, it must consist of essentially pictorial or textual matter, must have a distinctive front cover devoid of body text, must be no less than eight pages (excluding the cover) and must be bound, stitched or stapled."
         },
@@ -219,7 +164,7 @@
                 "type": "EXEMPTED",
                 "value": 0
             },
-            "situationOn": "2024-07-01+02:00",
+            "situationOn": "2025-01-01+01:00",
             "cnCodes": {
                 "code": [
                     {
@@ -234,7 +179,7 @@
             },
             "category": {
                 "identifier": "MEDICAL_EQUIPMENT",
-                "description": "Medical equipment, appliances, devices, items, aids and protective gear, including health protection masks, normally intended for use in health care or for the use of the disabled, goods essential to compensate and overcome disability, as well as the adaptation, repair, rental and leasing of such goods"
+                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
             },
             "comment": "Comments Certain Medical equipment, aids and their parts are at the 0% VAT rate. This includes, invalid carriages, orthopaedic appliances, surgical belts, artificial limbs, artificial parts of the body,  and deaf aids, walking frames, crutches, and parts of same. This does not include artificial teeth, corrective spectacles, or contact lenses. For specific queries, more detail can be found on the Revenue Commissioner's VAT Rates Database - https:\/\/www.revenue.ie\/en\/vat\/vat-rates\/index.aspx"
         },
@@ -245,7 +190,7 @@
                 "type": "EXEMPTED",
                 "value": 0
             },
-            "situationOn": "2024-07-01+02:00",
+            "situationOn": "2025-01-01+01:00",
             "cnCodes": {
                 "code": {
                     "value": "8541 43 00",
@@ -256,7 +201,7 @@
                 "identifier": "SOLAR_PANELS",
                 "description": "Supply and installation of solar panels on and adjacent to private dwellings, housing and public and other buildings used for activities in the public interest"
             },
-            "comment": "Zero rate of VAT applies to the supply and installation of solar panels in private dwellings (from 1 May 2023); and to primary and secondary schools from 1 January 2024."
+            "comment": "Zero rate of VAT applies to the supply and installation of solar panels in private dwellings (from 1 May 2023); and to primary and secondary schools from 1 January 2024.\nA 9% VAT rate applies to the supply and installation of heat pump systems from 1 January 2025. HS Code 84139190"
         },
         {
             "memberState": "IE",
@@ -265,7 +210,7 @@
                 "type": "NOT_APPLICABLE",
                 "value": 0
             },
-            "situationOn": "2024-07-01+02:00",
+            "situationOn": "2025-01-01+01:00",
             "cpaCodes": {
                 "code": {
                     "value": "86.90.19",
@@ -274,7 +219,7 @@
             },
             "category": {
                 "identifier": "MEDICAL_CARE",
-                "description": "Provision of medical and dental care and thermal treatment in so far as those services are not exempt pursuant to points (b) to (e) of Article 132(1)"
+                "description": "Provision of medical and dental care and thermal treatment"
             }
         },
         {
@@ -284,7 +229,7 @@
                 "type": "NOT_APPLICABLE",
                 "value": 0
             },
-            "situationOn": "2024-07-01+02:00",
+            "situationOn": "2025-01-01+01:00",
             "cpaCodes": {
                 "code": [
                     {
@@ -299,7 +244,7 @@
             },
             "category": {
                 "identifier": "SHOES_REPAIR",
-                "description": "Shoes and leather goods"
+                "description": "Minor repairs of shoes and leather goods"
             }
         },
         {
@@ -309,7 +254,7 @@
                 "type": "NOT_APPLICABLE",
                 "value": 0
             },
-            "situationOn": "2024-07-01+02:00",
+            "situationOn": "2025-01-01+01:00",
             "cpaCodes": {
                 "code": {
                     "value": "95.29.11",
@@ -318,7 +263,7 @@
             },
             "category": {
                 "identifier": "CLOTHING_REPAIR",
-                "description": "Clothing and household linen"
+                "description": "Minor repairs of clothing and household linen (including mending and alteration)"
             }
         },
         {
@@ -328,7 +273,7 @@
                 "type": "REDUCED_RATE",
                 "value": 9
             },
-            "situationOn": "2024-07-01+02:00",
+            "situationOn": "2025-01-01+01:00",
             "cnCodes": {
                 "code": [
                     {
@@ -373,7 +318,7 @@
             },
             "category": {
                 "identifier": "LOAN_LIBRARIES",
-                "description": "Supply, including on loan by libraries, of books, newspapers and periodicals either on physical means of support or supplied electronically, or both, (including brochures, leaflets and similar printed matter, children's picture, drawing or colouring books, music printed or in manuscript form, maps and hydrographic or similar charts), other than publications wholly or predominantly devoted to advertising and other than publications wholly or predominantly consisting of video content or audible music; production of publications of non-profit-making organisations and services related to such production"
+                "description": "Supply, including on loan by libraries, of books, newspapers and periodicals either on physical means of support or supplied electronically or both (including brochures, leaflets and similar printed matter, children's picture, drawing or colouring books, music printed or in manuscript form, maps and hydrographic or similar charts), other than publications wholly or predominantly devoted to advertising and other than publications wholly or predominantly consisting of video content or audible music."
             },
             "comment": "9% applies to brochures, leaflets, programmes, catalogues, directories, maps, hydrographic and similar charts, and printed music- other than in book or booklet form; excluding matter devoted to advertising. The rate for these items was temporarily reduced from 13.5% to 9% from 1 November 2020 to 31 August 2023."
         },
@@ -384,7 +329,7 @@
                 "type": "REDUCED_RATE",
                 "value": 9
             },
-            "situationOn": "2024-07-01+02:00",
+            "situationOn": "2025-01-01+01:00",
             "cnCodes": {
                 "code": {
                     "value": "4902",
@@ -393,7 +338,7 @@
             },
             "category": {
                 "identifier": "LOAN_LIBRARIES",
-                "description": "Supply, including on loan by libraries, of books, newspapers and periodicals either on physical means of support or supplied electronically, or both, (including brochures, leaflets and similar printed matter, children's picture, drawing or colouring books, music printed or in manuscript form, maps and hydrographic or similar charts), other than publications wholly or predominantly devoted to advertising and other than publications wholly or predominantly consisting of video content or audible music; production of publications of non-profit-making organisations and services related to such production"
+                "description": "Supply, including on loan by libraries, of books, newspapers and periodicals either on physical means of support or supplied electronically or both (including brochures, leaflets and similar printed matter, children's picture, drawing or colouring books, music printed or in manuscript form, maps and hydrographic or similar charts), other than publications wholly or predominantly devoted to advertising and other than publications wholly or predominantly consisting of video content or audible music."
             },
             "comment": "9% applies to periodicals (in printed form or electronically supplied), and electronically supplied books, excluding publications wholly or predominantly dedicated to advertising, and electronic publications which consist wholly or predominantly of audible music or video content."
         },
@@ -402,121 +347,9 @@
             "type": "REDUCED",
             "rate": {
                 "type": "REDUCED_RATE",
-                "value": 9
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "55.10",
-                        "description": "Hotel and similar accommodation services"
-                    },
-                    {
-                        "value": "55.30",
-                        "description": "Camping ground, recreational and vacation camp services"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "ACCOMMODATION",
-                "description": "Accommodation provided in hotels and similar establishments, including the provision of holiday accommodation and the letting of places on camping or caravan sites"
-            },
-            "comment": "The rate for these items was temporarily reduced from 13.5% to 9% from 1 November 2020 to 31 August 2023"
-        },
-        {
-            "memberState": "IE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 9
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "56.10",
-                        "description": "Restaurant and mobile food serving services"
-                    },
-                    {
-                        "value": "56.10.11",
-                        "description": "Meal serving services with full restaurant service"
-                    },
-                    {
-                        "value": "56.21",
-                        "description": "Event catering services"
-                    },
-                    {
-                        "value": "56.21.1",
-                        "description": "Event catering services"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "RESTAURANT",
-                "description": "Restaurant and catering services, it being possible to exclude the supply of (alcoholic and\/or non-alcoholic) beverages"
-            },
-            "comment": "The rate for these items has been temporarily reduced from 13.5% to 9% from 1 November 2020 to 31 August \n 2023."
-        },
-        {
-            "memberState": "IE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 9
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "90.04.10",
-                        "description": "Arts facility operation services"
-                    },
-                    {
-                        "value": "91.02",
-                        "description": "Museum services"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "CULTURAL_EVENTS",
-                "description": "Admission to shows, theatres, circuses, fairs, amusement parks, concerts, museums, zoos, cinemas, exhibitions and similar cultural events and facilities or access to the live-streaming of those events or visits or both"
-            },
-            "comment": "The rate for these items was temporarily reduced from 13.5% to 9% from 1 November 2020 to 31 August 2023."
-        },
-        {
-            "memberState": "IE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 9
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "96.02.11",
-                        "description": "Hairdressing services for women and girls"
-                    },
-                    {
-                        "value": "96.02.12",
-                        "description": "Hairdressing and barbers' services for men and boys"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "HAIRDRESSING",
-                "description": "Hairdressing"
-            },
-            "comment": "The rate for these items was temporarily reduced from 13.5% to 9% from 1 November 2020 to 31 August  2023."
-        },
-        {
-            "memberState": "IE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
                 "value": 13.5
             },
-            "situationOn": "2024-07-01+02:00",
+            "situationOn": "2025-01-01+01:00",
             "cnCodes": {
                 "code": [
                     {
@@ -566,7 +399,7 @@
                 "type": "REDUCED_RATE",
                 "value": 13.5
             },
-            "situationOn": "2024-07-01+02:00",
+            "situationOn": "2025-01-01+01:00",
             "cnCodes": {
                 "code": [
                     {
@@ -581,7 +414,7 @@
             },
             "category": {
                 "identifier": "PHARMACEUTICAL_PRODUCTS",
-                "description": "Pharmaceutical products used for medical and veterinary purposes, including products used for contraception and female sanitary protection, and absorbent hygiene products"
+                "description": "Pharmaceutical products of a kind normally used for health care, prevention of illness and as treatment for medical and veterinary purposes, including products used for contraception and sanitary protection"
             },
             "comment": "Non-oral contraceptive products are liable at the 13.5% rate, including condoms and contraceptive gels. \nNon-oral pharmaceutical products are standard-rated. For specific queries, more detail can be found on the Revenue Commissioner's VAT Rates Database - https:\/\/www.revenue.ie\/en\/vat\/vat-rates\/index.aspx"
         },
@@ -592,7 +425,7 @@
                 "type": "REDUCED_RATE",
                 "value": 13.5
             },
-            "situationOn": "2024-07-01+02:00",
+            "situationOn": "2025-01-01+01:00",
             "cnCodes": {
                 "code": {
                     "value": "4911 91 00",
@@ -611,7 +444,7 @@
                 "type": "REDUCED_RATE",
                 "value": 13.5
             },
-            "situationOn": "2024-07-01+02:00",
+            "situationOn": "2025-01-01+01:00",
             "cnCodes": {
                 "code": [
                     {
@@ -636,7 +469,7 @@
                 "type": "REDUCED_RATE",
                 "value": 13.5
             },
-            "situationOn": "2024-07-01+02:00",
+            "situationOn": "2025-01-01+01:00",
             "cnCodes": {
                 "code": [
                     {
@@ -661,7 +494,7 @@
                 "type": "REDUCED_RATE",
                 "value": 13.5
             },
-            "situationOn": "2024-07-01+02:00",
+            "situationOn": "2025-01-01+01:00",
             "cnCodes": {
                 "code": {
                     "value": "8201",
@@ -690,7 +523,7 @@
             },
             "category": {
                 "identifier": "AGRICULTURAL_PRODUCTION",
-                "description": "Supply of goods and services of a kind normally intended for use in agricultural production but excluding capital goods such as machinery or buildings and, until 1 January 2032, supply of chemical pesticides and chemical fertilisers"
+                "description": "Supply of goods and services of a kind normally intended for use in agricultural production but excluding capital goods such as machinery or buildings"
             }
         },
         {
@@ -700,7 +533,7 @@
                 "type": "REDUCED_RATE",
                 "value": 13.5
             },
-            "situationOn": "2024-07-01+02:00",
+            "situationOn": "2025-01-01+01:00",
             "cnCodes": {
                 "code": {
                     "value": "9401 20 00",
@@ -721,7 +554,7 @@
             },
             "category": {
                 "identifier": "MEDICAL_EQUIPMENT",
-                "description": "Medical equipment, appliances, devices, items, aids and protective gear, including health protection masks, normally intended for use in health care or for the use of the disabled, goods essential to compensate and overcome disability, as well as the adaptation, repair, rental and leasing of such goods"
+                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
             },
             "comment": "Repairs to medical equipment apply at the 13.5% rate."
         },
@@ -732,7 +565,7 @@
                 "type": "REDUCED_RATE",
                 "value": 13.5
             },
-            "situationOn": "2024-07-01+02:00",
+            "situationOn": "2025-01-01+01:00",
             "cnCodes": {
                 "code": {
                     "value": "9701",
@@ -751,7 +584,7 @@
                 "type": "REDUCED_RATE",
                 "value": 13.5
             },
-            "situationOn": "2024-07-01+02:00",
+            "situationOn": "2025-01-01+01:00",
             "cnCodes": {
                 "code": {
                     "value": "9702 00 00",
@@ -770,7 +603,7 @@
                 "type": "REDUCED_RATE",
                 "value": 13.5
             },
-            "situationOn": "2024-07-01+02:00",
+            "situationOn": "2025-01-01+01:00",
             "cnCodes": {
                 "code": {
                     "value": "9703 00 00",
@@ -789,7 +622,7 @@
                 "type": "REDUCED_RATE",
                 "value": 13.5
             },
-            "situationOn": "2024-07-01+02:00",
+            "situationOn": "2025-01-01+01:00",
             "cnCodes": {
                 "code": {
                     "value": "9703 00 00",
@@ -808,7 +641,7 @@
                 "type": "REDUCED_RATE",
                 "value": 13.5
             },
-            "situationOn": "2024-07-01+02:00",
+            "situationOn": "2025-01-01+01:00",
             "cnCodes": {
                 "code": {
                     "value": "9703 00 00",
@@ -827,7 +660,7 @@
                 "type": "REDUCED_RATE",
                 "value": 13.5
             },
-            "situationOn": "2024-07-01+02:00",
+            "situationOn": "2025-01-01+01:00",
             "cnCodes": {
                 "code": {
                     "value": "9706 00 00",
@@ -846,7 +679,7 @@
                 "type": "REDUCED_RATE",
                 "value": 13.5
             },
-            "situationOn": "2024-07-01+02:00",
+            "situationOn": "2025-01-01+01:00",
             "cpaCodes": {
                 "code": [
                     {
@@ -861,7 +694,7 @@
             },
             "category": {
                 "identifier": "HOUSING_PROVISION",
-                "description": "Supply and construction, of housing, as part of a social policy, as defined by the Member States; renovation and alteration, including demolition and reconstruction, and repairing of housing and private dwellings; letting of immovable property for residential use"
+                "description": "Provision, construction, renovation and alteration of housing, as part of a social policy"
             }
         },
         {
@@ -871,7 +704,7 @@
                 "type": "REDUCED_RATE",
                 "value": 13.5
             },
-            "situationOn": "2024-07-01+02:00",
+            "situationOn": "2025-01-01+01:00",
             "cpaCodes": {
                 "code": [
                     {
@@ -886,8 +719,172 @@
             },
             "category": {
                 "identifier": "PRIVATE_DWELLINGS",
-                "description": "The renovation and repairing of public and other buildings used for activities in the public interest"
+                "description": "The renovation and repair of private dwellings, excluding materials which account for a significant part of the value of the service supplied"
             }
+        },
+        {
+            "memberState": "IE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 13.5
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "55.10",
+                        "description": "Hotel and similar accommodation services"
+                    },
+                    {
+                        "value": "55.30",
+                        "description": "Camping ground, recreational and vacation camp services"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "ACCOMMODATION",
+                "description": "Accommodation provided in hotels and similar establishments, including the provision of holiday accommodation and the letting of places on camping or caravan sites"
+            }
+        },
+        {
+            "memberState": "IE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 13.5
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "56.10",
+                        "description": "Restaurant and mobile food serving services"
+                    },
+                    {
+                        "value": "56.10.11",
+                        "description": "Meal serving services with full restaurant service"
+                    },
+                    {
+                        "value": "56.21",
+                        "description": "Event catering services"
+                    },
+                    {
+                        "value": "56.21.1",
+                        "description": "Event catering services"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "RESTAURANT",
+                "description": "Restaurant and catering services, it being possible to exclude the supply of (alcoholic and\/or non-alcoholic) beverages"
+            }
+        },
+        {
+            "memberState": "IE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 13.5
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "81.21.10",
+                        "description": "General cleaning services of buildings"
+                    },
+                    {
+                        "value": "81.22.11",
+                        "description": "Window cleaning services"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "WINDOW_CLEANING",
+                "description": "Window cleaning and cleaning in private households"
+            }
+        },
+        {
+            "memberState": "IE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 13.5
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "84.12.13",
+                    "description": "Administrative housing and community amenity services"
+                }
+            },
+            "category": {
+                "identifier": "STREET_CLEANING",
+                "description": "Supply of services provided in connection with street cleaning, refuse collection and waste treatment, other than the supply of such services by bodies referred to in Article 13"
+            },
+            "comment": "Street cleaning and refuse collecting apply at the 13.5% rate, waste treatment is at the standard VAT rate of 23%."
+        },
+        {
+            "memberState": "IE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 13.5
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "90.04.10",
+                        "description": "Arts facility operation services"
+                    },
+                    {
+                        "value": "91.02",
+                        "description": "Museum services"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "CULTURAL_EVENTS",
+                "description": "Admission to shows, theatres, circuses, fairs, amusement parks, concerts, museums, zoos, cinemas, exhibitions and similar cultural events and facilities"
+            },
+            "comment": "The rate for these items was temporarily reduced from 13.5% to 9% from 1 November 2020 to 31 August 2023."
+        },
+        {
+            "memberState": "IE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 13.5
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "96.02.11",
+                        "description": "Hairdressing services for women and girls"
+                    },
+                    {
+                        "value": "96.02.12",
+                        "description": "Hairdressing and barbers' services for men and boys"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "HAIRDRESSING",
+                "description": "Hairdressing"
+            }
+        },
+        {
+            "memberState": "IE",
+            "type": "STANDARD",
+            "rate": {
+                "type": "DEFAULT",
+                "value": 23
+            },
+            "situationOn": "2025-01-01+01:00",
+            "comment": "<p>The Standard Rate of VAT was temporarily reduced from 23% to 21% from 1 September 2020 to 28 February 2021. It has been restored to 23% from 1 March 2021.<\/p>"
         }
     ]
 }

@@ -902,214 +902,6 @@
             "cnCodes": {
                 "code": [
                     {
-                        "value": "0101",
-                        "description": "Live horses, asses, mules and hinnies"
-                    },
-                    {
-                        "value": "0102",
-                        "description": "Live bovine animals"
-                    },
-                    {
-                        "value": "0103",
-                        "description": "Live swine"
-                    },
-                    {
-                        "value": "0104",
-                        "description": "Live sheep and goats"
-                    },
-                    {
-                        "value": "0105",
-                        "description": "Live poultry, that is to say, fowls of the species Gallus domesticus, ducks, geese, turkeys and guinea fowls"
-                    },
-                    {
-                        "value": "0301",
-                        "description": "Live fish"
-                    },
-                    {
-                        "value": "0306",
-                        "description": "Crustaceans, whether in shell or not, live, fresh, chilled, frozen, dried, salted or in brine; smoked crustaceans, whether in shell or not, whether or not cooked before or during the smoking process; crustaceans, in shell, cooked by steaming or by boiling in water, whether or not chilled, frozen, dried, salted or in brine"
-                    },
-                    {
-                        "value": "0307",
-                        "description": "Molluscs, whether in shell or not, live, fresh, chilled, frozen, dried, salted or in brine; smoked molluscs, whether in shell or not, whether or not cooked before or during the smoking process"
-                    },
-                    {
-                        "value": "0407 11 00",
-                        "description": "Of fowls of the species Gallus domesticus"
-                    },
-                    {
-                        "value": "0407 19 11",
-                        "description": "Of turkeys or geese"
-                    },
-                    {
-                        "value": "0407 19 19",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "0407 19 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "0511 10 00",
-                        "description": "Bovine semen"
-                    },
-                    {
-                        "value": "0511 91 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "0511 99 85",
-                        "description": "Other"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "AGRICULTURAL_PRODUCTION",
-                "description": "Supply of goods and services of a kind normally intended for use in agricultural production but excluding capital goods such as machinery or buildings and, until 1 January 2032, supply of chemical pesticides and chemical fertilisers"
-            },
-            "comment": "Animals for fattening include domestic animals, normally intended for reproduction and breeding within livestock activities and aquaculture activities, including rabbits and bees.\n0511 91 90: only inedible fish eggs\nExcept: 0301 11 00, 0301 19 00, eggs for hatching ornamental birds"
-        },
-        {
-            "memberState": "SI",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 9.5
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "0602 10",
-                        "description": "Unrooted cuttings and slips"
-                    },
-                    {
-                        "value": "0602 20",
-                        "description": "Trees, shrubs and bushes, grafted or not, of kinds which bear edible fruit or nuts"
-                    },
-                    {
-                        "value": "0602 90 10",
-                        "description": "Mushroom spawn"
-                    },
-                    {
-                        "value": "0602 90 30",
-                        "description": "Vegetable and strawberry plants"
-                    },
-                    {
-                        "value": "0602 90 41",
-                        "description": "Forest trees"
-                    },
-                    {
-                        "value": "0701 10 00",
-                        "description": "Seed"
-                    },
-                    {
-                        "value": "0703",
-                        "description": "Onions, shallots, garlic, leeks and other alliaceous vegetables, fresh or chilled"
-                    },
-                    {
-                        "value": "0712 90 11",
-                        "description": "Hybrids for sowing"
-                    },
-                    {
-                        "value": "0713",
-                        "description": "Dried leguminous vegetables, shelled, whether or not skinned or split"
-                    },
-                    {
-                        "value": "0909",
-                        "description": "Seeds of anise, badian, fennel, coriander, cumin or caraway; juniper berries"
-                    },
-                    {
-                        "value": "0910 99 10",
-                        "description": "Fenugreek seed"
-                    },
-                    {
-                        "value": "1001",
-                        "description": "Wheat and meslin"
-                    },
-                    {
-                        "value": "1002",
-                        "description": "Rye"
-                    },
-                    {
-                        "value": "1003",
-                        "description": "Barley"
-                    },
-                    {
-                        "value": "1004",
-                        "description": "Oats"
-                    },
-                    {
-                        "value": "1005",
-                        "description": "Maize (corn)"
-                    },
-                    {
-                        "value": "1006",
-                        "description": "Rice"
-                    },
-                    {
-                        "value": "1007",
-                        "description": "Grain sorghum"
-                    },
-                    {
-                        "value": "1008",
-                        "description": "Buckwheat, millet and canary seed; other cereals"
-                    },
-                    {
-                        "value": "1201",
-                        "description": "Soya beans, whether or not broken"
-                    },
-                    {
-                        "value": "1202",
-                        "description": "Groundnuts, not roasted or otherwise cooked, whether or not shelled or broken"
-                    },
-                    {
-                        "value": "1203 00 00",
-                        "description": "Copra"
-                    },
-                    {
-                        "value": "1204 00",
-                        "description": "Linseed, whether or not broken"
-                    },
-                    {
-                        "value": "1205",
-                        "description": "Rape or colza seeds, whether or not broken"
-                    },
-                    {
-                        "value": "1206 00",
-                        "description": "Sunflower seeds, whether or not broken"
-                    },
-                    {
-                        "value": "1207",
-                        "description": "Other oil seeds and oleaginous fruits, whether or not broken"
-                    },
-                    {
-                        "value": "1209",
-                        "description": "Seeds, fruit and spores, of a kind used for sowing"
-                    },
-                    {
-                        "value": "1212 99 49",
-                        "description": "Other"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "AGRICULTURAL_PRODUCTION",
-                "description": "Supply of goods and services of a kind normally intended for use in agricultural production but excluding capital goods such as machinery or buildings and, until 1 January 2032, supply of chemical pesticides and chemical fertilisers"
-            },
-            "comment": "Seeds and seedlings of agricultural and forestry plants placed on the market in accordance with the regulations governing the trade in seeds and seedlings.\nExcept: 1209 30 00, 1209 99 91"
-        },
-        {
-            "memberState": "SI",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 9.5
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cnCodes": {
-                "code": [
-                    {
                         "value": "3002",
                         "description": "Human blood; animal blood prepared for therapeutic, prophylactic or diagnostic uses; antisera, other blood fractions and immunological products, whether or not modified or obtained by means of biotechnological processes; vaccines, toxins, cultures of micro-organisms (excluding yeasts) and similar products; cell cultures, whether or not modified"
                     },
@@ -1300,6 +1092,136 @@
             "cnCodes": {
                 "code": [
                     {
+                        "value": "0602 10",
+                        "description": "Unrooted cuttings and slips"
+                    },
+                    {
+                        "value": "0602 20",
+                        "description": "Trees, shrubs and bushes, grafted or not, of kinds which bear edible fruit or nuts"
+                    },
+                    {
+                        "value": "0602 90 10",
+                        "description": "Mushroom spawn"
+                    },
+                    {
+                        "value": "0602 90 30",
+                        "description": "Vegetable and strawberry plants"
+                    },
+                    {
+                        "value": "0602 90 41",
+                        "description": "Forest trees"
+                    },
+                    {
+                        "value": "0701 10 00",
+                        "description": "Seed"
+                    },
+                    {
+                        "value": "0703",
+                        "description": "Onions, shallots, garlic, leeks and other alliaceous vegetables, fresh or chilled"
+                    },
+                    {
+                        "value": "0712 90 11",
+                        "description": "Hybrids for sowing"
+                    },
+                    {
+                        "value": "0713",
+                        "description": "Dried leguminous vegetables, shelled, whether or not skinned or split"
+                    },
+                    {
+                        "value": "0909",
+                        "description": "Seeds of anise, badian, fennel, coriander, cumin or caraway; juniper berries"
+                    },
+                    {
+                        "value": "0910 99 10",
+                        "description": "Fenugreek seed"
+                    },
+                    {
+                        "value": "1001",
+                        "description": "Wheat and meslin"
+                    },
+                    {
+                        "value": "1002",
+                        "description": "Rye"
+                    },
+                    {
+                        "value": "1003",
+                        "description": "Barley"
+                    },
+                    {
+                        "value": "1004",
+                        "description": "Oats"
+                    },
+                    {
+                        "value": "1005",
+                        "description": "Maize (corn)"
+                    },
+                    {
+                        "value": "1006",
+                        "description": "Rice"
+                    },
+                    {
+                        "value": "1007",
+                        "description": "Grain sorghum"
+                    },
+                    {
+                        "value": "1008",
+                        "description": "Buckwheat, millet and canary seed; other cereals"
+                    },
+                    {
+                        "value": "1201",
+                        "description": "Soya beans, whether or not broken"
+                    },
+                    {
+                        "value": "1202",
+                        "description": "Groundnuts, not roasted or otherwise cooked, whether or not shelled or broken"
+                    },
+                    {
+                        "value": "1203 00 00",
+                        "description": "Copra"
+                    },
+                    {
+                        "value": "1204 00",
+                        "description": "Linseed, whether or not broken"
+                    },
+                    {
+                        "value": "1205",
+                        "description": "Rape or colza seeds, whether or not broken"
+                    },
+                    {
+                        "value": "1206 00",
+                        "description": "Sunflower seeds, whether or not broken"
+                    },
+                    {
+                        "value": "1207",
+                        "description": "Other oil seeds and oleaginous fruits, whether or not broken"
+                    },
+                    {
+                        "value": "1209",
+                        "description": "Seeds, fruit and spores, of a kind used for sowing"
+                    },
+                    {
+                        "value": "1212 99 49",
+                        "description": "Other"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "AGRICULTURAL_PRODUCTION",
+                "description": "Supply of goods and services of a kind normally intended for use in agricultural production but excluding capital goods such as machinery or buildings and, until 1 January 2032, supply of chemical pesticides and chemical fertilisers"
+            },
+            "comment": "Seeds and seedlings of agricultural and forestry plants placed on the market in accordance with the regulations governing the trade in seeds and seedlings.\nExcept: 1209 30 00, 1209 99 91"
+        },
+        {
+            "memberState": "SI",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 9.5
+            },
+            "situationOn": "2024-07-01+02:00",
+            "cnCodes": {
+                "code": [
+                    {
                         "value": "3214 10 10",
                         "description": "Glaziers' putty, grafting putty, resin cements, caulking compounds and other mastics"
                     },
@@ -1450,6 +1372,84 @@
                 "description": "Medical equipment, appliances, devices, items, aids and protective gear, including health protection masks, normally intended for use in health care or for the use of the disabled, goods essential to compensate and overcome disability, as well as the adaptation, repair, rental and leasing of such goods"
             },
             "comment": "Children's tricycle for children with motor impairments, wooden chair for children with motor impairment; therapeutic rollers, therapeutic balls, therapeutic exercise boards and therapeutic pillows for children with motor impairments; room lift and bathroom lift"
+        },
+        {
+            "memberState": "SI",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 9.5
+            },
+            "situationOn": "2024-07-01+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "0101",
+                        "description": "Live horses, asses, mules and hinnies"
+                    },
+                    {
+                        "value": "0102",
+                        "description": "Live bovine animals"
+                    },
+                    {
+                        "value": "0103",
+                        "description": "Live swine"
+                    },
+                    {
+                        "value": "0104",
+                        "description": "Live sheep and goats"
+                    },
+                    {
+                        "value": "0105",
+                        "description": "Live poultry, that is to say, fowls of the species Gallus domesticus, ducks, geese, turkeys and guinea fowls"
+                    },
+                    {
+                        "value": "0301",
+                        "description": "Live fish"
+                    },
+                    {
+                        "value": "0306",
+                        "description": "Crustaceans, whether in shell or not, live, fresh, chilled, frozen, dried, salted or in brine; smoked crustaceans, whether in shell or not, whether or not cooked before or during the smoking process; crustaceans, in shell, cooked by steaming or by boiling in water, whether or not chilled, frozen, dried, salted or in brine"
+                    },
+                    {
+                        "value": "0307",
+                        "description": "Molluscs, whether in shell or not, live, fresh, chilled, frozen, dried, salted or in brine; smoked molluscs, whether in shell or not, whether or not cooked before or during the smoking process"
+                    },
+                    {
+                        "value": "0407 11 00",
+                        "description": "Of fowls of the species Gallus domesticus"
+                    },
+                    {
+                        "value": "0407 19 11",
+                        "description": "Of turkeys or geese"
+                    },
+                    {
+                        "value": "0407 19 19",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "0407 19 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "0511 10 00",
+                        "description": "Bovine semen"
+                    },
+                    {
+                        "value": "0511 91 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "0511 99 85",
+                        "description": "Other"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "AGRICULTURAL_PRODUCTION",
+                "description": "Supply of goods and services of a kind normally intended for use in agricultural production but excluding capital goods such as machinery or buildings and, until 1 January 2032, supply of chemical pesticides and chemical fertilisers"
+            },
+            "comment": "Animals for fattening include domestic animals, normally intended for reproduction and breeding within livestock activities and aquaculture activities, including rabbits and bees.\n0511 91 90: only inedible fish eggs\nExcept: 0301 11 00, 0301 19 00, eggs for hatching ornamental birds"
         },
         {
             "memberState": "SI",

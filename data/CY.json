@@ -5,10 +5,128 @@
             "memberState": "CY",
             "type": "REDUCED",
             "rate": {
+                "type": "SUPER_REDUCED_RATE",
+                "value": 3
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "49",
+                        "description": "CHAPTER 49 - PRINTED BOOKS, NEWSPAPERS, PICTURES AND OTHER PRODUCTS OF THE PRINTING INDUSTRY; MANUSCRIPTS, TYPESCRIPTS AND PLANS"
+                    },
+                    {
+                        "value": "85",
+                        "description": "CHAPTER 85 - ELECTRICAL MACHINERY AND EQUIPMENT AND PARTS THEREOF; SOUND RECORDERS AND REPRODUCERS, TELEVISION IMAGE AND SOUND RECORDERS AND REPRODUCERS, AND PARTS AND ACCESSORIES OF SUCH ARTICLES"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "BOOKS",
+                "description": "Books"
+            },
+            "comment": "Books under tariff code 49.01-49.05\nAudio books for persons with disability under tariff code 85.23"
+        },
+        {
+            "memberState": "CY",
+            "type": "REDUCED",
+            "rate": {
+                "type": "SUPER_REDUCED_RATE",
+                "value": 3
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "84",
+                        "description": "CHAPTER 84 - NUCLEAR REACTORS, BOILERS, MACHINERY AND MECHANICAL APPLIANCES; PARTS THEREOF"
+                    },
+                    {
+                        "value": "90",
+                        "description": "CHAPTER 90 - OPTICAL, PHOTOGRAPHIC, CINEMATOGRAPHIC, MEASURING, CHECKING, PRECISION, MEDICAL OR SURGICAL INSTRUMENTS AND APPARATUS; PARTS AND ACCESSORIES THEREOF"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "MEDICAL_EQUIPMENT",
+                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
+            },
+            "comment": "3% VAT rate from 21\/7\/2023 \nLifting devices for the disabled \n(under tariff code 84.28)\nBraille typewriters and pocket size specialized electronic communication devices for the disabled (under tariff code 84.69)\nOrthopedic devices including medical surgical belts, bandage and crutches, splints, supports and other items and devices for fractures, items and prosthetic devices, hearing devices for the deaf (under tariff code 90.21)\nWheelchairs for the disabled  \n(under tariff code 87.13)"
+        },
+        {
+            "memberState": "CY",
+            "type": "REDUCED",
+            "rate": {
+                "type": "SUPER_REDUCED_RATE",
+                "value": 3
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "38",
+                    "description": "Waste collection, treatment and disposal services; materials recovery services"
+                }
+            },
+            "category": {
+                "identifier": "WASTE_TREATMENT_REFUSAL",
+                "description": "Refuse collection and waste treatment"
+            }
+        },
+        {
+            "memberState": "CY",
+            "type": "REDUCED",
+            "rate": {
+                "type": "SUPER_REDUCED_RATE",
+                "value": 3
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "38",
+                    "description": "Waste collection, treatment and disposal services; materials recovery services"
+                }
+            },
+            "category": {
+                "identifier": "WASTE_TREATMENT",
+                "description": "Sewage disposal and treatment and emptying of septic tanks and industrial tanks"
+            }
+        },
+        {
+            "memberState": "CY",
+            "type": "REDUCED",
+            "rate": {
+                "type": "SUPER_REDUCED_RATE",
+                "value": 3
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "93",
+                    "description": "Sporting services and amusement and recreation services"
+                }
+            },
+            "category": {
+                "identifier": "THEATRE_PERFORMANCES",
+                "description": "140 first theatre and circus performances"
+            }
+        },
+        {
+            "memberState": "CY",
+            "type": "STANDARD",
+            "rate": {
+                "type": "DEFAULT",
+                "value": 19
+            },
+            "situationOn": "2025-01-01+01:00"
+        },
+        {
+            "memberState": "CY",
+            "type": "REDUCED",
+            "rate": {
                 "type": "EXEMPTED",
                 "value": 0
             },
-            "situationOn": "2024-07-01+02:00",
+            "situationOn": "2025-01-01+01:00",
             "cpaCodes": {
                 "code": [
                     {
@@ -27,7 +145,7 @@
             },
             "category": {
                 "identifier": "CULTURAL_EVENTS",
-                "description": "Admission to shows, theatres, circuses, fairs, amusement parks, concerts, museums, zoos, cinemas, exhibitions and similar cultural events and facilities or access to the live-streaming of those events or visits or both"
+                "description": "Admission to shows, theatres, circuses, fairs, amusement parks, concerts, museums, zoos, cinemas, exhibitions and similar cultural events and facilities"
             },
             "comment": "When organized by non-profit organizations and does not distort competition between them and profit organizations"
         },
@@ -38,7 +156,7 @@
                 "type": "NOT_APPLICABLE",
                 "value": 0
             },
-            "situationOn": "2024-07-01+02:00",
+            "situationOn": "2025-01-01+01:00",
             "cpaCodes": {
                 "code": [
                     {
@@ -53,7 +171,7 @@
             },
             "category": {
                 "identifier": "PRIVATE_DWELLINGS",
-                "description": "The renovation and repairing of public and other buildings used for activities in the public interest"
+                "description": "The renovation and repair of private dwellings, excluding materials which account for a significant part of the value of the service supplied"
             }
         },
         {
@@ -63,7 +181,7 @@
                 "type": "NOT_APPLICABLE",
                 "value": 0
             },
-            "situationOn": "2024-07-01+02:00",
+            "situationOn": "2025-01-01+01:00",
             "cpaCodes": {
                 "code": [
                     {
@@ -110,7 +228,7 @@
             },
             "category": {
                 "identifier": "SOCIAL_WELLBEING",
-                "description": "Supply of goods and services by organisations engaged in welfare or social security work as defined by Member States and recognised as being devoted to social wellbeing by Member States, in so far as those transactions are not exempt pursuant to Articles 132, 135 and 136"
+                "description": "Supply of goods and services by organisations recognised as being devoted to social wellbeing by Member States and engaged in welfare or social security work"
             }
         },
         {
@@ -120,7 +238,7 @@
                 "type": "NOT_APPLICABLE",
                 "value": 0
             },
-            "situationOn": "2024-07-01+02:00",
+            "situationOn": "2025-01-01+01:00",
             "cpaCodes": {
                 "code": {
                     "value": "96",
@@ -139,7 +257,7 @@
                 "type": "REDUCED_RATE",
                 "value": 5
             },
-            "situationOn": "2024-07-01+02:00",
+            "situationOn": "2025-01-01+01:00",
             "cnCodes": {
                 "code": {
                     "value": "01",
@@ -148,7 +266,7 @@
             },
             "category": {
                 "identifier": "AGRICULTURAL_PRODUCTION",
-                "description": "Supply of goods and services of a kind normally intended for use in agricultural production but excluding capital goods such as machinery or buildings and, until 1 January 2032, supply of chemical pesticides and chemical fertilisers"
+                "description": "Supply of goods and services of a kind normally intended for use in agricultural production but excluding capital goods such as machinery or buildings"
             },
             "comment": "Live animals, feeding stuffs (including food for birds and fish)"
         },
@@ -159,7 +277,7 @@
                 "type": "REDUCED_RATE",
                 "value": 5
             },
-            "situationOn": "2024-07-01+02:00",
+            "situationOn": "2025-01-01+01:00",
             "cnCodes": {
                 "code": [
                     {
@@ -225,7 +343,7 @@
                 "type": "REDUCED_RATE",
                 "value": 5
             },
-            "situationOn": "2024-07-01+02:00",
+            "situationOn": "2025-01-01+01:00",
             "cnCodes": {
                 "code": {
                     "value": "30",
@@ -234,7 +352,7 @@
             },
             "category": {
                 "identifier": "PHARMACEUTICAL_PRODUCTS",
-                "description": "Pharmaceutical products used for medical and veterinary purposes, including products used for contraception and female sanitary protection, and absorbent hygiene products"
+                "description": "Pharmaceutical products of a kind normally used for health care, prevention of illness and as treatment for medical and veterinary purposes, including products used for contraception and sanitary protection"
             },
             "comment": "The sale of in vitro products and vaccines related to virus covid 19 are liable at 0% from 13\/01\/2023 until 31\/5\/2023\n\nFrom 5\/5\/2023 the sale of the following: baby diapers, adult diapers, products related to feminine hygiene protection are liable at the 0%"
         },
@@ -245,7 +363,7 @@
                 "type": "REDUCED_RATE",
                 "value": 5
             },
-            "situationOn": "2024-07-01+02:00",
+            "situationOn": "2025-01-01+01:00",
             "cnCodes": {
                 "code": {
                     "value": "31",
@@ -254,7 +372,7 @@
             },
             "category": {
                 "identifier": "AGRICULTURAL_PRODUCTION",
-                "description": "Supply of goods and services of a kind normally intended for use in agricultural production but excluding capital goods such as machinery or buildings and, until 1 January 2032, supply of chemical pesticides and chemical fertilisers"
+                "description": "Supply of goods and services of a kind normally intended for use in agricultural production but excluding capital goods such as machinery or buildings"
             },
             "comment": "Fertilizers, insecticides, rodenticides, fungicides, herbicides, disinfectants (under tariff code 31)"
         },
@@ -265,7 +383,7 @@
                 "type": "REDUCED_RATE",
                 "value": 5
             },
-            "situationOn": "2024-07-01+02:00",
+            "situationOn": "2025-01-01+01:00",
             "cnCodes": {
                 "code": [
                     {
@@ -280,7 +398,7 @@
             },
             "category": {
                 "identifier": "MEDICAL_EQUIPMENT",
-                "description": "Medical equipment, appliances, devices, items, aids and protective gear, including health protection masks, normally intended for use in health care or for the use of the disabled, goods essential to compensate and overcome disability, as well as the adaptation, repair, rental and leasing of such goods"
+                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
             },
             "comment": "Lifting devices for the disabled \n(under tariff code 84.28)\nBraille typewriters and pocket size specialized electronic communication devices for the disabled (under tariff code 84.69)\nHearing aids and orthopedic devices (under tariff code 90.21)\nWheelchairs for the disabled  \n(under tariff code 87.13)\nRepair services of the aforementioned goods - standard rate"
         },
@@ -291,7 +409,7 @@
                 "type": "REDUCED_RATE",
                 "value": 5
             },
-            "situationOn": "2024-07-01+02:00",
+            "situationOn": "2025-01-01+01:00",
             "cnCodes": {
                 "code": {
                     "value": "87",
@@ -300,7 +418,7 @@
             },
             "category": {
                 "identifier": "CHILDREN_CAR_SEATS",
-                "description": "Children’s car seats"
+                "description": "Supply of children’s car seats"
             },
             "comment": "Children's car seats to be used by land vehicles and specially designed for children up to 12 years old"
         },
@@ -311,7 +429,7 @@
                 "type": "REDUCED_RATE",
                 "value": 5
             },
-            "situationOn": "2024-07-01+02:00",
+            "situationOn": "2025-01-01+01:00",
             "cnCodes": {
                 "code": {
                     "value": "97",
@@ -330,7 +448,7 @@
                 "type": "REDUCED_RATE",
                 "value": 5
             },
-            "situationOn": "2024-07-01+02:00",
+            "situationOn": "2025-01-01+01:00",
             "cnCodes": {
                 "code": {
                     "value": "97",
@@ -350,7 +468,7 @@
                 "type": "REDUCED_RATE",
                 "value": 5
             },
-            "situationOn": "2024-07-01+02:00",
+            "situationOn": "2025-01-01+01:00",
             "cpaCodes": {
                 "code": {
                     "value": "32",
@@ -370,7 +488,7 @@
                 "type": "REDUCED_RATE",
                 "value": 5
             },
-            "situationOn": "2024-07-01+02:00",
+            "situationOn": "2025-01-01+01:00",
             "cpaCodes": {
                 "code": {
                     "value": "36",
@@ -389,7 +507,7 @@
                 "type": "REDUCED_RATE",
                 "value": 5
             },
-            "situationOn": "2024-07-01+02:00",
+            "situationOn": "2025-01-01+01:00",
             "cpaCodes": {
                 "code": {
                     "value": "38",
@@ -398,7 +516,7 @@
             },
             "category": {
                 "identifier": "STREET_CLEANING",
-                "description": "Supply of services provided in connection with sewage, street cleaning, refuse collection and waste treatment or waste recycling, other than the supply of such services by bodies referred to in Article 13"
+                "description": "Supply of services provided in connection with street cleaning, refuse collection and waste treatment, other than the supply of such services by bodies referred to in Article 13"
             }
         },
         {
@@ -408,7 +526,7 @@
                 "type": "REDUCED_RATE",
                 "value": 5
             },
-            "situationOn": "2024-07-01+02:00",
+            "situationOn": "2025-01-01+01:00",
             "cpaCodes": {
                 "code": {
                     "value": "41",
@@ -417,7 +535,7 @@
             },
             "category": {
                 "identifier": "HOUSING_PROVISION",
-                "description": "Supply and construction, of housing, as part of a social policy, as defined by the Member States; renovation and alteration, including demolition and reconstruction, and repairing of housing and private dwellings; letting of immovable property for residential use"
+                "description": "Provision, construction, renovation and alteration of housing, as part of a social policy"
             },
             "comment": "Renovation services related to extension of house used as a residence"
         },
@@ -428,7 +546,7 @@
                 "type": "REDUCED_RATE",
                 "value": 5
             },
-            "situationOn": "2024-07-01+02:00",
+            "situationOn": "2025-01-01+01:00",
             "cpaCodes": {
                 "code": {
                     "value": "49",
@@ -437,7 +555,7 @@
             },
             "category": {
                 "identifier": "TRANSPORT_PASSENGERS",
-                "description": "Transport of passengers and the transport of goods accompanying them, such as luggage, bicycles, including electric bicycles, motor or other vehicles, or the supply of services relating to the transport of passengers"
+                "description": "Transport of passengers and their accompanying luggage"
             },
             "comment": "City and rural buses"
         },
@@ -448,7 +566,7 @@
                 "type": "REDUCED_RATE",
                 "value": 5
             },
-            "situationOn": "2024-07-01+02:00",
+            "situationOn": "2025-01-01+01:00",
             "cpaCodes": {
                 "code": [
                     {
@@ -473,7 +591,7 @@
                 "type": "REDUCED_RATE",
                 "value": 5
             },
-            "situationOn": "2024-07-01+02:00",
+            "situationOn": "2025-01-01+01:00",
             "cpaCodes": {
                 "code": {
                     "value": "86",
@@ -482,7 +600,7 @@
             },
             "category": {
                 "identifier": "MEDICAL_CARE",
-                "description": "Provision of medical and dental care and thermal treatment in so far as those services are not exempt pursuant to points (b) to (e) of Article 132(1)"
+                "description": "Provision of medical and dental care and thermal treatment"
             }
         },
         {
@@ -492,7 +610,7 @@
                 "type": "REDUCED_RATE",
                 "value": 5
             },
-            "situationOn": "2024-07-01+02:00",
+            "situationOn": "2025-01-01+01:00",
             "cpaCodes": {
                 "code": {
                     "value": "93",
@@ -501,7 +619,7 @@
             },
             "category": {
                 "identifier": "CULTURAL_EVENTS",
-                "description": "Admission to shows, theatres, circuses, fairs, amusement parks, concerts, museums, zoos, cinemas, exhibitions and similar cultural events and facilities or access to the live-streaming of those events or visits or both"
+                "description": "Admission to shows, theatres, circuses, fairs, amusement parks, concerts, museums, zoos, cinemas, exhibitions and similar cultural events and facilities"
             }
         },
         {
@@ -511,7 +629,7 @@
                 "type": "REDUCED_RATE",
                 "value": 5
             },
-            "situationOn": "2024-07-01+02:00",
+            "situationOn": "2025-01-01+01:00",
             "cpaCodes": {
                 "code": {
                     "value": "93",
@@ -520,7 +638,7 @@
             },
             "category": {
                 "identifier": "SPORTING_EVENTS",
-                "description": "Admission to sporting events or access to the live-streaming of those events or both; use of sporting facilities, and the supply of sport or physical exercise classes also when live-streamed"
+                "description": "Admission to sporting events"
             }
         },
         {
@@ -530,7 +648,7 @@
                 "type": "REDUCED_RATE",
                 "value": 5
             },
-            "situationOn": "2024-07-01+02:00",
+            "situationOn": "2025-01-01+01:00",
             "cpaCodes": {
                 "code": {
                     "value": "96",
@@ -550,7 +668,7 @@
                 "type": "REDUCED_RATE",
                 "value": 9
             },
-            "situationOn": "2024-07-01+02:00",
+            "situationOn": "2025-01-01+01:00",
             "cpaCodes": {
                 "code": {
                     "value": "49",
@@ -559,7 +677,7 @@
             },
             "category": {
                 "identifier": "TRANSPORT_PASSENGERS",
-                "description": "Transport of passengers and the transport of goods accompanying them, such as luggage, bicycles, including electric bicycles, motor or other vehicles, or the supply of services relating to the transport of passengers"
+                "description": "Transport of passengers and their accompanying luggage"
             },
             "comment": "Urban\/suburban\/rural taxi\nTouristic\/excursion\/intercity buses"
         },
@@ -570,7 +688,7 @@
                 "type": "REDUCED_RATE",
                 "value": 9
             },
-            "situationOn": "2024-07-01+02:00",
+            "situationOn": "2025-01-01+01:00",
             "cpaCodes": {
                 "code": {
                     "value": "55",
@@ -590,7 +708,7 @@
                 "type": "REDUCED_RATE",
                 "value": 9
             },
-            "situationOn": "2024-07-01+02:00",
+            "situationOn": "2025-01-01+01:00",
             "cpaCodes": {
                 "code": {
                     "value": "56",
@@ -610,33 +728,7 @@
                 "type": "SUPER_REDUCED_RATE",
                 "value": 3
             },
-            "situationOn": "2024-07-01+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "49",
-                        "description": "CHAPTER 49 - PRINTED BOOKS, NEWSPAPERS, PICTURES AND OTHER PRODUCTS OF THE PRINTING INDUSTRY; MANUSCRIPTS, TYPESCRIPTS AND PLANS"
-                    },
-                    {
-                        "value": "85",
-                        "description": "CHAPTER 85 - ELECTRICAL MACHINERY AND EQUIPMENT AND PARTS THEREOF; SOUND RECORDERS AND REPRODUCERS, TELEVISION IMAGE AND SOUND RECORDERS AND REPRODUCERS, AND PARTS AND ACCESSORIES OF SUCH ARTICLES"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "BOOKS",
-                "description": "Books"
-            },
-            "comment": "Books under tariff code 49.01-49.05\nAudio books for persons with disability under tariff code 85.23"
-        },
-        {
-            "memberState": "CY",
-            "type": "REDUCED",
-            "rate": {
-                "type": "SUPER_REDUCED_RATE",
-                "value": 3
-            },
-            "situationOn": "2024-07-01+02:00",
+            "situationOn": "2025-01-01+01:00",
             "cnCodes": {
                 "code": {
                     "value": "49",
@@ -656,7 +748,7 @@
                 "type": "SUPER_REDUCED_RATE",
                 "value": 3
             },
-            "situationOn": "2024-07-01+02:00",
+            "situationOn": "2025-01-01+01:00",
             "cnCodes": {
                 "code": {
                     "value": "49",
@@ -668,98 +760,6 @@
                 "description": "Periodicals"
             },
             "comment": "under tariff code 49.01-49.05"
-        },
-        {
-            "memberState": "CY",
-            "type": "REDUCED",
-            "rate": {
-                "type": "SUPER_REDUCED_RATE",
-                "value": 3
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "84",
-                        "description": "CHAPTER 84 - NUCLEAR REACTORS, BOILERS, MACHINERY AND MECHANICAL APPLIANCES; PARTS THEREOF"
-                    },
-                    {
-                        "value": "90",
-                        "description": "CHAPTER 90 - OPTICAL, PHOTOGRAPHIC, CINEMATOGRAPHIC, MEASURING, CHECKING, PRECISION, MEDICAL OR SURGICAL INSTRUMENTS AND APPARATUS; PARTS AND ACCESSORIES THEREOF"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "MEDICAL_EQUIPMENT",
-                "description": "Medical equipment, appliances, devices, items, aids and protective gear, including health protection masks, normally intended for use in health care or for the use of the disabled, goods essential to compensate and overcome disability, as well as the adaptation, repair, rental and leasing of such goods"
-            },
-            "comment": "3% VAT rate from 21\/7\/2023 \nLifting devices for the disabled \n(under tariff code 84.28)\nBraille typewriters and pocket size specialized electronic communication devices for the disabled (under tariff code 84.69)\nOrthopedic devices including medical surgical belts, bandage and crutches, splints, supports and other items and devices for fractures, items and prosthetic devices, hearing devices for the deaf (under tariff code 90.21)\nWheelchairs for the disabled  \n(under tariff code 87.13)"
-        },
-        {
-            "memberState": "CY",
-            "type": "REDUCED",
-            "rate": {
-                "type": "SUPER_REDUCED_RATE",
-                "value": 3
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cpaCodes": {
-                "code": {
-                    "value": "38",
-                    "description": "Waste collection, treatment and disposal services; materials recovery services"
-                }
-            },
-            "category": {
-                "identifier": "WASTE_TREATMENT_REFUSAL",
-                "description": "Refuse collection and waste treatment"
-            }
-        },
-        {
-            "memberState": "CY",
-            "type": "REDUCED",
-            "rate": {
-                "type": "SUPER_REDUCED_RATE",
-                "value": 3
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cpaCodes": {
-                "code": {
-                    "value": "38",
-                    "description": "Waste collection, treatment and disposal services; materials recovery services"
-                }
-            },
-            "category": {
-                "identifier": "WASTE_TREATMENT",
-                "description": "Sewage disposal and treatment and emptying of septic tanks and industrial tanks"
-            }
-        },
-        {
-            "memberState": "CY",
-            "type": "REDUCED",
-            "rate": {
-                "type": "SUPER_REDUCED_RATE",
-                "value": 3
-            },
-            "situationOn": "2024-07-01+02:00",
-            "cpaCodes": {
-                "code": {
-                    "value": "93",
-                    "description": "Sporting services and amusement and recreation services"
-                }
-            },
-            "category": {
-                "identifier": "THEATRE_PERFORMANCES",
-                "description": "140 first theatre and circus performances"
-            }
-        },
-        {
-            "memberState": "CY",
-            "type": "STANDARD",
-            "rate": {
-                "type": "DEFAULT",
-                "value": 19
-            },
-            "situationOn": "2024-07-01+02:00"
         }
     ]
 }
