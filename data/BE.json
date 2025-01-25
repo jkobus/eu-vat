@@ -5,6 +5,58 @@
             "memberState": "BE",
             "type": "REDUCED",
             "rate": {
+                "type": "REDUCED_RATE",
+                "value": 12
+            },
+            "situationOn": "2025-01-01+01:00",
+            "category": {
+                "identifier": "AGRICULTURAL_PRODUCTION",
+                "description": "Supply of goods and services of a kind normally intended for use in agricultural production but excluding capital goods such as machinery or buildings"
+            },
+            "comment": "The reduced rate only applies for: \n- products that will apparently be used as fertilisers and mixed with recognised plant protection products for agricultural use (2509 0000, 2522 2000), kieserite (2530 2000) or thiosulfates, monopotassium phosphates and magnesium sulfates (2832 3000, 2833 2100, 2835 2400) used as fertilisers and mixed with recognised plant protection products for agricultural use"
+        },
+        {
+            "memberState": "BE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 12
+            },
+            "situationOn": "2025-01-01+01:00",
+            "category": {
+                "identifier": "FOODSTUFFS",
+                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
+            },
+            "comment": "Royal Decree N° 20, Table B, category VI \n\nThe reduced rate only applies for margarine in 1517"
+        },
+        {
+            "memberState": "BE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 12
+            },
+            "situationOn": "2025-01-01+01:00",
+            "category": {
+                "identifier": "FOSSIL_FUEL",
+                "description": "Until 1 January 2030: Fossil fuels"
+            },
+            "comment": "Coal and solid fuels manufactured from coal, lignite (excluding jet), certain coke and semi-coke, used as fuel – Royal Decree N° 20, Table B, category VIII. The reduced rate only applies to 2704 00 90 if not retort coal and to 2713 1100 if used as fuel"
+        },
+        {
+            "memberState": "BE",
+            "type": "STANDARD",
+            "rate": {
+                "type": "DEFAULT",
+                "value": 21
+            },
+            "situationOn": "2025-01-01+01:00",
+            "comment": "<p>Article 1, paragraph 1, of the Royal Decree n° 20 of 20 July 1970<\/p>"
+        },
+        {
+            "memberState": "BE",
+            "type": "REDUCED",
+            "rate": {
                 "type": "EXEMPTED",
                 "value": 0
             },
@@ -1316,58 +1368,6 @@
                 "description": "Supply of goods and services of a kind normally intended for use in agricultural production but excluding capital goods such as machinery or buildings"
             },
             "comment": "Royal Decree N° 20, Table B, category III: plant protection products  \n\nThe reduced rate only applies for: \n- recognised plant protection products for agriculture use in 31 and 3808"
-        },
-        {
-            "memberState": "BE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 12
-            },
-            "situationOn": "2025-01-01+01:00",
-            "category": {
-                "identifier": "AGRICULTURAL_PRODUCTION",
-                "description": "Supply of goods and services of a kind normally intended for use in agricultural production but excluding capital goods such as machinery or buildings"
-            },
-            "comment": "The reduced rate only applies for: \n- products that will apparently be used as fertilisers and mixed with recognised plant protection products for agricultural use (2509 0000, 2522 2000), kieserite (2530 2000) or thiosulfates, monopotassium phosphates and magnesium sulfates (2832 3000, 2833 2100, 2835 2400) used as fertilisers and mixed with recognised plant protection products for agricultural use"
-        },
-        {
-            "memberState": "BE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 12
-            },
-            "situationOn": "2025-01-01+01:00",
-            "category": {
-                "identifier": "FOODSTUFFS",
-                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
-            },
-            "comment": "Royal Decree N° 20, Table B, category VI \n\nThe reduced rate only applies for margarine in 1517"
-        },
-        {
-            "memberState": "BE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 12
-            },
-            "situationOn": "2025-01-01+01:00",
-            "category": {
-                "identifier": "FOSSIL_FUEL",
-                "description": "Until 1 January 2030: Fossil fuels"
-            },
-            "comment": "Coal and solid fuels manufactured from coal, lignite (excluding jet), certain coke and semi-coke, used as fuel – Royal Decree N° 20, Table B, category VIII. The reduced rate only applies to 2704 00 90 if not retort coal and to 2713 1100 if used as fuel"
-        },
-        {
-            "memberState": "BE",
-            "type": "STANDARD",
-            "rate": {
-                "type": "DEFAULT",
-                "value": 21
-            },
-            "situationOn": "2025-01-01+01:00",
-            "comment": "<p>Article 1, paragraph 1, of the Royal Decree n° 20 of 20 July 1970<\/p>"
         }
     ]
 }
