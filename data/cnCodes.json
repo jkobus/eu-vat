@@ -1003,14 +1003,6 @@
         "code": "0305 79 00",
         "description": "Other"
     },
-    "04": {
-        "code": "04",
-        "description": "CHAPTER 4 - DAIRY PRODUCE; BIRDS' EGGS; NATURAL HONEY; EDIBLE PRODUCTS OF ANIMAL ORIGIN, NOT ELSEWHERE SPECIFIED OR INCLUDED"
-    },
-    "05": {
-        "code": "05",
-        "description": "CHAPTER 5 - PRODUCTS OF ANIMAL ORIGIN, NOT ELSEWHERE SPECIFIED OR INCLUDED"
-    },
     "0306": {
         "code": "0306",
         "description": "Crustaceans, whether in shell or not, live, fresh, chilled, frozen, dried, salted or in brine; smoked crustaceans, whether in shell or not, whether or not cooked before or during the smoking process; crustaceans, in shell, cooked by steaming or by boiling in water, whether or not chilled, frozen, dried, salted or in brine"
@@ -1267,10 +1259,6 @@
         "code": "0307 99 00",
         "description": "Other"
     },
-    "0308": {
-        "code": "0308",
-        "description": "Aquatic invertebrates other than crustaceans and molluscs, live, fresh, chilled, frozen, dried, salted or in brine; smoked aquatic invertebrates other than crustaceans and molluscs, whether or not cooked before or during the smoking process"
-    },
     "0308 11 00": {
         "code": "0308 11 00",
         "description": "Live, fresh or chilled"
@@ -1311,13 +1299,25 @@
         "code": "0309",
         "description": "Flours, meals and pellets of fish, crustaceans, molluscs and other aquatic invertebrates, fit for human consumption"
     },
-    "0309 10 00": {
-        "code": "0309 10 00",
-        "description": "Of fish"
-    },
     "0309 90 00": {
         "code": "0309 90 00",
         "description": "Other"
+    },
+    "04": {
+        "code": "04",
+        "description": "CHAPTER 4 - DAIRY PRODUCE; BIRDS' EGGS; NATURAL HONEY; EDIBLE PRODUCTS OF ANIMAL ORIGIN, NOT ELSEWHERE SPECIFIED OR INCLUDED"
+    },
+    "05": {
+        "code": "05",
+        "description": "CHAPTER 5 - PRODUCTS OF ANIMAL ORIGIN, NOT ELSEWHERE SPECIFIED OR INCLUDED"
+    },
+    "0308": {
+        "code": "0308",
+        "description": "Aquatic invertebrates other than crustaceans and molluscs, live, fresh, chilled, frozen, dried, salted or in brine; smoked aquatic invertebrates other than crustaceans and molluscs, whether or not cooked before or during the smoking process"
+    },
+    "0309 10 00": {
+        "code": "0309 10 00",
+        "description": "Of fish"
     },
     "0401": {
         "code": "0401",
@@ -1939,6 +1939,10 @@
         "code": "0712 90 50",
         "description": "Carrots"
     },
+    "0713": {
+        "code": "0713",
+        "description": "Dried leguminous vegetables, shelled, whether or not skinned or split"
+    },
     "0713 10 10": {
         "code": "0713 10 10",
         "description": "For sowing"
@@ -1999,6 +2003,10 @@
         "code": "0713 90 00",
         "description": "Other"
     },
+    "0714": {
+        "code": "0714",
+        "description": "Manioc, arrowroot, salep, Jerusalem artichokes, sweet potatoes and similar roots and tubers with high starch or inulin content, fresh, chilled, frozen or dried, whether or not sliced or in the form of pellets; sago pith"
+    },
     "0714 10 00": {
         "code": "0714 10 00",
         "description": "Manioc (cassava)"
@@ -2030,14 +2038,6 @@
     "08": {
         "code": "08",
         "description": "CHAPTER 8 - EDIBLE FRUIT AND NUTS; PEEL OF CITRUS FRUIT OR MELONS"
-    },
-    "0713": {
-        "code": "0713",
-        "description": "Dried leguminous vegetables, shelled, whether or not skinned or split"
-    },
-    "0714": {
-        "code": "0714",
-        "description": "Manioc, arrowroot, salep, Jerusalem artichokes, sweet potatoes and similar roots and tubers with high starch or inulin content, fresh, chilled, frozen or dried, whether or not sliced or in the form of pellets; sago pith"
     },
     "0801": {
         "code": "0801",
@@ -2287,10 +2287,6 @@
         "code": "0909 62 00",
         "description": "Crushed or ground"
     },
-    "0910": {
-        "code": "0910",
-        "description": "Ginger, saffron, turmeric (curcuma), thyme, bay leaves, curry and other spices"
-    },
     "0910 11 00": {
         "code": "0910 11 00",
         "description": "Neither crushed nor ground"
@@ -2310,10 +2306,6 @@
     "10": {
         "code": "10",
         "description": "CHAPTER 10 - CEREALS"
-    },
-    "1001": {
-        "code": "1001",
-        "description": "Wheat and meslin"
     },
     "1001 11 00": {
         "code": "1001 11 00",
@@ -2335,10 +2327,6 @@
         "code": "1001 99 00",
         "description": "Other"
     },
-    "1002": {
-        "code": "1002",
-        "description": "Rye"
-    },
     "1002 10 00": {
         "code": "1002 10 00",
         "description": "Seed"
@@ -2346,10 +2334,6 @@
     "1002 90 00": {
         "code": "1002 90 00",
         "description": "Other"
-    },
-    "1003": {
-        "code": "1003",
-        "description": "Barley"
     },
     "1003 10 00": {
         "code": "1003 10 00",
@@ -2359,10 +2343,6 @@
         "code": "1003 90 00",
         "description": "Other"
     },
-    "1004": {
-        "code": "1004",
-        "description": "Oats"
-    },
     "1004 10 00": {
         "code": "1004 10 00",
         "description": "Seed"
@@ -2371,10 +2351,6 @@
         "code": "1004 90 00",
         "description": "Other"
     },
-    "1005": {
-        "code": "1005",
-        "description": "Maize (corn)"
-    },
     "1005 10": {
         "code": "1005 10",
         "description": "Seed"
@@ -2382,10 +2358,6 @@
     "1005 90 00": {
         "code": "1005 90 00",
         "description": "Other"
-    },
-    "1006": {
-        "code": "1006",
-        "description": "Rice"
     },
     "1006 10": {
         "code": "1006 10",
@@ -2411,14 +2383,6 @@
         "code": "1006 40 00",
         "description": "Broken rice"
     },
-    "11": {
-        "code": "11",
-        "description": "CHAPTER 11 - PRODUCTS OF THE MILLING INDUSTRY; MALT; STARCHES; INULIN; WHEAT GLUTEN"
-    },
-    "1007": {
-        "code": "1007",
-        "description": "Grain sorghum"
-    },
     "1007 10": {
         "code": "1007 10",
         "description": "Seed"
@@ -2426,10 +2390,6 @@
     "1007 90 00": {
         "code": "1007 90 00",
         "description": "Other"
-    },
-    "1008": {
-        "code": "1008",
-        "description": "Buckwheat, millet and canary seed; other cereals"
     },
     "1008 10 00": {
         "code": "1008 10 00",
@@ -2463,13 +2423,13 @@
         "code": "1008 90 00",
         "description": "Other cereals"
     },
+    "11": {
+        "code": "11",
+        "description": "CHAPTER 11 - PRODUCTS OF THE MILLING INDUSTRY; MALT; STARCHES; INULIN; WHEAT GLUTEN"
+    },
     "1101 00": {
         "code": "1101 00",
         "description": "Wheat or meslin flour"
-    },
-    "1102": {
-        "code": "1102",
-        "description": "Cereal flours other than of wheat or meslin"
     },
     "1102 20": {
         "code": "1102 20",
@@ -2494,10 +2454,6 @@
     "1102 90 90": {
         "code": "1102 90 90",
         "description": "Other"
-    },
-    "1103": {
-        "code": "1103",
-        "description": "Cereal groats, meal and pellets"
     },
     "1103 11": {
         "code": "1103 11",
@@ -2526,10 +2482,6 @@
     "1103 20 30": {
         "code": "1103 20 30",
         "description": "Of oats"
-    },
-    "1104": {
-        "code": "1104",
-        "description": "Cereal grains otherwise worked (for example, hulled, rolled, flaked, pearled, sliced or kibbled), except rice of heading 1006; germ of cereals, whole, rolled, flaked or ground"
     },
     "1104 12": {
         "code": "1104 12",
@@ -2659,14 +2611,6 @@
         "code": "1104 30 90",
         "description": "Of other cereals"
     },
-    "1105": {
-        "code": "1105",
-        "description": "Flour, meal, powder, flakes, granules and pellets of potatoes"
-    },
-    "1106": {
-        "code": "1106",
-        "description": "Flour, meal and powder of the dried leguminous vegetables of heading 0713, of sago or of roots or tubers of heading 0714 or of the products of Chapter 8"
-    },
     "1106 10 00": {
         "code": "1106 10 00",
         "description": "Of the dried leguminous vegetables of heading 0713"
@@ -2679,10 +2623,6 @@
         "code": "1106 30",
         "description": "Of the products of Chapter 8"
     },
-    "1107": {
-        "code": "1107",
-        "description": "Malt, whether or not roasted"
-    },
     "1107 10": {
         "code": "1107 10",
         "description": "Not roasted"
@@ -2690,10 +2630,6 @@
     "1107 20 00": {
         "code": "1107 20 00",
         "description": "Roasted"
-    },
-    "1108": {
-        "code": "1108",
-        "description": "Starches; inulin"
     },
     "1108 11 00": {
         "code": "1108 11 00",
@@ -2714,6 +2650,70 @@
     "12": {
         "code": "12",
         "description": "CHAPTER 12 - OIL SEEDS AND OLEAGINOUS FRUITS; MISCELLANEOUS GRAINS, SEEDS AND FRUIT; INDUSTRIAL OR MEDICINAL PLANTS; STRAW AND FODDER"
+    },
+    "0910": {
+        "code": "0910",
+        "description": "Ginger, saffron, turmeric (curcuma), thyme, bay leaves, curry and other spices"
+    },
+    "1001": {
+        "code": "1001",
+        "description": "Wheat and meslin"
+    },
+    "1002": {
+        "code": "1002",
+        "description": "Rye"
+    },
+    "1003": {
+        "code": "1003",
+        "description": "Barley"
+    },
+    "1004": {
+        "code": "1004",
+        "description": "Oats"
+    },
+    "1005": {
+        "code": "1005",
+        "description": "Maize (corn)"
+    },
+    "1006": {
+        "code": "1006",
+        "description": "Rice"
+    },
+    "1007": {
+        "code": "1007",
+        "description": "Grain sorghum"
+    },
+    "1008": {
+        "code": "1008",
+        "description": "Buckwheat, millet and canary seed; other cereals"
+    },
+    "1102": {
+        "code": "1102",
+        "description": "Cereal flours other than of wheat or meslin"
+    },
+    "1103": {
+        "code": "1103",
+        "description": "Cereal groats, meal and pellets"
+    },
+    "1104": {
+        "code": "1104",
+        "description": "Cereal grains otherwise worked (for example, hulled, rolled, flaked, pearled, sliced or kibbled), except rice of heading 1006; germ of cereals, whole, rolled, flaked or ground"
+    },
+    "1105": {
+        "code": "1105",
+        "description": "Flour, meal, powder, flakes, granules and pellets of potatoes"
+    },
+    "1106": {
+        "code": "1106",
+        "description": "Flour, meal and powder of the dried leguminous vegetables of heading 0713, of sago or of roots or tubers of heading 0714 or of the products of Chapter 8"
+    },
+    "1107": {
+        "code": "1107",
+        "description": "Malt, whether or not roasted"
+    },
+    "1108": {
+        "code": "1108",
+        "description": "Starches; inulin"
     },
     "1201": {
         "code": "1201",
@@ -2795,10 +2795,6 @@
         "code": "1206 00 99",
         "description": "Other"
     },
-    "1207": {
-        "code": "1207",
-        "description": "Other oil seeds and oleaginous fruits, whether or not broken"
-    },
     "1207 10 00": {
         "code": "1207 10 00",
         "description": "Palm nuts and kernels"
@@ -2875,10 +2871,6 @@
         "code": "1207 99 96",
         "description": "Other"
     },
-    "1208": {
-        "code": "1208",
-        "description": "Flours and meals of oil seeds or oleaginous fruits, other than those of mustard"
-    },
     "1208 10 00": {
         "code": "1208 10 00",
         "description": "Of soya beans"
@@ -2886,6 +2878,34 @@
     "1208 90 00": {
         "code": "1208 90 00",
         "description": "Other"
+    },
+    "13": {
+        "code": "13",
+        "description": "CHAPTER 13 - LAC; GUMS, RESINS AND OTHER VEGETABLE SAPS AND EXTRACTS"
+    },
+    "14": {
+        "code": "14",
+        "description": "CHAPTER 14 - VEGETABLE PLAITING MATERIALS; VEGETABLE PRODUCTS NOT ELSEWHERE SPECIFIED OR INCLUDED"
+    },
+    "15": {
+        "code": "15",
+        "description": "CHAPTER 15 - ANIMAL, VEGETABLE OR MICROBIAL FATS AND OILS AND THEIR CLEAVAGE PRODUCTS; PREPARED EDIBLE FATS; ANIMAL OR VEGETABLE WAXES"
+    },
+    "16": {
+        "code": "16",
+        "description": "CHAPTER 16 - PREPARATIONS OF MEAT, OF FISH, OF CRUSTACEANS, MOLLUSCS OR OTHER AQUATIC INVERTEBRATES, OR OF INSECTS"
+    },
+    "17": {
+        "code": "17",
+        "description": "CHAPTER 17 - SUGARS AND SUGAR CONFECTIONERY"
+    },
+    "1207": {
+        "code": "1207",
+        "description": "Other oil seeds and oleaginous fruits, whether or not broken"
+    },
+    "1208": {
+        "code": "1208",
+        "description": "Flours and meals of oil seeds or oleaginous fruits, other than those of mustard"
     },
     "1209": {
         "code": "1209",
@@ -2974,18 +2994,6 @@
     "1213 00 00": {
         "code": "1213 00 00",
         "description": "Cereal straw and husks, unprepared, whether or not chopped, ground, pressed or in the form of pellets"
-    },
-    "13": {
-        "code": "13",
-        "description": "CHAPTER 13 - LAC; GUMS, RESINS AND OTHER VEGETABLE SAPS AND EXTRACTS"
-    },
-    "14": {
-        "code": "14",
-        "description": "CHAPTER 14 - VEGETABLE PLAITING MATERIALS; VEGETABLE PRODUCTS NOT ELSEWHERE SPECIFIED OR INCLUDED"
-    },
-    "15": {
-        "code": "15",
-        "description": "CHAPTER 15 - ANIMAL, VEGETABLE OR MICROBIAL FATS AND OILS AND THEIR CLEAVAGE PRODUCTS; PREPARED EDIBLE FATS; ANIMAL OR VEGETABLE WAXES"
     },
     "1214": {
         "code": "1214",
@@ -3623,10 +3631,6 @@
         "code": "1522 00 99",
         "description": "Other"
     },
-    "16": {
-        "code": "16",
-        "description": "CHAPTER 16 - PREPARATIONS OF MEAT, OF FISH, OF CRUSTACEANS, MOLLUSCS OR OTHER AQUATIC INVERTEBRATES, OR OF INSECTS"
-    },
     "1601 00": {
         "code": "1601 00",
         "description": "Sausages and similar products, of meat, meat offal, blood or insects; food preparations based on these products"
@@ -3855,10 +3859,6 @@
         "code": "1605 69 00",
         "description": "Other"
     },
-    "17": {
-        "code": "17",
-        "description": "CHAPTER 17 - SUGARS AND SUGAR CONFECTIONERY"
-    },
     "1701": {
         "code": "1701",
         "description": "Cane or beet sugar and chemically pure sucrose, in solid form"
@@ -3894,6 +3894,10 @@
     "1701 99": {
         "code": "1701 99",
         "description": "Other"
+    },
+    "1702": {
+        "code": "1702",
+        "description": "Other sugars, including chemically pure lactose, maltose, glucose and fructose, in solid form; sugar syrups not containing added flavouring or colouring matter; artificial honey, whether or not mixed with natural honey; caramel"
     },
     "1702 11 00": {
         "code": "1702 11 00",
@@ -3946,6 +3950,14 @@
     "1702 90 95": {
         "code": "1702 90 95",
         "description": "Other"
+    },
+    "1703": {
+        "code": "1703",
+        "description": "Molasses resulting from the extraction or refining of sugar"
+    },
+    "1704": {
+        "code": "1704",
+        "description": "Sugar confectionery (including white chocolate), not containing cocoa"
     },
     "1704 10": {
         "code": "1704 10",
@@ -4015,21 +4027,33 @@
         "code": "1805 00 00",
         "description": "Cocoa powder, not containing added sugar or other sweetening matter"
     },
-    "1806 20": {
-        "code": "1806 20",
-        "description": "Other preparations in blocks, slabs or bars weighing more than 2 kg or in liquid, paste, powder, granular or other bulk form in containers or immediate packings, of a content exceeding 2 kg"
-    },
     "1806 90 70": {
         "code": "1806 90 70",
         "description": "Preparations containing cocoa for making beverages"
+    },
+    "19": {
+        "code": "19",
+        "description": "CHAPTER 19 - PREPARATIONS OF CEREALS, FLOUR, STARCH OR MILK; PASTRYCOOKS' PRODUCTS"
+    },
+    "1803": {
+        "code": "1803",
+        "description": "Cocoa paste, whether or not defatted"
+    },
+    "1806": {
+        "code": "1806",
+        "description": "Chocolate and other food preparations containing cocoa"
+    },
+    "1806 20": {
+        "code": "1806 20",
+        "description": "Other preparations in blocks, slabs or bars weighing more than 2 kg or in liquid, paste, powder, granular or other bulk form in containers or immediate packings, of a content exceeding 2 kg"
     },
     "1806 90 90": {
         "code": "1806 90 90",
         "description": "Other"
     },
-    "19": {
-        "code": "19",
-        "description": "CHAPTER 19 - PREPARATIONS OF CEREALS, FLOUR, STARCH OR MILK; PASTRYCOOKS' PRODUCTS"
+    "1901": {
+        "code": "1901",
+        "description": "Malt extract; food preparations of flour, groats, meal, starch or malt extract, not containing cocoa or containing less than 40 % by weight of cocoa calculated on a totally defatted basis, not elsewhere specified or included; food preparations of goods of headings 0401 to 0404, not containing cocoa or containing less than 5 % by weight of cocoa calculated on a totally defatted basis, not elsewhere specified or included"
     },
     "1901 10 00": {
         "code": "1901 10 00",
@@ -4054,6 +4078,10 @@
     "1901 90 99": {
         "code": "1901 90 99",
         "description": "Other"
+    },
+    "1902": {
+        "code": "1902",
+        "description": "Pasta, whether or not cooked or stuffed (with meat or other substances) or otherwise prepared, such as spaghetti, macaroni, noodles, lasagne, gnocchi, ravioli, cannelloni; couscous, whether or not prepared"
     },
     "1902 11 00": {
         "code": "1902 11 00",
@@ -4094,6 +4122,14 @@
     "1903 00 00": {
         "code": "1903 00 00",
         "description": "Tapioca and substitutes therefor prepared from starch, in the form of flakes, grains, pearls, siftings or similar forms"
+    },
+    "1904": {
+        "code": "1904",
+        "description": "Prepared foods obtained by the swelling or roasting of cereals or cereal products (for example, corn flakes); cereals (other than maize (corn)) in grain form or in the form of flakes or other worked grains (except flour, groats and meal), pre-cooked or otherwise prepared, not elsewhere specified or included"
+    },
+    "1905": {
+        "code": "1905",
+        "description": "Bread, pastry, cakes, biscuits and other bakers' wares, whether or not containing cocoa; communion wafers, empty cachets of a kind suitable for pharmaceutical use, sealing wafers, rice paper and similar products"
     },
     "1905 10 00": {
         "code": "1905 10 00",
@@ -4154,42 +4190,6 @@
     "20": {
         "code": "20",
         "description": "CHAPTER 20 - PREPARATIONS OF VEGETABLES, FRUIT, NUTS OR OTHER PARTS OF PLANTS"
-    },
-    "1702": {
-        "code": "1702",
-        "description": "Other sugars, including chemically pure lactose, maltose, glucose and fructose, in solid form; sugar syrups not containing added flavouring or colouring matter; artificial honey, whether or not mixed with natural honey; caramel"
-    },
-    "1703": {
-        "code": "1703",
-        "description": "Molasses resulting from the extraction or refining of sugar"
-    },
-    "1704": {
-        "code": "1704",
-        "description": "Sugar confectionery (including white chocolate), not containing cocoa"
-    },
-    "1803": {
-        "code": "1803",
-        "description": "Cocoa paste, whether or not defatted"
-    },
-    "1806": {
-        "code": "1806",
-        "description": "Chocolate and other food preparations containing cocoa"
-    },
-    "1901": {
-        "code": "1901",
-        "description": "Malt extract; food preparations of flour, groats, meal, starch or malt extract, not containing cocoa or containing less than 40 % by weight of cocoa calculated on a totally defatted basis, not elsewhere specified or included; food preparations of goods of headings 0401 to 0404, not containing cocoa or containing less than 5 % by weight of cocoa calculated on a totally defatted basis, not elsewhere specified or included"
-    },
-    "1902": {
-        "code": "1902",
-        "description": "Pasta, whether or not cooked or stuffed (with meat or other substances) or otherwise prepared, such as spaghetti, macaroni, noodles, lasagne, gnocchi, ravioli, cannelloni; couscous, whether or not prepared"
-    },
-    "1904": {
-        "code": "1904",
-        "description": "Prepared foods obtained by the swelling or roasting of cereals or cereal products (for example, corn flakes); cereals (other than maize (corn)) in grain form or in the form of flakes or other worked grains (except flour, groats and meal), pre-cooked or otherwise prepared, not elsewhere specified or included"
-    },
-    "1905": {
-        "code": "1905",
-        "description": "Bread, pastry, cakes, biscuits and other bakers' wares, whether or not containing cocoa; communion wafers, empty cachets of a kind suitable for pharmaceutical use, sealing wafers, rice paper and similar products"
     },
     "2001": {
         "code": "2001",
@@ -4631,6 +4631,10 @@
         "code": "21",
         "description": "CHAPTER 21 - MISCELLANEOUS EDIBLE PREPARATIONS"
     },
+    "2101": {
+        "code": "2101",
+        "description": "Extracts, essences and concentrates, of coffee, tea or maté and preparations with a basis of these products or with a basis of coffee, tea or maté; roasted chicory and other roasted coffee substitutes, and extracts, essences and concentrates thereof"
+    },
     "2101 20 92": {
         "code": "2101 20 92",
         "description": "With a basis of extracts, essences or concentrates of tea or maté"
@@ -4642,22 +4646,6 @@
     "2101 30": {
         "code": "2101 30",
         "description": "Roasted chicory and other roasted coffee substitutes, and extracts, essences and concentrates thereof"
-    },
-    "22": {
-        "code": "22",
-        "description": "CHAPTER 22 - BEVERAGES, SPIRITS AND VINEGAR"
-    },
-    "23": {
-        "code": "23",
-        "description": "CHAPTER 23 - RESIDUES AND WASTE FROM THE FOOD INDUSTRIES; PREPARED ANIMAL FODDER"
-    },
-    "25": {
-        "code": "25",
-        "description": "CHAPTER 25 - SALT; SULPHUR; EARTHS AND STONE; PLASTERING MATERIALS, LIME AND CEMENT"
-    },
-    "2101": {
-        "code": "2101",
-        "description": "Extracts, essences and concentrates, of coffee, tea or maté and preparations with a basis of these products or with a basis of coffee, tea or maté; roasted chicory and other roasted coffee substitutes, and extracts, essences and concentrates thereof"
     },
     "2102": {
         "code": "2102",
@@ -4734,6 +4722,10 @@
     "2105 00 99": {
         "code": "2105 00 99",
         "description": "7 % or more"
+    },
+    "22": {
+        "code": "22",
+        "description": "CHAPTER 22 - BEVERAGES, SPIRITS AND VINEGAR"
     },
     "2106": {
         "code": "2106",
@@ -4871,6 +4863,10 @@
         "code": "2209 00",
         "description": "Vinegar and substitutes for vinegar obtained from acetic acid"
     },
+    "23": {
+        "code": "23",
+        "description": "CHAPTER 23 - RESIDUES AND WASTE FROM THE FOOD INDUSTRIES; PREPARED ANIMAL FODDER"
+    },
     "2301": {
         "code": "2301",
         "description": "Flours, meals and pellets, of meat or meat offal, of fish or of crustaceans, molluscs or other aquatic invertebrates, unfit for human consumption; greaves"
@@ -4919,10 +4915,6 @@
         "code": "2308 00 90",
         "description": "Other"
     },
-    "2309": {
-        "code": "2309",
-        "description": "Preparations of a kind used in animal feeding"
-    },
     "2309 90": {
         "code": "2309 90",
         "description": "Other"
@@ -4938,6 +4930,14 @@
     "2404 91 10": {
         "code": "2404 91 10",
         "description": "Nicotine containing products intended to assist tobacco use cessation"
+    },
+    "25": {
+        "code": "25",
+        "description": "CHAPTER 25 - SALT; SULPHUR; EARTHS AND STONE; PLASTERING MATERIALS, LIME AND CEMENT"
+    },
+    "2309": {
+        "code": "2309",
+        "description": "Preparations of a kind used in animal feeding"
     },
     "2501 00": {
         "code": "2501 00",
@@ -5103,10 +5103,6 @@
         "code": "2710 20 19",
         "description": "With a sulphur content exceeding 0,1 % by weight"
     },
-    "2711": {
-        "code": "2711",
-        "description": "Petroleum gases and other gaseous hydrocarbons"
-    },
     "2711 11 00": {
         "code": "2711 11 00",
         "description": "Natural gas"
@@ -5126,6 +5122,14 @@
     "28": {
         "code": "28",
         "description": "CHAPTER 28 - INORGANIC CHEMICALS; ORGANIC OR INORGANIC COMPOUNDS OF PRECIOUS METALS, OF RARE-EARTH METALS, OF RADIOACTIVE ELEMENTS OR OF ISOTOPES"
+    },
+    "29": {
+        "code": "29",
+        "description": "CHAPTER 29 - ORGANIC CHEMICALS"
+    },
+    "2711": {
+        "code": "2711",
+        "description": "Petroleum gases and other gaseous hydrocarbons"
     },
     "2713": {
         "code": "2713",
@@ -5191,6 +5195,10 @@
         "code": "2805 30",
         "description": "Rare-earth metals, scandium and yttrium, whether or not intermixed or interalloyed"
     },
+    "2806": {
+        "code": "2806",
+        "description": "Hydrogen chloride (hydrochloric acid); chlorosulphuric acid"
+    },
     "2806 10 00": {
         "code": "2806 10 00",
         "description": "Hydrogen chloride (hydrochloric acid)"
@@ -5202,14 +5210,6 @@
     "2808 00 00": {
         "code": "2808 00 00",
         "description": "Nitric acid; sulphonitric acids"
-    },
-    "29": {
-        "code": "29",
-        "description": "CHAPTER 29 - ORGANIC CHEMICALS"
-    },
-    "2806": {
-        "code": "2806",
-        "description": "Hydrogen chloride (hydrochloric acid); chlorosulphuric acid"
     },
     "2809": {
         "code": "2809",
@@ -5811,14 +5811,6 @@
         "code": "2928 00",
         "description": "Organic derivatives of hydrazine or of hydroxylamine"
     },
-    "2929": {
-        "code": "2929",
-        "description": "Compounds with other nitrogen function"
-    },
-    "2930": {
-        "code": "2930",
-        "description": "Organo-sulphur compounds"
-    },
     "2930 40": {
         "code": "2930 40",
         "description": "Methionine"
@@ -5843,21 +5835,9 @@
         "code": "2930 90 16",
         "description": "Derivatives of cysteine or cystine"
     },
-    "2931": {
-        "code": "2931",
-        "description": "Other organo-inorganic compounds"
-    },
-    "2932": {
-        "code": "2932",
-        "description": "Heterocyclic compounds with oxygen hetero-atom(s) only"
-    },
     "2932 14 00": {
         "code": "2932 14 00",
         "description": "Sucralose"
-    },
-    "2933": {
-        "code": "2933",
-        "description": "Heterocyclic compounds with nitrogen hetero-atom(s) only"
     },
     "2933 11 10": {
         "code": "2933 11 10",
@@ -5907,10 +5887,6 @@
         "code": "2933 99 20",
         "description": "Indole, 3-methylindole (skatole), 6-allyl-6,7-dihydro-5H-dibenz[c,e]azepine (azapetine), phenindamine (INN) and their salts; imipramine hydrochloride (INNM)"
     },
-    "2934": {
-        "code": "2934",
-        "description": "Nucleic acids and their salts, whether or not chemically defined; other heterocyclic compounds"
-    },
     "2934 30": {
         "code": "2934 30",
         "description": "Compounds containing in the structure a phenothiazine ring-system (whether or not hydrogenated), not further fused"
@@ -5927,22 +5903,6 @@
         "code": "2934 99 90",
         "description": "Other"
     },
-    "2935": {
-        "code": "2935",
-        "description": "Sulphonamides"
-    },
-    "2936": {
-        "code": "2936",
-        "description": "Provitamins and vitamins, natural or reproduced by synthesis (including natural concentrates), derivatives thereof used primarily as vitamins, and intermixtures of the foregoing, whether or not in any solvent"
-    },
-    "2937": {
-        "code": "2937",
-        "description": "Hormones, prostaglandins, thromboxanes and leukotrienes, natural or reproduced by synthesis; derivatives and structural analogues thereof, including chain modified polypeptides, used primarily as hormones"
-    },
-    "2938": {
-        "code": "2938",
-        "description": "Glycosides, natural or reproduced by synthesis, and their salts, ethers, esters and other derivatives"
-    },
     "2938 90 10": {
         "code": "2938 90 10",
         "description": "Digitalis glycosides"
@@ -5950,10 +5910,6 @@
     "2938 90 90": {
         "code": "2938 90 90",
         "description": "Other"
-    },
-    "2939": {
-        "code": "2939",
-        "description": "Alkaloids, natural or reproduced by synthesis, and their salts, ethers, esters and other derivatives"
     },
     "2939 11 00": {
         "code": "2939 11 00",
@@ -6015,17 +5971,61 @@
         "code": "2940 00 00",
         "description": "Sugars, chemically pure, other than sucrose, lactose, maltose, glucose and fructose; sugar ethers, sugar acetals and sugar esters, and their salts, other than products of heading 2937, 2938 or 2939"
     },
+    "2942 00 00": {
+        "code": "2942 00 00",
+        "description": "Other organic compounds"
+    },
     "30": {
         "code": "30",
         "description": "CHAPTER 30 - PHARMACEUTICAL PRODUCTS"
     },
+    "2929": {
+        "code": "2929",
+        "description": "Compounds with other nitrogen function"
+    },
+    "2930": {
+        "code": "2930",
+        "description": "Organo-sulphur compounds"
+    },
+    "2931": {
+        "code": "2931",
+        "description": "Other organo-inorganic compounds"
+    },
+    "2932": {
+        "code": "2932",
+        "description": "Heterocyclic compounds with oxygen hetero-atom(s) only"
+    },
+    "2933": {
+        "code": "2933",
+        "description": "Heterocyclic compounds with nitrogen hetero-atom(s) only"
+    },
+    "2934": {
+        "code": "2934",
+        "description": "Nucleic acids and their salts, whether or not chemically defined; other heterocyclic compounds"
+    },
+    "2935": {
+        "code": "2935",
+        "description": "Sulphonamides"
+    },
+    "2936": {
+        "code": "2936",
+        "description": "Provitamins and vitamins, natural or reproduced by synthesis (including natural concentrates), derivatives thereof used primarily as vitamins, and intermixtures of the foregoing, whether or not in any solvent"
+    },
+    "2937": {
+        "code": "2937",
+        "description": "Hormones, prostaglandins, thromboxanes and leukotrienes, natural or reproduced by synthesis; derivatives and structural analogues thereof, including chain modified polypeptides, used primarily as hormones"
+    },
+    "2938": {
+        "code": "2938",
+        "description": "Glycosides, natural or reproduced by synthesis, and their salts, ethers, esters and other derivatives"
+    },
+    "2939": {
+        "code": "2939",
+        "description": "Alkaloids, natural or reproduced by synthesis, and their salts, ethers, esters and other derivatives"
+    },
     "2941": {
         "code": "2941",
         "description": "Antibiotics"
-    },
-    "2942 00 00": {
-        "code": "2942 00 00",
-        "description": "Other organic compounds"
     },
     "3001": {
         "code": "3001",
@@ -6143,9 +6143,17 @@
         "code": "3002 90 90",
         "description": "Other"
     },
+    "3003": {
+        "code": "3003",
+        "description": "Medicaments (excluding goods of heading 3002, 3005 or 3006) consisting of two or more constituents which have been mixed together for therapeutic or prophylactic uses, not put up in measured doses or in forms or packings for retail sale"
+    },
     "3003 90 00": {
         "code": "3003 90 00",
         "description": "Other"
+    },
+    "3004": {
+        "code": "3004",
+        "description": "Medicaments (excluding goods of heading 3002, 3005 or 3006) consisting of mixed or unmixed products for therapeutic or prophylactic uses, put up in measured doses (including those in the form of transdermal administration systems) or in forms or packings for retail sale"
     },
     "3004 10 00": {
         "code": "3004 10 00",
@@ -6195,6 +6203,10 @@
         "code": "3004 90 00",
         "description": "Other"
     },
+    "3005": {
+        "code": "3005",
+        "description": "Wadding, gauze, bandages and similar articles (for example, dressings, adhesive plasters, poultices), impregnated or coated with pharmaceutical substances or put up in forms or packings for retail sale for medical, surgical, dental or veterinary purposes"
+    },
     "3005 10 00": {
         "code": "3005 10 00",
         "description": "Adhesive dressings and other articles having an adhesive layer"
@@ -6218,6 +6230,10 @@
     "3005 90 99": {
         "code": "3005 90 99",
         "description": "Other"
+    },
+    "3006": {
+        "code": "3006",
+        "description": "Pharmaceutical goods specified in note 4 to this chapter"
     },
     "3006 10": {
         "code": "3006 10",
@@ -6270,78 +6286,6 @@
     "3101 00 00": {
         "code": "3101 00 00",
         "description": "Animal or vegetable fertilisers, whether or not mixed together or chemically treated; fertilisers produced by the mixing or chemical treatment of animal or vegetable products"
-    },
-    "39": {
-        "code": "39",
-        "description": "CHAPTER 39 - PLASTICS AND ARTICLES THEREOF"
-    },
-    "49": {
-        "code": "49",
-        "description": "CHAPTER 49 - PRINTED BOOKS, NEWSPAPERS, PICTURES AND OTHER PRODUCTS OF THE PRINTING INDUSTRY; MANUSCRIPTS, TYPESCRIPTS AND PLANS"
-    },
-    "61": {
-        "code": "61",
-        "description": "CHAPTER 61 - ARTICLES OF APPAREL AND CLOTHING ACCESSORIES, KNITTED OR CROCHETED"
-    },
-    "62": {
-        "code": "62",
-        "description": "CHAPTER 62 - ARTICLES OF APPAREL AND CLOTHING ACCESSORIES, NOT KNITTED OR CROCHETED"
-    },
-    "64": {
-        "code": "64",
-        "description": "CHAPTER 64 - FOOTWEAR, GAITERS AND THE LIKE; PARTS OF SUCH ARTICLES"
-    },
-    "65": {
-        "code": "65",
-        "description": "CHAPTER 65 - HEADGEAR AND PARTS THEREOF"
-    },
-    "72": {
-        "code": "72",
-        "description": "CHAPTER 72 - IRON AND STEEL"
-    },
-    "84": {
-        "code": "84",
-        "description": "CHAPTER 84 - NUCLEAR REACTORS, BOILERS, MACHINERY AND MECHANICAL APPLIANCES; PARTS THEREOF"
-    },
-    "85": {
-        "code": "85",
-        "description": "CHAPTER 85 - ELECTRICAL MACHINERY AND EQUIPMENT AND PARTS THEREOF; SOUND RECORDERS AND REPRODUCERS, TELEVISION IMAGE AND SOUND RECORDERS AND REPRODUCERS, AND PARTS AND ACCESSORIES OF SUCH ARTICLES"
-    },
-    "87": {
-        "code": "87",
-        "description": "CHAPTER 87 - VEHICLES OTHER THAN RAILWAY OR TRAMWAY ROLLING STOCK, AND PARTS AND ACCESSORIES THEREOF"
-    },
-    "90": {
-        "code": "90",
-        "description": "CHAPTER 90 - OPTICAL, PHOTOGRAPHIC, CINEMATOGRAPHIC, MEASURING, CHECKING, PRECISION, MEDICAL OR SURGICAL INSTRUMENTS AND APPARATUS; PARTS AND ACCESSORIES THEREOF"
-    },
-    "91": {
-        "code": "91",
-        "description": "CHAPTER 91 - CLOCKS AND WATCHES AND PARTS THEREOF"
-    },
-    "94": {
-        "code": "94",
-        "description": "CHAPTER 94 - FURNITURE; BEDDING, MATTRESSES, MATTRESS SUPPORTS, CUSHIONS AND SIMILAR STUFFED FURNISHINGS; LUMINAIRES AND LIGHTING FITTINGS, NOT ELSEWHERE SPECIFIED OR INCLUDED; ILLUMINATED SIGNS, ILLUMINATED NAMEPLATES AND THE LIKE; PREFABRICATED BUILDINGS"
-    },
-    "97": {
-        "code": "97",
-        "description": "CHAPTER 97 - WORKS OF ART, COLLECTORS' PIECES AND ANTIQUES"
-    },
-    "3003": {
-        "code": "3003",
-        "description": "Medicaments (excluding goods of heading 3002, 3005 or 3006) consisting of two or more constituents which have been mixed together for therapeutic or prophylactic uses, not put up in measured doses or in forms or packings for retail sale"
-    },
-    "3004": {
-        "code": "3004",
-        "description": "Medicaments (excluding goods of heading 3002, 3005 or 3006) consisting of mixed or unmixed products for therapeutic or prophylactic uses, put up in measured doses (including those in the form of transdermal administration systems) or in forms or packings for retail sale"
-    },
-    "3005": {
-        "code": "3005",
-        "description": "Wadding, gauze, bandages and similar articles (for example, dressings, adhesive plasters, poultices), impregnated or coated with pharmaceutical substances or put up in forms or packings for retail sale for medical, surgical, dental or veterinary purposes"
-    },
-    "3006": {
-        "code": "3006",
-        "description": "Pharmaceutical goods specified in note 4 to this chapter"
     },
     "3102": {
         "code": "3102",
@@ -6411,17 +6355,9 @@
         "code": "3205 00 00",
         "description": "Colour lakes; preparations as specified in note 3 to this chapter based on colour lakes"
     },
-    "3206": {
-        "code": "3206",
-        "description": "Other colouring matter; preparations as specified in note 3 to this chapter, other than those of heading 3203, 3204 or 3205; inorganic products of a kind used as luminophores, whether or not chemically defined"
-    },
     "3214 10 10": {
         "code": "3214 10 10",
         "description": "Glaziers' putty, grafting putty, resin cements, caulking compounds and other mastics"
-    },
-    "3301": {
-        "code": "3301",
-        "description": "Essential oils (terpeneless or not), including concretes and absolutes; resinoids; extracted oleoresins; concentrates of essential oils in fats, in fixed oils, in waxes or the like, obtained by enfleurage or maceration; terpenic by-products of the deterpenation of essential oils; aqueous distillates and aqueous solutions of essential oils"
     },
     "3301 12": {
         "code": "3301 12",
@@ -6438,6 +6374,70 @@
     "3301 90 90": {
         "code": "3301 90 90",
         "description": "Other"
+    },
+    "39": {
+        "code": "39",
+        "description": "CHAPTER 39 - PLASTICS AND ARTICLES THEREOF"
+    },
+    "49": {
+        "code": "49",
+        "description": "CHAPTER 49 - PRINTED BOOKS, NEWSPAPERS, PICTURES AND OTHER PRODUCTS OF THE PRINTING INDUSTRY; MANUSCRIPTS, TYPESCRIPTS AND PLANS"
+    },
+    "61": {
+        "code": "61",
+        "description": "CHAPTER 61 - ARTICLES OF APPAREL AND CLOTHING ACCESSORIES, KNITTED OR CROCHETED"
+    },
+    "62": {
+        "code": "62",
+        "description": "CHAPTER 62 - ARTICLES OF APPAREL AND CLOTHING ACCESSORIES, NOT KNITTED OR CROCHETED"
+    },
+    "64": {
+        "code": "64",
+        "description": "CHAPTER 64 - FOOTWEAR, GAITERS AND THE LIKE; PARTS OF SUCH ARTICLES"
+    },
+    "65": {
+        "code": "65",
+        "description": "CHAPTER 65 - HEADGEAR AND PARTS THEREOF"
+    },
+    "72": {
+        "code": "72",
+        "description": "CHAPTER 72 - IRON AND STEEL"
+    },
+    "84": {
+        "code": "84",
+        "description": "CHAPTER 84 - NUCLEAR REACTORS, BOILERS, MACHINERY AND MECHANICAL APPLIANCES; PARTS THEREOF"
+    },
+    "85": {
+        "code": "85",
+        "description": "CHAPTER 85 - ELECTRICAL MACHINERY AND EQUIPMENT AND PARTS THEREOF; SOUND RECORDERS AND REPRODUCERS, TELEVISION IMAGE AND SOUND RECORDERS AND REPRODUCERS, AND PARTS AND ACCESSORIES OF SUCH ARTICLES"
+    },
+    "87": {
+        "code": "87",
+        "description": "CHAPTER 87 - VEHICLES OTHER THAN RAILWAY OR TRAMWAY ROLLING STOCK, AND PARTS AND ACCESSORIES THEREOF"
+    },
+    "90": {
+        "code": "90",
+        "description": "CHAPTER 90 - OPTICAL, PHOTOGRAPHIC, CINEMATOGRAPHIC, MEASURING, CHECKING, PRECISION, MEDICAL OR SURGICAL INSTRUMENTS AND APPARATUS; PARTS AND ACCESSORIES THEREOF"
+    },
+    "91": {
+        "code": "91",
+        "description": "CHAPTER 91 - CLOCKS AND WATCHES AND PARTS THEREOF"
+    },
+    "94": {
+        "code": "94",
+        "description": "CHAPTER 94 - FURNITURE; BEDDING, MATTRESSES, MATTRESS SUPPORTS, CUSHIONS AND SIMILAR STUFFED FURNISHINGS; LUMINAIRES AND LIGHTING FITTINGS, NOT ELSEWHERE SPECIFIED OR INCLUDED; ILLUMINATED SIGNS, ILLUMINATED NAMEPLATES AND THE LIKE; PREFABRICATED BUILDINGS"
+    },
+    "97": {
+        "code": "97",
+        "description": "CHAPTER 97 - WORKS OF ART, COLLECTORS' PIECES AND ANTIQUES"
+    },
+    "3206": {
+        "code": "3206",
+        "description": "Other colouring matter; preparations as specified in note 3 to this chapter, other than those of heading 3203, 3204 or 3205; inorganic products of a kind used as luminophores, whether or not chemically defined"
+    },
+    "3301": {
+        "code": "3301",
+        "description": "Essential oils (terpeneless or not), including concretes and absolutes; resinoids; extracted oleoresins; concentrates of essential oils in fats, in fixed oils, in waxes or the like, obtained by enfleurage or maceration; terpenic by-products of the deterpenation of essential oils; aqueous distillates and aqueous solutions of essential oils"
     },
     "3302": {
         "code": "3302",

@@ -12,50 +12,146 @@
             "cnCodes": {
                 "code": [
                     {
-                        "value": "4901",
-                        "description": "Printed books, brochures, leaflets and similar printed matter, whether or not in single sheets"
+                        "value": "0201",
+                        "description": "Meat of bovine animals, fresh or chilled"
                     },
                     {
-                        "value": "4902 10 00",
-                        "description": "Appearing at least four times a week"
+                        "value": "0203",
+                        "description": "Meat of swine, fresh, chilled or frozen"
                     },
                     {
-                        "value": "4903 00 00",
-                        "description": "Children's picture, drawing or colouring books"
+                        "value": "0204",
+                        "description": "Meat of sheep or goats, fresh, chilled or frozen"
                     },
                     {
-                        "value": "4904 00 00",
-                        "description": "Music, printed or in manuscript, whether or not bound or illustrated"
+                        "value": "0207",
+                        "description": "Meat and edible offal, of the poultry of heading 0105, fresh, chilled or frozen"
                     },
                     {
-                        "value": "4905",
-                        "description": "Maps and hydrographic or similar charts of all kinds, including atlases, wall maps, topographical plans and globes, printed"
+                        "value": "0208",
+                        "description": "Other meat and edible meat offal, fresh, chilled or frozen"
                     },
                     {
-                        "value": "8523 49 10",
-                        "description": "Digital versatile discs (DVD)"
+                        "value": "0301",
+                        "description": "Live fish"
                     },
                     {
-                        "value": "8523 49 20",
-                        "description": "Other"
+                        "value": "0302",
+                        "description": "Fish, fresh or chilled, excluding fish fillets and other fish meat of heading 0304"
                     },
                     {
-                        "value": "8523 51 90",
-                        "description": "Other"
+                        "value": "0304",
+                        "description": "Fish fillets and other fish meat (whether or not minced), fresh, chilled or frozen"
+                    },
+                    {
+                        "value": "0401",
+                        "description": "Milk and cream, not concentrated nor containing added sugar or other sweetening matter"
+                    },
+                    {
+                        "value": "0403",
+                        "description": "Yogurt; buttermilk, curdled milk and cream, kephir and other fermented or acidified milk and cream, whether or not concentrated or containing added sugar or other sweetening matter or flavoured or containing added fruit, nuts or cocoa"
+                    },
+                    {
+                        "value": "0405 10",
+                        "description": "Butter"
+                    },
+                    {
+                        "value": "0406",
+                        "description": "Cheese and curd"
+                    },
+                    {
+                        "value": "0409 00 00",
+                        "description": "Natural honey"
+                    },
+                    {
+                        "value": "0701",
+                        "description": "Potatoes, fresh or chilled"
+                    },
+                    {
+                        "value": "0702 00 00",
+                        "description": "Tomatoes, fresh or chilled"
+                    },
+                    {
+                        "value": "0703",
+                        "description": "Onions, shallots, garlic, leeks and other alliaceous vegetables, fresh or chilled"
+                    },
+                    {
+                        "value": "0704",
+                        "description": "Cabbages, cauliflowers, kohlrabi, kale and similar edible brassicas, fresh or chilled"
+                    },
+                    {
+                        "value": "0705",
+                        "description": "Lettuce (Lactuca sativa) and chicory (Cichorium spp.), fresh or chilled"
+                    },
+                    {
+                        "value": "0707 00",
+                        "description": "Cucumbers and gherkins, fresh or chilled"
+                    },
+                    {
+                        "value": "0708",
+                        "description": "Leguminous vegetables, shelled or unshelled, fresh or chilled"
+                    },
+                    {
+                        "value": "0709",
+                        "description": "Other vegetables, fresh or chilled"
+                    },
+                    {
+                        "value": "0808",
+                        "description": "Apples, pears and quinces, fresh"
+                    },
+                    {
+                        "value": "1905",
+                        "description": "Bread, pastry, cakes, biscuits and other bakers' wares, whether or not containing cocoa; communion wafers, empty cachets of a kind suitable for pharmaceutical use, sealing wafers, rice paper and similar products"
+                    },
+                    {
+                        "value": "1905 90 30",
+                        "description": "Bread, not containing added honey, eggs, cheese or fruit, and containing by weight in the dry matter state not more than 5 % of sugars and not more than 5 % of fat"
+                    },
+                    {
+                        "value": "2009",
+                        "description": "Fruit or nut juices (including grape must and coconut water) and vegetable juices, unfermented and not containing added spirit, whether or not containing added sugar or other sweetening matter"
                     }
                 ]
             },
-            "cpaCodes": {
-                "code": {
-                    "value": "58.11.3",
-                    "description": "On-line books"
-                }
+            "category": {
+                "identifier": "FOODSTUFFS",
+                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
+            },
+            "comment": "Only selected items - fresh or chilled meat, live fish, fresh or chilled fish, milk, butter, bread and other selected foodstuffs (inluding gluten-free pastries, flour and bread). List can be found in Annex 7 of Act No. 222\/2004 Coll. on Value Added Tax as amended via the following link https:\/\/www.mfsr.sk\/en\/taxes-customs-accounting\/indirect-taxes\/vat\/"
+        },
+        {
+            "memberState": "SK",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "2844 40",
+                        "description": "Radioactive elements and isotopes and compounds other than those of subheading 284410, 284420 or 284430; alloys, dispersions (including cermets), ceramic products and mixtures containing these elements, isotopes or compounds; radioactive residues"
+                    },
+                    {
+                        "value": "2925 11 00",
+                        "description": "Saccharin and its salts"
+                    },
+                    {
+                        "value": "2941",
+                        "description": "Antibiotics"
+                    },
+                    {
+                        "value": "30",
+                        "description": "CHAPTER 30 - PHARMACEUTICAL PRODUCTS"
+                    }
+                ]
             },
             "category": {
-                "identifier": "NEWSPAPERS",
-                "description": "Newspapers"
+                "identifier": "PHARMACEUTICAL_PRODUCTS",
+                "description": "Pharmaceutical products of a kind normally used for health care, prevention of illness and as treatment for medical and veterinary purposes, including products used for contraception and sanitary protection"
             },
-            "comment": "Printed books, brochures, leaflets and similar printed products, except books, brochures, leaflets and similar printed products, in which advertising and advertising represent, individually or together, more than 50% of the total content of the product. Exhaustive list can be found in Annex 7 of Act No. 222\/2004 Coll. on Value Added Tax as amended via the following link https:\/\/www.mfsr.sk\/en\/taxes-customs-accounting\/indirect-taxes\/vat\/"
+            "comment": "Only selected items.\nExhaustive list can be found in Annex 7 of Act No. 222\/2004 Coll. on Value Added Tax as amended via the following link https:\/\/www.mfsr.sk\/en\/taxes-customs-accounting\/indirect-taxes\/vat\/"
         },
         {
             "memberState": "SK",
@@ -134,6 +230,62 @@
                 "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
             },
             "comment": "Only selected items.\nExhaustive list can be found in Annex 7 of Act No. 222\/2004 Coll. on Value Added Tax as amended via the following link https:\/\/www.mfsr.sk\/en\/taxes-customs-accounting\/indirect-taxes\/vat\/"
+        },
+        {
+            "memberState": "SK",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "4901",
+                        "description": "Printed books, brochures, leaflets and similar printed matter, whether or not in single sheets"
+                    },
+                    {
+                        "value": "4902 10 00",
+                        "description": "Appearing at least four times a week"
+                    },
+                    {
+                        "value": "4903 00 00",
+                        "description": "Children's picture, drawing or colouring books"
+                    },
+                    {
+                        "value": "4904 00 00",
+                        "description": "Music, printed or in manuscript, whether or not bound or illustrated"
+                    },
+                    {
+                        "value": "4905",
+                        "description": "Maps and hydrographic or similar charts of all kinds, including atlases, wall maps, topographical plans and globes, printed"
+                    },
+                    {
+                        "value": "8523 49 10",
+                        "description": "Digital versatile discs (DVD)"
+                    },
+                    {
+                        "value": "8523 49 20",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "8523 51 90",
+                        "description": "Other"
+                    }
+                ]
+            },
+            "cpaCodes": {
+                "code": {
+                    "value": "58.11.3",
+                    "description": "On-line books"
+                }
+            },
+            "category": {
+                "identifier": "NEWSPAPERS",
+                "description": "Newspapers"
+            },
+            "comment": "Printed books, brochures, leaflets and similar printed products, except books, brochures, leaflets and similar printed products, in which advertising and advertising represent, individually or together, more than 50% of the total content of the product. Exhaustive list can be found in Annex 7 of Act No. 222\/2004 Coll. on Value Added Tax as amended via the following link https:\/\/www.mfsr.sk\/en\/taxes-customs-accounting\/indirect-taxes\/vat\/"
         },
         {
             "memberState": "SK",
@@ -439,158 +591,6 @@
                 "value": 23
             },
             "situationOn": "2025-01-01+01:00"
-        },
-        {
-            "memberState": "SK",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "0201",
-                        "description": "Meat of bovine animals, fresh or chilled"
-                    },
-                    {
-                        "value": "0203",
-                        "description": "Meat of swine, fresh, chilled or frozen"
-                    },
-                    {
-                        "value": "0204",
-                        "description": "Meat of sheep or goats, fresh, chilled or frozen"
-                    },
-                    {
-                        "value": "0207",
-                        "description": "Meat and edible offal, of the poultry of heading 0105, fresh, chilled or frozen"
-                    },
-                    {
-                        "value": "0208",
-                        "description": "Other meat and edible meat offal, fresh, chilled or frozen"
-                    },
-                    {
-                        "value": "0301",
-                        "description": "Live fish"
-                    },
-                    {
-                        "value": "0302",
-                        "description": "Fish, fresh or chilled, excluding fish fillets and other fish meat of heading 0304"
-                    },
-                    {
-                        "value": "0304",
-                        "description": "Fish fillets and other fish meat (whether or not minced), fresh, chilled or frozen"
-                    },
-                    {
-                        "value": "0401",
-                        "description": "Milk and cream, not concentrated nor containing added sugar or other sweetening matter"
-                    },
-                    {
-                        "value": "0403",
-                        "description": "Yogurt; buttermilk, curdled milk and cream, kephir and other fermented or acidified milk and cream, whether or not concentrated or containing added sugar or other sweetening matter or flavoured or containing added fruit, nuts or cocoa"
-                    },
-                    {
-                        "value": "0405 10",
-                        "description": "Butter"
-                    },
-                    {
-                        "value": "0406",
-                        "description": "Cheese and curd"
-                    },
-                    {
-                        "value": "0409 00 00",
-                        "description": "Natural honey"
-                    },
-                    {
-                        "value": "0701",
-                        "description": "Potatoes, fresh or chilled"
-                    },
-                    {
-                        "value": "0702 00 00",
-                        "description": "Tomatoes, fresh or chilled"
-                    },
-                    {
-                        "value": "0703",
-                        "description": "Onions, shallots, garlic, leeks and other alliaceous vegetables, fresh or chilled"
-                    },
-                    {
-                        "value": "0704",
-                        "description": "Cabbages, cauliflowers, kohlrabi, kale and similar edible brassicas, fresh or chilled"
-                    },
-                    {
-                        "value": "0705",
-                        "description": "Lettuce (Lactuca sativa) and chicory (Cichorium spp.), fresh or chilled"
-                    },
-                    {
-                        "value": "0707 00",
-                        "description": "Cucumbers and gherkins, fresh or chilled"
-                    },
-                    {
-                        "value": "0708",
-                        "description": "Leguminous vegetables, shelled or unshelled, fresh or chilled"
-                    },
-                    {
-                        "value": "0709",
-                        "description": "Other vegetables, fresh or chilled"
-                    },
-                    {
-                        "value": "0808",
-                        "description": "Apples, pears and quinces, fresh"
-                    },
-                    {
-                        "value": "1905",
-                        "description": "Bread, pastry, cakes, biscuits and other bakers' wares, whether or not containing cocoa; communion wafers, empty cachets of a kind suitable for pharmaceutical use, sealing wafers, rice paper and similar products"
-                    },
-                    {
-                        "value": "1905 90 30",
-                        "description": "Bread, not containing added honey, eggs, cheese or fruit, and containing by weight in the dry matter state not more than 5 % of sugars and not more than 5 % of fat"
-                    },
-                    {
-                        "value": "2009",
-                        "description": "Fruit or nut juices (including grape must and coconut water) and vegetable juices, unfermented and not containing added spirit, whether or not containing added sugar or other sweetening matter"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "FOODSTUFFS",
-                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
-            },
-            "comment": "Only selected items - fresh or chilled meat, live fish, fresh or chilled fish, milk, butter, bread and other selected foodstuffs (inluding gluten-free pastries, flour and bread). List can be found in Annex 7 of Act No. 222\/2004 Coll. on Value Added Tax as amended via the following link https:\/\/www.mfsr.sk\/en\/taxes-customs-accounting\/indirect-taxes\/vat\/"
-        },
-        {
-            "memberState": "SK",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "2844 40",
-                        "description": "Radioactive elements and isotopes and compounds other than those of subheading 284410, 284420 or 284430; alloys, dispersions (including cermets), ceramic products and mixtures containing these elements, isotopes or compounds; radioactive residues"
-                    },
-                    {
-                        "value": "2925 11 00",
-                        "description": "Saccharin and its salts"
-                    },
-                    {
-                        "value": "2941",
-                        "description": "Antibiotics"
-                    },
-                    {
-                        "value": "30",
-                        "description": "CHAPTER 30 - PHARMACEUTICAL PRODUCTS"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "PHARMACEUTICAL_PRODUCTS",
-                "description": "Pharmaceutical products of a kind normally used for health care, prevention of illness and as treatment for medical and veterinary purposes, including products used for contraception and sanitary protection"
-            },
-            "comment": "Only selected items.\nExhaustive list can be found in Annex 7 of Act No. 222\/2004 Coll. on Value Added Tax as amended via the following link https:\/\/www.mfsr.sk\/en\/taxes-customs-accounting\/indirect-taxes\/vat\/"
         }
     ]
 }

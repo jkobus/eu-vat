@@ -12,6 +12,40 @@
             "cnCodes": {
                 "code": [
                     {
+                        "value": "1901 10 00",
+                        "description": "Preparations suitable for infants or young children, put up for retail sale"
+                    },
+                    {
+                        "value": "2005 10 00",
+                        "description": "Homogenised vegetables"
+                    },
+                    {
+                        "value": "2007 10",
+                        "description": "Homogenised preparations"
+                    },
+                    {
+                        "value": "2104 20 00",
+                        "description": "Homogenised composite food preparations"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "FOODSTUFFS",
+                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
+            },
+            "comment": "The reduced rate is applicable for supply of foods suitable for babies or small children."
+        },
+        {
+            "memberState": "BG",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 9
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
                         "value": "2106 90 92",
                         "description": "Containing no milkfats, sucrose, isoglucose, glucose or starch or containing, by weight, less than 1,5 % milkfat, 5 % sucrose or isoglucose, 5 % glucose or starch"
                     },
@@ -147,40 +181,6 @@
                 "value": 20
             },
             "situationOn": "2025-01-01+01:00"
-        },
-        {
-            "memberState": "BG",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 9
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "1901 10 00",
-                        "description": "Preparations suitable for infants or young children, put up for retail sale"
-                    },
-                    {
-                        "value": "2005 10 00",
-                        "description": "Homogenised vegetables"
-                    },
-                    {
-                        "value": "2007 10",
-                        "description": "Homogenised preparations"
-                    },
-                    {
-                        "value": "2104 20 00",
-                        "description": "Homogenised composite food preparations"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "FOODSTUFFS",
-                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
-            },
-            "comment": "The reduced rate is applicable for supply of foods suitable for babies or small children."
         }
     ]
 }
