@@ -8,7 +8,7 @@
                 "type": "EXEMPTED",
                 "value": 0
             },
-            "situationOn": "2024-07-01+02:00",
+            "situationOn": "2025-01-01+01:00",
             "cpaCodes": {
                 "code": [
                     {
@@ -59,9 +59,18 @@
             },
             "category": {
                 "identifier": "TRANSPORT_PASSENGERS",
-                "description": "Transport of passengers and the transport of goods accompanying them, such as luggage, bicycles, including electric bicycles, motor or other vehicles, or the supply of services relating to the transport of passengers"
+                "description": "Transport of passengers and their accompanying luggage"
             },
             "comment": "Taxis, scheduled busses, trains and air transport are exempted. In connection with international transportation of passengers the exemption also covers accompanying luggage.\nPassenger transport in tourist busses and similar vehicles (CPA 49.39.32, 49.39.33, 49.39.34) are subject to VAT in Denmark (Standard rate)."
+        },
+        {
+            "memberState": "DK",
+            "type": "STANDARD",
+            "rate": {
+                "type": "DEFAULT",
+                "value": 25
+            },
+            "situationOn": "2025-01-01+01:00"
         },
         {
             "memberState": "DK",
@@ -70,7 +79,7 @@
                 "type": "EXEMPTED",
                 "value": 0
             },
-            "situationOn": "2024-07-01+02:00",
+            "situationOn": "2025-01-01+01:00",
             "cpaCodes": {
                 "code": {
                     "value": "88.99.1",
@@ -79,7 +88,7 @@
             },
             "category": {
                 "identifier": "SOCIAL_WELLBEING",
-                "description": "Supply of goods and services by organisations engaged in welfare or social security work as defined by Member States and recognised as being devoted to social wellbeing by Member States, in so far as those transactions are not exempt pursuant to Articles 132, 135 and 136"
+                "description": "Supply of goods and services by organisations recognised as being devoted to social wellbeing by Member States and engaged in welfare or social security work"
             },
             "comment": "Delivery of goods and services related to charitable events - e.g. collection and sale of used items of little value - is exempt under certain conditions according to section 13(1)(17). Exemption obtained by prior application to the tax authorities on condition that the event does not distort competition in relation to commercial enterprises. An application for exemption is based on a specific assessment (event has a charitable purpose or has a commercial character)."
         },
@@ -90,7 +99,7 @@
                 "type": "EXEMPTED",
                 "value": 0
             },
-            "situationOn": "2024-07-01+02:00",
+            "situationOn": "2025-01-01+01:00",
             "cpaCodes": {
                 "code": [
                     {
@@ -115,7 +124,7 @@
                 "type": "EXEMPTED",
                 "value": 0
             },
-            "situationOn": "2024-07-01+02:00",
+            "situationOn": "2025-01-01+01:00",
             "cpaCodes": {
                 "code": {
                     "value": "91",
@@ -124,7 +133,7 @@
             },
             "category": {
                 "identifier": "CULTURAL_EVENTS",
-                "description": "Admission to shows, theatres, circuses, fairs, amusement parks, concerts, museums, zoos, cinemas, exhibitions and similar cultural events and facilities or access to the live-streaming of those events or visits or both"
+                "description": "Admission to shows, theatres, circuses, fairs, amusement parks, concerts, museums, zoos, cinemas, exhibitions and similar cultural events and facilities"
             },
             "comment": "Services related to cultural activities, including libraries, museums, zoos and the like and supply of goods and services closely related to these services are exempt from VAT. The exemption does not cover radio and television broadcasts, movie display and theatre performances, concerts, etc."
         },
@@ -135,7 +144,7 @@
                 "type": "EXEMPTED",
                 "value": 0
             },
-            "situationOn": "2024-07-01+02:00",
+            "situationOn": "2025-01-01+01:00",
             "cpaCodes": {
                 "code": {
                     "value": "93.12.10",
@@ -144,7 +153,7 @@
             },
             "category": {
                 "identifier": "SPORTING_EVENTS",
-                "description": "Admission to sporting events or access to the live-streaming of those events or both; use of sporting facilities, and the supply of sport or physical exercise classes also when live-streamed"
+                "description": "Admission to sporting events"
             },
             "comment": "The exemption does not cover events with professional athletes as participants. It is a condition that the supplier is not acting for the purpose of gaining profit."
         },
@@ -155,7 +164,7 @@
                 "type": "EXEMPTED",
                 "value": 0
             },
-            "situationOn": "2024-07-01+02:00",
+            "situationOn": "2025-01-01+01:00",
             "cpaCodes": {
                 "code": {
                     "value": "96.03.1",
@@ -167,15 +176,6 @@
                 "description": "Supply of services by undertakers and cremation services, and the supply of goods related thereto"
             },
             "comment": "The exemption does not include goods."
-        },
-        {
-            "memberState": "DK",
-            "type": "STANDARD",
-            "rate": {
-                "type": "DEFAULT",
-                "value": 25
-            },
-            "situationOn": "2024-07-01+02:00"
         }
     ]
 }

@@ -1039,6 +1039,32 @@
             "memberState": "MT",
             "type": "REDUCED",
             "rate": {
+                "type": "EXEMPTED",
+                "value": 0
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "12",
+                        "description": "CHAPTER 12 - OIL SEEDS AND OLEAGINOUS FRUITS; MISCELLANEOUS GRAINS, SEEDS AND FRUIT; INDUSTRIAL OR MEDICINAL PLANTS; STRAW AND FODDER"
+                    },
+                    {
+                        "value": "13",
+                        "description": "CHAPTER 13 - LAC; GUMS, RESINS AND OTHER VEGETABLE SAPS AND EXTRACTS"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "FOODSTUFFS",
+                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
+            },
+            "comment": "Food for human consumption, excluding food supplied for catering, is taxed at 0% (exempt with credit) (part 2).  \n\nThe above exemption does not apply to items classified under the following subheadings in the First Schedule of the Import Duties Act:\n\n(1) 1207.30.90; 1207.99.91.00; 1209.30.00.00; 1209.99.10; 1209.99.91.00; 1209.99.99.00; 1211.90.30\n\n(2) 1301.10.00.00; 1302.11.00; 1302.14.00; 1302.19.05; 1302.19.30; 1302.19.91; 1302.19.98; 1302.20.10; 1302.20.90"
+        },
+        {
+            "memberState": "MT",
+            "type": "REDUCED",
+            "rate": {
                 "type": "REDUCED_RATE",
                 "value": 5
             },
@@ -1064,32 +1090,6 @@
                 "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
             },
             "comment": "This reduced rate applies to the following items (and CN codes) for the exclusive use of the disabled (part 4):\n- car adaptation-handcontrols, swivel seats (9401 30 10 and 9401 30 90);\n- toilet frames\/surrounds (9401 79 00);\n- special feeder chairs (9402 90 00);\n- mouthsticks (9608 39 90)"
-        },
-        {
-            "memberState": "MT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "EXEMPTED",
-                "value": 0
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "12",
-                        "description": "CHAPTER 12 - OIL SEEDS AND OLEAGINOUS FRUITS; MISCELLANEOUS GRAINS, SEEDS AND FRUIT; INDUSTRIAL OR MEDICINAL PLANTS; STRAW AND FODDER"
-                    },
-                    {
-                        "value": "13",
-                        "description": "CHAPTER 13 - LAC; GUMS, RESINS AND OTHER VEGETABLE SAPS AND EXTRACTS"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "FOODSTUFFS",
-                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
-            },
-            "comment": "Food for human consumption, excluding food supplied for catering, is taxed at 0% (exempt with credit) (part 2).  \n\nThe above exemption does not apply to items classified under the following subheadings in the First Schedule of the Import Duties Act:\n\n(1) 1207.30.90; 1207.99.91.00; 1209.30.00.00; 1209.99.10; 1209.99.91.00; 1209.99.99.00; 1211.90.30\n\n(2) 1301.10.00.00; 1302.11.00; 1302.14.00; 1302.19.05; 1302.19.30; 1302.19.91; 1302.19.98; 1302.20.10; 1302.20.90"
         },
         {
             "memberState": "MT",
