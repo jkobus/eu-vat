@@ -65,15 +65,6 @@
         },
         {
             "memberState": "DK",
-            "type": "STANDARD",
-            "rate": {
-                "type": "DEFAULT",
-                "value": 25
-            },
-            "situationOn": "2025-01-01+01:00"
-        },
-        {
-            "memberState": "DK",
             "type": "REDUCED",
             "rate": {
                 "type": "EXEMPTED",
@@ -176,6 +167,15 @@
                 "description": "Supply of services by undertakers and cremation services, and the supply of goods related thereto"
             },
             "comment": "The exemption does not include goods."
+        },
+        {
+            "memberState": "DK",
+            "type": "STANDARD",
+            "rate": {
+                "type": "DEFAULT",
+                "value": 25
+            },
+            "situationOn": "2025-01-01+01:00"
         }
     ]
 }

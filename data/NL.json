@@ -1199,6 +1199,116 @@
             "memberState": "NL",
             "type": "REDUCED",
             "rate": {
+                "type": "EXEMPTED",
+                "value": 0
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cnCodes": {
+                "code": {
+                    "value": "8541 43 00",
+                    "description": "Photovoltaic cells assembled in modules or made up into panels"
+                }
+            },
+            "cpaCodes": {
+                "code": {
+                    "value": "33.20.70",
+                    "description": "Installation services of other goods n.e.c."
+                }
+            },
+            "category": {
+                "identifier": "SOLAR_PANELS",
+                "description": "Supply and installation of solar panels on and adjacent to private dwellings, housing and public and other buildings used for activities in the public interest"
+            },
+            "comment": "Tabel II prov. a.10: A zero rate is applicable for the supply and installation of solar panels [panels that have the function of generating electricity from sunlight with photovoltaic cells (also known as PV cells or solar cells)] on and adjacent to private dwellings. An important condition for the 0% rate is that the panels are installed on or near a home."
+        },
+        {
+            "memberState": "NL",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 9
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "0106 19 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "49",
+                        "description": "CHAPTER 49 - PRINTED BOOKS, NEWSPAPERS, PICTURES AND OTHER PRODUCTS OF THE PRINTING INDUSTRY; MANUSCRIPTS, TYPESCRIPTS AND PLANS"
+                    },
+                    {
+                        "value": "6602 00 00",
+                        "description": "Walking sticks, seat-sticks, whips, riding-crops and the like"
+                    },
+                    {
+                        "value": "9013 80",
+                        "description": "Other devices, appliances and instruments"
+                    },
+                    {
+                        "value": "9018 90 84",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "91",
+                        "description": "CHAPTER 91 - CLOCKS AND WATCHES AND PARTS THEREOF"
+                    },
+                    {
+                        "value": "8539 52 00",
+                        "description": "Light-emitting diode (LED) lamps"
+                    }
+                ]
+            },
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "33",
+                        "description": "Repair and installation services of machinery and equipment"
+                    },
+                    {
+                        "value": "95",
+                        "description": "Repair services of computers and personal and household goods"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "MEDICAL_EQUIPMENT",
+                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
+            },
+            "comment": "Tabel I prov. a.31 and b.1: certain braille products; clocks, optical reading devices, TV magnifiers, reading platforms, orientation aids, support, tactile and recognition canes designed for personal use of blind and partially sighted persons; guide dogs; other aids designated by ministerial regulation that have been specially designed for exclusive and personal use by blind and partially sighted persons; reading pens and other equipment with similar function, equipment for use by dyslexics."
+        },
+        {
+            "memberState": "NL",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 9
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "2201 90 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "2853 90 10",
+                        "description": "Distilled or conductivity water and water of similar purity"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "SUPPLY_WATER",
+                "description": "Supply of water"
+            },
+            "comment": "Tabel I prov. a.28: including water supplied via the public mains network; distilled water; warm water; and 'other water' (surface water not suitable for human consumption but usable for non-consumptive purposes such as rinsing activities or sprinkling crops).\nExcluded: demineralized, deironed and softened water; river water and sea water (2501 00 10) whether or not intended for scientific purposes; ice and steam."
+        },
+        {
+            "memberState": "NL",
+            "type": "REDUCED",
+            "rate": {
                 "type": "REDUCED_RATE",
                 "value": 9
             },
@@ -1450,46 +1560,36 @@
             "cnCodes": {
                 "code": [
                     {
-                        "value": "2201 90 00",
+                        "value": "3005 10 00",
+                        "description": "Adhesive dressings and other articles having an adhesive layer"
+                    },
+                    {
+                        "value": "3005 90",
                         "description": "Other"
                     },
                     {
-                        "value": "2853 90 10",
-                        "description": "Distilled or conductivity water and water of similar purity"
+                        "value": "3006 10",
+                        "description": "Sterile surgical catgut, similar sterile suture materials (including sterile absorbable surgical or dental yarns) and sterile tissue adhesives for surgical wound closure; sterile laminaria and sterile laminaria tents; sterile absorbable surgical or dental haemostatics; sterile surgical or dental adhesion barriers, whether or not absorbable"
+                    },
+                    {
+                        "value": "3006 50 00",
+                        "description": "First-aid boxes and kits"
+                    },
+                    {
+                        "value": "4803 00",
+                        "description": "Toilet or facial tissue stock, towel or napkin stock and similar paper of a kind used for household or sanitary purposes, cellulose wadding and webs of cellulose fibres, whether or not creped, crinkled, embossed, perforated, surface-coloured, surface-decorated or printed, in rolls or sheets"
+                    },
+                    {
+                        "value": "9619 00",
+                        "description": "Sanitary towels (pads) and tampons, napkins (diapers), napkin liners and similar articles, of any material"
                     }
                 ]
             },
             "category": {
-                "identifier": "SUPPLY_WATER",
-                "description": "Supply of water"
+                "identifier": "PHARMACEUTICAL_PRODUCTS",
+                "description": "Pharmaceutical products of a kind normally used for health care, prevention of illness and as treatment for medical and veterinary purposes, including products used for contraception and sanitary protection"
             },
-            "comment": "Tabel I prov. a.28: including water supplied via the public mains network; distilled water; warm water; and 'other water' (surface water not suitable for human consumption but usable for non-consumptive purposes such as rinsing activities or sprinkling crops).\nExcluded: demineralized, deironed and softened water; river water and sea water (2501 00 10) whether or not intended for scientific purposes; ice and steam."
-        },
-        {
-            "memberState": "NL",
-            "type": "REDUCED",
-            "rate": {
-                "type": "EXEMPTED",
-                "value": 0
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cnCodes": {
-                "code": {
-                    "value": "8541 43 00",
-                    "description": "Photovoltaic cells assembled in modules or made up into panels"
-                }
-            },
-            "cpaCodes": {
-                "code": {
-                    "value": "33.20.70",
-                    "description": "Installation services of other goods n.e.c."
-                }
-            },
-            "category": {
-                "identifier": "SOLAR_PANELS",
-                "description": "Supply and installation of solar panels on and adjacent to private dwellings, housing and public and other buildings used for activities in the public interest"
-            },
-            "comment": "Tabel II prov. a.10: A zero rate is applicable for the supply and installation of solar panels [panels that have the function of generating electricity from sunlight with photovoltaic cells (also known as PV cells or solar cells)] on and adjacent to private dwellings. An important condition for the 0% rate is that the panels are installed on or near a home."
+            "comment": "Tabel I prov. a.8: bandages such as cottonwool, mesh, adhesives, band aids, tampons, splints and similar products for pharmaceutical purposes; first aid kits; sanitary napkins; maternity matrasses; incontinence products; products that with regard to use can be equated with said bandages and are developed and offered for medical purposes. 'Bandages' only encompasses products that serve to cover injured body parts. \nExcluded: consumer articles (such as clothing) which have a therapeutic effect."
         },
         {
             "memberState": "NL",
@@ -1502,150 +1602,118 @@
             "cnCodes": {
                 "code": [
                     {
-                        "value": "0106 19 00",
+                        "value": "4901",
+                        "description": "Printed books, brochures, leaflets and similar printed matter, whether or not in single sheets"
+                    },
+                    {
+                        "value": "4902",
+                        "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
+                    },
+                    {
+                        "value": "4903 00 00",
+                        "description": "Children's picture, drawing or colouring books"
+                    },
+                    {
+                        "value": "4904 00 00",
+                        "description": "Music, printed or in manuscript, whether or not bound or illustrated"
+                    },
+                    {
+                        "value": "4910 00 00",
+                        "description": "Calendars of any kind, printed, including calendar blocks"
+                    },
+                    {
+                        "value": "4905 20 00",
+                        "description": "In book form"
+                    },
+                    {
+                        "value": "4905 90 00",
+                        "description": "Other"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "LOAN_LIBRARIES",
+                "description": "Supply, including on loan by libraries, of books, newspapers and periodicals either on physical means of support or supplied electronically or both (including brochures, leaflets and similar printed matter, children's picture, drawing or colouring books, music printed or in manuscript form, maps and hydrographic or similar charts), other than publications wholly or predominantly devoted to advertising and other than publications wholly or predominantly consisting of video content or audible music."
+            },
+            "comment": "Tabel I prov. a.30, b.2, b.21: digital or physical supplies (including on loan of): books; digital educational information that is provided on physical carriers and that is apparently intended exclusively or almost exclusively for the transfer of information in education; newspapers, weeklies, magazines and other publications appearing periodically at least three times a year."
+        },
+        {
+            "memberState": "NL",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 9
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "4907 00",
+                        "description": "Unused postage, revenue or similar stamps of current or new issue in the country in which they have, or will have, a recognised face value; stamp-impressed paper; banknotes; cheque forms; stock, share or bond certificates and similar documents of title"
+                    },
+                    {
+                        "value": "4911",
+                        "description": "Other printed matter, including printed pictures and photographs"
+                    },
+                    {
+                        "value": "4911 10",
+                        "description": "Trade advertising material, commercial catalogues and the like"
+                    },
+                    {
+                        "value": "4911 91 00",
+                        "description": "Pictures, designs and photographs"
+                    },
+                    {
+                        "value": "4911 99 00",
                         "description": "Other"
                     },
                     {
-                        "value": "49",
-                        "description": "CHAPTER 49 - PRINTED BOOKS, NEWSPAPERS, PICTURES AND OTHER PRODUCTS OF THE PRINTING INDUSTRY; MANUSCRIPTS, TYPESCRIPTS AND PLANS"
+                        "value": "6304 20 00",
+                        "description": "Bed nets specified in subheading note 1 to this chapter"
                     },
                     {
-                        "value": "6602 00 00",
-                        "description": "Walking sticks, seat-sticks, whips, riding-crops and the like"
+                        "value": "6304 91 00",
+                        "description": "Knitted or crocheted"
                     },
                     {
-                        "value": "9013 80",
-                        "description": "Other devices, appliances and instruments"
+                        "value": "6913",
+                        "description": "Statuettes and other ornamental ceramic articles"
                     },
                     {
-                        "value": "9018 90 84",
+                        "value": "7118 90 00",
                         "description": "Other"
                     },
                     {
-                        "value": "91",
-                        "description": "CHAPTER 91 - CLOCKS AND WATCHES AND PARTS THEREOF"
+                        "value": "9701",
+                        "description": "Paintings, drawings and pastels, executed entirely by hand, other than drawings of heading 4906 and other than hand-painted or hand-decorated manufactured articles; collages, mosaics and similar decorative plaques"
                     },
                     {
-                        "value": "8539 52 00",
-                        "description": "Light-emitting diode (LED) lamps"
-                    }
-                ]
-            },
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "33",
-                        "description": "Repair and installation services of machinery and equipment"
+                        "value": "9702 00 00",
+                        "description": "Original engravings, prints and lithographs"
                     },
                     {
-                        "value": "95",
-                        "description": "Repair services of computers and personal and household goods"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "MEDICAL_EQUIPMENT",
-                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
-            },
-            "comment": "Tabel I prov. a.31 and b.1: certain braille products; clocks, optical reading devices, TV magnifiers, reading platforms, orientation aids, support, tactile and recognition canes designed for personal use of blind and partially sighted persons; guide dogs; other aids designated by ministerial regulation that have been specially designed for exclusive and personal use by blind and partially sighted persons; reading pens and other equipment with similar function, equipment for use by dyslexics."
-        },
-        {
-            "memberState": "NL",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 9
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "49.10",
-                        "description": "Passenger rail transport services, interurban"
+                        "value": "9703 00 00",
+                        "description": "Original sculptures and statuary, in any material"
                     },
                     {
-                        "value": "49.3",
-                        "description": "Other passenger land transport services"
+                        "value": "9704 00 00",
+                        "description": "Postage or revenue stamps, stamp-postmarks, first-day covers, postal stationery (stamped paper), and the like, used or unused, other than those of heading 4907"
                     },
                     {
-                        "value": "50.1",
-                        "description": "Sea and coastal passenger water transport services"
+                        "value": "9705 00 00",
+                        "description": "Collections and collectors' pieces of zoological, botanical, mineralogical, anatomical, historical, archaeological, palaeontological, ethnographic or numismatic interest"
                     },
                     {
-                        "value": "50.3",
-                        "description": "Inland passenger water transport services"
-                    },
-                    {
-                        "value": "51.1",
-                        "description": "Passenger air transport services"
+                        "value": "9706 00 00",
+                        "description": "Antiques of an age exceeding 100 years"
                     }
                 ]
             },
             "category": {
-                "identifier": "TRANSPORT_PASSENGERS",
-                "description": "Transport of passengers and their accompanying luggage"
+                "identifier": "ANTIQUES",
+                "description": "Supply of works of art, collectors' items and antiques listed in Annex IX, Parts A, B and C"
             },
-            "comment": "Tabel I prov. b.9: private bus transport; public transport and taxi transport as referred to in Article 1 of the 'Wet personenvervoer 2000 (Dutch 'Passenger Transport Act 2000'), taxi transport of persons by road other than by car, and the transport of persons by aircraft if the place of departure and the place of destination are located in the Netherlands insofar as this transport takes place by balloons or by aircraft equipped for the transport of ill or injured persons;"
-        },
-        {
-            "memberState": "NL",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 9
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cpaCodes": {
-                "code": {
-                    "value": "55.2",
-                    "description": "Holiday and other short stay accommodation services"
-                }
-            },
-            "category": {
-                "identifier": "ACCOMMODATION",
-                "description": "Accommodation provided in hotels and similar establishments, including the provision of holiday accommodation and the letting of places on camping or caravan sites"
-            },
-            "comment": "Tabel I prov. b.11: providing accommodation within a hotel, guesthouse and holiday business to persons who stay for only a short period. The terms 'hotel, guesthouse and holiday business' must be interpreted according to parlance. Whether the stay is considered short-term depends on the nature and duration of the stay. Stays for a maximum of six months, during which the guests do not relocate the center of their social life to the accommodation are included; longer stays usually are not."
-        },
-        {
-            "memberState": "NL",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 9
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cpaCodes": {
-                "code": {
-                    "value": "55.3",
-                    "description": "Camping ground, recreational and vacation camp services"
-                }
-            },
-            "category": {
-                "identifier": "ACCOMMODATION",
-                "description": "Accommodation provided in hotels and similar establishments, including the provision of holiday accommodation and the letting of places on camping or caravan sites"
-            },
-            "comment": "Tabel I prov. b.10: providing the opportunity to camp within the context of a camping and holiday business to persons who only stay there for a short period. The term \"camp and holiday business\" should be interpreted according to parlance. It is not required that the lessor provides the additional services that camping sites normally provide. 'providing the opportunity to camp' must also be interpreted according to parlance."
-        },
-        {
-            "memberState": "NL",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 9
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cpaCodes": {
-                "code": {
-                    "value": "56",
-                    "description": "Food and beverage serving services"
-                }
-            },
-            "category": {
-                "identifier": "RESTAURANT",
-                "description": "Restaurant and catering services, it being possible to exclude the supply of (alcoholic and\/or non-alcoholic) beverages"
-            },
-            "comment": "Tabel I prov. b.12: serving out foodstuffs for human consumption, for use on site within the context of a hotel, café, restaurant, guesthouse and related businesses. The supply of freshly prepared food or edible products for immediate consumption in snack bars, snack vans, cinema foyers, sports club canteens and such is considered a supply of goods, unless the services accompanying the delivery of the foodstuffs predominate."
+            "comment": "Tabel I, prov. a.29: works of art, collectors' items and antiques, insofar as these are imported; or insofar these are supplied by: the maker or his successor in title under universal title; or an entrepreneur, other than a reseller, who fully deducts the tax on his  acquisition\nWorks of art, objects for collections and antiques are defined in Article 2a, first paragraph, under m, of the Act in connection with Article 4, second paragraph, of the implementing order and the annex J to that order."
         },
         {
             "memberState": "NL",
@@ -1692,180 +1760,6 @@
                 "description": "Admission to shows, theatres, circuses, fairs, amusement parks, concerts, museums, zoos, cinemas, exhibitions and similar cultural events and facilities"
             },
             "comment": "Tabel I prov. b.14 to b.15: granting (physical) access to circusses; zoos; public museums or collections (including closely related supplies of goods, such as catalogs, photographs); music and stage performances, including lectures (excluding peep shows\/other performances primarily aimed at erotic entertainment); cinemas; amusement parks, playgrounds and gardens, other facilities primarily and permanently furnished to entertainment and day recreation."
-        },
-        {
-            "memberState": "NL",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 9
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cpaCodes": {
-                "code": {
-                    "value": "81.21",
-                    "description": "General cleaning services of buildings"
-                }
-            },
-            "category": {
-                "identifier": "WINDOW_CLEANING",
-                "description": "Window cleaning and cleaning in private households"
-            },
-            "comment": "Tabel I prov. b.20: regular cleaning services regarding the interior of private households (including closed corridors) are included. Excluded: cleaning services regarding the exterior of private households, cleaning services regarding other buildings than private households and cleaning services that are not considered regular cleaning services regularly performed by a cleaner (such as special services performed with special equipment, e.g. cleaning of chimney, central heating)."
-        },
-        {
-            "memberState": "NL",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 9
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "3005 10 00",
-                        "description": "Adhesive dressings and other articles having an adhesive layer"
-                    },
-                    {
-                        "value": "3005 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "3006 10",
-                        "description": "Sterile surgical catgut, similar sterile suture materials (including sterile absorbable surgical or dental yarns) and sterile tissue adhesives for surgical wound closure; sterile laminaria and sterile laminaria tents; sterile absorbable surgical or dental haemostatics; sterile surgical or dental adhesion barriers, whether or not absorbable"
-                    },
-                    {
-                        "value": "3006 50 00",
-                        "description": "First-aid boxes and kits"
-                    },
-                    {
-                        "value": "4803 00",
-                        "description": "Toilet or facial tissue stock, towel or napkin stock and similar paper of a kind used for household or sanitary purposes, cellulose wadding and webs of cellulose fibres, whether or not creped, crinkled, embossed, perforated, surface-coloured, surface-decorated or printed, in rolls or sheets"
-                    },
-                    {
-                        "value": "9619 00",
-                        "description": "Sanitary towels (pads) and tampons, napkins (diapers), napkin liners and similar articles, of any material"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "PHARMACEUTICAL_PRODUCTS",
-                "description": "Pharmaceutical products of a kind normally used for health care, prevention of illness and as treatment for medical and veterinary purposes, including products used for contraception and sanitary protection"
-            },
-            "comment": "Tabel I prov. a.8: bandages such as cottonwool, mesh, adhesives, band aids, tampons, splints and similar products for pharmaceutical purposes; first aid kits; sanitary napkins; maternity matrasses; incontinence products; products that with regard to use can be equated with said bandages and are developed and offered for medical purposes. 'Bandages' only encompasses products that serve to cover injured body parts. \nExcluded: consumer articles (such as clothing) which have a therapeutic effect."
-        },
-        {
-            "memberState": "NL",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 9
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "85.51",
-                        "description": "Sports and recreation education services"
-                    },
-                    {
-                        "value": "93.11",
-                        "description": "Sports facility operation services"
-                    },
-                    {
-                        "value": "93.12",
-                        "description": "Services of sport clubs"
-                    },
-                    {
-                        "value": "93.19.19",
-                        "description": "Other sports and recreational sports services"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "SPORTING_EVENTS",
-                "description": "Admission to sporting events"
-            },
-            "comment": "Tabel I prov. b.3 and b.14, f: the granting of (physical) access to spectators of sports competitions, demonstrations and the like. Sports competitions are events where people actively participate in sports. Sports demonstrations are, for example, shows of the Harlem Globetrotters (basketball), performances of the Spanish Riding School (horse dressage) and shows of Wrestlemania (wrestling); use of sporting facilities."
-        },
-        {
-            "memberState": "NL",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 9
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cpaCodes": {
-                "code": {
-                    "value": "90.01",
-                    "description": "Services of performing artists"
-                }
-            },
-            "category": {
-                "identifier": "WRITERS_SERVICES",
-                "description": "Supply of services by writers, composers and performing artists, or of the royalties due to them"
-            },
-            "comment": "Tabel I prov. b.17: performances by performing artists. This includes performances by artists in music and stage performances as meant in the foregoing item. The reduced VAT rate only applies to performances that can be (in)directly heard or viewed by an audience. Rehearsals associated with and necessary for those performances are included. Excluded: providing the opportunity to participate in a performance and organizing performances."
-        },
-        {
-            "memberState": "NL",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 9
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "3006 40 00",
-                        "description": "Dental cements and other dental fillings; bone reconstruction cements"
-                    },
-                    {
-                        "value": "3006 91 00",
-                        "description": "Appliances identifiable for ostomy use"
-                    },
-                    {
-                        "value": "6212 90 00",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "9021 10",
-                        "description": "Orthopaedic or fracture appliances"
-                    },
-                    {
-                        "value": "9021 29 00",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "9021 31 00",
-                        "description": "Artificial joints"
-                    },
-                    {
-                        "value": "9021 39",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "9021 40 00",
-                        "description": "Hearing aids, excluding parts and accessories"
-                    },
-                    {
-                        "value": "9021 50 00",
-                        "description": "Pacemakers for stimulating heart muscles, excluding parts and accessories"
-                    },
-                    {
-                        "value": "9021 90",
-                        "description": "Other"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "MEDICAL_EQUIPMENT",
-                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
-            },
-            "comment": "Tabel I prov. a.35 and b.1: artificial limbs; devices for taking over the fixation function of a malfunctioning hand; leg braces, fracture bands, artificial joints; artificial eyes, -ears, -kidneys; certain prostheses; heart and muscle stimulators; hearing aids; stuttering ear aids; aids for stoma patients; orthopedic footwear; devices for taking off therapeutic elastic compression stockings; orthopedic corsets; parts, components and accessories apparently intended for the aforementioned goods"
         },
         {
             "memberState": "NL",
@@ -2065,130 +1959,6 @@
             "cnCodes": {
                 "code": [
                     {
-                        "value": "4901",
-                        "description": "Printed books, brochures, leaflets and similar printed matter, whether or not in single sheets"
-                    },
-                    {
-                        "value": "4902",
-                        "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
-                    },
-                    {
-                        "value": "4903 00 00",
-                        "description": "Children's picture, drawing or colouring books"
-                    },
-                    {
-                        "value": "4904 00 00",
-                        "description": "Music, printed or in manuscript, whether or not bound or illustrated"
-                    },
-                    {
-                        "value": "4910 00 00",
-                        "description": "Calendars of any kind, printed, including calendar blocks"
-                    },
-                    {
-                        "value": "4905 20 00",
-                        "description": "In book form"
-                    },
-                    {
-                        "value": "4905 90 00",
-                        "description": "Other"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "LOAN_LIBRARIES",
-                "description": "Supply, including on loan by libraries, of books, newspapers and periodicals either on physical means of support or supplied electronically or both (including brochures, leaflets and similar printed matter, children's picture, drawing or colouring books, music printed or in manuscript form, maps and hydrographic or similar charts), other than publications wholly or predominantly devoted to advertising and other than publications wholly or predominantly consisting of video content or audible music."
-            },
-            "comment": "Tabel I prov. a.30, b.2, b.21: digital or physical supplies (including on loan of): books; digital educational information that is provided on physical carriers and that is apparently intended exclusively or almost exclusively for the transfer of information in education; newspapers, weeklies, magazines and other publications appearing periodically at least three times a year."
-        },
-        {
-            "memberState": "NL",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 9
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "4907 00",
-                        "description": "Unused postage, revenue or similar stamps of current or new issue in the country in which they have, or will have, a recognised face value; stamp-impressed paper; banknotes; cheque forms; stock, share or bond certificates and similar documents of title"
-                    },
-                    {
-                        "value": "4911",
-                        "description": "Other printed matter, including printed pictures and photographs"
-                    },
-                    {
-                        "value": "4911 10",
-                        "description": "Trade advertising material, commercial catalogues and the like"
-                    },
-                    {
-                        "value": "4911 91 00",
-                        "description": "Pictures, designs and photographs"
-                    },
-                    {
-                        "value": "4911 99 00",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "6304 20 00",
-                        "description": "Bed nets specified in subheading note 1 to this chapter"
-                    },
-                    {
-                        "value": "6304 91 00",
-                        "description": "Knitted or crocheted"
-                    },
-                    {
-                        "value": "6913",
-                        "description": "Statuettes and other ornamental ceramic articles"
-                    },
-                    {
-                        "value": "7118 90 00",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "9701",
-                        "description": "Paintings, drawings and pastels, executed entirely by hand, other than drawings of heading 4906 and other than hand-painted or hand-decorated manufactured articles; collages, mosaics and similar decorative plaques"
-                    },
-                    {
-                        "value": "9702 00 00",
-                        "description": "Original engravings, prints and lithographs"
-                    },
-                    {
-                        "value": "9703 00 00",
-                        "description": "Original sculptures and statuary, in any material"
-                    },
-                    {
-                        "value": "9704 00 00",
-                        "description": "Postage or revenue stamps, stamp-postmarks, first-day covers, postal stationery (stamped paper), and the like, used or unused, other than those of heading 4907"
-                    },
-                    {
-                        "value": "9705 00 00",
-                        "description": "Collections and collectors' pieces of zoological, botanical, mineralogical, anatomical, historical, archaeological, palaeontological, ethnographic or numismatic interest"
-                    },
-                    {
-                        "value": "9706 00 00",
-                        "description": "Antiques of an age exceeding 100 years"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "ANTIQUES",
-                "description": "Supply of works of art, collectors' items and antiques listed in Annex IX, Parts A, B and C"
-            },
-            "comment": "Tabel I, prov. a.29: works of art, collectors' items and antiques, insofar as these are imported; or insofar these are supplied by: the maker or his successor in title under universal title; or an entrepreneur, other than a reseller, who fully deducts the tax on his  acquisition\nWorks of art, objects for collections and antiques are defined in Article 2a, first paragraph, under m, of the Act in connection with Article 4, second paragraph, of the implementing order and the annex J to that order."
-        },
-        {
-            "memberState": "NL",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 9
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
                         "value": "9018 39 00",
                         "description": "Other"
                     },
@@ -2211,6 +1981,64 @@
                 "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
             },
             "comment": "Tabel I prov. a.37 and b.1: measuring equipment and accessories for self-diagnosis of the coagulation time of blood; drug nebulizers; catheters; urine bags; allergen-free covers; anti-decubitus mattresses; portable infusion pumps; oxygen concentrates and accessories, and carrying straps or bags specially designed for personal mobile use for an oxygen cylinder or oxygen container; computer mouse software, whether or not supplied by electronic means, specially developed for users with tremor."
+        },
+        {
+            "memberState": "NL",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 9
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "3006 40 00",
+                        "description": "Dental cements and other dental fillings; bone reconstruction cements"
+                    },
+                    {
+                        "value": "3006 91 00",
+                        "description": "Appliances identifiable for ostomy use"
+                    },
+                    {
+                        "value": "6212 90 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "9021 10",
+                        "description": "Orthopaedic or fracture appliances"
+                    },
+                    {
+                        "value": "9021 29 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "9021 31 00",
+                        "description": "Artificial joints"
+                    },
+                    {
+                        "value": "9021 39",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "9021 40 00",
+                        "description": "Hearing aids, excluding parts and accessories"
+                    },
+                    {
+                        "value": "9021 50 00",
+                        "description": "Pacemakers for stimulating heart muscles, excluding parts and accessories"
+                    },
+                    {
+                        "value": "9021 90",
+                        "description": "Other"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "MEDICAL_EQUIPMENT",
+                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
+            },
+            "comment": "Tabel I prov. a.35 and b.1: artificial limbs; devices for taking over the fixation function of a malfunctioning hand; leg braces, fracture bands, artificial joints; artificial eyes, -ears, -kidneys; certain prostheses; heart and muscle stimulators; hearing aids; stuttering ear aids; aids for stoma patients; orthopedic footwear; devices for taking off therapeutic elastic compression stockings; orthopedic corsets; parts, components and accessories apparently intended for the aforementioned goods"
         },
         {
             "memberState": "NL",
@@ -2257,6 +2085,178 @@
                 "description": "The renovation and repair of private dwellings, excluding materials which account for a significant part of the value of the service supplied"
             },
             "comment": "Tabel I prov. b.8: Painting and plastering of private dwellings (i.m. intended for permanent residence by individuals) more than two years after first use. \n\nPainting: processing and application of paint or painting system (whole of activities associated with the pre-treatment of a specific surface and subsequent finishing of that surface with specific paint products.)\n\nPlastering: preparation and pre-treatment work a plasterer performs before proceeding to actual plastering;  plastering."
+        },
+        {
+            "memberState": "NL",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 9
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "49.10",
+                        "description": "Passenger rail transport services, interurban"
+                    },
+                    {
+                        "value": "49.3",
+                        "description": "Other passenger land transport services"
+                    },
+                    {
+                        "value": "50.1",
+                        "description": "Sea and coastal passenger water transport services"
+                    },
+                    {
+                        "value": "50.3",
+                        "description": "Inland passenger water transport services"
+                    },
+                    {
+                        "value": "51.1",
+                        "description": "Passenger air transport services"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "TRANSPORT_PASSENGERS",
+                "description": "Transport of passengers and their accompanying luggage"
+            },
+            "comment": "Tabel I prov. b.9: private bus transport; public transport and taxi transport as referred to in Article 1 of the 'Wet personenvervoer 2000 (Dutch 'Passenger Transport Act 2000'), taxi transport of persons by road other than by car, and the transport of persons by aircraft if the place of departure and the place of destination are located in the Netherlands insofar as this transport takes place by balloons or by aircraft equipped for the transport of ill or injured persons;"
+        },
+        {
+            "memberState": "NL",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 9
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "55.2",
+                    "description": "Holiday and other short stay accommodation services"
+                }
+            },
+            "category": {
+                "identifier": "ACCOMMODATION",
+                "description": "Accommodation provided in hotels and similar establishments, including the provision of holiday accommodation and the letting of places on camping or caravan sites"
+            },
+            "comment": "Tabel I prov. b.11: providing accommodation within a hotel, guesthouse and holiday business to persons who stay for only a short period. The terms 'hotel, guesthouse and holiday business' must be interpreted according to parlance. Whether the stay is considered short-term depends on the nature and duration of the stay. Stays for a maximum of six months, during which the guests do not relocate the center of their social life to the accommodation are included; longer stays usually are not."
+        },
+        {
+            "memberState": "NL",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 9
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "55.3",
+                    "description": "Camping ground, recreational and vacation camp services"
+                }
+            },
+            "category": {
+                "identifier": "ACCOMMODATION",
+                "description": "Accommodation provided in hotels and similar establishments, including the provision of holiday accommodation and the letting of places on camping or caravan sites"
+            },
+            "comment": "Tabel I prov. b.10: providing the opportunity to camp within the context of a camping and holiday business to persons who only stay there for a short period. The term \"camp and holiday business\" should be interpreted according to parlance. It is not required that the lessor provides the additional services that camping sites normally provide. 'providing the opportunity to camp' must also be interpreted according to parlance."
+        },
+        {
+            "memberState": "NL",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 9
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "56",
+                    "description": "Food and beverage serving services"
+                }
+            },
+            "category": {
+                "identifier": "RESTAURANT",
+                "description": "Restaurant and catering services, it being possible to exclude the supply of (alcoholic and\/or non-alcoholic) beverages"
+            },
+            "comment": "Tabel I prov. b.12: serving out foodstuffs for human consumption, for use on site within the context of a hotel, café, restaurant, guesthouse and related businesses. The supply of freshly prepared food or edible products for immediate consumption in snack bars, snack vans, cinema foyers, sports club canteens and such is considered a supply of goods, unless the services accompanying the delivery of the foodstuffs predominate."
+        },
+        {
+            "memberState": "NL",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 9
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "81.21",
+                    "description": "General cleaning services of buildings"
+                }
+            },
+            "category": {
+                "identifier": "WINDOW_CLEANING",
+                "description": "Window cleaning and cleaning in private households"
+            },
+            "comment": "Tabel I prov. b.20: regular cleaning services regarding the interior of private households (including closed corridors) are included. Excluded: cleaning services regarding the exterior of private households, cleaning services regarding other buildings than private households and cleaning services that are not considered regular cleaning services regularly performed by a cleaner (such as special services performed with special equipment, e.g. cleaning of chimney, central heating)."
+        },
+        {
+            "memberState": "NL",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 9
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "85.51",
+                        "description": "Sports and recreation education services"
+                    },
+                    {
+                        "value": "93.11",
+                        "description": "Sports facility operation services"
+                    },
+                    {
+                        "value": "93.12",
+                        "description": "Services of sport clubs"
+                    },
+                    {
+                        "value": "93.19.19",
+                        "description": "Other sports and recreational sports services"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "SPORTING_EVENTS",
+                "description": "Admission to sporting events"
+            },
+            "comment": "Tabel I prov. b.3 and b.14, f: the granting of (physical) access to spectators of sports competitions, demonstrations and the like. Sports competitions are events where people actively participate in sports. Sports demonstrations are, for example, shows of the Harlem Globetrotters (basketball), performances of the Spanish Riding School (horse dressage) and shows of Wrestlemania (wrestling); use of sporting facilities."
+        },
+        {
+            "memberState": "NL",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 9
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "90.01",
+                    "description": "Services of performing artists"
+                }
+            },
+            "category": {
+                "identifier": "WRITERS_SERVICES",
+                "description": "Supply of services by writers, composers and performing artists, or of the royalties due to them"
+            },
+            "comment": "Tabel I prov. b.17: performances by performing artists. This includes performances by artists in music and stage performances as meant in the foregoing item. The reduced VAT rate only applies to performances that can be (in)directly heard or viewed by an audience. Rehearsals associated with and necessary for those performances are included. Excluded: providing the opportunity to participate in a performance and organizing performances."
         }
     ]
 }
