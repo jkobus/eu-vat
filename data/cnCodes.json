@@ -599,6 +599,10 @@
         "code": "0208 90 98",
         "description": "Other"
     },
+    "03": {
+        "code": "03",
+        "description": "CHAPTER 3 - FISH AND CRUSTACEANS, MOLLUSCS AND OTHER AQUATIC INVERTEBRATES"
+    },
     "0209": {
         "code": "0209",
         "description": "Pig fat, free of lean meat, and poultry fat, not rendered or otherwise extracted, fresh, chilled, frozen, salted, in brine, dried or smoked"
@@ -670,10 +674,6 @@
     "0210 99 85": {
         "code": "0210 99 85",
         "description": "Other"
-    },
-    "03": {
-        "code": "03",
-        "description": "CHAPTER 3 - FISH AND CRUSTACEANS, MOLLUSCS AND OTHER AQUATIC INVERTEBRATES"
     },
     "0301": {
         "code": "0301",
@@ -1299,6 +1299,10 @@
         "code": "0308 90 10",
         "description": "Live, fresh or chilled"
     },
+    "04": {
+        "code": "04",
+        "description": "CHAPTER 4 - DAIRY PRODUCE; BIRDS' EGGS; NATURAL HONEY; EDIBLE PRODUCTS OF ANIMAL ORIGIN, NOT ELSEWHERE SPECIFIED OR INCLUDED"
+    },
     "0309": {
         "code": "0309",
         "description": "Flours, meals and pellets of fish, crustaceans, molluscs and other aquatic invertebrates, fit for human consumption"
@@ -1310,10 +1314,6 @@
     "0309 90 00": {
         "code": "0309 90 00",
         "description": "Other"
-    },
-    "04": {
-        "code": "04",
-        "description": "CHAPTER 4 - DAIRY PRODUCE; BIRDS' EGGS; NATURAL HONEY; EDIBLE PRODUCTS OF ANIMAL ORIGIN, NOT ELSEWHERE SPECIFIED OR INCLUDED"
     },
     "0401": {
         "code": "0401",
@@ -1423,6 +1423,10 @@
         "code": "0407 90",
         "description": "Other"
     },
+    "0408": {
+        "code": "0408",
+        "description": "Birds' eggs, not in shell, and egg yolks, fresh, dried, cooked by steaming or by boiling in water, moulded, frozen or otherwise preserved, whether or not containing added sugar or other sweetening matter"
+    },
     "0408 11 80": {
         "code": "0408 11 80",
         "description": "Other"
@@ -1437,6 +1441,10 @@
     },
     "0408 91 80": {
         "code": "0408 91 80",
+        "description": "Other"
+    },
+    "0408 99 80": {
+        "code": "0408 99 80",
         "description": "Other"
     },
     "0409 00 00": {
@@ -1459,14 +1467,6 @@
         "code": "05",
         "description": "CHAPTER 5 - PRODUCTS OF ANIMAL ORIGIN, NOT ELSEWHERE SPECIFIED OR INCLUDED"
     },
-    "0408": {
-        "code": "0408",
-        "description": "Birds' eggs, not in shell, and egg yolks, fresh, dried, cooked by steaming or by boiling in water, moulded, frozen or otherwise preserved, whether or not containing added sugar or other sweetening matter"
-    },
-    "0408 99 80": {
-        "code": "0408 99 80",
-        "description": "Other"
-    },
     "0504 00 00": {
         "code": "0504 00 00",
         "description": "Guts, bladders and stomachs of animals (other than fish), whole and pieces thereof, fresh, chilled, frozen, salted, in brine, dried or smoked"
@@ -1486,14 +1486,6 @@
     "0506 90 00": {
         "code": "0506 90 00",
         "description": "Other"
-    },
-    "06": {
-        "code": "06",
-        "description": "CHAPTER 6 - LIVE TREES AND OTHER PLANTS; BULBS, ROOTS AND THE LIKE; CUT FLOWERS AND ORNAMENTAL FOLIAGE"
-    },
-    "07": {
-        "code": "07",
-        "description": "CHAPTER 7 - EDIBLE VEGETABLES AND CERTAIN ROOTS AND TUBERS"
     },
     "0507": {
         "code": "0507",
@@ -1546,6 +1538,10 @@
     "0511 99 85": {
         "code": "0511 99 85",
         "description": "Other"
+    },
+    "06": {
+        "code": "06",
+        "description": "CHAPTER 6 - LIVE TREES AND OTHER PLANTS; BULBS, ROOTS AND THE LIKE; CUT FLOWERS AND ORNAMENTAL FOLIAGE"
     },
     "0601": {
         "code": "0601",
@@ -1674,6 +1670,10 @@
     "0604 20 11": {
         "code": "0604 20 11",
         "description": "Reindeer moss"
+    },
+    "07": {
+        "code": "07",
+        "description": "CHAPTER 7 - EDIBLE VEGETABLES AND CERTAIN ROOTS AND TUBERS"
     },
     "0701": {
         "code": "0701",
@@ -2003,21 +2003,9 @@
         "code": "0713 90 00",
         "description": "Other"
     },
-    "0714": {
-        "code": "0714",
-        "description": "Manioc, arrowroot, salep, Jerusalem artichokes, sweet potatoes and similar roots and tubers with high starch or inulin content, fresh, chilled, frozen or dried, whether or not sliced or in the form of pellets; sago pith"
-    },
-    "0714 10 00": {
-        "code": "0714 10 00",
-        "description": "Manioc (cassava)"
-    },
     "0714 20 10": {
         "code": "0714 20 10",
         "description": "Fresh, whole, intended for human consumption"
-    },
-    "0714 20 90": {
-        "code": "0714 20 90",
-        "description": "Other"
     },
     "0714 30 00": {
         "code": "0714 30 00",
@@ -2031,13 +2019,29 @@
         "code": "0714 50 00",
         "description": "Yautia (Xanthosoma spp.)"
     },
+    "08": {
+        "code": "08",
+        "description": "CHAPTER 8 - EDIBLE FRUIT AND NUTS; PEEL OF CITRUS FRUIT OR MELONS"
+    },
+    "0714": {
+        "code": "0714",
+        "description": "Manioc, arrowroot, salep, Jerusalem artichokes, sweet potatoes and similar roots and tubers with high starch or inulin content, fresh, chilled, frozen or dried, whether or not sliced or in the form of pellets; sago pith"
+    },
+    "0714 10 00": {
+        "code": "0714 10 00",
+        "description": "Manioc (cassava)"
+    },
+    "0714 20 90": {
+        "code": "0714 20 90",
+        "description": "Other"
+    },
     "0714 90": {
         "code": "0714 90",
         "description": "Other"
     },
-    "08": {
-        "code": "08",
-        "description": "CHAPTER 8 - EDIBLE FRUIT AND NUTS; PEEL OF CITRUS FRUIT OR MELONS"
+    "09": {
+        "code": "09",
+        "description": "CHAPTER 9 - COFFEE, TEA, MATÉ AND SPICES"
     },
     "0801": {
         "code": "0801",
@@ -2070,54 +2074,6 @@
     "0806 20": {
         "code": "0806 20",
         "description": "Dried"
-    },
-    "09": {
-        "code": "09",
-        "description": "CHAPTER 9 - COFFEE, TEA, MATÉ AND SPICES"
-    },
-    "10": {
-        "code": "10",
-        "description": "CHAPTER 10 - CEREALS"
-    },
-    "11": {
-        "code": "11",
-        "description": "CHAPTER 11 - PRODUCTS OF THE MILLING INDUSTRY; MALT; STARCHES; INULIN; WHEAT GLUTEN"
-    },
-    "12": {
-        "code": "12",
-        "description": "CHAPTER 12 - OIL SEEDS AND OLEAGINOUS FRUITS; MISCELLANEOUS GRAINS, SEEDS AND FRUIT; INDUSTRIAL OR MEDICINAL PLANTS; STRAW AND FODDER"
-    },
-    "13": {
-        "code": "13",
-        "description": "CHAPTER 13 - LAC; GUMS, RESINS AND OTHER VEGETABLE SAPS AND EXTRACTS"
-    },
-    "14": {
-        "code": "14",
-        "description": "CHAPTER 14 - VEGETABLE PLAITING MATERIALS; VEGETABLE PRODUCTS NOT ELSEWHERE SPECIFIED OR INCLUDED"
-    },
-    "15": {
-        "code": "15",
-        "description": "CHAPTER 15 - ANIMAL, VEGETABLE OR MICROBIAL FATS AND OILS AND THEIR CLEAVAGE PRODUCTS; PREPARED EDIBLE FATS; ANIMAL OR VEGETABLE WAXES"
-    },
-    "16": {
-        "code": "16",
-        "description": "CHAPTER 16 - PREPARATIONS OF MEAT, OF FISH, OF CRUSTACEANS, MOLLUSCS OR OTHER AQUATIC INVERTEBRATES, OR OF INSECTS"
-    },
-    "17": {
-        "code": "17",
-        "description": "CHAPTER 17 - SUGARS AND SUGAR CONFECTIONERY"
-    },
-    "18": {
-        "code": "18",
-        "description": "CHAPTER 18 - COCOA AND COCOA PREPARATIONS"
-    },
-    "19": {
-        "code": "19",
-        "description": "CHAPTER 19 - PREPARATIONS OF CEREALS, FLOUR, STARCH OR MILK; PASTRYCOOKS' PRODUCTS"
-    },
-    "20": {
-        "code": "20",
-        "description": "CHAPTER 20 - PREPARATIONS OF VEGETABLES, FRUIT, NUTS OR OTHER PARTS OF PLANTS"
     },
     "0807": {
         "code": "0807",
@@ -2263,22 +2219,6 @@
         "code": "0904 22 00",
         "description": "Crushed or ground"
     },
-    "0905": {
-        "code": "0905",
-        "description": "Vanilla"
-    },
-    "0906": {
-        "code": "0906",
-        "description": "Cinnamon and cinnamon-tree flowers"
-    },
-    "0907": {
-        "code": "0907",
-        "description": "Cloves (whole fruit, cloves and stems)"
-    },
-    "0908": {
-        "code": "0908",
-        "description": "Nutmeg, mace and cardamoms"
-    },
     "0908 11 00": {
         "code": "0908 11 00",
         "description": "Neither crushed nor ground"
@@ -2302,10 +2242,6 @@
     "0908 32 00": {
         "code": "0908 32 00",
         "description": "Crushed or ground"
-    },
-    "0909": {
-        "code": "0909",
-        "description": "Seeds of anise, badian, fennel, coriander, cumin or caraway; juniper berries"
     },
     "0909 21 00": {
         "code": "0909 21 00",
@@ -2331,10 +2267,6 @@
         "code": "0909 62 00",
         "description": "Crushed or ground"
     },
-    "0910": {
-        "code": "0910",
-        "description": "Ginger, saffron, turmeric (curcuma), thyme, bay leaves, curry and other spices"
-    },
     "0910 11 00": {
         "code": "0910 11 00",
         "description": "Neither crushed nor ground"
@@ -2351,9 +2283,9 @@
         "code": "0910 99 10",
         "description": "Fenugreek seed"
     },
-    "1001": {
-        "code": "1001",
-        "description": "Wheat and meslin"
+    "10": {
+        "code": "10",
+        "description": "CHAPTER 10 - CEREALS"
     },
     "1001 11 00": {
         "code": "1001 11 00",
@@ -2375,10 +2307,6 @@
         "code": "1001 99 00",
         "description": "Other"
     },
-    "1002": {
-        "code": "1002",
-        "description": "Rye"
-    },
     "1002 10 00": {
         "code": "1002 10 00",
         "description": "Seed"
@@ -2386,10 +2314,6 @@
     "1002 90 00": {
         "code": "1002 90 00",
         "description": "Other"
-    },
-    "1003": {
-        "code": "1003",
-        "description": "Barley"
     },
     "1003 10 00": {
         "code": "1003 10 00",
@@ -2399,10 +2323,6 @@
         "code": "1003 90 00",
         "description": "Other"
     },
-    "1004": {
-        "code": "1004",
-        "description": "Oats"
-    },
     "1004 10 00": {
         "code": "1004 10 00",
         "description": "Seed"
@@ -2410,6 +2330,86 @@
     "1004 90 00": {
         "code": "1004 90 00",
         "description": "Other"
+    },
+    "11": {
+        "code": "11",
+        "description": "CHAPTER 11 - PRODUCTS OF THE MILLING INDUSTRY; MALT; STARCHES; INULIN; WHEAT GLUTEN"
+    },
+    "12": {
+        "code": "12",
+        "description": "CHAPTER 12 - OIL SEEDS AND OLEAGINOUS FRUITS; MISCELLANEOUS GRAINS, SEEDS AND FRUIT; INDUSTRIAL OR MEDICINAL PLANTS; STRAW AND FODDER"
+    },
+    "13": {
+        "code": "13",
+        "description": "CHAPTER 13 - LAC; GUMS, RESINS AND OTHER VEGETABLE SAPS AND EXTRACTS"
+    },
+    "14": {
+        "code": "14",
+        "description": "CHAPTER 14 - VEGETABLE PLAITING MATERIALS; VEGETABLE PRODUCTS NOT ELSEWHERE SPECIFIED OR INCLUDED"
+    },
+    "15": {
+        "code": "15",
+        "description": "CHAPTER 15 - ANIMAL, VEGETABLE OR MICROBIAL FATS AND OILS AND THEIR CLEAVAGE PRODUCTS; PREPARED EDIBLE FATS; ANIMAL OR VEGETABLE WAXES"
+    },
+    "16": {
+        "code": "16",
+        "description": "CHAPTER 16 - PREPARATIONS OF MEAT, OF FISH, OF CRUSTACEANS, MOLLUSCS OR OTHER AQUATIC INVERTEBRATES, OR OF INSECTS"
+    },
+    "17": {
+        "code": "17",
+        "description": "CHAPTER 17 - SUGARS AND SUGAR CONFECTIONERY"
+    },
+    "18": {
+        "code": "18",
+        "description": "CHAPTER 18 - COCOA AND COCOA PREPARATIONS"
+    },
+    "19": {
+        "code": "19",
+        "description": "CHAPTER 19 - PREPARATIONS OF CEREALS, FLOUR, STARCH OR MILK; PASTRYCOOKS' PRODUCTS"
+    },
+    "20": {
+        "code": "20",
+        "description": "CHAPTER 20 - PREPARATIONS OF VEGETABLES, FRUIT, NUTS OR OTHER PARTS OF PLANTS"
+    },
+    "0905": {
+        "code": "0905",
+        "description": "Vanilla"
+    },
+    "0906": {
+        "code": "0906",
+        "description": "Cinnamon and cinnamon-tree flowers"
+    },
+    "0907": {
+        "code": "0907",
+        "description": "Cloves (whole fruit, cloves and stems)"
+    },
+    "0908": {
+        "code": "0908",
+        "description": "Nutmeg, mace and cardamoms"
+    },
+    "0909": {
+        "code": "0909",
+        "description": "Seeds of anise, badian, fennel, coriander, cumin or caraway; juniper berries"
+    },
+    "0910": {
+        "code": "0910",
+        "description": "Ginger, saffron, turmeric (curcuma), thyme, bay leaves, curry and other spices"
+    },
+    "1001": {
+        "code": "1001",
+        "description": "Wheat and meslin"
+    },
+    "1002": {
+        "code": "1002",
+        "description": "Rye"
+    },
+    "1003": {
+        "code": "1003",
+        "description": "Barley"
+    },
+    "1004": {
+        "code": "1004",
+        "description": "Oats"
     },
     "1005": {
         "code": "1005",
@@ -4879,14 +4879,6 @@
         "code": "23",
         "description": "CHAPTER 23 - RESIDUES AND WASTE FROM THE FOOD INDUSTRIES; PREPARED ANIMAL FODDER"
     },
-    "25": {
-        "code": "25",
-        "description": "CHAPTER 25 - SALT; SULPHUR; EARTHS AND STONE; PLASTERING MATERIALS, LIME AND CEMENT"
-    },
-    "28": {
-        "code": "28",
-        "description": "CHAPTER 28 - INORGANIC CHEMICALS; ORGANIC OR INORGANIC COMPOUNDS OF PRECIOUS METALS, OF RARE-EARTH METALS, OF RADIOACTIVE ELEMENTS OR OF ISOTOPES"
-    },
     "2301": {
         "code": "2301",
         "description": "Flours, meals and pellets, of meat or meat offal, of fish or of crustaceans, molluscs or other aquatic invertebrates, unfit for human consumption; greaves"
@@ -4954,6 +4946,10 @@
     "2404 91 10": {
         "code": "2404 91 10",
         "description": "Nicotine containing products intended to assist tobacco use cessation"
+    },
+    "25": {
+        "code": "25",
+        "description": "CHAPTER 25 - SALT; SULPHUR; EARTHS AND STONE; PLASTERING MATERIALS, LIME AND CEMENT"
     },
     "2501 00": {
         "code": "2501 00",
@@ -5139,10 +5135,6 @@
         "code": "2711 21 00",
         "description": "Natural gas"
     },
-    "2713": {
-        "code": "2713",
-        "description": "Petroleum coke, petroleum bitumen and other residues of petroleum oils or of oils obtained from bituminous minerals"
-    },
     "2713 11 00": {
         "code": "2713 11 00",
         "description": "Not calcined"
@@ -5150,6 +5142,14 @@
     "2716 00 00": {
         "code": "2716 00 00",
         "description": "Electrical energy"
+    },
+    "28": {
+        "code": "28",
+        "description": "CHAPTER 28 - INORGANIC CHEMICALS; ORGANIC OR INORGANIC COMPOUNDS OF PRECIOUS METALS, OF RARE-EARTH METALS, OF RADIOACTIVE ELEMENTS OR OF ISOTOPES"
+    },
+    "2713": {
+        "code": "2713",
+        "description": "Petroleum coke, petroleum bitumen and other residues of petroleum oils or of oils obtained from bituminous minerals"
     },
     "2801": {
         "code": "2801",
@@ -5535,10 +5535,6 @@
         "code": "2847 00 00",
         "description": "Hydrogen peroxide, whether or not solidified with urea"
     },
-    "2852": {
-        "code": "2852",
-        "description": "Inorganic or organic compounds of mercury, whether or not chemically defined, excluding amalgams"
-    },
     "2853 90": {
         "code": "2853 90",
         "description": "Other"
@@ -5550,6 +5546,10 @@
     "29": {
         "code": "29",
         "description": "CHAPTER 29 - ORGANIC CHEMICALS"
+    },
+    "2852": {
+        "code": "2852",
+        "description": "Inorganic or organic compounds of mercury, whether or not chemically defined, excluding amalgams"
     },
     "2901 22 00": {
         "code": "2901 22 00",
@@ -5695,6 +5695,10 @@
         "code": "2917 12 00",
         "description": "Adipic acid, its salts and esters"
     },
+    "2918": {
+        "code": "2918",
+        "description": "Carboxylic acids with additional oxygen function and their anhydrides, halides, peroxides and peroxyacids; their halogenated, sulphonated, nitrated or nitrosated derivatives"
+    },
     "2918 11 00": {
         "code": "2918 11 00",
         "description": "Lactic acid, its salts and esters"
@@ -5715,9 +5719,25 @@
         "code": "2918 16 00",
         "description": "Gluconic acid, its salts and esters"
     },
+    "2919": {
+        "code": "2919",
+        "description": "Phosphoric esters and their salts, including lactophosphates; their halogenated, sulphonated, nitrated or nitrosated derivatives"
+    },
+    "2920": {
+        "code": "2920",
+        "description": "Esters of other inorganic acids of non-metals (excluding esters of hydrogen halides) and their salts; their halogenated, sulphonated, nitrated or nitrosated derivatives"
+    },
+    "2921": {
+        "code": "2921",
+        "description": "Amine-function compounds"
+    },
     "2921 46 00": {
         "code": "2921 46 00",
         "description": "Amfetamine (INN), benzfetamine (INN), dexamfetamine (INN), etilamfetamine (INN), fencamfamin (INN), lefetamine (INN), levamfetamine (INN), mefenorex (INN) and phentermine (INN); salts thereof"
+    },
+    "2922": {
+        "code": "2922",
+        "description": "Oxygen-function amino-compounds"
     },
     "2922 14 00": {
         "code": "2922 14 00",
@@ -5755,6 +5775,10 @@
         "code": "2922 50 00",
         "description": "Amino-alcohol-phenols, amino-acid-phenols and other amino-compounds with oxygen function"
     },
+    "2923": {
+        "code": "2923",
+        "description": "Quaternary ammonium salts and hydroxides; lecithins and other phosphoaminolipids, whether or not chemically defined"
+    },
     "2923 10 00": {
         "code": "2923 10 00",
         "description": "Choline and its salts"
@@ -5763,6 +5787,10 @@
         "code": "2923 20 00",
         "description": "Lecithins and other phosphoaminolipids"
     },
+    "2924": {
+        "code": "2924",
+        "description": "Carboxyamide-function compounds; amide-function compounds of carbonic acid"
+    },
     "2924 11 00": {
         "code": "2924 11 00",
         "description": "Meprobamate (INN)"
@@ -5770,6 +5798,10 @@
     "2924 24 00": {
         "code": "2924 24 00",
         "description": "Ethinamate (INN)"
+    },
+    "2925": {
+        "code": "2925",
+        "description": "Carboxyimide-function compounds (including saccharin and its salts) and imine-function compounds"
     },
     "2925 11 00": {
         "code": "2925 11 00",
@@ -5782,6 +5814,10 @@
     "2925 19 95": {
         "code": "2925 19 95",
         "description": "Other"
+    },
+    "2926": {
+        "code": "2926",
+        "description": "Nitrile-function compounds"
     },
     "2926 30 00": {
         "code": "2926 30 00",
@@ -5798,6 +5834,14 @@
     "2928 00": {
         "code": "2928 00",
         "description": "Organic derivatives of hydrazine or of hydroxylamine"
+    },
+    "2929": {
+        "code": "2929",
+        "description": "Compounds with other nitrogen function"
+    },
+    "2930": {
+        "code": "2930",
+        "description": "Organo-sulphur compounds"
     },
     "2930 40": {
         "code": "2930 40",
@@ -5823,9 +5867,21 @@
         "code": "2930 90 16",
         "description": "Derivatives of cysteine or cystine"
     },
+    "2931": {
+        "code": "2931",
+        "description": "Other organo-inorganic compounds"
+    },
+    "2932": {
+        "code": "2932",
+        "description": "Heterocyclic compounds with oxygen hetero-atom(s) only"
+    },
     "2932 14 00": {
         "code": "2932 14 00",
         "description": "Sucralose"
+    },
+    "2933": {
+        "code": "2933",
+        "description": "Heterocyclic compounds with nitrogen hetero-atom(s) only"
     },
     "2933 11 10": {
         "code": "2933 11 10",
@@ -5875,6 +5931,10 @@
         "code": "2933 99 20",
         "description": "Indole, 3-methylindole (skatole), 6-allyl-6,7-dihydro-5H-dibenz[c,e]azepine (azapetine), phenindamine (INN) and their salts; imipramine hydrochloride (INNM)"
     },
+    "2934": {
+        "code": "2934",
+        "description": "Nucleic acids and their salts, whether or not chemically defined; other heterocyclic compounds"
+    },
     "2934 30": {
         "code": "2934 30",
         "description": "Compounds containing in the structure a phenothiazine ring-system (whether or not hydrogenated), not further fused"
@@ -5891,6 +5951,22 @@
         "code": "2934 99 90",
         "description": "Other"
     },
+    "2935": {
+        "code": "2935",
+        "description": "Sulphonamides"
+    },
+    "2936": {
+        "code": "2936",
+        "description": "Provitamins and vitamins, natural or reproduced by synthesis (including natural concentrates), derivatives thereof used primarily as vitamins, and intermixtures of the foregoing, whether or not in any solvent"
+    },
+    "2937": {
+        "code": "2937",
+        "description": "Hormones, prostaglandins, thromboxanes and leukotrienes, natural or reproduced by synthesis; derivatives and structural analogues thereof, including chain modified polypeptides, used primarily as hormones"
+    },
+    "2938": {
+        "code": "2938",
+        "description": "Glycosides, natural or reproduced by synthesis, and their salts, ethers, esters and other derivatives"
+    },
     "2938 90 10": {
         "code": "2938 90 10",
         "description": "Digitalis glycosides"
@@ -5898,6 +5974,10 @@
     "2938 90 90": {
         "code": "2938 90 90",
         "description": "Other"
+    },
+    "2939": {
+        "code": "2939",
+        "description": "Alkaloids, natural or reproduced by synthesis, and their salts, ethers, esters and other derivatives"
     },
     "2939 11 00": {
         "code": "2939 11 00",
@@ -5967,6 +6047,14 @@
         "code": "30",
         "description": "CHAPTER 30 - PHARMACEUTICAL PRODUCTS"
     },
+    "2941": {
+        "code": "2941",
+        "description": "Antibiotics"
+    },
+    "3001": {
+        "code": "3001",
+        "description": "Glands and other organs for organo-therapeutic uses, dried, whether or not powdered; extracts of glands or other organs or of their secretions for organo-therapeutic uses; heparin and its salts; other human or animal substances prepared for therapeutic or prophylactic uses, not elsewhere specified or included"
+    },
     "3001 20": {
         "code": "3001 20",
         "description": "Extracts of glands or other organs or of their secretions"
@@ -5990,6 +6078,10 @@
     "3001 90 98": {
         "code": "3001 90 98",
         "description": "Other"
+    },
+    "3002": {
+        "code": "3002",
+        "description": "Human blood; animal blood prepared for therapeutic, prophylactic or diagnostic uses; antisera, other blood fractions and immunological products, whether or not modified or obtained by means of biotechnological processes; vaccines, toxins, cultures of micro-organisms (excluding yeasts) and similar products; cell cultures, whether or not modified"
     },
     "3002 11 00": {
         "code": "3002 11 00",
@@ -6075,9 +6167,17 @@
         "code": "3002 90 90",
         "description": "Other"
     },
+    "3003": {
+        "code": "3003",
+        "description": "Medicaments (excluding goods of heading 3002, 3005 or 3006) consisting of two or more constituents which have been mixed together for therapeutic or prophylactic uses, not put up in measured doses or in forms or packings for retail sale"
+    },
     "3003 90 00": {
         "code": "3003 90 00",
         "description": "Other"
+    },
+    "3004": {
+        "code": "3004",
+        "description": "Medicaments (excluding goods of heading 3002, 3005 or 3006) consisting of mixed or unmixed products for therapeutic or prophylactic uses, put up in measured doses (including those in the form of transdermal administration systems) or in forms or packings for retail sale"
     },
     "3004 10 00": {
         "code": "3004 10 00",
@@ -6127,6 +6227,10 @@
         "code": "3004 90 00",
         "description": "Other"
     },
+    "3005": {
+        "code": "3005",
+        "description": "Wadding, gauze, bandages and similar articles (for example, dressings, adhesive plasters, poultices), impregnated or coated with pharmaceutical substances or put up in forms or packings for retail sale for medical, surgical, dental or veterinary purposes"
+    },
     "3005 10 00": {
         "code": "3005 10 00",
         "description": "Adhesive dressings and other articles having an adhesive layer"
@@ -6150,6 +6254,10 @@
     "3005 90 99": {
         "code": "3005 90 99",
         "description": "Other"
+    },
+    "3006": {
+        "code": "3006",
+        "description": "Pharmaceutical goods specified in note 4 to this chapter"
     },
     "3006 10": {
         "code": "3006 10",
@@ -6198,142 +6306,6 @@
     "31": {
         "code": "31",
         "description": "CHAPTER 31 - FERTILISERS"
-    },
-    "39": {
-        "code": "39",
-        "description": "CHAPTER 39 - PLASTICS AND ARTICLES THEREOF"
-    },
-    "49": {
-        "code": "49",
-        "description": "CHAPTER 49 - PRINTED BOOKS, NEWSPAPERS, PICTURES AND OTHER PRODUCTS OF THE PRINTING INDUSTRY; MANUSCRIPTS, TYPESCRIPTS AND PLANS"
-    },
-    "57": {
-        "code": "57",
-        "description": "CHAPTER 57 - CARPETS AND OTHER TEXTILE FLOOR COVERINGS"
-    },
-    "61": {
-        "code": "61",
-        "description": "CHAPTER 61 - ARTICLES OF APPAREL AND CLOTHING ACCESSORIES, KNITTED OR CROCHETED"
-    },
-    "62": {
-        "code": "62",
-        "description": "CHAPTER 62 - ARTICLES OF APPAREL AND CLOTHING ACCESSORIES, NOT KNITTED OR CROCHETED"
-    },
-    "64": {
-        "code": "64",
-        "description": "CHAPTER 64 - FOOTWEAR, GAITERS AND THE LIKE; PARTS OF SUCH ARTICLES"
-    },
-    "65": {
-        "code": "65",
-        "description": "CHAPTER 65 - HEADGEAR AND PARTS THEREOF"
-    },
-    "2918": {
-        "code": "2918",
-        "description": "Carboxylic acids with additional oxygen function and their anhydrides, halides, peroxides and peroxyacids; their halogenated, sulphonated, nitrated or nitrosated derivatives"
-    },
-    "2919": {
-        "code": "2919",
-        "description": "Phosphoric esters and their salts, including lactophosphates; their halogenated, sulphonated, nitrated or nitrosated derivatives"
-    },
-    "2920": {
-        "code": "2920",
-        "description": "Esters of other inorganic acids of non-metals (excluding esters of hydrogen halides) and their salts; their halogenated, sulphonated, nitrated or nitrosated derivatives"
-    },
-    "2921": {
-        "code": "2921",
-        "description": "Amine-function compounds"
-    },
-    "2922": {
-        "code": "2922",
-        "description": "Oxygen-function amino-compounds"
-    },
-    "2923": {
-        "code": "2923",
-        "description": "Quaternary ammonium salts and hydroxides; lecithins and other phosphoaminolipids, whether or not chemically defined"
-    },
-    "2924": {
-        "code": "2924",
-        "description": "Carboxyamide-function compounds; amide-function compounds of carbonic acid"
-    },
-    "2925": {
-        "code": "2925",
-        "description": "Carboxyimide-function compounds (including saccharin and its salts) and imine-function compounds"
-    },
-    "2926": {
-        "code": "2926",
-        "description": "Nitrile-function compounds"
-    },
-    "2929": {
-        "code": "2929",
-        "description": "Compounds with other nitrogen function"
-    },
-    "2930": {
-        "code": "2930",
-        "description": "Organo-sulphur compounds"
-    },
-    "2931": {
-        "code": "2931",
-        "description": "Other organo-inorganic compounds"
-    },
-    "2932": {
-        "code": "2932",
-        "description": "Heterocyclic compounds with oxygen hetero-atom(s) only"
-    },
-    "2933": {
-        "code": "2933",
-        "description": "Heterocyclic compounds with nitrogen hetero-atom(s) only"
-    },
-    "2934": {
-        "code": "2934",
-        "description": "Nucleic acids and their salts, whether or not chemically defined; other heterocyclic compounds"
-    },
-    "2935": {
-        "code": "2935",
-        "description": "Sulphonamides"
-    },
-    "2936": {
-        "code": "2936",
-        "description": "Provitamins and vitamins, natural or reproduced by synthesis (including natural concentrates), derivatives thereof used primarily as vitamins, and intermixtures of the foregoing, whether or not in any solvent"
-    },
-    "2937": {
-        "code": "2937",
-        "description": "Hormones, prostaglandins, thromboxanes and leukotrienes, natural or reproduced by synthesis; derivatives and structural analogues thereof, including chain modified polypeptides, used primarily as hormones"
-    },
-    "2938": {
-        "code": "2938",
-        "description": "Glycosides, natural or reproduced by synthesis, and their salts, ethers, esters and other derivatives"
-    },
-    "2939": {
-        "code": "2939",
-        "description": "Alkaloids, natural or reproduced by synthesis, and their salts, ethers, esters and other derivatives"
-    },
-    "2941": {
-        "code": "2941",
-        "description": "Antibiotics"
-    },
-    "3001": {
-        "code": "3001",
-        "description": "Glands and other organs for organo-therapeutic uses, dried, whether or not powdered; extracts of glands or other organs or of their secretions for organo-therapeutic uses; heparin and its salts; other human or animal substances prepared for therapeutic or prophylactic uses, not elsewhere specified or included"
-    },
-    "3002": {
-        "code": "3002",
-        "description": "Human blood; animal blood prepared for therapeutic, prophylactic or diagnostic uses; antisera, other blood fractions and immunological products, whether or not modified or obtained by means of biotechnological processes; vaccines, toxins, cultures of micro-organisms (excluding yeasts) and similar products; cell cultures, whether or not modified"
-    },
-    "3003": {
-        "code": "3003",
-        "description": "Medicaments (excluding goods of heading 3002, 3005 or 3006) consisting of two or more constituents which have been mixed together for therapeutic or prophylactic uses, not put up in measured doses or in forms or packings for retail sale"
-    },
-    "3004": {
-        "code": "3004",
-        "description": "Medicaments (excluding goods of heading 3002, 3005 or 3006) consisting of mixed or unmixed products for therapeutic or prophylactic uses, put up in measured doses (including those in the form of transdermal administration systems) or in forms or packings for retail sale"
-    },
-    "3005": {
-        "code": "3005",
-        "description": "Wadding, gauze, bandages and similar articles (for example, dressings, adhesive plasters, poultices), impregnated or coated with pharmaceutical substances or put up in forms or packings for retail sale for medical, surgical, dental or veterinary purposes"
-    },
-    "3006": {
-        "code": "3006",
-        "description": "Pharmaceutical goods specified in note 4 to this chapter"
     },
     "3101 00 00": {
         "code": "3101 00 00",
@@ -6823,6 +6795,10 @@
         "code": "3824 99 96",
         "description": "Other"
     },
+    "39": {
+        "code": "39",
+        "description": "CHAPTER 39 - PLASTICS AND ARTICLES THEREOF"
+    },
     "3825": {
         "code": "3825",
         "description": "Residual products of the chemical or allied industries, not elsewhere specified or included; municipal waste; sewage sludge; other wastes specified in note 6 to this chapter"
@@ -7227,13 +7203,25 @@
         "code": "4823 90 85",
         "description": "Other"
     },
-    "4901": {
-        "code": "4901",
-        "description": "Printed books, brochures, leaflets and similar printed matter, whether or not in single sheets"
+    "49": {
+        "code": "49",
+        "description": "CHAPTER 49 - PRINTED BOOKS, NEWSPAPERS, PICTURES AND OTHER PRODUCTS OF THE PRINTING INDUSTRY; MANUSCRIPTS, TYPESCRIPTS AND PLANS"
     },
     "4901 99 00": {
         "code": "4901 99 00",
         "description": "Other"
+    },
+    "57": {
+        "code": "57",
+        "description": "CHAPTER 57 - CARPETS AND OTHER TEXTILE FLOOR COVERINGS"
+    },
+    "61": {
+        "code": "61",
+        "description": "CHAPTER 61 - ARTICLES OF APPAREL AND CLOTHING ACCESSORIES, KNITTED OR CROCHETED"
+    },
+    "4901": {
+        "code": "4901",
+        "description": "Printed books, brochures, leaflets and similar printed matter, whether or not in single sheets"
     },
     "4902": {
         "code": "4902",
@@ -7439,6 +7427,10 @@
         "code": "6117 80",
         "description": "Other accessories"
     },
+    "62": {
+        "code": "62",
+        "description": "CHAPTER 62 - ARTICLES OF APPAREL AND CLOTHING ACCESSORIES, NOT KNITTED OR CROCHETED"
+    },
     "6203": {
         "code": "6203",
         "description": "Men's or boys' suits, ensembles, jackets, blazers, trousers, bib and brace overalls, breeches and shorts (other than swimwear)"
@@ -7575,10 +7567,6 @@
         "code": "6306 40 00",
         "description": "Pneumatic mattresses"
     },
-    "6307": {
-        "code": "6307",
-        "description": "Other made-up articles, including dress patterns"
-    },
     "6307 90": {
         "code": "6307 90",
         "description": "Other"
@@ -7590,6 +7578,18 @@
     "6307 90 98": {
         "code": "6307 90 98",
         "description": "Other"
+    },
+    "64": {
+        "code": "64",
+        "description": "CHAPTER 64 - FOOTWEAR, GAITERS AND THE LIKE; PARTS OF SUCH ARTICLES"
+    },
+    "65": {
+        "code": "65",
+        "description": "CHAPTER 65 - HEADGEAR AND PARTS THEREOF"
+    },
+    "6307": {
+        "code": "6307",
+        "description": "Other made-up articles, including dress patterns"
     },
     "6504 00 00": {
         "code": "6504 00 00",
@@ -7903,10 +7903,6 @@
         "code": "8215 99 10",
         "description": "Of stainless steel"
     },
-    "8301": {
-        "code": "8301",
-        "description": "Padlocks and locks (key, combination or electrically operated), of base metal; clasps and frames with clasps, incorporating locks, of base metal; keys for any of the foregoing articles, of base metal"
-    },
     "8306 29 00": {
         "code": "8306 29 00",
         "description": "Other"
@@ -7914,6 +7910,10 @@
     "84": {
         "code": "84",
         "description": "CHAPTER 84 - NUCLEAR REACTORS, BOILERS, MACHINERY AND MECHANICAL APPLIANCES; PARTS THEREOF"
+    },
+    "8301": {
+        "code": "8301",
+        "description": "Padlocks and locks (key, combination or electrically operated), of base metal; clasps and frames with clasps, incorporating locks, of base metal; keys for any of the foregoing articles, of base metal"
     },
     "8413": {
         "code": "8413",
@@ -8063,6 +8063,10 @@
         "code": "8472 90 90",
         "description": "Other"
     },
+    "8479 89 97": {
+        "code": "8479 89 97",
+        "description": "Other"
+    },
     "85": {
         "code": "85",
         "description": "CHAPTER 85 - ELECTRICAL MACHINERY AND EQUIPMENT AND PARTS THEREOF; SOUND RECORDERS AND REPRODUCERS, TELEVISION IMAGE AND SOUND RECORDERS AND REPRODUCERS, AND PARTS AND ACCESSORIES OF SUCH ARTICLES"
@@ -8070,10 +8074,6 @@
     "8473": {
         "code": "8473",
         "description": "Parts and accessories (other than covers, carrying cases and the like) suitable for use solely or principally with machines of headings 8470 to 8472"
-    },
-    "8479 89 97": {
-        "code": "8479 89 97",
-        "description": "Other"
     },
     "8504 40 55": {
         "code": "8504 40 55",
@@ -8219,17 +8219,21 @@
         "code": "8535",
         "description": "Electrical apparatus for switching or protecting electrical circuits, or for making connections to or in electrical circuits (for example, switches, fuses, lightning arresters, voltage limiters, surge suppressors, plugs and other connectors, junction boxes), for a voltage exceeding 1000 V"
     },
-    "8536": {
-        "code": "8536",
-        "description": "Electrical apparatus for switching or protecting electrical circuits, or for making connections to or in electrical circuits (for example, switches, relays, fuses, surge suppressors, plugs, sockets, lamp holders and other connectors, junction boxes), for a voltage not exceeding 1000 V; connectors for optical fibres, optical fibre bundles or cables"
-    },
     "8539 52 00": {
         "code": "8539 52 00",
         "description": "Light-emitting diode (LED) lamps"
     },
+    "8541": {
+        "code": "8541",
+        "description": "Semiconductor devices (for example, diodes, transistors, semiconductor-based transducers); photosensitive semiconductor devices, including photovoltaic cells whether or not assembled in modules or made up into panels; light-emitting diodes (LED), whether or not assembled with other light-emitting diodes (LED); mounted piezo-electric crystals"
+    },
     "8541 43 00": {
         "code": "8541 43 00",
         "description": "Photovoltaic cells assembled in modules or made up into panels"
+    },
+    "8543 70": {
+        "code": "8543 70",
+        "description": "Other machines and apparatus"
     },
     "8543 70 90": {
         "code": "8543 70 90",
@@ -8239,9 +8243,9 @@
         "code": "87",
         "description": "CHAPTER 87 - VEHICLES OTHER THAN RAILWAY OR TRAMWAY ROLLING STOCK, AND PARTS AND ACCESSORIES THEREOF"
     },
-    "8541": {
-        "code": "8541",
-        "description": "Semiconductor devices (for example, diodes, transistors, semiconductor-based transducers); photosensitive semiconductor devices, including photovoltaic cells whether or not assembled in modules or made up into panels; light-emitting diodes (LED), whether or not assembled with other light-emitting diodes (LED); mounted piezo-electric crystals"
+    "8536": {
+        "code": "8536",
+        "description": "Electrical apparatus for switching or protecting electrical circuits, or for making connections to or in electrical circuits (for example, switches, relays, fuses, surge suppressors, plugs, sockets, lamp holders and other connectors, junction boxes), for a voltage not exceeding 1000 V; connectors for optical fibres, optical fibre bundles or cables"
     },
     "8541 42 00": {
         "code": "8541 42 00",
@@ -8250,10 +8254,6 @@
     "8543": {
         "code": "8543",
         "description": "Electrical machines and apparatus, having individual functions, not specified or included elsewhere in this chapter"
-    },
-    "8543 70": {
-        "code": "8543 70",
-        "description": "Other machines and apparatus"
     },
     "8544 42 90": {
         "code": "8544 42 90",
@@ -8283,13 +8283,17 @@
         "code": "8712 00 70",
         "description": "Other"
     },
-    "8713": {
-        "code": "8713",
-        "description": "Carriages for disabled persons, whether or not motorised or otherwise mechanically propelled"
-    },
     "8713 10 00": {
         "code": "8713 10 00",
         "description": "Not mechanically propelled"
+    },
+    "90": {
+        "code": "90",
+        "description": "CHAPTER 90 - OPTICAL, PHOTOGRAPHIC, CINEMATOGRAPHIC, MEASURING, CHECKING, PRECISION, MEDICAL OR SURGICAL INSTRUMENTS AND APPARATUS; PARTS AND ACCESSORIES THEREOF"
+    },
+    "8713": {
+        "code": "8713",
+        "description": "Carriages for disabled persons, whether or not motorised or otherwise mechanically propelled"
     },
     "8713 90 00": {
         "code": "8713 90 00",
@@ -8314,10 +8318,6 @@
     "8716 90 90": {
         "code": "8716 90 90",
         "description": "Other parts"
-    },
-    "90": {
-        "code": "90",
-        "description": "CHAPTER 90 - OPTICAL, PHOTOGRAPHIC, CINEMATOGRAPHIC, MEASURING, CHECKING, PRECISION, MEDICAL OR SURGICAL INSTRUMENTS AND APPARATUS; PARTS AND ACCESSORIES THEREOF"
     },
     "9001 30 00": {
         "code": "9001 30 00",
@@ -8679,17 +8679,13 @@
         "code": "9027 90 00",
         "description": "Microtomes; parts and accessories"
     },
-    "9033 00": {
-        "code": "9033 00",
-        "description": "Parts and accessories (not specified or included elsewhere in this chapter) for machines, appliances, instruments or apparatus of Chapter 90"
-    },
-    "9033 00 90": {
-        "code": "9033 00 90",
-        "description": "Other"
-    },
     "91": {
         "code": "91",
         "description": "CHAPTER 91 - CLOCKS AND WATCHES AND PARTS THEREOF"
+    },
+    "94": {
+        "code": "94",
+        "description": "CHAPTER 94 - FURNITURE; BEDDING, MATTRESSES, MATTRESS SUPPORTS, CUSHIONS AND SIMILAR STUFFED FURNISHINGS; LUMINAIRES AND LIGHTING FITTINGS, NOT ELSEWHERE SPECIFIED OR INCLUDED; ILLUMINATED SIGNS, ILLUMINATED NAMEPLATES AND THE LIKE; PREFABRICATED BUILDINGS"
     },
     "9027": {
         "code": "9027",
@@ -8698,6 +8694,14 @@
     "9031": {
         "code": "9031",
         "description": "Measuring or checking instruments, appliances and machines, not specified or included elsewhere in this chapter; profile projectors"
+    },
+    "9033 00": {
+        "code": "9033 00",
+        "description": "Parts and accessories (not specified or included elsewhere in this chapter) for machines, appliances, instruments or apparatus of Chapter 90"
+    },
+    "9033 00 90": {
+        "code": "9033 00 90",
+        "description": "Other"
     },
     "9101": {
         "code": "9101",
@@ -8722,18 +8726,6 @@
     "9105 19 00": {
         "code": "9105 19 00",
         "description": "Other"
-    },
-    "94": {
-        "code": "94",
-        "description": "CHAPTER 94 - FURNITURE; BEDDING, MATTRESSES, MATTRESS SUPPORTS, CUSHIONS AND SIMILAR STUFFED FURNISHINGS; LUMINAIRES AND LIGHTING FITTINGS, NOT ELSEWHERE SPECIFIED OR INCLUDED; ILLUMINATED SIGNS, ILLUMINATED NAMEPLATES AND THE LIKE; PREFABRICATED BUILDINGS"
-    },
-    "9402 90 00": {
-        "code": "9402 90 00",
-        "description": "Other"
-    },
-    "97": {
-        "code": "97",
-        "description": "CHAPTER 97 - WORKS OF ART, COLLECTORS' PIECES AND ANTIQUES"
     },
     "9401": {
         "code": "9401",
@@ -8766,6 +8758,10 @@
     "9401 80 00": {
         "code": "9401 80 00",
         "description": "Other seats"
+    },
+    "9402 90 00": {
+        "code": "9402 90 00",
+        "description": "Other"
     },
     "9403": {
         "code": "9403",
@@ -8870,6 +8866,10 @@
     "9619 00 89": {
         "code": "9619 00 89",
         "description": "Other (for example, incontinence care articles)"
+    },
+    "97": {
+        "code": "97",
+        "description": "CHAPTER 97 - WORKS OF ART, COLLECTORS' PIECES AND ANTIQUES"
     },
     "9701": {
         "code": "9701",

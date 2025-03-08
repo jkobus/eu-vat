@@ -1830,20 +1830,23 @@
             "type": "REDUCED",
             "rate": {
                 "type": "REDUCED_RATE",
-                "value": 5
+                "value": 13
             },
             "situationOn": "2025-01-01+01:00",
-            "cnCodes": {
-                "code": {
-                    "value": "4401",
-                    "description": "Fuel wood, in logs, in billets, in twigs, in faggots or in similar forms; wood in chips or particles; sawdust and wood waste and scrap, whether or not agglomerated in logs, briquettes, pellets or similar forms"
-                }
-            },
             "category": {
-                "identifier": "WOOD_ARTICLE98",
-                "description": "Wood used as firewood (until 1 January 2030)"
+                "identifier": "PHARMACEUTICAL_PRODUCTS",
+                "description": "Pharmaceutical products of a kind normally used for health care, prevention of illness and as treatment for medical and veterinary purposes, including products used for contraception and sanitary protection"
             },
-            "comment": "Applies to supply of firewood, pellets, briquettes and wood chips made until March 31, 2025."
+            "comment": "Applies to menstrual products: sanitary pads, daily pads, tampons, menstrual cups, menstrual panties, menstrual sponge, menstrual disc, etc., which are used specifically during menstruation, regardless of whether they are intended for single or multiple use."
+        },
+        {
+            "memberState": "HR",
+            "type": "STANDARD",
+            "rate": {
+                "type": "DEFAULT",
+                "value": 25
+            },
+            "situationOn": "2025-01-01+01:00"
         },
         {
             "memberState": "HR",
@@ -1926,58 +1929,6 @@
             "cnCodes": {
                 "code": [
                     {
-                        "value": "4901 99 00",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "4902",
-                        "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "PERIODICALS",
-                "description": "Periodicals"
-            },
-            "comment": "Applies to scientific periodicals"
-        },
-        {
-            "memberState": "HR",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "4901 99 00",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "4902",
-                        "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "NEWSPAPERS",
-                "description": "Newspapers"
-            },
-            "comment": "Applies to newspaper of the newspaper publisher which has the status of a medium, published daily, other than those that contain, in whole or for the most part, advertisements or serve for advertising, and other than those that contain, in whole or for the most part, video recording or music content."
-        },
-        {
-            "memberState": "HR",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
                         "value": "2711 11 00",
                         "description": "Natural gas"
                     },
@@ -2001,23 +1952,39 @@
                 "value": 5
             },
             "situationOn": "2025-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "31",
-                        "description": "CHAPTER 31 - FERTILISERS"
-                    },
-                    {
-                        "value": "3808",
-                        "description": "Insecticides, rodenticides, fungicides, herbicides, anti-sprouting products and plant-growth regulators, disinfectants and similar products, put up in forms or packings for retail sale or as preparations or articles (for example, sulphur-treated bands, wicks and candles, and fly-papers)"
-                    }
-                ]
-            },
             "category": {
-                "identifier": "AGRICULTURAL_PRODUCTION",
-                "description": "Supply of goods and services of a kind normally intended for use in agricultural production but excluding capital goods such as machinery or buildings"
+                "identifier": "CULTURAL_EVENTS",
+                "description": "Admission to shows, theatres, circuses, fairs, amusement parks, concerts, museums, zoos, cinemas, exhibitions and similar cultural events and facilities"
             },
-            "comment": "Pesticides and other agrochemical products are insecticides, rodenticides, fungicides, herbicides, anti-germination agents, plant growth regulators, disinfectants and similar products, put up in forms or packings for individual sale or as preparations or articles of CN 3808.\nResidues and waste from the food industry and prepared animal food from Ch. 23 excluding greaves CN 2301 10, wine lees and tartar CN 2307 and other than dog and cat food, put up in packings for individual sale CN 2309 10;"
+            "comment": "Applies to tickets for cinema, tickets for concerts and cultural events."
+        },
+        {
+            "memberState": "HR",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2025-01-01+01:00",
+            "category": {
+                "identifier": "SPORTING_EVENTS",
+                "description": "Admission to sporting events"
+            },
+            "comment": "Applies to tickets for sporting events of a competitive or revival character."
+        },
+        {
+            "memberState": "HR",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2025-01-01+01:00",
+            "category": {
+                "identifier": "SUPPLY_HEATING",
+                "description": "Supply of district heating"
+            },
+            "comment": "Applies to supply of heating from heating stations, including charges relating to such supplies made until March 31, 2025."
         },
         {
             "memberState": "HR",
@@ -2216,6 +2183,32 @@
             "type": "REDUCED",
             "rate": {
                 "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "31",
+                        "description": "CHAPTER 31 - FERTILISERS"
+                    },
+                    {
+                        "value": "3808",
+                        "description": "Insecticides, rodenticides, fungicides, herbicides, anti-sprouting products and plant-growth regulators, disinfectants and similar products, put up in forms or packings for retail sale or as preparations or articles (for example, sulphur-treated bands, wicks and candles, and fly-papers)"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "AGRICULTURAL_PRODUCTION",
+                "description": "Supply of goods and services of a kind normally intended for use in agricultural production but excluding capital goods such as machinery or buildings"
+            },
+            "comment": "Pesticides and other agrochemical products are insecticides, rodenticides, fungicides, herbicides, anti-germination agents, plant growth regulators, disinfectants and similar products, put up in forms or packings for individual sale or as preparations or articles of CN 3808.\nResidues and waste from the food industry and prepared animal food from Ch. 23 excluding greaves CN 2301 10, wine lees and tartar CN 2307 and other than dog and cat food, put up in packings for individual sale CN 2309 10;"
+        },
+        {
+            "memberState": "HR",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
                 "value": 13
             },
             "situationOn": "2025-01-01+01:00",
@@ -2306,23 +2299,20 @@
             "type": "REDUCED",
             "rate": {
                 "type": "REDUCED_RATE",
-                "value": 13
+                "value": 5
             },
             "situationOn": "2025-01-01+01:00",
+            "cnCodes": {
+                "code": {
+                    "value": "4401",
+                    "description": "Fuel wood, in logs, in billets, in twigs, in faggots or in similar forms; wood in chips or particles; sawdust and wood waste and scrap, whether or not agglomerated in logs, briquettes, pellets or similar forms"
+                }
+            },
             "category": {
-                "identifier": "PHARMACEUTICAL_PRODUCTS",
-                "description": "Pharmaceutical products of a kind normally used for health care, prevention of illness and as treatment for medical and veterinary purposes, including products used for contraception and sanitary protection"
+                "identifier": "WOOD_ARTICLE98",
+                "description": "Wood used as firewood (until 1 January 2030)"
             },
-            "comment": "Applies to menstrual products: sanitary pads, daily pads, tampons, menstrual cups, menstrual panties, menstrual sponge, menstrual disc, etc., which are used specifically during menstruation, regardless of whether they are intended for single or multiple use."
-        },
-        {
-            "memberState": "HR",
-            "type": "STANDARD",
-            "rate": {
-                "type": "DEFAULT",
-                "value": 25
-            },
-            "situationOn": "2025-01-01+01:00"
+            "comment": "Applies to supply of firewood, pellets, briquettes and wood chips made until March 31, 2025."
         },
         {
             "memberState": "HR",
@@ -2332,11 +2322,23 @@
                 "value": 5
             },
             "situationOn": "2025-01-01+01:00",
-            "category": {
-                "identifier": "CULTURAL_EVENTS",
-                "description": "Admission to shows, theatres, circuses, fairs, amusement parks, concerts, museums, zoos, cinemas, exhibitions and similar cultural events and facilities"
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "4901 99 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "4902",
+                        "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
+                    }
+                ]
             },
-            "comment": "Applies to tickets for cinema, tickets for concerts and cultural events."
+            "category": {
+                "identifier": "PERIODICALS",
+                "description": "Periodicals"
+            },
+            "comment": "Applies to scientific periodicals"
         },
         {
             "memberState": "HR",
@@ -2346,25 +2348,23 @@
                 "value": 5
             },
             "situationOn": "2025-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "4901 99 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "4902",
+                        "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
+                    }
+                ]
+            },
             "category": {
-                "identifier": "SPORTING_EVENTS",
-                "description": "Admission to sporting events"
+                "identifier": "NEWSPAPERS",
+                "description": "Newspapers"
             },
-            "comment": "Applies to tickets for sporting events of a competitive or revival character."
-        },
-        {
-            "memberState": "HR",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2025-01-01+01:00",
-            "category": {
-                "identifier": "SUPPLY_HEATING",
-                "description": "Supply of district heating"
-            },
-            "comment": "Applies to supply of heating from heating stations, including charges relating to such supplies made until March 31, 2025."
+            "comment": "Applies to newspaper of the newspaper publisher which has the status of a medium, published daily, other than those that contain, in whole or for the most part, advertisements or serve for advertising, and other than those that contain, in whole or for the most part, video recording or music content."
         }
     ]
 }
