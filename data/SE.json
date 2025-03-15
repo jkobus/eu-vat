@@ -6,6 +6,110 @@
             "type": "REDUCED",
             "rate": {
                 "type": "REDUCED_RATE",
+                "value": 6
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "4901",
+                        "description": "Printed books, brochures, leaflets and similar printed matter, whether or not in single sheets"
+                    },
+                    {
+                        "value": "4902",
+                        "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
+                    },
+                    {
+                        "value": "4903 00 00",
+                        "description": "Children's picture, drawing or colouring books"
+                    },
+                    {
+                        "value": "4904 00 00",
+                        "description": "Music, printed or in manuscript, whether or not bound or illustrated"
+                    },
+                    {
+                        "value": "4905 91 00",
+                        "description": "In book form"
+                    },
+                    {
+                        "value": "4905 99 00",
+                        "description": "Other"
+                    }
+                ]
+            },
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "58.11.30",
+                        "description": "On-line books"
+                    },
+                    {
+                        "value": "58.13.20",
+                        "description": "On-line newspapers"
+                    },
+                    {
+                        "value": "58.14.20",
+                        "description": "On-line journals and periodicals"
+                    },
+                    {
+                        "value": "91.01.11",
+                        "description": "Library services"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "LOAN_LIBRARIES",
+                "description": "Supply, including on loan by libraries, of books, newspapers and periodicals either on physical means of support or supplied electronically or both (including brochures, leaflets and similar printed matter, children's picture, drawing or colouring books, music printed or in manuscript form, maps and hydrographic or similar charts), other than publications wholly or predominantly devoted to advertising and other than publications wholly or predominantly consisting of video content or audible music."
+            },
+            "comment": "The reduced rate comprises both supplies on physical means and electronic supplies of books, newspapers etc., please see chapter 9 section 9 and 13 in the Swedish VAT Act (https:\/\/www.riksdagen.se\/sv\/dokument-lagar\/dokument\/svensk-forfattningssamling\/mervardesskattelag-2023200_sfs-2023-200#K9)."
+        },
+        {
+            "memberState": "SE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 6
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "8523 29 19",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "8523 29 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "8523 49",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "8523 51 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "8523 59 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "8523 80 90",
+                        "description": "Other"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "MEDICAL_EQUIPMENT",
+                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
+            },
+            "comment": "The reduced rate comprises certain cassette books, cassette magazines and reading aids, please see chapter 9 section 11 and 13 in the Swedish VAT Act (https:\/\/www.riksdagen.se\/sv\/dokument-lagar\/dokument\/svensk-forfattningssamling\/mervardesskattelag-2023200_sfs-2023-200#K9)."
+        },
+        {
+            "memberState": "SE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
                 "value": 12
             },
             "situationOn": "2025-01-01+01:00",
@@ -828,6 +932,144 @@
             "type": "REDUCED",
             "rate": {
                 "type": "REDUCED_RATE",
+                "value": 6
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "49.1",
+                        "description": "Passenger rail transport services, interurban"
+                    },
+                    {
+                        "value": "49.3",
+                        "description": "Other passenger land transport services"
+                    },
+                    {
+                        "value": "50.1",
+                        "description": "Sea and coastal passenger water transport services"
+                    },
+                    {
+                        "value": "50.3",
+                        "description": "Inland passenger water transport services"
+                    },
+                    {
+                        "value": "51.1",
+                        "description": "Passenger air transport services"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "TRANSPORT_PASSENGERS",
+                "description": "Transport of passengers and their accompanying luggage"
+            },
+            "comment": "Domestic transports of passengers are subject to the reduced rate, please see chapter 9 section 8 in the Swedish VAT Act (https:\/\/www.riksdagen.se\/sv\/dokument-lagar\/dokument\/svensk-forfattningssamling\/mervardesskattelag-2023200_sfs-2023-200#K9). International transports of passengers are exempted."
+        },
+        {
+            "memberState": "SE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 6
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "58.11.60",
+                        "description": "Licensing services for books"
+                    },
+                    {
+                        "value": "59.20.40",
+                        "description": "Licensing services for the right to use acoustic originals"
+                    },
+                    {
+                        "value": "60.20.20",
+                        "description": "Television broadcasting originals"
+                    },
+                    {
+                        "value": "90.01.10",
+                        "description": "Services of performing artists"
+                    },
+                    {
+                        "value": "90.03.1",
+                        "description": "Artistic creation"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "WRITERS_SERVICES",
+                "description": "Supply of services by writers, composers and performing artists, or of the royalties due to them"
+            },
+            "comment": "The reduced rate applies to royalties, please see chapter 9 section 16 paragraph 1 in the Swedish VAT Act (https:\/\/www.riksdagen.se\/sv\/dokument-lagar\/dokument\/svensk-forfattningssamling\/mervardesskattelag-2023200_sfs-2023-200#K9). A performing artist`s (actor, musician, dancer, artist) performance of a literary or artistic work is exempt."
+        },
+        {
+            "memberState": "SE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 6
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "90.01.10",
+                        "description": "Services of performing artists"
+                    },
+                    {
+                        "value": "90.02.11",
+                        "description": "Performing arts event production and presentation services"
+                    },
+                    {
+                        "value": "90.04.10",
+                        "description": "Arts facility operation services"
+                    },
+                    {
+                        "value": "91.02.10",
+                        "description": "Museum operation services"
+                    },
+                    {
+                        "value": "91.02.20",
+                        "description": "Museum collections"
+                    },
+                    {
+                        "value": "93.29.19",
+                        "description": "Miscellaneous recreational services n.e.c."
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "CULTURAL_EVENTS",
+                "description": "Admission to shows, theatres, circuses, fairs, amusement parks, concerts, museums, zoos, cinemas, exhibitions and similar cultural events and facilities"
+            },
+            "comment": "Admission to shows, theatres, circuses, concerts, operas, ballets and similar performances are subject to 6 % VAT. The reduced rate also applies to admission to zoos. However, arrangement of public exhibitions in museums and supplies of items to such exhibitions are exempt if the museum is run by the public sector or is supported by the public sector. Admission to amusement parks and cinemas are subject to the standard VAT rate. Please see chapter 9 section 14 in the Swedish VAT Act."
+        },
+        {
+            "memberState": "SE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 6
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "93.1",
+                    "description": "Sporting services"
+                }
+            },
+            "category": {
+                "identifier": "SPORTING_EVENTS",
+                "description": "Admission to sporting events"
+            },
+            "comment": "Usually exempted if supplied by a public body or non-profit making organization. The reduced rate is regulated in chapter 9 section 18 in the Swedish VAT Act (https:\/\/www.riksdagen.se\/sv\/dokument-lagar\/dokument\/svensk-forfattningssamling\/mervardesskattelag-2023200_sfs-2023-200#K9)."
+        },
+        {
+            "memberState": "SE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
                 "value": 12
             },
             "situationOn": "2025-01-01+01:00",
@@ -1103,248 +1345,6 @@
                 "value": 25
             },
             "situationOn": "2025-01-01+01:00"
-        },
-        {
-            "memberState": "SE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 6
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "4901",
-                        "description": "Printed books, brochures, leaflets and similar printed matter, whether or not in single sheets"
-                    },
-                    {
-                        "value": "4902",
-                        "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
-                    },
-                    {
-                        "value": "4903 00 00",
-                        "description": "Children's picture, drawing or colouring books"
-                    },
-                    {
-                        "value": "4904 00 00",
-                        "description": "Music, printed or in manuscript, whether or not bound or illustrated"
-                    },
-                    {
-                        "value": "4905 91 00",
-                        "description": "In book form"
-                    },
-                    {
-                        "value": "4905 99 00",
-                        "description": "Other"
-                    }
-                ]
-            },
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "58.11.30",
-                        "description": "On-line books"
-                    },
-                    {
-                        "value": "58.13.20",
-                        "description": "On-line newspapers"
-                    },
-                    {
-                        "value": "58.14.20",
-                        "description": "On-line journals and periodicals"
-                    },
-                    {
-                        "value": "91.01.11",
-                        "description": "Library services"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "LOAN_LIBRARIES",
-                "description": "Supply, including on loan by libraries, of books, newspapers and periodicals either on physical means of support or supplied electronically or both (including brochures, leaflets and similar printed matter, children's picture, drawing or colouring books, music printed or in manuscript form, maps and hydrographic or similar charts), other than publications wholly or predominantly devoted to advertising and other than publications wholly or predominantly consisting of video content or audible music."
-            },
-            "comment": "The reduced rate comprises both supplies on physical means and electronic supplies of books, newspapers etc., please see chapter 9 section 9 and 13 in the Swedish VAT Act (https:\/\/www.riksdagen.se\/sv\/dokument-lagar\/dokument\/svensk-forfattningssamling\/mervardesskattelag-2023200_sfs-2023-200#K9)."
-        },
-        {
-            "memberState": "SE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 6
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "8523 29 19",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "8523 29 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "8523 49",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "8523 51 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "8523 59 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "8523 80 90",
-                        "description": "Other"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "MEDICAL_EQUIPMENT",
-                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
-            },
-            "comment": "The reduced rate comprises certain cassette books, cassette magazines and reading aids, please see chapter 9 section 11 and 13 in the Swedish VAT Act (https:\/\/www.riksdagen.se\/sv\/dokument-lagar\/dokument\/svensk-forfattningssamling\/mervardesskattelag-2023200_sfs-2023-200#K9)."
-        },
-        {
-            "memberState": "SE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 6
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "49.1",
-                        "description": "Passenger rail transport services, interurban"
-                    },
-                    {
-                        "value": "49.3",
-                        "description": "Other passenger land transport services"
-                    },
-                    {
-                        "value": "50.1",
-                        "description": "Sea and coastal passenger water transport services"
-                    },
-                    {
-                        "value": "50.3",
-                        "description": "Inland passenger water transport services"
-                    },
-                    {
-                        "value": "51.1",
-                        "description": "Passenger air transport services"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "TRANSPORT_PASSENGERS",
-                "description": "Transport of passengers and their accompanying luggage"
-            },
-            "comment": "Domestic transports of passengers are subject to the reduced rate, please see chapter 9 section 8 in the Swedish VAT Act (https:\/\/www.riksdagen.se\/sv\/dokument-lagar\/dokument\/svensk-forfattningssamling\/mervardesskattelag-2023200_sfs-2023-200#K9). International transports of passengers are exempted."
-        },
-        {
-            "memberState": "SE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 6
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "58.11.60",
-                        "description": "Licensing services for books"
-                    },
-                    {
-                        "value": "59.20.40",
-                        "description": "Licensing services for the right to use acoustic originals"
-                    },
-                    {
-                        "value": "60.20.20",
-                        "description": "Television broadcasting originals"
-                    },
-                    {
-                        "value": "90.01.10",
-                        "description": "Services of performing artists"
-                    },
-                    {
-                        "value": "90.03.1",
-                        "description": "Artistic creation"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "WRITERS_SERVICES",
-                "description": "Supply of services by writers, composers and performing artists, or of the royalties due to them"
-            },
-            "comment": "The reduced rate applies to royalties, please see chapter 9 section 16 paragraph 1 in the Swedish VAT Act (https:\/\/www.riksdagen.se\/sv\/dokument-lagar\/dokument\/svensk-forfattningssamling\/mervardesskattelag-2023200_sfs-2023-200#K9). A performing artist`s (actor, musician, dancer, artist) performance of a literary or artistic work is exempt."
-        },
-        {
-            "memberState": "SE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 6
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "90.01.10",
-                        "description": "Services of performing artists"
-                    },
-                    {
-                        "value": "90.02.11",
-                        "description": "Performing arts event production and presentation services"
-                    },
-                    {
-                        "value": "90.04.10",
-                        "description": "Arts facility operation services"
-                    },
-                    {
-                        "value": "91.02.10",
-                        "description": "Museum operation services"
-                    },
-                    {
-                        "value": "91.02.20",
-                        "description": "Museum collections"
-                    },
-                    {
-                        "value": "93.29.19",
-                        "description": "Miscellaneous recreational services n.e.c."
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "CULTURAL_EVENTS",
-                "description": "Admission to shows, theatres, circuses, fairs, amusement parks, concerts, museums, zoos, cinemas, exhibitions and similar cultural events and facilities"
-            },
-            "comment": "Admission to shows, theatres, circuses, concerts, operas, ballets and similar performances are subject to 6 % VAT. The reduced rate also applies to admission to zoos. However, arrangement of public exhibitions in museums and supplies of items to such exhibitions are exempt if the museum is run by the public sector or is supported by the public sector. Admission to amusement parks and cinemas are subject to the standard VAT rate. Please see chapter 9 section 14 in the Swedish VAT Act."
-        },
-        {
-            "memberState": "SE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 6
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cpaCodes": {
-                "code": {
-                    "value": "93.1",
-                    "description": "Sporting services"
-                }
-            },
-            "category": {
-                "identifier": "SPORTING_EVENTS",
-                "description": "Admission to sporting events"
-            },
-            "comment": "Usually exempted if supplied by a public body or non-profit making organization. The reduced rate is regulated in chapter 9 section 18 in the Swedish VAT Act (https:\/\/www.riksdagen.se\/sv\/dokument-lagar\/dokument\/svensk-forfattningssamling\/mervardesskattelag-2023200_sfs-2023-200#K9)."
         }
     ]
 }
