@@ -1394,76 +1394,6 @@
             "cnCodes": {
                 "code": [
                     {
-                        "value": "4901",
-                        "description": "Printed books, brochures, leaflets and similar printed matter, whether or not in single sheets"
-                    },
-                    {
-                        "value": "4903 00 00",
-                        "description": "Children's picture, drawing or colouring books"
-                    },
-                    {
-                        "value": "4904 00 00",
-                        "description": "Music, printed or in manuscript, whether or not bound or illustrated"
-                    },
-                    {
-                        "value": "4905",
-                        "description": "Maps and hydrographic or similar charts of all kinds, including atlases, wall maps, topographical plans and globes, printed"
-                    },
-                    {
-                        "value": "4911 99 00",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "8523 29 19",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "8523 29 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "8523 49",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "8523 51 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "8523 52 00",
-                        "description": "‘Smart cards’"
-                    },
-                    {
-                        "value": "8523 59 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "8523 80 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "9706 00 00",
-                        "description": "Antiques of an age exceeding 100 years"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "LOAN_LIBRARIES",
-                "description": "Supply, including on loan by libraries, of books, newspapers and periodicals either on physical means of support or supplied electronically or both (including brochures, leaflets and similar printed matter, children's picture, drawing or colouring books, music printed or in manuscript form, maps and hydrographic or similar charts), other than publications wholly or predominantly devoted to advertising and other than publications wholly or predominantly consisting of video content or audible music."
-            },
-            "comment": "Applies to books of professional, scientific, artistic, cultural or educational content, textbooks for education, for primary, secondary and tertiary education, other than those that contain, in whole or for the most part, advertisements or serve for advertising, and other than those that contain, in whole or for the most part, video recording or music content."
-        },
-        {
-            "memberState": "HR",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
                         "value": "2804 40 00",
                         "description": "Oxygen"
                     },
@@ -1906,6 +1836,76 @@
             "cnCodes": {
                 "code": [
                     {
+                        "value": "4901",
+                        "description": "Printed books, brochures, leaflets and similar printed matter, whether or not in single sheets"
+                    },
+                    {
+                        "value": "4903 00 00",
+                        "description": "Children's picture, drawing or colouring books"
+                    },
+                    {
+                        "value": "4904 00 00",
+                        "description": "Music, printed or in manuscript, whether or not bound or illustrated"
+                    },
+                    {
+                        "value": "4905",
+                        "description": "Maps and hydrographic or similar charts of all kinds, including atlases, wall maps, topographical plans and globes, printed"
+                    },
+                    {
+                        "value": "4911 99 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "8523 29 19",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "8523 29 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "8523 49",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "8523 51 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "8523 52 00",
+                        "description": "‘Smart cards’"
+                    },
+                    {
+                        "value": "8523 59 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "8523 80 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "9706 00 00",
+                        "description": "Antiques of an age exceeding 100 years"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "LOAN_LIBRARIES",
+                "description": "Supply, including on loan by libraries, of books, newspapers and periodicals either on physical means of support or supplied electronically or both (including brochures, leaflets and similar printed matter, children's picture, drawing or colouring books, music printed or in manuscript form, maps and hydrographic or similar charts), other than publications wholly or predominantly devoted to advertising and other than publications wholly or predominantly consisting of video content or audible music."
+            },
+            "comment": "Applies to books of professional, scientific, artistic, cultural or educational content, textbooks for education, for primary, secondary and tertiary education, other than those that contain, in whole or for the most part, advertisements or serve for advertising, and other than those that contain, in whole or for the most part, video recording or music content."
+        },
+        {
+            "memberState": "HR",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
                         "value": "31",
                         "description": "CHAPTER 31 - FERTILISERS"
                     },
@@ -1966,6 +1966,32 @@
                 "description": "Periodicals"
             },
             "comment": "Applies to scientific periodicals"
+        },
+        {
+            "memberState": "HR",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "4901 99 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "4902",
+                        "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "NEWSPAPERS",
+                "description": "Newspapers"
+            },
+            "comment": "Applies to newspaper of the newspaper publisher which has the status of a medium, published daily, other than those that contain, in whole or for the most part, advertisements or serve for advertising, and other than those that contain, in whole or for the most part, video recording or music content."
         },
         {
             "memberState": "HR",
@@ -2174,32 +2200,6 @@
                 "description": "Supply of services by undertakers and cremation services, and the supply of goods related thereto"
             },
             "comment": "Applies to supplies of urns and coffins"
-        },
-        {
-            "memberState": "HR",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "4901 99 00",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "4902",
-                        "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "NEWSPAPERS",
-                "description": "Newspapers"
-            },
-            "comment": "Applies to newspaper of the newspaper publisher which has the status of a medium, published daily, other than those that contain, in whole or for the most part, advertisements or serve for advertising, and other than those that contain, in whole or for the most part, video recording or music content."
         },
         {
             "memberState": "HR",

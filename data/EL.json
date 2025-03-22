@@ -5,57 +5,6 @@
             "memberState": "EL",
             "type": "REDUCED",
             "rate": {
-                "type": "REDUCED_RATE",
-                "value": 13
-            },
-            "situationOn": "2025-01-01+01:00",
-            "category": {
-                "identifier": "SPORTING_EVENTS",
-                "description": "Admission to sporting events"
-            },
-            "comment": "The reduced rate rate applies on the use of gym's services"
-        },
-        {
-            "memberState": "EL",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 17
-            },
-            "situationOn": "2025-01-01+01:00",
-            "category": {
-                "identifier": "REGION",
-                "description": "Special reduced rate for specific regions (including articles 104, 105 and 120 of the VAT Directive)"
-            },
-            "comment": "The Aegean Islands of Leros, Lesvos, Kos,  Samos and Chios (L. 4811\/2021 and Ministerial Decision A 1150\/2021)"
-        },
-        {
-            "memberState": "EL",
-            "type": "REDUCED",
-            "rate": {
-                "type": "SUPER_REDUCED_RATE",
-                "value": 4
-            },
-            "situationOn": "2025-01-01+01:00",
-            "category": {
-                "identifier": "NON_OWNED_RESIDENCY_RENOVATION",
-                "description": "Certain renovation work carried out for the benefit of a dwelling used as a principal residence by a person other than the owner of the dwelling"
-            },
-            "comment": "Applies to contract-based works that are solely connected with the removal of architectural barriers that hinder the mobility of persons with disabilities, in private or public buildings, or buildings of public interest."
-        },
-        {
-            "memberState": "EL",
-            "type": "STANDARD",
-            "rate": {
-                "type": "DEFAULT",
-                "value": 24
-            },
-            "situationOn": "2025-01-01+01:00"
-        },
-        {
-            "memberState": "EL",
-            "type": "REDUCED",
-            "rate": {
                 "type": "EXEMPTED",
                 "value": 0
             },
@@ -901,6 +850,57 @@
                 "description": "Admission to shows, theatres, circuses, fairs, amusement parks, concerts, museums, zoos, cinemas, exhibitions and similar cultural events and facilities"
             },
             "comment": "The reduced rate applies on dancing schools"
+        },
+        {
+            "memberState": "EL",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 13
+            },
+            "situationOn": "2025-01-01+01:00",
+            "category": {
+                "identifier": "SPORTING_EVENTS",
+                "description": "Admission to sporting events"
+            },
+            "comment": "The reduced rate rate applies on the use of gym's services"
+        },
+        {
+            "memberState": "EL",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 17
+            },
+            "situationOn": "2025-01-01+01:00",
+            "category": {
+                "identifier": "REGION",
+                "description": "Special reduced rate for specific regions (including articles 104, 105 and 120 of the VAT Directive)"
+            },
+            "comment": "The Aegean Islands of Leros, Lesvos, Kos,  Samos and Chios (L. 4811\/2021 and Ministerial Decision A 1150\/2021)"
+        },
+        {
+            "memberState": "EL",
+            "type": "REDUCED",
+            "rate": {
+                "type": "SUPER_REDUCED_RATE",
+                "value": 4
+            },
+            "situationOn": "2025-01-01+01:00",
+            "category": {
+                "identifier": "NON_OWNED_RESIDENCY_RENOVATION",
+                "description": "Certain renovation work carried out for the benefit of a dwelling used as a principal residence by a person other than the owner of the dwelling"
+            },
+            "comment": "Applies to contract-based works that are solely connected with the removal of architectural barriers that hinder the mobility of persons with disabilities, in private or public buildings, or buildings of public interest."
+        },
+        {
+            "memberState": "EL",
+            "type": "STANDARD",
+            "rate": {
+                "type": "DEFAULT",
+                "value": 24
+            },
+            "situationOn": "2025-01-01+01:00"
         }
     ]
 }
