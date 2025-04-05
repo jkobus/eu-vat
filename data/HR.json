@@ -1162,68 +1162,6 @@
             "cnCodes": {
                 "code": [
                     {
-                        "value": "0401",
-                        "description": "Milk and cream, not concentrated nor containing added sugar or other sweetening matter"
-                    },
-                    {
-                        "value": "0402 91",
-                        "description": "Not containing added sugar or other sweetening matter"
-                    },
-                    {
-                        "value": "0402 99",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "1905 10 00",
-                        "description": "Crispbread"
-                    },
-                    {
-                        "value": "1905 20 10",
-                        "description": "Containing by weight less than 30 % of sucrose (including invert sugar expressed as sucrose)"
-                    },
-                    {
-                        "value": "1905 40",
-                        "description": "Rusks, toasted bread and similar toasted products"
-                    },
-                    {
-                        "value": "1905 90 30",
-                        "description": "Bread, not containing added honey, eggs, cheese or fruit, and containing by weight in the dry matter state not more than 5 % of sugars and not more than 5 % of fat"
-                    },
-                    {
-                        "value": "1905 90 70",
-                        "description": "Containing 5 % or more, by weight, of sucrose, invert sugar or isoglucose"
-                    },
-                    {
-                        "value": "1905 90 80",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "2202 99 91",
-                        "description": "Less than 0,2 %"
-                    },
-                    {
-                        "value": "2202 99 95",
-                        "description": "0,2 % or more but less than 2 %"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "FOODSTUFFS",
-                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
-            },
-            "comment": "Reduced rate applies to all types of bread,\nand all types of milk (cow, sheep, goat) placed on the market under the same name in the liquid state, fresh, pasteurized, homogenized, condensed (other than sour milk, yoghurt, kefir, chocolate milk and other milk products), substitute for mother’s milk."
-        },
-        {
-            "memberState": "HR",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
                         "value": "1806 90 70",
                         "description": "Preparations containing cocoa for making beverages"
                     },
@@ -1382,6 +1320,68 @@
                 "description": "Pharmaceutical products of a kind normally used for health care, prevention of illness and as treatment for medical and veterinary purposes, including products used for contraception and sanitary protection"
             },
             "comment": "Applies to medicines which have the approval of the competent authority for medicines and medical products."
+        },
+        {
+            "memberState": "HR",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "0401",
+                        "description": "Milk and cream, not concentrated nor containing added sugar or other sweetening matter"
+                    },
+                    {
+                        "value": "0402 91",
+                        "description": "Not containing added sugar or other sweetening matter"
+                    },
+                    {
+                        "value": "0402 99",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "1905 10 00",
+                        "description": "Crispbread"
+                    },
+                    {
+                        "value": "1905 20 10",
+                        "description": "Containing by weight less than 30 % of sucrose (including invert sugar expressed as sucrose)"
+                    },
+                    {
+                        "value": "1905 40",
+                        "description": "Rusks, toasted bread and similar toasted products"
+                    },
+                    {
+                        "value": "1905 90 30",
+                        "description": "Bread, not containing added honey, eggs, cheese or fruit, and containing by weight in the dry matter state not more than 5 % of sugars and not more than 5 % of fat"
+                    },
+                    {
+                        "value": "1905 90 70",
+                        "description": "Containing 5 % or more, by weight, of sucrose, invert sugar or isoglucose"
+                    },
+                    {
+                        "value": "1905 90 80",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "2202 99 91",
+                        "description": "Less than 0,2 %"
+                    },
+                    {
+                        "value": "2202 99 95",
+                        "description": "0,2 % or more but less than 2 %"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "FOODSTUFFS",
+                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
+            },
+            "comment": "Reduced rate applies to all types of bread,\nand all types of milk (cow, sheep, goat) placed on the market under the same name in the liquid state, fresh, pasteurized, homogenized, condensed (other than sour milk, yoghurt, kefir, chocolate milk and other milk products), substitute for mother’s milk."
         },
         {
             "memberState": "HR",
@@ -1830,6 +1830,29 @@
             "type": "REDUCED",
             "rate": {
                 "type": "REDUCED_RATE",
+                "value": 13
+            },
+            "situationOn": "2025-01-01+01:00",
+            "category": {
+                "identifier": "PHARMACEUTICAL_PRODUCTS",
+                "description": "Pharmaceutical products of a kind normally used for health care, prevention of illness and as treatment for medical and veterinary purposes, including products used for contraception and sanitary protection"
+            },
+            "comment": "Applies to menstrual products: sanitary pads, daily pads, tampons, menstrual cups, menstrual panties, menstrual sponge, menstrual disc, etc., which are used specifically during menstruation, regardless of whether they are intended for single or multiple use."
+        },
+        {
+            "memberState": "HR",
+            "type": "STANDARD",
+            "rate": {
+                "type": "DEFAULT",
+                "value": 25
+            },
+            "situationOn": "2025-01-01+01:00"
+        },
+        {
+            "memberState": "HR",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
                 "value": 5
             },
             "situationOn": "2025-01-01+01:00",
@@ -1992,32 +2015,6 @@
                 "description": "Periodicals"
             },
             "comment": "Applies to scientific periodicals"
-        },
-        {
-            "memberState": "HR",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "4901 99 00",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "4902",
-                        "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "NEWSPAPERS",
-                "description": "Newspapers"
-            },
-            "comment": "Applies to newspaper of the newspaper publisher which has the status of a medium, published daily, other than those that contain, in whole or for the most part, advertisements or serve for advertising, and other than those that contain, in whole or for the most part, video recording or music content."
         },
         {
             "memberState": "HR",
@@ -2232,6 +2229,32 @@
             "type": "REDUCED",
             "rate": {
                 "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "4901 99 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "4902",
+                        "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "NEWSPAPERS",
+                "description": "Newspapers"
+            },
+            "comment": "Applies to newspaper of the newspaper publisher which has the status of a medium, published daily, other than those that contain, in whole or for the most part, advertisements or serve for advertising, and other than those that contain, in whole or for the most part, video recording or music content."
+        },
+        {
+            "memberState": "HR",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
                 "value": 13
             },
             "situationOn": "2025-01-01+01:00",
@@ -2342,29 +2365,6 @@
                 "description": "Restaurant and catering services, it being possible to exclude the supply of (alcoholic and\/or non-alcoholic) beverages"
             },
             "comment": "Preparation and serving of food and desserts in and outside of catering facilities in accordance with special regulation."
-        },
-        {
-            "memberState": "HR",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 13
-            },
-            "situationOn": "2025-01-01+01:00",
-            "category": {
-                "identifier": "PHARMACEUTICAL_PRODUCTS",
-                "description": "Pharmaceutical products of a kind normally used for health care, prevention of illness and as treatment for medical and veterinary purposes, including products used for contraception and sanitary protection"
-            },
-            "comment": "Applies to menstrual products: sanitary pads, daily pads, tampons, menstrual cups, menstrual panties, menstrual sponge, menstrual disc, etc., which are used specifically during menstruation, regardless of whether they are intended for single or multiple use."
-        },
-        {
-            "memberState": "HR",
-            "type": "STANDARD",
-            "rate": {
-                "type": "DEFAULT",
-                "value": 25
-            },
-            "situationOn": "2025-01-01+01:00"
         }
     ]
 }

@@ -986,194 +986,6 @@
             },
             "situationOn": "2025-01-01+01:00",
             "cnCodes": {
-                "code": {
-                    "value": "4902",
-                    "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
-                }
-            },
-            "category": {
-                "identifier": "NEWSPAPERS",
-                "description": "Newspapers"
-            },
-            "comment": "VAT - Import - Annex 2 of the German VAT Act contains a list of goods falling under the reduced rate of 7% e.g. excluding newspapers whose content is harmful to minors or is predominantly devoted to advertising. For legal certainty please have a look at the German VAT Act."
-        },
-        {
-            "memberState": "DE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "EXEMPTED",
-                "value": 0
-            },
-            "situationOn": "2025-01-01+01:00",
-            "category": {
-                "identifier": "SUPPLY_ELECTRICITY",
-                "description": "Supply of electricity"
-            },
-            "comment": "Article 12 paragraph 3 of the German VAT Act contains a list of services falling under the zero rate e.g. the supply of certain photovoltaic power. For legal certainty please have a look at the German VAT Act."
-        },
-        {
-            "memberState": "DE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "EXEMPTED",
-                "value": 0
-            },
-            "situationOn": "2025-01-01+01:00",
-            "category": {
-                "identifier": "SUPPLY_ELECTRICITY",
-                "description": "Supply of electricity"
-            },
-            "comment": "VAT - Import - Article 12 paragraph 3 of the German VAT Act contains a list of services falling under the zero rate e.g. the supply of certain photovoltaic power. For legal certainty please have a look at the German VAT Act."
-        },
-        {
-            "memberState": "DE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "OUT_OF_SCOPE",
-                "value": 0
-            },
-            "situationOn": "2025-01-01+01:00",
-            "category": {
-                "identifier": "BROADCASTING_SERVICES",
-                "description": "Reception of radio and television broadcasting services"
-            },
-            "comment": "Public radio and television broadcasting services are out of scope."
-        },
-        {
-            "memberState": "DE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "OUT_OF_SCOPE",
-                "value": 0
-            },
-            "situationOn": "2025-01-01+01:00",
-            "category": {
-                "identifier": "BROADCASTING_SERVICES",
-                "description": "Reception of radio and television broadcasting services"
-            },
-            "comment": "VAT - Import - Public radio and television broadcasting services are out of scope."
-        },
-        {
-            "memberState": "DE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 7
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cnCodes": {
-                "code": {
-                    "value": "2201 90 00",
-                    "description": "Other"
-                }
-            },
-            "category": {
-                "identifier": "SUPPLY_WATER",
-                "description": "Supply of water"
-            },
-            "comment": "No reduced rate for bottled water, healing water and steam"
-        },
-        {
-            "memberState": "DE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 7
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cnCodes": {
-                "code": {
-                    "value": "2201 90 00",
-                    "description": "Other"
-                }
-            },
-            "category": {
-                "identifier": "SUPPLY_WATER",
-                "description": "Supply of water"
-            },
-            "comment": "VAT - Import - No reduced rate for bottled water, healing water and steam"
-        },
-        {
-            "memberState": "DE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 7
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cnCodes": {
-                "code": {
-                    "value": "4902",
-                    "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
-                }
-            },
-            "category": {
-                "identifier": "PERIODICALS",
-                "description": "Periodicals"
-            },
-            "comment": "VAT - Import - Annex 2 of the German VAT Act contains a list of goods falling under the reduced rate of 7% e.g. excluding periodicals whose content is harmful to minors or is predominantly devoted to advertising. For legal certainty please have a look at the German VAT Act."
-        },
-        {
-            "memberState": "DE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 7
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "4907 00",
-                        "description": "Unused postage, revenue or similar stamps of current or new issue in the country in which they have, or will have, a recognised face value; stamp-impressed paper; banknotes; cheque forms; stock, share or bond certificates and similar documents of title"
-                    },
-                    {
-                        "value": "9704 00 00",
-                        "description": "Postage or revenue stamps, stamp-postmarks, first-day covers, postal stationery (stamped paper), and the like, used or unused, other than those of heading 4907"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "POSTAGE",
-                "description": "Postage or revenue stamps, postmarks, first-day covers, pre-stamped stationery and the like, used, or if unused not current and not intended to be current (CN code 9704 00 00)"
-            },
-            "comment": "Annex 2 of the German VAT Act contains a list of goods falling under the reduced rate of 7%. For legal certainty please have a look at the German VAT Act."
-        },
-        {
-            "memberState": "DE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 7
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "4907 00",
-                        "description": "Unused postage, revenue or similar stamps of current or new issue in the country in which they have, or will have, a recognised face value; stamp-impressed paper; banknotes; cheque forms; stock, share or bond certificates and similar documents of title"
-                    },
-                    {
-                        "value": "9704 00 00",
-                        "description": "Postage or revenue stamps, stamp-postmarks, first-day covers, postal stationery (stamped paper), and the like, used or unused, other than those of heading 4907"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "POSTAGE",
-                "description": "Postage or revenue stamps, postmarks, first-day covers, pre-stamped stationery and the like, used, or if unused not current and not intended to be current (CN code 9704 00 00)"
-            },
-            "comment": "VAT - Import - Annex 2 of the German VAT Act contains a list of goods falling under the reduced rate of 7%. For legal certainty please have a look at the German VAT Act."
-        },
-        {
-            "memberState": "DE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 7
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cnCodes": {
                 "code": [
                     {
                         "value": "8713",
@@ -1281,6 +1093,165 @@
                 "value": 7
             },
             "situationOn": "2025-01-01+01:00",
+            "category": {
+                "identifier": "WRITERS_SERVICES",
+                "description": "Supply of services by writers, composers and performing artists, or of the royalties due to them"
+            },
+            "comment": "See preliminary remarks to “Reduced rates” and the “General comments” field"
+        },
+        {
+            "memberState": "DE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 7
+            },
+            "situationOn": "2025-01-01+01:00",
+            "category": {
+                "identifier": "ACCOMMODATION",
+                "description": "Accommodation provided in hotels and similar establishments, including the provision of holiday accommodation and the letting of places on camping or caravan sites"
+            },
+            "comment": "Only for short-term accommodation.\nSee preliminary remarks to “Reduced rates” and the “General comments” field"
+        },
+        {
+            "memberState": "DE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 7
+            },
+            "situationOn": "2025-01-01+01:00",
+            "category": {
+                "identifier": "SOCIAL_WELLBEING",
+                "description": "Supply of goods and services by organisations recognised as being devoted to social wellbeing by Member States and engaged in welfare or social security work"
+            },
+            "comment": "Reduced rate only applicable to supplies of goods and services of organisations pursuing non-profit making, charitable or ecclesiastical purposes. VAT reduction not applicable to supply of goods or services to be made within the context of a profitable Business.\nSee preliminary remarks to “Reduced rates” and the “General comments” field"
+        },
+        {
+            "memberState": "DE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 7
+            },
+            "situationOn": "2025-01-01+01:00",
+            "category": {
+                "identifier": "MEDICAL_CARE",
+                "description": "Provision of medical and dental care and thermal treatment"
+            },
+            "comment": "Reduced rate only on the supply of services by dental technicians in their professional capacity and the supply of dental prostheses by dentists and dental technicians.\nSee preliminary remarks to “Reduced rates” and the “General comments” field"
+        },
+        {
+            "memberState": "DE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 7
+            },
+            "situationOn": "2025-01-01+01:00",
+            "category": {
+                "identifier": "SOCIAL_WELLBEING",
+                "description": "Supply of goods and services by organisations recognised as being devoted to social wellbeing by Member States and engaged in welfare or social security work"
+            },
+            "comment": "VAT - Import - Reduced rate only applicable to supplies of goods and services of organisations pursuing non-profit making, charitable or ecclesiastical purposes. VAT reduction not applicable to supply of goods or services to be made within the context of a profitable Business. See preliminary remarks to “Reduced rates” and the “General comments” field."
+        },
+        {
+            "memberState": "DE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 7
+            },
+            "situationOn": "2025-01-01+01:00",
+            "category": {
+                "identifier": "TRANSPORT_PASSENGERS",
+                "description": "Transport of passengers and their accompanying luggage"
+            },
+            "comment": "VAT - Import - Reduced rate on local transport (within a local community or if the transport distance does not exceed 50 km) and rail-bound transport. See preliminary remarks to “Reduced rates” and the “General comments” field."
+        },
+        {
+            "memberState": "DE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 7
+            },
+            "situationOn": "2025-01-01+01:00",
+            "category": {
+                "identifier": "CULTURAL_EVENTS",
+                "description": "Admission to shows, theatres, circuses, fairs, amusement parks, concerts, museums, zoos, cinemas, exhibitions and similar cultural events and facilities"
+            },
+            "comment": "VAT - Import - Reduced rate only on admissions to theatres, concerts and museums, as well as circus performances, performances as performers and transactions directly linked to the operation of zoological gardens. See preliminary remarks to “Reduced rates” and the “General comments” field."
+        },
+        {
+            "memberState": "DE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 7
+            },
+            "situationOn": "2025-01-01+01:00",
+            "category": {
+                "identifier": "ACCOMMODATION",
+                "description": "Accommodation provided in hotels and similar establishments, including the provision of holiday accommodation and the letting of places on camping or caravan sites"
+            },
+            "comment": "VAT - Import - Only for short-term accommodation. See preliminary remarks to “Reduced rates” and the “General comments” field."
+        },
+        {
+            "memberState": "DE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 7
+            },
+            "situationOn": "2025-01-01+01:00",
+            "category": {
+                "identifier": "MEDICAL_CARE",
+                "description": "Provision of medical and dental care and thermal treatment"
+            },
+            "comment": "VAT - Import - Reduced rate only on the supply of services by dental technicians in their professional capacity and the supply of dental prostheses by dentists and dental technicians. See preliminary remarks to “Reduced rates” and the “General comments” field."
+        },
+        {
+            "memberState": "DE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 7
+            },
+            "situationOn": "2025-01-01+01:00",
+            "category": {
+                "identifier": "WRITERS_SERVICES",
+                "description": "Supply of services by writers, composers and performing artists, or of the royalties due to them"
+            },
+            "comment": "VAT - Import - See preliminary remarks to “Reduced rates” and the “General comments” field."
+        },
+        {
+            "memberState": "DE",
+            "type": "STANDARD",
+            "rate": {
+                "type": "DEFAULT",
+                "value": 19
+            },
+            "situationOn": "2025-01-01+01:00",
+            "comment": "VAT - Import - "
+        },
+        {
+            "memberState": "DE",
+            "type": "STANDARD",
+            "rate": {
+                "type": "DEFAULT",
+                "value": 19
+            },
+            "situationOn": "2025-01-01+01:00"
+        },
+        {
+            "memberState": "DE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 7
+            },
+            "situationOn": "2025-01-01+01:00",
             "cnCodes": {
                 "code": {
                     "value": "9701",
@@ -1312,6 +1283,154 @@
                 "description": "Pictures, collages and similar decorative plaques, paintings and drawings, executed entirely by hand by the artist, other than plans and drawings for architectural, engineering, industrial, commercial, topographical or similar purposes, hand-decorated manufactured articles, theatrical scenery, studio back cloths or the like of painted canvas (CN code 9701)"
             },
             "comment": "VAT - Import - Annex 2 of the German VAT Act contains a list of goods falling under the reduced rate of 7%. For legal certainty please have a look at the German VAT Act."
+        },
+        {
+            "memberState": "DE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 7
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "4907 00",
+                        "description": "Unused postage, revenue or similar stamps of current or new issue in the country in which they have, or will have, a recognised face value; stamp-impressed paper; banknotes; cheque forms; stock, share or bond certificates and similar documents of title"
+                    },
+                    {
+                        "value": "9704 00 00",
+                        "description": "Postage or revenue stamps, stamp-postmarks, first-day covers, postal stationery (stamped paper), and the like, used or unused, other than those of heading 4907"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "POSTAGE",
+                "description": "Postage or revenue stamps, postmarks, first-day covers, pre-stamped stationery and the like, used, or if unused not current and not intended to be current (CN code 9704 00 00)"
+            },
+            "comment": "Annex 2 of the German VAT Act contains a list of goods falling under the reduced rate of 7%. For legal certainty please have a look at the German VAT Act."
+        },
+        {
+            "memberState": "DE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 7
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "4907 00",
+                        "description": "Unused postage, revenue or similar stamps of current or new issue in the country in which they have, or will have, a recognised face value; stamp-impressed paper; banknotes; cheque forms; stock, share or bond certificates and similar documents of title"
+                    },
+                    {
+                        "value": "9704 00 00",
+                        "description": "Postage or revenue stamps, stamp-postmarks, first-day covers, postal stationery (stamped paper), and the like, used or unused, other than those of heading 4907"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "POSTAGE",
+                "description": "Postage or revenue stamps, postmarks, first-day covers, pre-stamped stationery and the like, used, or if unused not current and not intended to be current (CN code 9704 00 00)"
+            },
+            "comment": "VAT - Import - Annex 2 of the German VAT Act contains a list of goods falling under the reduced rate of 7%. For legal certainty please have a look at the German VAT Act."
+        },
+        {
+            "memberState": "DE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 7
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cnCodes": {
+                "code": {
+                    "value": "4902",
+                    "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
+                }
+            },
+            "category": {
+                "identifier": "NEWSPAPERS",
+                "description": "Newspapers"
+            },
+            "comment": "VAT - Import - Annex 2 of the German VAT Act contains a list of goods falling under the reduced rate of 7% e.g. excluding newspapers whose content is harmful to minors or is predominantly devoted to advertising. For legal certainty please have a look at the German VAT Act."
+        },
+        {
+            "memberState": "DE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 7
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cnCodes": {
+                "code": {
+                    "value": "4902",
+                    "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
+                }
+            },
+            "category": {
+                "identifier": "PERIODICALS",
+                "description": "Periodicals"
+            },
+            "comment": "VAT - Import - Annex 2 of the German VAT Act contains a list of goods falling under the reduced rate of 7% e.g. excluding periodicals whose content is harmful to minors or is predominantly devoted to advertising. For legal certainty please have a look at the German VAT Act."
+        },
+        {
+            "memberState": "DE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "EXEMPTED",
+                "value": 0
+            },
+            "situationOn": "2025-01-01+01:00",
+            "category": {
+                "identifier": "SUPPLY_ELECTRICITY",
+                "description": "Supply of electricity"
+            },
+            "comment": "Article 12 paragraph 3 of the German VAT Act contains a list of services falling under the zero rate e.g. the supply of certain photovoltaic power. For legal certainty please have a look at the German VAT Act."
+        },
+        {
+            "memberState": "DE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "EXEMPTED",
+                "value": 0
+            },
+            "situationOn": "2025-01-01+01:00",
+            "category": {
+                "identifier": "SUPPLY_ELECTRICITY",
+                "description": "Supply of electricity"
+            },
+            "comment": "VAT - Import - Article 12 paragraph 3 of the German VAT Act contains a list of services falling under the zero rate e.g. the supply of certain photovoltaic power. For legal certainty please have a look at the German VAT Act."
+        },
+        {
+            "memberState": "DE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "OUT_OF_SCOPE",
+                "value": 0
+            },
+            "situationOn": "2025-01-01+01:00",
+            "category": {
+                "identifier": "BROADCASTING_SERVICES",
+                "description": "Reception of radio and television broadcasting services"
+            },
+            "comment": "Public radio and television broadcasting services are out of scope."
+        },
+        {
+            "memberState": "DE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "OUT_OF_SCOPE",
+                "value": 0
+            },
+            "situationOn": "2025-01-01+01:00",
+            "category": {
+                "identifier": "BROADCASTING_SERVICES",
+                "description": "Reception of radio and television broadcasting services"
+            },
+            "comment": "VAT - Import - Public radio and television broadcasting services are out of scope."
         },
         {
             "memberState": "DE",
@@ -1481,11 +1600,17 @@
                 "value": 7
             },
             "situationOn": "2025-01-01+01:00",
-            "category": {
-                "identifier": "WRITERS_SERVICES",
-                "description": "Supply of services by writers, composers and performing artists, or of the royalties due to them"
+            "cnCodes": {
+                "code": {
+                    "value": "2201 90 00",
+                    "description": "Other"
+                }
             },
-            "comment": "See preliminary remarks to “Reduced rates” and the “General comments” field"
+            "category": {
+                "identifier": "SUPPLY_WATER",
+                "description": "Supply of water"
+            },
+            "comment": "No reduced rate for bottled water, healing water and steam"
         },
         {
             "memberState": "DE",
@@ -1495,142 +1620,17 @@
                 "value": 7
             },
             "situationOn": "2025-01-01+01:00",
+            "cnCodes": {
+                "code": {
+                    "value": "2201 90 00",
+                    "description": "Other"
+                }
+            },
             "category": {
-                "identifier": "ACCOMMODATION",
-                "description": "Accommodation provided in hotels and similar establishments, including the provision of holiday accommodation and the letting of places on camping or caravan sites"
+                "identifier": "SUPPLY_WATER",
+                "description": "Supply of water"
             },
-            "comment": "Only for short-term accommodation.\nSee preliminary remarks to “Reduced rates” and the “General comments” field"
-        },
-        {
-            "memberState": "DE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 7
-            },
-            "situationOn": "2025-01-01+01:00",
-            "category": {
-                "identifier": "SOCIAL_WELLBEING",
-                "description": "Supply of goods and services by organisations recognised as being devoted to social wellbeing by Member States and engaged in welfare or social security work"
-            },
-            "comment": "Reduced rate only applicable to supplies of goods and services of organisations pursuing non-profit making, charitable or ecclesiastical purposes. VAT reduction not applicable to supply of goods or services to be made within the context of a profitable Business.\nSee preliminary remarks to “Reduced rates” and the “General comments” field"
-        },
-        {
-            "memberState": "DE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 7
-            },
-            "situationOn": "2025-01-01+01:00",
-            "category": {
-                "identifier": "MEDICAL_CARE",
-                "description": "Provision of medical and dental care and thermal treatment"
-            },
-            "comment": "Reduced rate only on the supply of services by dental technicians in their professional capacity and the supply of dental prostheses by dentists and dental technicians.\nSee preliminary remarks to “Reduced rates” and the “General comments” field"
-        },
-        {
-            "memberState": "DE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 7
-            },
-            "situationOn": "2025-01-01+01:00",
-            "category": {
-                "identifier": "SOCIAL_WELLBEING",
-                "description": "Supply of goods and services by organisations recognised as being devoted to social wellbeing by Member States and engaged in welfare or social security work"
-            },
-            "comment": "VAT - Import - Reduced rate only applicable to supplies of goods and services of organisations pursuing non-profit making, charitable or ecclesiastical purposes. VAT reduction not applicable to supply of goods or services to be made within the context of a profitable Business. See preliminary remarks to “Reduced rates” and the “General comments” field."
-        },
-        {
-            "memberState": "DE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 7
-            },
-            "situationOn": "2025-01-01+01:00",
-            "category": {
-                "identifier": "TRANSPORT_PASSENGERS",
-                "description": "Transport of passengers and their accompanying luggage"
-            },
-            "comment": "VAT - Import - Reduced rate on local transport (within a local community or if the transport distance does not exceed 50 km) and rail-bound transport. See preliminary remarks to “Reduced rates” and the “General comments” field."
-        },
-        {
-            "memberState": "DE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 7
-            },
-            "situationOn": "2025-01-01+01:00",
-            "category": {
-                "identifier": "CULTURAL_EVENTS",
-                "description": "Admission to shows, theatres, circuses, fairs, amusement parks, concerts, museums, zoos, cinemas, exhibitions and similar cultural events and facilities"
-            },
-            "comment": "VAT - Import - Reduced rate only on admissions to theatres, concerts and museums, as well as circus performances, performances as performers and transactions directly linked to the operation of zoological gardens. See preliminary remarks to “Reduced rates” and the “General comments” field."
-        },
-        {
-            "memberState": "DE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 7
-            },
-            "situationOn": "2025-01-01+01:00",
-            "category": {
-                "identifier": "ACCOMMODATION",
-                "description": "Accommodation provided in hotels and similar establishments, including the provision of holiday accommodation and the letting of places on camping or caravan sites"
-            },
-            "comment": "VAT - Import - Only for short-term accommodation. See preliminary remarks to “Reduced rates” and the “General comments” field."
-        },
-        {
-            "memberState": "DE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 7
-            },
-            "situationOn": "2025-01-01+01:00",
-            "category": {
-                "identifier": "MEDICAL_CARE",
-                "description": "Provision of medical and dental care and thermal treatment"
-            },
-            "comment": "VAT - Import - Reduced rate only on the supply of services by dental technicians in their professional capacity and the supply of dental prostheses by dentists and dental technicians. See preliminary remarks to “Reduced rates” and the “General comments” field."
-        },
-        {
-            "memberState": "DE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 7
-            },
-            "situationOn": "2025-01-01+01:00",
-            "category": {
-                "identifier": "WRITERS_SERVICES",
-                "description": "Supply of services by writers, composers and performing artists, or of the royalties due to them"
-            },
-            "comment": "VAT - Import - See preliminary remarks to “Reduced rates” and the “General comments” field."
-        },
-        {
-            "memberState": "DE",
-            "type": "STANDARD",
-            "rate": {
-                "type": "DEFAULT",
-                "value": 19
-            },
-            "situationOn": "2025-01-01+01:00",
-            "comment": "VAT - Import - "
-        },
-        {
-            "memberState": "DE",
-            "type": "STANDARD",
-            "rate": {
-                "type": "DEFAULT",
-                "value": 19
-            },
-            "situationOn": "2025-01-01+01:00"
+            "comment": "VAT - Import - No reduced rate for bottled water, healing water and steam"
         }
     ]
 }
