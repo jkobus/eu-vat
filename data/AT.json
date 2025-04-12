@@ -636,25 +636,6 @@
             },
             "situationOn": "2025-01-01+01:00",
             "cnCodes": {
-                "code": {
-                    "value": "2201 90 00",
-                    "description": "Other"
-                }
-            },
-            "category": {
-                "identifier": "SUPPLY_WATER",
-                "description": "Supply of water"
-            }
-        },
-        {
-            "memberState": "AT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 10
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cnCodes": {
                 "code": [
                     {
                         "value": "4901",
@@ -833,137 +814,88 @@
             "memberState": "AT",
             "type": "REDUCED",
             "rate": {
-                "type": "EXEMPTED",
-                "value": 0
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cnCodes": {
-                "code": {
-                    "value": "8541",
-                    "description": "Semiconductor devices (for example, diodes, transistors, semiconductor-based transducers); photosensitive semiconductor devices, including photovoltaic cells whether or not assembled in modules or made up into panels; light-emitting diodes (LED), whether or not assembled with other light-emitting diodes (LED); mounted piezo-electric crystals"
-                }
-            },
-            "category": {
-                "identifier": "SOLAR_PANELS",
-                "description": "Supply and installation of solar panels on and adjacent to private dwellings, housing and public and other buildings used for activities in the public interest"
-            },
-            "comment": "From January 1, 2024 to December 31, 2025 the supply, the intra-community acquisition, the import and the installation of photovoltaic modules are zero tax rated (https:\/\/www.bmf.gv.at\/themen\/steuern\/fuer-unternehmen\/umsatzsteuer\/informationen)"
-        },
-        {
-            "memberState": "AT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "EXEMPTED",
-                "value": 0
+                "type": "REDUCED_RATE",
+                "value": 10
             },
             "situationOn": "2025-01-01+01:00",
             "cpaCodes": {
-                "code": {
-                    "value": "49.3",
-                    "description": "Other passenger land transport services"
-                }
+                "code": [
+                    {
+                        "value": "60",
+                        "description": "Programming and broadcasting services"
+                    },
+                    {
+                        "value": "60.10",
+                        "description": "Radio broadcasting services"
+                    },
+                    {
+                        "value": "60.2",
+                        "description": "Television programming and broadcasting services; broadcasting originals"
+                    }
+                ]
             },
             "category": {
-                "identifier": "TRANSPORT_PASSENGERS",
-                "description": "Transport of passengers and their accompanying luggage"
-            },
-            "comment": "From January 1, 2023 the Austrian section of the journey in cross-border rail passenger transport is zero tax rated"
-        },
-        {
-            "memberState": "AT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "EXEMPTED",
-                "value": 0
-            },
-            "situationOn": "2025-01-01+01:00",
-            "category": {
-                "identifier": "FOODSTUFFS",
-                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
-            },
-            "comment": "From August 1, 2024 donations for charitable purposes of  food listed in Annex 1 to Sec. 10 of the Austrian VAT Act 1994, concerning CN Codes please see above"
+                "identifier": "BROADCASTING_SERVICES",
+                "description": "Reception of radio and television broadcasting services"
+            }
         },
         {
             "memberState": "AT",
             "type": "REDUCED",
             "rate": {
                 "type": "REDUCED_RATE",
-                "value": 13
+                "value": 10
             },
             "situationOn": "2025-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "0101 29 10",
-                        "description": "For slaughter"
-                    },
-                    {
-                        "value": "0101 30 00",
-                        "description": "Asses"
-                    },
-                    {
-                        "value": "0101 90 00",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "0102",
-                        "description": "Live bovine animals"
-                    },
-                    {
-                        "value": "0103",
-                        "description": "Live swine"
-                    },
-                    {
-                        "value": "0104",
-                        "description": "Live sheep and goats"
-                    },
-                    {
-                        "value": "0105",
-                        "description": "Live poultry, that is to say, fowls of the species Gallus domesticus, ducks, geese, turkeys and guinea fowls"
-                    },
-                    {
-                        "value": "0601",
-                        "description": "Bulbs, tubers, tuberous roots, corms, crowns and rhizomes, dormant, in growth or in flower; chicory plants and roots other than roots of heading 1212"
-                    },
-                    {
-                        "value": "0602",
-                        "description": "Other live plants (including their roots), cuttings and slips; mushroom spawn"
-                    },
-                    {
-                        "value": "0603",
-                        "description": "Cut flowers and flower buds of a kind suitable for bouquets or for ornamental purposes, fresh, dried, dyed, bleached, impregnated or otherwise prepared"
-                    },
-                    {
-                        "value": "0604 20",
-                        "description": "Fresh"
-                    },
-                    {
-                        "value": "1209",
-                        "description": "Seeds, fruit and spores, of a kind used for sowing"
-                    },
-                    {
-                        "value": "1214",
-                        "description": "Swedes, mangolds, fodder roots, hay, lucerne (alfalfa), clover, sainfoin, forage kale, lupines, vetches and similar forage products, whether or not in the form of pellets"
-                    },
-                    {
-                        "value": "23",
-                        "description": "CHAPTER 23 - RESIDUES AND WASTE FROM THE FOOD INDUSTRIES; PREPARED ANIMAL FODDER"
-                    },
-                    {
-                        "value": "3101 00 00",
-                        "description": "Animal or vegetable fertilisers, whether or not mixed together or chemically treated; fertilisers produced by the mixing or chemical treatment of animal or vegetable products"
-                    },
-                    {
-                        "value": "4401",
-                        "description": "Fuel wood, in logs, in billets, in twigs, in faggots or in similar forms; wood in chips or particles; sawdust and wood waste and scrap, whether or not agglomerated in logs, briquettes, pellets or similar forms"
-                    }
-                ]
+            "cpaCodes": {
+                "code": {
+                    "value": "88",
+                    "description": "Social work services without accommodation"
+                }
             },
             "category": {
-                "identifier": "AGRICULTURAL_PRODUCTION",
-                "description": "Supply of goods and services of a kind normally intended for use in agricultural production but excluding capital goods such as machinery or buildings"
+                "identifier": "SOCIAL_WELLBEING",
+                "description": "Supply of goods and services by organisations recognised as being devoted to social wellbeing by Member States and engaged in welfare or social security work"
             },
-            "comment": "Annex 2 to Sec. 10 of the Austrian VAT Act 1994 contains a list of goods falling under the reduced rate of 13% such as life-stock, living plants (https:\/\/www.ris.bka.gv.at\/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10004873&FassungVom=2016-01-01&Artikel=&Paragraf=&Anlage=2&Uebergangsrecht=).\nFor legal certainty please have a look at the Austrian VAT Act 1994 (can be found at www.ris.bka.gv.at)."
+            "comment": "if not exempted (for information about the type of organisations falling under the exemption please see Sec. 6 of the Austrian VAT Act 1994)"
+        },
+        {
+            "memberState": "AT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 10
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "95.2",
+                    "description": "Repair services of personal and household goods"
+                }
+            },
+            "category": {
+                "identifier": "CLOTHING_REPAIR",
+                "description": "Minor repairs of clothing and household linen (including mending and alteration)"
+            }
+        },
+        {
+            "memberState": "AT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 10
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "95.23.1",
+                    "description": "Repair services of footwear and leather goods"
+                }
+            },
+            "category": {
+                "identifier": "SHOES_REPAIR",
+                "description": "Minor repairs of shoes and leather goods"
+            }
         },
         {
             "memberState": "AT",
@@ -1056,28 +988,203 @@
             "type": "REDUCED",
             "rate": {
                 "type": "REDUCED_RATE",
+                "value": 13
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "0101 29 10",
+                        "description": "For slaughter"
+                    },
+                    {
+                        "value": "0101 30 00",
+                        "description": "Asses"
+                    },
+                    {
+                        "value": "0101 90 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "0102",
+                        "description": "Live bovine animals"
+                    },
+                    {
+                        "value": "0103",
+                        "description": "Live swine"
+                    },
+                    {
+                        "value": "0104",
+                        "description": "Live sheep and goats"
+                    },
+                    {
+                        "value": "0105",
+                        "description": "Live poultry, that is to say, fowls of the species Gallus domesticus, ducks, geese, turkeys and guinea fowls"
+                    },
+                    {
+                        "value": "0601",
+                        "description": "Bulbs, tubers, tuberous roots, corms, crowns and rhizomes, dormant, in growth or in flower; chicory plants and roots other than roots of heading 1212"
+                    },
+                    {
+                        "value": "0602",
+                        "description": "Other live plants (including their roots), cuttings and slips; mushroom spawn"
+                    },
+                    {
+                        "value": "0603",
+                        "description": "Cut flowers and flower buds of a kind suitable for bouquets or for ornamental purposes, fresh, dried, dyed, bleached, impregnated or otherwise prepared"
+                    },
+                    {
+                        "value": "0604 20",
+                        "description": "Fresh"
+                    },
+                    {
+                        "value": "1209",
+                        "description": "Seeds, fruit and spores, of a kind used for sowing"
+                    },
+                    {
+                        "value": "1214",
+                        "description": "Swedes, mangolds, fodder roots, hay, lucerne (alfalfa), clover, sainfoin, forage kale, lupines, vetches and similar forage products, whether or not in the form of pellets"
+                    },
+                    {
+                        "value": "23",
+                        "description": "CHAPTER 23 - RESIDUES AND WASTE FROM THE FOOD INDUSTRIES; PREPARED ANIMAL FODDER"
+                    },
+                    {
+                        "value": "3101 00 00",
+                        "description": "Animal or vegetable fertilisers, whether or not mixed together or chemically treated; fertilisers produced by the mixing or chemical treatment of animal or vegetable products"
+                    },
+                    {
+                        "value": "4401",
+                        "description": "Fuel wood, in logs, in billets, in twigs, in faggots or in similar forms; wood in chips or particles; sawdust and wood waste and scrap, whether or not agglomerated in logs, briquettes, pellets or similar forms"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "AGRICULTURAL_PRODUCTION",
+                "description": "Supply of goods and services of a kind normally intended for use in agricultural production but excluding capital goods such as machinery or buildings"
+            },
+            "comment": "Annex 2 to Sec. 10 of the Austrian VAT Act 1994 contains a list of goods falling under the reduced rate of 13% such as life-stock, living plants (https:\/\/www.ris.bka.gv.at\/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10004873&FassungVom=2016-01-01&Artikel=&Paragraf=&Anlage=2&Uebergangsrecht=).\nFor legal certainty please have a look at the Austrian VAT Act 1994 (can be found at www.ris.bka.gv.at)."
+        },
+        {
+            "memberState": "AT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
                 "value": 10
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cnCodes": {
+                "code": {
+                    "value": "2201 90 00",
+                    "description": "Other"
+                }
+            },
+            "category": {
+                "identifier": "SUPPLY_WATER",
+                "description": "Supply of water"
+            }
+        },
+        {
+            "memberState": "AT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "EXEMPTED",
+                "value": 0
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cnCodes": {
+                "code": {
+                    "value": "8541",
+                    "description": "Semiconductor devices (for example, diodes, transistors, semiconductor-based transducers); photosensitive semiconductor devices, including photovoltaic cells whether or not assembled in modules or made up into panels; light-emitting diodes (LED), whether or not assembled with other light-emitting diodes (LED); mounted piezo-electric crystals"
+                }
+            },
+            "category": {
+                "identifier": "SOLAR_PANELS",
+                "description": "Supply and installation of solar panels on and adjacent to private dwellings, housing and public and other buildings used for activities in the public interest"
+            },
+            "comment": "From January 1, 2024 to December 31, 2025 the supply, the intra-community acquisition, the import and the installation of photovoltaic modules are zero tax rated (https:\/\/www.bmf.gv.at\/themen\/steuern\/fuer-unternehmen\/umsatzsteuer\/informationen)"
+        },
+        {
+            "memberState": "AT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "EXEMPTED",
+                "value": 0
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "49.3",
+                    "description": "Other passenger land transport services"
+                }
+            },
+            "category": {
+                "identifier": "TRANSPORT_PASSENGERS",
+                "description": "Transport of passengers and their accompanying luggage"
+            },
+            "comment": "From January 1, 2023 the Austrian section of the journey in cross-border rail passenger transport is zero tax rated"
+        },
+        {
+            "memberState": "AT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "EXEMPTED",
+                "value": 0
+            },
+            "situationOn": "2025-01-01+01:00",
+            "category": {
+                "identifier": "FOODSTUFFS",
+                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
+            },
+            "comment": "From August 1, 2024 donations for charitable purposes of  food listed in Annex 1 to Sec. 10 of the Austrian VAT Act 1994, concerning CN Codes please see above"
+        },
+        {
+            "memberState": "AT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 13
             },
             "situationOn": "2025-01-01+01:00",
             "cpaCodes": {
                 "code": [
                     {
-                        "value": "60",
-                        "description": "Programming and broadcasting services"
+                        "value": "91.02",
+                        "description": "Museum services"
                     },
                     {
-                        "value": "60.10",
-                        "description": "Radio broadcasting services"
+                        "value": "91.02.2",
+                        "description": "Museum collections"
                     },
                     {
-                        "value": "60.2",
-                        "description": "Television programming and broadcasting services; broadcasting originals"
+                        "value": "91.03",
+                        "description": "Operation services of historical sites and buildings and similar visitor attractions"
                     }
                 ]
             },
             "category": {
-                "identifier": "BROADCASTING_SERVICES",
-                "description": "Reception of radio and television broadcasting services"
+                "identifier": "CULTURAL_EVENTS",
+                "description": "Admission to shows, theatres, circuses, fairs, amusement parks, concerts, museums, zoos, cinemas, exhibitions and similar cultural events and facilities"
+            },
+            "comment": "if not exempted: theaters, concerts, museums, zoos or botanical gardens"
+        },
+        {
+            "memberState": "AT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 13
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "93.11",
+                    "description": "Sports facility operation services"
+                }
+            },
+            "category": {
+                "identifier": "SPORTING_EVENTS",
+                "description": "Admission to sporting events"
             }
         },
         {
@@ -1085,58 +1192,23 @@
             "type": "REDUCED",
             "rate": {
                 "type": "REDUCED_RATE",
-                "value": 10
+                "value": 19
             },
             "situationOn": "2025-01-01+01:00",
-            "cpaCodes": {
-                "code": {
-                    "value": "88",
-                    "description": "Social work services without accommodation"
-                }
-            },
             "category": {
-                "identifier": "SOCIAL_WELLBEING",
-                "description": "Supply of goods and services by organisations recognised as being devoted to social wellbeing by Member States and engaged in welfare or social security work"
+                "identifier": "REGION",
+                "description": "Special reduced rate for specific regions (including articles 104, 105 and 120 of the VAT Directive)"
             },
-            "comment": "if not exempted (for information about the type of organisations falling under the exemption please see Sec. 6 of the Austrian VAT Act 1994)"
+            "comment": "Jungholz, Mittelberg"
         },
         {
             "memberState": "AT",
-            "type": "REDUCED",
+            "type": "STANDARD",
             "rate": {
-                "type": "REDUCED_RATE",
-                "value": 10
+                "type": "DEFAULT",
+                "value": 20
             },
-            "situationOn": "2025-01-01+01:00",
-            "cpaCodes": {
-                "code": {
-                    "value": "95.2",
-                    "description": "Repair services of personal and household goods"
-                }
-            },
-            "category": {
-                "identifier": "CLOTHING_REPAIR",
-                "description": "Minor repairs of clothing and household linen (including mending and alteration)"
-            }
-        },
-        {
-            "memberState": "AT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 10
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cpaCodes": {
-                "code": {
-                    "value": "95.23.1",
-                    "description": "Repair services of footwear and leather goods"
-                }
-            },
-            "category": {
-                "identifier": "SHOES_REPAIR",
-                "description": "Minor repairs of shoes and leather goods"
-            }
+            "situationOn": "2025-01-01+01:00"
         },
         {
             "memberState": "AT",
@@ -1304,78 +1376,6 @@
                 "identifier": "WRITERS_SERVICES",
                 "description": "Supply of services by writers, composers and performing artists, or of the royalties due to them"
             }
-        },
-        {
-            "memberState": "AT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 13
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "91.02",
-                        "description": "Museum services"
-                    },
-                    {
-                        "value": "91.02.2",
-                        "description": "Museum collections"
-                    },
-                    {
-                        "value": "91.03",
-                        "description": "Operation services of historical sites and buildings and similar visitor attractions"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "CULTURAL_EVENTS",
-                "description": "Admission to shows, theatres, circuses, fairs, amusement parks, concerts, museums, zoos, cinemas, exhibitions and similar cultural events and facilities"
-            },
-            "comment": "if not exempted: theaters, concerts, museums, zoos or botanical gardens"
-        },
-        {
-            "memberState": "AT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 13
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cpaCodes": {
-                "code": {
-                    "value": "93.11",
-                    "description": "Sports facility operation services"
-                }
-            },
-            "category": {
-                "identifier": "SPORTING_EVENTS",
-                "description": "Admission to sporting events"
-            }
-        },
-        {
-            "memberState": "AT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 19
-            },
-            "situationOn": "2025-01-01+01:00",
-            "category": {
-                "identifier": "REGION",
-                "description": "Special reduced rate for specific regions (including articles 104, 105 and 120 of the VAT Directive)"
-            },
-            "comment": "Jungholz, Mittelberg"
-        },
-        {
-            "memberState": "AT",
-            "type": "STANDARD",
-            "rate": {
-                "type": "DEFAULT",
-                "value": 20
-            },
-            "situationOn": "2025-01-01+01:00"
         }
     ]
 }
