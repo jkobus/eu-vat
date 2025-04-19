@@ -6,6 +6,66 @@
             "type": "REDUCED",
             "rate": {
                 "type": "REDUCED_RATE",
+                "value": 10
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cnCodes": {
+                "code": {
+                    "value": "4902",
+                    "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
+                }
+            },
+            "category": {
+                "identifier": "NEWSPAPERS",
+                "description": "Newspapers"
+            },
+            "comment": "Electronically supplied products are taxed with the reduced rate from the beginning of July 2019."
+        },
+        {
+            "memberState": "FI",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 10
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cnCodes": {
+                "code": {
+                    "value": "4902",
+                    "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
+                }
+            },
+            "category": {
+                "identifier": "PERIODICALS",
+                "description": "Periodicals"
+            },
+            "comment": "Electronically supplied products are taxed with the reduced rate from the beginning of July 2019."
+        },
+        {
+            "memberState": "FI",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 10
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "60",
+                    "description": "Programming and broadcasting services"
+                }
+            },
+            "category": {
+                "identifier": "BROADCASTING_SERVICES",
+                "description": "Reception of radio and television broadcasting services"
+            },
+            "comment": "Tax is paid on the payment from the Radio and Television Fund to the Finnish Broadcasting company and from a similar payment to Ålands radio and TV. (Pay and Cable TV are taxed at standard rate.)"
+        },
+        {
+            "memberState": "FI",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
                 "value": 14
             },
             "situationOn": "2025-01-01+01:00",
@@ -826,66 +886,6 @@
                 "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
             },
             "comment": "Excluding live animals and tap water. As a main rule, regarding groups 07, 10, 12 and 15, products used for sowing are excluded. Regarding group 15 products used for industrial uses other than the manufacture of foodstuffs for human or animal consumption are excluded."
-        },
-        {
-            "memberState": "FI",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 10
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cnCodes": {
-                "code": {
-                    "value": "4902",
-                    "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
-                }
-            },
-            "category": {
-                "identifier": "NEWSPAPERS",
-                "description": "Newspapers"
-            },
-            "comment": "Electronically supplied products are taxed with the reduced rate from the beginning of July 2019."
-        },
-        {
-            "memberState": "FI",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 10
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cnCodes": {
-                "code": {
-                    "value": "4902",
-                    "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
-                }
-            },
-            "category": {
-                "identifier": "PERIODICALS",
-                "description": "Periodicals"
-            },
-            "comment": "Electronically supplied products are taxed with the reduced rate from the beginning of July 2019."
-        },
-        {
-            "memberState": "FI",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 10
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cpaCodes": {
-                "code": {
-                    "value": "60",
-                    "description": "Programming and broadcasting services"
-                }
-            },
-            "category": {
-                "identifier": "BROADCASTING_SERVICES",
-                "description": "Reception of radio and television broadcasting services"
-            },
-            "comment": "Tax is paid on the payment from the Radio and Television Fund to the Finnish Broadcasting company and from a similar payment to Ålands radio and TV. (Pay and Cable TV are taxed at standard rate.)"
         },
         {
             "memberState": "FI",
