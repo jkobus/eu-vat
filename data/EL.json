@@ -5,6 +5,122 @@
             "memberState": "EL",
             "type": "REDUCED",
             "rate": {
+                "type": "EXEMPTED",
+                "value": 0
+            },
+            "situationOn": "2024-01-01+01:00",
+            "cnCodes": {
+                "code": {
+                    "value": "3002",
+                    "description": "Human blood; animal blood prepared for therapeutic, prophylactic or diagnostic uses; antisera, other blood fractions and immunological products, whether or not modified or obtained by means of biotechnological processes; vaccines, toxins, cultures of micro-organisms (excluding yeasts) and similar products; cell cultures, whether or not modified"
+                }
+            },
+            "category": {
+                "identifier": "PHARMACEUTICAL_PRODUCTS",
+                "description": "Pharmaceutical products used for medical and veterinary purposes, including products used for contraception and female sanitary protection, and absorbent hygiene products"
+            },
+            "comment": "Zero rate is applied only on vaccines  for the prevention and diagnosis of Covid-19 disease for tariff heading 3002"
+        },
+        {
+            "memberState": "EL",
+            "type": "REDUCED",
+            "rate": {
+                "type": "PARKING_RATE",
+                "value": 13
+            },
+            "situationOn": "2024-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "3925",
+                        "description": "Builders' ware of plastics, not elsewhere specified or included"
+                    },
+                    {
+                        "value": "3926",
+                        "description": "Other articles of plastics and articles of other materials of headings 3901 to 3914"
+                    },
+                    {
+                        "value": "6810",
+                        "description": "Articles of cement, of concrete or of artificial stone, whether or not reinforced"
+                    },
+                    {
+                        "value": "6811",
+                        "description": "Articles of asbestos-cement, of cellulose fibre-cement or the like"
+                    },
+                    {
+                        "value": "7309 00",
+                        "description": "Reservoirs, tanks, vats and similar containers for any material (other than compressed or liquefied gas), of iron or steel, of a capacity exceeding 300 l, whether or not lined or heat-insulated, but not fitted with mechanical or thermal equipment"
+                    },
+                    {
+                        "value": "7310",
+                        "description": "Tanks, casks, drums, cans, boxes and similar containers, for any material (other than compressed or liquefied gas), of iron or steel, of a capacity not exceeding 300 l, whether or not lined or heat-insulated, but not fitted with mechanical or thermal equipment"
+                    },
+                    {
+                        "value": "7611 00 00",
+                        "description": "Aluminium reservoirs, tanks, vats and similar containers, for any material (other than compressed or liquefied gas), of a capacity exceeding 300 litres, whether or not lined or heat-insulated, but not fitted with mechanical or thermal equipment"
+                    },
+                    {
+                        "value": "7612",
+                        "description": "Aluminium casks, drums, cans, boxes and similar containers (including rigid or collapsible tubular containers), for any material (other than compressed or liquefied gas), of a capacity not exceeding 300 litres, whether or not lined or heat-insulated, but not fitted with mechanical or thermal equipment"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "AGRICULTURAL_EQUIPMENT",
+                "description": "Certain agricultural tools and equipment"
+            },
+            "comment": "Reduced rate applies only on water storage tanks that can be used to store water for irrigation or drainage or fire fighting or fish farming of tariff headings 3925, 3926, 6810, 6811, 7309, 7310, 7611, 7612"
+        },
+        {
+            "memberState": "EL",
+            "type": "REDUCED",
+            "rate": {
+                "type": "PARKING_RATE",
+                "value": 13
+            },
+            "situationOn": "2024-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "7020 00",
+                        "description": "Other articles of glass"
+                    },
+                    {
+                        "value": "8413",
+                        "description": "Pumps for liquids, whether or not fitted with a measuring device; liquid elevators"
+                    },
+                    {
+                        "value": "8414",
+                        "description": "Air or vacuum pumps, air or other gas compressors and fans; ventilating or recycling hoods incorporating a fan, whether or not fitted with filters; gas-tight biological safety cabinets, whether or not fitted with filters"
+                    },
+                    {
+                        "value": "8479",
+                        "description": "Machines and mechanical appliances having individual functions, not specified or included elsewhere in this chapter"
+                    },
+                    {
+                        "value": "8716",
+                        "description": "Trailers and semi-trailers; other vehicles, not mechanically propelled; parts thereof"
+                    },
+                    {
+                        "value": "8907",
+                        "description": "Other floating structures (for example, rafts, tanks, coffer-dams, landing stages, buoys and beacons)"
+                    },
+                    {
+                        "value": "9406",
+                        "description": "Prefabricated buildings"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "AGRICULTURAL_EQUIPMENT",
+                "description": "Certain agricultural tools and equipment"
+            },
+            "comment": "Reduced rate applies only on pumps for liquids, air pumps and air compressors for fish tanks, mobile silos, greenhouses, fish tanks made of glass, accumulator shells, floating fish farming structures of tariff headings 8413, 8414, 8716, 9406, 7020, 8479, 8907 which by their nature and characteristics are intended mainly or exclusively for agriculture, animal husbandry or forestry"
+        },
+        {
+            "memberState": "EL",
+            "type": "REDUCED",
+            "rate": {
                 "type": "REDUCED_RATE",
                 "value": 13
             },
@@ -566,20 +682,16 @@
             "cnCodes": {
                 "code": [
                     {
-                        "value": "1301",
-                        "description": "Lac; natural gums, resins, gum-resins and oleoresins (for example, balsams)"
+                        "value": "0603",
+                        "description": "Cut flowers and flower buds of a kind suitable for bouquets or for ornamental purposes, fresh, dried, dyed, bleached, impregnated or otherwise prepared"
                     },
                     {
-                        "value": "1512",
-                        "description": "Sunflower-seed, safflower or cotton-seed oil and fractions thereof, whether or not refined, but not chemically modified"
+                        "value": "0604",
+                        "description": "Foliage, branches and other parts of plants, without flowers or flower buds, and grasses, mosses and lichens, being goods of a kind suitable for bouquets or for ornamental purposes, fresh, dried, dyed, bleached, impregnated or otherwise prepared"
                     },
                     {
-                        "value": "1515",
-                        "description": "Other fixed vegetable or microbial fats and oils (including jojoba oil) and their fractions, whether or not refined, but not chemically modified"
-                    },
-                    {
-                        "value": "1516",
-                        "description": "Animal, vegetable or microbial fats and oils and their fractions, partly or wholly hydrogenated, inter-esterified, re-esterified or elaidinised, whether or not refined, but not further prepared"
+                        "value": "1108",
+                        "description": "Starches; inulin"
                     }
                 ]
             },
@@ -587,149 +699,7 @@
                 "identifier": "FOODSTUFFS",
                 "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
             },
-            "comment": "•For tariff heading 1301 reduced rate applies only on mastic (white or not) raw\n•For tariff headings 1512,1515 reduced rate applies only on soybean oil, peanut oil, sunflower oil, cotton oil (cottonseed oil), corn oil, sesame oil and their fractions, whether or not refined but not chemically transformed\n•For tariff heading 1516 reduced rate applies only on edible mixtures or preparations of animal fats or oils or vegetable or from fractions of various fats or oils of Chapter 15"
-        },
-        {
-            "memberState": "EL",
-            "type": "REDUCED",
-            "rate": {
-                "type": "EXEMPTED",
-                "value": 0
-            },
-            "situationOn": "2024-01-01+01:00",
-            "cnCodes": {
-                "code": {
-                    "value": "3002",
-                    "description": "Human blood; animal blood prepared for therapeutic, prophylactic or diagnostic uses; antisera, other blood fractions and immunological products, whether or not modified or obtained by means of biotechnological processes; vaccines, toxins, cultures of micro-organisms (excluding yeasts) and similar products; cell cultures, whether or not modified"
-                }
-            },
-            "category": {
-                "identifier": "PHARMACEUTICAL_PRODUCTS",
-                "description": "Pharmaceutical products used for medical and veterinary purposes, including products used for contraception and female sanitary protection, and absorbent hygiene products"
-            },
-            "comment": "Zero rate is applied only on vaccines  for the prevention and diagnosis of Covid-19 disease for tariff heading 3002"
-        },
-        {
-            "memberState": "EL",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 13
-            },
-            "situationOn": "2024-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "1604",
-                        "description": "Prepared or preserved fish; caviar and caviar substitutes prepared from fish eggs"
-                    },
-                    {
-                        "value": "2009",
-                        "description": "Fruit or nut juices (including grape must and coconut water) and vegetable juices, unfermented and not containing added spirit, whether or not containing added sugar or other sweetening matter"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "FOODSTUFFS",
-                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
-            },
-            "comment": "•For tariff heading 1604 excluded caviar\n•For tariff heading 2009 reduced rate applies only on preparations of vegetables , fruits and fruit or other parts of plants , as well as fruit and vegetable juices"
-        },
-        {
-            "memberState": "EL",
-            "type": "REDUCED",
-            "rate": {
-                "type": "PARKING_RATE",
-                "value": 13
-            },
-            "situationOn": "2024-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "3925",
-                        "description": "Builders' ware of plastics, not elsewhere specified or included"
-                    },
-                    {
-                        "value": "3926",
-                        "description": "Other articles of plastics and articles of other materials of headings 3901 to 3914"
-                    },
-                    {
-                        "value": "6810",
-                        "description": "Articles of cement, of concrete or of artificial stone, whether or not reinforced"
-                    },
-                    {
-                        "value": "6811",
-                        "description": "Articles of asbestos-cement, of cellulose fibre-cement or the like"
-                    },
-                    {
-                        "value": "7309 00",
-                        "description": "Reservoirs, tanks, vats and similar containers for any material (other than compressed or liquefied gas), of iron or steel, of a capacity exceeding 300 l, whether or not lined or heat-insulated, but not fitted with mechanical or thermal equipment"
-                    },
-                    {
-                        "value": "7310",
-                        "description": "Tanks, casks, drums, cans, boxes and similar containers, for any material (other than compressed or liquefied gas), of iron or steel, of a capacity not exceeding 300 l, whether or not lined or heat-insulated, but not fitted with mechanical or thermal equipment"
-                    },
-                    {
-                        "value": "7611 00 00",
-                        "description": "Aluminium reservoirs, tanks, vats and similar containers, for any material (other than compressed or liquefied gas), of a capacity exceeding 300 litres, whether or not lined or heat-insulated, but not fitted with mechanical or thermal equipment"
-                    },
-                    {
-                        "value": "7612",
-                        "description": "Aluminium casks, drums, cans, boxes and similar containers (including rigid or collapsible tubular containers), for any material (other than compressed or liquefied gas), of a capacity not exceeding 300 litres, whether or not lined or heat-insulated, but not fitted with mechanical or thermal equipment"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "AGRICULTURAL_EQUIPMENT",
-                "description": "Certain agricultural tools and equipment"
-            },
-            "comment": "Reduced rate applies only on water storage tanks that can be used to store water for irrigation or drainage or fire fighting or fish farming of tariff headings 3925, 3926, 6810, 6811, 7309, 7310, 7611, 7612"
-        },
-        {
-            "memberState": "EL",
-            "type": "REDUCED",
-            "rate": {
-                "type": "PARKING_RATE",
-                "value": 13
-            },
-            "situationOn": "2024-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "7020 00",
-                        "description": "Other articles of glass"
-                    },
-                    {
-                        "value": "8413",
-                        "description": "Pumps for liquids, whether or not fitted with a measuring device; liquid elevators"
-                    },
-                    {
-                        "value": "8414",
-                        "description": "Air or vacuum pumps, air or other gas compressors and fans; ventilating or recycling hoods incorporating a fan, whether or not fitted with filters; gas-tight biological safety cabinets, whether or not fitted with filters"
-                    },
-                    {
-                        "value": "8479",
-                        "description": "Machines and mechanical appliances having individual functions, not specified or included elsewhere in this chapter"
-                    },
-                    {
-                        "value": "8716",
-                        "description": "Trailers and semi-trailers; other vehicles, not mechanically propelled; parts thereof"
-                    },
-                    {
-                        "value": "8907",
-                        "description": "Other floating structures (for example, rafts, tanks, coffer-dams, landing stages, buoys and beacons)"
-                    },
-                    {
-                        "value": "9406",
-                        "description": "Prefabricated buildings"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "AGRICULTURAL_EQUIPMENT",
-                "description": "Certain agricultural tools and equipment"
-            },
-            "comment": "Reduced rate applies only on pumps for liquids, air pumps and air compressors for fish tanks, mobile silos, greenhouses, fish tanks made of glass, accumulator shells, floating fish farming structures of tariff headings 8413, 8414, 8716, 9406, 7020, 8479, 8907 which by their nature and characteristics are intended mainly or exclusively for agriculture, animal husbandry or forestry"
+            "comment": "•For tariff heading 0603,0604, reduced rate applies only on flowers and flower buds,  and other parts of plants, without flowers nor flower buds, and greenery, moss and lichens, for bouquets or decorations, fresh.\n•For tariff heading 1108, reduced rate applies only on flour milling products, starches of all kinds."
         },
         {
             "memberState": "EL",
@@ -798,66 +768,6 @@
             "type": "REDUCED",
             "rate": {
                 "type": "REDUCED_RATE",
-                "value": 13
-            },
-            "situationOn": "2024-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "0603",
-                        "description": "Cut flowers and flower buds of a kind suitable for bouquets or for ornamental purposes, fresh, dried, dyed, bleached, impregnated or otherwise prepared"
-                    },
-                    {
-                        "value": "0604",
-                        "description": "Foliage, branches and other parts of plants, without flowers or flower buds, and grasses, mosses and lichens, being goods of a kind suitable for bouquets or for ornamental purposes, fresh, dried, dyed, bleached, impregnated or otherwise prepared"
-                    },
-                    {
-                        "value": "1108",
-                        "description": "Starches; inulin"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "FOODSTUFFS",
-                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
-            },
-            "comment": "•For tariff heading 0603,0604, reduced rate applies only on flowers and flower buds,  and other parts of plants, without flowers nor flower buds, and greenery, moss and lichens, for bouquets or decorations, fresh.\n•For tariff heading 1108, reduced rate applies only on flour milling products, starches of all kinds."
-        },
-        {
-            "memberState": "EL",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 13
-            },
-            "situationOn": "2024-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "2103",
-                        "description": "Sauces and preparations therefor; mixed condiments and mixed seasonings; mustard flour and meal and prepared mustard"
-                    },
-                    {
-                        "value": "2104",
-                        "description": "Soups and broths and preparations therefor; homogenised composite food preparations"
-                    },
-                    {
-                        "value": "2201",
-                        "description": "Waters, including natural or artificial mineral waters and aerated waters, not containing added sugar or other sweetening matter nor flavoured; ice and snow"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "FOODSTUFFS",
-                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
-            },
-            "comment": "•For tariff headings 2103, 2104 reduced rate applies only on dough for puffing dough, prepared,πreparations for sauces and sauces prepared, mustard prepared, preparations for soups and broths, prepared soups and broths, ice creams even if they contain cocoa\n•For tariff heading 2201 reduced rate applies only on waters , including natural or artificial mineral waters, without added sugar or other sweetening matter, not flavored, not gas, ice and snow"
-        },
-        {
-            "memberState": "EL",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
                 "value": 6
             },
             "situationOn": "2024-01-01+01:00",
@@ -910,71 +820,6 @@
                 "description": "Pharmaceutical products used for medical and veterinary purposes, including products used for contraception and female sanitary protection, and absorbent hygiene products"
             },
             "comment": "For tariff heading 2207 reduced rate applies only on denatured ethyl alcohol which is intended as a raw material for the production of antiseptics and pure ethyl alcohol, non-denatured, of agricultural origin, 95% alcoholic strength, available bottled at retail"
-        },
-        {
-            "memberState": "EL",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 13
-            },
-            "situationOn": "2024-01-01+01:00",
-            "cnCodes": {
-                "code": {
-                    "value": "2106",
-                    "description": "Food preparations not elsewhere specified or included"
-                }
-            },
-            "category": {
-                "identifier": "FOODSTUFFS",
-                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
-            },
-            "comment": "For tariff heading 2106 reduced rate applies only on food preparations not elsewhere specified or included, with the exception of food supplements in any form and compound alcohol preparations, other than those based on fragrant substances, of a kind used in the manufacture of beverages"
-        },
-        {
-            "memberState": "EL",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 13
-            },
-            "situationOn": "2024-01-01+01:00",
-            "cnCodes": {
-                "code": {
-                    "value": "2201",
-                    "description": "Waters, including natural or artificial mineral waters and aerated waters, not containing added sugar or other sweetening matter nor flavoured; ice and snow"
-                }
-            },
-            "category": {
-                "identifier": "SUPPLY_WATER",
-                "description": "Supply of water"
-            }
-        },
-        {
-            "memberState": "EL",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 13
-            },
-            "situationOn": "2024-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "2201",
-                        "description": "Waters, including natural or artificial mineral waters and aerated waters, not containing added sugar or other sweetening matter nor flavoured; ice and snow"
-                    },
-                    {
-                        "value": "2202",
-                        "description": "Waters, including mineral waters and aerated waters, containing added sugar or other sweetening matter or flavoured, and other non-alcoholic beverages, not including fruit, nut or vegetable juices of heading 2009"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "FOODSTUFFS",
-                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
-            },
-            "comment": "•For tariff heading 2202 reduced rate applies only on non-alcoholic beverages, without added alcohol in any proportion\n• For tariff heading 2201 reduced rate applies only on aerated waters"
         },
         {
             "memberState": "EL",
@@ -1588,16 +1433,52 @@
             },
             "situationOn": "2024-01-01+01:00",
             "cnCodes": {
-                "code": {
-                    "value": "1211",
-                    "description": "Plants and parts of plants (including seeds and fruits), of a kind used primarily in perfumery, in pharmacy or for insecticidal, fungicidal or similar purposes, fresh, chilled, frozen or dried, whether or not cut, crushed or powdered"
-                }
+                "code": [
+                    {
+                        "value": "1604",
+                        "description": "Prepared or preserved fish; caviar and caviar substitutes prepared from fish eggs"
+                    },
+                    {
+                        "value": "2009",
+                        "description": "Fruit or nut juices (including grape must and coconut water) and vegetable juices, unfermented and not containing added spirit, whether or not containing added sugar or other sweetening matter"
+                    }
+                ]
             },
             "category": {
                 "identifier": "FOODSTUFFS",
                 "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
             },
-            "comment": "For tariff heading 1211 reduced rate applies only artemisia, basil, chamomile, common marjoram, mallow, rosemary, peppermint (mint) of all varieties, oregano, rosemary, sage, mountain tea, bittersweet, hot and spicy cloves, fresh or dry, whether or not cut, broken or powdered"
+            "comment": "•For tariff heading 1604 excluded caviar\n•For tariff heading 2009 reduced rate applies only on preparations of vegetables , fruits and fruit or other parts of plants , as well as fruit and vegetable juices"
+        },
+        {
+            "memberState": "EL",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 13
+            },
+            "situationOn": "2024-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "2103",
+                        "description": "Sauces and preparations therefor; mixed condiments and mixed seasonings; mustard flour and meal and prepared mustard"
+                    },
+                    {
+                        "value": "2104",
+                        "description": "Soups and broths and preparations therefor; homogenised composite food preparations"
+                    },
+                    {
+                        "value": "2201",
+                        "description": "Waters, including natural or artificial mineral waters and aerated waters, not containing added sugar or other sweetening matter nor flavoured; ice and snow"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "FOODSTUFFS",
+                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
+            },
+            "comment": "•For tariff headings 2103, 2104 reduced rate applies only on dough for puffing dough, prepared,πreparations for sauces and sauces prepared, mustard prepared, preparations for soups and broths, prepared soups and broths, ice creams even if they contain cocoa\n•For tariff heading 2201 reduced rate applies only on waters , including natural or artificial mineral waters, without added sugar or other sweetening matter, not flavored, not gas, ice and snow"
         },
         {
             "memberState": "EL",
@@ -1609,15 +1490,60 @@
             "situationOn": "2024-01-01+01:00",
             "cnCodes": {
                 "code": {
-                    "value": "1212",
-                    "description": "Locust beans, seaweeds and other algae, sugar beet and sugar cane, fresh, chilled, frozen or dried, whether or not ground; fruit stones and kernels and other vegetable products (including unroasted chicory roots of the variety Cichorium intybus sativum) of a kind used primarily for human consumption, not elsewhere specified or included"
+                    "value": "2106",
+                    "description": "Food preparations not elsewhere specified or included"
                 }
             },
             "category": {
                 "identifier": "FOODSTUFFS",
                 "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
             },
-            "comment": "For tariff heading 1212 reduced rate applies only on carob, sugar beet, cane, chilled, frozen or dried, whether or not powdered. Pits and almonds fruits and other vegetable products (including roots) chicory, not roasted, of the variety CICHORIUM INTYBUS SATIVUM), which mainly for human consumption and not named nor are they included elsewhere"
+            "comment": "For tariff heading 2106 reduced rate applies only on food preparations not elsewhere specified or included, with the exception of food supplements in any form and compound alcohol preparations, other than those based on fragrant substances, of a kind used in the manufacture of beverages"
+        },
+        {
+            "memberState": "EL",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 13
+            },
+            "situationOn": "2024-01-01+01:00",
+            "cnCodes": {
+                "code": {
+                    "value": "2201",
+                    "description": "Waters, including natural or artificial mineral waters and aerated waters, not containing added sugar or other sweetening matter nor flavoured; ice and snow"
+                }
+            },
+            "category": {
+                "identifier": "SUPPLY_WATER",
+                "description": "Supply of water"
+            }
+        },
+        {
+            "memberState": "EL",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 13
+            },
+            "situationOn": "2024-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "2201",
+                        "description": "Waters, including natural or artificial mineral waters and aerated waters, not containing added sugar or other sweetening matter nor flavoured; ice and snow"
+                    },
+                    {
+                        "value": "2202",
+                        "description": "Waters, including mineral waters and aerated waters, containing added sugar or other sweetening matter or flavoured, and other non-alcoholic beverages, not including fruit, nut or vegetable juices of heading 2009"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "FOODSTUFFS",
+                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
+            },
+            "comment": "•For tariff heading 2202 reduced rate applies only on non-alcoholic beverages, without added alcohol in any proportion\n• For tariff heading 2201 reduced rate applies only on aerated waters"
         },
         {
             "memberState": "EL",
@@ -2357,6 +2283,80 @@
                 "value": 24
             },
             "situationOn": "2024-01-01+01:00"
+        },
+        {
+            "memberState": "EL",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 13
+            },
+            "situationOn": "2024-01-01+01:00",
+            "cnCodes": {
+                "code": {
+                    "value": "1211",
+                    "description": "Plants and parts of plants (including seeds and fruits), of a kind used primarily in perfumery, in pharmacy or for insecticidal, fungicidal or similar purposes, fresh, chilled, frozen or dried, whether or not cut, crushed or powdered"
+                }
+            },
+            "category": {
+                "identifier": "FOODSTUFFS",
+                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
+            },
+            "comment": "For tariff heading 1211 reduced rate applies only artemisia, basil, chamomile, common marjoram, mallow, rosemary, peppermint (mint) of all varieties, oregano, rosemary, sage, mountain tea, bittersweet, hot and spicy cloves, fresh or dry, whether or not cut, broken or powdered"
+        },
+        {
+            "memberState": "EL",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 13
+            },
+            "situationOn": "2024-01-01+01:00",
+            "cnCodes": {
+                "code": {
+                    "value": "1212",
+                    "description": "Locust beans, seaweeds and other algae, sugar beet and sugar cane, fresh, chilled, frozen or dried, whether or not ground; fruit stones and kernels and other vegetable products (including unroasted chicory roots of the variety Cichorium intybus sativum) of a kind used primarily for human consumption, not elsewhere specified or included"
+                }
+            },
+            "category": {
+                "identifier": "FOODSTUFFS",
+                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
+            },
+            "comment": "For tariff heading 1212 reduced rate applies only on carob, sugar beet, cane, chilled, frozen or dried, whether or not powdered. Pits and almonds fruits and other vegetable products (including roots) chicory, not roasted, of the variety CICHORIUM INTYBUS SATIVUM), which mainly for human consumption and not named nor are they included elsewhere"
+        },
+        {
+            "memberState": "EL",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 13
+            },
+            "situationOn": "2024-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "1301",
+                        "description": "Lac; natural gums, resins, gum-resins and oleoresins (for example, balsams)"
+                    },
+                    {
+                        "value": "1512",
+                        "description": "Sunflower-seed, safflower or cotton-seed oil and fractions thereof, whether or not refined, but not chemically modified"
+                    },
+                    {
+                        "value": "1515",
+                        "description": "Other fixed vegetable or microbial fats and oils (including jojoba oil) and their fractions, whether or not refined, but not chemically modified"
+                    },
+                    {
+                        "value": "1516",
+                        "description": "Animal, vegetable or microbial fats and oils and their fractions, partly or wholly hydrogenated, inter-esterified, re-esterified or elaidinised, whether or not refined, but not further prepared"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "FOODSTUFFS",
+                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
+            },
+            "comment": "•For tariff heading 1301 reduced rate applies only on mastic (white or not) raw\n•For tariff headings 1512,1515 reduced rate applies only on soybean oil, peanut oil, sunflower oil, cotton oil (cottonseed oil), corn oil, sesame oil and their fractions, whether or not refined but not chemically transformed\n•For tariff heading 1516 reduced rate applies only on edible mixtures or preparations of animal fats or oils or vegetable or from fractions of various fats or oils of Chapter 15"
         }
     ]
 }
