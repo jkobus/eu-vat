@@ -1290,6 +1290,32 @@
             "cnCodes": {
                 "code": [
                     {
+                        "value": "2201 90 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "2853 90 10",
+                        "description": "Distilled or conductivity water and water of similar purity"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "SUPPLY_WATER",
+                "description": "Supply of water"
+            },
+            "comment": "Tabel I prov. a.28: including water supplied via the public mains network; distilled water; warm water; and 'other water' (surface water not suitable for human consumption but usable for non-consumptive purposes such as rinsing activities or sprinkling crops).\nExcluded: demineralized, deironed and softened water; river water and sea water (2501 00 10) whether or not intended for scientific purposes; ice and steam."
+        },
+        {
+            "memberState": "NL",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 9
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
                         "value": "3001 90",
                         "description": "Other"
                     },
@@ -1573,397 +1599,6 @@
                 "value": 9
             },
             "situationOn": "2025-01-01+01:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "85.51",
-                        "description": "Sports and recreation education services"
-                    },
-                    {
-                        "value": "93.11",
-                        "description": "Sports facility operation services"
-                    },
-                    {
-                        "value": "93.12",
-                        "description": "Services of sport clubs"
-                    },
-                    {
-                        "value": "93.19.19",
-                        "description": "Other sports and recreational sports services"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "SPORTING_EVENTS",
-                "description": "Admission to sporting events"
-            },
-            "comment": "Tabel I prov. b.3 and b.14, f: the granting of (physical) access to spectators of sports competitions, demonstrations and the like. Sports competitions are events where people actively participate in sports. Sports demonstrations are, for example, shows of the Harlem Globetrotters (basketball), performances of the Spanish Riding School (horse dressage) and shows of Wrestlemania (wrestling); use of sporting facilities."
-        },
-        {
-            "memberState": "NL",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 9
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cpaCodes": {
-                "code": {
-                    "value": "90.01",
-                    "description": "Services of performing artists"
-                }
-            },
-            "category": {
-                "identifier": "WRITERS_SERVICES",
-                "description": "Supply of services by writers, composers and performing artists, or of the royalties due to them"
-            },
-            "comment": "Tabel I prov. b.17: performances by performing artists. This includes performances by artists in music and stage performances as meant in the foregoing item. The reduced VAT rate only applies to performances that can be (in)directly heard or viewed by an audience. Rehearsals associated with and necessary for those performances are included. Excluded: providing the opportunity to participate in a performance and organizing performances."
-        },
-        {
-            "memberState": "NL",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 9
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "79.90.39",
-                        "description": "Reservation services for event tickets, entertainment and recreational services and other reservation services n.e.c."
-                    },
-                    {
-                        "value": "90.04",
-                        "description": "Arts facility operation services"
-                    },
-                    {
-                        "value": "91.02.10",
-                        "description": "Museum operation services"
-                    },
-                    {
-                        "value": "91.03",
-                        "description": "Operation services of historical sites and buildings and similar visitor attractions"
-                    },
-                    {
-                        "value": "91.04",
-                        "description": "Botanical and zoological garden services and nature reserve services"
-                    },
-                    {
-                        "value": "93.29.1",
-                        "description": "Other recreational services n.e.c."
-                    },
-                    {
-                        "value": "93.29.19",
-                        "description": "Miscellaneous recreational services n.e.c."
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "CULTURAL_EVENTS",
-                "description": "Admission to shows, theatres, circuses, fairs, amusement parks, concerts, museums, zoos, cinemas, exhibitions and similar cultural events and facilities"
-            },
-            "comment": "Tabel I prov. b.14 to b.15: granting (physical) access to circusses; zoos; public museums or collections (including closely related supplies of goods, such as catalogs, photographs); music and stage performances, including lectures (excluding peep shows\/other performances primarily aimed at erotic entertainment); cinemas; amusement parks, playgrounds and gardens, other facilities primarily and permanently furnished to entertainment and day recreation."
-        },
-        {
-            "memberState": "NL",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 9
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "3006 40 00",
-                        "description": "Dental cements and other dental fillings; bone reconstruction cements"
-                    },
-                    {
-                        "value": "3006 91 00",
-                        "description": "Appliances identifiable for ostomy use"
-                    },
-                    {
-                        "value": "6212 90 00",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "9021 10",
-                        "description": "Orthopaedic or fracture appliances"
-                    },
-                    {
-                        "value": "9021 29 00",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "9021 31 00",
-                        "description": "Artificial joints"
-                    },
-                    {
-                        "value": "9021 39",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "9021 40 00",
-                        "description": "Hearing aids, excluding parts and accessories"
-                    },
-                    {
-                        "value": "9021 50 00",
-                        "description": "Pacemakers for stimulating heart muscles, excluding parts and accessories"
-                    },
-                    {
-                        "value": "9021 90",
-                        "description": "Other"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "MEDICAL_EQUIPMENT",
-                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
-            },
-            "comment": "Tabel I prov. a.35 and b.1: artificial limbs; devices for taking over the fixation function of a malfunctioning hand; leg braces, fracture bands, artificial joints; artificial eyes, -ears, -kidneys; certain prostheses; heart and muscle stimulators; hearing aids; stuttering ear aids; aids for stoma patients; orthopedic footwear; devices for taking off therapeutic elastic compression stockings; orthopedic corsets; parts, components and accessories apparently intended for the aforementioned goods"
-        },
-        {
-            "memberState": "NL",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 9
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "8703 10",
-                        "description": "Vehicles specially designed for travelling on snow; golf cars and similar vehicles"
-                    },
-                    {
-                        "value": "8713",
-                        "description": "Carriages for disabled persons, whether or not motorised or otherwise mechanically propelled"
-                    },
-                    {
-                        "value": "8714 20 00",
-                        "description": "Of carriages for disabled persons"
-                    },
-                    {
-                        "value": "9021 10",
-                        "description": "Orthopaedic or fracture appliances"
-                    },
-                    {
-                        "value": "9401 61 00",
-                        "description": "Upholstered"
-                    },
-                    {
-                        "value": "9401 69 00",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "9401 71 00",
-                        "description": "Upholstered"
-                    },
-                    {
-                        "value": "9401 79 00",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "9401 80 00",
-                        "description": "Other seats"
-                    },
-                    {
-                        "value": "9402 90 00",
-                        "description": "Other"
-                    }
-                ]
-            },
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "33",
-                        "description": "Repair and installation services of machinery and equipment"
-                    },
-                    {
-                        "value": "95",
-                        "description": "Repair services of computers and personal and household goods"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "MEDICAL_EQUIPMENT",
-                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
-            },
-            "comment": "Tabel I prov. a.34 and b.1: carriages and crutches for the disabled; stand-up chairs; high-low beds. A vehicle for the disabled is defined as a means of transport that is designed to be used by a disabled person. The term can also include motor vehicles which are equipped for use by a disabled person. \n\nOnly carriages that within social standards are regarded as a vehicle for the invalid on the basis of its destination and presentation are included."
-        },
-        {
-            "memberState": "NL",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 9
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "9018 31",
-                        "description": "Syringes, with or without needles"
-                    },
-                    {
-                        "value": "9018 32",
-                        "description": "Tubular metal needles and needles for sutures"
-                    },
-                    {
-                        "value": "9018 90",
-                        "description": "Other instruments and appliances"
-                    }
-                ]
-            },
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "33",
-                        "description": "Repair and installation services of machinery and equipment"
-                    },
-                    {
-                        "value": "95",
-                        "description": "Repair services of computers and personal and household goods"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "MEDICAL_EQUIPMENT",
-                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
-            },
-            "comment": "Tabel I prov. a.36 and b.1: aids that are usually used for the subcutaneous administration of insulin, with the exception of syringes and needles that are apparently also suitable for other purposes; aids that are usually used for the self-diagnosis of blood sugar levels. \n\nOnly included are the mentioned devices specifically developed for diabetics and offered as such. Generally applicable aids such as individual injection needles and syringes are excluded."
-        },
-        {
-            "memberState": "NL",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 9
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cpaCodes": {
-                "code": {
-                    "value": "95.23",
-                    "description": "Repair services of footwear and leather goods"
-                }
-            },
-            "category": {
-                "identifier": "SHOES_REPAIR",
-                "description": "Minor repairs of shoes and leather goods"
-            },
-            "comment": "Tabel I prov. b.5: Footwear: all kinds of footwear such as (sports) shoes, sandals, ski boots. Skates, inline skates and such can be regarded as footwear for the shoe part. Which material the footwear is made of is irrelevant. 'Leather goods' include small articles made from leather (leather suitcases and bags, gloves, wallets and belts, etc). Repair of large leather utensils (such as furniture); grinding and straightening skates and supplies of goods sold separately (laces etc.)are excluded."
-        },
-        {
-            "memberState": "NL",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 9
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cpaCodes": {
-                "code": {
-                    "value": "95.29.11",
-                    "description": "Repair and alteration services of garment and household textile articles"
-                }
-            },
-            "category": {
-                "identifier": "CLOTHING_REPAIR",
-                "description": "Minor repairs of clothing and household linen (including mending and alteration)"
-            },
-            "comment": "Tabel I prov. b.6 Household linen: all textile items used in a household (curtains, cloths, and (beach) towels, etc.). Rugs and the upholstery of sofas and chairs are not considered household linen. \nBoth repairing and altering are included (sealing holes and tears and replacing buttons, zippers, lengthening\/shortening and tightenig\/loosening etc.). Excluded are, a.o.: washing, dry cleaning, steaming, pressing, embroidery\/appliqué, and  production of clothing\/household linen on commission."
-        },
-        {
-            "memberState": "NL",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 9
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "96.02.11",
-                        "description": "Hairdressing services for women and girls"
-                    },
-                    {
-                        "value": "96.02.12",
-                        "description": "Hairdressing and barbers' services for men and boys"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "HAIRDRESSING",
-                "description": "Hairdressing"
-            },
-            "comment": "Tabel I prov. b.7: activities a hairdresser usually performs on human hair (cutting, washing, blow drying, dyeing, shaving etc). Products that hairdressers use when treating hair ( shampoo, hair dye, etc.) and inexpensive hair ornaments incorporated into a hairstyle that are not separately charged and application of hair extensions and measurement and overhaul of wigs and toupees are also included. The material used for those services (hair extension, wig or toupee) is excluded."
-        },
-        {
-            "memberState": "NL",
-            "type": "STANDARD",
-            "rate": {
-                "type": "DEFAULT",
-                "value": 21
-            },
-            "situationOn": "2025-01-01+01:00"
-        },
-        {
-            "memberState": "NL",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 9
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "4901",
-                        "description": "Printed books, brochures, leaflets and similar printed matter, whether or not in single sheets"
-                    },
-                    {
-                        "value": "4902",
-                        "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
-                    },
-                    {
-                        "value": "4903 00 00",
-                        "description": "Children's picture, drawing or colouring books"
-                    },
-                    {
-                        "value": "4904 00 00",
-                        "description": "Music, printed or in manuscript, whether or not bound or illustrated"
-                    },
-                    {
-                        "value": "4910 00 00",
-                        "description": "Calendars of any kind, printed, including calendar blocks"
-                    },
-                    {
-                        "value": "4905 20 00",
-                        "description": "In book form"
-                    },
-                    {
-                        "value": "4905 90 00",
-                        "description": "Other"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "LOAN_LIBRARIES",
-                "description": "Supply, including on loan by libraries, of books, newspapers and periodicals either on physical means of support or supplied electronically or both (including brochures, leaflets and similar printed matter, children's picture, drawing or colouring books, music printed or in manuscript form, maps and hydrographic or similar charts), other than publications wholly or predominantly devoted to advertising and other than publications wholly or predominantly consisting of video content or audible music."
-            },
-            "comment": "Tabel I prov. a.30, b.2, b.21: digital or physical supplies (including on loan of): books; digital educational information that is provided on physical carriers and that is apparently intended exclusively or almost exclusively for the transfer of information in education; newspapers, weeklies, magazines and other publications appearing periodically at least three times a year."
-        },
-        {
-            "memberState": "NL",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 9
-            },
-            "situationOn": "2025-01-01+01:00",
             "cnCodes": {
                 "code": [
                     {
@@ -2079,20 +1714,152 @@
             "cnCodes": {
                 "code": [
                     {
-                        "value": "2201 90 00",
-                        "description": "Other"
+                        "value": "4901",
+                        "description": "Printed books, brochures, leaflets and similar printed matter, whether or not in single sheets"
                     },
                     {
-                        "value": "2853 90 10",
-                        "description": "Distilled or conductivity water and water of similar purity"
+                        "value": "4902",
+                        "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
+                    },
+                    {
+                        "value": "4903 00 00",
+                        "description": "Children's picture, drawing or colouring books"
+                    },
+                    {
+                        "value": "4904 00 00",
+                        "description": "Music, printed or in manuscript, whether or not bound or illustrated"
+                    },
+                    {
+                        "value": "4910 00 00",
+                        "description": "Calendars of any kind, printed, including calendar blocks"
+                    },
+                    {
+                        "value": "4905 20 00",
+                        "description": "In book form"
+                    },
+                    {
+                        "value": "4905 90 00",
+                        "description": "Other"
                     }
                 ]
             },
             "category": {
-                "identifier": "SUPPLY_WATER",
-                "description": "Supply of water"
+                "identifier": "LOAN_LIBRARIES",
+                "description": "Supply, including on loan by libraries, of books, newspapers and periodicals either on physical means of support or supplied electronically or both (including brochures, leaflets and similar printed matter, children's picture, drawing or colouring books, music printed or in manuscript form, maps and hydrographic or similar charts), other than publications wholly or predominantly devoted to advertising and other than publications wholly or predominantly consisting of video content or audible music."
             },
-            "comment": "Tabel I prov. a.28: including water supplied via the public mains network; distilled water; warm water; and 'other water' (surface water not suitable for human consumption but usable for non-consumptive purposes such as rinsing activities or sprinkling crops).\nExcluded: demineralized, deironed and softened water; river water and sea water (2501 00 10) whether or not intended for scientific purposes; ice and steam."
+            "comment": "Tabel I prov. a.30, b.2, b.21: digital or physical supplies (including on loan of): books; digital educational information that is provided on physical carriers and that is apparently intended exclusively or almost exclusively for the transfer of information in education; newspapers, weeklies, magazines and other publications appearing periodically at least three times a year."
+        },
+        {
+            "memberState": "NL",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 9
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "8703 10",
+                        "description": "Vehicles specially designed for travelling on snow; golf cars and similar vehicles"
+                    },
+                    {
+                        "value": "8713",
+                        "description": "Carriages for disabled persons, whether or not motorised or otherwise mechanically propelled"
+                    },
+                    {
+                        "value": "8714 20 00",
+                        "description": "Of carriages for disabled persons"
+                    },
+                    {
+                        "value": "9021 10",
+                        "description": "Orthopaedic or fracture appliances"
+                    },
+                    {
+                        "value": "9401 61 00",
+                        "description": "Upholstered"
+                    },
+                    {
+                        "value": "9401 69 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "9401 71 00",
+                        "description": "Upholstered"
+                    },
+                    {
+                        "value": "9401 79 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "9401 80 00",
+                        "description": "Other seats"
+                    },
+                    {
+                        "value": "9402 90 00",
+                        "description": "Other"
+                    }
+                ]
+            },
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "33",
+                        "description": "Repair and installation services of machinery and equipment"
+                    },
+                    {
+                        "value": "95",
+                        "description": "Repair services of computers and personal and household goods"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "MEDICAL_EQUIPMENT",
+                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
+            },
+            "comment": "Tabel I prov. a.34 and b.1: carriages and crutches for the disabled; stand-up chairs; high-low beds. A vehicle for the disabled is defined as a means of transport that is designed to be used by a disabled person. The term can also include motor vehicles which are equipped for use by a disabled person. \n\nOnly carriages that within social standards are regarded as a vehicle for the invalid on the basis of its destination and presentation are included."
+        },
+        {
+            "memberState": "NL",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 9
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "9018 31",
+                        "description": "Syringes, with or without needles"
+                    },
+                    {
+                        "value": "9018 32",
+                        "description": "Tubular metal needles and needles for sutures"
+                    },
+                    {
+                        "value": "9018 90",
+                        "description": "Other instruments and appliances"
+                    }
+                ]
+            },
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "33",
+                        "description": "Repair and installation services of machinery and equipment"
+                    },
+                    {
+                        "value": "95",
+                        "description": "Repair services of computers and personal and household goods"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "MEDICAL_EQUIPMENT",
+                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
+            },
+            "comment": "Tabel I prov. a.36 and b.1: aids that are usually used for the subcutaneous administration of insulin, with the exception of syringes and needles that are apparently also suitable for other purposes; aids that are usually used for the self-diagnosis of blood sugar levels. \n\nOnly included are the mentioned devices specifically developed for diabetics and offered as such. Generally applicable aids such as individual injection needles and syringes are excluded."
         },
         {
             "memberState": "NL",
@@ -2247,6 +2014,52 @@
             },
             "situationOn": "2025-01-01+01:00",
             "cpaCodes": {
+                "code": [
+                    {
+                        "value": "79.90.39",
+                        "description": "Reservation services for event tickets, entertainment and recreational services and other reservation services n.e.c."
+                    },
+                    {
+                        "value": "90.04",
+                        "description": "Arts facility operation services"
+                    },
+                    {
+                        "value": "91.02.10",
+                        "description": "Museum operation services"
+                    },
+                    {
+                        "value": "91.03",
+                        "description": "Operation services of historical sites and buildings and similar visitor attractions"
+                    },
+                    {
+                        "value": "91.04",
+                        "description": "Botanical and zoological garden services and nature reserve services"
+                    },
+                    {
+                        "value": "93.29.1",
+                        "description": "Other recreational services n.e.c."
+                    },
+                    {
+                        "value": "93.29.19",
+                        "description": "Miscellaneous recreational services n.e.c."
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "CULTURAL_EVENTS",
+                "description": "Admission to shows, theatres, circuses, fairs, amusement parks, concerts, museums, zoos, cinemas, exhibitions and similar cultural events and facilities"
+            },
+            "comment": "Tabel I prov. b.14 to b.15: granting (physical) access to circusses; zoos; public museums or collections (including closely related supplies of goods, such as catalogs, photographs); music and stage performances, including lectures (excluding peep shows\/other performances primarily aimed at erotic entertainment); cinemas; amusement parks, playgrounds and gardens, other facilities primarily and permanently furnished to entertainment and day recreation."
+        },
+        {
+            "memberState": "NL",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 9
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cpaCodes": {
                 "code": {
                     "value": "81.21",
                     "description": "General cleaning services of buildings"
@@ -2257,6 +2070,193 @@
                 "description": "Window cleaning and cleaning in private households"
             },
             "comment": "Tabel I prov. b.20: regular cleaning services regarding the interior of private households (including closed corridors) are included. Excluded: cleaning services regarding the exterior of private households, cleaning services regarding other buildings than private households and cleaning services that are not considered regular cleaning services regularly performed by a cleaner (such as special services performed with special equipment, e.g. cleaning of chimney, central heating)."
+        },
+        {
+            "memberState": "NL",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 9
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "85.51",
+                        "description": "Sports and recreation education services"
+                    },
+                    {
+                        "value": "93.11",
+                        "description": "Sports facility operation services"
+                    },
+                    {
+                        "value": "93.12",
+                        "description": "Services of sport clubs"
+                    },
+                    {
+                        "value": "93.19.19",
+                        "description": "Other sports and recreational sports services"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "SPORTING_EVENTS",
+                "description": "Admission to sporting events"
+            },
+            "comment": "Tabel I prov. b.3 and b.14, f: the granting of (physical) access to spectators of sports competitions, demonstrations and the like. Sports competitions are events where people actively participate in sports. Sports demonstrations are, for example, shows of the Harlem Globetrotters (basketball), performances of the Spanish Riding School (horse dressage) and shows of Wrestlemania (wrestling); use of sporting facilities."
+        },
+        {
+            "memberState": "NL",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 9
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "90.01",
+                    "description": "Services of performing artists"
+                }
+            },
+            "category": {
+                "identifier": "WRITERS_SERVICES",
+                "description": "Supply of services by writers, composers and performing artists, or of the royalties due to them"
+            },
+            "comment": "Tabel I prov. b.17: performances by performing artists. This includes performances by artists in music and stage performances as meant in the foregoing item. The reduced VAT rate only applies to performances that can be (in)directly heard or viewed by an audience. Rehearsals associated with and necessary for those performances are included. Excluded: providing the opportunity to participate in a performance and organizing performances."
+        },
+        {
+            "memberState": "NL",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 9
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "3006 40 00",
+                        "description": "Dental cements and other dental fillings; bone reconstruction cements"
+                    },
+                    {
+                        "value": "3006 91 00",
+                        "description": "Appliances identifiable for ostomy use"
+                    },
+                    {
+                        "value": "6212 90 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "9021 10",
+                        "description": "Orthopaedic or fracture appliances"
+                    },
+                    {
+                        "value": "9021 29 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "9021 31 00",
+                        "description": "Artificial joints"
+                    },
+                    {
+                        "value": "9021 39",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "9021 40 00",
+                        "description": "Hearing aids, excluding parts and accessories"
+                    },
+                    {
+                        "value": "9021 50 00",
+                        "description": "Pacemakers for stimulating heart muscles, excluding parts and accessories"
+                    },
+                    {
+                        "value": "9021 90",
+                        "description": "Other"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "MEDICAL_EQUIPMENT",
+                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
+            },
+            "comment": "Tabel I prov. a.35 and b.1: artificial limbs; devices for taking over the fixation function of a malfunctioning hand; leg braces, fracture bands, artificial joints; artificial eyes, -ears, -kidneys; certain prostheses; heart and muscle stimulators; hearing aids; stuttering ear aids; aids for stoma patients; orthopedic footwear; devices for taking off therapeutic elastic compression stockings; orthopedic corsets; parts, components and accessories apparently intended for the aforementioned goods"
+        },
+        {
+            "memberState": "NL",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 9
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "95.23",
+                    "description": "Repair services of footwear and leather goods"
+                }
+            },
+            "category": {
+                "identifier": "SHOES_REPAIR",
+                "description": "Minor repairs of shoes and leather goods"
+            },
+            "comment": "Tabel I prov. b.5: Footwear: all kinds of footwear such as (sports) shoes, sandals, ski boots. Skates, inline skates and such can be regarded as footwear for the shoe part. Which material the footwear is made of is irrelevant. 'Leather goods' include small articles made from leather (leather suitcases and bags, gloves, wallets and belts, etc). Repair of large leather utensils (such as furniture); grinding and straightening skates and supplies of goods sold separately (laces etc.)are excluded."
+        },
+        {
+            "memberState": "NL",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 9
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "95.29.11",
+                    "description": "Repair and alteration services of garment and household textile articles"
+                }
+            },
+            "category": {
+                "identifier": "CLOTHING_REPAIR",
+                "description": "Minor repairs of clothing and household linen (including mending and alteration)"
+            },
+            "comment": "Tabel I prov. b.6 Household linen: all textile items used in a household (curtains, cloths, and (beach) towels, etc.). Rugs and the upholstery of sofas and chairs are not considered household linen. \nBoth repairing and altering are included (sealing holes and tears and replacing buttons, zippers, lengthening\/shortening and tightenig\/loosening etc.). Excluded are, a.o.: washing, dry cleaning, steaming, pressing, embroidery\/appliqué, and  production of clothing\/household linen on commission."
+        },
+        {
+            "memberState": "NL",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 9
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "96.02.11",
+                        "description": "Hairdressing services for women and girls"
+                    },
+                    {
+                        "value": "96.02.12",
+                        "description": "Hairdressing and barbers' services for men and boys"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "HAIRDRESSING",
+                "description": "Hairdressing"
+            },
+            "comment": "Tabel I prov. b.7: activities a hairdresser usually performs on human hair (cutting, washing, blow drying, dyeing, shaving etc). Products that hairdressers use when treating hair ( shampoo, hair dye, etc.) and inexpensive hair ornaments incorporated into a hairstyle that are not separately charged and application of hair extensions and measurement and overhaul of wigs and toupees are also included. The material used for those services (hair extension, wig or toupee) is excluded."
+        },
+        {
+            "memberState": "NL",
+            "type": "STANDARD",
+            "rate": {
+                "type": "DEFAULT",
+                "value": 21
+            },
+            "situationOn": "2025-01-01+01:00"
         }
     ]
 }
