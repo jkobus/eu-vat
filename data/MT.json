@@ -645,36 +645,6 @@
             "memberState": "MT",
             "type": "REDUCED",
             "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "9401 30 00",
-                        "description": "Swivel seats with variable height adjustment"
-                    },
-                    {
-                        "value": "9401 79 00",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "9402 90 00",
-                        "description": "Other"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "MEDICAL_EQUIPMENT",
-                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
-            },
-            "comment": "This reduced rate applies to the following items (and CN codes) for the exclusive use of the disabled (part 4):\n- car adaptation-handcontrols, swivel seats (9401 30 10 and 9401 30 90);\n- toilet frames\/surrounds (9401 79 00);\n- special feeder chairs (9402 90 00);\n- mouthsticks (9608 39 90)"
-        },
-        {
-            "memberState": "MT",
-            "type": "REDUCED",
-            "rate": {
                 "type": "EXEMPTED",
                 "value": 0
             },
@@ -754,6 +724,36 @@
             },
             "situationOn": "2025-01-01+01:00",
             "cnCodes": {
+                "code": [
+                    {
+                        "value": "9401 30 00",
+                        "description": "Swivel seats with variable height adjustment"
+                    },
+                    {
+                        "value": "9401 79 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "9402 90 00",
+                        "description": "Other"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "MEDICAL_EQUIPMENT",
+                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
+            },
+            "comment": "This reduced rate applies to the following items (and CN codes) for the exclusive use of the disabled (part 4):\n- car adaptation-handcontrols, swivel seats (9401 30 10 and 9401 30 90);\n- toilet frames\/surrounds (9401 79 00);\n- special feeder chairs (9402 90 00);\n- mouthsticks (9608 39 90)"
+        },
+        {
+            "memberState": "MT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cnCodes": {
                 "code": {
                     "value": "9701",
                     "description": "Paintings, drawings and pastels, executed entirely by hand, other than drawings of heading 4906 and other than hand-painted or hand-decorated manufactured articles; collages, mosaics and similar decorative plaques"
@@ -804,6 +804,116 @@
                 "description": "Original sculptures and statuary, in any material, provided that they are executed entirely by the artists"
             },
             "comment": "Reduced rate only applicable to the importation of works of art, collector’s items and antiques as defined in the VAT Act."
+        },
+        {
+            "memberState": "MT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "EXEMPTED",
+                "value": 0
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "1515 19 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "1515 21 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "1515 29 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "1515 50 19",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "1515 50 99",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "1515 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "1516",
+                        "description": "Animal, vegetable or microbial fats and oils and their fractions, partly or wholly hydrogenated, inter-esterified, re-esterified or elaidinised, whether or not refined, but not further prepared"
+                    },
+                    {
+                        "value": "1517",
+                        "description": "Margarine; edible mixtures or preparations of animal, vegetable or microbial fats or oils or of fractions of different fats or oils of this chapter, other than edible fats or oils or their fractions of heading 1516"
+                    },
+                    {
+                        "value": "1521 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "1522 00 99",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "1704 90 30",
+                        "description": "White chocolate"
+                    },
+                    {
+                        "value": "1704 90 51",
+                        "description": "Pastes, including marzipan, in immediate packings of a net content of 1 kg or more"
+                    },
+                    {
+                        "value": "1704 90 99",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "20",
+                        "description": "CHAPTER 20 - PREPARATIONS OF VEGETABLES, FRUIT, NUTS OR OTHER PARTS OF PLANTS"
+                    },
+                    {
+                        "value": "21",
+                        "description": "CHAPTER 21 - MISCELLANEOUS EDIBLE PREPARATIONS"
+                    },
+                    {
+                        "value": "2202 99",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "2209 00",
+                        "description": "Vinegar and substitutes for vinegar obtained from acetic acid"
+                    },
+                    {
+                        "value": "23",
+                        "description": "CHAPTER 23 - RESIDUES AND WASTE FROM THE FOOD INDUSTRIES; PREPARED ANIMAL FODDER"
+                    },
+                    {
+                        "value": "2501 00 91",
+                        "description": "Salt suitable for human consumption"
+                    },
+                    {
+                        "value": "3301 90 21",
+                        "description": "Of liquorice and hops"
+                    },
+                    {
+                        "value": "3302 10 29",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "3302 10 40",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "3302 10 90",
+                        "description": "Of a kind used in the food industries"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "FOODSTUFFS",
+                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
+            },
+            "comment": "Food for human consumption, excluding food supplied for catering, is taxed at 0% (exempt with credit) (part 4).  \n\nThe above exemption does not apply to items classified under the following subheadings in the First Schedule of the Import Duties Act:\n\n(1) 1515.90.15.00;1515.90.15.90;1515.90.21.00; 1515.90.31.00;1515.90.40.00;1515.90.60.00; 1516.20.10.00; 1517.90.93; 1521.90.10.00\n\n(2) 2006.00.10; 2009\n\n(3) 2105.00; 2106.90.20.00; 2106.90.98.33; 2106.90.98.37; 2106.90.98.39\n\n(4) 2307.00"
         },
         {
             "memberState": "MT",
@@ -937,116 +1047,6 @@
                 "description": "Admission to shows, theatres, circuses, fairs, amusement parks, concerts, museums, zoos, cinemas, exhibitions and similar cultural events and facilities"
             },
             "comment": "This reduced rate does not extend to online performances and applies only to admission to museums, art exhibitions, concerts and theatres. No applicable CPA code."
-        },
-        {
-            "memberState": "MT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "EXEMPTED",
-                "value": 0
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "1515 19 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "1515 21 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "1515 29 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "1515 50 19",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "1515 50 99",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "1515 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "1516",
-                        "description": "Animal, vegetable or microbial fats and oils and their fractions, partly or wholly hydrogenated, inter-esterified, re-esterified or elaidinised, whether or not refined, but not further prepared"
-                    },
-                    {
-                        "value": "1517",
-                        "description": "Margarine; edible mixtures or preparations of animal, vegetable or microbial fats or oils or of fractions of different fats or oils of this chapter, other than edible fats or oils or their fractions of heading 1516"
-                    },
-                    {
-                        "value": "1521 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "1522 00 99",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "1704 90 30",
-                        "description": "White chocolate"
-                    },
-                    {
-                        "value": "1704 90 51",
-                        "description": "Pastes, including marzipan, in immediate packings of a net content of 1 kg or more"
-                    },
-                    {
-                        "value": "1704 90 99",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "20",
-                        "description": "CHAPTER 20 - PREPARATIONS OF VEGETABLES, FRUIT, NUTS OR OTHER PARTS OF PLANTS"
-                    },
-                    {
-                        "value": "21",
-                        "description": "CHAPTER 21 - MISCELLANEOUS EDIBLE PREPARATIONS"
-                    },
-                    {
-                        "value": "2202 99",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "2209 00",
-                        "description": "Vinegar and substitutes for vinegar obtained from acetic acid"
-                    },
-                    {
-                        "value": "23",
-                        "description": "CHAPTER 23 - RESIDUES AND WASTE FROM THE FOOD INDUSTRIES; PREPARED ANIMAL FODDER"
-                    },
-                    {
-                        "value": "2501 00 91",
-                        "description": "Salt suitable for human consumption"
-                    },
-                    {
-                        "value": "3301 90 21",
-                        "description": "Of liquorice and hops"
-                    },
-                    {
-                        "value": "3302 10 29",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "3302 10 40",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "3302 10 90",
-                        "description": "Of a kind used in the food industries"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "FOODSTUFFS",
-                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
-            },
-            "comment": "Food for human consumption, excluding food supplied for catering, is taxed at 0% (exempt with credit) (part 4).  \n\nThe above exemption does not apply to items classified under the following subheadings in the First Schedule of the Import Duties Act:\n\n(1) 1515.90.15.00;1515.90.15.90;1515.90.21.00; 1515.90.31.00;1515.90.40.00;1515.90.60.00; 1516.20.10.00; 1517.90.93; 1521.90.10.00\n\n(2) 2006.00.10; 2009\n\n(3) 2105.00; 2106.90.20.00; 2106.90.98.33; 2106.90.98.37; 2106.90.98.39\n\n(4) 2307.00"
         },
         {
             "memberState": "MT",
