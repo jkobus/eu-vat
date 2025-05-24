@@ -6,6 +6,192 @@
             "type": "REDUCED",
             "rate": {
                 "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "41",
+                        "description": "Buildings and building construction works"
+                    },
+                    {
+                        "value": "42",
+                        "description": "Constructions and construction works for civil engineering"
+                    },
+                    {
+                        "value": "68",
+                        "description": "Real estate services"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "HOUSING_PROVISION",
+                "description": "Provision, construction, renovation and alteration of housing, as part of a social policy"
+            },
+            "comment": "Construction of state-supported rental housing within the framework of the state's social policy (includes: delivery of a building or part of a building, including the construction land on which the building or part of the building stands, renovation and reconstruction of the building or part of the building, including construction and assembly work on the building)."
+        },
+        {
+            "memberState": "SK",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "55",
+                    "description": "Accommodation services"
+                }
+            },
+            "category": {
+                "identifier": "ACCOMMODATION",
+                "description": "Accommodation provided in hotels and similar establishments, including the provision of holiday accommodation and the letting of places on camping or caravan sites"
+            },
+            "comment": "Accommodation and similar establishments as defined by NACE 55 code. The specific legal definition can be found in Annex 7a of Act No. 222\/2004 Coll. on Value Added Tax. The change has been effective as of 1 January 2019. Exhaustive list can be found in Annex 7a of Act No. 222\/2004 Coll. on Value Added Tax as amended via the following link https:\/\/www.mfsr.sk\/en\/taxes-customs-accounting\/indirect-taxes\/vat\/"
+        },
+        {
+            "memberState": "SK",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "56",
+                    "description": "Food and beverage serving services"
+                }
+            },
+            "category": {
+                "identifier": "RESTAURANT",
+                "description": "Restaurant and catering services, it being possible to exclude the supply of (alcoholic and\/or non-alcoholic) beverages"
+            },
+            "comment": "Reduced VAT rate on restaurant and catering services (only food provided)."
+        },
+        {
+            "memberState": "SK",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "4901",
+                        "description": "Printed books, brochures, leaflets and similar printed matter, whether or not in single sheets"
+                    },
+                    {
+                        "value": "4902 10 00",
+                        "description": "Appearing at least four times a week"
+                    },
+                    {
+                        "value": "4903 00 00",
+                        "description": "Children's picture, drawing or colouring books"
+                    },
+                    {
+                        "value": "4904 00 00",
+                        "description": "Music, printed or in manuscript, whether or not bound or illustrated"
+                    },
+                    {
+                        "value": "4905",
+                        "description": "Maps and hydrographic or similar charts of all kinds, including atlases, wall maps, topographical plans and globes, printed"
+                    },
+                    {
+                        "value": "8523 49 10",
+                        "description": "Digital versatile discs (DVD)"
+                    },
+                    {
+                        "value": "8523 49 20",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "8523 51 90",
+                        "description": "Other"
+                    }
+                ]
+            },
+            "cpaCodes": {
+                "code": {
+                    "value": "58.11.3",
+                    "description": "On-line books"
+                }
+            },
+            "category": {
+                "identifier": "NEWSPAPERS",
+                "description": "Newspapers"
+            },
+            "comment": "Printed books, brochures, leaflets and similar printed products, except books, brochures, leaflets and similar printed products, in which advertising and advertising represent, individually or together, more than 50% of the total content of the product. Exhaustive list can be found in Annex 7 of Act No. 222\/2004 Coll. on Value Added Tax as amended via the following link https:\/\/www.mfsr.sk\/en\/taxes-customs-accounting\/indirect-taxes\/vat\/"
+        },
+        {
+            "memberState": "SK",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "88",
+                    "description": "Social work services without accommodation"
+                }
+            },
+            "category": {
+                "identifier": "SOCIAL_WELLBEING",
+                "description": "Supply of goods and services by organisations recognised as being devoted to social wellbeing by Member States and engaged in welfare or social security work"
+            },
+            "comment": "Supply of goods and services by organisations recognised as being devoted to social wellbeing by Member States and engaged in welfare or social security work, in so far as those transactions are not exempt pursuant to Articles 132, 135 and 136. (Act No. 112\/2018)"
+        },
+        {
+            "memberState": "SK",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "93.11.1",
+                    "description": "Sports facility operation services"
+                }
+            },
+            "category": {
+                "identifier": "ADMISSION_SPORTING_EVENTS",
+                "description": "Admission to sporting events"
+            },
+            "comment": "Operation of sports facilities – only services related to admission to sports events."
+        },
+        {
+            "memberState": "SK",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "93.13.1",
+                    "description": "Services of fitness facilities"
+                }
+            },
+            "category": {
+                "identifier": "SPORTING_EVENTS",
+                "description": "Admission to sporting events"
+            },
+            "comment": "Reduced rate only on fitness facilities\/centres services."
+        },
+        {
+            "memberState": "SK",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
                 "value": 19
             },
             "situationOn": "2025-01-01+01:00",
@@ -405,192 +591,6 @@
                 "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
             },
             "comment": "Only selected items.\nExhaustive list can be found in Annex 7 of Act No. 222\/2004 Coll. on Value Added Tax as amended via the following link https:\/\/www.mfsr.sk\/en\/taxes-customs-accounting\/indirect-taxes\/vat\/"
-        },
-        {
-            "memberState": "SK",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "4901",
-                        "description": "Printed books, brochures, leaflets and similar printed matter, whether or not in single sheets"
-                    },
-                    {
-                        "value": "4902 10 00",
-                        "description": "Appearing at least four times a week"
-                    },
-                    {
-                        "value": "4903 00 00",
-                        "description": "Children's picture, drawing or colouring books"
-                    },
-                    {
-                        "value": "4904 00 00",
-                        "description": "Music, printed or in manuscript, whether or not bound or illustrated"
-                    },
-                    {
-                        "value": "4905",
-                        "description": "Maps and hydrographic or similar charts of all kinds, including atlases, wall maps, topographical plans and globes, printed"
-                    },
-                    {
-                        "value": "8523 49 10",
-                        "description": "Digital versatile discs (DVD)"
-                    },
-                    {
-                        "value": "8523 49 20",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "8523 51 90",
-                        "description": "Other"
-                    }
-                ]
-            },
-            "cpaCodes": {
-                "code": {
-                    "value": "58.11.3",
-                    "description": "On-line books"
-                }
-            },
-            "category": {
-                "identifier": "NEWSPAPERS",
-                "description": "Newspapers"
-            },
-            "comment": "Printed books, brochures, leaflets and similar printed products, except books, brochures, leaflets and similar printed products, in which advertising and advertising represent, individually or together, more than 50% of the total content of the product. Exhaustive list can be found in Annex 7 of Act No. 222\/2004 Coll. on Value Added Tax as amended via the following link https:\/\/www.mfsr.sk\/en\/taxes-customs-accounting\/indirect-taxes\/vat\/"
-        },
-        {
-            "memberState": "SK",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "41",
-                        "description": "Buildings and building construction works"
-                    },
-                    {
-                        "value": "42",
-                        "description": "Constructions and construction works for civil engineering"
-                    },
-                    {
-                        "value": "68",
-                        "description": "Real estate services"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "HOUSING_PROVISION",
-                "description": "Provision, construction, renovation and alteration of housing, as part of a social policy"
-            },
-            "comment": "Construction of state-supported rental housing within the framework of the state's social policy (includes: delivery of a building or part of a building, including the construction land on which the building or part of the building stands, renovation and reconstruction of the building or part of the building, including construction and assembly work on the building)."
-        },
-        {
-            "memberState": "SK",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cpaCodes": {
-                "code": {
-                    "value": "55",
-                    "description": "Accommodation services"
-                }
-            },
-            "category": {
-                "identifier": "ACCOMMODATION",
-                "description": "Accommodation provided in hotels and similar establishments, including the provision of holiday accommodation and the letting of places on camping or caravan sites"
-            },
-            "comment": "Accommodation and similar establishments as defined by NACE 55 code. The specific legal definition can be found in Annex 7a of Act No. 222\/2004 Coll. on Value Added Tax. The change has been effective as of 1 January 2019. Exhaustive list can be found in Annex 7a of Act No. 222\/2004 Coll. on Value Added Tax as amended via the following link https:\/\/www.mfsr.sk\/en\/taxes-customs-accounting\/indirect-taxes\/vat\/"
-        },
-        {
-            "memberState": "SK",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cpaCodes": {
-                "code": {
-                    "value": "56",
-                    "description": "Food and beverage serving services"
-                }
-            },
-            "category": {
-                "identifier": "RESTAURANT",
-                "description": "Restaurant and catering services, it being possible to exclude the supply of (alcoholic and\/or non-alcoholic) beverages"
-            },
-            "comment": "Reduced VAT rate on restaurant and catering services (only food provided)."
-        },
-        {
-            "memberState": "SK",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cpaCodes": {
-                "code": {
-                    "value": "88",
-                    "description": "Social work services without accommodation"
-                }
-            },
-            "category": {
-                "identifier": "SOCIAL_WELLBEING",
-                "description": "Supply of goods and services by organisations recognised as being devoted to social wellbeing by Member States and engaged in welfare or social security work"
-            },
-            "comment": "Supply of goods and services by organisations recognised as being devoted to social wellbeing by Member States and engaged in welfare or social security work, in so far as those transactions are not exempt pursuant to Articles 132, 135 and 136. (Act No. 112\/2018)"
-        },
-        {
-            "memberState": "SK",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cpaCodes": {
-                "code": {
-                    "value": "93.11.1",
-                    "description": "Sports facility operation services"
-                }
-            },
-            "category": {
-                "identifier": "ADMISSION_SPORTING_EVENTS",
-                "description": "Admission to sporting events"
-            },
-            "comment": "Operation of sports facilities – only services related to admission to sports events."
-        },
-        {
-            "memberState": "SK",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cpaCodes": {
-                "code": {
-                    "value": "93.13.1",
-                    "description": "Services of fitness facilities"
-                }
-            },
-            "category": {
-                "identifier": "SPORTING_EVENTS",
-                "description": "Admission to sporting events"
-            },
-            "comment": "Reduced rate only on fitness facilities\/centres services."
         }
     ]
 }
