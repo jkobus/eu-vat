@@ -5,88 +5,6 @@
             "memberState": "CZ",
             "type": "REDUCED",
             "rate": {
-                "type": "REDUCED_RATE",
-                "value": 12
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "93.11",
-                        "description": "Sports facility operation services"
-                    },
-                    {
-                        "value": "93.12",
-                        "description": "Services of sport clubs"
-                    },
-                    {
-                        "value": "93.13",
-                        "description": "Services of fitness facilities"
-                    },
-                    {
-                        "value": "93.29.11",
-                        "description": "Recreation parks and beach services"
-                    },
-                    {
-                        "value": "93.29.19",
-                        "description": "Miscellaneous recreational services n.e.c."
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "SPORTING_EVENTS",
-                "description": "Admission to sporting events"
-            },
-            "comment": "Admission to sporting events; use of indoor and outdoor sports facilities for sports activities; services related to the operation of recreational parks and beaches; operation of ski slopes."
-        },
-        {
-            "memberState": "CZ",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 12
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cpaCodes": {
-                "code": {
-                    "value": "96.03",
-                    "description": "Funeral and related services"
-                }
-            },
-            "category": {
-                "identifier": "UNDERTAKERS_SERVICES",
-                "description": "Supply of services by undertakers and cremation services, and the supply of goods related thereto"
-            },
-            "comment": "Funerals and related services, except for funeral services for animals."
-        },
-        {
-            "memberState": "CZ",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 12
-            },
-            "situationOn": "2025-01-01+01:00",
-            "category": {
-                "identifier": "MEDICAL_EQUIPMENT",
-                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
-            },
-            "comment": "Selected medical devices and their accessories according to the Regulation of the European Parliament and the Council on medical devices and in vitro diagnostic medical devices and their accessories according to the Regulation of the European Parliament and the Council on in vitro diagnostic medical devices (e.g. they can be classified in table no. 1 of section C of Annex no. 3 or Annex No. 4 of the Act on Public Health Insurance). Repair or modification of such medical equipment."
-        },
-        {
-            "memberState": "CZ",
-            "type": "STANDARD",
-            "rate": {
-                "type": "DEFAULT",
-                "value": 21
-            },
-            "situationOn": "2025-01-01+01:00",
-            "comment": "<p>Art. 47 of the VAT Act.<\/p>"
-        },
-        {
-            "memberState": "CZ",
-            "type": "REDUCED",
-            "rate": {
                 "type": "EXEMPTED",
                 "value": 0
             },
@@ -756,6 +674,88 @@
                 "description": "Domestic care services such as home help and care of the young, elderly, sick or disabled"
             },
             "comment": "Domestic care of the young, elderly, sick or disabled."
+        },
+        {
+            "memberState": "CZ",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 12
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "93.11",
+                        "description": "Sports facility operation services"
+                    },
+                    {
+                        "value": "93.12",
+                        "description": "Services of sport clubs"
+                    },
+                    {
+                        "value": "93.13",
+                        "description": "Services of fitness facilities"
+                    },
+                    {
+                        "value": "93.29.11",
+                        "description": "Recreation parks and beach services"
+                    },
+                    {
+                        "value": "93.29.19",
+                        "description": "Miscellaneous recreational services n.e.c."
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "SPORTING_EVENTS",
+                "description": "Admission to sporting events"
+            },
+            "comment": "Admission to sporting events; use of indoor and outdoor sports facilities for sports activities; services related to the operation of recreational parks and beaches; operation of ski slopes."
+        },
+        {
+            "memberState": "CZ",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 12
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "96.03",
+                    "description": "Funeral and related services"
+                }
+            },
+            "category": {
+                "identifier": "UNDERTAKERS_SERVICES",
+                "description": "Supply of services by undertakers and cremation services, and the supply of goods related thereto"
+            },
+            "comment": "Funerals and related services, except for funeral services for animals."
+        },
+        {
+            "memberState": "CZ",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 12
+            },
+            "situationOn": "2025-01-01+01:00",
+            "category": {
+                "identifier": "MEDICAL_EQUIPMENT",
+                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
+            },
+            "comment": "Selected medical devices and their accessories according to the Regulation of the European Parliament and the Council on medical devices and in vitro diagnostic medical devices and their accessories according to the Regulation of the European Parliament and the Council on in vitro diagnostic medical devices (e.g. they can be classified in table no. 1 of section C of Annex no. 3 or Annex No. 4 of the Act on Public Health Insurance). Repair or modification of such medical equipment."
+        },
+        {
+            "memberState": "CZ",
+            "type": "STANDARD",
+            "rate": {
+                "type": "DEFAULT",
+                "value": 21
+            },
+            "situationOn": "2025-01-01+01:00",
+            "comment": "<p>Art. 47 of the VAT Act.<\/p>"
         }
     ]
 }

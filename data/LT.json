@@ -6,151 +6,6 @@
             "type": "REDUCED",
             "rate": {
                 "type": "REDUCED_RATE",
-                "value": 9
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "49.10.19",
-                        "description": "Other passenger rail transport services, interurban"
-                    },
-                    {
-                        "value": "49.31.10",
-                        "description": "Urban and suburban railway transport services of passengers"
-                    },
-                    {
-                        "value": "49.31.2",
-                        "description": "Other urban and suburban passenger land transport services"
-                    },
-                    {
-                        "value": "49.39.11",
-                        "description": "Interurban scheduled road transport services of passengers"
-                    },
-                    {
-                        "value": "50.10.11",
-                        "description": "Sea and coastal passenger water transport services by ferries"
-                    },
-                    {
-                        "value": "50.10.19",
-                        "description": "Other sea and coastal passenger water transport services"
-                    },
-                    {
-                        "value": "50.30.11",
-                        "description": "Inland passenger water transport services by ferries"
-                    },
-                    {
-                        "value": "50.30.19",
-                        "description": "Other inland passenger water transport services"
-                    },
-                    {
-                        "value": "51.10.11",
-                        "description": "Domestic scheduled air transport services of passengers"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "TRANSPORT_PASSENGERS",
-                "description": "Transport of passengers and their accompanying luggage"
-            },
-            "comment": "Applies only for established domestic regular routes"
-        },
-        {
-            "memberState": "LT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 9
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "55.10.1",
-                        "description": "Room or unit accommodation services for visitors, with daily housekeeping (except time-share)"
-                    },
-                    {
-                        "value": "55.20.1",
-                        "description": "Holiday and other short stay accommodation services"
-                    },
-                    {
-                        "value": "55.30.1",
-                        "description": "Camping ground, recreational and vacation camp services"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "ACCOMMODATION",
-                "description": "Accommodation provided in hotels and similar establishments, including the provision of holiday accommodation and the letting of places on camping or caravan sites"
-            },
-            "comment": "In accordance with the procedure laid down in the legislation governing tourism (therein Law on turism)"
-        },
-        {
-            "memberState": "LT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 9
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "4822 10 00",
-                        "description": "Of a kind used for winding textile yarn"
-                    },
-                    {
-                        "value": "4901",
-                        "description": "Printed books, brochures, leaflets and similar printed matter, whether or not in single sheets"
-                    },
-                    {
-                        "value": "4903 00 00",
-                        "description": "Children's picture, drawing or colouring books"
-                    },
-                    {
-                        "value": "4904 00 00",
-                        "description": "Music, printed or in manuscript, whether or not bound or illustrated"
-                    },
-                    {
-                        "value": "4905",
-                        "description": "Maps and hydrographic or similar charts of all kinds, including atlases, wall maps, topographical plans and globes, printed"
-                    },
-                    {
-                        "value": "4906 00 00",
-                        "description": "Plans and drawings for architectural, engineering, industrial, commercial, topographical or similar purposes, being originals drawn by hand; handwritten texts; photographic reproductions on sensitised paper and carbon copies of the foregoing"
-                    },
-                    {
-                        "value": "4911",
-                        "description": "Other printed matter, including printed pictures and photographs"
-                    }
-                ]
-            },
-            "cpaCodes": {
-                "code": {
-                    "value": "58.11.30",
-                    "description": "On-line books"
-                }
-            },
-            "category": {
-                "identifier": "LOAN_LIBRARIES",
-                "description": "Supply, including on loan by libraries, of books, newspapers and periodicals either on physical means of support or supplied electronically or both (including brochures, leaflets and similar printed matter, children's picture, drawing or colouring books, music printed or in manuscript form, maps and hydrographic or similar charts), other than publications wholly or predominantly devoted to advertising and other than publications wholly or predominantly consisting of video content or audible music."
-            },
-            "comment": "Applies for printed and electronic books as well as printed and electronic non-periodical information publications (see non-exhaustive most common publications supplied list in Comment of VAT Law on the STI website)"
-        },
-        {
-            "memberState": "LT",
-            "type": "STANDARD",
-            "rate": {
-                "type": "DEFAULT",
-                "value": 21
-            },
-            "situationOn": "2025-01-01+01:00"
-        },
-        {
-            "memberState": "LT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
                 "value": 5
             },
             "situationOn": "2025-01-01+01:00",
@@ -438,6 +293,58 @@
                 "value": 9
             },
             "situationOn": "2025-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "4822 10 00",
+                        "description": "Of a kind used for winding textile yarn"
+                    },
+                    {
+                        "value": "4901",
+                        "description": "Printed books, brochures, leaflets and similar printed matter, whether or not in single sheets"
+                    },
+                    {
+                        "value": "4903 00 00",
+                        "description": "Children's picture, drawing or colouring books"
+                    },
+                    {
+                        "value": "4904 00 00",
+                        "description": "Music, printed or in manuscript, whether or not bound or illustrated"
+                    },
+                    {
+                        "value": "4905",
+                        "description": "Maps and hydrographic or similar charts of all kinds, including atlases, wall maps, topographical plans and globes, printed"
+                    },
+                    {
+                        "value": "4906 00 00",
+                        "description": "Plans and drawings for architectural, engineering, industrial, commercial, topographical or similar purposes, being originals drawn by hand; handwritten texts; photographic reproductions on sensitised paper and carbon copies of the foregoing"
+                    },
+                    {
+                        "value": "4911",
+                        "description": "Other printed matter, including printed pictures and photographs"
+                    }
+                ]
+            },
+            "cpaCodes": {
+                "code": {
+                    "value": "58.11.30",
+                    "description": "On-line books"
+                }
+            },
+            "category": {
+                "identifier": "LOAN_LIBRARIES",
+                "description": "Supply, including on loan by libraries, of books, newspapers and periodicals either on physical means of support or supplied electronically or both (including brochures, leaflets and similar printed matter, children's picture, drawing or colouring books, music printed or in manuscript form, maps and hydrographic or similar charts), other than publications wholly or predominantly devoted to advertising and other than publications wholly or predominantly consisting of video content or audible music."
+            },
+            "comment": "Applies for printed and electronic books as well as printed and electronic non-periodical information publications (see non-exhaustive most common publications supplied list in Comment of VAT Law on the STI website)"
+        },
+        {
+            "memberState": "LT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 9
+            },
+            "situationOn": "2025-01-01+01:00",
             "cpaCodes": {
                 "code": {
                     "value": "35.30.1",
@@ -469,6 +376,99 @@
                 "description": "Supply of water"
             },
             "comment": "Applies to the hot water or cold water for preparing of hot water, supplied to residential premises."
+        },
+        {
+            "memberState": "LT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 9
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "49.10.19",
+                        "description": "Other passenger rail transport services, interurban"
+                    },
+                    {
+                        "value": "49.31.10",
+                        "description": "Urban and suburban railway transport services of passengers"
+                    },
+                    {
+                        "value": "49.31.2",
+                        "description": "Other urban and suburban passenger land transport services"
+                    },
+                    {
+                        "value": "49.39.11",
+                        "description": "Interurban scheduled road transport services of passengers"
+                    },
+                    {
+                        "value": "50.10.11",
+                        "description": "Sea and coastal passenger water transport services by ferries"
+                    },
+                    {
+                        "value": "50.10.19",
+                        "description": "Other sea and coastal passenger water transport services"
+                    },
+                    {
+                        "value": "50.30.11",
+                        "description": "Inland passenger water transport services by ferries"
+                    },
+                    {
+                        "value": "50.30.19",
+                        "description": "Other inland passenger water transport services"
+                    },
+                    {
+                        "value": "51.10.11",
+                        "description": "Domestic scheduled air transport services of passengers"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "TRANSPORT_PASSENGERS",
+                "description": "Transport of passengers and their accompanying luggage"
+            },
+            "comment": "Applies only for established domestic regular routes"
+        },
+        {
+            "memberState": "LT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 9
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "55.10.1",
+                        "description": "Room or unit accommodation services for visitors, with daily housekeeping (except time-share)"
+                    },
+                    {
+                        "value": "55.20.1",
+                        "description": "Holiday and other short stay accommodation services"
+                    },
+                    {
+                        "value": "55.30.1",
+                        "description": "Camping ground, recreational and vacation camp services"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "ACCOMMODATION",
+                "description": "Accommodation provided in hotels and similar establishments, including the provision of holiday accommodation and the letting of places on camping or caravan sites"
+            },
+            "comment": "In accordance with the procedure laid down in the legislation governing tourism (therein Law on turism)"
+        },
+        {
+            "memberState": "LT",
+            "type": "STANDARD",
+            "rate": {
+                "type": "DEFAULT",
+                "value": 21
+            },
+            "situationOn": "2025-01-01+01:00"
         }
     ]
 }
