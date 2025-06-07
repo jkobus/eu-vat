@@ -1897,6 +1897,32 @@
             "memberState": "NL",
             "type": "REDUCED",
             "rate": {
+                "type": "EXEMPTED",
+                "value": 0
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cnCodes": {
+                "code": {
+                    "value": "8541 43 00",
+                    "description": "Photovoltaic cells assembled in modules or made up into panels"
+                }
+            },
+            "cpaCodes": {
+                "code": {
+                    "value": "33.20.70",
+                    "description": "Installation services of other goods n.e.c."
+                }
+            },
+            "category": {
+                "identifier": "SOLAR_PANELS",
+                "description": "Supply and installation of solar panels on and adjacent to private dwellings, housing and public and other buildings used for activities in the public interest"
+            },
+            "comment": "Tabel II prov. a.10: A zero rate is applicable for the supply and installation of solar panels [panels that have the function of generating electricity from sunlight with photovoltaic cells (also known as PV cells or solar cells)] on and adjacent to private dwellings. An important condition for the 0% rate is that the panels are installed on or near a home."
+        },
+        {
+            "memberState": "NL",
+            "type": "REDUCED",
+            "rate": {
                 "type": "REDUCED_RATE",
                 "value": 9
             },
@@ -1938,32 +1964,6 @@
                 "description": "The renovation and repair of private dwellings, excluding materials which account for a significant part of the value of the service supplied"
             },
             "comment": "Tabel I prov. b.8: Painting and plastering of private dwellings (i.m. intended for permanent residence by individuals) more than two years after first use. \n\nPainting: processing and application of paint or painting system (whole of activities associated with the pre-treatment of a specific surface and subsequent finishing of that surface with specific paint products.)\n\nPlastering: preparation and pre-treatment work a plasterer performs before proceeding to actual plastering;  plastering."
-        },
-        {
-            "memberState": "NL",
-            "type": "REDUCED",
-            "rate": {
-                "type": "EXEMPTED",
-                "value": 0
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cnCodes": {
-                "code": {
-                    "value": "8541 43 00",
-                    "description": "Photovoltaic cells assembled in modules or made up into panels"
-                }
-            },
-            "cpaCodes": {
-                "code": {
-                    "value": "33.20.70",
-                    "description": "Installation services of other goods n.e.c."
-                }
-            },
-            "category": {
-                "identifier": "SOLAR_PANELS",
-                "description": "Supply and installation of solar panels on and adjacent to private dwellings, housing and public and other buildings used for activities in the public interest"
-            },
-            "comment": "Tabel II prov. a.10: A zero rate is applicable for the supply and installation of solar panels [panels that have the function of generating electricity from sunlight with photovoltaic cells (also known as PV cells or solar cells)] on and adjacent to private dwellings. An important condition for the 0% rate is that the panels are installed on or near a home."
         },
         {
             "memberState": "NL",
