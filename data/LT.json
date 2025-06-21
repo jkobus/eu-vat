@@ -3,15 +3,6 @@
     "vatRateResults": [
         {
             "memberState": "LT",
-            "type": "STANDARD",
-            "rate": {
-                "type": "DEFAULT",
-                "value": 21
-            },
-            "situationOn": "2025-01-01+01:00"
-        },
-        {
-            "memberState": "LT",
             "type": "REDUCED",
             "rate": {
                 "type": "REDUCED_RATE",
@@ -91,6 +82,15 @@
                 "description": "Pharmaceutical products of a kind normally used for health care, prevention of illness and as treatment for medical and veterinary purposes, including products used for contraception and sanitary protection"
             },
             "comment": "Applicable for medicaments, medical aids and food products for special medical purposes, fully or partially compensated by the Compulsory Health Insurance Fund (at the moment of acquisition), as well as for all non-compensated prescribed medicines (entered into the Lithuanian or EU register of prescribed medications)"
+        },
+        {
+            "memberState": "LT",
+            "type": "STANDARD",
+            "rate": {
+                "type": "DEFAULT",
+                "value": 21
+            },
+            "situationOn": "2025-01-01+01:00"
         },
         {
             "memberState": "LT",

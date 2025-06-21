@@ -5,139 +5,223 @@
             "memberState": "RO",
             "type": "REDUCED",
             "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
+                "type": "EXEMPTED",
+                "value": 0
             },
             "situationOn": "2025-01-01+01:00",
             "cnCodes": {
                 "code": [
                     {
-                        "value": "4401 41 00",
-                        "description": "Sawdust"
+                        "value": "8713",
+                        "description": "Carriages for disabled persons, whether or not motorised or otherwise mechanically propelled"
                     },
                     {
-                        "value": "4401 49 00",
+                        "value": "8714 20 00",
+                        "description": "Of carriages for disabled persons"
+                    },
+                    {
+                        "value": "9001 30 00",
+                        "description": "Contact lenses"
+                    },
+                    {
+                        "value": "9001 40 41",
+                        "description": "Single focal"
+                    },
+                    {
+                        "value": "9001 40 49",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "9001 40 80",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "9001 50 41",
+                        "description": "Single focal"
+                    },
+                    {
+                        "value": "9001 50 49",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "9001 50 80",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "9001 90 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "9003 11 00",
+                        "description": "Of plastics"
+                    },
+                    {
+                        "value": "9003 19 00",
+                        "description": "Of other materials"
+                    },
+                    {
+                        "value": "9003 90 00",
+                        "description": "Parts"
+                    },
+                    {
+                        "value": "9004 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "9021 10 10",
+                        "description": "Orthopaedic appliances"
+                    },
+                    {
+                        "value": "9021 10 90",
+                        "description": "Splints and other fracture appliances"
+                    },
+                    {
+                        "value": "9021 21",
+                        "description": "Artificial teeth"
+                    },
+                    {
+                        "value": "9021 29 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "9021 31 00",
+                        "description": "Artificial joints"
+                    },
+                    {
+                        "value": "9021 39",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "9021 40 00",
+                        "description": "Hearing aids, excluding parts and accessories"
+                    },
+                    {
+                        "value": "9021 50 00",
+                        "description": "Pacemakers for stimulating heart muscles, excluding parts and accessories"
+                    },
+                    {
+                        "value": "9021 90",
                         "description": "Other"
                     }
                 ]
             },
             "category": {
-                "identifier": "WOOD_ARTICLE98",
-                "description": "Wood used as firewood (until 1 January 2030)"
+                "identifier": "MEDICAL_EQUIPMENT",
+                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
             },
-            "comment": "The supply for the use as heating fuel of sawdust, waste and non-agglomerated wood scraps, carried out to final beneficiaries, on the basis of a statement of liability made available to the supplier. See art. 291 para. (3) letters m), n) of the Fiscal Code."
+            "comment": "Supply of prostheses and their accessories, with the exception of dental prostheses exempt from tax under art.292 para.(1) lett.(b) and supply of orthopedic products. When those goods are imported from a third territory or a third country, the reduced VAT rate is conditioned by submission of the Customs Notice for medical devices or the Declaration of conformity of the medical device manufacturer according to art.2 of the Order no.1009\/2016. Art.294 para.(5) letters c) and d) of the Fiscal Code."
         },
         {
             "memberState": "RO",
             "type": "REDUCED",
             "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
+                "type": "EXEMPTED",
+                "value": 0
             },
             "situationOn": "2025-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "4901",
-                        "description": "Printed books, brochures, leaflets and similar printed matter, whether or not in single sheets"
-                    },
-                    {
-                        "value": "4902",
-                        "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
-                    },
-                    {
-                        "value": "4903 00 00",
-                        "description": "Children's picture, drawing or colouring books"
-                    },
-                    {
-                        "value": "4904 00 00",
-                        "description": "Music, printed or in manuscript, whether or not bound or illustrated"
-                    },
-                    {
-                        "value": "8523 29 19",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "8523 29 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "8523 49",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "8523 51 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "8523 59 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "8523 80 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "4905 20 00",
-                        "description": "In book form"
-                    },
-                    {
-                        "value": "4905 90 00",
-                        "description": "Other"
-                    }
-                ]
-            },
             "cpaCodes": {
                 "code": [
                     {
-                        "value": "58.11.30",
-                        "description": "On-line books"
+                        "value": "33.13.12",
+                        "description": "Repair and maintenance services of irradiation, electromedical and electrotherapeutic equipment"
                     },
                     {
-                        "value": "58.13.20",
-                        "description": "On-line newspapers"
+                        "value": "77.29.19",
+                        "description": "Rental and leasing services of other personal and household goods n.e.c."
                     },
                     {
-                        "value": "58.14.20",
-                        "description": "On-line journals and periodicals"
+                        "value": "95.29.19",
+                        "description": "Repair services of other personal and household goods n.e.c."
                     }
                 ]
             },
             "category": {
-                "identifier": "LOAN_LIBRARIES",
-                "description": "Supply, including on loan by libraries, of books, newspapers and periodicals either on physical means of support or supplied electronically or both (including brochures, leaflets and similar printed matter, children's picture, drawing or colouring books, music printed or in manuscript form, maps and hydrographic or similar charts), other than publications wholly or predominantly devoted to advertising and other than publications wholly or predominantly consisting of video content or audible music."
+                "identifier": "MEDICAL_EQUIPMENT",
+                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
             },
-            "comment": "The reduced VAT rate is applied for the supply of school textbooks, books, newspapers and magazines, either on physical means of support and\/or supplied electronically, except for those which have, wholly or predominantly, video or music audio content and those intended exclusively or mainly for advertising. See art. 291 para. (3) letter a) of the Fiscal Code corroborated with point 38 para. (1) of the Methodological Norms."
+            "comment": "The adaptation, repair, rental and leasing of medical equipment, carried out to non-profit entities registered in the Public Register organized by A.N.A.F., if the services purchased by non-profit entities are made available free of charge to hospital units in the public state network or are intended for hospital units owned and operated by non-profit entities. See art. 294 para. (5) letter b) and art. 294 para. (6) of the Fiscal Code."
         },
         {
             "memberState": "RO",
             "type": "REDUCED",
             "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
+                "type": "EXEMPTED",
+                "value": 0
             },
             "situationOn": "2025-01-01+01:00",
             "cpaCodes": {
                 "code": [
                     {
-                        "value": "91.02.10",
-                        "description": "Museum operation services"
+                        "value": "33.13.12",
+                        "description": "Repair and maintenance services of irradiation, electromedical and electrotherapeutic equipment"
                     },
                     {
-                        "value": "91.03.10",
-                        "description": "Operation services of historical sites and buildings and similar visitor attractions"
+                        "value": "77.29.19",
+                        "description": "Rental and leasing services of other personal and household goods n.e.c."
                     },
                     {
-                        "value": "91.04.11",
-                        "description": "Botanical and zoological garden services"
+                        "value": "95.29.19",
+                        "description": "Repair services of other personal and household goods n.e.c."
                     }
                 ]
             },
             "category": {
-                "identifier": "CULTURAL_EVENTS",
-                "description": "Admission to shows, theatres, circuses, fairs, amusement parks, concerts, museums, zoos, cinemas, exhibitions and similar cultural events and facilities"
+                "identifier": "MEDICAL_EQUIPMENT",
+                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
             },
-            "comment": "The reduced VAT rate is applied for the services consisting in allowing access to castles, museums, memorial houses, historical monuments, architectural and archaeological monuments, zoological and botanical gardens. See art. 291 para. (3) letter b) of the Fiscal Code."
+            "comment": "The adaptation, repair, rental and leasing of medical equipment, carried out to companies wholly owned by non-profit entities registered in the Public Register organized by ANAF, if the services are available free of charge to public hospitals or are intended for hospitals owned and operated by these companies, under the cumulative conditions laid down in art. 294 para. (5) letter (b^1) of the Fiscal Code. See also art. 294 para. (6) and (6^1) of the Fiscal Code."
+        },
+        {
+            "memberState": "RO",
+            "type": "REDUCED",
+            "rate": {
+                "type": "EXEMPTED",
+                "value": 0
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "41.00.20",
+                        "description": "Non-residential buildings"
+                    },
+                    {
+                        "value": "41.00.40",
+                        "description": "Construction works for non-residential buildings (new works, additions, alterations and renovation works)"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "PRIVATE_DWELLINGS",
+                "description": "The renovation and repair of private dwellings, excluding materials which account for a significant part of the value of the service supplied"
+            },
+            "comment": "The construction, rehabilitation, modernization services of hospital units, provided to non-profit entities registered in the Public Register organized by A.N.A.F., if the services purchased by non-profit entities are made available free of charge to hospital units in the public state network or are intended for hospital units owned and operated by non-profit entities. Art. 294 para. (5) letter (a) and art. 294 para. (6) of the Fiscal Code."
+        },
+        {
+            "memberState": "RO",
+            "type": "REDUCED",
+            "rate": {
+                "type": "EXEMPTED",
+                "value": 0
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "41.00.20",
+                        "description": "Non-residential buildings"
+                    },
+                    {
+                        "value": "41.00.40",
+                        "description": "Construction works for non-residential buildings (new works, additions, alterations and renovation works)"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "PRIVATE_DWELLINGS",
+                "description": "The renovation and repair of private dwellings, excluding materials which account for a significant part of the value of the service supplied"
+            },
+            "comment": "The construction, rehabilitation, modernization services of hospitals, provided to companies wholly owned by non-profit entities registered in the Public Register organized by A.N.A.F., if the services are available free of charge to public hospitals or are intended for hospitals owned and operated by these companies, under the cumulative conditions laid down in art. 294 para. (5) letter (a^1) of the Fiscal Code. See also art. 294 para. (6) and (6^1) of the Fiscal Code."
         },
         {
             "memberState": "RO",
@@ -810,124 +894,6 @@
             "cnCodes": {
                 "code": [
                     {
-                        "value": "2106 90 20",
-                        "description": "Compound alcoholic preparations, other than those based on odoriferous substances, of a kind used for the manufacture of beverages"
-                    },
-                    {
-                        "value": "2811 29 30",
-                        "description": "Nitrogen oxides"
-                    },
-                    {
-                        "value": "3001 20",
-                        "description": "Extracts of glands or other organs or of their secretions"
-                    },
-                    {
-                        "value": "3001 90 20",
-                        "description": "Of human origin"
-                    },
-                    {
-                        "value": "3001 90 91",
-                        "description": "Heparin and its salts"
-                    },
-                    {
-                        "value": "3001 90 98",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "3002 12 00",
-                        "description": "Antisera and other blood fractions"
-                    },
-                    {
-                        "value": "3002 13 00",
-                        "description": "Immunological products, unmixed, not put up in measured doses or in forms or packings for retail sale"
-                    },
-                    {
-                        "value": "3002 14 00",
-                        "description": "Immunological products, mixed, not put up in measured doses or in forms or packings for retail sale"
-                    },
-                    {
-                        "value": "3002 15 00",
-                        "description": "Immunological products, put up in measured doses or in forms or packings for retail sale"
-                    },
-                    {
-                        "value": "3002 90 30",
-                        "description": "Animal blood prepared for therapeutic, prophylactic or diagnostic uses"
-                    },
-                    {
-                        "value": "3003",
-                        "description": "Medicaments (excluding goods of heading 3002, 3005 or 3006) consisting of two or more constituents which have been mixed together for therapeutic or prophylactic uses, not put up in measured doses or in forms or packings for retail sale"
-                    },
-                    {
-                        "value": "3004",
-                        "description": "Medicaments (excluding goods of heading 3002, 3005 or 3006) consisting of mixed or unmixed products for therapeutic or prophylactic uses, put up in measured doses (including those in the form of transdermal administration systems) or in forms or packings for retail sale"
-                    },
-                    {
-                        "value": "3005",
-                        "description": "Wadding, gauze, bandages and similar articles (for example, dressings, adhesive plasters, poultices), impregnated or coated with pharmaceutical substances or put up in forms or packings for retail sale for medical, surgical, dental or veterinary purposes"
-                    },
-                    {
-                        "value": "3006",
-                        "description": "Pharmaceutical goods specified in note 4 to this chapter"
-                    },
-                    {
-                        "value": "3305 10 00",
-                        "description": "Shampoos"
-                    },
-                    {
-                        "value": "3002 41",
-                        "description": "Vaccines for human medicine"
-                    },
-                    {
-                        "value": "3002 42 00",
-                        "description": "Vaccines for veterinary medicine"
-                    },
-                    {
-                        "value": "3002 49 00",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "3002 51 00",
-                        "description": "Cell therapy products"
-                    },
-                    {
-                        "value": "3002 59 00",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "3822 11 00",
-                        "description": "For malaria"
-                    },
-                    {
-                        "value": "3822 12 00",
-                        "description": "For Zika and other diseases transmitted by mosquitoes of the genus Aedes"
-                    },
-                    {
-                        "value": "3822 13 00",
-                        "description": "For blood-grouping"
-                    },
-                    {
-                        "value": "3822 19 00",
-                        "description": "Other"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "PHARMACEUTICAL_PRODUCTS",
-                "description": "Pharmaceutical products of a kind normally used for health care, prevention of illness and as treatment for medical and veterinary purposes, including products used for contraception and sanitary protection"
-            },
-            "comment": "The reduced TVA rate is applied for the supply of medicines for human and veterinary use. See art. 291 para. (2) letter c) of the Fiscal Code."
-        },
-        {
-            "memberState": "RO",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 9
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
                         "value": "1207 10 00",
                         "description": "Palm nuts and kernels"
                     },
@@ -1494,6 +1460,366 @@
                 "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
             },
             "comment": "The reduced rate is applied only if the supplier can prove that the goods, except foods with added sugar, whose total sugar content is at least 10g\/100g product, are used for the preparation or to supplement or replace food for human or animal consumption. When those goods are imported from a third territory or a third country, the application of the reduced rate is conditioned by the submission of the Commitment Declaration regarding the destination of the goods. Point 37 para.(5)-(9) of Norms."
+        },
+        {
+            "memberState": "RO",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 9
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "3102",
+                        "description": "Mineral or chemical fertilisers, nitrogenous"
+                    },
+                    {
+                        "value": "3103",
+                        "description": "Mineral or chemical fertilisers, phosphatic"
+                    },
+                    {
+                        "value": "3104",
+                        "description": "Mineral or chemical fertilisers, potassic"
+                    },
+                    {
+                        "value": "3105 90 80",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "3808 52 00",
+                        "description": "DDT (ISO) (clofenotane (INN)), in packings of a net weight content not exceeding 300 g"
+                    },
+                    {
+                        "value": "3808 59 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "3808 61 00",
+                        "description": "In packings of a net weight content not exceeding 300 g"
+                    },
+                    {
+                        "value": "3808 62 00",
+                        "description": "In packings of a net weight content exceeding 300 g but not exceeding 7,5 kg"
+                    },
+                    {
+                        "value": "3808 69 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "3808 91",
+                        "description": "Insecticides"
+                    },
+                    {
+                        "value": "3808 92",
+                        "description": "Fungicides"
+                    },
+                    {
+                        "value": "3808 93",
+                        "description": "Herbicides, anti-sprouting products and plant-growth regulators"
+                    },
+                    {
+                        "value": "3808 99 10",
+                        "description": "Rodenticides"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "AGRICULTURAL_PRODUCTION",
+                "description": "Supply of goods and services of a kind normally intended for use in agricultural production but excluding capital goods such as machinery or buildings"
+            },
+            "comment": "The reduced VAT rate shall be applied for the supply of chemical fertilizers and chemical pesticides used in agriculture, corresponding to the CN codes mentioned below. For details see art. 291 para. (2) letter l) of the Fiscal Code and art. 1 para. (2) of the Order no. 4634\/2022. The provisions shall apply until 31st of December 2031."
+        },
+        {
+            "memberState": "RO",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "4401 11 00",
+                        "description": "Coniferous"
+                    },
+                    {
+                        "value": "4401 12 00",
+                        "description": "Non-coniferous"
+                    },
+                    {
+                        "value": "4401 31 00",
+                        "description": "Wood pellets"
+                    },
+                    {
+                        "value": "4401 32 00",
+                        "description": "Wood briquettes"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "WOOD_ARTICLE98",
+                "description": "Wood used as firewood (until 1 January 2030)"
+            },
+            "comment": "Supply of firewood in the form of logs, in billets, in twigs, in faggots or in similar forms, and sawdust and wood waste and scrap, agglomerated in logs, briquettes, pellets or similar forms. See art. 291 para. (3) letters m), n) of the Fiscal Code."
+        },
+        {
+            "memberState": "RO",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "4901",
+                        "description": "Printed books, brochures, leaflets and similar printed matter, whether or not in single sheets"
+                    },
+                    {
+                        "value": "4902",
+                        "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
+                    },
+                    {
+                        "value": "4903 00 00",
+                        "description": "Children's picture, drawing or colouring books"
+                    },
+                    {
+                        "value": "4904 00 00",
+                        "description": "Music, printed or in manuscript, whether or not bound or illustrated"
+                    },
+                    {
+                        "value": "8523 29 19",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "8523 29 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "8523 49",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "8523 51 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "8523 59 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "8523 80 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "4905 20 00",
+                        "description": "In book form"
+                    },
+                    {
+                        "value": "4905 90 00",
+                        "description": "Other"
+                    }
+                ]
+            },
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "58.11.30",
+                        "description": "On-line books"
+                    },
+                    {
+                        "value": "58.13.20",
+                        "description": "On-line newspapers"
+                    },
+                    {
+                        "value": "58.14.20",
+                        "description": "On-line journals and periodicals"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "LOAN_LIBRARIES",
+                "description": "Supply, including on loan by libraries, of books, newspapers and periodicals either on physical means of support or supplied electronically or both (including brochures, leaflets and similar printed matter, children's picture, drawing or colouring books, music printed or in manuscript form, maps and hydrographic or similar charts), other than publications wholly or predominantly devoted to advertising and other than publications wholly or predominantly consisting of video content or audible music."
+            },
+            "comment": "The reduced VAT rate is applied for the supply of school textbooks, books, newspapers and magazines, either on physical means of support and\/or supplied electronically, except for those which have, wholly or predominantly, video or music audio content and those intended exclusively or mainly for advertising. See art. 291 para. (3) letter a) of the Fiscal Code corroborated with point 38 para. (1) of the Methodological Norms."
+        },
+        {
+            "memberState": "RO",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "4401 41 00",
+                        "description": "Sawdust"
+                    },
+                    {
+                        "value": "4401 49 00",
+                        "description": "Other"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "WOOD_ARTICLE98",
+                "description": "Wood used as firewood (until 1 January 2030)"
+            },
+            "comment": "The supply for the use as heating fuel of sawdust, waste and non-agglomerated wood scraps, carried out to final beneficiaries, on the basis of a statement of liability made available to the supplier. See art. 291 para. (3) letters m), n) of the Fiscal Code."
+        },
+        {
+            "memberState": "RO",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "91.02.10",
+                        "description": "Museum operation services"
+                    },
+                    {
+                        "value": "91.03.10",
+                        "description": "Operation services of historical sites and buildings and similar visitor attractions"
+                    },
+                    {
+                        "value": "91.04.11",
+                        "description": "Botanical and zoological garden services"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "CULTURAL_EVENTS",
+                "description": "Admission to shows, theatres, circuses, fairs, amusement parks, concerts, museums, zoos, cinemas, exhibitions and similar cultural events and facilities"
+            },
+            "comment": "The reduced VAT rate is applied for the services consisting in allowing access to castles, museums, memorial houses, historical monuments, architectural and archaeological monuments, zoological and botanical gardens. See art. 291 para. (3) letter b) of the Fiscal Code."
+        },
+        {
+            "memberState": "RO",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 9
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "2106 90 20",
+                        "description": "Compound alcoholic preparations, other than those based on odoriferous substances, of a kind used for the manufacture of beverages"
+                    },
+                    {
+                        "value": "2811 29 30",
+                        "description": "Nitrogen oxides"
+                    },
+                    {
+                        "value": "3001 20",
+                        "description": "Extracts of glands or other organs or of their secretions"
+                    },
+                    {
+                        "value": "3001 90 20",
+                        "description": "Of human origin"
+                    },
+                    {
+                        "value": "3001 90 91",
+                        "description": "Heparin and its salts"
+                    },
+                    {
+                        "value": "3001 90 98",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "3002 12 00",
+                        "description": "Antisera and other blood fractions"
+                    },
+                    {
+                        "value": "3002 13 00",
+                        "description": "Immunological products, unmixed, not put up in measured doses or in forms or packings for retail sale"
+                    },
+                    {
+                        "value": "3002 14 00",
+                        "description": "Immunological products, mixed, not put up in measured doses or in forms or packings for retail sale"
+                    },
+                    {
+                        "value": "3002 15 00",
+                        "description": "Immunological products, put up in measured doses or in forms or packings for retail sale"
+                    },
+                    {
+                        "value": "3002 90 30",
+                        "description": "Animal blood prepared for therapeutic, prophylactic or diagnostic uses"
+                    },
+                    {
+                        "value": "3003",
+                        "description": "Medicaments (excluding goods of heading 3002, 3005 or 3006) consisting of two or more constituents which have been mixed together for therapeutic or prophylactic uses, not put up in measured doses or in forms or packings for retail sale"
+                    },
+                    {
+                        "value": "3004",
+                        "description": "Medicaments (excluding goods of heading 3002, 3005 or 3006) consisting of mixed or unmixed products for therapeutic or prophylactic uses, put up in measured doses (including those in the form of transdermal administration systems) or in forms or packings for retail sale"
+                    },
+                    {
+                        "value": "3005",
+                        "description": "Wadding, gauze, bandages and similar articles (for example, dressings, adhesive plasters, poultices), impregnated or coated with pharmaceutical substances or put up in forms or packings for retail sale for medical, surgical, dental or veterinary purposes"
+                    },
+                    {
+                        "value": "3006",
+                        "description": "Pharmaceutical goods specified in note 4 to this chapter"
+                    },
+                    {
+                        "value": "3305 10 00",
+                        "description": "Shampoos"
+                    },
+                    {
+                        "value": "3002 41",
+                        "description": "Vaccines for human medicine"
+                    },
+                    {
+                        "value": "3002 42 00",
+                        "description": "Vaccines for veterinary medicine"
+                    },
+                    {
+                        "value": "3002 49 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "3002 51 00",
+                        "description": "Cell therapy products"
+                    },
+                    {
+                        "value": "3002 59 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "3822 11 00",
+                        "description": "For malaria"
+                    },
+                    {
+                        "value": "3822 12 00",
+                        "description": "For Zika and other diseases transmitted by mosquitoes of the genus Aedes"
+                    },
+                    {
+                        "value": "3822 13 00",
+                        "description": "For blood-grouping"
+                    },
+                    {
+                        "value": "3822 19 00",
+                        "description": "Other"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "PHARMACEUTICAL_PRODUCTS",
+                "description": "Pharmaceutical products of a kind normally used for health care, prevention of illness and as treatment for medical and veterinary purposes, including products used for contraception and sanitary protection"
+            },
+            "comment": "The reduced TVA rate is applied for the supply of medicines for human and veterinary use. See art. 291 para. (2) letter c) of the Fiscal Code."
         },
         {
             "memberState": "RO",
@@ -2091,332 +2417,6 @@
                 "value": 19
             },
             "situationOn": "2025-01-01+01:00"
-        },
-        {
-            "memberState": "RO",
-            "type": "REDUCED",
-            "rate": {
-                "type": "EXEMPTED",
-                "value": 0
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "8713",
-                        "description": "Carriages for disabled persons, whether or not motorised or otherwise mechanically propelled"
-                    },
-                    {
-                        "value": "8714 20 00",
-                        "description": "Of carriages for disabled persons"
-                    },
-                    {
-                        "value": "9001 30 00",
-                        "description": "Contact lenses"
-                    },
-                    {
-                        "value": "9001 40 41",
-                        "description": "Single focal"
-                    },
-                    {
-                        "value": "9001 40 49",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "9001 40 80",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "9001 50 41",
-                        "description": "Single focal"
-                    },
-                    {
-                        "value": "9001 50 49",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "9001 50 80",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "9001 90 00",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "9003 11 00",
-                        "description": "Of plastics"
-                    },
-                    {
-                        "value": "9003 19 00",
-                        "description": "Of other materials"
-                    },
-                    {
-                        "value": "9003 90 00",
-                        "description": "Parts"
-                    },
-                    {
-                        "value": "9004 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "9021 10 10",
-                        "description": "Orthopaedic appliances"
-                    },
-                    {
-                        "value": "9021 10 90",
-                        "description": "Splints and other fracture appliances"
-                    },
-                    {
-                        "value": "9021 21",
-                        "description": "Artificial teeth"
-                    },
-                    {
-                        "value": "9021 29 00",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "9021 31 00",
-                        "description": "Artificial joints"
-                    },
-                    {
-                        "value": "9021 39",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "9021 40 00",
-                        "description": "Hearing aids, excluding parts and accessories"
-                    },
-                    {
-                        "value": "9021 50 00",
-                        "description": "Pacemakers for stimulating heart muscles, excluding parts and accessories"
-                    },
-                    {
-                        "value": "9021 90",
-                        "description": "Other"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "MEDICAL_EQUIPMENT",
-                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
-            },
-            "comment": "Supply of prostheses and their accessories, with the exception of dental prostheses exempt from tax under art.292 para.(1) lett.(b) and supply of orthopedic products. When those goods are imported from a third territory or a third country, the reduced VAT rate is conditioned by submission of the Customs Notice for medical devices or the Declaration of conformity of the medical device manufacturer according to art.2 of the Order no.1009\/2016. Art.294 para.(5) letters c) and d) of the Fiscal Code."
-        },
-        {
-            "memberState": "RO",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 9
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "3102",
-                        "description": "Mineral or chemical fertilisers, nitrogenous"
-                    },
-                    {
-                        "value": "3103",
-                        "description": "Mineral or chemical fertilisers, phosphatic"
-                    },
-                    {
-                        "value": "3104",
-                        "description": "Mineral or chemical fertilisers, potassic"
-                    },
-                    {
-                        "value": "3105 90 80",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "3808 52 00",
-                        "description": "DDT (ISO) (clofenotane (INN)), in packings of a net weight content not exceeding 300 g"
-                    },
-                    {
-                        "value": "3808 59 00",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "3808 61 00",
-                        "description": "In packings of a net weight content not exceeding 300 g"
-                    },
-                    {
-                        "value": "3808 62 00",
-                        "description": "In packings of a net weight content exceeding 300 g but not exceeding 7,5 kg"
-                    },
-                    {
-                        "value": "3808 69 00",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "3808 91",
-                        "description": "Insecticides"
-                    },
-                    {
-                        "value": "3808 92",
-                        "description": "Fungicides"
-                    },
-                    {
-                        "value": "3808 93",
-                        "description": "Herbicides, anti-sprouting products and plant-growth regulators"
-                    },
-                    {
-                        "value": "3808 99 10",
-                        "description": "Rodenticides"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "AGRICULTURAL_PRODUCTION",
-                "description": "Supply of goods and services of a kind normally intended for use in agricultural production but excluding capital goods such as machinery or buildings"
-            },
-            "comment": "The reduced VAT rate shall be applied for the supply of chemical fertilizers and chemical pesticides used in agriculture, corresponding to the CN codes mentioned below. For details see art. 291 para. (2) letter l) of the Fiscal Code and art. 1 para. (2) of the Order no. 4634\/2022. The provisions shall apply until 31st of December 2031."
-        },
-        {
-            "memberState": "RO",
-            "type": "REDUCED",
-            "rate": {
-                "type": "EXEMPTED",
-                "value": 0
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "33.13.12",
-                        "description": "Repair and maintenance services of irradiation, electromedical and electrotherapeutic equipment"
-                    },
-                    {
-                        "value": "77.29.19",
-                        "description": "Rental and leasing services of other personal and household goods n.e.c."
-                    },
-                    {
-                        "value": "95.29.19",
-                        "description": "Repair services of other personal and household goods n.e.c."
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "MEDICAL_EQUIPMENT",
-                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
-            },
-            "comment": "The adaptation, repair, rental and leasing of medical equipment, carried out to non-profit entities registered in the Public Register organized by A.N.A.F., if the services purchased by non-profit entities are made available free of charge to hospital units in the public state network or are intended for hospital units owned and operated by non-profit entities. See art. 294 para. (5) letter b) and art. 294 para. (6) of the Fiscal Code."
-        },
-        {
-            "memberState": "RO",
-            "type": "REDUCED",
-            "rate": {
-                "type": "EXEMPTED",
-                "value": 0
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "33.13.12",
-                        "description": "Repair and maintenance services of irradiation, electromedical and electrotherapeutic equipment"
-                    },
-                    {
-                        "value": "77.29.19",
-                        "description": "Rental and leasing services of other personal and household goods n.e.c."
-                    },
-                    {
-                        "value": "95.29.19",
-                        "description": "Repair services of other personal and household goods n.e.c."
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "MEDICAL_EQUIPMENT",
-                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
-            },
-            "comment": "The adaptation, repair, rental and leasing of medical equipment, carried out to companies wholly owned by non-profit entities registered in the Public Register organized by ANAF, if the services are available free of charge to public hospitals or are intended for hospitals owned and operated by these companies, under the cumulative conditions laid down in art. 294 para. (5) letter (b^1) of the Fiscal Code. See also art. 294 para. (6) and (6^1) of the Fiscal Code."
-        },
-        {
-            "memberState": "RO",
-            "type": "REDUCED",
-            "rate": {
-                "type": "EXEMPTED",
-                "value": 0
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "41.00.20",
-                        "description": "Non-residential buildings"
-                    },
-                    {
-                        "value": "41.00.40",
-                        "description": "Construction works for non-residential buildings (new works, additions, alterations and renovation works)"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "PRIVATE_DWELLINGS",
-                "description": "The renovation and repair of private dwellings, excluding materials which account for a significant part of the value of the service supplied"
-            },
-            "comment": "The construction, rehabilitation, modernization services of hospital units, provided to non-profit entities registered in the Public Register organized by A.N.A.F., if the services purchased by non-profit entities are made available free of charge to hospital units in the public state network or are intended for hospital units owned and operated by non-profit entities. Art. 294 para. (5) letter (a) and art. 294 para. (6) of the Fiscal Code."
-        },
-        {
-            "memberState": "RO",
-            "type": "REDUCED",
-            "rate": {
-                "type": "EXEMPTED",
-                "value": 0
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "41.00.20",
-                        "description": "Non-residential buildings"
-                    },
-                    {
-                        "value": "41.00.40",
-                        "description": "Construction works for non-residential buildings (new works, additions, alterations and renovation works)"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "PRIVATE_DWELLINGS",
-                "description": "The renovation and repair of private dwellings, excluding materials which account for a significant part of the value of the service supplied"
-            },
-            "comment": "The construction, rehabilitation, modernization services of hospitals, provided to companies wholly owned by non-profit entities registered in the Public Register organized by A.N.A.F., if the services are available free of charge to public hospitals or are intended for hospitals owned and operated by these companies, under the cumulative conditions laid down in art. 294 para. (5) letter (a^1) of the Fiscal Code. See also art. 294 para. (6) and (6^1) of the Fiscal Code."
-        },
-        {
-            "memberState": "RO",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "4401 11 00",
-                        "description": "Coniferous"
-                    },
-                    {
-                        "value": "4401 12 00",
-                        "description": "Non-coniferous"
-                    },
-                    {
-                        "value": "4401 31 00",
-                        "description": "Wood pellets"
-                    },
-                    {
-                        "value": "4401 32 00",
-                        "description": "Wood briquettes"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "WOOD_ARTICLE98",
-                "description": "Wood used as firewood (until 1 January 2030)"
-            },
-            "comment": "Supply of firewood in the form of logs, in billets, in twigs, in faggots or in similar forms, and sawdust and wood waste and scrap, agglomerated in logs, briquettes, pellets or similar forms. See art. 291 para. (3) letters m), n) of the Fiscal Code."
         }
     ]
 }

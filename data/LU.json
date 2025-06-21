@@ -553,36 +553,6 @@
             "cnCodes": {
                 "code": [
                     {
-                        "value": "0301 91",
-                        "description": "Trout (Salmo trutta, Oncorhynchus mykiss, Oncorhynchus clarki, Oncorhynchus aguabonita, Oncorhynchus gilae, Oncorhynchus apache and Oncorhynchus chrysogaster)"
-                    },
-                    {
-                        "value": "0301 92",
-                        "description": "Eels (Anguilla spp.)"
-                    },
-                    {
-                        "value": "0301 93 00",
-                        "description": "Carp (Cyprinus spp., Carassius spp., Ctenopharyngodon idellus, Hypophthalmichthys spp., Cirrhinus spp., Mylopharyngodon piceus, Catla catla, Labeo spp., Osteochilus hasselti, Leptobarbus hoeveni, Megalobrama spp.)"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "FOODSTUFFS",
-                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
-            },
-            "comment": "Live Fish, for human and animal consumption or  normally intended for use in the preparation of foodstuffs"
-        },
-        {
-            "memberState": "LU",
-            "type": "REDUCED",
-            "rate": {
-                "type": "SUPER_REDUCED_RATE",
-                "value": 3
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
                         "value": "0101 30 00",
                         "description": "Asses"
                     },
@@ -983,248 +953,96 @@
             "cnCodes": {
                 "code": [
                     {
-                        "value": "1501 10 90",
+                        "value": "0101 21 00",
+                        "description": "Pure-bred breeding animals"
+                    },
+                    {
+                        "value": "0101 29 90",
                         "description": "Other"
                     },
                     {
-                        "value": "1501 20 90",
+                        "value": "0511 99 85",
                         "description": "Other"
                     },
                     {
-                        "value": "1501 90 00",
+                        "value": "0601",
+                        "description": "Bulbs, tubers, tuberous roots, corms, crowns and rhizomes, dormant, in growth or in flower; chicory plants and roots other than roots of heading 1212"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "EXEMPTION_SUPERREDUCED",
+                "description": "Exemptions and super-reduced rates (Article 105a(1) of the VAT Directive)"
+            },
+            "comment": "Supply of goods and services of a kind normally intended for use in agricultural production:\n- Draft horses\n- Ova of animals used in agricultural production\n- Rhubarb rhizomes; Asparagus crowns; Chicory plants and roots other than roots of heading 1212"
+        },
+        {
+            "memberState": "LU",
+            "type": "REDUCED",
+            "rate": {
+                "type": "SUPER_REDUCED_RATE",
+                "value": 3
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "0101 21 00",
+                        "description": "Pure-bred breeding animals"
+                    },
+                    {
+                        "value": "0101 29 90",
                         "description": "Other"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "CERTAIN_AGRICULTURAL_INPUT",
+                "description": "Certain agricultural inputs"
+            },
+            "comment": "Draft horses"
+        },
+        {
+            "memberState": "LU",
+            "type": "REDUCED",
+            "rate": {
+                "type": "SUPER_REDUCED_RATE",
+                "value": 3
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cnCodes": {
+                "code": {
+                    "value": "0101 90 00",
+                    "description": "Other"
+                }
+            },
+            "category": {
+                "identifier": "CERTAIN_AGRICULTURAL_INPUT",
+                "description": "Certain agricultural inputs"
+            },
+            "comment": "Live mules and hinnies"
+        },
+        {
+            "memberState": "LU",
+            "type": "REDUCED",
+            "rate": {
+                "type": "SUPER_REDUCED_RATE",
+                "value": 3
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "0301 91",
+                        "description": "Trout (Salmo trutta, Oncorhynchus mykiss, Oncorhynchus clarki, Oncorhynchus aguabonita, Oncorhynchus gilae, Oncorhynchus apache and Oncorhynchus chrysogaster)"
                     },
                     {
-                        "value": "1502 10 90",
-                        "description": "Other"
+                        "value": "0301 92",
+                        "description": "Eels (Anguilla spp.)"
                     },
                     {
-                        "value": "1502 90 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "1503 00 19",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "1503 00 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "1504",
-                        "description": "Fats and oils and their fractions, of fish or marine mammals, whether or not refined, but not chemically modified"
-                    },
-                    {
-                        "value": "1506 00 00",
-                        "description": "Other animal fats and oils and their fractions, whether or not refined, but not chemically modified"
-                    },
-                    {
-                        "value": "1507 10 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "1507 90 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "1508 10 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "1508 90 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "1509",
-                        "description": "Olive oil and its fractions, whether or not refined, but not chemically modified"
-                    },
-                    {
-                        "value": "1510 00",
-                        "description": "Other oils and their fractions, obtained solely from olives, whether or not refined, but not chemically modified, including blends of these oils or fractions with oils or fractions of heading 1509"
-                    },
-                    {
-                        "value": "1511 10 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "1511 90 11",
-                        "description": "In immediate packings of a net content not exceeding 1 kg"
-                    },
-                    {
-                        "value": "1511 90 19",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "1511 90 99",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "1512 11 91",
-                        "description": "Sunflower-seed oil"
-                    },
-                    {
-                        "value": "1512 11 99",
-                        "description": "Safflower oil"
-                    },
-                    {
-                        "value": "1512 19 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "1512 21 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "1512 29 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "1513 11 91",
-                        "description": "In immediate packings of a net content not exceeding 1 kg"
-                    },
-                    {
-                        "value": "1513 11 99",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "1513 19 11",
-                        "description": "In immediate packings of a net content not exceeding 1 kg"
-                    },
-                    {
-                        "value": "1513 19 19",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "1513 19 91",
-                        "description": "In immediate packings of a net content not exceeding 1 kg"
-                    },
-                    {
-                        "value": "1513 19 99",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "1513 21 30",
-                        "description": "In immediate packings of a net content not exceeding 1 kg"
-                    },
-                    {
-                        "value": "1513 21 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "1513 29 11",
-                        "description": "In immediate packings of a net content not exceeding 1 kg"
-                    },
-                    {
-                        "value": "1513 29 19",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "1513 29 50",
-                        "description": "In immediate packings of a net content not exceeding 1 kg"
-                    },
-                    {
-                        "value": "1513 29 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "1514 11 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "1514 19 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "1514 91 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "1514 99 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "1515 11 00",
-                        "description": "Crude oil"
-                    },
-                    {
-                        "value": "1515 19 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "1515 21 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "1515 29 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "1515 50 19",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "1515 50 99",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "1515 90 29",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "1515 90 39",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "1515 90 51",
-                        "description": "Solid, in immediate packings of a net content not exceeding 1 kg"
-                    },
-                    {
-                        "value": "1515 90 59",
-                        "description": "Solid, other; fluid"
-                    },
-                    {
-                        "value": "1515 90 91",
-                        "description": "Solid, in immediate packings of a net content not exceeding 1 kg"
-                    },
-                    {
-                        "value": "1515 90 99",
-                        "description": "Solid, other; fluid"
-                    },
-                    {
-                        "value": "1516 10",
-                        "description": "Animal fats and oils and their fractions"
-                    },
-                    {
-                        "value": "1516 20 91",
-                        "description": "In immediate packings of a net content not exceeding 1 kg"
-                    },
-                    {
-                        "value": "1516 20 96",
-                        "description": "Groundnut, cotton-seed, soya-bean or sunflower-seed oils; other oils containing less than 50 % by weight of free fatty acids and excluding palm kernel, illipe, coconut, colza, rapeseed or copaiba oils"
-                    },
-                    {
-                        "value": "1516 20 98",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "1515 60 51",
-                        "description": "Solid, in immediate packings of a net content not exceeding 1 kg"
-                    },
-                    {
-                        "value": "1515 60 59",
-                        "description": "Solid, other; fluid"
-                    },
-                    {
-                        "value": "1515 60 91",
-                        "description": "Solid, in immediate packings of a net content not exceeding 1 kg"
-                    },
-                    {
-                        "value": "1515 60 99",
-                        "description": "Solid, other; fluid"
-                    },
-                    {
-                        "value": "1516 30",
-                        "description": "Microbial fats and oils and their fractions"
+                        "value": "0301 93 00",
+                        "description": "Carp (Cyprinus spp., Carassius spp., Ctenopharyngodon idellus, Hypophthalmichthys spp., Cirrhinus spp., Mylopharyngodon piceus, Catla catla, Labeo spp., Osteochilus hasselti, Leptobarbus hoeveni, Megalobrama spp.)"
                     }
                 ]
             },
@@ -1232,7 +1050,7 @@
                 "identifier": "FOODSTUFFS",
                 "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
             },
-            "comment": "Animal or vegetable fats and oils for human and animal consumption or  normally intended for use in the preparation of foodstuffs"
+            "comment": "Live Fish, for human and animal consumption or  normally intended for use in the preparation of foodstuffs"
         },
         {
             "memberState": "LU",
@@ -1283,40 +1101,6 @@
                 "description": "Pharmaceutical products of a kind normally used for health care, prevention of illness and as treatment for medical and veterinary purposes, including products used for contraception and sanitary protection"
             },
             "comment": "Products used for sanitary protection: sanitary towels (pads), tampons, panty liners, period panties, menstrual cups, menstrual sponges and similar feminine hygiene products; Sheath contraceptives"
-        },
-        {
-            "memberState": "LU",
-            "type": "REDUCED",
-            "rate": {
-                "type": "SUPER_REDUCED_RATE",
-                "value": 3
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "0101 21 00",
-                        "description": "Pure-bred breeding animals"
-                    },
-                    {
-                        "value": "0101 29 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "0511 99 85",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "0601",
-                        "description": "Bulbs, tubers, tuberous roots, corms, crowns and rhizomes, dormant, in growth or in flower; chicory plants and roots other than roots of heading 1212"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "EXEMPTION_SUPERREDUCED",
-                "description": "Exemptions and super-reduced rates (Article 105a(1) of the VAT Directive)"
-            },
-            "comment": "Supply of goods and services of a kind normally intended for use in agricultural production:\n- Draft horses\n- Ova of animals used in agricultural production\n- Rhubarb rhizomes; Asparagus crowns; Chicory plants and roots other than roots of heading 1212"
         },
         {
             "memberState": "LU",
@@ -2508,40 +2292,256 @@
             "cnCodes": {
                 "code": [
                     {
-                        "value": "0101 21 00",
-                        "description": "Pure-bred breeding animals"
+                        "value": "1501 10 90",
+                        "description": "Other"
                     },
                     {
-                        "value": "0101 29 90",
+                        "value": "1501 20 90",
                         "description": "Other"
+                    },
+                    {
+                        "value": "1501 90 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "1502 10 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "1502 90 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "1503 00 19",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "1503 00 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "1504",
+                        "description": "Fats and oils and their fractions, of fish or marine mammals, whether or not refined, but not chemically modified"
+                    },
+                    {
+                        "value": "1506 00 00",
+                        "description": "Other animal fats and oils and their fractions, whether or not refined, but not chemically modified"
+                    },
+                    {
+                        "value": "1507 10 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "1507 90 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "1508 10 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "1508 90 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "1509",
+                        "description": "Olive oil and its fractions, whether or not refined, but not chemically modified"
+                    },
+                    {
+                        "value": "1510 00",
+                        "description": "Other oils and their fractions, obtained solely from olives, whether or not refined, but not chemically modified, including blends of these oils or fractions with oils or fractions of heading 1509"
+                    },
+                    {
+                        "value": "1511 10 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "1511 90 11",
+                        "description": "In immediate packings of a net content not exceeding 1 kg"
+                    },
+                    {
+                        "value": "1511 90 19",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "1511 90 99",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "1512 11 91",
+                        "description": "Sunflower-seed oil"
+                    },
+                    {
+                        "value": "1512 11 99",
+                        "description": "Safflower oil"
+                    },
+                    {
+                        "value": "1512 19 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "1512 21 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "1512 29 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "1513 11 91",
+                        "description": "In immediate packings of a net content not exceeding 1 kg"
+                    },
+                    {
+                        "value": "1513 11 99",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "1513 19 11",
+                        "description": "In immediate packings of a net content not exceeding 1 kg"
+                    },
+                    {
+                        "value": "1513 19 19",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "1513 19 91",
+                        "description": "In immediate packings of a net content not exceeding 1 kg"
+                    },
+                    {
+                        "value": "1513 19 99",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "1513 21 30",
+                        "description": "In immediate packings of a net content not exceeding 1 kg"
+                    },
+                    {
+                        "value": "1513 21 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "1513 29 11",
+                        "description": "In immediate packings of a net content not exceeding 1 kg"
+                    },
+                    {
+                        "value": "1513 29 19",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "1513 29 50",
+                        "description": "In immediate packings of a net content not exceeding 1 kg"
+                    },
+                    {
+                        "value": "1513 29 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "1514 11 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "1514 19 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "1514 91 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "1514 99 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "1515 11 00",
+                        "description": "Crude oil"
+                    },
+                    {
+                        "value": "1515 19 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "1515 21 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "1515 29 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "1515 50 19",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "1515 50 99",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "1515 90 29",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "1515 90 39",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "1515 90 51",
+                        "description": "Solid, in immediate packings of a net content not exceeding 1 kg"
+                    },
+                    {
+                        "value": "1515 90 59",
+                        "description": "Solid, other; fluid"
+                    },
+                    {
+                        "value": "1515 90 91",
+                        "description": "Solid, in immediate packings of a net content not exceeding 1 kg"
+                    },
+                    {
+                        "value": "1515 90 99",
+                        "description": "Solid, other; fluid"
+                    },
+                    {
+                        "value": "1516 10",
+                        "description": "Animal fats and oils and their fractions"
+                    },
+                    {
+                        "value": "1516 20 91",
+                        "description": "In immediate packings of a net content not exceeding 1 kg"
+                    },
+                    {
+                        "value": "1516 20 96",
+                        "description": "Groundnut, cotton-seed, soya-bean or sunflower-seed oils; other oils containing less than 50 % by weight of free fatty acids and excluding palm kernel, illipe, coconut, colza, rapeseed or copaiba oils"
+                    },
+                    {
+                        "value": "1516 20 98",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "1515 60 51",
+                        "description": "Solid, in immediate packings of a net content not exceeding 1 kg"
+                    },
+                    {
+                        "value": "1515 60 59",
+                        "description": "Solid, other; fluid"
+                    },
+                    {
+                        "value": "1515 60 91",
+                        "description": "Solid, in immediate packings of a net content not exceeding 1 kg"
+                    },
+                    {
+                        "value": "1515 60 99",
+                        "description": "Solid, other; fluid"
+                    },
+                    {
+                        "value": "1516 30",
+                        "description": "Microbial fats and oils and their fractions"
                     }
                 ]
             },
             "category": {
-                "identifier": "CERTAIN_AGRICULTURAL_INPUT",
-                "description": "Certain agricultural inputs"
+                "identifier": "FOODSTUFFS",
+                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
             },
-            "comment": "Draft horses"
-        },
-        {
-            "memberState": "LU",
-            "type": "REDUCED",
-            "rate": {
-                "type": "SUPER_REDUCED_RATE",
-                "value": 3
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cnCodes": {
-                "code": {
-                    "value": "0101 90 00",
-                    "description": "Other"
-                }
-            },
-            "category": {
-                "identifier": "CERTAIN_AGRICULTURAL_INPUT",
-                "description": "Certain agricultural inputs"
-            },
-            "comment": "Live mules and hinnies"
+            "comment": "Animal or vegetable fats and oils for human and animal consumption or  normally intended for use in the preparation of foodstuffs"
         },
         {
             "memberState": "LU",
@@ -2554,24 +2554,62 @@
             "cnCodes": {
                 "code": [
                     {
-                        "value": "1211",
-                        "description": "Plants and parts of plants (including seeds and fruits), of a kind used primarily in perfumery, in pharmacy or for insecticidal, fungicidal or similar purposes, fresh, chilled, frozen or dried, whether or not cut, crushed or powdered"
+                        "value": "61",
+                        "description": "CHAPTER 61 - ARTICLES OF APPAREL AND CLOTHING ACCESSORIES, KNITTED OR CROCHETED"
                     },
                     {
-                        "value": "3003",
-                        "description": "Medicaments (excluding goods of heading 3002, 3005 or 3006) consisting of two or more constituents which have been mixed together for therapeutic or prophylactic uses, not put up in measured doses or in forms or packings for retail sale"
+                        "value": "62",
+                        "description": "CHAPTER 62 - ARTICLES OF APPAREL AND CLOTHING ACCESSORIES, NOT KNITTED OR CROCHETED"
                     },
                     {
-                        "value": "3004",
-                        "description": "Medicaments (excluding goods of heading 3002, 3005 or 3006) consisting of mixed or unmixed products for therapeutic or prophylactic uses, put up in measured doses (including those in the form of transdermal administration systems) or in forms or packings for retail sale"
+                        "value": "64",
+                        "description": "CHAPTER 64 - FOOTWEAR, GAITERS AND THE LIKE; PARTS OF SUCH ARTICLES"
+                    },
+                    {
+                        "value": "65",
+                        "description": "CHAPTER 65 - HEADGEAR AND PARTS THEREOF"
                     }
                 ]
             },
             "category": {
-                "identifier": "FOODSTUFFS",
-                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
+                "identifier": "EXEMPTION_SUPERREDUCED",
+                "description": "Exemptions and super-reduced rates (Article 105a(1) of the VAT Directive)"
             },
-            "comment": "Plants and part of plants, seeds and grains, used for preparing infusions or teas"
+            "comment": "Children clothing, if clearly intended for children of a max. age of thirteen; - Children footwear; for boys up to and included size 40; for girls up to and included size 35.5 (35 if half sizes not available) for pumps, and up to and included size 38.5 (38 if half sizes not available) for any other shoe type unless heel hight, sole hight included, exceeds 4 cm"
+        },
+        {
+            "memberState": "LU",
+            "type": "REDUCED",
+            "rate": {
+                "type": "SUPER_REDUCED_RATE",
+                "value": 3
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "61",
+                        "description": "CHAPTER 61 - ARTICLES OF APPAREL AND CLOTHING ACCESSORIES, KNITTED OR CROCHETED"
+                    },
+                    {
+                        "value": "62",
+                        "description": "CHAPTER 62 - ARTICLES OF APPAREL AND CLOTHING ACCESSORIES, NOT KNITTED OR CROCHETED"
+                    },
+                    {
+                        "value": "64",
+                        "description": "CHAPTER 64 - FOOTWEAR, GAITERS AND THE LIKE; PARTS OF SUCH ARTICLES"
+                    },
+                    {
+                        "value": "65",
+                        "description": "CHAPTER 65 - HEADGEAR AND PARTS THEREOF"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "CHILD_WEAR",
+                "description": "Clothing, headgear, scarves, gloves and shoes for children under 14 years of age"
+            },
+            "comment": "- Children clothing, if clearly intended for children of a max. age of thirteen \n- Children footwear; for boys up to and included size 40; for girls up to and included size 35.5 (35 if half sizes not available) for pumps, and up to and included size 38.5 (38 if half sizes not available) for any other shoe type unless heel hight, sole hight included, exceeds 4 cm"
         },
         {
             "memberState": "LU",
@@ -3450,6 +3488,36 @@
             "cnCodes": {
                 "code": [
                     {
+                        "value": "1211",
+                        "description": "Plants and parts of plants (including seeds and fruits), of a kind used primarily in perfumery, in pharmacy or for insecticidal, fungicidal or similar purposes, fresh, chilled, frozen or dried, whether or not cut, crushed or powdered"
+                    },
+                    {
+                        "value": "3003",
+                        "description": "Medicaments (excluding goods of heading 3002, 3005 or 3006) consisting of two or more constituents which have been mixed together for therapeutic or prophylactic uses, not put up in measured doses or in forms or packings for retail sale"
+                    },
+                    {
+                        "value": "3004",
+                        "description": "Medicaments (excluding goods of heading 3002, 3005 or 3006) consisting of mixed or unmixed products for therapeutic or prophylactic uses, put up in measured doses (including those in the form of transdermal administration systems) or in forms or packings for retail sale"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "FOODSTUFFS",
+                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
+            },
+            "comment": "Plants and part of plants, seeds and grains, used for preparing infusions or teas"
+        },
+        {
+            "memberState": "LU",
+            "type": "REDUCED",
+            "rate": {
+                "type": "SUPER_REDUCED_RATE",
+                "value": 3
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
                         "value": "3101 00 00",
                         "description": "Animal or vegetable fertilisers, whether or not mixed together or chemically treated; fertilisers produced by the mixing or chemical treatment of animal or vegetable products"
                     },
@@ -3495,74 +3563,6 @@
                 "description": "Pharmaceutical products of a kind normally used for health care, prevention of illness and as treatment for medical and veterinary purposes, including products used for contraception and sanitary protection"
             },
             "comment": "Sheath contraceptives"
-        },
-        {
-            "memberState": "LU",
-            "type": "REDUCED",
-            "rate": {
-                "type": "SUPER_REDUCED_RATE",
-                "value": 3
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "61",
-                        "description": "CHAPTER 61 - ARTICLES OF APPAREL AND CLOTHING ACCESSORIES, KNITTED OR CROCHETED"
-                    },
-                    {
-                        "value": "62",
-                        "description": "CHAPTER 62 - ARTICLES OF APPAREL AND CLOTHING ACCESSORIES, NOT KNITTED OR CROCHETED"
-                    },
-                    {
-                        "value": "64",
-                        "description": "CHAPTER 64 - FOOTWEAR, GAITERS AND THE LIKE; PARTS OF SUCH ARTICLES"
-                    },
-                    {
-                        "value": "65",
-                        "description": "CHAPTER 65 - HEADGEAR AND PARTS THEREOF"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "EXEMPTION_SUPERREDUCED",
-                "description": "Exemptions and super-reduced rates (Article 105a(1) of the VAT Directive)"
-            },
-            "comment": "Children clothing, if clearly intended for children of a max. age of thirteen; - Children footwear; for boys up to and included size 40; for girls up to and included size 35.5 (35 if half sizes not available) for pumps, and up to and included size 38.5 (38 if half sizes not available) for any other shoe type unless heel hight, sole hight included, exceeds 4 cm"
-        },
-        {
-            "memberState": "LU",
-            "type": "REDUCED",
-            "rate": {
-                "type": "SUPER_REDUCED_RATE",
-                "value": 3
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "61",
-                        "description": "CHAPTER 61 - ARTICLES OF APPAREL AND CLOTHING ACCESSORIES, KNITTED OR CROCHETED"
-                    },
-                    {
-                        "value": "62",
-                        "description": "CHAPTER 62 - ARTICLES OF APPAREL AND CLOTHING ACCESSORIES, NOT KNITTED OR CROCHETED"
-                    },
-                    {
-                        "value": "64",
-                        "description": "CHAPTER 64 - FOOTWEAR, GAITERS AND THE LIKE; PARTS OF SUCH ARTICLES"
-                    },
-                    {
-                        "value": "65",
-                        "description": "CHAPTER 65 - HEADGEAR AND PARTS THEREOF"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "CHILD_WEAR",
-                "description": "Clothing, headgear, scarves, gloves and shoes for children under 14 years of age"
-            },
-            "comment": "- Children clothing, if clearly intended for children of a max. age of thirteen \n- Children footwear; for boys up to and included size 40; for girls up to and included size 35.5 (35 if half sizes not available) for pumps, and up to and included size 38.5 (38 if half sizes not available) for any other shoe type unless heel hight, sole hight included, exceeds 4 cm"
         }
     ]
 }

@@ -1181,123 +1181,6 @@
                 "value": 14
             },
             "situationOn": "2025-01-01+01:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "59.14",
-                        "description": "Motion picture projection services"
-                    },
-                    {
-                        "value": "90.01",
-                        "description": "Services of performing artists"
-                    },
-                    {
-                        "value": "90.02.11",
-                        "description": "Performing arts event production and presentation services"
-                    },
-                    {
-                        "value": "90.02.12",
-                        "description": "Performing arts event promotion and organisation services"
-                    },
-                    {
-                        "value": "90.04",
-                        "description": "Arts facility operation services"
-                    },
-                    {
-                        "value": "91.02",
-                        "description": "Museum services"
-                    },
-                    {
-                        "value": "91.03",
-                        "description": "Operation services of historical sites and buildings and similar visitor attractions"
-                    },
-                    {
-                        "value": "91.04.1",
-                        "description": "Botanical and zoological garden services and nature reserve services"
-                    },
-                    {
-                        "value": "93.21",
-                        "description": "Amusement park and theme park services"
-                    },
-                    {
-                        "value": "93.29.19",
-                        "description": "Miscellaneous recreational services n.e.c."
-                    },
-                    {
-                        "value": "93.29.21",
-                        "description": "Firework and \"light and sound\" shows services"
-                    },
-                    {
-                        "value": "93.29.29",
-                        "description": "Entertainment services n.e.c."
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "CULTURAL_EVENTS",
-                "description": "Admission to shows, theatres, circuses, fairs, amusement parks, concerts, museums, zoos, cinemas, exhibitions and similar cultural events and facilities"
-            },
-            "comment": "Including entrance fees for rides in amusement parks. Usually exempted or out of the scope of VAT if organized by non-profit making organizations or public bodies."
-        },
-        {
-            "memberState": "FI",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 14
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "49.1",
-                        "description": "Passenger rail transport services, interurban"
-                    },
-                    {
-                        "value": "49.3",
-                        "description": "Other passenger land transport services"
-                    },
-                    {
-                        "value": "50.1",
-                        "description": "Sea and coastal passenger water transport services"
-                    },
-                    {
-                        "value": "50.3",
-                        "description": "Inland passenger water transport services"
-                    },
-                    {
-                        "value": "51.1",
-                        "description": "Passenger air transport services"
-                    },
-                    {
-                        "value": "96.03.12",
-                        "description": "Undertaking services"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "TRANSPORT_PASSENGERS",
-                "description": "Transport of passengers and their accompanying luggage"
-            },
-            "comment": "Domestic transport. In class 96.03.12 only carriage of corpses included."
-        },
-        {
-            "memberState": "FI",
-            "type": "STANDARD",
-            "rate": {
-                "type": "DEFAULT",
-                "value": 25.5
-            },
-            "situationOn": "2025-01-01+01:00"
-        },
-        {
-            "memberState": "FI",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 14
-            },
-            "situationOn": "2025-01-01+01:00",
             "cnCodes": {
                 "code": [
                     {
@@ -1459,6 +1342,48 @@
             "cpaCodes": {
                 "code": [
                     {
+                        "value": "49.1",
+                        "description": "Passenger rail transport services, interurban"
+                    },
+                    {
+                        "value": "49.3",
+                        "description": "Other passenger land transport services"
+                    },
+                    {
+                        "value": "50.1",
+                        "description": "Sea and coastal passenger water transport services"
+                    },
+                    {
+                        "value": "50.3",
+                        "description": "Inland passenger water transport services"
+                    },
+                    {
+                        "value": "51.1",
+                        "description": "Passenger air transport services"
+                    },
+                    {
+                        "value": "96.03.12",
+                        "description": "Undertaking services"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "TRANSPORT_PASSENGERS",
+                "description": "Transport of passengers and their accompanying luggage"
+            },
+            "comment": "Domestic transport. In class 96.03.12 only carriage of corpses included."
+        },
+        {
+            "memberState": "FI",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 14
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cpaCodes": {
+                "code": [
+                    {
                         "value": "55.10",
                         "description": "Hotel and similar accommodation services"
                     },
@@ -1512,6 +1437,72 @@
             "cpaCodes": {
                 "code": [
                     {
+                        "value": "59.14",
+                        "description": "Motion picture projection services"
+                    },
+                    {
+                        "value": "90.01",
+                        "description": "Services of performing artists"
+                    },
+                    {
+                        "value": "90.02.11",
+                        "description": "Performing arts event production and presentation services"
+                    },
+                    {
+                        "value": "90.02.12",
+                        "description": "Performing arts event promotion and organisation services"
+                    },
+                    {
+                        "value": "90.04",
+                        "description": "Arts facility operation services"
+                    },
+                    {
+                        "value": "91.02",
+                        "description": "Museum services"
+                    },
+                    {
+                        "value": "91.03",
+                        "description": "Operation services of historical sites and buildings and similar visitor attractions"
+                    },
+                    {
+                        "value": "91.04.1",
+                        "description": "Botanical and zoological garden services and nature reserve services"
+                    },
+                    {
+                        "value": "93.21",
+                        "description": "Amusement park and theme park services"
+                    },
+                    {
+                        "value": "93.29.19",
+                        "description": "Miscellaneous recreational services n.e.c."
+                    },
+                    {
+                        "value": "93.29.21",
+                        "description": "Firework and \"light and sound\" shows services"
+                    },
+                    {
+                        "value": "93.29.29",
+                        "description": "Entertainment services n.e.c."
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "CULTURAL_EVENTS",
+                "description": "Admission to shows, theatres, circuses, fairs, amusement parks, concerts, museums, zoos, cinemas, exhibitions and similar cultural events and facilities"
+            },
+            "comment": "Including entrance fees for rides in amusement parks. Usually exempted or out of the scope of VAT if organized by non-profit making organizations or public bodies."
+        },
+        {
+            "memberState": "FI",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 14
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cpaCodes": {
+                "code": [
+                    {
                         "value": "90.01",
                         "description": "Services of performing artists"
                     },
@@ -1550,6 +1541,15 @@
                 "description": "Admission to sporting events"
             },
             "comment": "Usually exempted or out of the scope of VAT if organized by non-profit making organizations or public bodies."
+        },
+        {
+            "memberState": "FI",
+            "type": "STANDARD",
+            "rate": {
+                "type": "DEFAULT",
+                "value": 25.5
+            },
+            "situationOn": "2025-01-01+01:00"
         }
     ]
 }

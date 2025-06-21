@@ -3,15 +3,6 @@
     "vatRateResults": [
         {
             "memberState": "PT",
-            "type": "STANDARD",
-            "rate": {
-                "type": "DEFAULT",
-                "value": 23
-            },
-            "situationOn": "2025-01-01+01:00"
-        },
-        {
-            "memberState": "PT",
             "type": "REDUCED",
             "rate": {
                 "type": "REDUCED_RATE",
@@ -869,26 +860,6 @@
             },
             "situationOn": "2025-01-01+01:00",
             "cnCodes": {
-                "code": {
-                    "value": "2201",
-                    "description": "Waters, including natural or artificial mineral waters and aerated waters, not containing added sugar or other sweetening matter nor flavoured; ice and snow"
-                }
-            },
-            "category": {
-                "identifier": "SUPPLY_WATER",
-                "description": "Supply of water"
-            },
-            "comment": "Supply of bottled water is also taxed at 13%."
-        },
-        {
-            "memberState": "PT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 6
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cnCodes": {
                 "code": [
                     {
                         "value": "0101",
@@ -1165,6 +1136,140 @@
                 "description": "Supply of goods and services of a kind normally intended for use in agricultural production but excluding capital goods such as machinery or buildings"
             },
             "comment": "Some products are taxed at 13%. \nThe tax rate on animals applies only to live stock, agricultural labor and reproductive."
+        },
+        {
+            "memberState": "PT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 13
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "56.1",
+                        "description": "Restaurant and mobile food serving services"
+                    },
+                    {
+                        "value": "56.10",
+                        "description": "Restaurant and mobile food serving services"
+                    },
+                    {
+                        "value": "56.10.1",
+                        "description": "Restaurant and mobile food serving services"
+                    },
+                    {
+                        "value": "56.10.11",
+                        "description": "Meal serving services with full restaurant service"
+                    },
+                    {
+                        "value": "56.10.12",
+                        "description": "Meal serving services in railway dining cars and on ships"
+                    },
+                    {
+                        "value": "56.10.13",
+                        "description": "Meal serving services in self-service establishments"
+                    },
+                    {
+                        "value": "56.10.19",
+                        "description": "Other meal serving services"
+                    },
+                    {
+                        "value": "56.2",
+                        "description": "Event catering services and other food serving services"
+                    },
+                    {
+                        "value": "56.21",
+                        "description": "Event catering services"
+                    },
+                    {
+                        "value": "56.21.11",
+                        "description": "Event catering services for private households"
+                    },
+                    {
+                        "value": "56.21.19",
+                        "description": "Other event catering services"
+                    },
+                    {
+                        "value": "56.29",
+                        "description": "Other food serving services"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "RESTAURANT",
+                "description": "Restaurant and catering services, it being possible to exclude the supply of (alcoholic and\/or non-alcoholic) beverages"
+            },
+            "comment": "The reduced rate excludes alcoholic beverages and soft drinks ."
+        },
+        {
+            "memberState": "PT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 16
+            },
+            "situationOn": "2025-01-01+01:00",
+            "category": {
+                "identifier": "REGION",
+                "description": "Special reduced rate for specific regions (including articles 104, 105 and 120 of the VAT Directive)"
+            },
+            "comment": "Azores Autonomous Region"
+        },
+        {
+            "memberState": "PT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 22
+            },
+            "situationOn": "2025-01-01+01:00",
+            "category": {
+                "identifier": "REGION",
+                "description": "Special reduced rate for specific regions (including articles 104, 105 and 120 of the VAT Directive)"
+            },
+            "comment": "Madeira Autonomous Region"
+        },
+        {
+            "memberState": "PT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "SUPER_REDUCED_RATE",
+                "value": 6
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cnCodes": {
+                "code": {
+                    "value": "4801 00 00",
+                    "description": "Newsprint, in rolls or sheets"
+                }
+            },
+            "category": {
+                "identifier": "TEMPORARY_EXEMPTION_RATE",
+                "description": "Temporary Exemptions, super-reduced or reduced rates (Article 105a(2) of the VAT Directive)"
+            },
+            "comment": "newsprint"
+        },
+        {
+            "memberState": "PT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 6
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cnCodes": {
+                "code": {
+                    "value": "2201",
+                    "description": "Waters, including natural or artificial mineral waters and aerated waters, not containing added sugar or other sweetening matter nor flavoured; ice and snow"
+                }
+            },
+            "category": {
+                "identifier": "SUPPLY_WATER",
+                "description": "Supply of water"
+            },
+            "comment": "Supply of bottled water is also taxed at 13%."
         },
         {
             "memberState": "PT",
@@ -1831,117 +1936,12 @@
         },
         {
             "memberState": "PT",
-            "type": "REDUCED",
+            "type": "STANDARD",
             "rate": {
-                "type": "REDUCED_RATE",
-                "value": 13
+                "type": "DEFAULT",
+                "value": 23
             },
-            "situationOn": "2025-01-01+01:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "56.1",
-                        "description": "Restaurant and mobile food serving services"
-                    },
-                    {
-                        "value": "56.10",
-                        "description": "Restaurant and mobile food serving services"
-                    },
-                    {
-                        "value": "56.10.1",
-                        "description": "Restaurant and mobile food serving services"
-                    },
-                    {
-                        "value": "56.10.11",
-                        "description": "Meal serving services with full restaurant service"
-                    },
-                    {
-                        "value": "56.10.12",
-                        "description": "Meal serving services in railway dining cars and on ships"
-                    },
-                    {
-                        "value": "56.10.13",
-                        "description": "Meal serving services in self-service establishments"
-                    },
-                    {
-                        "value": "56.10.19",
-                        "description": "Other meal serving services"
-                    },
-                    {
-                        "value": "56.2",
-                        "description": "Event catering services and other food serving services"
-                    },
-                    {
-                        "value": "56.21",
-                        "description": "Event catering services"
-                    },
-                    {
-                        "value": "56.21.11",
-                        "description": "Event catering services for private households"
-                    },
-                    {
-                        "value": "56.21.19",
-                        "description": "Other event catering services"
-                    },
-                    {
-                        "value": "56.29",
-                        "description": "Other food serving services"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "RESTAURANT",
-                "description": "Restaurant and catering services, it being possible to exclude the supply of (alcoholic and\/or non-alcoholic) beverages"
-            },
-            "comment": "The reduced rate excludes alcoholic beverages and soft drinks ."
-        },
-        {
-            "memberState": "PT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 16
-            },
-            "situationOn": "2025-01-01+01:00",
-            "category": {
-                "identifier": "REGION",
-                "description": "Special reduced rate for specific regions (including articles 104, 105 and 120 of the VAT Directive)"
-            },
-            "comment": "Azores Autonomous Region"
-        },
-        {
-            "memberState": "PT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 22
-            },
-            "situationOn": "2025-01-01+01:00",
-            "category": {
-                "identifier": "REGION",
-                "description": "Special reduced rate for specific regions (including articles 104, 105 and 120 of the VAT Directive)"
-            },
-            "comment": "Madeira Autonomous Region"
-        },
-        {
-            "memberState": "PT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "SUPER_REDUCED_RATE",
-                "value": 6
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cnCodes": {
-                "code": {
-                    "value": "4801 00 00",
-                    "description": "Newsprint, in rolls or sheets"
-                }
-            },
-            "category": {
-                "identifier": "TEMPORARY_EXEMPTION_RATE",
-                "description": "Temporary Exemptions, super-reduced or reduced rates (Article 105a(2) of the VAT Directive)"
-            },
-            "comment": "newsprint"
+            "situationOn": "2025-01-01+01:00"
         }
     ]
 }

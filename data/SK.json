@@ -356,26 +356,6 @@
             "situationOn": "2025-01-01+01:00",
             "cpaCodes": {
                 "code": {
-                    "value": "56",
-                    "description": "Food and beverage serving services"
-                }
-            },
-            "category": {
-                "identifier": "RESTAURANT",
-                "description": "Restaurant and catering services, it being possible to exclude the supply of (alcoholic and\/or non-alcoholic) beverages"
-            },
-            "comment": "Reduced VAT rate on restaurant and catering services (only food provided)."
-        },
-        {
-            "memberState": "SK",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cpaCodes": {
-                "code": {
                     "value": "88",
                     "description": "Social work services without accommodation"
                 }
@@ -405,6 +385,26 @@
                 "description": "Admission to sporting events"
             },
             "comment": "Operation of sports facilities – only services related to admission to sports events."
+        },
+        {
+            "memberState": "SK",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "56",
+                    "description": "Food and beverage serving services"
+                }
+            },
+            "category": {
+                "identifier": "RESTAURANT",
+                "description": "Restaurant and catering services, it being possible to exclude the supply of (alcoholic and\/or non-alcoholic) beverages"
+            },
+            "comment": "Reduced VAT rate on restaurant and catering services (only food provided)."
         },
         {
             "memberState": "SK",
