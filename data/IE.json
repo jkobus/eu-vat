@@ -699,6 +699,16 @@
         },
         {
             "memberState": "IE",
+            "type": "STANDARD",
+            "rate": {
+                "type": "DEFAULT",
+                "value": 23
+            },
+            "situationOn": "2025-01-01+01:00",
+            "comment": "<p>The Standard Rate of VAT was temporarily reduced from 23% to 21% from 1 September 2020 to 28 February 2021. It has been restored to 23% from 1 March 2021.<\/p>"
+        },
+        {
+            "memberState": "IE",
             "type": "REDUCED",
             "rate": {
                 "type": "REDUCED_RATE",
@@ -875,16 +885,6 @@
                 "identifier": "HAIRDRESSING",
                 "description": "Hairdressing"
             }
-        },
-        {
-            "memberState": "IE",
-            "type": "STANDARD",
-            "rate": {
-                "type": "DEFAULT",
-                "value": 23
-            },
-            "situationOn": "2025-01-01+01:00",
-            "comment": "<p>The Standard Rate of VAT was temporarily reduced from 23% to 21% from 1 September 2020 to 28 February 2021. It has been restored to 23% from 1 March 2021.<\/p>"
         }
     ]
 }
