@@ -6,74 +6,62 @@
             "type": "REDUCED",
             "rate": {
                 "type": "REDUCED_RATE",
-                "value": 9.5
+                "value": 5
             },
-            "situationOn": "2025-01-01+01:00",
+            "situationOn": "2025-07-01+02:00",
             "cnCodes": {
                 "code": [
                     {
-                        "value": "0101",
-                        "description": "Live horses, asses, mules and hinnies"
+                        "value": "4901",
+                        "description": "Printed books, brochures, leaflets and similar printed matter, whether or not in single sheets"
                     },
                     {
-                        "value": "0102",
-                        "description": "Live bovine animals"
+                        "value": "4902",
+                        "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
                     },
                     {
-                        "value": "0103",
-                        "description": "Live swine"
+                        "value": "4903 00 00",
+                        "description": "Children's picture, drawing or colouring books"
                     },
                     {
-                        "value": "0104",
-                        "description": "Live sheep and goats"
+                        "value": "4904 00 00",
+                        "description": "Music, printed or in manuscript, whether or not bound or illustrated"
                     },
                     {
-                        "value": "0105",
-                        "description": "Live poultry, that is to say, fowls of the species Gallus domesticus, ducks, geese, turkeys and guinea fowls"
+                        "value": "4905",
+                        "description": "Maps and hydrographic or similar charts of all kinds, including atlases, wall maps, topographical plans and globes, printed"
                     },
                     {
-                        "value": "0301",
-                        "description": "Live fish"
-                    },
-                    {
-                        "value": "0306",
-                        "description": "Crustaceans, whether in shell or not, live, fresh, chilled, frozen, dried, salted or in brine; smoked crustaceans, whether in shell or not, whether or not cooked before or during the smoking process; crustaceans, in shell, cooked by steaming or by boiling in water, whether or not chilled, frozen, dried, salted or in brine"
-                    },
-                    {
-                        "value": "0307",
-                        "description": "Molluscs, whether in shell or not, live, fresh, chilled, frozen, dried, salted or in brine; smoked molluscs, whether in shell or not, whether or not cooked before or during the smoking process"
-                    },
-                    {
-                        "value": "0407 11 00",
-                        "description": "Of fowls of the species Gallus domesticus"
-                    },
-                    {
-                        "value": "0407 19 11",
-                        "description": "Of turkeys or geese"
-                    },
-                    {
-                        "value": "0407 19 19",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "0511 10 00",
-                        "description": "Bovine semen"
-                    },
-                    {
-                        "value": "0511 91 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "0511 99 85",
-                        "description": "Other"
+                        "value": "8523",
+                        "description": "Discs, tapes, solid-state non-volatile storage devices, ‘smart cards’ and other media for the recording of sound or of other phenomena, whether or not recorded, including matrices and masters for the production of discs, but excluding products of Chapter 37"
                     }
                 ]
             },
             "category": {
-                "identifier": "AGRICULTURAL_PRODUCTION",
-                "description": "Supply of goods and services of a kind normally intended for use in agricultural production but excluding capital goods such as machinery or buildings"
+                "identifier": "LOAN_LIBRARIES",
+                "description": "Supply, including on loan by libraries, of books, newspapers and periodicals either on physical means of support or supplied electronically or both (including brochures, leaflets and similar printed matter, children's picture, drawing or colouring books, music printed or in manuscript form, maps and hydrographic or similar charts), other than publications wholly or predominantly devoted to advertising and other than publications wholly or predominantly consisting of video content or audible music."
             },
-            "comment": "Animals for fattening include domestic animals, normally intended for reproduction and breeding within livestock activities and aquaculture activities, including rabbits and bees.\n0511 91 90: only inedible fish eggs\nExcept: 0301 11 00, 0301 19 00, eggs for hatching ornamental birds"
+            "comment": "Except: supply of material with more than 50 % of space to advertising and music, films, games, including games of chance and lotteries, interactive learning, broadcasting, and events in the fields of politics, culture, art, sports, science, and entertainment\nIncludes also: electronic provision of services via the Internet or an electronic network to access electronic books, periodicals, electronically updated content"
+        },
+        {
+            "memberState": "SI",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "84.25",
+                    "description": "Fire brigade services"
+                }
+            },
+            "category": {
+                "identifier": "RESCUE_EQUIPMENT",
+                "description": "Tools and other equipment of a kind normally intended for use in rescue or first aid services when supplied to public bodies or non-profit-making organisations active in civil or community protection"
+            },
+            "comment": "Supply of typed fire engines, special protective and rescue equipment and tools for the performance of firefighting tasks, usually intended for use in interventions, which are supplied to public fire services or volunteer firefighting units in firefighting societies. For more information see the Rules on the Implementation of VATA-1."
         },
         {
             "memberState": "SI",
@@ -82,7 +70,7 @@
                 "type": "REDUCED_RATE",
                 "value": 9.5
             },
-            "situationOn": "2025-01-01+01:00",
+            "situationOn": "2025-07-01+02:00",
             "cnCodes": {
                 "code": [
                     {
@@ -972,24 +960,72 @@
                 "type": "REDUCED_RATE",
                 "value": 9.5
             },
-            "situationOn": "2025-01-01+01:00",
-            "cpaCodes": {
+            "situationOn": "2025-07-01+02:00",
+            "cnCodes": {
                 "code": [
                     {
-                        "value": "90",
-                        "description": "Creative, arts and entertainment services"
+                        "value": "0101",
+                        "description": "Live horses, asses, mules and hinnies"
                     },
                     {
-                        "value": "91",
-                        "description": "Library, archive, museum and other cultural services"
+                        "value": "0102",
+                        "description": "Live bovine animals"
+                    },
+                    {
+                        "value": "0103",
+                        "description": "Live swine"
+                    },
+                    {
+                        "value": "0104",
+                        "description": "Live sheep and goats"
+                    },
+                    {
+                        "value": "0105",
+                        "description": "Live poultry, that is to say, fowls of the species Gallus domesticus, ducks, geese, turkeys and guinea fowls"
+                    },
+                    {
+                        "value": "0301",
+                        "description": "Live fish"
+                    },
+                    {
+                        "value": "0306",
+                        "description": "Crustaceans, whether in shell or not, live, fresh, chilled, frozen, dried, salted or in brine; smoked crustaceans, whether in shell or not, whether or not cooked before or during the smoking process; crustaceans, in shell, cooked by steaming or by boiling in water, whether or not chilled, frozen, dried, salted or in brine"
+                    },
+                    {
+                        "value": "0307",
+                        "description": "Molluscs, whether in shell or not, live, fresh, chilled, frozen, dried, salted or in brine; smoked molluscs, whether in shell or not, whether or not cooked before or during the smoking process"
+                    },
+                    {
+                        "value": "0407 11 00",
+                        "description": "Of fowls of the species Gallus domesticus"
+                    },
+                    {
+                        "value": "0407 19 11",
+                        "description": "Of turkeys or geese"
+                    },
+                    {
+                        "value": "0407 19 19",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "0511 10 00",
+                        "description": "Bovine semen"
+                    },
+                    {
+                        "value": "0511 91 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "0511 99 85",
+                        "description": "Other"
                     }
                 ]
             },
             "category": {
-                "identifier": "CULTURAL_EVENTS",
-                "description": "Admission to shows, theatres, circuses, fairs, amusement parks, concerts, museums, zoos, cinemas, exhibitions and similar cultural events and facilities"
+                "identifier": "AGRICULTURAL_PRODUCTION",
+                "description": "Supply of goods and services of a kind normally intended for use in agricultural production but excluding capital goods such as machinery or buildings"
             },
-            "comment": "In the VATA-1 and the Rules on the Implementation of VATA-1, there is only a descriptive name of services without exact determination by CPA codes."
+            "comment": "Animals for fattening include domestic animals, normally intended for reproduction and breeding within livestock activities and aquaculture activities, including rabbits and bees.\n0511 91 90: only inedible fish eggs\nExcept: 0301 11 00, 0301 19 00, eggs for hatching ornamental birds"
         },
         {
             "memberState": "SI",
@@ -998,159 +1034,7 @@
                 "type": "REDUCED_RATE",
                 "value": 9.5
             },
-            "situationOn": "2025-01-01+01:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "90.01",
-                        "description": "Services of performing artists"
-                    },
-                    {
-                        "value": "90.02",
-                        "description": "Support services to performing arts"
-                    },
-                    {
-                        "value": "90.03.11",
-                        "description": "Services provided by authors, composers, sculptors and other artists, except performing artists"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "WRITERS_SERVICES",
-                "description": "Supply of services by writers, composers and performing artists, or of the royalties due to them"
-            }
-        },
-        {
-            "memberState": "SI",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 9.5
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cpaCodes": {
-                "code": {
-                    "value": "93",
-                    "description": "Sporting services and amusement and recreation services"
-                }
-            },
-            "category": {
-                "identifier": "SPORTING_EVENTS",
-                "description": "Admission to sporting events"
-            },
-            "comment": "In the VATA-1 and the Rules on the Implementation of VATA-1, there is only a descriptive name of services without exact determination by CN and\/or CPA codes."
-        },
-        {
-            "memberState": "SI",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 9.5
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cpaCodes": {
-                "code": {
-                    "value": "95.23",
-                    "description": "Repair services of footwear and leather goods"
-                }
-            },
-            "category": {
-                "identifier": "SHOES_REPAIR",
-                "description": "Minor repairs of shoes and leather goods"
-            }
-        },
-        {
-            "memberState": "SI",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 9.5
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cpaCodes": {
-                "code": {
-                    "value": "95.29.11",
-                    "description": "Repair and alteration services of garment and household textile articles"
-                }
-            },
-            "category": {
-                "identifier": "CLOTHING_REPAIR",
-                "description": "Minor repairs of clothing and household linen (including mending and alteration)"
-            }
-        },
-        {
-            "memberState": "SI",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 9.5
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cpaCodes": {
-                "code": {
-                    "value": "95.29.12",
-                    "description": "Repair services of bicycles"
-                }
-            },
-            "category": {
-                "identifier": "BICYCLES_RENTAL",
-                "description": "Rental and repair of bicycles"
-            },
-            "comment": "Only minor bicycle repairs"
-        },
-        {
-            "memberState": "SI",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 9.5
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "96.02.11",
-                        "description": "Hairdressing services for women and girls"
-                    },
-                    {
-                        "value": "96.02.12",
-                        "description": "Hairdressing and barbers' services for men and boys"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "HAIRDRESSING",
-                "description": "Hairdressing"
-            }
-        },
-        {
-            "memberState": "SI",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 9.5
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cpaCodes": {
-                "code": {
-                    "value": "96.03",
-                    "description": "Funeral and related services"
-                }
-            },
-            "category": {
-                "identifier": "UNDERTAKERS_SERVICES",
-                "description": "Supply of services by undertakers and cremation services, and the supply of goods related thereto"
-            },
-            "comment": "Includes only: burial and cremation; preparing the dead for burial or cremation and embalming, and the services of gravediggers; preparation of funeral and cremation rites; rental of equipped premises and mortuaries; transport of deceased, supply of goods directly related to funeral services, provided by the provider of these services."
-        },
-        {
-            "memberState": "SI",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 9.5
-            },
-            "situationOn": "2025-01-01+01:00",
+            "situationOn": "2025-07-01+02:00",
             "cnCodes": {
                 "code": [
                     {
@@ -1280,7 +1164,7 @@
                 "type": "REDUCED_RATE",
                 "value": 9.5
             },
-            "situationOn": "2025-01-01+01:00",
+            "situationOn": "2025-07-01+02:00",
             "cnCodes": {
                 "code": [
                     {
@@ -1313,12 +1197,23 @@
         },
         {
             "memberState": "SI",
-            "type": "STANDARD",
+            "type": "REDUCED",
             "rate": {
-                "type": "DEFAULT",
-                "value": 22
+                "type": "REDUCED_RATE",
+                "value": 9.5
             },
-            "situationOn": "2025-01-01+01:00"
+            "situationOn": "2025-07-01+02:00",
+            "cnCodes": {
+                "code": {
+                    "value": "3006 70 00",
+                    "description": "Gel preparations designed to be used in human or veterinary medicine as a lubricant for parts of the body for surgical operations or physical examinations or as a coupling agent between the body and medical instruments"
+                }
+            },
+            "category": {
+                "identifier": "MEDICAL_EQUIPMENT",
+                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
+            },
+            "comment": "Gels for use in childbirth"
         },
         {
             "memberState": "SI",
@@ -1327,7 +1222,137 @@
                 "type": "REDUCED_RATE",
                 "value": 9.5
             },
-            "situationOn": "2025-01-01+01:00",
+            "situationOn": "2025-07-01+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "3006 91 00",
+                        "description": "Appliances identifiable for ostomy use"
+                    },
+                    {
+                        "value": "3214 10 10",
+                        "description": "Glaziers' putty, grafting putty, resin cements, caulking compounds and other mastics"
+                    },
+                    {
+                        "value": "3506 10 00",
+                        "description": "Products suitable for use as glues or adhesives, put up for retail sale as glues or adhesives, not exceeding a net weight of 1 kg"
+                    },
+                    {
+                        "value": "9018 39 00",
+                        "description": "Other"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "MEDICAL_EQUIPMENT",
+                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
+            },
+            "comment": "Stoma accessories: bags cut into shapes for colostomy, ileostomy and urostomy; adhesive leather linings or tiles; leather putties and adhesives; bags fort the small intestine, large intestine, or urinary tract; adapters; adapters in combination with various bags"
+        },
+        {
+            "memberState": "SI",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 9.5
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "3101 00 00",
+                        "description": "Animal or vegetable fertilisers, whether or not mixed together or chemically treated; fertilisers produced by the mixing or chemical treatment of animal or vegetable products"
+                    },
+                    {
+                        "value": "3102",
+                        "description": "Mineral or chemical fertilisers, nitrogenous"
+                    },
+                    {
+                        "value": "3103",
+                        "description": "Mineral or chemical fertilisers, phosphatic"
+                    },
+                    {
+                        "value": "3104",
+                        "description": "Mineral or chemical fertilisers, potassic"
+                    },
+                    {
+                        "value": "3105",
+                        "description": "Mineral or chemical fertilisers containing two or three of the fertilising elements nitrogen, phosphorus and potassium; other fertilisers; goods of this chapter in tablets or similar forms or in packages of a gross weight not exceeding 10 kg"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "AGRICULTURAL_PRODUCTION",
+                "description": "Supply of goods and services of a kind normally intended for use in agricultural production but excluding capital goods such as machinery or buildings"
+            },
+            "comment": "Fertilizers"
+        },
+        {
+            "memberState": "SI",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 9.5
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "3214 10 10",
+                        "description": "Glaziers' putty, grafting putty, resin cements, caulking compounds and other mastics"
+                    },
+                    {
+                        "value": "3506 10 00",
+                        "description": "Products suitable for use as glues or adhesives, put up for retail sale as glues or adhesives, not exceeding a net weight of 1 kg"
+                    },
+                    {
+                        "value": "3926 90 97",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "4803 00 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "6108 21 00",
+                        "description": "Of cotton"
+                    },
+                    {
+                        "value": "6108 22 00",
+                        "description": "Of man-made fibres"
+                    },
+                    {
+                        "value": "6108 29 00",
+                        "description": "Of other textile materials"
+                    },
+                    {
+                        "value": "9018 39 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "9021 90 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "9619 00",
+                        "description": "Sanitary towels (pads) and tampons, napkins (diapers), napkin liners and similar articles, of any material"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "MEDICAL_EQUIPMENT",
+                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
+            },
+            "comment": "Devices for urinary incontinence, urine bags, patient liners, knitted mesh underpants for the installation of incontinence inserts"
+        },
+        {
+            "memberState": "SI",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 9.5
+            },
+            "situationOn": "2025-07-01+02:00",
             "cnCodes": {
                 "code": [
                     {
@@ -1425,157 +1450,7 @@
                 "type": "REDUCED_RATE",
                 "value": 9.5
             },
-            "situationOn": "2025-01-01+01:00",
-            "cnCodes": {
-                "code": {
-                    "value": "3006 70 00",
-                    "description": "Gel preparations designed to be used in human or veterinary medicine as a lubricant for parts of the body for surgical operations or physical examinations or as a coupling agent between the body and medical instruments"
-                }
-            },
-            "category": {
-                "identifier": "MEDICAL_EQUIPMENT",
-                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
-            },
-            "comment": "Gels for use in childbirth"
-        },
-        {
-            "memberState": "SI",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 9.5
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "3006 91 00",
-                        "description": "Appliances identifiable for ostomy use"
-                    },
-                    {
-                        "value": "3214 10 10",
-                        "description": "Glaziers' putty, grafting putty, resin cements, caulking compounds and other mastics"
-                    },
-                    {
-                        "value": "3506 10 00",
-                        "description": "Products suitable for use as glues or adhesives, put up for retail sale as glues or adhesives, not exceeding a net weight of 1 kg"
-                    },
-                    {
-                        "value": "9018 39 00",
-                        "description": "Other"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "MEDICAL_EQUIPMENT",
-                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
-            },
-            "comment": "Stoma accessories: bags cut into shapes for colostomy, ileostomy and urostomy; adhesive leather linings or tiles; leather putties and adhesives; bags fort the small intestine, large intestine, or urinary tract; adapters; adapters in combination with various bags"
-        },
-        {
-            "memberState": "SI",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 9.5
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "3101 00 00",
-                        "description": "Animal or vegetable fertilisers, whether or not mixed together or chemically treated; fertilisers produced by the mixing or chemical treatment of animal or vegetable products"
-                    },
-                    {
-                        "value": "3102",
-                        "description": "Mineral or chemical fertilisers, nitrogenous"
-                    },
-                    {
-                        "value": "3103",
-                        "description": "Mineral or chemical fertilisers, phosphatic"
-                    },
-                    {
-                        "value": "3104",
-                        "description": "Mineral or chemical fertilisers, potassic"
-                    },
-                    {
-                        "value": "3105",
-                        "description": "Mineral or chemical fertilisers containing two or three of the fertilising elements nitrogen, phosphorus and potassium; other fertilisers; goods of this chapter in tablets or similar forms or in packages of a gross weight not exceeding 10 kg"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "AGRICULTURAL_PRODUCTION",
-                "description": "Supply of goods and services of a kind normally intended for use in agricultural production but excluding capital goods such as machinery or buildings"
-            },
-            "comment": "Fertilizers"
-        },
-        {
-            "memberState": "SI",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 9.5
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "3214 10 10",
-                        "description": "Glaziers' putty, grafting putty, resin cements, caulking compounds and other mastics"
-                    },
-                    {
-                        "value": "3506 10 00",
-                        "description": "Products suitable for use as glues or adhesives, put up for retail sale as glues or adhesives, not exceeding a net weight of 1 kg"
-                    },
-                    {
-                        "value": "3926 90 97",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "4803 00 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "6108 21 00",
-                        "description": "Of cotton"
-                    },
-                    {
-                        "value": "6108 22 00",
-                        "description": "Of man-made fibres"
-                    },
-                    {
-                        "value": "6108 29 00",
-                        "description": "Of other textile materials"
-                    },
-                    {
-                        "value": "9018 39 00",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "9021 90 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "9619 00",
-                        "description": "Sanitary towels (pads) and tampons, napkins (diapers), napkin liners and similar articles, of any material"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "MEDICAL_EQUIPMENT",
-                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
-            },
-            "comment": "Devices for urinary incontinence, urine bags, patient liners, knitted mesh underpants for the installation of incontinence inserts"
-        },
-        {
-            "memberState": "SI",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 9.5
-            },
-            "situationOn": "2025-01-01+01:00",
+            "situationOn": "2025-07-01+02:00",
             "cnCodes": {
                 "code": {
                     "value": "3926 90 97",
@@ -1595,7 +1470,7 @@
                 "type": "REDUCED_RATE",
                 "value": 9.5
             },
-            "situationOn": "2025-01-01+01:00",
+            "situationOn": "2025-07-01+02:00",
             "cnCodes": {
                 "code": [
                     {
@@ -1633,7 +1508,7 @@
                 "type": "REDUCED_RATE",
                 "value": 9.5
             },
-            "situationOn": "2025-01-01+01:00",
+            "situationOn": "2025-07-01+02:00",
             "cnCodes": {
                 "code": [
                     {
@@ -1663,7 +1538,7 @@
                 "type": "REDUCED_RATE",
                 "value": 9.5
             },
-            "situationOn": "2025-01-01+01:00",
+            "situationOn": "2025-07-01+02:00",
             "cnCodes": {
                 "code": [
                     {
@@ -1688,7 +1563,7 @@
                 "type": "REDUCED_RATE",
                 "value": 9.5
             },
-            "situationOn": "2025-01-01+01:00",
+            "situationOn": "2025-07-01+02:00",
             "cnCodes": {
                 "code": [
                     {
@@ -1714,7 +1589,7 @@
                 "type": "REDUCED_RATE",
                 "value": 9.5
             },
-            "situationOn": "2025-01-01+01:00",
+            "situationOn": "2025-07-01+02:00",
             "cnCodes": {
                 "code": [
                     {
@@ -1784,7 +1659,7 @@
                 "type": "REDUCED_RATE",
                 "value": 9.5
             },
-            "situationOn": "2025-01-01+01:00",
+            "situationOn": "2025-07-01+02:00",
             "cnCodes": {
                 "code": [
                     {
@@ -1846,7 +1721,7 @@
                 "type": "REDUCED_RATE",
                 "value": 9.5
             },
-            "situationOn": "2025-01-01+01:00",
+            "situationOn": "2025-07-01+02:00",
             "cnCodes": {
                 "code": [
                     {
@@ -1872,7 +1747,7 @@
                 "type": "REDUCED_RATE",
                 "value": 9.5
             },
-            "situationOn": "2025-01-01+01:00",
+            "situationOn": "2025-07-01+02:00",
             "cnCodes": {
                 "code": {
                     "value": "9018 39 00",
@@ -1892,7 +1767,7 @@
                 "type": "REDUCED_RATE",
                 "value": 9.5
             },
-            "situationOn": "2025-01-01+01:00",
+            "situationOn": "2025-07-01+02:00",
             "cnCodes": {
                 "code": {
                     "value": "9018 90 75",
@@ -1912,7 +1787,7 @@
                 "type": "REDUCED_RATE",
                 "value": 9.5
             },
-            "situationOn": "2025-01-01+01:00",
+            "situationOn": "2025-07-01+02:00",
             "cnCodes": {
                 "code": [
                     {
@@ -1938,7 +1813,7 @@
                 "type": "REDUCED_RATE",
                 "value": 9.5
             },
-            "situationOn": "2025-01-01+01:00",
+            "situationOn": "2025-07-01+02:00",
             "cnCodes": {
                 "code": {
                     "value": "9021",
@@ -1956,51 +1831,9 @@
             "type": "REDUCED",
             "rate": {
                 "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "4901",
-                        "description": "Printed books, brochures, leaflets and similar printed matter, whether or not in single sheets"
-                    },
-                    {
-                        "value": "4902",
-                        "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
-                    },
-                    {
-                        "value": "4903 00 00",
-                        "description": "Children's picture, drawing or colouring books"
-                    },
-                    {
-                        "value": "4904 00 00",
-                        "description": "Music, printed or in manuscript, whether or not bound or illustrated"
-                    },
-                    {
-                        "value": "4905",
-                        "description": "Maps and hydrographic or similar charts of all kinds, including atlases, wall maps, topographical plans and globes, printed"
-                    },
-                    {
-                        "value": "8523",
-                        "description": "Discs, tapes, solid-state non-volatile storage devices, ‘smart cards’ and other media for the recording of sound or of other phenomena, whether or not recorded, including matrices and masters for the production of discs, but excluding products of Chapter 37"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "LOAN_LIBRARIES",
-                "description": "Supply, including on loan by libraries, of books, newspapers and periodicals either on physical means of support or supplied electronically or both (including brochures, leaflets and similar printed matter, children's picture, drawing or colouring books, music printed or in manuscript form, maps and hydrographic or similar charts), other than publications wholly or predominantly devoted to advertising and other than publications wholly or predominantly consisting of video content or audible music."
-            },
-            "comment": "Except: supply of material with more than 50 % of space to advertising and music, films, games, including games of chance and lotteries, interactive learning, broadcasting, and events in the fields of politics, culture, art, sports, science, and entertainment\nIncludes also: electronic provision of services via the Internet or an electronic network to access electronic books, periodicals, electronically updated content"
-        },
-        {
-            "memberState": "SI",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
                 "value": 9.5
             },
-            "situationOn": "2025-01-01+01:00",
+            "situationOn": "2025-07-01+02:00",
             "cnCodes": {
                 "code": {
                     "value": "9701",
@@ -2019,7 +1852,7 @@
                 "type": "REDUCED_RATE",
                 "value": 9.5
             },
-            "situationOn": "2025-01-01+01:00",
+            "situationOn": "2025-07-01+02:00",
             "cnCodes": {
                 "code": {
                     "value": "9702 00 00",
@@ -2038,7 +1871,7 @@
                 "type": "REDUCED_RATE",
                 "value": 9.5
             },
-            "situationOn": "2025-01-01+01:00",
+            "situationOn": "2025-07-01+02:00",
             "cnCodes": {
                 "code": {
                     "value": "9702 00 00",
@@ -2058,7 +1891,7 @@
                 "type": "REDUCED_RATE",
                 "value": 9.5
             },
-            "situationOn": "2025-01-01+01:00",
+            "situationOn": "2025-07-01+02:00",
             "cnCodes": {
                 "code": {
                     "value": "9703 00 00",
@@ -2077,7 +1910,7 @@
                 "type": "REDUCED_RATE",
                 "value": 9.5
             },
-            "situationOn": "2025-01-01+01:00",
+            "situationOn": "2025-07-01+02:00",
             "cnCodes": {
                 "code": {
                     "value": "9703 00 00",
@@ -2096,7 +1929,7 @@
                 "type": "REDUCED_RATE",
                 "value": 9.5
             },
-            "situationOn": "2025-01-01+01:00",
+            "situationOn": "2025-07-01+02:00",
             "cnCodes": {
                 "code": {
                     "value": "9703 00 00",
@@ -2116,7 +1949,7 @@
                 "type": "REDUCED_RATE",
                 "value": 9.5
             },
-            "situationOn": "2025-01-01+01:00",
+            "situationOn": "2025-07-01+02:00",
             "cnCodes": {
                 "code": {
                     "value": "9703 00 00",
@@ -2136,7 +1969,7 @@
                 "type": "REDUCED_RATE",
                 "value": 9.5
             },
-            "situationOn": "2025-01-01+01:00",
+            "situationOn": "2025-07-01+02:00",
             "cnCodes": {
                 "code": {
                     "value": "9704 00 00",
@@ -2155,7 +1988,7 @@
                 "type": "REDUCED_RATE",
                 "value": 9.5
             },
-            "situationOn": "2025-01-01+01:00",
+            "situationOn": "2025-07-01+02:00",
             "cnCodes": {
                 "code": {
                     "value": "9705 00 00",
@@ -2174,7 +2007,7 @@
                 "type": "REDUCED_RATE",
                 "value": 9.5
             },
-            "situationOn": "2025-01-01+01:00",
+            "situationOn": "2025-07-01+02:00",
             "cnCodes": {
                 "code": {
                     "value": "9706 00 00",
@@ -2191,29 +2024,9 @@
             "type": "REDUCED",
             "rate": {
                 "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cpaCodes": {
-                "code": {
-                    "value": "84.25",
-                    "description": "Fire brigade services"
-                }
-            },
-            "category": {
-                "identifier": "RESCUE_EQUIPMENT",
-                "description": "Tools and other equipment of a kind normally intended for use in rescue or first aid services when supplied to public bodies or non-profit-making organisations active in civil or community protection"
-            },
-            "comment": "Supply of typed fire engines, special protective and rescue equipment and tools for the performance of firefighting tasks, usually intended for use in interventions, which are supplied to public fire services or volunteer firefighting units in firefighting societies. For more information see the Rules on the Implementation of VATA-1."
-        },
-        {
-            "memberState": "SI",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
                 "value": 9.5
             },
-            "situationOn": "2025-01-01+01:00",
+            "situationOn": "2025-07-01+02:00",
             "cpaCodes": {
                 "code": [
                     {
@@ -2267,7 +2080,7 @@
                 "type": "REDUCED_RATE",
                 "value": 9.5
             },
-            "situationOn": "2025-01-01+01:00",
+            "situationOn": "2025-07-01+02:00",
             "cpaCodes": {
                 "code": {
                     "value": "36",
@@ -2286,7 +2099,7 @@
                 "type": "REDUCED_RATE",
                 "value": 9.5
             },
-            "situationOn": "2025-01-01+01:00",
+            "situationOn": "2025-07-01+02:00",
             "cpaCodes": {
                 "code": [
                     {
@@ -2319,7 +2132,7 @@
                 "type": "REDUCED_RATE",
                 "value": 9.5
             },
-            "situationOn": "2025-01-01+01:00",
+            "situationOn": "2025-07-01+02:00",
             "cpaCodes": {
                 "code": {
                     "value": "F",
@@ -2339,7 +2152,7 @@
                 "type": "REDUCED_RATE",
                 "value": 9.5
             },
-            "situationOn": "2025-01-01+01:00",
+            "situationOn": "2025-07-01+02:00",
             "cpaCodes": {
                 "code": [
                     {
@@ -2372,7 +2185,7 @@
                 "type": "REDUCED_RATE",
                 "value": 9.5
             },
-            "situationOn": "2025-01-01+01:00",
+            "situationOn": "2025-07-01+02:00",
             "cpaCodes": {
                 "code": [
                     {
@@ -2405,7 +2218,7 @@
                 "type": "REDUCED_RATE",
                 "value": 9.5
             },
-            "situationOn": "2025-01-01+01:00",
+            "situationOn": "2025-07-01+02:00",
             "cpaCodes": {
                 "code": [
                     {
@@ -2431,7 +2244,7 @@
                 "type": "REDUCED_RATE",
                 "value": 9.5
             },
-            "situationOn": "2025-01-01+01:00",
+            "situationOn": "2025-07-01+02:00",
             "cpaCodes": {
                 "code": [
                     {
@@ -2457,7 +2270,7 @@
                 "type": "REDUCED_RATE",
                 "value": 9.5
             },
-            "situationOn": "2025-01-01+01:00",
+            "situationOn": "2025-07-01+02:00",
             "cpaCodes": {
                 "code": [
                     {
@@ -2474,6 +2287,193 @@
                 "identifier": "DOMESTIC_CARE",
                 "description": "Domestic care services such as home help and care of the young, elderly, sick or disabled"
             }
+        },
+        {
+            "memberState": "SI",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 9.5
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "90",
+                        "description": "Creative, arts and entertainment services"
+                    },
+                    {
+                        "value": "91",
+                        "description": "Library, archive, museum and other cultural services"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "CULTURAL_EVENTS",
+                "description": "Admission to shows, theatres, circuses, fairs, amusement parks, concerts, museums, zoos, cinemas, exhibitions and similar cultural events and facilities"
+            },
+            "comment": "In the VATA-1 and the Rules on the Implementation of VATA-1, there is only a descriptive name of services without exact determination by CPA codes."
+        },
+        {
+            "memberState": "SI",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 9.5
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "90.01",
+                        "description": "Services of performing artists"
+                    },
+                    {
+                        "value": "90.02",
+                        "description": "Support services to performing arts"
+                    },
+                    {
+                        "value": "90.03.11",
+                        "description": "Services provided by authors, composers, sculptors and other artists, except performing artists"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "WRITERS_SERVICES",
+                "description": "Supply of services by writers, composers and performing artists, or of the royalties due to them"
+            }
+        },
+        {
+            "memberState": "SI",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 9.5
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "93",
+                    "description": "Sporting services and amusement and recreation services"
+                }
+            },
+            "category": {
+                "identifier": "SPORTING_EVENTS",
+                "description": "Admission to sporting events"
+            },
+            "comment": "In the VATA-1 and the Rules on the Implementation of VATA-1, there is only a descriptive name of services without exact determination by CN and\/or CPA codes."
+        },
+        {
+            "memberState": "SI",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 9.5
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "95.23",
+                    "description": "Repair services of footwear and leather goods"
+                }
+            },
+            "category": {
+                "identifier": "SHOES_REPAIR",
+                "description": "Minor repairs of shoes and leather goods"
+            }
+        },
+        {
+            "memberState": "SI",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 9.5
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "95.29.11",
+                    "description": "Repair and alteration services of garment and household textile articles"
+                }
+            },
+            "category": {
+                "identifier": "CLOTHING_REPAIR",
+                "description": "Minor repairs of clothing and household linen (including mending and alteration)"
+            }
+        },
+        {
+            "memberState": "SI",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 9.5
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "95.29.12",
+                    "description": "Repair services of bicycles"
+                }
+            },
+            "category": {
+                "identifier": "BICYCLES_RENTAL",
+                "description": "Rental and repair of bicycles"
+            },
+            "comment": "Only minor bicycle repairs"
+        },
+        {
+            "memberState": "SI",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 9.5
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "96.02.11",
+                        "description": "Hairdressing services for women and girls"
+                    },
+                    {
+                        "value": "96.02.12",
+                        "description": "Hairdressing and barbers' services for men and boys"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "HAIRDRESSING",
+                "description": "Hairdressing"
+            }
+        },
+        {
+            "memberState": "SI",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 9.5
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "96.03",
+                    "description": "Funeral and related services"
+                }
+            },
+            "category": {
+                "identifier": "UNDERTAKERS_SERVICES",
+                "description": "Supply of services by undertakers and cremation services, and the supply of goods related thereto"
+            },
+            "comment": "Includes only: burial and cremation; preparing the dead for burial or cremation and embalming, and the services of gravediggers; preparation of funeral and cremation rites; rental of equipped premises and mortuaries; transport of deceased, supply of goods directly related to funeral services, provided by the provider of these services."
+        },
+        {
+            "memberState": "SI",
+            "type": "STANDARD",
+            "rate": {
+                "type": "DEFAULT",
+                "value": 22
+            },
+            "situationOn": "2025-07-01+02:00"
         }
     ]
 }

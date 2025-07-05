@@ -8,7 +8,7 @@
                 "type": "REDUCED_RATE",
                 "value": 5
             },
-            "situationOn": "2025-01-01+01:00",
+            "situationOn": "2025-07-01+02:00",
             "cnCodes": {
                 "code": [
                     {
@@ -1158,7 +1158,7 @@
                 "type": "REDUCED_RATE",
                 "value": 5
             },
-            "situationOn": "2025-01-01+01:00",
+            "situationOn": "2025-07-01+02:00",
             "cnCodes": {
                 "code": [
                     {
@@ -1220,7 +1220,7 @@
                 "type": "REDUCED_RATE",
                 "value": 5
             },
-            "situationOn": "2025-01-01+01:00",
+            "situationOn": "2025-07-01+02:00",
             "cnCodes": {
                 "code": [
                     {
@@ -1390,7 +1390,33 @@
                 "type": "REDUCED_RATE",
                 "value": 5
             },
-            "situationOn": "2025-01-01+01:00",
+            "situationOn": "2025-07-01+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "2711 11 00",
+                        "description": "Natural gas"
+                    },
+                    {
+                        "value": "2711 21 00",
+                        "description": "Natural gas"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "SUPPLY_GAS",
+                "description": "Supply of natural gas"
+            },
+            "comment": "Applies to supply of natural gas, including fees related to that supply, made until March 31, 2026."
+        },
+        {
+            "memberState": "HR",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2025-07-01+02:00",
             "cnCodes": {
                 "code": [
                     {
@@ -1832,33 +1858,7 @@
                 "type": "REDUCED_RATE",
                 "value": 5
             },
-            "situationOn": "2025-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "2711 11 00",
-                        "description": "Natural gas"
-                    },
-                    {
-                        "value": "2711 21 00",
-                        "description": "Natural gas"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "SUPPLY_GAS",
-                "description": "Supply of natural gas"
-            },
-            "comment": "Applies to supply of natural gas, including fees related to that supply, made until March 31, 2026."
-        },
-        {
-            "memberState": "HR",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2025-01-01+01:00",
+            "situationOn": "2025-07-01+02:00",
             "cnCodes": {
                 "code": [
                     {
@@ -1884,7 +1884,7 @@
                 "type": "REDUCED_RATE",
                 "value": 5
             },
-            "situationOn": "2025-01-01+01:00",
+            "situationOn": "2025-07-01+02:00",
             "cnCodes": {
                 "code": [
                     {
@@ -1954,7 +1954,7 @@
                 "type": "REDUCED_RATE",
                 "value": 5
             },
-            "situationOn": "2025-01-01+01:00",
+            "situationOn": "2025-07-01+02:00",
             "cnCodes": {
                 "code": {
                     "value": "4401",
@@ -1974,7 +1974,7 @@
                 "type": "REDUCED_RATE",
                 "value": 5
             },
-            "situationOn": "2025-01-01+01:00",
+            "situationOn": "2025-07-01+02:00",
             "cnCodes": {
                 "code": [
                     {
@@ -2000,7 +2000,7 @@
                 "type": "REDUCED_RATE",
                 "value": 5
             },
-            "situationOn": "2025-01-01+01:00",
+            "situationOn": "2025-07-01+02:00",
             "category": {
                 "identifier": "CULTURAL_EVENTS",
                 "description": "Admission to shows, theatres, circuses, fairs, amusement parks, concerts, museums, zoos, cinemas, exhibitions and similar cultural events and facilities"
@@ -2014,7 +2014,7 @@
                 "type": "REDUCED_RATE",
                 "value": 5
             },
-            "situationOn": "2025-01-01+01:00",
+            "situationOn": "2025-07-01+02:00",
             "category": {
                 "identifier": "SPORTING_EVENTS",
                 "description": "Admission to sporting events"
@@ -2028,7 +2028,7 @@
                 "type": "REDUCED_RATE",
                 "value": 5
             },
-            "situationOn": "2025-01-01+01:00",
+            "situationOn": "2025-07-01+02:00",
             "category": {
                 "identifier": "SUPPLY_HEATING",
                 "description": "Supply of district heating"
@@ -2040,9 +2040,35 @@
             "type": "REDUCED",
             "rate": {
                 "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "4901 99 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "4902",
+                        "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "NEWSPAPERS",
+                "description": "Newspapers"
+            },
+            "comment": "Applies to newspaper of the newspaper publisher which has the status of a medium, published daily, other than those that contain, in whole or for the most part, advertisements or serve for advertising, and other than those that contain, in whole or for the most part, video recording or music content."
+        },
+        {
+            "memberState": "HR",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
                 "value": 13
             },
-            "situationOn": "2025-01-01+01:00",
+            "situationOn": "2025-07-01+02:00",
             "cnCodes": {
                 "code": {
                     "value": "2201 90 00",
@@ -2062,7 +2088,7 @@
                 "type": "REDUCED_RATE",
                 "value": 13
             },
-            "situationOn": "2025-01-01+01:00",
+            "situationOn": "2025-07-01+02:00",
             "cnCodes": {
                 "code": {
                     "value": "2716 00 00",
@@ -2082,7 +2108,7 @@
                 "type": "REDUCED_RATE",
                 "value": 13
             },
-            "situationOn": "2025-01-01+01:00",
+            "situationOn": "2025-07-01+02:00",
             "cnCodes": {
                 "code": [
                     {
@@ -2206,35 +2232,9 @@
             "type": "REDUCED",
             "rate": {
                 "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "4901 99 00",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "4902",
-                        "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "NEWSPAPERS",
-                "description": "Newspapers"
-            },
-            "comment": "Applies to newspaper of the newspaper publisher which has the status of a medium, published daily, other than those that contain, in whole or for the most part, advertisements or serve for advertising, and other than those that contain, in whole or for the most part, video recording or music content."
-        },
-        {
-            "memberState": "HR",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
                 "value": 13
             },
-            "situationOn": "2025-01-01+01:00",
+            "situationOn": "2025-07-01+02:00",
             "cnCodes": {
                 "code": [
                     {
@@ -2260,7 +2260,7 @@
                 "type": "REDUCED_RATE",
                 "value": 13
             },
-            "situationOn": "2025-01-01+01:00",
+            "situationOn": "2025-07-01+02:00",
             "cnCodes": {
                 "code": [
                     {
@@ -2294,7 +2294,7 @@
                 "type": "REDUCED_RATE",
                 "value": 13
             },
-            "situationOn": "2025-01-01+01:00",
+            "situationOn": "2025-07-01+02:00",
             "category": {
                 "identifier": "ACCOMMODATION",
                 "description": "Accommodation provided in hotels and similar establishments, including the provision of holiday accommodation and the letting of places on camping or caravan sites"
@@ -2308,7 +2308,7 @@
                 "type": "REDUCED_RATE",
                 "value": 13
             },
-            "situationOn": "2025-01-01+01:00",
+            "situationOn": "2025-07-01+02:00",
             "category": {
                 "identifier": "WRITERS_SERVICES",
                 "description": "Supply of services by writers, composers and performing artists, or of the royalties due to them"
@@ -2322,7 +2322,7 @@
                 "type": "REDUCED_RATE",
                 "value": 13
             },
-            "situationOn": "2025-01-01+01:00",
+            "situationOn": "2025-07-01+02:00",
             "category": {
                 "identifier": "STREET_CLEANING",
                 "description": "Supply of services provided in connection with street cleaning, refuse collection and waste treatment, other than the supply of such services by bodies referred to in Article 13"
@@ -2336,7 +2336,7 @@
                 "type": "REDUCED_RATE",
                 "value": 13
             },
-            "situationOn": "2025-01-01+01:00",
+            "situationOn": "2025-07-01+02:00",
             "category": {
                 "identifier": "RESTAURANT",
                 "description": "Restaurant and catering services, it being possible to exclude the supply of (alcoholic and\/or non-alcoholic) beverages"
@@ -2350,7 +2350,7 @@
                 "type": "REDUCED_RATE",
                 "value": 13
             },
-            "situationOn": "2025-01-01+01:00",
+            "situationOn": "2025-07-01+02:00",
             "category": {
                 "identifier": "PHARMACEUTICAL_PRODUCTS",
                 "description": "Pharmaceutical products of a kind normally used for health care, prevention of illness and as treatment for medical and veterinary purposes, including products used for contraception and sanitary protection"
@@ -2364,7 +2364,7 @@
                 "type": "DEFAULT",
                 "value": 25
             },
-            "situationOn": "2025-01-01+01:00"
+            "situationOn": "2025-07-01+02:00"
         }
     ]
 }
