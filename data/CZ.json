@@ -5,6 +5,94 @@
             "memberState": "CZ",
             "type": "REDUCED",
             "rate": {
+                "type": "EXEMPTED",
+                "value": 0
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "4901",
+                        "description": "Printed books, brochures, leaflets and similar printed matter, whether or not in single sheets"
+                    },
+                    {
+                        "value": "4903 00 00",
+                        "description": "Children's picture, drawing or colouring books"
+                    },
+                    {
+                        "value": "4904 00 00",
+                        "description": "Music, printed or in manuscript, whether or not bound or illustrated"
+                    },
+                    {
+                        "value": "4905",
+                        "description": "Maps and hydrographic or similar charts of all kinds, including atlases, wall maps, topographical plans and globes, printed"
+                    },
+                    {
+                        "value": "4911",
+                        "description": "Other printed matter, including printed pictures and photographs"
+                    },
+                    {
+                        "value": "8523",
+                        "description": "Discs, tapes, solid-state non-volatile storage devices, ‘smart cards’ and other media for the recording of sound or of other phenomena, whether or not recorded, including matrices and masters for the production of discs, but excluding products of Chapter 37"
+                    }
+                ]
+            },
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "77",
+                        "description": "Rental and leasing services"
+                    },
+                    {
+                        "value": "85",
+                        "description": "Education services"
+                    },
+                    {
+                        "value": "91",
+                        "description": "Library, archive, museum and other cultural services"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "LOAN_LIBRARIES",
+                "description": "Supply, including on loan by libraries, of books, newspapers and periodicals either on physical means of support or supplied electronically or both (including brochures, leaflets and similar printed matter, children's picture, drawing or colouring books, music printed or in manuscript form, maps and hydrographic or similar charts), other than publications wholly or predominantly devoted to advertising and other than publications wholly or predominantly consisting of video content or audible music."
+            },
+            "comment": "Supply, including on loan by libraries, of books, picture books, drawing or colouring books, brochures, music and maps, including audio recordings of their content (other than those where advertising exceeds 50% of their content, or those that consist wholly or mainly of video content or audible music)."
+        },
+        {
+            "memberState": "CZ",
+            "type": "REDUCED",
+            "rate": {
+                "type": "EXEMPTED",
+                "value": 0
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "49",
+                        "description": "Land transport services and transport services via pipelines"
+                    },
+                    {
+                        "value": "50",
+                        "description": "Water transport services"
+                    },
+                    {
+                        "value": "51",
+                        "description": "Air transport services"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "TRANSPORT_PASSENGERS",
+                "description": "Transport of passengers and their accompanying luggage"
+            },
+            "comment": "The cross-border transport services of passengers and their luggage."
+        },
+        {
+            "memberState": "CZ",
+            "type": "REDUCED",
+            "rate": {
                 "type": "REDUCED_RATE",
                 "value": 12
             },
@@ -160,94 +248,6 @@
                 "description": "Live plants and other floricultural products, including bulbs, cotton, roots and the like, cut flowers and ornamental foliage"
             },
             "comment": "Live trees and other plants; bulbs, roots and the like. Plants and seeds."
-        },
-        {
-            "memberState": "CZ",
-            "type": "REDUCED",
-            "rate": {
-                "type": "EXEMPTED",
-                "value": 0
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "4901",
-                        "description": "Printed books, brochures, leaflets and similar printed matter, whether or not in single sheets"
-                    },
-                    {
-                        "value": "4903 00 00",
-                        "description": "Children's picture, drawing or colouring books"
-                    },
-                    {
-                        "value": "4904 00 00",
-                        "description": "Music, printed or in manuscript, whether or not bound or illustrated"
-                    },
-                    {
-                        "value": "4905",
-                        "description": "Maps and hydrographic or similar charts of all kinds, including atlases, wall maps, topographical plans and globes, printed"
-                    },
-                    {
-                        "value": "4911",
-                        "description": "Other printed matter, including printed pictures and photographs"
-                    },
-                    {
-                        "value": "8523",
-                        "description": "Discs, tapes, solid-state non-volatile storage devices, ‘smart cards’ and other media for the recording of sound or of other phenomena, whether or not recorded, including matrices and masters for the production of discs, but excluding products of Chapter 37"
-                    }
-                ]
-            },
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "77",
-                        "description": "Rental and leasing services"
-                    },
-                    {
-                        "value": "85",
-                        "description": "Education services"
-                    },
-                    {
-                        "value": "91",
-                        "description": "Library, archive, museum and other cultural services"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "LOAN_LIBRARIES",
-                "description": "Supply, including on loan by libraries, of books, newspapers and periodicals either on physical means of support or supplied electronically or both (including brochures, leaflets and similar printed matter, children's picture, drawing or colouring books, music printed or in manuscript form, maps and hydrographic or similar charts), other than publications wholly or predominantly devoted to advertising and other than publications wholly or predominantly consisting of video content or audible music."
-            },
-            "comment": "Supply, including on loan by libraries, of books, picture books, drawing or colouring books, brochures, music and maps, including audio recordings of their content (other than those where advertising exceeds 50% of their content, or those that consist wholly or mainly of video content or audible music)."
-        },
-        {
-            "memberState": "CZ",
-            "type": "REDUCED",
-            "rate": {
-                "type": "EXEMPTED",
-                "value": 0
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "49",
-                        "description": "Land transport services and transport services via pipelines"
-                    },
-                    {
-                        "value": "50",
-                        "description": "Water transport services"
-                    },
-                    {
-                        "value": "51",
-                        "description": "Air transport services"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "TRANSPORT_PASSENGERS",
-                "description": "Transport of passengers and their accompanying luggage"
-            },
-            "comment": "The cross-border transport services of passengers and their luggage."
         },
         {
             "memberState": "CZ",

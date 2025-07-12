@@ -5,6 +5,488 @@
             "memberState": "HU",
             "type": "REDUCED",
             "rate": {
+                "type": "EXEMPTED",
+                "value": 0
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cnCodes": {
+                "code": {
+                    "value": "4902",
+                    "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
+                }
+            },
+            "category": {
+                "identifier": "NEWSPAPERS",
+                "description": "Newspapers"
+            },
+            "comment": "Daily newspapers (journals published at least four times in a week)"
+        },
+        {
+            "memberState": "HU",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "0102 21 10",
+                        "description": "Heifers (female bovines that have never calved)"
+                    },
+                    {
+                        "value": "0102 21 30",
+                        "description": "Cows"
+                    },
+                    {
+                        "value": "0102 21 90",
+                        "description": "Other"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "FOODSTUFFS",
+                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
+            },
+            "comment": "Pure-bred cattle for breeding"
+        },
+        {
+            "memberState": "HU",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "0102 29 05",
+                        "description": "Of the sub-genus Bibos or of the sub-genus Poephagus"
+                    },
+                    {
+                        "value": "0102 29 10",
+                        "description": "Of a weight not exceeding 80 kg"
+                    },
+                    {
+                        "value": "0102 29 21",
+                        "description": "For slaughter"
+                    },
+                    {
+                        "value": "0102 29 29",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "0102 29 41",
+                        "description": "For slaughter"
+                    },
+                    {
+                        "value": "0102 29 49",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "0102 29 51",
+                        "description": "For slaughter"
+                    },
+                    {
+                        "value": "0102 29 59",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "0102 29 61",
+                        "description": "For slaughter"
+                    },
+                    {
+                        "value": "0102 29 69",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "0102 29 91",
+                        "description": "For slaughter"
+                    },
+                    {
+                        "value": "0102 29 99",
+                        "description": "Other"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "FOODSTUFFS",
+                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
+            },
+            "comment": "Other, live domestic bovines"
+        },
+        {
+            "memberState": "HU",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cnCodes": {
+                "code": {
+                    "value": "0103 10 00",
+                    "description": "Pure-bred breeding animals"
+                }
+            },
+            "category": {
+                "identifier": "FOODSTUFFS",
+                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
+            },
+            "comment": "Pure-bred breeding swine"
+        },
+        {
+            "memberState": "HU",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cnCodes": {
+                "code": {
+                    "value": "0103 91 10",
+                    "description": "Domestic species"
+                }
+            },
+            "category": {
+                "identifier": "FOODSTUFFS",
+                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
+            },
+            "comment": "Domestic swine, weighing less than 50 kg"
+        },
+        {
+            "memberState": "HU",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cnCodes": {
+                "code": {
+                    "value": "0103 92 11",
+                    "description": "Sows having farrowed at least once, of a weight of not less than 160 kg"
+                }
+            },
+            "category": {
+                "identifier": "FOODSTUFFS",
+                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
+            },
+            "comment": "Live sows, having farrowed at least once, of a weight of not less than 160 kg"
+        },
+        {
+            "memberState": "HU",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cnCodes": {
+                "code": {
+                    "value": "0103 92 19",
+                    "description": "Other"
+                }
+            },
+            "category": {
+                "identifier": "FOODSTUFFS",
+                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
+            },
+            "comment": "Live domestic swine, of a weight of not less than 50 kg"
+        },
+        {
+            "memberState": "HU",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cnCodes": {
+                "code": {
+                    "value": "0104 10 10",
+                    "description": "Pure-bred breeding animals"
+                }
+            },
+            "category": {
+                "identifier": "FOODSTUFFS",
+                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
+            },
+            "comment": "Pure-bred sheep for breeding"
+        },
+        {
+            "memberState": "HU",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "0104 10 30",
+                        "description": "Lambs (up to a year old)"
+                    },
+                    {
+                        "value": "0104 10 80",
+                        "description": "Other"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "FOODSTUFFS",
+                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
+            },
+            "comment": "Other, live domestic sheep"
+        },
+        {
+            "memberState": "HU",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cnCodes": {
+                "code": {
+                    "value": "0104 20 10",
+                    "description": "Pure-bred breeding animals"
+                }
+            },
+            "category": {
+                "identifier": "FOODSTUFFS",
+                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
+            },
+            "comment": "Pure-bred breeding goats"
+        },
+        {
+            "memberState": "HU",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cnCodes": {
+                "code": {
+                    "value": "0104 20 90",
+                    "description": "Other"
+                }
+            },
+            "category": {
+                "identifier": "FOODSTUFFS",
+                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
+            },
+            "comment": "Other, live domestic goats"
+        },
+        {
+            "memberState": "HU",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cnCodes": {
+                "code": {
+                    "value": "0201 10 00",
+                    "description": "Carcases and half-carcases"
+                }
+            },
+            "category": {
+                "identifier": "FOODSTUFFS",
+                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
+            },
+            "comment": "Meat of domestic bovine animals, fresh or chilled, carcasses and half-carcasses"
+        },
+        {
+            "memberState": "HU",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cnCodes": {
+                "code": {
+                    "value": "0201 20 20",
+                    "description": "‘Compensated’ quarters"
+                }
+            },
+            "category": {
+                "identifier": "FOODSTUFFS",
+                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
+            },
+            "comment": "Meat of domestic bovine animals, fresh or chilled, other cuts with bone in, “compensated” quarters"
+        },
+        {
+            "memberState": "HU",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cnCodes": {
+                "code": {
+                    "value": "0201 20 30",
+                    "description": "Unseparated or separated forequarters"
+                }
+            },
+            "category": {
+                "identifier": "FOODSTUFFS",
+                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
+            },
+            "comment": "Meat of domestic bovine animals, fresh or chilled, other cuts with bone in, unseparated or separated forequarters"
+        },
+        {
+            "memberState": "HU",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cnCodes": {
+                "code": {
+                    "value": "0201 20 50",
+                    "description": "Unseparated or separated hindquarters"
+                }
+            },
+            "category": {
+                "identifier": "FOODSTUFFS",
+                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
+            },
+            "comment": "Meat of domestic bovine animals, fresh or chilled, other cuts with bone in, unseparated or separated hindquarters"
+        },
+        {
+            "memberState": "HU",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cnCodes": {
+                "code": {
+                    "value": "0202 10 00",
+                    "description": "Carcases and half-carcases"
+                }
+            },
+            "category": {
+                "identifier": "FOODSTUFFS",
+                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
+            },
+            "comment": "Meat of domestic bovine animals, frozen, carcasses and half-carcasses"
+        },
+        {
+            "memberState": "HU",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cnCodes": {
+                "code": {
+                    "value": "0202 20 10",
+                    "description": "‘Compensated’ quarters"
+                }
+            },
+            "category": {
+                "identifier": "FOODSTUFFS",
+                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
+            },
+            "comment": "Meat of domestic bovine animals, frozen, other cuts with bone in, “compensated” quarters"
+        },
+        {
+            "memberState": "HU",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cnCodes": {
+                "code": {
+                    "value": "0202 20 30",
+                    "description": "Unseparated or separated forequarters"
+                }
+            },
+            "category": {
+                "identifier": "FOODSTUFFS",
+                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
+            },
+            "comment": "Meat of domestic bovine animals, frozen, other cuts with bone in, unseparated or separated forequarters"
+        },
+        {
+            "memberState": "HU",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cnCodes": {
+                "code": {
+                    "value": "0202 20 50",
+                    "description": "Unseparated or separated hindquarters"
+                }
+            },
+            "category": {
+                "identifier": "FOODSTUFFS",
+                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
+            },
+            "comment": "Meat of domestic bovine animals, frozen, other cuts with bone in, unseparated or separated hindquarters"
+        },
+        {
+            "memberState": "HU",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cnCodes": {
+                "code": {
+                    "value": "0203",
+                    "description": "Meat of swine, fresh, chilled or frozen"
+                }
+            },
+            "category": {
+                "identifier": "FOODSTUFFS",
+                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
+            },
+            "comment": "Meat of domestic swine, fresh, chilled or frozen"
+        },
+        {
+            "memberState": "HU",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cnCodes": {
+                "code": {
+                    "value": "0203 11 10",
+                    "description": "Of domestic swine"
+                }
+            },
+            "category": {
+                "identifier": "FOODSTUFFS",
+                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
+            },
+            "comment": "Domestic swine whole or halved, fresh or chilled"
+        },
+        {
+            "memberState": "HU",
+            "type": "REDUCED",
+            "rate": {
                 "type": "REDUCED_RATE",
                 "value": 5
             },
@@ -383,122 +865,6 @@
             "memberState": "HU",
             "type": "REDUCED",
             "rate": {
-                "type": "EXEMPTED",
-                "value": 0
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cnCodes": {
-                "code": {
-                    "value": "4902",
-                    "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
-                }
-            },
-            "category": {
-                "identifier": "NEWSPAPERS",
-                "description": "Newspapers"
-            },
-            "comment": "Daily newspapers (journals published at least four times in a week)"
-        },
-        {
-            "memberState": "HU",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "0102 21 10",
-                        "description": "Heifers (female bovines that have never calved)"
-                    },
-                    {
-                        "value": "0102 21 30",
-                        "description": "Cows"
-                    },
-                    {
-                        "value": "0102 21 90",
-                        "description": "Other"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "FOODSTUFFS",
-                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
-            },
-            "comment": "Pure-bred cattle for breeding"
-        },
-        {
-            "memberState": "HU",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "0102 29 05",
-                        "description": "Of the sub-genus Bibos or of the sub-genus Poephagus"
-                    },
-                    {
-                        "value": "0102 29 10",
-                        "description": "Of a weight not exceeding 80 kg"
-                    },
-                    {
-                        "value": "0102 29 21",
-                        "description": "For slaughter"
-                    },
-                    {
-                        "value": "0102 29 29",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "0102 29 41",
-                        "description": "For slaughter"
-                    },
-                    {
-                        "value": "0102 29 49",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "0102 29 51",
-                        "description": "For slaughter"
-                    },
-                    {
-                        "value": "0102 29 59",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "0102 29 61",
-                        "description": "For slaughter"
-                    },
-                    {
-                        "value": "0102 29 69",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "0102 29 91",
-                        "description": "For slaughter"
-                    },
-                    {
-                        "value": "0102 29 99",
-                        "description": "Other"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "FOODSTUFFS",
-                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
-            },
-            "comment": "Other, live domestic bovines"
-        },
-        {
-            "memberState": "HU",
-            "type": "REDUCED",
-            "rate": {
                 "type": "REDUCED_RATE",
                 "value": 5
             },
@@ -660,372 +1026,6 @@
                 "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
             },
             "comment": "Dietary supplements for special medicinal purposes (foodstuffs), mother’s milk substitutes and supplements (foodstuffs)"
-        },
-        {
-            "memberState": "HU",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cnCodes": {
-                "code": {
-                    "value": "0103 10 00",
-                    "description": "Pure-bred breeding animals"
-                }
-            },
-            "category": {
-                "identifier": "FOODSTUFFS",
-                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
-            },
-            "comment": "Pure-bred breeding swine"
-        },
-        {
-            "memberState": "HU",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cnCodes": {
-                "code": {
-                    "value": "0103 91 10",
-                    "description": "Domestic species"
-                }
-            },
-            "category": {
-                "identifier": "FOODSTUFFS",
-                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
-            },
-            "comment": "Domestic swine, weighing less than 50 kg"
-        },
-        {
-            "memberState": "HU",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cnCodes": {
-                "code": {
-                    "value": "0103 92 11",
-                    "description": "Sows having farrowed at least once, of a weight of not less than 160 kg"
-                }
-            },
-            "category": {
-                "identifier": "FOODSTUFFS",
-                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
-            },
-            "comment": "Live sows, having farrowed at least once, of a weight of not less than 160 kg"
-        },
-        {
-            "memberState": "HU",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cnCodes": {
-                "code": {
-                    "value": "0103 92 19",
-                    "description": "Other"
-                }
-            },
-            "category": {
-                "identifier": "FOODSTUFFS",
-                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
-            },
-            "comment": "Live domestic swine, of a weight of not less than 50 kg"
-        },
-        {
-            "memberState": "HU",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cnCodes": {
-                "code": {
-                    "value": "0104 10 10",
-                    "description": "Pure-bred breeding animals"
-                }
-            },
-            "category": {
-                "identifier": "FOODSTUFFS",
-                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
-            },
-            "comment": "Pure-bred sheep for breeding"
-        },
-        {
-            "memberState": "HU",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "0104 10 30",
-                        "description": "Lambs (up to a year old)"
-                    },
-                    {
-                        "value": "0104 10 80",
-                        "description": "Other"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "FOODSTUFFS",
-                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
-            },
-            "comment": "Other, live domestic sheep"
-        },
-        {
-            "memberState": "HU",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cnCodes": {
-                "code": {
-                    "value": "0104 20 10",
-                    "description": "Pure-bred breeding animals"
-                }
-            },
-            "category": {
-                "identifier": "FOODSTUFFS",
-                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
-            },
-            "comment": "Pure-bred breeding goats"
-        },
-        {
-            "memberState": "HU",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cnCodes": {
-                "code": {
-                    "value": "0104 20 90",
-                    "description": "Other"
-                }
-            },
-            "category": {
-                "identifier": "FOODSTUFFS",
-                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
-            },
-            "comment": "Other, live domestic goats"
-        },
-        {
-            "memberState": "HU",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cnCodes": {
-                "code": {
-                    "value": "0201 10 00",
-                    "description": "Carcases and half-carcases"
-                }
-            },
-            "category": {
-                "identifier": "FOODSTUFFS",
-                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
-            },
-            "comment": "Meat of domestic bovine animals, fresh or chilled, carcasses and half-carcasses"
-        },
-        {
-            "memberState": "HU",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cnCodes": {
-                "code": {
-                    "value": "0201 20 20",
-                    "description": "‘Compensated’ quarters"
-                }
-            },
-            "category": {
-                "identifier": "FOODSTUFFS",
-                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
-            },
-            "comment": "Meat of domestic bovine animals, fresh or chilled, other cuts with bone in, “compensated” quarters"
-        },
-        {
-            "memberState": "HU",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cnCodes": {
-                "code": {
-                    "value": "0201 20 30",
-                    "description": "Unseparated or separated forequarters"
-                }
-            },
-            "category": {
-                "identifier": "FOODSTUFFS",
-                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
-            },
-            "comment": "Meat of domestic bovine animals, fresh or chilled, other cuts with bone in, unseparated or separated forequarters"
-        },
-        {
-            "memberState": "HU",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cnCodes": {
-                "code": {
-                    "value": "0201 20 50",
-                    "description": "Unseparated or separated hindquarters"
-                }
-            },
-            "category": {
-                "identifier": "FOODSTUFFS",
-                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
-            },
-            "comment": "Meat of domestic bovine animals, fresh or chilled, other cuts with bone in, unseparated or separated hindquarters"
-        },
-        {
-            "memberState": "HU",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cnCodes": {
-                "code": {
-                    "value": "0202 10 00",
-                    "description": "Carcases and half-carcases"
-                }
-            },
-            "category": {
-                "identifier": "FOODSTUFFS",
-                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
-            },
-            "comment": "Meat of domestic bovine animals, frozen, carcasses and half-carcasses"
-        },
-        {
-            "memberState": "HU",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cnCodes": {
-                "code": {
-                    "value": "0202 20 10",
-                    "description": "‘Compensated’ quarters"
-                }
-            },
-            "category": {
-                "identifier": "FOODSTUFFS",
-                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
-            },
-            "comment": "Meat of domestic bovine animals, frozen, other cuts with bone in, “compensated” quarters"
-        },
-        {
-            "memberState": "HU",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cnCodes": {
-                "code": {
-                    "value": "0202 20 30",
-                    "description": "Unseparated or separated forequarters"
-                }
-            },
-            "category": {
-                "identifier": "FOODSTUFFS",
-                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
-            },
-            "comment": "Meat of domestic bovine animals, frozen, other cuts with bone in, unseparated or separated forequarters"
-        },
-        {
-            "memberState": "HU",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cnCodes": {
-                "code": {
-                    "value": "0202 20 50",
-                    "description": "Unseparated or separated hindquarters"
-                }
-            },
-            "category": {
-                "identifier": "FOODSTUFFS",
-                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
-            },
-            "comment": "Meat of domestic bovine animals, frozen, other cuts with bone in, unseparated or separated hindquarters"
-        },
-        {
-            "memberState": "HU",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cnCodes": {
-                "code": {
-                    "value": "0203",
-                    "description": "Meat of swine, fresh, chilled or frozen"
-                }
-            },
-            "category": {
-                "identifier": "FOODSTUFFS",
-                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
-            },
-            "comment": "Meat of domestic swine, fresh, chilled or frozen"
-        },
-        {
-            "memberState": "HU",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cnCodes": {
-                "code": {
-                    "value": "0203 11 10",
-                    "description": "Of domestic swine"
-                }
-            },
-            "category": {
-                "identifier": "FOODSTUFFS",
-                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
-            },
-            "comment": "Domestic swine whole or halved, fresh or chilled"
         },
         {
             "memberState": "HU",

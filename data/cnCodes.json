@@ -1547,10 +1547,6 @@
         "code": "0409 00 00",
         "description": "Natural honey"
     },
-    "0410": {
-        "code": "0410",
-        "description": "Insects and other edible products of animal origin, not elsewhere specified or included"
-    },
     "0410 00 00": {
         "code": "0410 00 00",
         "description": "Edible products of animal origin, not elsewhere specified or included"
@@ -1562,6 +1558,10 @@
     "05": {
         "code": "05",
         "description": "CHAPTER 5 - PRODUCTS OF ANIMAL ORIGIN, NOT ELSEWHERE SPECIFIED OR INCLUDED"
+    },
+    "0410": {
+        "code": "0410",
+        "description": "Insects and other edible products of animal origin, not elsewhere specified or included"
     },
     "0504 00 00": {
         "code": "0504 00 00",
@@ -1751,6 +1751,10 @@
         "code": "0602 90 99",
         "description": "Other"
     },
+    "07": {
+        "code": "07",
+        "description": "CHAPTER 7 - EDIBLE VEGETABLES AND CERTAIN ROOTS AND TUBERS"
+    },
     "0603": {
         "code": "0603",
         "description": "Cut flowers and flower buds of a kind suitable for bouquets or for ornamental purposes, fresh, dried, dyed, bleached, impregnated or otherwise prepared"
@@ -1766,10 +1770,6 @@
     "0604 20 11": {
         "code": "0604 20 11",
         "description": "Reindeer moss"
-    },
-    "07": {
-        "code": "07",
-        "description": "CHAPTER 7 - EDIBLE VEGETABLES AND CERTAIN ROOTS AND TUBERS"
     },
     "0701": {
         "code": "0701",
@@ -2135,34 +2135,6 @@
         "code": "08",
         "description": "CHAPTER 8 - EDIBLE FRUIT AND NUTS; PEEL OF CITRUS FRUIT OR MELONS"
     },
-    "09": {
-        "code": "09",
-        "description": "CHAPTER 9 - COFFEE, TEA, MATÉ AND SPICES"
-    },
-    "0801": {
-        "code": "0801",
-        "description": "Coconuts, Brazil nuts and cashew nuts, fresh or dried, whether or not shelled or peeled"
-    },
-    "0802": {
-        "code": "0802",
-        "description": "Other nuts, fresh or dried, whether or not shelled or peeled"
-    },
-    "0803": {
-        "code": "0803",
-        "description": "Bananas, including plantains, fresh or dried"
-    },
-    "0804": {
-        "code": "0804",
-        "description": "Dates, figs, pineapples, avocados, guavas, mangoes and mangosteens, fresh or dried"
-    },
-    "0805": {
-        "code": "0805",
-        "description": "Citrus fruit, fresh or dried"
-    },
-    "0806": {
-        "code": "0806",
-        "description": "Grapes, fresh or dried"
-    },
     "0806 10 90": {
         "code": "0806 10 90",
         "description": "Other"
@@ -2170,26 +2142,6 @@
     "0806 20": {
         "code": "0806 20",
         "description": "Dried"
-    },
-    "0807": {
-        "code": "0807",
-        "description": "Melons (including watermelons) and papaws (papayas), fresh"
-    },
-    "0808": {
-        "code": "0808",
-        "description": "Apples, pears and quinces, fresh"
-    },
-    "0809": {
-        "code": "0809",
-        "description": "Apricots, cherries, peaches (including nectarines), plums and sloes, fresh"
-    },
-    "0810": {
-        "code": "0810",
-        "description": "Other fruit, fresh"
-    },
-    "0811": {
-        "code": "0811",
-        "description": "Fruit and nuts, uncooked or cooked by steaming or boiling in water, frozen, whether or not containing added sugar or other sweetening matter"
     },
     "0811 10 11": {
         "code": "0811 10 11",
@@ -2270,6 +2222,66 @@
     "0811 90 95": {
         "code": "0811 90 95",
         "description": "Other"
+    },
+    "09": {
+        "code": "09",
+        "description": "CHAPTER 9 - COFFEE, TEA, MATÉ AND SPICES"
+    },
+    "10": {
+        "code": "10",
+        "description": "CHAPTER 10 - CEREALS"
+    },
+    "11": {
+        "code": "11",
+        "description": "CHAPTER 11 - PRODUCTS OF THE MILLING INDUSTRY; MALT; STARCHES; INULIN; WHEAT GLUTEN"
+    },
+    "12": {
+        "code": "12",
+        "description": "CHAPTER 12 - OIL SEEDS AND OLEAGINOUS FRUITS; MISCELLANEOUS GRAINS, SEEDS AND FRUIT; INDUSTRIAL OR MEDICINAL PLANTS; STRAW AND FODDER"
+    },
+    "0801": {
+        "code": "0801",
+        "description": "Coconuts, Brazil nuts and cashew nuts, fresh or dried, whether or not shelled or peeled"
+    },
+    "0802": {
+        "code": "0802",
+        "description": "Other nuts, fresh or dried, whether or not shelled or peeled"
+    },
+    "0803": {
+        "code": "0803",
+        "description": "Bananas, including plantains, fresh or dried"
+    },
+    "0804": {
+        "code": "0804",
+        "description": "Dates, figs, pineapples, avocados, guavas, mangoes and mangosteens, fresh or dried"
+    },
+    "0805": {
+        "code": "0805",
+        "description": "Citrus fruit, fresh or dried"
+    },
+    "0806": {
+        "code": "0806",
+        "description": "Grapes, fresh or dried"
+    },
+    "0807": {
+        "code": "0807",
+        "description": "Melons (including watermelons) and papaws (papayas), fresh"
+    },
+    "0808": {
+        "code": "0808",
+        "description": "Apples, pears and quinces, fresh"
+    },
+    "0809": {
+        "code": "0809",
+        "description": "Apricots, cherries, peaches (including nectarines), plums and sloes, fresh"
+    },
+    "0810": {
+        "code": "0810",
+        "description": "Other fruit, fresh"
+    },
+    "0811": {
+        "code": "0811",
+        "description": "Fruit and nuts, uncooked or cooked by steaming or boiling in water, frozen, whether or not containing added sugar or other sweetening matter"
     },
     "0812": {
         "code": "0812",
@@ -2402,10 +2414,6 @@
     "0910 99 10": {
         "code": "0910 99 10",
         "description": "Fenugreek seed"
-    },
-    "10": {
-        "code": "10",
-        "description": "CHAPTER 10 - CEREALS"
     },
     "1001": {
         "code": "1001",
@@ -2554,10 +2562,6 @@
     "1008 90 00": {
         "code": "1008 90 00",
         "description": "Other cereals"
-    },
-    "11": {
-        "code": "11",
-        "description": "CHAPTER 11 - PRODUCTS OF THE MILLING INDUSTRY; MALT; STARCHES; INULIN; WHEAT GLUTEN"
     },
     "1101 00": {
         "code": "1101 00",
@@ -2779,6 +2783,10 @@
         "code": "1106 30",
         "description": "Of the products of Chapter 8"
     },
+    "1107": {
+        "code": "1107",
+        "description": "Malt, whether or not roasted"
+    },
     "1107 10": {
         "code": "1107 10",
         "description": "Not roasted"
@@ -2787,22 +2795,6 @@
         "code": "1107 20 00",
         "description": "Roasted"
     },
-    "1108 12 00": {
-        "code": "1108 12 00",
-        "description": "Maize (corn) starch"
-    },
-    "1108 13 00": {
-        "code": "1108 13 00",
-        "description": "Potato starch"
-    },
-    "12": {
-        "code": "12",
-        "description": "CHAPTER 12 - OIL SEEDS AND OLEAGINOUS FRUITS; MISCELLANEOUS GRAINS, SEEDS AND FRUIT; INDUSTRIAL OR MEDICINAL PLANTS; STRAW AND FODDER"
-    },
-    "1107": {
-        "code": "1107",
-        "description": "Malt, whether or not roasted"
-    },
     "1108": {
         "code": "1108",
         "description": "Starches; inulin"
@@ -2810,6 +2802,14 @@
     "1108 11 00": {
         "code": "1108 11 00",
         "description": "Wheat starch"
+    },
+    "1108 12 00": {
+        "code": "1108 12 00",
+        "description": "Maize (corn) starch"
+    },
+    "1108 13 00": {
+        "code": "1108 13 00",
+        "description": "Potato starch"
     },
     "1109 00 00": {
         "code": "1109 00 00",
@@ -2975,6 +2975,14 @@
         "code": "1207 99 96",
         "description": "Other"
     },
+    "14": {
+        "code": "14",
+        "description": "CHAPTER 14 - VEGETABLE PLAITING MATERIALS; VEGETABLE PRODUCTS NOT ELSEWHERE SPECIFIED OR INCLUDED"
+    },
+    "15": {
+        "code": "15",
+        "description": "CHAPTER 15 - ANIMAL, VEGETABLE OR MICROBIAL FATS AND OILS AND THEIR CLEAVAGE PRODUCTS; PREPARED EDIBLE FATS; ANIMAL OR VEGETABLE WAXES"
+    },
     "1208": {
         "code": "1208",
         "description": "Flours and meals of oil seeds or oleaginous fruits, other than those of mustard"
@@ -2986,18 +2994,6 @@
     "1208 90 00": {
         "code": "1208 90 00",
         "description": "Other"
-    },
-    "1210 10 00": {
-        "code": "1210 10 00",
-        "description": "Hop cones, neither ground nor powdered nor in the form of pellets"
-    },
-    "1210 20": {
-        "code": "1210 20",
-        "description": "Hop cones, ground, powdered or in the form of pellets; lupulin"
-    },
-    "1211 50 00": {
-        "code": "1211 50 00",
-        "description": "Ephedra"
     },
     "13": {
         "code": "13",
@@ -3011,6 +3007,14 @@
         "code": "1210",
         "description": "Hop cones, fresh or dried, whether or not ground, powdered or in the form of pellets; lupulin"
     },
+    "1210 10 00": {
+        "code": "1210 10 00",
+        "description": "Hop cones, neither ground nor powdered nor in the form of pellets"
+    },
+    "1210 20": {
+        "code": "1210 20",
+        "description": "Hop cones, ground, powdered or in the form of pellets; lupulin"
+    },
     "1211": {
         "code": "1211",
         "description": "Plants and parts of plants (including seeds and fruits), of a kind used primarily in perfumery, in pharmacy or for insecticidal, fungicidal or similar purposes, fresh, chilled, frozen or dried, whether or not cut, crushed or powdered"
@@ -3018,6 +3022,10 @@
     "1211 20 00": {
         "code": "1211 20 00",
         "description": "Ginseng roots"
+    },
+    "1211 50 00": {
+        "code": "1211 50 00",
+        "description": "Ephedra"
     },
     "1211 90 86": {
         "code": "1211 90 86",
@@ -3143,10 +3151,6 @@
         "code": "1302 39 00",
         "description": "Other"
     },
-    "14": {
-        "code": "14",
-        "description": "CHAPTER 14 - VEGETABLE PLAITING MATERIALS; VEGETABLE PRODUCTS NOT ELSEWHERE SPECIFIED OR INCLUDED"
-    },
     "1401 90 00": {
         "code": "1401 90 00",
         "description": "Other"
@@ -3154,10 +3158,6 @@
     "1404 90 00": {
         "code": "1404 90 00",
         "description": "Other"
-    },
-    "15": {
-        "code": "15",
-        "description": "CHAPTER 15 - ANIMAL, VEGETABLE OR MICROBIAL FATS AND OILS AND THEIR CLEAVAGE PRODUCTS; PREPARED EDIBLE FATS; ANIMAL OR VEGETABLE WAXES"
     },
     "1501": {
         "code": "1501",
@@ -3891,14 +3891,6 @@
         "code": "1604 20 90",
         "description": "Of other fish"
     },
-    "17": {
-        "code": "17",
-        "description": "CHAPTER 17 - SUGARS AND SUGAR CONFECTIONERY"
-    },
-    "1605": {
-        "code": "1605",
-        "description": "Crustaceans, molluscs and other aquatic invertebrates, prepared or preserved"
-    },
     "1605 10 00": {
         "code": "1605 10 00",
         "description": "Crab"
@@ -3962,6 +3954,14 @@
     "1605 69 00": {
         "code": "1605 69 00",
         "description": "Other"
+    },
+    "17": {
+        "code": "17",
+        "description": "CHAPTER 17 - SUGARS AND SUGAR CONFECTIONERY"
+    },
+    "1605": {
+        "code": "1605",
+        "description": "Crustaceans, molluscs and other aquatic invertebrates, prepared or preserved"
     },
     "1701": {
         "code": "1701",
@@ -4123,6 +4123,10 @@
         "code": "1802 00 00",
         "description": "Cocoa shells, husks, skins and other cocoa waste"
     },
+    "19": {
+        "code": "19",
+        "description": "CHAPTER 19 - PREPARATIONS OF CEREALS, FLOUR, STARCH OR MILK; PASTRYCOOKS' PRODUCTS"
+    },
     "1803": {
         "code": "1803",
         "description": "Cocoa paste, whether or not defatted"
@@ -4150,10 +4154,6 @@
     "1806 90 90": {
         "code": "1806 90 90",
         "description": "Other"
-    },
-    "19": {
-        "code": "19",
-        "description": "CHAPTER 19 - PREPARATIONS OF CEREALS, FLOUR, STARCH OR MILK; PASTRYCOOKS' PRODUCTS"
     },
     "1901": {
         "code": "1901",
@@ -4739,14 +4739,6 @@
         "code": "21",
         "description": "CHAPTER 21 - MISCELLANEOUS EDIBLE PREPARATIONS"
     },
-    "22": {
-        "code": "22",
-        "description": "CHAPTER 22 - BEVERAGES, SPIRITS AND VINEGAR"
-    },
-    "2101": {
-        "code": "2101",
-        "description": "Extracts, essences and concentrates, of coffee, tea or maté and preparations with a basis of these products or with a basis of coffee, tea or maté; roasted chicory and other roasted coffee substitutes, and extracts, essences and concentrates thereof"
-    },
     "2101 20 92": {
         "code": "2101 20 92",
         "description": "With a basis of extracts, essences or concentrates of tea or maté"
@@ -4758,6 +4750,14 @@
     "2101 30": {
         "code": "2101 30",
         "description": "Roasted chicory and other roasted coffee substitutes, and extracts, essences and concentrates thereof"
+    },
+    "22": {
+        "code": "22",
+        "description": "CHAPTER 22 - BEVERAGES, SPIRITS AND VINEGAR"
+    },
+    "2101": {
+        "code": "2101",
+        "description": "Extracts, essences and concentrates, of coffee, tea or maté and preparations with a basis of these products or with a basis of coffee, tea or maté; roasted chicory and other roasted coffee substitutes, and extracts, essences and concentrates thereof"
     },
     "2102": {
         "code": "2102",
@@ -5027,6 +5027,18 @@
         "code": "2308 00 90",
         "description": "Other"
     },
+    "2309 90": {
+        "code": "2309 90",
+        "description": "Other"
+    },
+    "2309 90 96": {
+        "code": "2309 90 96",
+        "description": "Other"
+    },
+    "2404 91 10": {
+        "code": "2404 91 10",
+        "description": "Nicotine containing products intended to assist tobacco use cessation"
+    },
     "25": {
         "code": "25",
         "description": "CHAPTER 25 - SALT; SULPHUR; EARTHS AND STONE; PLASTERING MATERIALS, LIME AND CEMENT"
@@ -5038,22 +5050,6 @@
     "2309": {
         "code": "2309",
         "description": "Preparations of a kind used in animal feeding"
-    },
-    "2309 90": {
-        "code": "2309 90",
-        "description": "Other"
-    },
-    "2309 90 96": {
-        "code": "2309 90 96",
-        "description": "Other"
-    },
-    "2401 10": {
-        "code": "2401 10",
-        "description": "Tobacco, not stemmed\/stripped"
-    },
-    "2404 91 10": {
-        "code": "2404 91 10",
-        "description": "Nicotine containing products intended to assist tobacco use cessation"
     },
     "2501 00": {
         "code": "2501 00",
@@ -5239,10 +5235,6 @@
         "code": "2711 21 00",
         "description": "Natural gas"
     },
-    "2713": {
-        "code": "2713",
-        "description": "Petroleum coke, petroleum bitumen and other residues of petroleum oils or of oils obtained from bituminous minerals"
-    },
     "2713 11 00": {
         "code": "2713 11 00",
         "description": "Not calcined"
@@ -5254,6 +5246,10 @@
     "28": {
         "code": "28",
         "description": "CHAPTER 28 - INORGANIC CHEMICALS; ORGANIC OR INORGANIC COMPOUNDS OF PRECIOUS METALS, OF RARE-EARTH METALS, OF RADIOACTIVE ELEMENTS OR OF ISOTOPES"
+    },
+    "2713": {
+        "code": "2713",
+        "description": "Petroleum coke, petroleum bitumen and other residues of petroleum oils or of oils obtained from bituminous minerals"
     },
     "2801": {
         "code": "2801",
@@ -5611,6 +5607,10 @@
         "code": "2843",
         "description": "Colloidal precious metals; inorganic or organic compounds of precious metals, whether or not chemically defined; amalgams of precious metals"
     },
+    "2844": {
+        "code": "2844",
+        "description": "Radioactive chemical elements and radioactive isotopes (including the fissile or fertile chemical elements and isotopes) and their compounds; mixtures and residues containing these products"
+    },
     "2844 40": {
         "code": "2844 40",
         "description": "Radioactive elements and isotopes and compounds other than those of subheading 284410, 284420 or 284430; alloys, dispersions (including cermets), ceramic products and mixtures containing these elements, isotopes or compounds; radioactive residues"
@@ -5635,14 +5635,6 @@
         "code": "2847 00 00",
         "description": "Hydrogen peroxide, whether or not solidified with urea"
     },
-    "29": {
-        "code": "29",
-        "description": "CHAPTER 29 - ORGANIC CHEMICALS"
-    },
-    "2844": {
-        "code": "2844",
-        "description": "Radioactive chemical elements and radioactive isotopes (including the fissile or fertile chemical elements and isotopes) and their compounds; mixtures and residues containing these products"
-    },
     "2852": {
         "code": "2852",
         "description": "Inorganic or organic compounds of mercury, whether or not chemically defined, excluding amalgams"
@@ -5654,6 +5646,10 @@
     "2853 90 10": {
         "code": "2853 90 10",
         "description": "Distilled or conductivity water and water of similar purity"
+    },
+    "29": {
+        "code": "29",
+        "description": "CHAPTER 29 - ORGANIC CHEMICALS"
     },
     "2901 22 00": {
         "code": "2901 22 00",
@@ -5783,14 +5779,6 @@
         "code": "2915 60",
         "description": "Butanoic acids, pentanoic acids, their salts and esters"
     },
-    "2917 12 00": {
-        "code": "2917 12 00",
-        "description": "Adipic acid, its salts and esters"
-    },
-    "30": {
-        "code": "30",
-        "description": "CHAPTER 30 - PHARMACEUTICAL PRODUCTS"
-    },
     "2916": {
         "code": "2916",
         "description": "Unsaturated acyclic monocarboxylic acids, cyclic monocarboxylic acids, their anhydrides, halides, peroxides and peroxyacids; their halogenated, sulphonated, nitrated or nitrosated derivatives"
@@ -5802,6 +5790,10 @@
     "2917": {
         "code": "2917",
         "description": "Polycarboxylic acids, their anhydrides, halides, peroxides and peroxyacids; their halogenated, sulphonated, nitrated or nitrosated derivatives"
+    },
+    "2917 12 00": {
+        "code": "2917 12 00",
+        "description": "Adipic acid, its salts and esters"
     },
     "2918": {
         "code": "2918",
@@ -5975,21 +5967,9 @@
         "code": "2930 90 16",
         "description": "Derivatives of cysteine or cystine"
     },
-    "2931": {
-        "code": "2931",
-        "description": "Other organo-inorganic compounds"
-    },
-    "2932": {
-        "code": "2932",
-        "description": "Heterocyclic compounds with oxygen hetero-atom(s) only"
-    },
     "2932 14 00": {
         "code": "2932 14 00",
         "description": "Sucralose"
-    },
-    "2933": {
-        "code": "2933",
-        "description": "Heterocyclic compounds with nitrogen hetero-atom(s) only"
     },
     "2933 11 10": {
         "code": "2933 11 10",
@@ -6039,10 +6019,6 @@
         "code": "2933 99 20",
         "description": "Indole, 3-methylindole (skatole), 6-allyl-6,7-dihydro-5H-dibenz[c,e]azepine (azapetine), phenindamine (INN) and their salts; imipramine hydrochloride (INNM)"
     },
-    "2934": {
-        "code": "2934",
-        "description": "Nucleic acids and their salts, whether or not chemically defined; other heterocyclic compounds"
-    },
     "2934 30": {
         "code": "2934 30",
         "description": "Compounds containing in the structure a phenothiazine ring-system (whether or not hydrogenated), not further fused"
@@ -6058,6 +6034,90 @@
     "2934 99 90": {
         "code": "2934 99 90",
         "description": "Other"
+    },
+    "30": {
+        "code": "30",
+        "description": "CHAPTER 30 - PHARMACEUTICAL PRODUCTS"
+    },
+    "31": {
+        "code": "31",
+        "description": "CHAPTER 31 - FERTILISERS"
+    },
+    "39": {
+        "code": "39",
+        "description": "CHAPTER 39 - PLASTICS AND ARTICLES THEREOF"
+    },
+    "49": {
+        "code": "49",
+        "description": "CHAPTER 49 - PRINTED BOOKS, NEWSPAPERS, PICTURES AND OTHER PRODUCTS OF THE PRINTING INDUSTRY; MANUSCRIPTS, TYPESCRIPTS AND PLANS"
+    },
+    "57": {
+        "code": "57",
+        "description": "CHAPTER 57 - CARPETS AND OTHER TEXTILE FLOOR COVERINGS"
+    },
+    "61": {
+        "code": "61",
+        "description": "CHAPTER 61 - ARTICLES OF APPAREL AND CLOTHING ACCESSORIES, KNITTED OR CROCHETED"
+    },
+    "62": {
+        "code": "62",
+        "description": "CHAPTER 62 - ARTICLES OF APPAREL AND CLOTHING ACCESSORIES, NOT KNITTED OR CROCHETED"
+    },
+    "64": {
+        "code": "64",
+        "description": "CHAPTER 64 - FOOTWEAR, GAITERS AND THE LIKE; PARTS OF SUCH ARTICLES"
+    },
+    "65": {
+        "code": "65",
+        "description": "CHAPTER 65 - HEADGEAR AND PARTS THEREOF"
+    },
+    "72": {
+        "code": "72",
+        "description": "CHAPTER 72 - IRON AND STEEL"
+    },
+    "84": {
+        "code": "84",
+        "description": "CHAPTER 84 - NUCLEAR REACTORS, BOILERS, MACHINERY AND MECHANICAL APPLIANCES; PARTS THEREOF"
+    },
+    "85": {
+        "code": "85",
+        "description": "CHAPTER 85 - ELECTRICAL MACHINERY AND EQUIPMENT AND PARTS THEREOF; SOUND RECORDERS AND REPRODUCERS, TELEVISION IMAGE AND SOUND RECORDERS AND REPRODUCERS, AND PARTS AND ACCESSORIES OF SUCH ARTICLES"
+    },
+    "87": {
+        "code": "87",
+        "description": "CHAPTER 87 - VEHICLES OTHER THAN RAILWAY OR TRAMWAY ROLLING STOCK, AND PARTS AND ACCESSORIES THEREOF"
+    },
+    "90": {
+        "code": "90",
+        "description": "CHAPTER 90 - OPTICAL, PHOTOGRAPHIC, CINEMATOGRAPHIC, MEASURING, CHECKING, PRECISION, MEDICAL OR SURGICAL INSTRUMENTS AND APPARATUS; PARTS AND ACCESSORIES THEREOF"
+    },
+    "91": {
+        "code": "91",
+        "description": "CHAPTER 91 - CLOCKS AND WATCHES AND PARTS THEREOF"
+    },
+    "94": {
+        "code": "94",
+        "description": "CHAPTER 94 - FURNITURE; BEDDING, MATTRESSES, MATTRESS SUPPORTS, CUSHIONS AND SIMILAR STUFFED FURNISHINGS; LUMINAIRES AND LIGHTING FITTINGS, NOT ELSEWHERE SPECIFIED OR INCLUDED; ILLUMINATED SIGNS, ILLUMINATED NAMEPLATES AND THE LIKE; PREFABRICATED BUILDINGS"
+    },
+    "97": {
+        "code": "97",
+        "description": "CHAPTER 97 - WORKS OF ART, COLLECTORS' PIECES AND ANTIQUES"
+    },
+    "2931": {
+        "code": "2931",
+        "description": "Other organo-inorganic compounds"
+    },
+    "2932": {
+        "code": "2932",
+        "description": "Heterocyclic compounds with oxygen hetero-atom(s) only"
+    },
+    "2933": {
+        "code": "2933",
+        "description": "Heterocyclic compounds with nitrogen hetero-atom(s) only"
+    },
+    "2934": {
+        "code": "2934",
+        "description": "Nucleic acids and their salts, whether or not chemically defined; other heterocyclic compounds"
     },
     "2935": {
         "code": "2935",
@@ -6215,10 +6275,6 @@
         "code": "3002 20",
         "description": "Vaccines for human medicine"
     },
-    "3002 20 10": {
-        "code": "3002 20 10",
-        "description": "Vaccines against SARS-related coronaviruses (SARS-CoV species)"
-    },
     "3002 30 00": {
         "code": "3002 30 00",
         "description": "Vaccines for veterinary medicine"
@@ -6271,9 +6327,17 @@
         "code": "3002 90 90",
         "description": "Other"
     },
+    "3003": {
+        "code": "3003",
+        "description": "Medicaments (excluding goods of heading 3002, 3005 or 3006) consisting of two or more constituents which have been mixed together for therapeutic or prophylactic uses, not put up in measured doses or in forms or packings for retail sale"
+    },
     "3003 90 00": {
         "code": "3003 90 00",
         "description": "Other"
+    },
+    "3004": {
+        "code": "3004",
+        "description": "Medicaments (excluding goods of heading 3002, 3005 or 3006) consisting of mixed or unmixed products for therapeutic or prophylactic uses, put up in measured doses (including those in the form of transdermal administration systems) or in forms or packings for retail sale"
     },
     "3004 10 00": {
         "code": "3004 10 00",
@@ -6323,6 +6387,10 @@
         "code": "3004 90 00",
         "description": "Other"
     },
+    "3005": {
+        "code": "3005",
+        "description": "Wadding, gauze, bandages and similar articles (for example, dressings, adhesive plasters, poultices), impregnated or coated with pharmaceutical substances or put up in forms or packings for retail sale for medical, surgical, dental or veterinary purposes"
+    },
     "3005 10 00": {
         "code": "3005 10 00",
         "description": "Adhesive dressings and other articles having an adhesive layer"
@@ -6346,6 +6414,10 @@
     "3005 90 99": {
         "code": "3005 90 99",
         "description": "Other"
+    },
+    "3006": {
+        "code": "3006",
+        "description": "Pharmaceutical goods specified in note 4 to this chapter"
     },
     "3006 10": {
         "code": "3006 10",
@@ -6391,33 +6463,37 @@
         "code": "3006 92 00",
         "description": "Waste pharmaceuticals"
     },
-    "31": {
-        "code": "31",
-        "description": "CHAPTER 31 - FERTILISERS"
-    },
     "3101 00 00": {
         "code": "3101 00 00",
         "description": "Animal or vegetable fertilisers, whether or not mixed together or chemically treated; fertilisers produced by the mixing or chemical treatment of animal or vegetable products"
     },
-    "3103 90 00": {
-        "code": "3103 90 00",
-        "description": "Other"
+    "3102": {
+        "code": "3102",
+        "description": "Mineral or chemical fertilisers, nitrogenous"
     },
-    "3105 10 00": {
-        "code": "3105 10 00",
-        "description": "Goods of this chapter in tablets or similar forms or in packages of a gross weight not exceeding 10 kg"
+    "3103": {
+        "code": "3103",
+        "description": "Mineral or chemical fertilisers, phosphatic"
     },
-    "3105 30 00": {
-        "code": "3105 30 00",
-        "description": "Diammonium hydrogenorthophosphate (diammonium phosphate)"
+    "3104": {
+        "code": "3104",
+        "description": "Mineral or chemical fertilisers, potassic"
     },
-    "3105 40 00": {
-        "code": "3105 40 00",
-        "description": "Ammonium dihydrogenorthophosphate (monoammonium phosphate) and mixtures thereof with diammonium hydrogenorthophosphate (diammonium phosphate)"
+    "3105": {
+        "code": "3105",
+        "description": "Mineral or chemical fertilisers containing two or three of the fertilising elements nitrogen, phosphorus and potassium; other fertilisers; goods of this chapter in tablets or similar forms or in packages of a gross weight not exceeding 10 kg"
     },
     "3105 90 80": {
         "code": "3105 90 80",
         "description": "Other"
+    },
+    "3201": {
+        "code": "3201",
+        "description": "Tanning extracts of vegetable origin; tannins and their salts, ethers, esters and other derivatives"
+    },
+    "3202": {
+        "code": "3202",
+        "description": "Synthetic organic tanning substances; inorganic tanning substances; tanning preparations, whether or not containing natural tanning substances; enzymatic preparations for pre-tanning"
     },
     "3202 10 00": {
         "code": "3202 10 00",
@@ -6427,6 +6503,10 @@
         "code": "3203 00",
         "description": "Colouring matter of vegetable or animal origin (including dyeing extracts but excluding animal black), whether or not chemically defined; preparations as specified in note 3 to this chapter based on colouring matter of vegetable or animal origin"
     },
+    "3204": {
+        "code": "3204",
+        "description": "Synthetic organic colouring matter, whether or not chemically defined; preparations as specified in note 3 to this chapter based on synthetic organic colouring matter; synthetic organic products of a kind used as fluorescent brightening agents or as luminophores, whether or not chemically defined"
+    },
     "3204 12 00": {
         "code": "3204 12 00",
         "description": "Acid dyes, whether or not premetallised, and preparations based thereon; mordant dyes and preparations based thereon"
@@ -6435,9 +6515,17 @@
         "code": "3205 00 00",
         "description": "Colour lakes; preparations as specified in note 3 to this chapter based on colour lakes"
     },
+    "3206": {
+        "code": "3206",
+        "description": "Other colouring matter; preparations as specified in note 3 to this chapter, other than those of heading 3203, 3204 or 3205; inorganic products of a kind used as luminophores, whether or not chemically defined"
+    },
     "3214 10 10": {
         "code": "3214 10 10",
         "description": "Glaziers' putty, grafting putty, resin cements, caulking compounds and other mastics"
+    },
+    "3301": {
+        "code": "3301",
+        "description": "Essential oils (terpeneless or not), including concretes and absolutes; resinoids; extracted oleoresins; concentrates of essential oils in fats, in fixed oils, in waxes or the like, obtained by enfleurage or maceration; terpenic by-products of the deterpenation of essential oils; aqueous distillates and aqueous solutions of essential oils"
     },
     "3301 12": {
         "code": "3301 12",
@@ -6454,6 +6542,10 @@
     "3301 90 90": {
         "code": "3301 90 90",
         "description": "Other"
+    },
+    "3302": {
+        "code": "3302",
+        "description": "Mixtures of odoriferous substances and mixtures (including alcoholic solutions) with a basis of one or more of these substances, of a kind used as raw materials in industry; other preparations based on odoriferous substances, of a kind used for the manufacture of beverages"
     },
     "3302 10": {
         "code": "3302 10",
@@ -6479,6 +6571,10 @@
         "code": "3302 90",
         "description": "Other"
     },
+    "3304": {
+        "code": "3304",
+        "description": "Beauty or make-up preparations and preparations for the care of the skin (other than medicaments), including sunscreen or suntan preparations; manicure or pedicure preparations"
+    },
     "3304 30 00": {
         "code": "3304 30 00",
         "description": "Manicure or pedicure preparations"
@@ -6495,6 +6591,10 @@
         "code": "3305 90 00",
         "description": "Other"
     },
+    "3306": {
+        "code": "3306",
+        "description": "Preparations for oral or dental hygiene, including denture fixative pastes and powders; yarn used to clean between the teeth (dental floss), in individual retail packages"
+    },
     "3306 10 00": {
         "code": "3306 10 00",
         "description": "Dentifrices"
@@ -6506,6 +6606,10 @@
     "3307 90 00": {
         "code": "3307 90 00",
         "description": "Other"
+    },
+    "3401": {
+        "code": "3401",
+        "description": "Soap; organic surface-active products and preparations for use as soap, in the form of bars, cakes, moulded pieces or shapes, whether or not containing soap; organic surface-active products and preparations for washing the skin, in the form of liquid or cream and put up for retail sale, whether or not containing soap; paper, wadding, felt and nonwovens, impregnated, coated or covered with soap or detergent"
     },
     "3401 11 00": {
         "code": "3401 11 00",
@@ -6527,6 +6631,10 @@
         "code": "3401 30 00",
         "description": "Organic surface-active products and preparations for washing the skin, in the form of liquid or cream and put up for retail sale, whether or not containing soap"
     },
+    "3402": {
+        "code": "3402",
+        "description": "Organic surface-active agents (other than soap); surface-active preparations, washing preparations (including auxiliary washing preparations) and cleaning preparations, whether or not containing soap, other than those of heading 3401"
+    },
     "3402 12 00": {
         "code": "3402 12 00",
         "description": "Cationic"
@@ -6543,6 +6651,10 @@
         "code": "3407 00 00",
         "description": "Modelling pastes, including those put up for children's amusement; preparations known as ‘dental wax’ or as ‘dental impression compounds’, put up in sets, in packings for retail sale or in plates, horseshoe shapes, sticks or similar forms; other preparations for use in dentistry, with a basis of plaster (of calcined gypsum or calcium sulphate)"
     },
+    "3501": {
+        "code": "3501",
+        "description": "Casein, caseinates and other casein derivatives; casein glues"
+    },
     "3501 10": {
         "code": "3501 10",
         "description": "Casein"
@@ -6558,6 +6670,10 @@
     "3501 90 90": {
         "code": "3501 90 90",
         "description": "Other"
+    },
+    "3502": {
+        "code": "3502",
+        "description": "Albumins (including concentrates of two or more whey proteins, containing by weight more than 80 % whey proteins, calculated on the dry matter), albuminates and other albumin derivatives"
     },
     "3502 11": {
         "code": "3502 11",
@@ -6615,6 +6731,10 @@
         "code": "3504 00 90",
         "description": "Other"
     },
+    "3505": {
+        "code": "3505",
+        "description": "Dextrins and other modified starches (for example, pregelatinised or esterified starches); glues based on starches, or on dextrins or other modified starches"
+    },
     "3505 10": {
         "code": "3505 10",
         "description": "Dextrins and other modified starches"
@@ -6627,6 +6747,10 @@
         "code": "3506 10 00",
         "description": "Products suitable for use as glues or adhesives, put up for retail sale as glues or adhesives, not exceeding a net weight of 1 kg"
     },
+    "3507": {
+        "code": "3507",
+        "description": "Enzymes; prepared enzymes not elsewhere specified or included"
+    },
     "3507 10 00": {
         "code": "3507 10 00",
         "description": "Rennet and concentrates thereof"
@@ -6634,10 +6758,6 @@
     "3507 90": {
         "code": "3507 90",
         "description": "Other"
-    },
-    "3704 00": {
-        "code": "3704 00",
-        "description": "Photographic plates, film, paper, paperboard and textiles, exposed but not developed"
     },
     "3704 00 10": {
         "code": "3704 00 10",
@@ -6650,6 +6770,10 @@
     "3804 00 00": {
         "code": "3804 00 00",
         "description": "Residual lyes from the manufacture of wood pulp, whether or not concentrated, desugared or chemically treated, including lignin sulphonates, but excluding tall oil of heading 3803"
+    },
+    "3808": {
+        "code": "3808",
+        "description": "Insecticides, rodenticides, fungicides, herbicides, anti-sprouting products and plant-growth regulators, disinfectants and similar products, put up in forms or packings for retail sale or as preparations or articles (for example, sulphur-treated bands, wicks and candles, and fly-papers)"
     },
     "3808 52 00": {
         "code": "3808 52 00",
@@ -6703,6 +6827,10 @@
         "code": "3821 00 00",
         "description": "Prepared culture media for the development or maintenance of micro-organisms (including viruses and the like) or of plant, human or animal cells"
     },
+    "3822": {
+        "code": "3822",
+        "description": "Diagnostic or laboratory reagents on a backing, prepared diagnostic or laboratory reagents whether or not on a backing, whether or not put up in the form of kits, other than those of heading 3006; certified reference materials"
+    },
     "3822 00 00": {
         "code": "3822 00 00",
         "description": "Diagnostic or laboratory reagents on a backing, prepared diagnostic or laboratory reagents whether or not on a backing, other than those of heading 3002 or 3006; certified reference materials"
@@ -6726,6 +6854,10 @@
     "3822 90 00": {
         "code": "3822 90 00",
         "description": "Other"
+    },
+    "3823": {
+        "code": "3823",
+        "description": "Industrial monocarboxylic fatty acids; acid oils from refining; industrial fatty alcohols"
     },
     "3824 60": {
         "code": "3824 60",
@@ -6798,114 +6930,6 @@
     "3824 99 96": {
         "code": "3824 99 96",
         "description": "Other"
-    },
-    "39": {
-        "code": "39",
-        "description": "CHAPTER 39 - PLASTICS AND ARTICLES THEREOF"
-    },
-    "3003": {
-        "code": "3003",
-        "description": "Medicaments (excluding goods of heading 3002, 3005 or 3006) consisting of two or more constituents which have been mixed together for therapeutic or prophylactic uses, not put up in measured doses or in forms or packings for retail sale"
-    },
-    "3004": {
-        "code": "3004",
-        "description": "Medicaments (excluding goods of heading 3002, 3005 or 3006) consisting of mixed or unmixed products for therapeutic or prophylactic uses, put up in measured doses (including those in the form of transdermal administration systems) or in forms or packings for retail sale"
-    },
-    "3005": {
-        "code": "3005",
-        "description": "Wadding, gauze, bandages and similar articles (for example, dressings, adhesive plasters, poultices), impregnated or coated with pharmaceutical substances or put up in forms or packings for retail sale for medical, surgical, dental or veterinary purposes"
-    },
-    "3006": {
-        "code": "3006",
-        "description": "Pharmaceutical goods specified in note 4 to this chapter"
-    },
-    "3102": {
-        "code": "3102",
-        "description": "Mineral or chemical fertilisers, nitrogenous"
-    },
-    "3103": {
-        "code": "3103",
-        "description": "Mineral or chemical fertilisers, phosphatic"
-    },
-    "3104": {
-        "code": "3104",
-        "description": "Mineral or chemical fertilisers, potassic"
-    },
-    "3105": {
-        "code": "3105",
-        "description": "Mineral or chemical fertilisers containing two or three of the fertilising elements nitrogen, phosphorus and potassium; other fertilisers; goods of this chapter in tablets or similar forms or in packages of a gross weight not exceeding 10 kg"
-    },
-    "3201": {
-        "code": "3201",
-        "description": "Tanning extracts of vegetable origin; tannins and their salts, ethers, esters and other derivatives"
-    },
-    "3202": {
-        "code": "3202",
-        "description": "Synthetic organic tanning substances; inorganic tanning substances; tanning preparations, whether or not containing natural tanning substances; enzymatic preparations for pre-tanning"
-    },
-    "3204": {
-        "code": "3204",
-        "description": "Synthetic organic colouring matter, whether or not chemically defined; preparations as specified in note 3 to this chapter based on synthetic organic colouring matter; synthetic organic products of a kind used as fluorescent brightening agents or as luminophores, whether or not chemically defined"
-    },
-    "3206": {
-        "code": "3206",
-        "description": "Other colouring matter; preparations as specified in note 3 to this chapter, other than those of heading 3203, 3204 or 3205; inorganic products of a kind used as luminophores, whether or not chemically defined"
-    },
-    "3301": {
-        "code": "3301",
-        "description": "Essential oils (terpeneless or not), including concretes and absolutes; resinoids; extracted oleoresins; concentrates of essential oils in fats, in fixed oils, in waxes or the like, obtained by enfleurage or maceration; terpenic by-products of the deterpenation of essential oils; aqueous distillates and aqueous solutions of essential oils"
-    },
-    "3302": {
-        "code": "3302",
-        "description": "Mixtures of odoriferous substances and mixtures (including alcoholic solutions) with a basis of one or more of these substances, of a kind used as raw materials in industry; other preparations based on odoriferous substances, of a kind used for the manufacture of beverages"
-    },
-    "3304": {
-        "code": "3304",
-        "description": "Beauty or make-up preparations and preparations for the care of the skin (other than medicaments), including sunscreen or suntan preparations; manicure or pedicure preparations"
-    },
-    "3306": {
-        "code": "3306",
-        "description": "Preparations for oral or dental hygiene, including denture fixative pastes and powders; yarn used to clean between the teeth (dental floss), in individual retail packages"
-    },
-    "3401": {
-        "code": "3401",
-        "description": "Soap; organic surface-active products and preparations for use as soap, in the form of bars, cakes, moulded pieces or shapes, whether or not containing soap; organic surface-active products and preparations for washing the skin, in the form of liquid or cream and put up for retail sale, whether or not containing soap; paper, wadding, felt and nonwovens, impregnated, coated or covered with soap or detergent"
-    },
-    "3402": {
-        "code": "3402",
-        "description": "Organic surface-active agents (other than soap); surface-active preparations, washing preparations (including auxiliary washing preparations) and cleaning preparations, whether or not containing soap, other than those of heading 3401"
-    },
-    "3501": {
-        "code": "3501",
-        "description": "Casein, caseinates and other casein derivatives; casein glues"
-    },
-    "3502": {
-        "code": "3502",
-        "description": "Albumins (including concentrates of two or more whey proteins, containing by weight more than 80 % whey proteins, calculated on the dry matter), albuminates and other albumin derivatives"
-    },
-    "3505": {
-        "code": "3505",
-        "description": "Dextrins and other modified starches (for example, pregelatinised or esterified starches); glues based on starches, or on dextrins or other modified starches"
-    },
-    "3507": {
-        "code": "3507",
-        "description": "Enzymes; prepared enzymes not elsewhere specified or included"
-    },
-    "3808": {
-        "code": "3808",
-        "description": "Insecticides, rodenticides, fungicides, herbicides, anti-sprouting products and plant-growth regulators, disinfectants and similar products, put up in forms or packings for retail sale or as preparations or articles (for example, sulphur-treated bands, wicks and candles, and fly-papers)"
-    },
-    "3822": {
-        "code": "3822",
-        "description": "Diagnostic or laboratory reagents on a backing, prepared diagnostic or laboratory reagents whether or not on a backing, whether or not put up in the form of kits, other than those of heading 3006; certified reference materials"
-    },
-    "3823": {
-        "code": "3823",
-        "description": "Industrial monocarboxylic fatty acids; acid oils from refining; industrial fatty alcohols"
-    },
-    "3825": {
-        "code": "3825",
-        "description": "Residual products of the chemical or allied industries, not elsewhere specified or included; municipal waste; sewage sludge; other wastes specified in note 6 to this chapter"
     },
     "3912 31 00": {
         "code": "3912 31 00",
@@ -7135,6 +7159,10 @@
         "code": "4801 00 00",
         "description": "Newsprint, in rolls or sheets"
     },
+    "4802": {
+        "code": "4802",
+        "description": "Uncoated paper and paperboard, of a kind used for writing, printing or other graphic purposes, and non-perforated punchcards and punch-tape paper, in rolls or rectangular (including square) sheets, of any size, other than paper of heading 4801 or 4803; handmade paper and paperboard"
+    },
     "4802 20 00": {
         "code": "4802 20 00",
         "description": "Paper and paperboard of a kind used as a base for photosensitive, heat-sensitive or electrosensitive paper or paperboard"
@@ -7187,9 +7215,21 @@
         "code": "4804 19",
         "description": "Other"
     },
+    "4805": {
+        "code": "4805",
+        "description": "Other uncoated paper and paperboard, in rolls or sheets, not further worked or processed than as specified in note 3 to this chapter"
+    },
     "4805 91 00": {
         "code": "4805 91 00",
         "description": "Weighing 150 g\/m² or less"
+    },
+    "4808": {
+        "code": "4808",
+        "description": "Paper and paperboard, corrugated (with or without glued flat surface sheets), creped, crinkled, embossed or perforated, in rolls or sheets, other than paper of the kind described in heading 4803"
+    },
+    "4809": {
+        "code": "4809",
+        "description": "Carbon paper, self-copy paper and other copying or transfer papers (including coated or impregnated paper for duplicator stencils or offset plates), whether or not printed, in rolls or sheets"
     },
     "4810 13 00": {
         "code": "4810 13 00",
@@ -7227,6 +7267,18 @@
         "code": "4811 90 00",
         "description": "Other paper, paperboard, cellulose wadding and webs of cellulose fibres"
     },
+    "4816": {
+        "code": "4816",
+        "description": "Carbon paper, self-copy paper and other copying or transfer papers (other than those of heading 4809), duplicator stencils and offset plates, of paper, whether or not put up in boxes"
+    },
+    "4817": {
+        "code": "4817",
+        "description": "Envelopes, letter cards, plain postcards and correspondence cards, of paper or paperboard; boxes, pouches, wallets and writing compendiums, of paper or paperboard, containing an assortment of paper stationery"
+    },
+    "4818": {
+        "code": "4818",
+        "description": "Toilet paper and similar paper, cellulose wadding or webs of cellulose fibres, of a kind used for household or sanitary purposes, in rolls of a width not exceeding 36 cm, or cut to size or shape; handkerchiefs, cleansing tissues, towels, tablecloths, serviettes, bedsheets and similar household, sanitary or hospital articles, articles of apparel and clothing accessories, of paper pulp, paper, cellulose wadding or webs of cellulose fibres"
+    },
     "4818 90": {
         "code": "4818 90",
         "description": "Other"
@@ -7251,6 +7303,10 @@
         "code": "4820 30 00",
         "description": "Binders (other than book covers), folders and file covers"
     },
+    "4823": {
+        "code": "4823",
+        "description": "Other paper, paperboard, cellulose wadding and webs of cellulose fibres, cut to size or shape; other articles of paper pulp, paper, paperboard, cellulose wadding or webs of cellulose fibres"
+    },
     "4823 70 90": {
         "code": "4823 70 90",
         "description": "Other"
@@ -7259,13 +7315,17 @@
         "code": "4823 90 85",
         "description": "Other"
     },
-    "49": {
-        "code": "49",
-        "description": "CHAPTER 49 - PRINTED BOOKS, NEWSPAPERS, PICTURES AND OTHER PRODUCTS OF THE PRINTING INDUSTRY; MANUSCRIPTS, TYPESCRIPTS AND PLANS"
+    "4901": {
+        "code": "4901",
+        "description": "Printed books, brochures, leaflets and similar printed matter, whether or not in single sheets"
     },
     "4901 99 00": {
         "code": "4901 99 00",
         "description": "Other"
+    },
+    "4902": {
+        "code": "4902",
+        "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
     },
     "4902 10 00": {
         "code": "4902 10 00",
@@ -7278,6 +7338,10 @@
     "4904 00 00": {
         "code": "4904 00 00",
         "description": "Music, printed or in manuscript, whether or not bound or illustrated"
+    },
+    "4905": {
+        "code": "4905",
+        "description": "Maps and hydrographic or similar charts of all kinds, including atlases, wall maps, topographical plans and globes, printed"
     },
     "4905 10 00": {
         "code": "4905 10 00",
@@ -7319,6 +7383,10 @@
         "code": "4907 00 90",
         "description": "Other"
     },
+    "4908": {
+        "code": "4908",
+        "description": "Transfers (decalcomanias)"
+    },
     "4909 00 00": {
         "code": "4909 00 00",
         "description": "Printed or illustrated postcards; printed cards bearing personal greetings, messages or announcements, whether or not illustrated, with or without envelopes or trimmings"
@@ -7326,6 +7394,10 @@
     "4910 00 00": {
         "code": "4910 00 00",
         "description": "Calendars of any kind, printed, including calendar blocks"
+    },
+    "4911": {
+        "code": "4911",
+        "description": "Other printed matter, including printed pictures and photographs"
     },
     "4911 10": {
         "code": "4911 10",
@@ -7347,6 +7419,14 @@
         "code": "4911 99 00",
         "description": "Other"
     },
+    "5102": {
+        "code": "5102",
+        "description": "Fine or coarse animal hair, not carded or combed"
+    },
+    "5208": {
+        "code": "5208",
+        "description": "Woven fabrics of cotton, containing 85 % or more by weight of cotton, weighing not more than 200 g\/m²"
+    },
     "5301 10 00": {
         "code": "5301 10 00",
         "description": "Flax, raw or retted"
@@ -7362,118 +7442,6 @@
     "5305 00 00": {
         "code": "5305 00 00",
         "description": "Coconut, abaca (Manila hemp or Musa textilis Nee), ramie and other vegetable textile fibres, not elsewhere specified or included, raw or processed but not spun; tow, noils and waste of these fibres (including yarn waste and garnetted stock)"
-    },
-    "57": {
-        "code": "57",
-        "description": "CHAPTER 57 - CARPETS AND OTHER TEXTILE FLOOR COVERINGS"
-    },
-    "61": {
-        "code": "61",
-        "description": "CHAPTER 61 - ARTICLES OF APPAREL AND CLOTHING ACCESSORIES, KNITTED OR CROCHETED"
-    },
-    "62": {
-        "code": "62",
-        "description": "CHAPTER 62 - ARTICLES OF APPAREL AND CLOTHING ACCESSORIES, NOT KNITTED OR CROCHETED"
-    },
-    "64": {
-        "code": "64",
-        "description": "CHAPTER 64 - FOOTWEAR, GAITERS AND THE LIKE; PARTS OF SUCH ARTICLES"
-    },
-    "65": {
-        "code": "65",
-        "description": "CHAPTER 65 - HEADGEAR AND PARTS THEREOF"
-    },
-    "72": {
-        "code": "72",
-        "description": "CHAPTER 72 - IRON AND STEEL"
-    },
-    "84": {
-        "code": "84",
-        "description": "CHAPTER 84 - NUCLEAR REACTORS, BOILERS, MACHINERY AND MECHANICAL APPLIANCES; PARTS THEREOF"
-    },
-    "85": {
-        "code": "85",
-        "description": "CHAPTER 85 - ELECTRICAL MACHINERY AND EQUIPMENT AND PARTS THEREOF; SOUND RECORDERS AND REPRODUCERS, TELEVISION IMAGE AND SOUND RECORDERS AND REPRODUCERS, AND PARTS AND ACCESSORIES OF SUCH ARTICLES"
-    },
-    "87": {
-        "code": "87",
-        "description": "CHAPTER 87 - VEHICLES OTHER THAN RAILWAY OR TRAMWAY ROLLING STOCK, AND PARTS AND ACCESSORIES THEREOF"
-    },
-    "90": {
-        "code": "90",
-        "description": "CHAPTER 90 - OPTICAL, PHOTOGRAPHIC, CINEMATOGRAPHIC, MEASURING, CHECKING, PRECISION, MEDICAL OR SURGICAL INSTRUMENTS AND APPARATUS; PARTS AND ACCESSORIES THEREOF"
-    },
-    "91": {
-        "code": "91",
-        "description": "CHAPTER 91 - CLOCKS AND WATCHES AND PARTS THEREOF"
-    },
-    "94": {
-        "code": "94",
-        "description": "CHAPTER 94 - FURNITURE; BEDDING, MATTRESSES, MATTRESS SUPPORTS, CUSHIONS AND SIMILAR STUFFED FURNISHINGS; LUMINAIRES AND LIGHTING FITTINGS, NOT ELSEWHERE SPECIFIED OR INCLUDED; ILLUMINATED SIGNS, ILLUMINATED NAMEPLATES AND THE LIKE; PREFABRICATED BUILDINGS"
-    },
-    "97": {
-        "code": "97",
-        "description": "CHAPTER 97 - WORKS OF ART, COLLECTORS' PIECES AND ANTIQUES"
-    },
-    "4802": {
-        "code": "4802",
-        "description": "Uncoated paper and paperboard, of a kind used for writing, printing or other graphic purposes, and non-perforated punchcards and punch-tape paper, in rolls or rectangular (including square) sheets, of any size, other than paper of heading 4801 or 4803; handmade paper and paperboard"
-    },
-    "4805": {
-        "code": "4805",
-        "description": "Other uncoated paper and paperboard, in rolls or sheets, not further worked or processed than as specified in note 3 to this chapter"
-    },
-    "4808": {
-        "code": "4808",
-        "description": "Paper and paperboard, corrugated (with or without glued flat surface sheets), creped, crinkled, embossed or perforated, in rolls or sheets, other than paper of the kind described in heading 4803"
-    },
-    "4809": {
-        "code": "4809",
-        "description": "Carbon paper, self-copy paper and other copying or transfer papers (including coated or impregnated paper for duplicator stencils or offset plates), whether or not printed, in rolls or sheets"
-    },
-    "4816": {
-        "code": "4816",
-        "description": "Carbon paper, self-copy paper and other copying or transfer papers (other than those of heading 4809), duplicator stencils and offset plates, of paper, whether or not put up in boxes"
-    },
-    "4817": {
-        "code": "4817",
-        "description": "Envelopes, letter cards, plain postcards and correspondence cards, of paper or paperboard; boxes, pouches, wallets and writing compendiums, of paper or paperboard, containing an assortment of paper stationery"
-    },
-    "4818": {
-        "code": "4818",
-        "description": "Toilet paper and similar paper, cellulose wadding or webs of cellulose fibres, of a kind used for household or sanitary purposes, in rolls of a width not exceeding 36 cm, or cut to size or shape; handkerchiefs, cleansing tissues, towels, tablecloths, serviettes, bedsheets and similar household, sanitary or hospital articles, articles of apparel and clothing accessories, of paper pulp, paper, cellulose wadding or webs of cellulose fibres"
-    },
-    "4823": {
-        "code": "4823",
-        "description": "Other paper, paperboard, cellulose wadding and webs of cellulose fibres, cut to size or shape; other articles of paper pulp, paper, paperboard, cellulose wadding or webs of cellulose fibres"
-    },
-    "4901": {
-        "code": "4901",
-        "description": "Printed books, brochures, leaflets and similar printed matter, whether or not in single sheets"
-    },
-    "4902": {
-        "code": "4902",
-        "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
-    },
-    "4905": {
-        "code": "4905",
-        "description": "Maps and hydrographic or similar charts of all kinds, including atlases, wall maps, topographical plans and globes, printed"
-    },
-    "4908": {
-        "code": "4908",
-        "description": "Transfers (decalcomanias)"
-    },
-    "4911": {
-        "code": "4911",
-        "description": "Other printed matter, including printed pictures and photographs"
-    },
-    "5102": {
-        "code": "5102",
-        "description": "Fine or coarse animal hair, not carded or combed"
-    },
-    "5208": {
-        "code": "5208",
-        "description": "Woven fabrics of cotton, containing 85 % or more by weight of cotton, weighing not more than 200 g\/m²"
     },
     "5601": {
         "code": "5601",

@@ -424,6 +424,151 @@
             },
             "situationOn": "2025-07-01+02:00",
             "cnCodes": {
+                "code": {
+                    "value": "2201",
+                    "description": "Waters, including natural or artificial mineral waters and aerated waters, not containing added sugar or other sweetening matter nor flavoured; ice and snow"
+                }
+            },
+            "category": {
+                "identifier": "SUPPLY_WATER",
+                "description": "Supply of water"
+            }
+        },
+        {
+            "memberState": "ES",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 10
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "3002 30 00",
+                        "description": "Vaccines for veterinary medicine"
+                    },
+                    {
+                        "value": "3005",
+                        "description": "Wadding, gauze, bandages and similar articles (for example, dressings, adhesive plasters, poultices), impregnated or coated with pharmaceutical substances or put up in forms or packings for retail sale for medical, surgical, dental or veterinary purposes"
+                    },
+                    {
+                        "value": "3006 10",
+                        "description": "Sterile surgical catgut, similar sterile suture materials (including sterile absorbable surgical or dental yarns) and sterile tissue adhesives for surgical wound closure; sterile laminaria and sterile laminaria tents; sterile absorbable surgical or dental haemostatics; sterile surgical or dental adhesion barriers, whether or not absorbable"
+                    },
+                    {
+                        "value": "3006 20 00",
+                        "description": "Blood-grouping reagents"
+                    },
+                    {
+                        "value": "3006 30 00",
+                        "description": "Opacifying preparations for X-ray examinations; diagnostic reagents designed to be administered to the patient"
+                    },
+                    {
+                        "value": "3006 40 00",
+                        "description": "Dental cements and other dental fillings; bone reconstruction cements"
+                    },
+                    {
+                        "value": "3006 50 00",
+                        "description": "First-aid boxes and kits"
+                    },
+                    {
+                        "value": "3006 70 00",
+                        "description": "Gel preparations designed to be used in human or veterinary medicine as a lubricant for parts of the body for surgical operations or physical examinations or as a coupling agent between the body and medical instruments"
+                    },
+                    {
+                        "value": "4014 10 00",
+                        "description": "Sheath contraceptives"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "PHARMACEUTICAL_PRODUCTS",
+                "description": "Pharmaceutical products of a kind normally used for health care, prevention of illness and as treatment for medical and veterinary purposes, including products used for contraception and sanitary protection"
+            },
+            "comment": "products used for contraception and sanitary protection will be taxed at a VAT reduced 4% VAT rate from now on (see below)"
+        },
+        {
+            "memberState": "ES",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 10
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cnCodes": {
+                "code": {
+                    "value": "31",
+                    "description": "CHAPTER 31 - FERTILISERS"
+                }
+            },
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "01.61",
+                        "description": "Support services to crop production"
+                    },
+                    {
+                        "value": "01.62",
+                        "description": "Support services to animal production"
+                    },
+                    {
+                        "value": "01.64",
+                        "description": "Seed processing services for propagation"
+                    },
+                    {
+                        "value": "75",
+                        "description": "Veterinary services"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "AGRICULTURAL_PRODUCTION",
+                "description": "Supply of goods and services of a kind normally intended for use in agricultural production but excluding capital goods such as machinery or buildings"
+            }
+        },
+        {
+            "memberState": "ES",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 10
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "5805 00 00",
+                        "description": "Hand-woven tapestries of the type Gobelins, Flanders, Aubusson, Beauvais and the like, and needle-worked tapestries (for example, petit point, cross stitch), whether or not made up"
+                    },
+                    {
+                        "value": "6304 91 00",
+                        "description": "Knitted or crocheted"
+                    },
+                    {
+                        "value": "6304 92 00",
+                        "description": "Not knitted or crocheted, of cotton"
+                    },
+                    {
+                        "value": "6304 99 00",
+                        "description": "Not knitted or crocheted, of other textile materials"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "TAPESTRIES",
+                "description": "Tapestries (CN code 5805 00 00) and wall textiles (CN code 6304 00 00) made by hand from original designs provided by artists, provided that there are not more than eight copies of each"
+            }
+        },
+        {
+            "memberState": "ES",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 10
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cnCodes": {
                 "code": [
                     {
                         "value": "9001 30 00",
@@ -687,132 +832,6 @@
             },
             "situationOn": "2025-07-01+02:00",
             "cnCodes": {
-                "code": [
-                    {
-                        "value": "3002 30 00",
-                        "description": "Vaccines for veterinary medicine"
-                    },
-                    {
-                        "value": "3005",
-                        "description": "Wadding, gauze, bandages and similar articles (for example, dressings, adhesive plasters, poultices), impregnated or coated with pharmaceutical substances or put up in forms or packings for retail sale for medical, surgical, dental or veterinary purposes"
-                    },
-                    {
-                        "value": "3006 10",
-                        "description": "Sterile surgical catgut, similar sterile suture materials (including sterile absorbable surgical or dental yarns) and sterile tissue adhesives for surgical wound closure; sterile laminaria and sterile laminaria tents; sterile absorbable surgical or dental haemostatics; sterile surgical or dental adhesion barriers, whether or not absorbable"
-                    },
-                    {
-                        "value": "3006 20 00",
-                        "description": "Blood-grouping reagents"
-                    },
-                    {
-                        "value": "3006 30 00",
-                        "description": "Opacifying preparations for X-ray examinations; diagnostic reagents designed to be administered to the patient"
-                    },
-                    {
-                        "value": "3006 40 00",
-                        "description": "Dental cements and other dental fillings; bone reconstruction cements"
-                    },
-                    {
-                        "value": "3006 50 00",
-                        "description": "First-aid boxes and kits"
-                    },
-                    {
-                        "value": "3006 70 00",
-                        "description": "Gel preparations designed to be used in human or veterinary medicine as a lubricant for parts of the body for surgical operations or physical examinations or as a coupling agent between the body and medical instruments"
-                    },
-                    {
-                        "value": "4014 10 00",
-                        "description": "Sheath contraceptives"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "PHARMACEUTICAL_PRODUCTS",
-                "description": "Pharmaceutical products of a kind normally used for health care, prevention of illness and as treatment for medical and veterinary purposes, including products used for contraception and sanitary protection"
-            },
-            "comment": "products used for contraception and sanitary protection will be taxed at a VAT reduced 4% VAT rate from now on (see below)"
-        },
-        {
-            "memberState": "ES",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 10
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cnCodes": {
-                "code": {
-                    "value": "31",
-                    "description": "CHAPTER 31 - FERTILISERS"
-                }
-            },
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "01.61",
-                        "description": "Support services to crop production"
-                    },
-                    {
-                        "value": "01.62",
-                        "description": "Support services to animal production"
-                    },
-                    {
-                        "value": "01.64",
-                        "description": "Seed processing services for propagation"
-                    },
-                    {
-                        "value": "75",
-                        "description": "Veterinary services"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "AGRICULTURAL_PRODUCTION",
-                "description": "Supply of goods and services of a kind normally intended for use in agricultural production but excluding capital goods such as machinery or buildings"
-            }
-        },
-        {
-            "memberState": "ES",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 10
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "5805 00 00",
-                        "description": "Hand-woven tapestries of the type Gobelins, Flanders, Aubusson, Beauvais and the like, and needle-worked tapestries (for example, petit point, cross stitch), whether or not made up"
-                    },
-                    {
-                        "value": "6304 91 00",
-                        "description": "Knitted or crocheted"
-                    },
-                    {
-                        "value": "6304 92 00",
-                        "description": "Not knitted or crocheted, of cotton"
-                    },
-                    {
-                        "value": "6304 99 00",
-                        "description": "Not knitted or crocheted, of other textile materials"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "TAPESTRIES",
-                "description": "Tapestries (CN code 5805 00 00) and wall textiles (CN code 6304 00 00) made by hand from original designs provided by artists, provided that there are not more than eight copies of each"
-            }
-        },
-        {
-            "memberState": "ES",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 10
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cnCodes": {
                 "code": {
                     "value": "9705 00 00",
                     "description": "Collections and collectors' pieces of zoological, botanical, mineralogical, anatomical, historical, archaeological, palaeontological, ethnographic or numismatic interest"
@@ -1050,25 +1069,6 @@
                 "value": 21
             },
             "situationOn": "2025-07-01+02:00"
-        },
-        {
-            "memberState": "ES",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 10
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cnCodes": {
-                "code": {
-                    "value": "2201",
-                    "description": "Waters, including natural or artificial mineral waters and aerated waters, not containing added sugar or other sweetening matter nor flavoured; ice and snow"
-                }
-            },
-            "category": {
-                "identifier": "SUPPLY_WATER",
-                "description": "Supply of water"
-            }
         }
     ]
 }
