@@ -893,89 +893,6 @@
         },
         {
             "memberState": "SI",
-            "type": "STANDARD",
-            "rate": {
-                "type": "DEFAULT",
-                "value": 22
-            },
-            "situationOn": "2025-07-01+02:00"
-        },
-        {
-            "memberState": "SI",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 9.5
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "0101",
-                        "description": "Live horses, asses, mules and hinnies"
-                    },
-                    {
-                        "value": "0102",
-                        "description": "Live bovine animals"
-                    },
-                    {
-                        "value": "0103",
-                        "description": "Live swine"
-                    },
-                    {
-                        "value": "0104",
-                        "description": "Live sheep and goats"
-                    },
-                    {
-                        "value": "0105",
-                        "description": "Live poultry, that is to say, fowls of the species Gallus domesticus, ducks, geese, turkeys and guinea fowls"
-                    },
-                    {
-                        "value": "0301",
-                        "description": "Live fish"
-                    },
-                    {
-                        "value": "0306",
-                        "description": "Crustaceans, whether in shell or not, live, fresh, chilled, frozen, dried, salted or in brine; smoked crustaceans, whether in shell or not, whether or not cooked before or during the smoking process; crustaceans, in shell, cooked by steaming or by boiling in water, whether or not chilled, frozen, dried, salted or in brine"
-                    },
-                    {
-                        "value": "0307",
-                        "description": "Molluscs, whether in shell or not, live, fresh, chilled, frozen, dried, salted or in brine; smoked molluscs, whether in shell or not, whether or not cooked before or during the smoking process"
-                    },
-                    {
-                        "value": "0407 11 00",
-                        "description": "Of fowls of the species Gallus domesticus"
-                    },
-                    {
-                        "value": "0407 19 11",
-                        "description": "Of turkeys or geese"
-                    },
-                    {
-                        "value": "0407 19 19",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "0511 10 00",
-                        "description": "Bovine semen"
-                    },
-                    {
-                        "value": "0511 91 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "0511 99 85",
-                        "description": "Other"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "AGRICULTURAL_PRODUCTION",
-                "description": "Supply of goods and services of a kind normally intended for use in agricultural production but excluding capital goods such as machinery or buildings"
-            },
-            "comment": "Animals for fattening include domestic animals, normally intended for reproduction and breeding within livestock activities and aquaculture activities, including rabbits and bees.\n0511 91 90: only inedible fish eggs\nExcept: 0301 11 00, 0301 19 00, eggs for hatching ornamental birds"
-        },
-        {
-            "memberState": "SI",
             "type": "REDUCED",
             "rate": {
                 "type": "REDUCED_RATE",
@@ -1103,44 +1020,6 @@
                 "description": "Supply of goods and services of a kind normally intended for use in agricultural production but excluding capital goods such as machinery or buildings"
             },
             "comment": "Seeds and seedlings of agricultural and forestry plants placed on the market in accordance with the regulations governing the trade in seeds and seedlings.\nExcept: 1209 30 00, 1209 99 91"
-        },
-        {
-            "memberState": "SI",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 9.5
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "0601",
-                        "description": "Bulbs, tubers, tuberous roots, corms, crowns and rhizomes, dormant, in growth or in flower; chicory plants and roots other than roots of heading 1212"
-                    },
-                    {
-                        "value": "0602",
-                        "description": "Other live plants (including their roots), cuttings and slips; mushroom spawn"
-                    },
-                    {
-                        "value": "0603",
-                        "description": "Cut flowers and flower buds of a kind suitable for bouquets or for ornamental purposes, fresh, dried, dyed, bleached, impregnated or otherwise prepared"
-                    },
-                    {
-                        "value": "0604",
-                        "description": "Foliage, branches and other parts of plants, without flowers or flower buds, and grasses, mosses and lichens, being goods of a kind suitable for bouquets or for ornamental purposes, fresh, dried, dyed, bleached, impregnated or otherwise prepared"
-                    },
-                    {
-                        "value": "1209",
-                        "description": "Seeds, fruit and spores, of a kind used for sowing"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "PLANT",
-                "description": "Live plants and other floricultural products, including bulbs, cotton, roots and the like, cut flowers and ornamental foliage"
-            },
-            "comment": "1209: only ornamental plant seeds"
         },
         {
             "memberState": "SI",
@@ -2412,6 +2291,127 @@
                 "description": "Supply of services by undertakers and cremation services, and the supply of goods related thereto"
             },
             "comment": "Includes only: burial and cremation; preparing the dead for burial or cremation and embalming, and the services of gravediggers; preparation of funeral and cremation rites; rental of equipped premises and mortuaries; transport of deceased, supply of goods directly related to funeral services, provided by the provider of these services."
+        },
+        {
+            "memberState": "SI",
+            "type": "STANDARD",
+            "rate": {
+                "type": "DEFAULT",
+                "value": 22
+            },
+            "situationOn": "2025-07-01+02:00"
+        },
+        {
+            "memberState": "SI",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 9.5
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "0601",
+                        "description": "Bulbs, tubers, tuberous roots, corms, crowns and rhizomes, dormant, in growth or in flower; chicory plants and roots other than roots of heading 1212"
+                    },
+                    {
+                        "value": "0602",
+                        "description": "Other live plants (including their roots), cuttings and slips; mushroom spawn"
+                    },
+                    {
+                        "value": "0603",
+                        "description": "Cut flowers and flower buds of a kind suitable for bouquets or for ornamental purposes, fresh, dried, dyed, bleached, impregnated or otherwise prepared"
+                    },
+                    {
+                        "value": "0604",
+                        "description": "Foliage, branches and other parts of plants, without flowers or flower buds, and grasses, mosses and lichens, being goods of a kind suitable for bouquets or for ornamental purposes, fresh, dried, dyed, bleached, impregnated or otherwise prepared"
+                    },
+                    {
+                        "value": "1209",
+                        "description": "Seeds, fruit and spores, of a kind used for sowing"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "PLANT",
+                "description": "Live plants and other floricultural products, including bulbs, cotton, roots and the like, cut flowers and ornamental foliage"
+            },
+            "comment": "1209: only ornamental plant seeds"
+        },
+        {
+            "memberState": "SI",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 9.5
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "0101",
+                        "description": "Live horses, asses, mules and hinnies"
+                    },
+                    {
+                        "value": "0102",
+                        "description": "Live bovine animals"
+                    },
+                    {
+                        "value": "0103",
+                        "description": "Live swine"
+                    },
+                    {
+                        "value": "0104",
+                        "description": "Live sheep and goats"
+                    },
+                    {
+                        "value": "0105",
+                        "description": "Live poultry, that is to say, fowls of the species Gallus domesticus, ducks, geese, turkeys and guinea fowls"
+                    },
+                    {
+                        "value": "0301",
+                        "description": "Live fish"
+                    },
+                    {
+                        "value": "0306",
+                        "description": "Crustaceans, whether in shell or not, live, fresh, chilled, frozen, dried, salted or in brine; smoked crustaceans, whether in shell or not, whether or not cooked before or during the smoking process; crustaceans, in shell, cooked by steaming or by boiling in water, whether or not chilled, frozen, dried, salted or in brine"
+                    },
+                    {
+                        "value": "0307",
+                        "description": "Molluscs, whether in shell or not, live, fresh, chilled, frozen, dried, salted or in brine; smoked molluscs, whether in shell or not, whether or not cooked before or during the smoking process"
+                    },
+                    {
+                        "value": "0407 11 00",
+                        "description": "Of fowls of the species Gallus domesticus"
+                    },
+                    {
+                        "value": "0407 19 11",
+                        "description": "Of turkeys or geese"
+                    },
+                    {
+                        "value": "0407 19 19",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "0511 10 00",
+                        "description": "Bovine semen"
+                    },
+                    {
+                        "value": "0511 91 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "0511 99 85",
+                        "description": "Other"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "AGRICULTURAL_PRODUCTION",
+                "description": "Supply of goods and services of a kind normally intended for use in agricultural production but excluding capital goods such as machinery or buildings"
+            },
+            "comment": "Animals for fattening include domestic animals, normally intended for reproduction and breeding within livestock activities and aquaculture activities, including rabbits and bees.\n0511 91 90: only inedible fish eggs\nExcept: 0301 11 00, 0301 19 00, eggs for hatching ornamental birds"
         },
         {
             "memberState": "SI",
