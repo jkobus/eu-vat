@@ -353,7 +353,7 @@
                 "identifier": "FOODSTUFFS",
                 "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
             },
-            "comment": "VAT - Import - Annex 2 of the German VAT Act contains a list of goods falling under the reduced rate of 7% such as live animals, meat, milk and so on. For legal certainty please have a look at the German VAT Act."
+            "comment": "Annex 2 of the German VAT Act contains a list of goods falling under the reduced rate of 7% such as live animals, meat, milk and so on. For legal certainty please have a look at the German VAT Act."
         },
         {
             "memberState": "DE",
@@ -707,54 +707,7 @@
                 "identifier": "FOODSTUFFS",
                 "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
             },
-            "comment": "Annex 2 of the German VAT Act contains a list of goods falling under the reduced rate of 7% such as live animals, meat, milk and so on. For legal certainty please have a look at the German VAT Act."
-        },
-        {
-            "memberState": "DE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 7
-            },
-            "situationOn": "2025-07-01+02:00",
-            "category": {
-                "identifier": "SOCIAL_WELLBEING",
-                "description": "Supply of goods and services by organisations recognised as being devoted to social wellbeing by Member States and engaged in welfare or social security work"
-            },
-            "comment": "Reduced rate only applicable to supplies of goods and services of organisations pursuing non-profit making, charitable or ecclesiastical purposes. VAT reduction not applicable to supply of goods or services to be made within the context of a profitable Business.\nSee preliminary remarks to “Reduced rates” and the “General comments” field"
-        },
-        {
-            "memberState": "DE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 7
-            },
-            "situationOn": "2025-07-01+02:00",
-            "category": {
-                "identifier": "MEDICAL_CARE",
-                "description": "Provision of medical and dental care and thermal treatment"
-            },
-            "comment": "Reduced rate only on the supply of services by dental technicians in their professional capacity and the supply of dental prostheses by dentists and dental technicians.\nSee preliminary remarks to “Reduced rates” and the “General comments” field"
-        },
-        {
-            "memberState": "DE",
-            "type": "STANDARD",
-            "rate": {
-                "type": "DEFAULT",
-                "value": 19
-            },
-            "situationOn": "2025-07-01+02:00",
-            "comment": "VAT - Import - "
-        },
-        {
-            "memberState": "DE",
-            "type": "STANDARD",
-            "rate": {
-                "type": "DEFAULT",
-                "value": 19
-            },
-            "situationOn": "2025-07-01+02:00"
+            "comment": "VAT - Import - Annex 2 of the German VAT Act contains a list of goods falling under the reduced rate of 7% such as live animals, meat, milk and so on. For legal certainty please have a look at the German VAT Act."
         },
         {
             "memberState": "DE",
@@ -1535,6 +1488,53 @@
                 "description": "Accommodation provided in hotels and similar establishments, including the provision of holiday accommodation and the letting of places on camping or caravan sites"
             },
             "comment": "Only for short-term accommodation.\nSee preliminary remarks to “Reduced rates” and the “General comments” field"
+        },
+        {
+            "memberState": "DE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 7
+            },
+            "situationOn": "2025-07-01+02:00",
+            "category": {
+                "identifier": "SOCIAL_WELLBEING",
+                "description": "Supply of goods and services by organisations recognised as being devoted to social wellbeing by Member States and engaged in welfare or social security work"
+            },
+            "comment": "Reduced rate only applicable to supplies of goods and services of organisations pursuing non-profit making, charitable or ecclesiastical purposes. VAT reduction not applicable to supply of goods or services to be made within the context of a profitable Business.\nSee preliminary remarks to “Reduced rates” and the “General comments” field"
+        },
+        {
+            "memberState": "DE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 7
+            },
+            "situationOn": "2025-07-01+02:00",
+            "category": {
+                "identifier": "MEDICAL_CARE",
+                "description": "Provision of medical and dental care and thermal treatment"
+            },
+            "comment": "Reduced rate only on the supply of services by dental technicians in their professional capacity and the supply of dental prostheses by dentists and dental technicians.\nSee preliminary remarks to “Reduced rates” and the “General comments” field"
+        },
+        {
+            "memberState": "DE",
+            "type": "STANDARD",
+            "rate": {
+                "type": "DEFAULT",
+                "value": 19
+            },
+            "situationOn": "2025-07-01+02:00",
+            "comment": "VAT - Import - "
+        },
+        {
+            "memberState": "DE",
+            "type": "STANDARD",
+            "rate": {
+                "type": "DEFAULT",
+                "value": 19
+            },
+            "situationOn": "2025-07-01+02:00"
         },
         {
             "memberState": "DE",
