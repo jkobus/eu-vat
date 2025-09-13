@@ -9,17 +9,235 @@
                 "value": 5
             },
             "situationOn": "2025-07-01+02:00",
-            "cpaCodes": {
-                "code": {
-                    "value": "56",
-                    "description": "Food and beverage serving services"
-                }
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "0201",
+                        "description": "Meat of bovine animals, fresh or chilled"
+                    },
+                    {
+                        "value": "0203",
+                        "description": "Meat of swine, fresh, chilled or frozen"
+                    },
+                    {
+                        "value": "0204",
+                        "description": "Meat of sheep or goats, fresh, chilled or frozen"
+                    },
+                    {
+                        "value": "0207",
+                        "description": "Meat and edible offal, of the poultry of heading 0105, fresh, chilled or frozen"
+                    },
+                    {
+                        "value": "0208",
+                        "description": "Other meat and edible meat offal, fresh, chilled or frozen"
+                    },
+                    {
+                        "value": "0301",
+                        "description": "Live fish"
+                    },
+                    {
+                        "value": "0302",
+                        "description": "Fish, fresh or chilled, excluding fish fillets and other fish meat of heading 0304"
+                    },
+                    {
+                        "value": "0304",
+                        "description": "Fish fillets and other fish meat (whether or not minced), fresh, chilled or frozen"
+                    },
+                    {
+                        "value": "0401",
+                        "description": "Milk and cream, not concentrated nor containing added sugar or other sweetening matter"
+                    },
+                    {
+                        "value": "0403",
+                        "description": "Yogurt; buttermilk, curdled milk and cream, kephir and other fermented or acidified milk and cream, whether or not concentrated or containing added sugar or other sweetening matter or flavoured or containing added fruit, nuts or cocoa"
+                    },
+                    {
+                        "value": "0405 10",
+                        "description": "Butter"
+                    },
+                    {
+                        "value": "0406",
+                        "description": "Cheese and curd"
+                    },
+                    {
+                        "value": "0409 00 00",
+                        "description": "Natural honey"
+                    },
+                    {
+                        "value": "0701",
+                        "description": "Potatoes, fresh or chilled"
+                    },
+                    {
+                        "value": "0702 00 00",
+                        "description": "Tomatoes, fresh or chilled"
+                    },
+                    {
+                        "value": "0703",
+                        "description": "Onions, shallots, garlic, leeks and other alliaceous vegetables, fresh or chilled"
+                    },
+                    {
+                        "value": "0704",
+                        "description": "Cabbages, cauliflowers, kohlrabi, kale and similar edible brassicas, fresh or chilled"
+                    },
+                    {
+                        "value": "0705",
+                        "description": "Lettuce (Lactuca sativa) and chicory (Cichorium spp.), fresh or chilled"
+                    },
+                    {
+                        "value": "0707 00",
+                        "description": "Cucumbers and gherkins, fresh or chilled"
+                    },
+                    {
+                        "value": "0708",
+                        "description": "Leguminous vegetables, shelled or unshelled, fresh or chilled"
+                    },
+                    {
+                        "value": "0709",
+                        "description": "Other vegetables, fresh or chilled"
+                    },
+                    {
+                        "value": "0808",
+                        "description": "Apples, pears and quinces, fresh"
+                    },
+                    {
+                        "value": "1103 19 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "1901 20 00",
+                        "description": "Mixes and doughs for the preparation of bakers' wares of heading 1905"
+                    },
+                    {
+                        "value": "1905",
+                        "description": "Bread, pastry, cakes, biscuits and other bakers' wares, whether or not containing cocoa; communion wafers, empty cachets of a kind suitable for pharmaceutical use, sealing wafers, rice paper and similar products"
+                    },
+                    {
+                        "value": "1905 90 30",
+                        "description": "Bread, not containing added honey, eggs, cheese or fruit, and containing by weight in the dry matter state not more than 5 % of sugars and not more than 5 % of fat"
+                    },
+                    {
+                        "value": "2009",
+                        "description": "Fruit or nut juices (including grape must and coconut water) and vegetable juices, unfermented and not containing added spirit, whether or not containing added sugar or other sweetening matter"
+                    }
+                ]
             },
             "category": {
-                "identifier": "RESTAURANT",
-                "description": "Restaurant and catering services, it being possible to exclude the supply of (alcoholic and\/or non-alcoholic) beverages"
+                "identifier": "FOODSTUFFS",
+                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
             },
-            "comment": "Reduced VAT rate on restaurant and catering services (only food provided)."
+            "comment": "Only selected items - fresh or chilled meat, live fish, fresh or chilled fish, milk, butter, bread and other selected foodstuffs (inluding gluten-free pastries, flour and bread). List can be found in Annex 7 of Act No. 222\/2004 Coll. on Value Added Tax as amended via the following link https:\/\/www.mfsr.sk\/en\/taxes-customs-accounting\/indirect-taxes\/vat\/"
+        },
+        {
+            "memberState": "SK",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "2844 40",
+                        "description": "Radioactive elements and isotopes and compounds other than those of subheading 284410, 284420 or 284430; alloys, dispersions (including cermets), ceramic products and mixtures containing these elements, isotopes or compounds; radioactive residues"
+                    },
+                    {
+                        "value": "2925 11 00",
+                        "description": "Saccharin and its salts"
+                    },
+                    {
+                        "value": "2941",
+                        "description": "Antibiotics"
+                    },
+                    {
+                        "value": "30",
+                        "description": "CHAPTER 30 - PHARMACEUTICAL PRODUCTS"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "PHARMACEUTICAL_PRODUCTS",
+                "description": "Pharmaceutical products of a kind normally used for health care, prevention of illness and as treatment for medical and veterinary purposes, including products used for contraception and sanitary protection"
+            },
+            "comment": "Only selected items.\nExhaustive list can be found in Annex 7 of Act No. 222\/2004 Coll. on Value Added Tax as amended via the following link https:\/\/www.mfsr.sk\/en\/taxes-customs-accounting\/indirect-taxes\/vat\/"
+        },
+        {
+            "memberState": "SK",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "3822 00 00",
+                        "description": "Diagnostic or laboratory reagents on a backing, prepared diagnostic or laboratory reagents whether or not on a backing, other than those of heading 3002 or 3006; certified reference materials"
+                    },
+                    {
+                        "value": "3922 90 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "6115 10",
+                        "description": "Graduated compression hosiery (for example, stockings for varicose veins)"
+                    },
+                    {
+                        "value": "6602 00 00",
+                        "description": "Walking sticks, seat-sticks, whips, riding-crops and the like"
+                    },
+                    {
+                        "value": "8428 90 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "8471 49 00",
+                        "description": "Other, presented in the form of systems"
+                    },
+                    {
+                        "value": "8518 40",
+                        "description": "Audio-frequency electric amplifiers"
+                    },
+                    {
+                        "value": "8531 80 70",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "8713",
+                        "description": "Carriages for disabled persons, whether or not motorised or otherwise mechanically propelled"
+                    },
+                    {
+                        "value": "8714 20 00",
+                        "description": "Of carriages for disabled persons"
+                    },
+                    {
+                        "value": "9001 30 00",
+                        "description": "Contact lenses"
+                    },
+                    {
+                        "value": "9001 40",
+                        "description": "Spectacle lenses of glass"
+                    },
+                    {
+                        "value": "9001 50",
+                        "description": "Spectacle lenses of other materials"
+                    },
+                    {
+                        "value": "9021",
+                        "description": "Orthopaedic appliances, including crutches, surgical belts and trusses; splints and other fracture appliances; artificial parts of the body; hearing aids and other appliances which are worn or carried, or implanted in the body, to compensate for a defect or disability"
+                    },
+                    {
+                        "value": "9619 00",
+                        "description": "Sanitary towels (pads) and tampons, napkins (diapers), napkin liners and similar articles, of any material"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "MEDICAL_EQUIPMENT",
+                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
+            },
+            "comment": "Only selected items.\nExhaustive list can be found in Annex 7 of Act No. 222\/2004 Coll. on Value Added Tax as amended via the following link https:\/\/www.mfsr.sk\/en\/taxes-customs-accounting\/indirect-taxes\/vat\/"
         },
         {
             "memberState": "SK",
@@ -106,6 +324,46 @@
                 "description": "Provision, construction, renovation and alteration of housing, as part of a social policy"
             },
             "comment": "Construction of state-supported rental housing within the framework of the state's social policy (includes: delivery of a building or part of a building, including the construction land on which the building or part of the building stands, renovation and reconstruction of the building or part of the building, including construction and assembly work on the building)."
+        },
+        {
+            "memberState": "SK",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "55",
+                    "description": "Accommodation services"
+                }
+            },
+            "category": {
+                "identifier": "ACCOMMODATION",
+                "description": "Accommodation provided in hotels and similar establishments, including the provision of holiday accommodation and the letting of places on camping or caravan sites"
+            },
+            "comment": "Accommodation and similar establishments as defined by NACE 55 code. The specific legal definition can be found in Annex 7a of Act No. 222\/2004 Coll. on Value Added Tax. The change has been effective as of 1 January 2019. Exhaustive list can be found in Annex 7a of Act No. 222\/2004 Coll. on Value Added Tax as amended via the following link https:\/\/www.mfsr.sk\/en\/taxes-customs-accounting\/indirect-taxes\/vat\/"
+        },
+        {
+            "memberState": "SK",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "56",
+                    "description": "Food and beverage serving services"
+                }
+            },
+            "category": {
+                "identifier": "RESTAURANT",
+                "description": "Restaurant and catering services, it being possible to exclude the supply of (alcoholic and\/or non-alcoholic) beverages"
+            },
+            "comment": "Reduced VAT rate on restaurant and catering services (only food provided)."
         },
         {
             "memberState": "SK",
@@ -371,264 +629,6 @@
                 "value": 23
             },
             "situationOn": "2025-07-01+02:00"
-        },
-        {
-            "memberState": "SK",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "0201",
-                        "description": "Meat of bovine animals, fresh or chilled"
-                    },
-                    {
-                        "value": "0203",
-                        "description": "Meat of swine, fresh, chilled or frozen"
-                    },
-                    {
-                        "value": "0204",
-                        "description": "Meat of sheep or goats, fresh, chilled or frozen"
-                    },
-                    {
-                        "value": "0207",
-                        "description": "Meat and edible offal, of the poultry of heading 0105, fresh, chilled or frozen"
-                    },
-                    {
-                        "value": "0208",
-                        "description": "Other meat and edible meat offal, fresh, chilled or frozen"
-                    },
-                    {
-                        "value": "0301",
-                        "description": "Live fish"
-                    },
-                    {
-                        "value": "0302",
-                        "description": "Fish, fresh or chilled, excluding fish fillets and other fish meat of heading 0304"
-                    },
-                    {
-                        "value": "0304",
-                        "description": "Fish fillets and other fish meat (whether or not minced), fresh, chilled or frozen"
-                    },
-                    {
-                        "value": "0401",
-                        "description": "Milk and cream, not concentrated nor containing added sugar or other sweetening matter"
-                    },
-                    {
-                        "value": "0403",
-                        "description": "Yogurt; buttermilk, curdled milk and cream, kephir and other fermented or acidified milk and cream, whether or not concentrated or containing added sugar or other sweetening matter or flavoured or containing added fruit, nuts or cocoa"
-                    },
-                    {
-                        "value": "0405 10",
-                        "description": "Butter"
-                    },
-                    {
-                        "value": "0406",
-                        "description": "Cheese and curd"
-                    },
-                    {
-                        "value": "0409 00 00",
-                        "description": "Natural honey"
-                    },
-                    {
-                        "value": "0701",
-                        "description": "Potatoes, fresh or chilled"
-                    },
-                    {
-                        "value": "0702 00 00",
-                        "description": "Tomatoes, fresh or chilled"
-                    },
-                    {
-                        "value": "0703",
-                        "description": "Onions, shallots, garlic, leeks and other alliaceous vegetables, fresh or chilled"
-                    },
-                    {
-                        "value": "0704",
-                        "description": "Cabbages, cauliflowers, kohlrabi, kale and similar edible brassicas, fresh or chilled"
-                    },
-                    {
-                        "value": "0705",
-                        "description": "Lettuce (Lactuca sativa) and chicory (Cichorium spp.), fresh or chilled"
-                    },
-                    {
-                        "value": "0707 00",
-                        "description": "Cucumbers and gherkins, fresh or chilled"
-                    },
-                    {
-                        "value": "0708",
-                        "description": "Leguminous vegetables, shelled or unshelled, fresh or chilled"
-                    },
-                    {
-                        "value": "0709",
-                        "description": "Other vegetables, fresh or chilled"
-                    },
-                    {
-                        "value": "0808",
-                        "description": "Apples, pears and quinces, fresh"
-                    },
-                    {
-                        "value": "1103 19 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "1901 20 00",
-                        "description": "Mixes and doughs for the preparation of bakers' wares of heading 1905"
-                    },
-                    {
-                        "value": "1905",
-                        "description": "Bread, pastry, cakes, biscuits and other bakers' wares, whether or not containing cocoa; communion wafers, empty cachets of a kind suitable for pharmaceutical use, sealing wafers, rice paper and similar products"
-                    },
-                    {
-                        "value": "1905 90 30",
-                        "description": "Bread, not containing added honey, eggs, cheese or fruit, and containing by weight in the dry matter state not more than 5 % of sugars and not more than 5 % of fat"
-                    },
-                    {
-                        "value": "2009",
-                        "description": "Fruit or nut juices (including grape must and coconut water) and vegetable juices, unfermented and not containing added spirit, whether or not containing added sugar or other sweetening matter"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "FOODSTUFFS",
-                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
-            },
-            "comment": "Only selected items - fresh or chilled meat, live fish, fresh or chilled fish, milk, butter, bread and other selected foodstuffs (inluding gluten-free pastries, flour and bread). List can be found in Annex 7 of Act No. 222\/2004 Coll. on Value Added Tax as amended via the following link https:\/\/www.mfsr.sk\/en\/taxes-customs-accounting\/indirect-taxes\/vat\/"
-        },
-        {
-            "memberState": "SK",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "2844 40",
-                        "description": "Radioactive elements and isotopes and compounds other than those of subheading 284410, 284420 or 284430; alloys, dispersions (including cermets), ceramic products and mixtures containing these elements, isotopes or compounds; radioactive residues"
-                    },
-                    {
-                        "value": "2925 11 00",
-                        "description": "Saccharin and its salts"
-                    },
-                    {
-                        "value": "2941",
-                        "description": "Antibiotics"
-                    },
-                    {
-                        "value": "30",
-                        "description": "CHAPTER 30 - PHARMACEUTICAL PRODUCTS"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "PHARMACEUTICAL_PRODUCTS",
-                "description": "Pharmaceutical products of a kind normally used for health care, prevention of illness and as treatment for medical and veterinary purposes, including products used for contraception and sanitary protection"
-            },
-            "comment": "Only selected items.\nExhaustive list can be found in Annex 7 of Act No. 222\/2004 Coll. on Value Added Tax as amended via the following link https:\/\/www.mfsr.sk\/en\/taxes-customs-accounting\/indirect-taxes\/vat\/"
-        },
-        {
-            "memberState": "SK",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "3822 00 00",
-                        "description": "Diagnostic or laboratory reagents on a backing, prepared diagnostic or laboratory reagents whether or not on a backing, other than those of heading 3002 or 3006; certified reference materials"
-                    },
-                    {
-                        "value": "3922 90 00",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "6115 10",
-                        "description": "Graduated compression hosiery (for example, stockings for varicose veins)"
-                    },
-                    {
-                        "value": "6602 00 00",
-                        "description": "Walking sticks, seat-sticks, whips, riding-crops and the like"
-                    },
-                    {
-                        "value": "8428 90 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "8471 49 00",
-                        "description": "Other, presented in the form of systems"
-                    },
-                    {
-                        "value": "8518 40",
-                        "description": "Audio-frequency electric amplifiers"
-                    },
-                    {
-                        "value": "8531 80 70",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "8713",
-                        "description": "Carriages for disabled persons, whether or not motorised or otherwise mechanically propelled"
-                    },
-                    {
-                        "value": "8714 20 00",
-                        "description": "Of carriages for disabled persons"
-                    },
-                    {
-                        "value": "9001 30 00",
-                        "description": "Contact lenses"
-                    },
-                    {
-                        "value": "9001 40",
-                        "description": "Spectacle lenses of glass"
-                    },
-                    {
-                        "value": "9001 50",
-                        "description": "Spectacle lenses of other materials"
-                    },
-                    {
-                        "value": "9021",
-                        "description": "Orthopaedic appliances, including crutches, surgical belts and trusses; splints and other fracture appliances; artificial parts of the body; hearing aids and other appliances which are worn or carried, or implanted in the body, to compensate for a defect or disability"
-                    },
-                    {
-                        "value": "9619 00",
-                        "description": "Sanitary towels (pads) and tampons, napkins (diapers), napkin liners and similar articles, of any material"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "MEDICAL_EQUIPMENT",
-                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
-            },
-            "comment": "Only selected items.\nExhaustive list can be found in Annex 7 of Act No. 222\/2004 Coll. on Value Added Tax as amended via the following link https:\/\/www.mfsr.sk\/en\/taxes-customs-accounting\/indirect-taxes\/vat\/"
-        },
-        {
-            "memberState": "SK",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cpaCodes": {
-                "code": {
-                    "value": "55",
-                    "description": "Accommodation services"
-                }
-            },
-            "category": {
-                "identifier": "ACCOMMODATION",
-                "description": "Accommodation provided in hotels and similar establishments, including the provision of holiday accommodation and the letting of places on camping or caravan sites"
-            },
-            "comment": "Accommodation and similar establishments as defined by NACE 55 code. The specific legal definition can be found in Annex 7a of Act No. 222\/2004 Coll. on Value Added Tax. The change has been effective as of 1 January 2019. Exhaustive list can be found in Annex 7a of Act No. 222\/2004 Coll. on Value Added Tax as amended via the following link https:\/\/www.mfsr.sk\/en\/taxes-customs-accounting\/indirect-taxes\/vat\/"
         }
     ]
 }
