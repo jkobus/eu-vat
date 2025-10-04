@@ -63,36 +63,6 @@
             "memberState": "CZ",
             "type": "REDUCED",
             "rate": {
-                "type": "EXEMPTED",
-                "value": 0
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "49",
-                        "description": "Land transport services and transport services via pipelines"
-                    },
-                    {
-                        "value": "50",
-                        "description": "Water transport services"
-                    },
-                    {
-                        "value": "51",
-                        "description": "Air transport services"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "TRANSPORT_PASSENGERS",
-                "description": "Transport of passengers and their accompanying luggage"
-            },
-            "comment": "The cross-border transport services of passengers and their luggage."
-        },
-        {
-            "memberState": "CZ",
-            "type": "REDUCED",
-            "rate": {
                 "type": "REDUCED_RATE",
                 "value": 12
             },
@@ -646,6 +616,36 @@
             },
             "situationOn": "2025-07-01+02:00",
             "comment": "<p>Art. 47 of the VAT Act.<\/p>"
+        },
+        {
+            "memberState": "CZ",
+            "type": "REDUCED",
+            "rate": {
+                "type": "EXEMPTED",
+                "value": 0
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "49",
+                        "description": "Land transport services and transport services via pipelines"
+                    },
+                    {
+                        "value": "50",
+                        "description": "Water transport services"
+                    },
+                    {
+                        "value": "51",
+                        "description": "Air transport services"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "TRANSPORT_PASSENGERS",
+                "description": "Transport of passengers and their accompanying luggage"
+            },
+            "comment": "The cross-border transport services of passengers and their luggage."
         }
     ]
 }

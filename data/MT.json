@@ -131,83 +131,27 @@
             "memberState": "MT",
             "type": "REDUCED",
             "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
+                "type": "EXEMPTED",
+                "value": 0
             },
             "situationOn": "2025-07-01+02:00",
             "cnCodes": {
                 "code": [
                     {
-                        "value": "3924 90 00",
-                        "description": "Other"
+                        "value": "12",
+                        "description": "CHAPTER 12 - OIL SEEDS AND OLEAGINOUS FRUITS; MISCELLANEOUS GRAINS, SEEDS AND FRUIT; INDUSTRIAL OR MEDICINAL PLANTS; STRAW AND FODDER"
                     },
                     {
-                        "value": "4014 90 00",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "4016 95 00",
-                        "description": "Other inflatable articles"
-                    },
-                    {
-                        "value": "4016 99",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "6306 40 00",
-                        "description": "Pneumatic mattresses"
-                    },
-                    {
-                        "value": "6602 00 00",
-                        "description": "Walking sticks, seat-sticks, whips, riding-crops and the like"
-                    },
-                    {
-                        "value": "6603 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "7325 10 00",
-                        "description": "Of non-malleable cast iron"
-                    },
-                    {
-                        "value": "7325 99",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "7326 19",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "7326 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "7907 00 00",
-                        "description": "Other articles of zinc"
-                    },
-                    {
-                        "value": "8714 20 00",
-                        "description": "Of carriages for disabled persons"
-                    },
-                    {
-                        "value": "9404 21",
-                        "description": "Of cellular rubber or plastics, whether or not covered"
-                    },
-                    {
-                        "value": "9404 29",
-                        "description": "Of other materials"
-                    },
-                    {
-                        "value": "9404 90",
-                        "description": "Other"
+                        "value": "13",
+                        "description": "CHAPTER 13 - LAC; GUMS, RESINS AND OTHER VEGETABLE SAPS AND EXTRACTS"
                     }
                 ]
             },
             "category": {
-                "identifier": "MEDICAL_EQUIPMENT",
-                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
+                "identifier": "FOODSTUFFS",
+                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
             },
-            "comment": "This reduced rate applies to the following items (and CN codes) for the exclusive use of the disabled (part 1):\n- raised toilet seats (3924 90 00);\n- pressure relief cushions (4014 90, 8714 20 00 and 9404 90);\n- padded\/inflatable toilet seats (4016 95 00 and 4016 99 98);\n- pressure relief mattresses (6306 41 00, 6306 49 00, 9404 21 and 9404 29);\n- white sticks (6602 00 00);\n- walking sticks and ferrules (6603 90 00);\n- gutter frames (7325 10, 7325 99, 7326 19, 7326 90 and 7907 00);"
+            "comment": "Food for human consumption, excluding food supplied for catering, is taxed at 0% (exempt with credit) (part 2).  \n\nThe above exemption does not apply to items classified under the following subheadings in the First Schedule of the Import Duties Act:\n\n(1) 1207.30.90; 1207.99.91.00; 1209.30.00.00; 1209.99.10; 1209.99.91.00; 1209.99.99.00; 1211.90.30\n\n(2) 1301.10.00.00; 1302.11.00; 1302.14.00; 1302.19.05; 1302.19.30; 1302.19.91; 1302.19.98; 1302.20.10; 1302.20.90"
         },
         {
             "memberState": "MT",
@@ -334,32 +278,6 @@
             "cnCodes": {
                 "code": [
                     {
-                        "value": "12",
-                        "description": "CHAPTER 12 - OIL SEEDS AND OLEAGINOUS FRUITS; MISCELLANEOUS GRAINS, SEEDS AND FRUIT; INDUSTRIAL OR MEDICINAL PLANTS; STRAW AND FODDER"
-                    },
-                    {
-                        "value": "13",
-                        "description": "CHAPTER 13 - LAC; GUMS, RESINS AND OTHER VEGETABLE SAPS AND EXTRACTS"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "FOODSTUFFS",
-                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
-            },
-            "comment": "Food for human consumption, excluding food supplied for catering, is taxed at 0% (exempt with credit) (part 2).  \n\nThe above exemption does not apply to items classified under the following subheadings in the First Schedule of the Import Duties Act:\n\n(1) 1207.30.90; 1207.99.91.00; 1209.30.00.00; 1209.99.10; 1209.99.91.00; 1209.99.99.00; 1211.90.30\n\n(2) 1301.10.00.00; 1302.11.00; 1302.14.00; 1302.19.05; 1302.19.30; 1302.19.91; 1302.19.98; 1302.20.10; 1302.20.90"
-        },
-        {
-            "memberState": "MT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "EXEMPTED",
-                "value": 0
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cnCodes": {
-                "code": [
-                    {
                         "value": "1501",
                         "description": "Pig fat (including lard) and poultry fat, other than that of heading 0209 or 1503"
                     },
@@ -462,6 +380,88 @@
             },
             "situationOn": "2025-07-01+02:00",
             "cnCodes": {
+                "code": [
+                    {
+                        "value": "3924 90 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "4014 90 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "4016 95 00",
+                        "description": "Other inflatable articles"
+                    },
+                    {
+                        "value": "4016 99",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "6306 40 00",
+                        "description": "Pneumatic mattresses"
+                    },
+                    {
+                        "value": "6602 00 00",
+                        "description": "Walking sticks, seat-sticks, whips, riding-crops and the like"
+                    },
+                    {
+                        "value": "6603 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "7325 10 00",
+                        "description": "Of non-malleable cast iron"
+                    },
+                    {
+                        "value": "7325 99",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "7326 19",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "7326 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "7907 00 00",
+                        "description": "Other articles of zinc"
+                    },
+                    {
+                        "value": "8714 20 00",
+                        "description": "Of carriages for disabled persons"
+                    },
+                    {
+                        "value": "9404 21",
+                        "description": "Of cellular rubber or plastics, whether or not covered"
+                    },
+                    {
+                        "value": "9404 29",
+                        "description": "Of other materials"
+                    },
+                    {
+                        "value": "9404 90",
+                        "description": "Other"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "MEDICAL_EQUIPMENT",
+                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
+            },
+            "comment": "This reduced rate applies to the following items (and CN codes) for the exclusive use of the disabled (part 1):\n- raised toilet seats (3924 90 00);\n- pressure relief cushions (4014 90, 8714 20 00 and 9404 90);\n- padded\/inflatable toilet seats (4016 95 00 and 4016 99 98);\n- pressure relief mattresses (6306 41 00, 6306 49 00, 9404 21 and 9404 29);\n- white sticks (6602 00 00);\n- walking sticks and ferrules (6603 90 00);\n- gutter frames (7325 10, 7325 99, 7326 19, 7326 90 and 7907 00);"
+        },
+        {
+            "memberState": "MT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cnCodes": {
                 "code": {
                     "value": "9701",
                     "description": "Paintings, drawings and pastels, executed entirely by hand, other than drawings of heading 4906 and other than hand-painted or hand-decorated manufactured articles; collages, mosaics and similar decorative plaques"
@@ -552,6 +552,116 @@
                 "description": "Importation of collections and collectors' pieces of zoological, botanical, mineralogical, anatomical, historical, archaeological, paleontological, ethnographic or numismatic interest (CN code 9705 00 00)"
             },
             "comment": "Reduced rate only applicable to the importation of works of art, collector’s items and antiques as defined in the VAT Act."
+        },
+        {
+            "memberState": "MT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "EXEMPTED",
+                "value": 0
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "1515 19 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "1515 21 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "1515 29 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "1515 50 19",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "1515 50 99",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "1515 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "1516",
+                        "description": "Animal, vegetable or microbial fats and oils and their fractions, partly or wholly hydrogenated, inter-esterified, re-esterified or elaidinised, whether or not refined, but not further prepared"
+                    },
+                    {
+                        "value": "1517",
+                        "description": "Margarine; edible mixtures or preparations of animal, vegetable or microbial fats or oils or of fractions of different fats or oils of this chapter, other than edible fats or oils or their fractions of heading 1516"
+                    },
+                    {
+                        "value": "1521 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "1522 00 99",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "1704 90 30",
+                        "description": "White chocolate"
+                    },
+                    {
+                        "value": "1704 90 51",
+                        "description": "Pastes, including marzipan, in immediate packings of a net content of 1 kg or more"
+                    },
+                    {
+                        "value": "1704 90 99",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "20",
+                        "description": "CHAPTER 20 - PREPARATIONS OF VEGETABLES, FRUIT, NUTS OR OTHER PARTS OF PLANTS"
+                    },
+                    {
+                        "value": "21",
+                        "description": "CHAPTER 21 - MISCELLANEOUS EDIBLE PREPARATIONS"
+                    },
+                    {
+                        "value": "2202 99",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "2209 00",
+                        "description": "Vinegar and substitutes for vinegar obtained from acetic acid"
+                    },
+                    {
+                        "value": "23",
+                        "description": "CHAPTER 23 - RESIDUES AND WASTE FROM THE FOOD INDUSTRIES; PREPARED ANIMAL FODDER"
+                    },
+                    {
+                        "value": "2501 00 91",
+                        "description": "Salt suitable for human consumption"
+                    },
+                    {
+                        "value": "3301 90 21",
+                        "description": "Of liquorice and hops"
+                    },
+                    {
+                        "value": "3302 10 29",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "3302 10 40",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "3302 10 90",
+                        "description": "Of a kind used in the food industries"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "FOODSTUFFS",
+                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
+            },
+            "comment": "Food for human consumption, excluding food supplied for catering, is taxed at 0% (exempt with credit) (part 4).  \n\nThe above exemption does not apply to items classified under the following subheadings in the First Schedule of the Import Duties Act:\n\n(1) 1515.90.15.00;1515.90.15.90;1515.90.21.00; 1515.90.31.00;1515.90.40.00;1515.90.60.00; 1516.20.10.00; 1517.90.93; 1521.90.10.00\n\n(2) 2006.00.10; 2009\n\n(3) 2105.00; 2106.90.20.00; 2106.90.98.33; 2106.90.98.37; 2106.90.98.39\n\n(4) 2307.00"
         },
         {
             "memberState": "MT",
@@ -757,116 +867,6 @@
                 "description": "Accommodation provided in hotels and similar establishments, including the provision of holiday accommodation and the letting of places on camping or caravan sites"
             },
             "comment": "The reduced rate is limited to accommodation required to be licensed in virtue of the Malta Travel and Tourism Services Act (or any Act substituted therefor)."
-        },
-        {
-            "memberState": "MT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "EXEMPTED",
-                "value": 0
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "1515 19 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "1515 21 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "1515 29 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "1515 50 19",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "1515 50 99",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "1515 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "1516",
-                        "description": "Animal, vegetable or microbial fats and oils and their fractions, partly or wholly hydrogenated, inter-esterified, re-esterified or elaidinised, whether or not refined, but not further prepared"
-                    },
-                    {
-                        "value": "1517",
-                        "description": "Margarine; edible mixtures or preparations of animal, vegetable or microbial fats or oils or of fractions of different fats or oils of this chapter, other than edible fats or oils or their fractions of heading 1516"
-                    },
-                    {
-                        "value": "1521 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "1522 00 99",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "1704 90 30",
-                        "description": "White chocolate"
-                    },
-                    {
-                        "value": "1704 90 51",
-                        "description": "Pastes, including marzipan, in immediate packings of a net content of 1 kg or more"
-                    },
-                    {
-                        "value": "1704 90 99",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "20",
-                        "description": "CHAPTER 20 - PREPARATIONS OF VEGETABLES, FRUIT, NUTS OR OTHER PARTS OF PLANTS"
-                    },
-                    {
-                        "value": "21",
-                        "description": "CHAPTER 21 - MISCELLANEOUS EDIBLE PREPARATIONS"
-                    },
-                    {
-                        "value": "2202 99",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "2209 00",
-                        "description": "Vinegar and substitutes for vinegar obtained from acetic acid"
-                    },
-                    {
-                        "value": "23",
-                        "description": "CHAPTER 23 - RESIDUES AND WASTE FROM THE FOOD INDUSTRIES; PREPARED ANIMAL FODDER"
-                    },
-                    {
-                        "value": "2501 00 91",
-                        "description": "Salt suitable for human consumption"
-                    },
-                    {
-                        "value": "3301 90 21",
-                        "description": "Of liquorice and hops"
-                    },
-                    {
-                        "value": "3302 10 29",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "3302 10 40",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "3302 10 90",
-                        "description": "Of a kind used in the food industries"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "FOODSTUFFS",
-                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
-            },
-            "comment": "Food for human consumption, excluding food supplied for catering, is taxed at 0% (exempt with credit) (part 4).  \n\nThe above exemption does not apply to items classified under the following subheadings in the First Schedule of the Import Duties Act:\n\n(1) 1515.90.15.00;1515.90.15.90;1515.90.21.00; 1515.90.31.00;1515.90.40.00;1515.90.60.00; 1516.20.10.00; 1517.90.93; 1521.90.10.00\n\n(2) 2006.00.10; 2009\n\n(3) 2105.00; 2106.90.20.00; 2106.90.98.33; 2106.90.98.37; 2106.90.98.39\n\n(4) 2307.00"
         },
         {
             "memberState": "MT",
