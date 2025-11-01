@@ -21,7 +21,7 @@
                     },
                     {
                         "value": "0202 30 10",
-                        "description": "Forequarters, whole or cut into a maximum of five pieces, each quarter being in a single block; ‘compensated’ quarters in two blocks, one of which contains the forequarter, whole or cut into a maximum of five pieces, and the other, the hindquarter, excluding the tenderloin, in one piece"
+                        "description": "Forequarters, whole or cut into a maximum of five pieces, each quarter being in a single block; compensated quarters in two blocks, one of which contains the forequarter, whole or cut into a maximum of five pieces, and the other, the hindquarter, excluding the tenderloin, in one piece"
                     },
                     {
                         "value": "0202 30 50",
@@ -737,7 +737,7 @@
                     },
                     {
                         "value": "1604 19 31",
-                        "description": "Fillets known as ‘loins’"
+                        "description": "Fillets known as loins"
                     },
                     {
                         "value": "1604 19 39",
@@ -860,34 +860,15 @@
             },
             "situationOn": "2025-07-01+02:00",
             "cnCodes": {
-                "code": [
-                    {
-                        "value": "4901",
-                        "description": "Printed books, brochures, leaflets and similar printed matter, whether or not in single sheets"
-                    },
-                    {
-                        "value": "4902",
-                        "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
-                    },
-                    {
-                        "value": "4903 00 00",
-                        "description": "Children's picture, drawing or colouring books"
-                    },
-                    {
-                        "value": "4904 00 00",
-                        "description": "Music, printed or in manuscript, whether or not bound or illustrated"
-                    },
-                    {
-                        "value": "4905 20 00",
-                        "description": "In book form"
-                    }
-                ]
+                "code": {
+                    "value": "9703 00 00",
+                    "description": "Original sculptures and statuary, in any material"
+                }
             },
             "category": {
-                "identifier": "LOAN_LIBRARIES",
-                "description": "Supply, including on loan by libraries, of books, newspapers and periodicals either on physical means of support or supplied electronically or both (including brochures, leaflets and similar printed matter, children's picture, drawing or colouring books, music printed or in manuscript form, maps and hydrographic or similar charts), other than publications wholly or predominantly devoted to advertising and other than publications wholly or predominantly consisting of video content or audible music."
-            },
-            "comment": "23% rate applies to books, newspapers and periodicals containing mainly publicity, private advertisements, obscene or pornographic material."
+                "identifier": "SCULPTURE_CASTS",
+                "description": "Sculpture casts the production of which is limited to eight copies and supervised by the artist or his successors in title (CN code 9703 00 00) on an exceptional basis, in cases determined by the Member States, the limit of eight copies may be exceeded for statuary casts produced before 1 January 1989"
+            }
         },
         {
             "memberState": "PT",
@@ -899,13 +880,13 @@
             "situationOn": "2025-07-01+02:00",
             "cnCodes": {
                 "code": {
-                    "value": "4911 91 00",
-                    "description": "Pictures, designs and photographs"
+                    "value": "9703 00 00",
+                    "description": "Original sculptures and statuary, in any material"
                 }
             },
             "category": {
-                "identifier": "PHOTOGRAPHS",
-                "description": "Photographs taken by the artist, printed by him or under his supervision, signed and numbered and limited to 30 copies, all sizes and mounts included"
+                "identifier": "CERAMICS",
+                "description": "Individual pieces of ceramics executed entirely by the artist and signed by him"
             }
         },
         {
@@ -917,63 +898,15 @@
             },
             "situationOn": "2025-07-01+02:00",
             "cnCodes": {
-                "code": [
-                    {
-                        "value": "5805 00 00",
-                        "description": "Hand-woven tapestries of the type Gobelins, Flanders, Aubusson, Beauvais and the like, and needle-worked tapestries (for example, petit point, cross stitch), whether or not made up"
-                    },
-                    {
-                        "value": "6304",
-                        "description": "Other furnishing articles, excluding those of heading 9404"
-                    }
-                ]
+                "code": {
+                    "value": "9703 00 00",
+                    "description": "Original sculptures and statuary, in any material"
+                }
             },
             "category": {
-                "identifier": "TAPESTRIES",
-                "description": "Tapestries (CN code 5805 00 00) and wall textiles (CN code 6304 00 00) made by hand from original designs provided by artists, provided that there are not more than eight copies of each"
+                "identifier": "ENAMELS",
+                "description": "Enamels on copper, executed entirely by hand, limited to eight numbered copies bearing the signature of the artist or the studio, excluding articles of jewellery and goldsmith’s and silversmith’s wares"
             }
-        },
-        {
-            "memberState": "PT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 6
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "6115",
-                        "description": "Pantyhose, tights, stockings, socks and other hosiery, including graduated compression hosiery (for example, stockings for varicose veins) and footwear without applied soles, knitted or crocheted"
-                    },
-                    {
-                        "value": "6704",
-                        "description": "Wigs, false beards, eyebrows and eyelashes, switches and the like, of human or animal hair or of textile materials; articles of human hair not elsewhere specified or included"
-                    },
-                    {
-                        "value": "8713",
-                        "description": "Carriages for disabled persons, whether or not motorised or otherwise mechanically propelled"
-                    },
-                    {
-                        "value": "9001 40",
-                        "description": "Spectacle lenses of glass"
-                    },
-                    {
-                        "value": "9001 50",
-                        "description": "Spectacle lenses of other materials"
-                    },
-                    {
-                        "value": "9021",
-                        "description": "Orthopaedic appliances, including crutches, surgical belts and trusses; splints and other fracture appliances; artificial parts of the body; hearing aids and other appliances which are worn or carried, or implanted in the body, to compensate for a defect or disability"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "MEDICAL_EQUIPMENT",
-                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
-            },
-            "comment": "Reduced rate does not apply  to parts and accessories."
         },
         {
             "memberState": "PT",
@@ -1030,110 +963,34 @@
             },
             "situationOn": "2025-07-01+02:00",
             "cnCodes": {
-                "code": {
-                    "value": "9701",
-                    "description": "Paintings, drawings and pastels, executed entirely by hand, other than drawings of heading 4906 and other than hand-painted or hand-decorated manufactured articles; collages, mosaics and similar decorative plaques"
-                }
+                "code": [
+                    {
+                        "value": "4901",
+                        "description": "Printed books, brochures, leaflets and similar printed matter, whether or not in single sheets"
+                    },
+                    {
+                        "value": "4902",
+                        "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
+                    },
+                    {
+                        "value": "4903 00 00",
+                        "description": "Children's picture, drawing or colouring books"
+                    },
+                    {
+                        "value": "4904 00 00",
+                        "description": "Music, printed or in manuscript, whether or not bound or illustrated"
+                    },
+                    {
+                        "value": "4905 20 00",
+                        "description": "In book form"
+                    }
+                ]
             },
             "category": {
-                "identifier": "PICTURES",
-                "description": "Pictures, collages and similar decorative plaques, paintings and drawings, executed entirely by hand by the artist, other than plans and drawings for architectural, engineering, industrial, commercial, topographical or similar purposes, hand-decorated manufactured articles, theatrical scenery, studio back cloths or the like of painted canvas (CN code 9701)"
-            }
-        },
-        {
-            "memberState": "PT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 6
+                "identifier": "LOAN_LIBRARIES",
+                "description": "Supply, including on loan by libraries, of books, newspapers and periodicals either on physical means of support or supplied electronically or both (including brochures, leaflets and similar printed matter, children's picture, drawing or colouring books, music printed or in manuscript form, maps and hydrographic or similar charts), other than publications wholly or predominantly devoted to advertising and other than publications wholly or predominantly consisting of video content or audible music."
             },
-            "situationOn": "2025-07-01+02:00",
-            "cnCodes": {
-                "code": {
-                    "value": "9702 00 00",
-                    "description": "Original engravings, prints and lithographs"
-                }
-            },
-            "category": {
-                "identifier": "IMPRESSIONS",
-                "description": "Original engravings, prints and lithographs, being impressions produced in the limited numbers directly in black and white or in colour of one or of several plates executed entirely by hand by the artist, irrespective of the process or of the material employed, but not including any mechanical or photomechanical process (CN code 9702 00 00)"
-            }
-        },
-        {
-            "memberState": "PT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 6
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cnCodes": {
-                "code": {
-                    "value": "9703 00 00",
-                    "description": "Original sculptures and statuary, in any material"
-                }
-            },
-            "category": {
-                "identifier": "SCULPTURES",
-                "description": "Original sculptures and statuary, in any material, provided that they are executed entirely by the artists"
-            }
-        },
-        {
-            "memberState": "PT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 6
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cnCodes": {
-                "code": {
-                    "value": "9703 00 00",
-                    "description": "Original sculptures and statuary, in any material"
-                }
-            },
-            "category": {
-                "identifier": "SCULPTURE_CASTS",
-                "description": "Sculpture casts the production of which is limited to eight copies and supervised by the artist or his successors in title (CN code 9703 00 00) on an exceptional basis, in cases determined by the Member States, the limit of eight copies may be exceeded for statuary casts produced before 1 January 1989"
-            }
-        },
-        {
-            "memberState": "PT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 6
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cnCodes": {
-                "code": {
-                    "value": "9703 00 00",
-                    "description": "Original sculptures and statuary, in any material"
-                }
-            },
-            "category": {
-                "identifier": "CERAMICS",
-                "description": "Individual pieces of ceramics executed entirely by the artist and signed by him"
-            }
-        },
-        {
-            "memberState": "PT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 6
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cnCodes": {
-                "code": {
-                    "value": "9703 00 00",
-                    "description": "Original sculptures and statuary, in any material"
-                }
-            },
-            "category": {
-                "identifier": "ENAMELS",
-                "description": "Enamels on copper, executed entirely by hand, limited to eight numbered copies bearing the signature of the artist or the studio, excluding articles of jewellery and goldsmith’s and silversmith’s wares"
-            }
+            "comment": "23% rate applies to books, newspapers and periodicals containing mainly publicity, private advertisements, obscene or pornographic material."
         },
         {
             "memberState": "PT",
@@ -1263,7 +1120,7 @@
                 "code": [
                     {
                         "value": "01.11.6",
-                        "description": "Green leguminous vegetables"
+                        "description": "Fresh leguminous vegetables, unshelled"
                     },
                     {
                         "value": "01.11.8",
@@ -1311,7 +1168,7 @@
                     },
                     {
                         "value": "01.42.2",
-                        "description": "Cattle and buffalo semen"
+                        "description": "Bovine semen of meat breeds"
                     },
                     {
                         "value": "01.43.1",
@@ -1323,7 +1180,7 @@
                     },
                     {
                         "value": "01.45.3",
-                        "description": "Shorn wool from sheep and goats, greasy, including fleece-washed shorn wool"
+                        "description": "Shorn wool from sheep and goats, greasy"
                     },
                     {
                         "value": "01.46.1",
@@ -1347,11 +1204,11 @@
                     },
                     {
                         "value": "01.62",
-                        "description": "Support services to animal production"
+                        "description": "Support services to animal production; services of preparing farmyard manure and slurry for energy production"
                     },
                     {
                         "value": "01.63",
-                        "description": "Post-harvest crop services"
+                        "description": "Post-harvest crop services and seed processing services of propagation; services of preparing plant silages for energy production"
                     },
                     {
                         "value": "01.64",
@@ -1367,7 +1224,7 @@
                     },
                     {
                         "value": "02.10.2",
-                        "description": "Forest trees nurseries services"
+                        "description": "Forest trees nursery services"
                     },
                     {
                         "value": "02.10.3",
@@ -1399,7 +1256,7 @@
                     },
                     {
                         "value": "20.20",
-                        "description": "Pesticides and other agrochemical products"
+                        "description": "Pesticides, disinfectants and other agrochemical products"
                     },
                     {
                         "value": "33.12.21",
@@ -1455,23 +1312,23 @@
                     },
                     {
                         "value": "38.12.1",
-                        "description": "Collection services of hazardous waste"
+                        "description": "Hazardous waste collection services"
                     },
                     {
                         "value": "38.21.1",
-                        "description": "Non-hazardous waste treatment for final disposal services"
+                        "description": "Materials recovery services"
                     },
                     {
                         "value": "38.21.2",
-                        "description": "Non-hazardous waste disposal services"
+                        "description": "Metal secondary raw materials"
                     },
                     {
                         "value": "38.22.1",
-                        "description": "Nuclear and other hazardous waste treatment services"
+                        "description": "Energy recovery services"
                     },
                     {
                         "value": "38.22.2",
-                        "description": "Nuclear and other hazardous waste disposal services"
+                        "description": "Pellets of municipal waste for incineration with energy recovery"
                     }
                 ]
             },
@@ -1492,11 +1349,11 @@
                 "code": [
                     {
                         "value": "41.00",
-                        "description": "Buildings and building construction works"
+                        "description": "Residential and non-residential buildings, residential and non-residential buildings construction works"
                     },
                     {
                         "value": "41.00.3",
-                        "description": "Construction works for residential buildings (new works, additions, alterations and renovation works)"
+                        "description": "Construction works for residential buildings"
                     }
                 ]
             },
@@ -1517,7 +1374,7 @@
             "cpaCodes": {
                 "code": {
                     "value": "41.00.3",
-                    "description": "Construction works for residential buildings (new works, additions, alterations and renovation works)"
+                    "description": "Construction works for residential buildings"
                 }
             },
             "category": {
@@ -1538,7 +1395,7 @@
                 "code": [
                     {
                         "value": "49.1",
-                        "description": "Passenger rail transport services, interurban"
+                        "description": "Passenger rail transport services"
                     },
                     {
                         "value": "49.3",
@@ -1580,7 +1437,7 @@
                     },
                     {
                         "value": "55.2",
-                        "description": "Holiday and other short stay accommodation services"
+                        "description": "Holiday and other short-stay accommodation services"
                     },
                     {
                         "value": "55.30.11",
@@ -1814,7 +1671,7 @@
                     },
                     {
                         "value": "56.2",
-                        "description": "Event catering services and other food serving services"
+                        "description": "Event catering, contract catering services and other food serving services"
                     },
                     {
                         "value": "56.21",
@@ -1942,6 +1799,149 @@
                 "description": "Supply of electricity, district heating and district cooling, and biogas produced by the feedstock listed in Annex IX, Part A, to Directive (EU) 2018\/2001 of the European Parliament and of the Council; supply and installation of highly efficient low emissions heating systems meeting the emission (PM) benchmarks laid down in Annex V to Commission Regulation (EU) 2015\/1189 and in Annex V to Commission Regulation (EU) 2015\/1185 and having been attributed an EU energy label to show that the criterion referred to in Article 7(2) of Regulation (EU) 2017\/1369 of the European Parliament and of the Council is met; and, until 1 January 2030, natural gas and wood used as firewood"
             },
             "comment": "6% for the fixed component of electricity supplies in power contracts 3.45 kVA and for the supply of electricity for consumption, excluding its fixed components, in power contracts 6.90 kVA, and with limits in kWh consumption per 30 days;  \n6% for the fixed component of natural gas supplies in lower pressure contracts (10 000 m3); supply and installation of highly efficient low emissions heating systems; firewood"
+        },
+        {
+            "memberState": "PT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 6
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cnCodes": {
+                "code": {
+                    "value": "4911 91 00",
+                    "description": "Pictures, designs and photographs"
+                }
+            },
+            "category": {
+                "identifier": "PHOTOGRAPHS",
+                "description": "Photographs taken by the artist, printed by him or under his supervision, signed and numbered and limited to 30 copies, all sizes and mounts included"
+            }
+        },
+        {
+            "memberState": "PT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 6
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "5805 00 00",
+                        "description": "Hand-woven tapestries of the type Gobelins, Flanders, Aubusson, Beauvais and the like, and needle-worked tapestries (for example, petit point, cross stitch), whether or not made up"
+                    },
+                    {
+                        "value": "6304",
+                        "description": "Other furnishing articles, excluding those of heading 9404"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "TAPESTRIES",
+                "description": "Tapestries (CN code 5805 00 00) and wall textiles (CN code 6304 00 00) made by hand from original designs provided by artists, provided that there are not more than eight copies of each"
+            }
+        },
+        {
+            "memberState": "PT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 6
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "6115",
+                        "description": "Pantyhose, tights, stockings, socks and other hosiery, including graduated compression hosiery (for example, stockings for varicose veins) and footwear without applied soles, knitted or crocheted"
+                    },
+                    {
+                        "value": "6704",
+                        "description": "Wigs, false beards, eyebrows and eyelashes, switches and the like, of human or animal hair or of textile materials; articles of human hair not elsewhere specified or included"
+                    },
+                    {
+                        "value": "8713",
+                        "description": "Carriages for disabled persons, whether or not motorised or otherwise mechanically propelled"
+                    },
+                    {
+                        "value": "9001 40",
+                        "description": "Spectacle lenses of glass"
+                    },
+                    {
+                        "value": "9001 50",
+                        "description": "Spectacle lenses of other materials"
+                    },
+                    {
+                        "value": "9021",
+                        "description": "Orthopaedic appliances, including crutches, surgical belts and trusses; splints and other fracture appliances; artificial parts of the body; hearing aids and other appliances which are worn or carried, or implanted in the body, to compensate for a defect or disability"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "MEDICAL_EQUIPMENT",
+                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
+            },
+            "comment": "Reduced rate does not apply  to parts and accessories."
+        },
+        {
+            "memberState": "PT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 6
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cnCodes": {
+                "code": {
+                    "value": "9701",
+                    "description": "Paintings, drawings and pastels, executed entirely by hand, other than drawings of heading 4906 and other than hand-painted or hand-decorated manufactured articles; collages, mosaics and similar decorative plaques"
+                }
+            },
+            "category": {
+                "identifier": "PICTURES",
+                "description": "Pictures, collages and similar decorative plaques, paintings and drawings, executed entirely by hand by the artist, other than plans and drawings for architectural, engineering, industrial, commercial, topographical or similar purposes, hand-decorated manufactured articles, theatrical scenery, studio back cloths or the like of painted canvas (CN code 9701)"
+            }
+        },
+        {
+            "memberState": "PT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 6
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cnCodes": {
+                "code": {
+                    "value": "9702 00 00",
+                    "description": "Original engravings, prints and lithographs"
+                }
+            },
+            "category": {
+                "identifier": "IMPRESSIONS",
+                "description": "Original engravings, prints and lithographs, being impressions produced in the limited numbers directly in black and white or in colour of one or of several plates executed entirely by hand by the artist, irrespective of the process or of the material employed, but not including any mechanical or photomechanical process (CN code 9702 00 00)"
+            }
+        },
+        {
+            "memberState": "PT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 6
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cnCodes": {
+                "code": {
+                    "value": "9703 00 00",
+                    "description": "Original sculptures and statuary, in any material"
+                }
+            },
+            "category": {
+                "identifier": "SCULPTURES",
+                "description": "Original sculptures and statuary, in any material, provided that they are executed entirely by the artists"
+            }
         }
     ]
 }

@@ -561,7 +561,7 @@
                     },
                     {
                         "value": "2306",
-                        "description": "Oil-cake and other solid residues, whether or not ground or in the form of pellets, resulting from the extraction of vegetable or microbial fats or oils, other than those of heading 2304 or 2305"
+                        "description": "Oilcake and other solid residues, whether or not ground or in the form of pellets, resulting from the extraction of vegetable or microbial fats or oils, other than those of heading 2304 or 2305"
                     },
                     {
                         "value": "2308 00",
@@ -1164,7 +1164,7 @@
             "cpaCodes": {
                 "code": {
                     "value": "60",
-                    "description": "Programming and broadcasting services"
+                    "description": "Programming, broadcasting, news agency and other content distribution services"
                 }
             },
             "category": {
@@ -1172,6 +1172,226 @@
                 "description": "Reception of radio and television broadcasting services"
             },
             "comment": "Tax is paid on the payment from the Radio and Television Fund to the Finnish Broadcasting company and from a similar payment to Ålands radio and TV. (Pay and Cable TV are taxed at standard rate.)"
+        },
+        {
+            "memberState": "FI",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 14
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "55.10",
+                        "description": "Hotel and similar accommodation services"
+                    },
+                    {
+                        "value": "55.20.11",
+                        "description": "Room or unit accommodation services for visitors in youth hostels and holiday cabins"
+                    },
+                    {
+                        "value": "55.20.19",
+                        "description": "Other room or unit accommodation services for visitors, without daily housekeeping"
+                    },
+                    {
+                        "value": "55.30",
+                        "description": "Camping grounds and recreational vehicle parks services"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "ACCOMMODATION",
+                "description": "Accommodation provided in hotels and similar establishments, including the provision of holiday accommodation and the letting of places on camping or caravan sites"
+            }
+        },
+        {
+            "memberState": "FI",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 14
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "56",
+                    "description": "Food and beverage serving services"
+                }
+            },
+            "category": {
+                "identifier": "RESTAURANT",
+                "description": "Restaurant and catering services, it being possible to exclude the supply of (alcoholic and\/or non-alcoholic) beverages"
+            },
+            "comment": "Excluding alcoholic beverages."
+        },
+        {
+            "memberState": "FI",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 14
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "59.14",
+                        "description": "Motion picture projection services"
+                    },
+                    {
+                        "value": "90.01",
+                        "description": "Services of performing artists"
+                    },
+                    {
+                        "value": "90.02.11",
+                        "description": "Performing arts event production and presentation services"
+                    },
+                    {
+                        "value": "90.02.12",
+                        "description": "Performing arts event promotion and organisation services"
+                    },
+                    {
+                        "value": "90.04",
+                        "description": "Arts facility operation services"
+                    },
+                    {
+                        "value": "91.02",
+                        "description": "Museum services"
+                    },
+                    {
+                        "value": "91.03",
+                        "description": "Operation services of historical sites and buildings and similar visitor attractions"
+                    },
+                    {
+                        "value": "91.04.1",
+                        "description": "Botanical and zoological garden services and nature reserve services"
+                    },
+                    {
+                        "value": "93.21",
+                        "description": "Amusement park and theme park services"
+                    },
+                    {
+                        "value": "93.29.19",
+                        "description": "Other recreational services n.e.c."
+                    },
+                    {
+                        "value": "93.29.21",
+                        "description": "Firework and light and sound shows services"
+                    },
+                    {
+                        "value": "93.29.29",
+                        "description": "Other entertainment services n.e.c."
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "CULTURAL_EVENTS",
+                "description": "Admission to shows, theatres, circuses, fairs, amusement parks, concerts, museums, zoos, cinemas, exhibitions and similar cultural events and facilities"
+            },
+            "comment": "Including entrance fees for rides in amusement parks. Usually exempted or out of the scope of VAT if organized by non-profit making organizations or public bodies."
+        },
+        {
+            "memberState": "FI",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 14
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "90.01",
+                        "description": "Services of performing artists"
+                    },
+                    {
+                        "value": "90.02.19",
+                        "description": "Other performing arts support services"
+                    },
+                    {
+                        "value": "93.19.12",
+                        "description": "Services of athletes"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "WRITERS_SERVICES",
+                "description": "Supply of services by writers, composers and performing artists, or of the royalties due to them"
+            },
+            "comment": "Including services by athletes. Supply of services by performing artists, and royalties due to them from are taxed with the reduced rate the beginning of April 2019."
+        },
+        {
+            "memberState": "FI",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 14
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "93.19",
+                    "description": "Other sports services"
+                }
+            },
+            "category": {
+                "identifier": "SPORTING_EVENTS",
+                "description": "Admission to sporting events"
+            },
+            "comment": "Usually exempted or out of the scope of VAT if organized by non-profit making organizations or public bodies."
+        },
+        {
+            "memberState": "FI",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 14
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "49.1",
+                        "description": "Passenger rail transport services"
+                    },
+                    {
+                        "value": "49.3",
+                        "description": "Other passenger land transport services"
+                    },
+                    {
+                        "value": "50.1",
+                        "description": "Sea and coastal passenger water transport services"
+                    },
+                    {
+                        "value": "50.3",
+                        "description": "Inland passenger water transport services"
+                    },
+                    {
+                        "value": "51.1",
+                        "description": "Passenger air transport services"
+                    },
+                    {
+                        "value": "96.03.12",
+                        "description": "Undertaking services"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "TRANSPORT_PASSENGERS",
+                "description": "Transport of passengers and their accompanying luggage"
+            },
+            "comment": "Domestic transport. In class 96.03.12 only carriage of corpses included."
+        },
+        {
+            "memberState": "FI",
+            "type": "STANDARD",
+            "rate": {
+                "type": "DEFAULT",
+                "value": 25.5
+            },
+            "situationOn": "2025-07-01+02:00"
         },
         {
             "memberState": "FI",
@@ -1330,226 +1550,6 @@
                 "identifier": "SCULPTURE_CASTS",
                 "description": "Sculpture casts the production of which is limited to eight copies and supervised by the artist or his successors in title (CN code 9703 00 00) on an exceptional basis, in cases determined by the Member States, the limit of eight copies may be exceeded for statuary casts produced before 1 January 1989"
             }
-        },
-        {
-            "memberState": "FI",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 14
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "49.1",
-                        "description": "Passenger rail transport services, interurban"
-                    },
-                    {
-                        "value": "49.3",
-                        "description": "Other passenger land transport services"
-                    },
-                    {
-                        "value": "50.1",
-                        "description": "Sea and coastal passenger water transport services"
-                    },
-                    {
-                        "value": "50.3",
-                        "description": "Inland passenger water transport services"
-                    },
-                    {
-                        "value": "51.1",
-                        "description": "Passenger air transport services"
-                    },
-                    {
-                        "value": "96.03.12",
-                        "description": "Undertaking services"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "TRANSPORT_PASSENGERS",
-                "description": "Transport of passengers and their accompanying luggage"
-            },
-            "comment": "Domestic transport. In class 96.03.12 only carriage of corpses included."
-        },
-        {
-            "memberState": "FI",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 14
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "55.10",
-                        "description": "Hotel and similar accommodation services"
-                    },
-                    {
-                        "value": "55.20.11",
-                        "description": "Room or unit accommodation services for visitors in youth hostels and holiday cabins"
-                    },
-                    {
-                        "value": "55.20.19",
-                        "description": "Other room or unit accommodation services for visitors, without daily housekeeping"
-                    },
-                    {
-                        "value": "55.30",
-                        "description": "Camping ground, recreational and vacation camp services"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "ACCOMMODATION",
-                "description": "Accommodation provided in hotels and similar establishments, including the provision of holiday accommodation and the letting of places on camping or caravan sites"
-            }
-        },
-        {
-            "memberState": "FI",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 14
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cpaCodes": {
-                "code": {
-                    "value": "56",
-                    "description": "Food and beverage serving services"
-                }
-            },
-            "category": {
-                "identifier": "RESTAURANT",
-                "description": "Restaurant and catering services, it being possible to exclude the supply of (alcoholic and\/or non-alcoholic) beverages"
-            },
-            "comment": "Excluding alcoholic beverages."
-        },
-        {
-            "memberState": "FI",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 14
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "59.14",
-                        "description": "Motion picture projection services"
-                    },
-                    {
-                        "value": "90.01",
-                        "description": "Services of performing artists"
-                    },
-                    {
-                        "value": "90.02.11",
-                        "description": "Performing arts event production and presentation services"
-                    },
-                    {
-                        "value": "90.02.12",
-                        "description": "Performing arts event promotion and organisation services"
-                    },
-                    {
-                        "value": "90.04",
-                        "description": "Arts facility operation services"
-                    },
-                    {
-                        "value": "91.02",
-                        "description": "Museum services"
-                    },
-                    {
-                        "value": "91.03",
-                        "description": "Operation services of historical sites and buildings and similar visitor attractions"
-                    },
-                    {
-                        "value": "91.04.1",
-                        "description": "Botanical and zoological garden services and nature reserve services"
-                    },
-                    {
-                        "value": "93.21",
-                        "description": "Amusement park and theme park services"
-                    },
-                    {
-                        "value": "93.29.19",
-                        "description": "Miscellaneous recreational services n.e.c."
-                    },
-                    {
-                        "value": "93.29.21",
-                        "description": "Firework and \"light and sound\" shows services"
-                    },
-                    {
-                        "value": "93.29.29",
-                        "description": "Entertainment services n.e.c."
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "CULTURAL_EVENTS",
-                "description": "Admission to shows, theatres, circuses, fairs, amusement parks, concerts, museums, zoos, cinemas, exhibitions and similar cultural events and facilities"
-            },
-            "comment": "Including entrance fees for rides in amusement parks. Usually exempted or out of the scope of VAT if organized by non-profit making organizations or public bodies."
-        },
-        {
-            "memberState": "FI",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 14
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "90.01",
-                        "description": "Services of performing artists"
-                    },
-                    {
-                        "value": "90.02.19",
-                        "description": "Other performing arts support services"
-                    },
-                    {
-                        "value": "93.19.12",
-                        "description": "Services of athletes"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "WRITERS_SERVICES",
-                "description": "Supply of services by writers, composers and performing artists, or of the royalties due to them"
-            },
-            "comment": "Including services by athletes. Supply of services by performing artists, and royalties due to them from are taxed with the reduced rate the beginning of April 2019."
-        },
-        {
-            "memberState": "FI",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 14
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cpaCodes": {
-                "code": {
-                    "value": "93.19",
-                    "description": "Other sporting services"
-                }
-            },
-            "category": {
-                "identifier": "SPORTING_EVENTS",
-                "description": "Admission to sporting events"
-            },
-            "comment": "Usually exempted or out of the scope of VAT if organized by non-profit making organizations or public bodies."
-        },
-        {
-            "memberState": "FI",
-            "type": "STANDARD",
-            "rate": {
-                "type": "DEFAULT",
-                "value": 25.5
-            },
-            "situationOn": "2025-07-01+02:00"
         }
     ]
 }

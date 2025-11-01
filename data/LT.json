@@ -6,221 +6,6 @@
             "type": "REDUCED",
             "rate": {
                 "type": "REDUCED_RATE",
-                "value": 9
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "49.10.19",
-                        "description": "Other passenger rail transport services, interurban"
-                    },
-                    {
-                        "value": "49.31.1",
-                        "description": "Urban and suburban railway transport services of passengers"
-                    },
-                    {
-                        "value": "49.31.2",
-                        "description": "Other urban and suburban passenger land transport services"
-                    },
-                    {
-                        "value": "49.39.11",
-                        "description": "Interurban scheduled road transport services of passengers"
-                    },
-                    {
-                        "value": "50.10.1",
-                        "description": "Sea and coastal passenger water transport services"
-                    },
-                    {
-                        "value": "50.30.1",
-                        "description": "Inland passenger water transport services"
-                    },
-                    {
-                        "value": "51.10.11",
-                        "description": "Domestic scheduled air transport services of passengers"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "TRANSPORT_PASSENGERS",
-                "description": "Transport of passengers and their accompanying luggage"
-            },
-            "comment": "Applies only for established domestic regular routes"
-        },
-        {
-            "memberState": "LT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 9
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "55.10.1",
-                        "description": "Room or unit accommodation services for visitors, with daily housekeeping (except time-share)"
-                    },
-                    {
-                        "value": "55.20.1",
-                        "description": "Holiday and other short stay accommodation services"
-                    },
-                    {
-                        "value": "55.30.1",
-                        "description": "Camping ground, recreational and vacation camp services"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "ACCOMMODATION",
-                "description": "Accommodation provided in hotels and similar establishments, including the provision of holiday accommodation and the letting of places on camping or caravan sites"
-            },
-            "comment": "In accordance with the procedure laid down in the legislation governing tourism (therein Law on turism)"
-        },
-        {
-            "memberState": "LT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 9
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "4901",
-                        "description": "Printed books, brochures, leaflets and similar printed matter, whether or not in single sheets"
-                    },
-                    {
-                        "value": "4903 00 00",
-                        "description": "Children's picture, drawing or colouring books"
-                    },
-                    {
-                        "value": "4904 00 00",
-                        "description": "Music, printed or in manuscript, whether or not bound or illustrated"
-                    },
-                    {
-                        "value": "4905",
-                        "description": "Maps and hydrographic or similar charts of all kinds, including atlases, wall maps, topographical plans and globes, printed"
-                    },
-                    {
-                        "value": "4906 00 00",
-                        "description": "Plans and drawings for architectural, engineering, industrial, commercial, topographical or similar purposes, being originals drawn by hand; handwritten texts; photographic reproductions on sensitised paper and carbon copies of the foregoing"
-                    },
-                    {
-                        "value": "4911",
-                        "description": "Other printed matter, including printed pictures and photographs"
-                    }
-                ]
-            },
-            "cpaCodes": {
-                "code": {
-                    "value": "58.11.3",
-                    "description": "On-line books"
-                }
-            },
-            "category": {
-                "identifier": "LOAN_LIBRARIES",
-                "description": "Supply, including on loan by libraries, of books, newspapers and periodicals either on physical means of support or supplied electronically or both (including brochures, leaflets and similar printed matter, children's picture, drawing or colouring books, music printed or in manuscript form, maps and hydrographic or similar charts), other than publications wholly or predominantly devoted to advertising and other than publications wholly or predominantly consisting of video content or audible music."
-            },
-            "comment": "Applies for printed and electronic books as well as printed and electronic non-periodical information publications (see non-exhaustive most common publications supplied list in Comment of VAT Law on the STI website)"
-        },
-        {
-            "memberState": "LT",
-            "type": "STANDARD",
-            "rate": {
-                "type": "DEFAULT",
-                "value": 21
-            },
-            "situationOn": "2025-07-01+02:00"
-        },
-        {
-            "memberState": "LT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "1901 10 00",
-                        "description": "Preparations suitable for infants or young children, put up for retail sale"
-                    },
-                    {
-                        "value": "1901 20 00",
-                        "description": "Mixes and doughs for the preparation of bakers' wares of heading 1905"
-                    },
-                    {
-                        "value": "1901 90 91",
-                        "description": "Containing no milkfats, sucrose, isoglucose, glucose or starch or containing less than 1,5 % milkfat, 5 % sucrose (including invert sugar) or isoglucose, 5 % glucose or starch, excluding food preparations in powder form of goods of headings 0401 to 0404"
-                    },
-                    {
-                        "value": "1901 90 99",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "2202 99",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "30",
-                        "description": "CHAPTER 30 - PHARMACEUTICAL PRODUCTS"
-                    },
-                    {
-                        "value": "3821 00 00",
-                        "description": "Prepared culture media for the development or maintenance of micro-organisms (including viruses and the like) or of plant, human or animal cells"
-                    },
-                    {
-                        "value": "4818",
-                        "description": "Toilet paper and similar paper, cellulose wadding or webs of cellulose fibres, of a kind used for household or sanitary purposes, in rolls of a width not exceeding 36 cm, or cut to size or shape; handkerchiefs, cleansing tissues, towels, tablecloths, serviettes, bedsheets and similar household, sanitary or hospital articles, articles of apparel and clothing accessories, of paper pulp, paper, cellulose wadding or webs of cellulose fibres"
-                    },
-                    {
-                        "value": "5208",
-                        "description": "Woven fabrics of cotton, containing 85 % or more by weight of cotton, weighing not more than 200 g\/m²"
-                    },
-                    {
-                        "value": "5601",
-                        "description": "Wadding of textile materials and articles thereof; textile fibres, not exceeding 5 mm in length (flock), textile dust and mill neps"
-                    },
-                    {
-                        "value": "8713",
-                        "description": "Carriages for disabled persons, whether or not motorised or otherwise mechanically propelled"
-                    },
-                    {
-                        "value": "9018",
-                        "description": "Instruments and appliances used in medical, surgical, dental or veterinary sciences, including scintigraphic apparatus, other electromedical apparatus and sight-testing instruments"
-                    },
-                    {
-                        "value": "9021",
-                        "description": "Orthopaedic appliances, including crutches, surgical belts and trusses; splints and other fracture appliances; artificial parts of the body; hearing aids and other appliances which are worn or carried, or implanted in the body, to compensate for a defect or disability"
-                    },
-                    {
-                        "value": "9619 00",
-                        "description": "Sanitary towels (pads) and tampons, napkins (diapers), napkin liners and similar articles, of any material"
-                    },
-                    {
-                        "value": "1901 90 95",
-                        "description": "Food preparations in powder form, consisting of a blend of skimmed milk and\/or whey and vegetable fats\/oils, with a content of fats\/oils not exceeding 30 % by weight"
-                    },
-                    {
-                        "value": "3822",
-                        "description": "Diagnostic or laboratory reagents on a backing, prepared diagnostic or laboratory reagents whether or not on a backing, whether or not put up in the form of kits, other than those of heading 3006; certified reference materials"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "PHARMACEUTICAL_PRODUCTS",
-                "description": "Pharmaceutical products of a kind normally used for health care, prevention of illness and as treatment for medical and veterinary purposes, including products used for contraception and sanitary protection"
-            },
-            "comment": "Applicable for medicaments, medical aids and food products for special medical purposes, fully or partially compensated by the Compulsory Health Insurance Fund (at the moment of acquisition), as well as for all non-compensated prescribed medicines (entered into the Lithuanian or EU register of prescribed medications)"
-        },
-        {
-            "memberState": "LT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
                 "value": 5
             },
             "situationOn": "2025-07-01+02:00",
@@ -367,58 +152,6 @@
             "type": "REDUCED",
             "rate": {
                 "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cnCodes": {
-                "code": {
-                    "value": "4902",
-                    "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
-                }
-            },
-            "cpaCodes": {
-                "code": {
-                    "value": "58.13.2",
-                    "description": "On-line newspapers"
-                }
-            },
-            "category": {
-                "identifier": "NEWSPAPERS",
-                "description": "Newspapers"
-            },
-            "comment": "With the exception of erotic and\/or violent publications, or publications non-compliant with the professional ethics. Applies for  printed and (or) electronic newspapers, magazines and other periodicals."
-        },
-        {
-            "memberState": "LT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cnCodes": {
-                "code": {
-                    "value": "4902",
-                    "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
-                }
-            },
-            "cpaCodes": {
-                "code": {
-                    "value": "58.14.2",
-                    "description": "On-line journals and periodicals"
-                }
-            },
-            "category": {
-                "identifier": "PERIODICALS",
-                "description": "Periodicals"
-            },
-            "comment": "With the exception of erotic and\/or violent publications, or publications non-compliant with the professional ethics. Applies for printed and (or) electronic periodicals."
-        },
-        {
-            "memberState": "LT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
                 "value": 9
             },
             "situationOn": "2025-07-01+02:00",
@@ -433,6 +166,54 @@
                 "description": "Until 1 January 2030: Wood used as firewood"
             },
             "comment": "Since 1st 2019 the reduced 9 % VAT rate applies to firewood and wood products for heating supplied to energy consumers – households."
+        },
+        {
+            "memberState": "LT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 9
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "4901",
+                        "description": "Printed books, brochures, leaflets and similar printed matter, whether or not in single sheets"
+                    },
+                    {
+                        "value": "4903 00 00",
+                        "description": "Children's picture, drawing or colouring books"
+                    },
+                    {
+                        "value": "4904 00 00",
+                        "description": "Music, printed or in manuscript, whether or not bound or illustrated"
+                    },
+                    {
+                        "value": "4905",
+                        "description": "Maps and hydrographic or similar charts of all kinds, including atlases, wall maps, topographical plans and globes, printed"
+                    },
+                    {
+                        "value": "4906 00 00",
+                        "description": "Plans and drawings for architectural, engineering, industrial, commercial, topographical or similar purposes, being originals drawn by hand; handwritten texts; photographic reproductions on sensitised paper and carbon copies of the foregoing"
+                    },
+                    {
+                        "value": "4911",
+                        "description": "Other printed matter, including printed pictures and photographs"
+                    }
+                ]
+            },
+            "cpaCodes": {
+                "code": {
+                    "value": "58.11.3",
+                    "description": "Audio books"
+                }
+            },
+            "category": {
+                "identifier": "LOAN_LIBRARIES",
+                "description": "Supply, including on loan by libraries, of books, newspapers and periodicals either on physical means of support or supplied electronically or both (including brochures, leaflets and similar printed matter, children's picture, drawing or colouring books, music printed or in manuscript form, maps and hydrographic or similar charts), other than publications wholly or predominantly devoted to advertising and other than publications wholly or predominantly consisting of video content or audible music."
+            },
+            "comment": "Applies for printed and electronic books as well as printed and electronic non-periodical information publications (see non-exhaustive most common publications supplied list in Comment of VAT Law on the STI website)"
         },
         {
             "memberState": "LT",
@@ -473,6 +254,225 @@
                 "description": "Supply of water"
             },
             "comment": "Applies to the hot water or cold water for preparing of hot water, supplied to residential premises."
+        },
+        {
+            "memberState": "LT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 9
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "49.10.19",
+                        "description": "Other passenger rail transport services, interurban"
+                    },
+                    {
+                        "value": "49.31.1",
+                        "description": "Urban and suburban scheduled passenger transport services by road"
+                    },
+                    {
+                        "value": "49.31.2",
+                        "description": "Interurban scheduled passenger transport services by road"
+                    },
+                    {
+                        "value": "49.39.11",
+                        "description": "Interurban scheduled road transport services of passengers"
+                    },
+                    {
+                        "value": "50.10.1",
+                        "description": "Sea and coastal passenger water transport services, except rental services"
+                    },
+                    {
+                        "value": "50.30.1",
+                        "description": "Inland passenger water transport services, except rental services"
+                    },
+                    {
+                        "value": "51.10.11",
+                        "description": "Domestic scheduled air transport services of passengers"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "TRANSPORT_PASSENGERS",
+                "description": "Transport of passengers and their accompanying luggage"
+            },
+            "comment": "Applies only for established domestic regular routes"
+        },
+        {
+            "memberState": "LT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 9
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "55.10.1",
+                        "description": "Room or unit accommodation services for visitors, with daily housekeeping (except time-share)"
+                    },
+                    {
+                        "value": "55.20.1",
+                        "description": "Holiday and other short stay accommodation services"
+                    },
+                    {
+                        "value": "55.30.1",
+                        "description": "Camping ground, recreational and vacation camp services"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "ACCOMMODATION",
+                "description": "Accommodation provided in hotels and similar establishments, including the provision of holiday accommodation and the letting of places on camping or caravan sites"
+            },
+            "comment": "In accordance with the procedure laid down in the legislation governing tourism (therein Law on turism)"
+        },
+        {
+            "memberState": "LT",
+            "type": "STANDARD",
+            "rate": {
+                "type": "DEFAULT",
+                "value": 21
+            },
+            "situationOn": "2025-07-01+02:00"
+        },
+        {
+            "memberState": "LT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "1901 10 00",
+                        "description": "Preparations suitable for infants or young children, put up for retail sale"
+                    },
+                    {
+                        "value": "1901 20 00",
+                        "description": "Mixes and doughs for the preparation of bakers' wares of heading 1905"
+                    },
+                    {
+                        "value": "1901 90 91",
+                        "description": "Containing no milkfats, sucrose, isoglucose, glucose or starch or containing less than 1,5 % milkfat, 5 % sucrose (including invert sugar) or isoglucose, 5 % glucose or starch, excluding food preparations in powder form of goods of headings 0401 to 0404"
+                    },
+                    {
+                        "value": "1901 90 99",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "2202 99",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "30",
+                        "description": "CHAPTER 30 - PHARMACEUTICAL PRODUCTS"
+                    },
+                    {
+                        "value": "3821 00 00",
+                        "description": "Prepared culture media for the development or maintenance of micro-organisms (including viruses and the like) or of plant, human or animal cells"
+                    },
+                    {
+                        "value": "4818",
+                        "description": "Toilet paper and similar paper, cellulose wadding or webs of cellulose fibres, of a kind used for household or sanitary purposes, in rolls of a width not exceeding 36 cm, or cut to size or shape; handkerchiefs, cleansing tissues, towels, tablecloths, serviettes, bedsheets and similar household, sanitary or hospital articles, articles of apparel and clothing accessories, of paper pulp, paper, cellulose wadding or webs of cellulose fibres"
+                    },
+                    {
+                        "value": "5208",
+                        "description": "Woven fabrics of cotton, containing 85 % or more by weight of cotton, weighing not more than 200 g\/m2"
+                    },
+                    {
+                        "value": "5601",
+                        "description": "Wadding of textile materials and articles thereof; textile fibres, not exceeding 5 mm in length (flock), textile dust and mill neps"
+                    },
+                    {
+                        "value": "8713",
+                        "description": "Carriages for disabled persons, whether or not motorised or otherwise mechanically propelled"
+                    },
+                    {
+                        "value": "9018",
+                        "description": "Instruments and appliances used in medical, surgical, dental or veterinary sciences, including scintigraphic apparatus, other electromedical apparatus and sight-testing instruments"
+                    },
+                    {
+                        "value": "9021",
+                        "description": "Orthopaedic appliances, including crutches, surgical belts and trusses; splints and other fracture appliances; artificial parts of the body; hearing aids and other appliances which are worn or carried, or implanted in the body, to compensate for a defect or disability"
+                    },
+                    {
+                        "value": "9619 00",
+                        "description": "Sanitary towels (pads) and tampons, napkins (diapers), napkin liners and similar articles, of any material"
+                    },
+                    {
+                        "value": "1901 90 95",
+                        "description": "Food preparations in powder form, consisting of a blend of skimmed milk and\/or whey and vegetable fats\/oils, with a content of fats\/oils not exceeding 30 % by weight"
+                    },
+                    {
+                        "value": "3822",
+                        "description": "Diagnostic or laboratory reagents on a backing, prepared diagnostic or laboratory reagents whether or not on a backing, whether or not put up in the form of kits, other than those of heading 3006; certified reference materials"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "PHARMACEUTICAL_PRODUCTS",
+                "description": "Pharmaceutical products of a kind normally used for health care, prevention of illness and as treatment for medical and veterinary purposes, including products used for contraception and sanitary protection"
+            },
+            "comment": "Applicable for medicaments, medical aids and food products for special medical purposes, fully or partially compensated by the Compulsory Health Insurance Fund (at the moment of acquisition), as well as for all non-compensated prescribed medicines (entered into the Lithuanian or EU register of prescribed medications)"
+        },
+        {
+            "memberState": "LT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cnCodes": {
+                "code": {
+                    "value": "4902",
+                    "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
+                }
+            },
+            "cpaCodes": {
+                "code": {
+                    "value": "58.13.2",
+                    "description": "Online journals and periodicals"
+                }
+            },
+            "category": {
+                "identifier": "NEWSPAPERS",
+                "description": "Newspapers"
+            },
+            "comment": "With the exception of erotic and\/or violent publications, or publications non-compliant with the professional ethics. Applies for  printed and (or) electronic newspapers, magazines and other periodicals."
+        },
+        {
+            "memberState": "LT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cnCodes": {
+                "code": {
+                    "value": "4902",
+                    "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
+                }
+            },
+            "cpaCodes": {
+                "code": {
+                    "value": "58.14.2",
+                    "description": "On-line journals and periodicals"
+                }
+            },
+            "category": {
+                "identifier": "PERIODICALS",
+                "description": "Periodicals"
+            },
+            "comment": "With the exception of erotic and\/or violent publications, or publications non-compliant with the professional ethics. Applies for printed and (or) electronic periodicals."
         }
     ]
 }

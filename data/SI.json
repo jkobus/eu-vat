@@ -817,7 +817,7 @@
                     },
                     {
                         "value": "2306",
-                        "description": "Oil-cake and other solid residues, whether or not ground or in the form of pellets, resulting from the extraction of vegetable or microbial fats or oils, other than those of heading 2304 or 2305"
+                        "description": "Oilcake and other solid residues, whether or not ground or in the form of pellets, resulting from the extraction of vegetable or microbial fats or oils, other than those of heading 2304 or 2305"
                     },
                     {
                         "value": "2308 00",
@@ -1106,106 +1106,6 @@
             "cnCodes": {
                 "code": [
                     {
-                        "value": "0601",
-                        "description": "Bulbs, tubers, tuberous roots, corms, crowns and rhizomes, dormant, in growth or in flower; chicory plants and roots other than roots of heading 1212"
-                    },
-                    {
-                        "value": "0602",
-                        "description": "Other live plants (including their roots), cuttings and slips; mushroom spawn"
-                    },
-                    {
-                        "value": "0603",
-                        "description": "Cut flowers and flower buds of a kind suitable for bouquets or for ornamental purposes, fresh, dried, dyed, bleached, impregnated or otherwise prepared"
-                    },
-                    {
-                        "value": "0604",
-                        "description": "Foliage, branches and other parts of plants, without flowers or flower buds, and grasses, mosses and lichens, being goods of a kind suitable for bouquets or for ornamental purposes, fresh, dried, dyed, bleached, impregnated or otherwise prepared"
-                    },
-                    {
-                        "value": "1209",
-                        "description": "Seeds, fruit and spores, of a kind used for sowing"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "PLANT",
-                "description": "Live plants and other floricultural products, including bulbs, cotton, roots and the like, cut flowers and ornamental foliage"
-            },
-            "comment": "1209: only ornamental plant seeds"
-        },
-        {
-            "memberState": "SI",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "4901",
-                        "description": "Printed books, brochures, leaflets and similar printed matter, whether or not in single sheets"
-                    },
-                    {
-                        "value": "4902",
-                        "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
-                    },
-                    {
-                        "value": "4903 00 00",
-                        "description": "Children's picture, drawing or colouring books"
-                    },
-                    {
-                        "value": "4904 00 00",
-                        "description": "Music, printed or in manuscript, whether or not bound or illustrated"
-                    },
-                    {
-                        "value": "4905",
-                        "description": "Maps and hydrographic or similar charts of all kinds, including atlases, wall maps, topographical plans and globes, printed"
-                    },
-                    {
-                        "value": "8523",
-                        "description": "Discs, tapes, solid-state non-volatile storage devices, ‘smart cards’ and other media for the recording of sound or of other phenomena, whether or not recorded, including matrices and masters for the production of discs, but excluding products of Chapter 37"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "LOAN_LIBRARIES",
-                "description": "Supply, including on loan by libraries, of books, newspapers and periodicals either on physical means of support or supplied electronically or both (including brochures, leaflets and similar printed matter, children's picture, drawing or colouring books, music printed or in manuscript form, maps and hydrographic or similar charts), other than publications wholly or predominantly devoted to advertising and other than publications wholly or predominantly consisting of video content or audible music."
-            },
-            "comment": "Except: supply of material with more than 50 % of space to advertising and music, films, games, including games of chance and lotteries, interactive learning, broadcasting, and events in the fields of politics, culture, art, sports, science, and entertainment\nIncludes also: electronic provision of services via the Internet or an electronic network to access electronic books, periodicals, electronically updated content"
-        },
-        {
-            "memberState": "SI",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cpaCodes": {
-                "code": {
-                    "value": "84.25",
-                    "description": "Fire brigade services"
-                }
-            },
-            "category": {
-                "identifier": "RESCUE_EQUIPMENT",
-                "description": "Tools and other equipment of a kind normally intended for use in rescue or first aid services when supplied to public bodies or non-profit-making organisations active in civil or community protection"
-            },
-            "comment": "Supply of typed fire engines, special protective and rescue equipment and tools for the performance of firefighting tasks, usually intended for use in interventions, which are supplied to public fire services or volunteer firefighting units in firefighting societies. For more information see the Rules on the Implementation of VATA-1."
-        },
-        {
-            "memberState": "SI",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 9.5
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cnCodes": {
-                "code": [
-                    {
                         "value": "6602 00 00",
                         "description": "Walking sticks, seat-sticks, whips, riding-crops and the like"
                     },
@@ -1264,6 +1164,44 @@
                 "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
             },
             "comment": "Aids for the blind and partially sighted: spectacles for the correction of vision; spectacle lenses; binoculars for the visually impaired; magnifying glasses for the visually impaired; lenses and Fresnel prisms and accessories for prisms; contact lenses; sticks for the blind"
+        },
+        {
+            "memberState": "SI",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 9.5
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "0601",
+                        "description": "Bulbs, tubers, tuberous roots, corms, crowns and rhizomes, dormant, in growth or in flower; chicory plants and roots other than roots of heading 1212"
+                    },
+                    {
+                        "value": "0602",
+                        "description": "Other live plants (including their roots), cuttings and slips; mushroom spawn"
+                    },
+                    {
+                        "value": "0603",
+                        "description": "Cut flowers and flower buds of a kind suitable for bouquets or for ornamental purposes, fresh, dried, dyed, bleached, impregnated or otherwise prepared"
+                    },
+                    {
+                        "value": "0604",
+                        "description": "Foliage, branches and other parts of plants, without flowers or flower buds, and grasses, mosses and lichens, being goods of a kind suitable for bouquets or for ornamental purposes, fresh, dried, dyed, bleached, impregnated or otherwise prepared"
+                    },
+                    {
+                        "value": "1209",
+                        "description": "Seeds, fruit and spores, of a kind used for sowing"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "PLANT",
+                "description": "Live plants and other floricultural products, including bulbs, cotton, roots and the like, cut flowers and ornamental foliage"
+            },
+            "comment": "1209: only ornamental plant seeds"
         },
         {
             "memberState": "SI",
@@ -1876,11 +1814,11 @@
                     },
                     {
                         "value": "01.62",
-                        "description": "Support services to animal production"
+                        "description": "Support services to animal production; services of preparing farmyard manure and slurry for energy production"
                     },
                     {
                         "value": "01.63",
-                        "description": "Post-harvest crop services"
+                        "description": "Post-harvest crop services and seed processing services of propagation; services of preparing plant silages for energy production"
                     },
                     {
                         "value": "01.64",
@@ -1949,11 +1887,11 @@
                     },
                     {
                         "value": "38.1",
-                        "description": "Waste; waste collection services"
+                        "description": "Waste collection services"
                     },
                     {
                         "value": "38.2",
-                        "description": "Waste treatment and disposal services"
+                        "description": "Waste recovery services"
                     },
                     {
                         "value": "81.29",
@@ -1998,7 +1936,7 @@
                 "code": [
                     {
                         "value": "49.1",
-                        "description": "Passenger rail transport services, interurban"
+                        "description": "Passenger rail transport services"
                     },
                     {
                         "value": "49.3",
@@ -2035,11 +1973,11 @@
                     },
                     {
                         "value": "55.2",
-                        "description": "Holiday and other short stay accommodation services"
+                        "description": "Holiday and other short-stay accommodation services"
                     },
                     {
                         "value": "55.3",
-                        "description": "Camping ground, recreational and vacation camp services"
+                        "description": "Camping grounds and recreational vehicle parks services"
                     },
                     {
                         "value": "55.9",
@@ -2068,7 +2006,7 @@
                     },
                     {
                         "value": "56.2",
-                        "description": "Event catering services and other food serving services"
+                        "description": "Event catering, contract catering services and other food serving services"
                     }
                 ]
             },
@@ -2116,7 +2054,7 @@
                 "code": [
                     {
                         "value": "88.10",
-                        "description": "Social work services without accommodation for the elderly and disabled"
+                        "description": "Social work services without accommodation for older persons or persons with disabilities"
                     },
                     {
                         "value": "88.91",
@@ -2141,11 +2079,11 @@
                 "code": [
                     {
                         "value": "90",
-                        "description": "Creative, arts and entertainment services"
+                        "description": "Arts creation and performing arts services"
                     },
                     {
                         "value": "91",
-                        "description": "Library, archive, museum and other cultural services"
+                        "description": "Libraries, archives, museums and other cultural services"
                     }
                 ]
             },
@@ -2215,7 +2153,7 @@
             "cpaCodes": {
                 "code": {
                     "value": "95.23",
-                    "description": "Repair services of footwear and leather goods"
+                    "description": "Repair and maintenance services of footwear and leather goods"
                 }
             },
             "category": {
@@ -2474,6 +2412,68 @@
                 "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
             },
             "comment": "Comments:\nIncluding: parts and accessories of the products if they are classified under the same tariff code as the product and the maintenance and repair of the products\nExcept: please see Article 50 of the Rules on the implementation of the Valued Added Tax Act\n\nWheelchairs and parts and accessories for wheelchairs"
+        },
+        {
+            "memberState": "SI",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "4901",
+                        "description": "Printed books, brochures, leaflets and similar printed matter, whether or not in single sheets"
+                    },
+                    {
+                        "value": "4902",
+                        "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
+                    },
+                    {
+                        "value": "4903 00 00",
+                        "description": "Children's picture, drawing or colouring books"
+                    },
+                    {
+                        "value": "4904 00 00",
+                        "description": "Music, printed or in manuscript, whether or not bound or illustrated"
+                    },
+                    {
+                        "value": "4905",
+                        "description": "Maps and hydrographic or similar charts of all kinds, including atlases, wall maps, topographical plans and globes, printed"
+                    },
+                    {
+                        "value": "8523",
+                        "description": "Discs, tapes, solid-state non-volatile storage devices, smart cards and other media for the recording of sound or of other phenomena, whether or not recorded, including matrices and masters for the production of discs, but excluding products of Chapter 37"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "LOAN_LIBRARIES",
+                "description": "Supply, including on loan by libraries, of books, newspapers and periodicals either on physical means of support or supplied electronically or both (including brochures, leaflets and similar printed matter, children's picture, drawing or colouring books, music printed or in manuscript form, maps and hydrographic or similar charts), other than publications wholly or predominantly devoted to advertising and other than publications wholly or predominantly consisting of video content or audible music."
+            },
+            "comment": "Except: supply of material with more than 50 % of space to advertising and music, films, games, including games of chance and lotteries, interactive learning, broadcasting, and events in the fields of politics, culture, art, sports, science, and entertainment\nIncludes also: electronic provision of services via the Internet or an electronic network to access electronic books, periodicals, electronically updated content"
+        },
+        {
+            "memberState": "SI",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "84.25",
+                    "description": "Fire brigade services"
+                }
+            },
+            "category": {
+                "identifier": "RESCUE_EQUIPMENT",
+                "description": "Tools and other equipment of a kind normally intended for use in rescue or first aid services when supplied to public bodies or non-profit-making organisations active in civil or community protection"
+            },
+            "comment": "Supply of typed fire engines, special protective and rescue equipment and tools for the performance of firefighting tasks, usually intended for use in interventions, which are supplied to public fire services or volunteer firefighting units in firefighting societies. For more information see the Rules on the Implementation of VATA-1."
         }
     ]
 }
