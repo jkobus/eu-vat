@@ -1093,79 +1093,163 @@
                 "value": 11
             },
             "situationOn": "2025-08-01+02:00",
-            "cnCodes": {
+            "cpaCodes": {
                 "code": [
                     {
-                        "value": "1108",
-                        "description": "Starches; inulin"
+                        "value": "55.10.10",
+                        "description": "Room or unit accommodation services for visitors, with daily housekeeping (except time-share)"
                     },
                     {
-                        "value": "1207 10 00",
-                        "description": "Palm nuts and kernels"
+                        "value": "55.20.11",
+                        "description": "Room or unit accommodation services for visitors in youth hostels and holiday cabins"
                     },
                     {
-                        "value": "1207 29 00",
-                        "description": "Other"
+                        "value": "55.20.12",
+                        "description": "Room or unit accommodation services for visitors in time-share properties"
                     },
                     {
-                        "value": "1207 30 00",
-                        "description": "Castor oil seeds"
+                        "value": "55.20.19",
+                        "description": "Other room or unit accommodation services for visitors, without daily housekeeping"
                     },
                     {
-                        "value": "1207 40 90",
-                        "description": "Other"
+                        "value": "55.30.11",
+                        "description": "Camping ground services"
                     },
                     {
-                        "value": "1207 50 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "1207 60 00",
-                        "description": "Safflower (Carthamus tinctorius) seeds"
-                    },
-                    {
-                        "value": "1207 70 00",
-                        "description": "Melon seeds"
-                    },
-                    {
-                        "value": "1207 91 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "1207 99 91",
-                        "description": "Hemp seeds"
-                    },
-                    {
-                        "value": "1207 99 96",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "1212",
-                        "description": "Locust beans, seaweeds and other algae, sugar beet and sugar cane, fresh, chilled, frozen or dried, whether or not ground; fruit stones and kernels and other vegetable products (including unroasted chicory roots of the variety Cichorium intybus sativum) of a kind used primarily for human consumption, not elsewhere specified or included"
-                    },
-                    {
-                        "value": "1213 00 00",
-                        "description": "Cereal straw and husks, unprepared, whether or not chopped, ground, pressed or in the form of pellets"
-                    },
-                    {
-                        "value": "2303",
-                        "description": "Residues of starch manufacture and similar residues, beet-pulp, bagasse and other waste of sugar manufacture, brewing or distilling dregs and waste, whether or not in the form of pellets"
-                    },
-                    {
-                        "value": "2307 00",
-                        "description": "Wine lees; argol"
-                    },
-                    {
-                        "value": "2501 00",
-                        "description": "Salt (including table salt and denatured salt) and pure sodium chloride, whether or not in aqueous solution or containing added anti-caking or free-flowing agents; sea water"
+                        "value": "55.30.12",
+                        "description": "Recreational and vacation camp services"
                     }
                 ]
             },
             "category": {
-                "identifier": "FOODSTUFFS",
-                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
+                "identifier": "ACCOMMODATION",
+                "description": "Accommodation provided in hotels and similar establishments, including the provision of holiday accommodation and the letting of places on camping or caravan sites"
             },
-            "comment": "The reduced rate is applied only if the supplier can prove that the goods, except foods with added sugar, whose total sugar content is at least 10g\/100g product, are used as food for human or animal consumption. When those goods are imported from a third territory or a third country, the application of the reduced rate is conditioned by the submission of the Commitment Declaration regarding the destination of the goods. Point 37 para.(5)-(9) of Norms."
+            "comment": "The reduced VAT rate is applied for accommodation in the hotel sector or sectors with similar function, including renting of camping sites. For details see art. 291 para. (2) letter m) of the Fiscal Code corroborated with point 37 para. (14) of the Methodological Norms."
+        },
+        {
+            "memberState": "RO",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 11
+            },
+            "situationOn": "2025-08-01+02:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "56.10.11",
+                        "description": "Meal serving services with full restaurant service"
+                    },
+                    {
+                        "value": "56.10.12",
+                        "description": "Meal serving services in railway dining cars and on ships"
+                    },
+                    {
+                        "value": "56.10.13",
+                        "description": "Meal serving services in self-service establishments"
+                    },
+                    {
+                        "value": "56.10.19",
+                        "description": "Other meal serving services"
+                    },
+                    {
+                        "value": "56.21.11",
+                        "description": "Event catering services for private households"
+                    },
+                    {
+                        "value": "56.21.19",
+                        "description": "Other event catering services"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "RESTAURANT",
+                "description": "Restaurant and catering services, it being possible to exclude the supply of (alcoholic and\/or non-alcoholic) beverages"
+            },
+            "comment": "The reduced VAT rate is applied for restaurant and catering services, excluding alcoholic beverages as well as non-alcoholic beverages, falling within CN codes 2202. For details see art. 291 para. (2) letter n) of the Fiscal Code corroborated with point 37 para. (15) of the Methodological Norms."
+        },
+        {
+            "memberState": "RO",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 11
+            },
+            "situationOn": "2025-08-01+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "4901",
+                        "description": "Printed books, brochures, leaflets and similar printed matter, whether or not in single sheets"
+                    },
+                    {
+                        "value": "4902",
+                        "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
+                    },
+                    {
+                        "value": "4903 00 00",
+                        "description": "Children's picture, drawing or colouring books"
+                    },
+                    {
+                        "value": "4904 00 00",
+                        "description": "Music, printed or in manuscript, whether or not bound or illustrated"
+                    },
+                    {
+                        "value": "8523 29 19",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "8523 29 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "8523 49",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "8523 51 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "8523 59 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "8523 80 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "4905 20 00",
+                        "description": "In book form"
+                    },
+                    {
+                        "value": "4905 90 00",
+                        "description": "Other"
+                    }
+                ]
+            },
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "58.11.30",
+                        "description": "On-line books"
+                    },
+                    {
+                        "value": "58.13.20",
+                        "description": "Online journals and periodicals"
+                    },
+                    {
+                        "value": "58.14.20",
+                        "description": "On-line journals and periodicals"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "LOAN_LIBRARIES",
+                "description": "Supply, including on loan by libraries, of books, newspapers and periodicals either on physical means of support or supplied electronically or both (including brochures, leaflets and similar printed matter, children's picture, drawing or colouring books, music printed or in manuscript form, maps and hydrographic or similar charts), other than publications wholly or predominantly devoted to advertising and other than publications wholly or predominantly consisting of video content or audible music."
+            },
+            "comment": "The reduced VAT rate is applied for the supply of school textbooks, books, newspapers and magazines, either on physical means of support and\/or supplied electronically, except for those which have, wholly or predominantly, video or music audio content and those intended exclusively or mainly for advertising. See art. 291 para. (2) letter g) of the Fiscal Code corroborated with point 38 para. (1) of the Methodological Norms."
         },
         {
             "memberState": "RO",
@@ -1293,6 +1377,227 @@
                 "value": 11
             },
             "situationOn": "2025-08-01+02:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "68.10.11",
+                        "description": "Residential buildings and associated land sales or purchases services"
+                    },
+                    {
+                        "value": "68.10.14",
+                        "description": "Non-residential buildings and associated land sales or purchases services"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "HOUSING_PROVISION",
+                "description": "Provision, construction, renovation and alteration of housing, as part of a social policy"
+            },
+            "comment": "The reduced VAT rate is applied for the supply of housing as part of social policy, including the land on which they are built (nursing homes and retirement homes, children's homes, and recovery and rehabilitation centers for minors with disabilities). For details see art. 291 para. (2) letter l) of the Fiscal Code corroborated with point 37 para. (16), (19) and (20) of the Methodological Norms."
+        },
+        {
+            "memberState": "RO",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 11
+            },
+            "situationOn": "2025-08-01+02:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "75.00.12",
+                    "description": "Veterinary services for livestock"
+                }
+            },
+            "category": {
+                "identifier": "AGRICULTURAL_PRODUCTION",
+                "description": "Supply of goods and services of a kind normally intended for use in agricultural production but excluding capital goods such as machinery or buildings"
+            },
+            "comment": "The reduced rate shall be applied for Setting up and maintenance of genealogical registers of animal breeds; Determination of the genetic quality of animals. For details see art. 291 para. (2) letter e) of the Fiscal Code and points 40, 41 of the Annex to the Order no. 4634\/2022."
+        },
+        {
+            "memberState": "RO",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 11
+            },
+            "situationOn": "2025-08-01+02:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "81.29.11",
+                    "description": "Disinfecting and exterminating services"
+                }
+            },
+            "category": {
+                "identifier": "AGRICULTURAL_PRODUCTION",
+                "description": "Supply of goods and services of a kind normally intended for use in agricultural production but excluding capital goods such as machinery or buildings"
+            },
+            "comment": "The reduced rate shall be applied for Disinfection, plague and pest control in wineries and vegetable and fruit storage warehouses. For details see art. 291 para. (2) letter e) of the Fiscal Code and point 30 of the Annex to the Order no. 4634\/2022."
+        },
+        {
+            "memberState": "RO",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 11
+            },
+            "situationOn": "2025-08-01+02:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "91.02.10",
+                        "description": "Museum operation services"
+                    },
+                    {
+                        "value": "91.03.10",
+                        "description": "Operation services of historical sites and buildings and similar visitor attractions"
+                    },
+                    {
+                        "value": "91.04.11",
+                        "description": "Botanical and zoological garden services"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "CULTURAL_EVENTS",
+                "description": "Admission to shows, theatres, circuses, fairs, amusement parks, concerts, museums, zoos, cinemas, exhibitions and similar cultural events and facilities"
+            },
+            "comment": "The reduced VAT rate is applied for the services consisting in allowing access to castles, museums, memorial houses, historical monuments, architectural and archaeological monuments, zoological and botanical gardens. See art. 291 para. (2) letter h) of the Fiscal Code."
+        },
+        {
+            "memberState": "RO",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 11
+            },
+            "situationOn": "2025-08-01+02:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "81.30.12",
+                    "description": "Other landscape services"
+                }
+            },
+            "category": {
+                "identifier": "AGRICULTURAL_PRODUCTION",
+                "description": "Supply of goods and services of a kind normally intended for use in agricultural production but excluding capital goods such as machinery or buildings"
+            },
+            "comment": "The reduced rate shall be applied for Services to combat soil erosion such as Other landscape maintenance services (for the case of wind erosion). For details see art. 291 para. (2) letter e) of the Fiscal Code and point 42 of the Annex to the Order no. 4634\/2022, respectively in the Order no. 157\/2011."
+        },
+        {
+            "memberState": "RO",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 11
+            },
+            "situationOn": "2025-08-01+02:00",
+            "category": {
+                "identifier": "SUSTAINABLE_ENERGY",
+                "description": "Supply of electricity, district heating and district cooling, and biogas produced by the feedstock listed in Annex IX, Part A, to Directive (EU) 2018\/2001 of the European Parliament and of the Council; supply and installation of highly efficient low emissions heating systems meeting the emission (PM) benchmarks laid down in Annex V to Commission Regulation (EU) 2015\/1189 and in Annex V to Commission Regulation (EU) 2015\/1185 and having been attributed an EU energy label to show that the criterion referred to in Article 7(2) of Regulation (EU) 2017\/1369 of the European Parliament and of the Council is met; and, until 1 January 2030, natural gas and wood used as firewood"
+            },
+            "comment": "Supply of district heating in the cold season (the 5-month period between November 1 of the current year and March 31 of the following year), intended for: the population, public and private hospitals, public and private educational institutions, non-governmental organizations, religious institutions, accredited public and private social service providers. See Art. 291 para. (2), letters k) of the Fiscal Code."
+        },
+        {
+            "memberState": "RO",
+            "type": "STANDARD",
+            "rate": {
+                "type": "DEFAULT",
+                "value": 21
+            },
+            "situationOn": "2025-08-01+02:00"
+        },
+        {
+            "memberState": "RO",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 11
+            },
+            "situationOn": "2025-08-01+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "1108",
+                        "description": "Starches; inulin"
+                    },
+                    {
+                        "value": "1207 10 00",
+                        "description": "Palm nuts and kernels"
+                    },
+                    {
+                        "value": "1207 29 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "1207 30 00",
+                        "description": "Castor oil seeds"
+                    },
+                    {
+                        "value": "1207 40 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "1207 50 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "1207 60 00",
+                        "description": "Safflower (Carthamus tinctorius) seeds"
+                    },
+                    {
+                        "value": "1207 70 00",
+                        "description": "Melon seeds"
+                    },
+                    {
+                        "value": "1207 91 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "1207 99 91",
+                        "description": "Hemp seeds"
+                    },
+                    {
+                        "value": "1207 99 96",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "1212",
+                        "description": "Locust beans, seaweeds and other algae, sugar beet and sugar cane, fresh, chilled, frozen or dried, whether or not ground; fruit stones and kernels and other vegetable products (including unroasted chicory roots of the variety Cichorium intybus sativum) of a kind used primarily for human consumption, not elsewhere specified or included"
+                    },
+                    {
+                        "value": "1213 00 00",
+                        "description": "Cereal straw and husks, unprepared, whether or not chopped, ground, pressed or in the form of pellets"
+                    },
+                    {
+                        "value": "2303",
+                        "description": "Residues of starch manufacture and similar residues, beet-pulp, bagasse and other waste of sugar manufacture, brewing or distilling dregs and waste, whether or not in the form of pellets"
+                    },
+                    {
+                        "value": "2307 00",
+                        "description": "Wine lees; argol"
+                    },
+                    {
+                        "value": "2501 00",
+                        "description": "Salt (including table salt and denatured salt) and pure sodium chloride, whether or not in aqueous solution or containing added anti-caking or free-flowing agents; sea water"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "FOODSTUFFS",
+                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
+            },
+            "comment": "The reduced rate is applied only if the supplier can prove that the goods, except foods with added sugar, whose total sugar content is at least 10g\/100g product, are used as food for human or animal consumption. When those goods are imported from a third territory or a third country, the application of the reduced rate is conditioned by the submission of the Commitment Declaration regarding the destination of the goods. Point 37 para.(5)-(9) of Norms."
+        },
+        {
+            "memberState": "RO",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 11
+            },
+            "situationOn": "2025-08-01+02:00",
             "cnCodes": {
                 "code": [
                     {
@@ -1400,88 +1705,6 @@
             "cnCodes": {
                 "code": [
                     {
-                        "value": "4901",
-                        "description": "Printed books, brochures, leaflets and similar printed matter, whether or not in single sheets"
-                    },
-                    {
-                        "value": "4902",
-                        "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
-                    },
-                    {
-                        "value": "4903 00 00",
-                        "description": "Children's picture, drawing or colouring books"
-                    },
-                    {
-                        "value": "4904 00 00",
-                        "description": "Music, printed or in manuscript, whether or not bound or illustrated"
-                    },
-                    {
-                        "value": "8523 29 19",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "8523 29 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "8523 49",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "8523 51 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "8523 59 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "8523 80 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "4905 20 00",
-                        "description": "In book form"
-                    },
-                    {
-                        "value": "4905 90 00",
-                        "description": "Other"
-                    }
-                ]
-            },
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "58.11.30",
-                        "description": "On-line books"
-                    },
-                    {
-                        "value": "58.13.20",
-                        "description": "Online journals and periodicals"
-                    },
-                    {
-                        "value": "58.14.20",
-                        "description": "On-line journals and periodicals"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "LOAN_LIBRARIES",
-                "description": "Supply, including on loan by libraries, of books, newspapers and periodicals either on physical means of support or supplied electronically or both (including brochures, leaflets and similar printed matter, children's picture, drawing or colouring books, music printed or in manuscript form, maps and hydrographic or similar charts), other than publications wholly or predominantly devoted to advertising and other than publications wholly or predominantly consisting of video content or audible music."
-            },
-            "comment": "The reduced VAT rate is applied for the supply of school textbooks, books, newspapers and magazines, either on physical means of support and\/or supplied electronically, except for those which have, wholly or predominantly, video or music audio content and those intended exclusively or mainly for advertising. See art. 291 para. (2) letter g) of the Fiscal Code corroborated with point 38 para. (1) of the Methodological Norms."
-        },
-        {
-            "memberState": "RO",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 11
-            },
-            "situationOn": "2025-08-01+02:00",
-            "cnCodes": {
-                "code": [
-                    {
                         "value": "4401 41 00",
                         "description": "Sawdust"
                     },
@@ -1496,36 +1719,6 @@
                 "description": "Wood used as firewood (until 1 January 2030)"
             },
             "comment": "The supply for the use as heating fuel of sawdust, waste and non-agglomerated wood scraps, carried out to final beneficiaries, on the basis of a statement of liability made available to the supplier. See art. 291 para. (2) letters i), j) of the Fiscal Code."
-        },
-        {
-            "memberState": "RO",
-            "type": "REDUCED",
-            "rate": {
-                "type": "EXEMPTED",
-                "value": 0
-            },
-            "situationOn": "2025-08-01+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "8713",
-                        "description": "Carriages for disabled persons, whether or not motorised or otherwise mechanically propelled"
-                    },
-                    {
-                        "value": "8714 20 00",
-                        "description": "Of carriages for disabled persons"
-                    },
-                    {
-                        "value": "9021",
-                        "description": "Orthopaedic appliances, including crutches, surgical belts and trusses; splints and other fracture appliances; artificial parts of the body; hearing aids and other appliances which are worn or carried, or implanted in the body, to compensate for a defect or disability"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "MEDICAL_EQUIPMENT",
-                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
-            },
-            "comment": "Supply of prostheses and their accessories, with the exception of dental prostheses exempt from tax under art.292 para.(1) lett.(b) and supply of orthopedic products. When those goods are imported from a third territory or a third country, the reduced VAT rate is conditioned by submission of the Customs Notice for medical devices or the Declaration of conformity of the medical device manufacturer according to art.2 of the Order no.1009\/2016. Art.294 para.(5) letters c) and d) of the Fiscal Code."
         },
         {
             "memberState": "RO",
@@ -1841,224 +2034,31 @@
             "memberState": "RO",
             "type": "REDUCED",
             "rate": {
-                "type": "REDUCED_RATE",
-                "value": 11
+                "type": "EXEMPTED",
+                "value": 0
             },
             "situationOn": "2025-08-01+02:00",
-            "cpaCodes": {
+            "cnCodes": {
                 "code": [
                     {
-                        "value": "55.10.10",
-                        "description": "Room or unit accommodation services for visitors, with daily housekeeping (except time-share)"
+                        "value": "8713",
+                        "description": "Carriages for disabled persons, whether or not motorised or otherwise mechanically propelled"
                     },
                     {
-                        "value": "55.20.11",
-                        "description": "Room or unit accommodation services for visitors in youth hostels and holiday cabins"
+                        "value": "8714 20 00",
+                        "description": "Of carriages for disabled persons"
                     },
                     {
-                        "value": "55.20.12",
-                        "description": "Room or unit accommodation services for visitors in time-share properties"
-                    },
-                    {
-                        "value": "55.20.19",
-                        "description": "Other room or unit accommodation services for visitors, without daily housekeeping"
-                    },
-                    {
-                        "value": "55.30.11",
-                        "description": "Camping ground services"
-                    },
-                    {
-                        "value": "55.30.12",
-                        "description": "Recreational and vacation camp services"
+                        "value": "9021",
+                        "description": "Orthopaedic appliances, including crutches, surgical belts and trusses; splints and other fracture appliances; artificial parts of the body; hearing aids and other appliances which are worn or carried, or implanted in the body, to compensate for a defect or disability"
                     }
                 ]
             },
             "category": {
-                "identifier": "ACCOMMODATION",
-                "description": "Accommodation provided in hotels and similar establishments, including the provision of holiday accommodation and the letting of places on camping or caravan sites"
+                "identifier": "MEDICAL_EQUIPMENT",
+                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
             },
-            "comment": "The reduced VAT rate is applied for accommodation in the hotel sector or sectors with similar function, including renting of camping sites. For details see art. 291 para. (2) letter m) of the Fiscal Code corroborated with point 37 para. (14) of the Methodological Norms."
-        },
-        {
-            "memberState": "RO",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 11
-            },
-            "situationOn": "2025-08-01+02:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "56.10.11",
-                        "description": "Meal serving services with full restaurant service"
-                    },
-                    {
-                        "value": "56.10.12",
-                        "description": "Meal serving services in railway dining cars and on ships"
-                    },
-                    {
-                        "value": "56.10.13",
-                        "description": "Meal serving services in self-service establishments"
-                    },
-                    {
-                        "value": "56.10.19",
-                        "description": "Other meal serving services"
-                    },
-                    {
-                        "value": "56.21.11",
-                        "description": "Event catering services for private households"
-                    },
-                    {
-                        "value": "56.21.19",
-                        "description": "Other event catering services"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "RESTAURANT",
-                "description": "Restaurant and catering services, it being possible to exclude the supply of (alcoholic and\/or non-alcoholic) beverages"
-            },
-            "comment": "The reduced VAT rate is applied for restaurant and catering services, excluding alcoholic beverages as well as non-alcoholic beverages, falling within CN codes 2202. For details see art. 291 para. (2) letter n) of the Fiscal Code corroborated with point 37 para. (15) of the Methodological Norms."
-        },
-        {
-            "memberState": "RO",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 11
-            },
-            "situationOn": "2025-08-01+02:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "68.10.11",
-                        "description": "Residential buildings and associated land sales or purchases services"
-                    },
-                    {
-                        "value": "68.10.14",
-                        "description": "Non-residential buildings and associated land sales or purchases services"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "HOUSING_PROVISION",
-                "description": "Provision, construction, renovation and alteration of housing, as part of a social policy"
-            },
-            "comment": "The reduced VAT rate is applied for the supply of housing as part of social policy, including the land on which they are built (nursing homes and retirement homes, children's homes, and recovery and rehabilitation centers for minors with disabilities). For details see art. 291 para. (2) letter l) of the Fiscal Code corroborated with point 37 para. (16), (19) and (20) of the Methodological Norms."
-        },
-        {
-            "memberState": "RO",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 11
-            },
-            "situationOn": "2025-08-01+02:00",
-            "cpaCodes": {
-                "code": {
-                    "value": "75.00.12",
-                    "description": "Veterinary services for livestock"
-                }
-            },
-            "category": {
-                "identifier": "AGRICULTURAL_PRODUCTION",
-                "description": "Supply of goods and services of a kind normally intended for use in agricultural production but excluding capital goods such as machinery or buildings"
-            },
-            "comment": "The reduced rate shall be applied for Setting up and maintenance of genealogical registers of animal breeds; Determination of the genetic quality of animals. For details see art. 291 para. (2) letter e) of the Fiscal Code and points 40, 41 of the Annex to the Order no. 4634\/2022."
-        },
-        {
-            "memberState": "RO",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 11
-            },
-            "situationOn": "2025-08-01+02:00",
-            "cpaCodes": {
-                "code": {
-                    "value": "81.29.11",
-                    "description": "Disinfecting and exterminating services"
-                }
-            },
-            "category": {
-                "identifier": "AGRICULTURAL_PRODUCTION",
-                "description": "Supply of goods and services of a kind normally intended for use in agricultural production but excluding capital goods such as machinery or buildings"
-            },
-            "comment": "The reduced rate shall be applied for Disinfection, plague and pest control in wineries and vegetable and fruit storage warehouses. For details see art. 291 para. (2) letter e) of the Fiscal Code and point 30 of the Annex to the Order no. 4634\/2022."
-        },
-        {
-            "memberState": "RO",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 11
-            },
-            "situationOn": "2025-08-01+02:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "91.02.10",
-                        "description": "Museum operation services"
-                    },
-                    {
-                        "value": "91.03.10",
-                        "description": "Operation services of historical sites and buildings and similar visitor attractions"
-                    },
-                    {
-                        "value": "91.04.11",
-                        "description": "Botanical and zoological garden services"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "CULTURAL_EVENTS",
-                "description": "Admission to shows, theatres, circuses, fairs, amusement parks, concerts, museums, zoos, cinemas, exhibitions and similar cultural events and facilities"
-            },
-            "comment": "The reduced VAT rate is applied for the services consisting in allowing access to castles, museums, memorial houses, historical monuments, architectural and archaeological monuments, zoological and botanical gardens. See art. 291 para. (2) letter h) of the Fiscal Code."
-        },
-        {
-            "memberState": "RO",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 11
-            },
-            "situationOn": "2025-08-01+02:00",
-            "cpaCodes": {
-                "code": {
-                    "value": "81.30.12",
-                    "description": "Other landscape services"
-                }
-            },
-            "category": {
-                "identifier": "AGRICULTURAL_PRODUCTION",
-                "description": "Supply of goods and services of a kind normally intended for use in agricultural production but excluding capital goods such as machinery or buildings"
-            },
-            "comment": "The reduced rate shall be applied for Services to combat soil erosion such as Other landscape maintenance services (for the case of wind erosion). For details see art. 291 para. (2) letter e) of the Fiscal Code and point 42 of the Annex to the Order no. 4634\/2022, respectively in the Order no. 157\/2011."
-        },
-        {
-            "memberState": "RO",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 11
-            },
-            "situationOn": "2025-08-01+02:00",
-            "category": {
-                "identifier": "SUSTAINABLE_ENERGY",
-                "description": "Supply of electricity, district heating and district cooling, and biogas produced by the feedstock listed in Annex IX, Part A, to Directive (EU) 2018\/2001 of the European Parliament and of the Council; supply and installation of highly efficient low emissions heating systems meeting the emission (PM) benchmarks laid down in Annex V to Commission Regulation (EU) 2015\/1189 and in Annex V to Commission Regulation (EU) 2015\/1185 and having been attributed an EU energy label to show that the criterion referred to in Article 7(2) of Regulation (EU) 2017\/1369 of the European Parliament and of the Council is met; and, until 1 January 2030, natural gas and wood used as firewood"
-            },
-            "comment": "Supply of district heating in the cold season (the 5-month period between November 1 of the current year and March 31 of the following year), intended for: the population, public and private hospitals, public and private educational institutions, non-governmental organizations, religious institutions, accredited public and private social service providers. See Art. 291 para. (2), letters k) of the Fiscal Code."
-        },
-        {
-            "memberState": "RO",
-            "type": "STANDARD",
-            "rate": {
-                "type": "DEFAULT",
-                "value": 21
-            },
-            "situationOn": "2025-08-01+02:00"
+            "comment": "Supply of prostheses and their accessories, with the exception of dental prostheses exempt from tax under art.292 para.(1) lett.(b) and supply of orthopedic products. When those goods are imported from a third territory or a third country, the reduced VAT rate is conditioned by submission of the Customs Notice for medical devices or the Declaration of conformity of the medical device manufacturer according to art.2 of the Order no.1009\/2016. Art.294 para.(5) letters c) and d) of the Fiscal Code."
         }
     ]
 }

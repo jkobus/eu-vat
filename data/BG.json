@@ -12,32 +12,6 @@
             "cnCodes": {
                 "code": [
                     {
-                        "value": "2106 90 92",
-                        "description": "Containing no milkfats, sucrose, isoglucose, glucose or starch or containing, by weight, less than 1,5 % milkfat, 5 % sucrose or isoglucose, 5 % glucose or starch"
-                    },
-                    {
-                        "value": "2106 90 98",
-                        "description": "Other"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "FOODSTUFFS",
-                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
-            },
-            "comment": "The reduced rate is applicable for supply of specialised milk formulas (with partially hydrolysed protein and those for children with allergies) and dietetic foods for special medical purposes intended for infants."
-        },
-        {
-            "memberState": "BG",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 9
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cnCodes": {
-                "code": [
-                    {
                         "value": "4901",
                         "description": "Printed books, brochures, leaflets and similar printed matter, whether or not in single sheets"
                     },
@@ -141,6 +115,15 @@
         },
         {
             "memberState": "BG",
+            "type": "STANDARD",
+            "rate": {
+                "type": "DEFAULT",
+                "value": 20
+            },
+            "situationOn": "2025-07-01+02:00"
+        },
+        {
+            "memberState": "BG",
             "type": "REDUCED",
             "rate": {
                 "type": "REDUCED_RATE",
@@ -175,12 +158,29 @@
         },
         {
             "memberState": "BG",
-            "type": "STANDARD",
+            "type": "REDUCED",
             "rate": {
-                "type": "DEFAULT",
-                "value": 20
+                "type": "REDUCED_RATE",
+                "value": 9
             },
-            "situationOn": "2025-07-01+02:00"
+            "situationOn": "2025-07-01+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "2106 90 92",
+                        "description": "Containing no milkfats, sucrose, isoglucose, glucose or starch or containing, by weight, less than 1,5 % milkfat, 5 % sucrose or isoglucose, 5 % glucose or starch"
+                    },
+                    {
+                        "value": "2106 90 98",
+                        "description": "Other"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "FOODSTUFFS",
+                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
+            },
+            "comment": "The reduced rate is applicable for supply of specialised milk formulas (with partially hydrolysed protein and those for children with allergies) and dietetic foods for special medical purposes intended for infants."
         }
     ]
 }

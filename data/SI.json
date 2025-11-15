@@ -893,183 +893,6 @@
         },
         {
             "memberState": "SI",
-            "type": "STANDARD",
-            "rate": {
-                "type": "DEFAULT",
-                "value": 22
-            },
-            "situationOn": "2025-07-01+02:00"
-        },
-        {
-            "memberState": "SI",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 9.5
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "0602 10",
-                        "description": "Unrooted cuttings and slips"
-                    },
-                    {
-                        "value": "0602 20",
-                        "description": "Trees, shrubs and bushes, grafted or not, of kinds which bear edible fruit or nuts"
-                    },
-                    {
-                        "value": "0602 90 10",
-                        "description": "Mushroom spawn"
-                    },
-                    {
-                        "value": "0602 90 30",
-                        "description": "Vegetable and strawberry plants"
-                    },
-                    {
-                        "value": "0602 90 41",
-                        "description": "Forest trees"
-                    },
-                    {
-                        "value": "0701 10 00",
-                        "description": "Seed"
-                    },
-                    {
-                        "value": "0703",
-                        "description": "Onions, shallots, garlic, leeks and other alliaceous vegetables, fresh or chilled"
-                    },
-                    {
-                        "value": "0712 90 11",
-                        "description": "Hybrids for sowing"
-                    },
-                    {
-                        "value": "0713",
-                        "description": "Dried leguminous vegetables, shelled, whether or not skinned or split"
-                    },
-                    {
-                        "value": "0909",
-                        "description": "Seeds of anise, badian, fennel, coriander, cumin or caraway; juniper berries"
-                    },
-                    {
-                        "value": "0910 99 10",
-                        "description": "Fenugreek seed"
-                    },
-                    {
-                        "value": "1001",
-                        "description": "Wheat and meslin"
-                    },
-                    {
-                        "value": "1002",
-                        "description": "Rye"
-                    },
-                    {
-                        "value": "1003",
-                        "description": "Barley"
-                    },
-                    {
-                        "value": "1004",
-                        "description": "Oats"
-                    },
-                    {
-                        "value": "1005",
-                        "description": "Maize (corn)"
-                    },
-                    {
-                        "value": "1006",
-                        "description": "Rice"
-                    },
-                    {
-                        "value": "1007",
-                        "description": "Grain sorghum"
-                    },
-                    {
-                        "value": "1008",
-                        "description": "Buckwheat, millet and canary seed; other cereals"
-                    },
-                    {
-                        "value": "1201",
-                        "description": "Soya beans, whether or not broken"
-                    },
-                    {
-                        "value": "1202",
-                        "description": "Groundnuts, not roasted or otherwise cooked, whether or not shelled or broken"
-                    },
-                    {
-                        "value": "1203 00 00",
-                        "description": "Copra"
-                    },
-                    {
-                        "value": "1204 00",
-                        "description": "Linseed, whether or not broken"
-                    },
-                    {
-                        "value": "1205",
-                        "description": "Rape or colza seeds, whether or not broken"
-                    },
-                    {
-                        "value": "1206 00",
-                        "description": "Sunflower seeds, whether or not broken"
-                    },
-                    {
-                        "value": "1207",
-                        "description": "Other oil seeds and oleaginous fruits, whether or not broken"
-                    },
-                    {
-                        "value": "1209",
-                        "description": "Seeds, fruit and spores, of a kind used for sowing"
-                    },
-                    {
-                        "value": "1212 99 49",
-                        "description": "Other"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "AGRICULTURAL_PRODUCTION",
-                "description": "Supply of goods and services of a kind normally intended for use in agricultural production but excluding capital goods such as machinery or buildings"
-            },
-            "comment": "Seeds and seedlings of agricultural and forestry plants placed on the market in accordance with the regulations governing the trade in seeds and seedlings.\nExcept: 1209 30 00, 1209 99 91"
-        },
-        {
-            "memberState": "SI",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 9.5
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "0601",
-                        "description": "Bulbs, tubers, tuberous roots, corms, crowns and rhizomes, dormant, in growth or in flower; chicory plants and roots other than roots of heading 1212"
-                    },
-                    {
-                        "value": "0602",
-                        "description": "Other live plants (including their roots), cuttings and slips; mushroom spawn"
-                    },
-                    {
-                        "value": "0603",
-                        "description": "Cut flowers and flower buds of a kind suitable for bouquets or for ornamental purposes, fresh, dried, dyed, bleached, impregnated or otherwise prepared"
-                    },
-                    {
-                        "value": "0604",
-                        "description": "Foliage, branches and other parts of plants, without flowers or flower buds, and grasses, mosses and lichens, being goods of a kind suitable for bouquets or for ornamental purposes, fresh, dried, dyed, bleached, impregnated or otherwise prepared"
-                    },
-                    {
-                        "value": "1209",
-                        "description": "Seeds, fruit and spores, of a kind used for sowing"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "PLANT",
-                "description": "Live plants and other floricultural products, including bulbs, cotton, roots and the like, cut flowers and ornamental foliage"
-            },
-            "comment": "1209: only ornamental plant seeds"
-        },
-        {
-            "memberState": "SI",
             "type": "REDUCED",
             "rate": {
                 "type": "REDUCED_RATE",
@@ -1165,80 +988,6 @@
                 "description": "Pharmaceutical products of a kind normally used for health care, prevention of illness and as treatment for medical and veterinary purposes, including products used for contraception and sanitary protection"
             },
             "comment": "3002:only antiserums, fractions of blood and  immunological products for treatment; vaccines; toxins; microbiological cultures (except yeasts); viruses, antiviral drugs and bacteriophages; 3822 00 00: only diagnostic reagents; 3926 90 97: only sheath contraceptives; 3924 90 00 and 4014 90 00: only menstrual cups;  9018 90 84 \n only intrauterine contraceptive device \nExcept: please see Article 49 of the Rules on the implementation of the Valued Added Tax Act"
-        },
-        {
-            "memberState": "SI",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 9.5
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "0101",
-                        "description": "Live horses, asses, mules and hinnies"
-                    },
-                    {
-                        "value": "0102",
-                        "description": "Live bovine animals"
-                    },
-                    {
-                        "value": "0103",
-                        "description": "Live swine"
-                    },
-                    {
-                        "value": "0104",
-                        "description": "Live sheep and goats"
-                    },
-                    {
-                        "value": "0105",
-                        "description": "Live poultry, that is to say, fowls of the species Gallus domesticus, ducks, geese, turkeys and guinea fowls"
-                    },
-                    {
-                        "value": "0301",
-                        "description": "Live fish"
-                    },
-                    {
-                        "value": "0306",
-                        "description": "Crustaceans, whether in shell or not, live, fresh, chilled, frozen, dried, salted or in brine; smoked crustaceans, whether in shell or not, whether or not cooked before or during the smoking process; crustaceans, in shell, cooked by steaming or by boiling in water, whether or not chilled, frozen, dried, salted or in brine"
-                    },
-                    {
-                        "value": "0307",
-                        "description": "Molluscs, whether in shell or not, live, fresh, chilled, frozen, dried, salted or in brine; smoked molluscs, whether in shell or not, whether or not cooked before or during the smoking process"
-                    },
-                    {
-                        "value": "0407 11 00",
-                        "description": "Of fowls of the species Gallus domesticus"
-                    },
-                    {
-                        "value": "0407 19 11",
-                        "description": "Of turkeys or geese"
-                    },
-                    {
-                        "value": "0407 19 19",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "0511 10 00",
-                        "description": "Bovine semen"
-                    },
-                    {
-                        "value": "0511 91 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "0511 99 85",
-                        "description": "Other"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "AGRICULTURAL_PRODUCTION",
-                "description": "Supply of goods and services of a kind normally intended for use in agricultural production but excluding capital goods such as machinery or buildings"
-            },
-            "comment": "Animals for fattening include domestic animals, normally intended for reproduction and breeding within livestock activities and aquaculture activities, including rabbits and bees.\n0511 91 90: only inedible fish eggs\nExcept: 0301 11 00, 0301 19 00, eggs for hatching ornamental birds"
         },
         {
             "memberState": "SI",
@@ -2025,68 +1774,6 @@
             "type": "REDUCED",
             "rate": {
                 "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "4901",
-                        "description": "Printed books, brochures, leaflets and similar printed matter, whether or not in single sheets"
-                    },
-                    {
-                        "value": "4902",
-                        "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
-                    },
-                    {
-                        "value": "4903 00 00",
-                        "description": "Children's picture, drawing or colouring books"
-                    },
-                    {
-                        "value": "4904 00 00",
-                        "description": "Music, printed or in manuscript, whether or not bound or illustrated"
-                    },
-                    {
-                        "value": "4905",
-                        "description": "Maps and hydrographic or similar charts of all kinds, including atlases, wall maps, topographical plans and globes, printed"
-                    },
-                    {
-                        "value": "8523",
-                        "description": "Discs, tapes, solid-state non-volatile storage devices, smart cards and other media for the recording of sound or of other phenomena, whether or not recorded, including matrices and masters for the production of discs, but excluding products of Chapter 37"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "LOAN_LIBRARIES",
-                "description": "Supply, including on loan by libraries, of books, newspapers and periodicals either on physical means of support or supplied electronically or both (including brochures, leaflets and similar printed matter, children's picture, drawing or colouring books, music printed or in manuscript form, maps and hydrographic or similar charts), other than publications wholly or predominantly devoted to advertising and other than publications wholly or predominantly consisting of video content or audible music."
-            },
-            "comment": "Except: supply of material with more than 50 % of space to advertising and music, films, games, including games of chance and lotteries, interactive learning, broadcasting, and events in the fields of politics, culture, art, sports, science, and entertainment\nIncludes also: electronic provision of services via the Internet or an electronic network to access electronic books, periodicals, electronically updated content"
-        },
-        {
-            "memberState": "SI",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cpaCodes": {
-                "code": {
-                    "value": "84.25",
-                    "description": "Fire brigade services"
-                }
-            },
-            "category": {
-                "identifier": "RESCUE_EQUIPMENT",
-                "description": "Tools and other equipment of a kind normally intended for use in rescue or first aid services when supplied to public bodies or non-profit-making organisations active in civil or community protection"
-            },
-            "comment": "Supply of typed fire engines, special protective and rescue equipment and tools for the performance of firefighting tasks, usually intended for use in interventions, which are supplied to public fire services or volunteer firefighting units in firefighting societies. For more information see the Rules on the Implementation of VATA-1."
-        },
-        {
-            "memberState": "SI",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
                 "value": 9.5
             },
             "situationOn": "2025-07-01+02:00",
@@ -2474,6 +2161,319 @@
                 "description": "Supply of services by undertakers and cremation services, and the supply of goods related thereto"
             },
             "comment": "Includes only: burial and cremation; preparing the dead for burial or cremation and embalming, and the services of gravediggers; preparation of funeral and cremation rites; rental of equipped premises and mortuaries; transport of deceased, supply of goods directly related to funeral services, provided by the provider of these services."
+        },
+        {
+            "memberState": "SI",
+            "type": "STANDARD",
+            "rate": {
+                "type": "DEFAULT",
+                "value": 22
+            },
+            "situationOn": "2025-07-01+02:00"
+        },
+        {
+            "memberState": "SI",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 9.5
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "0602 10",
+                        "description": "Unrooted cuttings and slips"
+                    },
+                    {
+                        "value": "0602 20",
+                        "description": "Trees, shrubs and bushes, grafted or not, of kinds which bear edible fruit or nuts"
+                    },
+                    {
+                        "value": "0602 90 10",
+                        "description": "Mushroom spawn"
+                    },
+                    {
+                        "value": "0602 90 30",
+                        "description": "Vegetable and strawberry plants"
+                    },
+                    {
+                        "value": "0602 90 41",
+                        "description": "Forest trees"
+                    },
+                    {
+                        "value": "0701 10 00",
+                        "description": "Seed"
+                    },
+                    {
+                        "value": "0703",
+                        "description": "Onions, shallots, garlic, leeks and other alliaceous vegetables, fresh or chilled"
+                    },
+                    {
+                        "value": "0712 90 11",
+                        "description": "Hybrids for sowing"
+                    },
+                    {
+                        "value": "0713",
+                        "description": "Dried leguminous vegetables, shelled, whether or not skinned or split"
+                    },
+                    {
+                        "value": "0909",
+                        "description": "Seeds of anise, badian, fennel, coriander, cumin or caraway; juniper berries"
+                    },
+                    {
+                        "value": "0910 99 10",
+                        "description": "Fenugreek seed"
+                    },
+                    {
+                        "value": "1001",
+                        "description": "Wheat and meslin"
+                    },
+                    {
+                        "value": "1002",
+                        "description": "Rye"
+                    },
+                    {
+                        "value": "1003",
+                        "description": "Barley"
+                    },
+                    {
+                        "value": "1004",
+                        "description": "Oats"
+                    },
+                    {
+                        "value": "1005",
+                        "description": "Maize (corn)"
+                    },
+                    {
+                        "value": "1006",
+                        "description": "Rice"
+                    },
+                    {
+                        "value": "1007",
+                        "description": "Grain sorghum"
+                    },
+                    {
+                        "value": "1008",
+                        "description": "Buckwheat, millet and canary seed; other cereals"
+                    },
+                    {
+                        "value": "1201",
+                        "description": "Soya beans, whether or not broken"
+                    },
+                    {
+                        "value": "1202",
+                        "description": "Groundnuts, not roasted or otherwise cooked, whether or not shelled or broken"
+                    },
+                    {
+                        "value": "1203 00 00",
+                        "description": "Copra"
+                    },
+                    {
+                        "value": "1204 00",
+                        "description": "Linseed, whether or not broken"
+                    },
+                    {
+                        "value": "1205",
+                        "description": "Rape or colza seeds, whether or not broken"
+                    },
+                    {
+                        "value": "1206 00",
+                        "description": "Sunflower seeds, whether or not broken"
+                    },
+                    {
+                        "value": "1207",
+                        "description": "Other oil seeds and oleaginous fruits, whether or not broken"
+                    },
+                    {
+                        "value": "1209",
+                        "description": "Seeds, fruit and spores, of a kind used for sowing"
+                    },
+                    {
+                        "value": "1212 99 49",
+                        "description": "Other"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "AGRICULTURAL_PRODUCTION",
+                "description": "Supply of goods and services of a kind normally intended for use in agricultural production but excluding capital goods such as machinery or buildings"
+            },
+            "comment": "Seeds and seedlings of agricultural and forestry plants placed on the market in accordance with the regulations governing the trade in seeds and seedlings.\nExcept: 1209 30 00, 1209 99 91"
+        },
+        {
+            "memberState": "SI",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 9.5
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "0601",
+                        "description": "Bulbs, tubers, tuberous roots, corms, crowns and rhizomes, dormant, in growth or in flower; chicory plants and roots other than roots of heading 1212"
+                    },
+                    {
+                        "value": "0602",
+                        "description": "Other live plants (including their roots), cuttings and slips; mushroom spawn"
+                    },
+                    {
+                        "value": "0603",
+                        "description": "Cut flowers and flower buds of a kind suitable for bouquets or for ornamental purposes, fresh, dried, dyed, bleached, impregnated or otherwise prepared"
+                    },
+                    {
+                        "value": "0604",
+                        "description": "Foliage, branches and other parts of plants, without flowers or flower buds, and grasses, mosses and lichens, being goods of a kind suitable for bouquets or for ornamental purposes, fresh, dried, dyed, bleached, impregnated or otherwise prepared"
+                    },
+                    {
+                        "value": "1209",
+                        "description": "Seeds, fruit and spores, of a kind used for sowing"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "PLANT",
+                "description": "Live plants and other floricultural products, including bulbs, cotton, roots and the like, cut flowers and ornamental foliage"
+            },
+            "comment": "1209: only ornamental plant seeds"
+        },
+        {
+            "memberState": "SI",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 9.5
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "0101",
+                        "description": "Live horses, asses, mules and hinnies"
+                    },
+                    {
+                        "value": "0102",
+                        "description": "Live bovine animals"
+                    },
+                    {
+                        "value": "0103",
+                        "description": "Live swine"
+                    },
+                    {
+                        "value": "0104",
+                        "description": "Live sheep and goats"
+                    },
+                    {
+                        "value": "0105",
+                        "description": "Live poultry, that is to say, fowls of the species Gallus domesticus, ducks, geese, turkeys and guinea fowls"
+                    },
+                    {
+                        "value": "0301",
+                        "description": "Live fish"
+                    },
+                    {
+                        "value": "0306",
+                        "description": "Crustaceans, whether in shell or not, live, fresh, chilled, frozen, dried, salted or in brine; smoked crustaceans, whether in shell or not, whether or not cooked before or during the smoking process; crustaceans, in shell, cooked by steaming or by boiling in water, whether or not chilled, frozen, dried, salted or in brine"
+                    },
+                    {
+                        "value": "0307",
+                        "description": "Molluscs, whether in shell or not, live, fresh, chilled, frozen, dried, salted or in brine; smoked molluscs, whether in shell or not, whether or not cooked before or during the smoking process"
+                    },
+                    {
+                        "value": "0407 11 00",
+                        "description": "Of fowls of the species Gallus domesticus"
+                    },
+                    {
+                        "value": "0407 19 11",
+                        "description": "Of turkeys or geese"
+                    },
+                    {
+                        "value": "0407 19 19",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "0511 10 00",
+                        "description": "Bovine semen"
+                    },
+                    {
+                        "value": "0511 91 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "0511 99 85",
+                        "description": "Other"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "AGRICULTURAL_PRODUCTION",
+                "description": "Supply of goods and services of a kind normally intended for use in agricultural production but excluding capital goods such as machinery or buildings"
+            },
+            "comment": "Animals for fattening include domestic animals, normally intended for reproduction and breeding within livestock activities and aquaculture activities, including rabbits and bees.\n0511 91 90: only inedible fish eggs\nExcept: 0301 11 00, 0301 19 00, eggs for hatching ornamental birds"
+        },
+        {
+            "memberState": "SI",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "4901",
+                        "description": "Printed books, brochures, leaflets and similar printed matter, whether or not in single sheets"
+                    },
+                    {
+                        "value": "4902",
+                        "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
+                    },
+                    {
+                        "value": "4903 00 00",
+                        "description": "Children's picture, drawing or colouring books"
+                    },
+                    {
+                        "value": "4904 00 00",
+                        "description": "Music, printed or in manuscript, whether or not bound or illustrated"
+                    },
+                    {
+                        "value": "4905",
+                        "description": "Maps and hydrographic or similar charts of all kinds, including atlases, wall maps, topographical plans and globes, printed"
+                    },
+                    {
+                        "value": "8523",
+                        "description": "Discs, tapes, solid-state non-volatile storage devices, smart cards and other media for the recording of sound or of other phenomena, whether or not recorded, including matrices and masters for the production of discs, but excluding products of Chapter 37"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "LOAN_LIBRARIES",
+                "description": "Supply, including on loan by libraries, of books, newspapers and periodicals either on physical means of support or supplied electronically or both (including brochures, leaflets and similar printed matter, children's picture, drawing or colouring books, music printed or in manuscript form, maps and hydrographic or similar charts), other than publications wholly or predominantly devoted to advertising and other than publications wholly or predominantly consisting of video content or audible music."
+            },
+            "comment": "Except: supply of material with more than 50 % of space to advertising and music, films, games, including games of chance and lotteries, interactive learning, broadcasting, and events in the fields of politics, culture, art, sports, science, and entertainment\nIncludes also: electronic provision of services via the Internet or an electronic network to access electronic books, periodicals, electronically updated content"
+        },
+        {
+            "memberState": "SI",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "84.25",
+                    "description": "Fire brigade services"
+                }
+            },
+            "category": {
+                "identifier": "RESCUE_EQUIPMENT",
+                "description": "Tools and other equipment of a kind normally intended for use in rescue or first aid services when supplied to public bodies or non-profit-making organisations active in civil or community protection"
+            },
+            "comment": "Supply of typed fire engines, special protective and rescue equipment and tools for the performance of firefighting tasks, usually intended for use in interventions, which are supplied to public fire services or volunteer firefighting units in firefighting societies. For more information see the Rules on the Implementation of VATA-1."
         }
     ]
 }
