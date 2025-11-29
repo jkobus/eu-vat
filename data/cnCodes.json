@@ -1347,6 +1347,10 @@
         "code": "0307 99 00",
         "description": "Other"
     },
+    "04": {
+        "code": "04",
+        "description": "CHAPTER 4 - DAIRY PRODUCE; BIRDS' EGGS; NATURAL HONEY; EDIBLE PRODUCTS OF ANIMAL ORIGIN, NOT ELSEWHERE SPECIFIED OR INCLUDED"
+    },
     "0308": {
         "code": "0308",
         "description": "Aquatic invertebrates other than crustaceans and molluscs, live, fresh, chilled, frozen, dried, salted or in brine; smoked aquatic invertebrates other than crustaceans and molluscs, whether or not cooked before or during the smoking process"
@@ -1387,6 +1391,10 @@
         "code": "0308 90 10",
         "description": "Live, fresh or chilled"
     },
+    "0309": {
+        "code": "0309",
+        "description": "Flours, meals and pellets of fish, crustaceans, molluscs and other aquatic invertebrates, fit for human consumption"
+    },
     "0309 10 00": {
         "code": "0309 10 00",
         "description": "Of fish"
@@ -1394,14 +1402,6 @@
     "0309 90 00": {
         "code": "0309 90 00",
         "description": "Other"
-    },
-    "04": {
-        "code": "04",
-        "description": "CHAPTER 4 - DAIRY PRODUCE; BIRDS' EGGS; NATURAL HONEY; EDIBLE PRODUCTS OF ANIMAL ORIGIN, NOT ELSEWHERE SPECIFIED OR INCLUDED"
-    },
-    "0309": {
-        "code": "0309",
-        "description": "Flours, meals and pellets of fish, crustaceans, molluscs and other aquatic invertebrates, fit for human consumption"
     },
     "0401": {
         "code": "0401",
@@ -1571,18 +1571,6 @@
         "code": "0504 00 00",
         "description": "Guts, bladders and stomachs of animals (other than fish), whole and pieces thereof, fresh, chilled, frozen, salted, in brine, dried or smoked"
     },
-    "0506 90 00": {
-        "code": "0506 90 00",
-        "description": "Other"
-    },
-    "06": {
-        "code": "06",
-        "description": "CHAPTER 6 - LIVE TREES AND OTHER PLANTS; BULBS, ROOTS AND THE LIKE; CUT FLOWERS AND ORNAMENTAL FOLIAGE"
-    },
-    "07": {
-        "code": "07",
-        "description": "CHAPTER 7 - EDIBLE VEGETABLES AND CERTAIN ROOTS AND TUBERS"
-    },
     "0505": {
         "code": "0505",
         "description": "Skins and other parts of birds, with their feathers or down, feathers and parts of feathers (whether or not with trimmed edges) and down, not further worked than cleaned, disinfected or treated for preservation; powder and waste of feathers or parts of feathers"
@@ -1594,6 +1582,10 @@
     "0506": {
         "code": "0506",
         "description": "Bones and horn-cores, unworked, defatted, simply prepared (but not cut to shape), treated with acid or degelatinised; powder and waste of these products"
+    },
+    "0506 90 00": {
+        "code": "0506 90 00",
+        "description": "Other"
     },
     "0507": {
         "code": "0507",
@@ -1646,6 +1638,10 @@
     "0511 99 85": {
         "code": "0511 99 85",
         "description": "Other"
+    },
+    "06": {
+        "code": "06",
+        "description": "CHAPTER 6 - LIVE TREES AND OTHER PLANTS; BULBS, ROOTS AND THE LIKE; CUT FLOWERS AND ORNAMENTAL FOLIAGE"
     },
     "0601": {
         "code": "0601",
@@ -1782,6 +1778,10 @@
     "0604 90 19": {
         "code": "0604 90 19",
         "description": "Other"
+    },
+    "07": {
+        "code": "07",
+        "description": "CHAPTER 7 - EDIBLE VEGETABLES AND CERTAIN ROOTS AND TUBERS"
     },
     "0701": {
         "code": "0701",
@@ -1971,10 +1971,6 @@
         "code": "0710 90 00",
         "description": "Mixtures of vegetables"
     },
-    "0711": {
-        "code": "0711",
-        "description": "Vegetables provisionally preserved, but unsuitable in that state for immediate consumption"
-    },
     "0711 20": {
         "code": "0711 20",
         "description": "Olives"
@@ -2002,14 +1998,6 @@
     "0711 90 80": {
         "code": "0711 90 80",
         "description": "Other"
-    },
-    "08": {
-        "code": "08",
-        "description": "CHAPTER 8 - EDIBLE FRUIT AND NUTS; PEEL OF CITRUS FRUIT OR MELONS"
-    },
-    "0712": {
-        "code": "0712",
-        "description": "Dried vegetables, whole, cut, sliced, broken or in powder, but not further prepared"
     },
     "0712 20 00": {
         "code": "0712 20 00",
@@ -2058,10 +2046,6 @@
     "0712 90 90": {
         "code": "0712 90 90",
         "description": "Other"
-    },
-    "0713": {
-        "code": "0713",
-        "description": "Dried leguminous vegetables, shelled, whether or not skinned or split"
     },
     "0713 10 10": {
         "code": "0713 10 10",
@@ -2123,10 +2107,6 @@
         "code": "0713 90 00",
         "description": "Other"
     },
-    "0714": {
-        "code": "0714",
-        "description": "Manioc, arrowroot, salep, Jerusalem artichokes, sweet potatoes and similar roots and tubers with high starch or inulin content, fresh, chilled, frozen or dried, whether or not sliced or in the form of pellets; sago pith"
-    },
     "0714 10 00": {
         "code": "0714 10 00",
         "description": "Manioc (cassava)"
@@ -2155,29 +2135,9 @@
         "code": "0714 90",
         "description": "Other"
     },
-    "0801": {
-        "code": "0801",
-        "description": "Coconuts, Brazil nuts and cashew nuts, fresh or dried, whether or not shelled or peeled"
-    },
-    "0802": {
-        "code": "0802",
-        "description": "Other nuts, fresh or dried, whether or not shelled or peeled"
-    },
-    "0803": {
-        "code": "0803",
-        "description": "Bananas, including plantains, fresh or dried"
-    },
-    "0804": {
-        "code": "0804",
-        "description": "Dates, figs, pineapples, avocados, guavas, mangoes and mangosteens, fresh or dried"
-    },
-    "0805": {
-        "code": "0805",
-        "description": "Citrus fruit, fresh or dried"
-    },
-    "0806": {
-        "code": "0806",
-        "description": "Grapes, fresh or dried"
+    "08": {
+        "code": "08",
+        "description": "CHAPTER 8 - EDIBLE FRUIT AND NUTS; PEEL OF CITRUS FRUIT OR MELONS"
     },
     "0806 10 90": {
         "code": "0806 10 90",
@@ -2186,26 +2146,6 @@
     "0806 20": {
         "code": "0806 20",
         "description": "Dried"
-    },
-    "0807": {
-        "code": "0807",
-        "description": "Melons (including watermelons) and papaws (papayas), fresh"
-    },
-    "0808": {
-        "code": "0808",
-        "description": "Apples, pears and quinces, fresh"
-    },
-    "0809": {
-        "code": "0809",
-        "description": "Apricots, cherries, peaches (including nectarines), plums and sloes, fresh"
-    },
-    "0810": {
-        "code": "0810",
-        "description": "Other fruit, fresh"
-    },
-    "0811": {
-        "code": "0811",
-        "description": "Fruit and nuts, uncooked or cooked by steaming or boiling in water, frozen, whether or not containing added sugar or other sweetening matter"
     },
     "0811 10 11": {
         "code": "0811 10 11",
@@ -2287,14 +2227,6 @@
         "code": "0811 90 95",
         "description": "Other"
     },
-    "0812": {
-        "code": "0812",
-        "description": "Fruit and nuts provisionally preserved, but unsuitable in that state for immediate consumption"
-    },
-    "0813": {
-        "code": "0813",
-        "description": "Fruit, dried, other than that of headings 0801 to 0806; mixtures of nuts or dried fruits of this chapter"
-    },
     "0814 00 00": {
         "code": "0814 00 00",
         "description": "Peel of citrus fruit or melons (including watermelons), fresh, frozen, dried or provisionally preserved in brine, in sulphur water or in other preservative solutions"
@@ -2302,6 +2234,86 @@
     "09": {
         "code": "09",
         "description": "CHAPTER 9 - COFFEE, TEA, MATÉ AND SPICES"
+    },
+    "10": {
+        "code": "10",
+        "description": "CHAPTER 10 - CEREALS"
+    },
+    "11": {
+        "code": "11",
+        "description": "CHAPTER 11 - PRODUCTS OF THE MILLING INDUSTRY; MALT; STARCHES; INULIN; WHEAT GLUTEN"
+    },
+    "12": {
+        "code": "12",
+        "description": "CHAPTER 12 - OIL SEEDS AND OLEAGINOUS FRUITS; MISCELLANEOUS GRAINS, SEEDS AND FRUIT; INDUSTRIAL OR MEDICINAL PLANTS; STRAW AND FODDER"
+    },
+    "0711": {
+        "code": "0711",
+        "description": "Vegetables provisionally preserved, but unsuitable in that state for immediate consumption"
+    },
+    "0712": {
+        "code": "0712",
+        "description": "Dried vegetables, whole, cut, sliced, broken or in powder, but not further prepared"
+    },
+    "0713": {
+        "code": "0713",
+        "description": "Dried leguminous vegetables, shelled, whether or not skinned or split"
+    },
+    "0714": {
+        "code": "0714",
+        "description": "Manioc, arrowroot, salep, Jerusalem artichokes, sweet potatoes and similar roots and tubers with high starch or inulin content, fresh, chilled, frozen or dried, whether or not sliced or in the form of pellets; sago pith"
+    },
+    "0801": {
+        "code": "0801",
+        "description": "Coconuts, Brazil nuts and cashew nuts, fresh or dried, whether or not shelled or peeled"
+    },
+    "0802": {
+        "code": "0802",
+        "description": "Other nuts, fresh or dried, whether or not shelled or peeled"
+    },
+    "0803": {
+        "code": "0803",
+        "description": "Bananas, including plantains, fresh or dried"
+    },
+    "0804": {
+        "code": "0804",
+        "description": "Dates, figs, pineapples, avocados, guavas, mangoes and mangosteens, fresh or dried"
+    },
+    "0805": {
+        "code": "0805",
+        "description": "Citrus fruit, fresh or dried"
+    },
+    "0806": {
+        "code": "0806",
+        "description": "Grapes, fresh or dried"
+    },
+    "0807": {
+        "code": "0807",
+        "description": "Melons (including watermelons) and papaws (papayas), fresh"
+    },
+    "0808": {
+        "code": "0808",
+        "description": "Apples, pears and quinces, fresh"
+    },
+    "0809": {
+        "code": "0809",
+        "description": "Apricots, cherries, peaches (including nectarines), plums and sloes, fresh"
+    },
+    "0810": {
+        "code": "0810",
+        "description": "Other fruit, fresh"
+    },
+    "0811": {
+        "code": "0811",
+        "description": "Fruit and nuts, uncooked or cooked by steaming or boiling in water, frozen, whether or not containing added sugar or other sweetening matter"
+    },
+    "0812": {
+        "code": "0812",
+        "description": "Fruit and nuts provisionally preserved, but unsuitable in that state for immediate consumption"
+    },
+    "0813": {
+        "code": "0813",
+        "description": "Fruit, dried, other than that of headings 0801 to 0806; mixtures of nuts or dried fruits of this chapter"
     },
     "0901": {
         "code": "0901",
@@ -2422,10 +2434,6 @@
     "0910 99 10": {
         "code": "0910 99 10",
         "description": "Fenugreek seed"
-    },
-    "10": {
-        "code": "10",
-        "description": "CHAPTER 10 - CEREALS"
     },
     "1001": {
         "code": "1001",
@@ -2591,10 +2599,6 @@
         "code": "1008 90 00",
         "description": "Other cereals"
     },
-    "11": {
-        "code": "11",
-        "description": "CHAPTER 11 - PRODUCTS OF THE MILLING INDUSTRY; MALT; STARCHES; INULIN; WHEAT GLUTEN"
-    },
     "1101 00": {
         "code": "1101 00",
         "description": "Wheat or meslin flour"
@@ -2662,10 +2666,6 @@
     "1103 20 30": {
         "code": "1103 20 30",
         "description": "Of oats"
-    },
-    "12": {
-        "code": "12",
-        "description": "CHAPTER 12 - OIL SEEDS AND OLEAGINOUS FRUITS; MISCELLANEOUS GRAINS, SEEDS AND FRUIT; INDUSTRIAL OR MEDICINAL PLANTS; STRAW AND FODDER"
     },
     "1104": {
         "code": "1104",
@@ -3019,14 +3019,6 @@
         "code": "1208 90 00",
         "description": "Other"
     },
-    "1209": {
-        "code": "1209",
-        "description": "Seeds, fruit and spores, of a kind used for sowing"
-    },
-    "1210": {
-        "code": "1210",
-        "description": "Hop cones, fresh or dried, whether or not ground, powdered or in the form of pellets; lupulin"
-    },
     "1210 10 00": {
         "code": "1210 10 00",
         "description": "Hop cones, neither ground nor powdered nor in the form of pellets"
@@ -3034,10 +3026,6 @@
     "1210 20": {
         "code": "1210 20",
         "description": "Hop cones, ground, powdered or in the form of pellets; lupulin"
-    },
-    "1211": {
-        "code": "1211",
-        "description": "Plants and parts of plants (including seeds and fruits), of a kind used primarily in perfumery, in pharmacy or for insecticidal, fungicidal or similar purposes, fresh, chilled, frozen or dried, whether or not cut, crushed or powdered"
     },
     "1211 20 00": {
         "code": "1211 20 00",
@@ -3050,10 +3038,6 @@
     "1211 90 86": {
         "code": "1211 90 86",
         "description": "Other"
-    },
-    "1212": {
-        "code": "1212",
-        "description": "Locust beans, seaweeds and other algae, sugar beet and sugar cane, fresh, chilled, frozen or dried, whether or not ground; fruit stones and kernels and other vegetable products (including unroasted chicory roots of the variety Cichorium intybus sativum) of a kind used primarily for human consumption, not elsewhere specified or included"
     },
     "1212 21 00": {
         "code": "1212 21 00",
@@ -3111,6 +3095,34 @@
         "code": "13",
         "description": "CHAPTER 13 - LAC; GUMS, RESINS AND OTHER VEGETABLE SAPS AND EXTRACTS"
     },
+    "1209": {
+        "code": "1209",
+        "description": "Seeds, fruit and spores, of a kind used for sowing"
+    },
+    "1210": {
+        "code": "1210",
+        "description": "Hop cones, fresh or dried, whether or not ground, powdered or in the form of pellets; lupulin"
+    },
+    "1211": {
+        "code": "1211",
+        "description": "Plants and parts of plants (including seeds and fruits), of a kind used primarily in perfumery, in pharmacy or for insecticidal, fungicidal or similar purposes, fresh, chilled, frozen or dried, whether or not cut, crushed or powdered"
+    },
+    "1212": {
+        "code": "1212",
+        "description": "Locust beans, seaweeds and other algae, sugar beet and sugar cane, fresh, chilled, frozen or dried, whether or not ground; fruit stones and kernels and other vegetable products (including unroasted chicory roots of the variety Cichorium intybus sativum) of a kind used primarily for human consumption, not elsewhere specified or included"
+    },
+    "1214": {
+        "code": "1214",
+        "description": "Swedes, mangolds, fodder roots, hay, lucerne (alfalfa), clover, sainfoin, forage kale, lupines, vetches and similar forage products, whether or not in the form of pellets"
+    },
+    "1301": {
+        "code": "1301",
+        "description": "Lac; natural gums, resins, gum-resins and oleoresins (for example, balsams)"
+    },
+    "1302": {
+        "code": "1302",
+        "description": "Vegetable saps and extracts; pectic substances, pectinates and pectates; agar-agar and other mucilages and thickeners, whether or not modified, derived from vegetable products"
+    },
     "1302 11 00": {
         "code": "1302 11 00",
         "description": "Opium"
@@ -3166,18 +3178,6 @@
     "14": {
         "code": "14",
         "description": "CHAPTER 14 - VEGETABLE PLAITING MATERIALS; VEGETABLE PRODUCTS NOT ELSEWHERE SPECIFIED OR INCLUDED"
-    },
-    "1214": {
-        "code": "1214",
-        "description": "Swedes, mangolds, fodder roots, hay, lucerne (alfalfa), clover, sainfoin, forage kale, lupines, vetches and similar forage products, whether or not in the form of pellets"
-    },
-    "1301": {
-        "code": "1301",
-        "description": "Lac; natural gums, resins, gum-resins and oleoresins (for example, balsams)"
-    },
-    "1302": {
-        "code": "1302",
-        "description": "Vegetable saps and extracts; pectic substances, pectinates and pectates; agar-agar and other mucilages and thickeners, whether or not modified, derived from vegetable products"
     },
     "1401 90 00": {
         "code": "1401 90 00",
@@ -3723,10 +3723,6 @@
         "code": "1520 00 00",
         "description": "Glycerol, crude; glycerol waters and glycerol lyes"
     },
-    "1521": {
-        "code": "1521",
-        "description": "Vegetable waxes (other than triglycerides), beeswax, other insect waxes and spermaceti, whether or not refined or coloured"
-    },
     "1521 90": {
         "code": "1521 90",
         "description": "Other"
@@ -3735,13 +3731,21 @@
         "code": "1521 90 91",
         "description": "Raw"
     },
-    "1521 90 99": {
-        "code": "1521 90 99",
-        "description": "Other"
-    },
     "1522 00 10": {
         "code": "1522 00 10",
         "description": "Degras"
+    },
+    "16": {
+        "code": "16",
+        "description": "CHAPTER 16 - PREPARATIONS OF MEAT, OF FISH, OF CRUSTACEANS, MOLLUSCS OR OTHER AQUATIC INVERTEBRATES, OR OF INSECTS"
+    },
+    "1521": {
+        "code": "1521",
+        "description": "Vegetable waxes (other than triglycerides), beeswax, other insect waxes and spermaceti, whether or not refined or coloured"
+    },
+    "1521 90 99": {
+        "code": "1521 90 99",
+        "description": "Other"
     },
     "1522 00 31": {
         "code": "1522 00 31",
@@ -3758,10 +3762,6 @@
     "1522 00 99": {
         "code": "1522 00 99",
         "description": "Other"
-    },
-    "16": {
-        "code": "16",
-        "description": "CHAPTER 16 - PREPARATIONS OF MEAT, OF FISH, OF CRUSTACEANS, MOLLUSCS OR OTHER AQUATIC INVERTEBRATES, OR OF INSECTS"
     },
     "1601 00": {
         "code": "1601 00",
@@ -4695,6 +4695,10 @@
         "code": "2008 99 99",
         "description": "Other"
     },
+    "2009": {
+        "code": "2009",
+        "description": "Fruit or nut juices (including grape must and coconut water) and vegetable juices, unfermented and not containing added spirit, whether or not containing added sugar or other sweetening matter"
+    },
     "2009 12 00": {
         "code": "2009 12 00",
         "description": "Not frozen, of a Brix value not exceeding 20"
@@ -4762,14 +4766,6 @@
     "21": {
         "code": "21",
         "description": "CHAPTER 21 - MISCELLANEOUS EDIBLE PREPARATIONS"
-    },
-    "22": {
-        "code": "22",
-        "description": "CHAPTER 22 - BEVERAGES, SPIRITS AND VINEGAR"
-    },
-    "2009": {
-        "code": "2009",
-        "description": "Fruit or nut juices (including grape must and coconut water) and vegetable juices, unfermented and not containing added spirit, whether or not containing added sugar or other sweetening matter"
     },
     "2101": {
         "code": "2101",
@@ -4899,6 +4895,10 @@
         "code": "2106 90 98",
         "description": "Other"
     },
+    "22": {
+        "code": "22",
+        "description": "CHAPTER 22 - BEVERAGES, SPIRITS AND VINEGAR"
+    },
     "2201": {
         "code": "2201",
         "description": "Waters, including natural or artificial mineral waters and aerated waters, not containing added sugar or other sweetening matter nor flavoured; ice and snow"
@@ -5011,6 +5011,10 @@
         "code": "2301 10 00",
         "description": "Flours, meals and pellets, of meat or meat offal; greaves"
     },
+    "25": {
+        "code": "25",
+        "description": "CHAPTER 25 - SALT; SULPHUR; EARTHS AND STONE; PLASTERING MATERIALS, LIME AND CEMENT"
+    },
     "2302": {
         "code": "2302",
         "description": "Bran, sharps and other residues, whether or not in the form of pellets, derived from the sifting, milling or other working of cereals or of leguminous plants"
@@ -5066,10 +5070,6 @@
     "2404 91 10": {
         "code": "2404 91 10",
         "description": "Nicotine containing products intended to assist tobacco use cessation"
-    },
-    "25": {
-        "code": "25",
-        "description": "CHAPTER 25 - SALT; SULPHUR; EARTHS AND STONE; PLASTERING MATERIALS, LIME AND CEMENT"
     },
     "2501 00": {
         "code": "2501 00",
@@ -5251,21 +5251,21 @@
         "code": "2711 21 00",
         "description": "Natural gas"
     },
-    "2713": {
-        "code": "2713",
-        "description": "Petroleum coke, petroleum bitumen and other residues of petroleum oils or of oils obtained from bituminous minerals"
-    },
     "2713 11 00": {
         "code": "2713 11 00",
         "description": "Not calcined"
     },
-    "2716 00 00": {
-        "code": "2716 00 00",
-        "description": "Electrical energy"
-    },
     "28": {
         "code": "28",
         "description": "CHAPTER 28 - INORGANIC CHEMICALS; ORGANIC OR INORGANIC COMPOUNDS OF PRECIOUS METALS, OF RARE-EARTH METALS, OF RADIOACTIVE ELEMENTS OR OF ISOTOPES"
+    },
+    "2713": {
+        "code": "2713",
+        "description": "Petroleum coke, petroleum bitumen and other residues of petroleum oils or of oils obtained from bituminous minerals"
+    },
+    "2716 00 00": {
+        "code": "2716 00 00",
+        "description": "Electrical energy"
     },
     "2801 20 00": {
         "code": "2801 20 00",
@@ -5547,10 +5547,6 @@
         "code": "2847 00 00",
         "description": "Hydrogen peroxide, whether or not solidified with urea"
     },
-    "2853 90 10": {
-        "code": "2853 90 10",
-        "description": "Distilled or conductivity water and water of similar purity"
-    },
     "29": {
         "code": "29",
         "description": "CHAPTER 29 - ORGANIC CHEMICALS"
@@ -5558,6 +5554,10 @@
     "2852": {
         "code": "2852",
         "description": "Inorganic or organic compounds of mercury, whether or not chemically defined, excluding amalgams"
+    },
+    "2853 90 10": {
+        "code": "2853 90 10",
+        "description": "Distilled or conductivity water and water of similar purity"
     },
     "2901 22 00": {
         "code": "2901 22 00",
@@ -6119,10 +6119,6 @@
         "code": "3005 90 99",
         "description": "Other"
     },
-    "31": {
-        "code": "31",
-        "description": "CHAPTER 31 - FERTILISERS"
-    },
     "3006": {
         "code": "3006",
         "description": "Pharmaceutical goods specified in note 4 to this chapter"
@@ -6170,6 +6166,10 @@
     "3006 92 00": {
         "code": "3006 92 00",
         "description": "Waste pharmaceuticals"
+    },
+    "31": {
+        "code": "31",
+        "description": "CHAPTER 31 - FERTILISERS"
     },
     "3101 00 00": {
         "code": "3101 00 00",
@@ -6839,10 +6839,6 @@
         "code": "4801 00 00",
         "description": "Newsprint, in rolls or sheets"
     },
-    "4802": {
-        "code": "4802",
-        "description": "Uncoated paper and paperboard, of a kind used for writing, printing or other graphic purposes, and non-perforated punchcards and punch-tape paper, in rolls or rectangular (including square) sheets, of any size, other than paper of heading 4801 or 4803; handmade paper and paperboard"
-    },
     "4802 20 00": {
         "code": "4802 20 00",
         "description": "Paper and paperboard of a kind used as a base for photosensitive, heat-sensitive or electrosensitive paper or paperboard"
@@ -6970,6 +6966,10 @@
     "49": {
         "code": "49",
         "description": "CHAPTER 49 - PRINTED BOOKS, NEWSPAPERS, PICTURES AND OTHER PRODUCTS OF THE PRINTING INDUSTRY; MANUSCRIPTS, TYPESCRIPTS AND PLANS"
+    },
+    "4802": {
+        "code": "4802",
+        "description": "Uncoated paper and paperboard, of a kind used for writing, printing or other graphic purposes, and non-perforated punchcards and punch-tape paper, in rolls or rectangular (including square) sheets, of any size, other than paper of heading 4801 or 4803; handmade paper and paperboard"
     },
     "4805": {
         "code": "4805",
@@ -7103,14 +7103,6 @@
         "code": "4911 99 00",
         "description": "Other"
     },
-    "57": {
-        "code": "57",
-        "description": "CHAPTER 57 - CARPETS AND OTHER TEXTILE FLOOR COVERINGS"
-    },
-    "61": {
-        "code": "61",
-        "description": "CHAPTER 61 - ARTICLES OF APPAREL AND CLOTHING ACCESSORIES, KNITTED OR CROCHETED"
-    },
     "5102": {
         "code": "5102",
         "description": "Fine or coarse animal hair, not carded or combed"
@@ -7135,37 +7127,25 @@
         "code": "5305 00 00",
         "description": "Coconut, abaca (Manila hemp or Musa textilis Nee), ramie and other vegetable textile fibres, not elsewhere specified or included, raw or processed but not spun; tow, noils and waste of these fibres (including yarn waste and garnetted stock)"
     },
-    "5601": {
-        "code": "5601",
-        "description": "Wadding of textile materials and articles thereof; textile fibres, not exceeding 5 mm in length (flock), textile dust and mill neps"
-    },
     "5601 21": {
         "code": "5601 21",
         "description": "Of cotton"
+    },
+    "57": {
+        "code": "57",
+        "description": "CHAPTER 57 - CARPETS AND OTHER TEXTILE FLOOR COVERINGS"
     },
     "5805 00 00": {
         "code": "5805 00 00",
         "description": "Hand-woven tapestries of the type Gobelins, Flanders, Aubusson, Beauvais and the like, and needle-worked tapestries (for example, petit point, cross stitch), whether or not made up"
     },
-    "6103": {
-        "code": "6103",
-        "description": "Men's or boys' suits, ensembles, jackets, blazers, trousers, bib and brace overalls, breeches and shorts (other than swimwear), knitted or crocheted"
-    },
-    "6104": {
-        "code": "6104",
-        "description": "Women's or girls' suits, ensembles, jackets, blazers, dresses, skirts, divided skirts, trousers, bib and brace overalls, breeches and shorts (other than swimwear), knitted or crocheted"
-    },
-    "6107": {
-        "code": "6107",
-        "description": "Men's or boys' underpants, briefs, nightshirts, pyjamas, bathrobes, dressing gowns and similar articles, knitted or crocheted"
+    "61": {
+        "code": "61",
+        "description": "CHAPTER 61 - ARTICLES OF APPAREL AND CLOTHING ACCESSORIES, KNITTED OR CROCHETED"
     },
     "6107 12 00": {
         "code": "6107 12 00",
         "description": "Of man-made fibres"
-    },
-    "6108": {
-        "code": "6108",
-        "description": "Women's or girls' slips, petticoats, briefs, panties, nightdresses, pyjamas, négligés, bathrobes, dressing gowns and similar articles, knitted or crocheted"
     },
     "6108 21 00": {
         "code": "6108 21 00",
@@ -7179,14 +7159,6 @@
         "code": "6108 29 00",
         "description": "Of other textile materials"
     },
-    "6109": {
-        "code": "6109",
-        "description": "T-shirts, singlets and other vests, knitted or crocheted"
-    },
-    "6112": {
-        "code": "6112",
-        "description": "Tracksuits, ski suits and swimwear, knitted or crocheted"
-    },
     "6112 41": {
         "code": "6112 41",
         "description": "Of synthetic fibres"
@@ -7195,17 +7167,9 @@
         "code": "6112 49",
         "description": "Of other textile materials"
     },
-    "6115": {
-        "code": "6115",
-        "description": "Pantyhose, tights, stockings, socks and other hosiery, including graduated compression hosiery (for example, stockings for varicose veins) and footwear without applied soles, knitted or crocheted"
-    },
     "6115 10": {
         "code": "6115 10",
         "description": "Graduated compression hosiery (for example, stockings for varicose veins)"
-    },
-    "6116": {
-        "code": "6116",
-        "description": "Gloves, mittens and mitts, knitted or crocheted"
     },
     "6116 92 00": {
         "code": "6116 92 00",
@@ -7227,30 +7191,6 @@
         "code": "62",
         "description": "CHAPTER 62 - ARTICLES OF APPAREL AND CLOTHING ACCESSORIES, NOT KNITTED OR CROCHETED"
     },
-    "64": {
-        "code": "64",
-        "description": "CHAPTER 64 - FOOTWEAR, GAITERS AND THE LIKE; PARTS OF SUCH ARTICLES"
-    },
-    "65": {
-        "code": "65",
-        "description": "CHAPTER 65 - HEADGEAR AND PARTS THEREOF"
-    },
-    "6203": {
-        "code": "6203",
-        "description": "Men's or boys' suits, ensembles, jackets, blazers, trousers, bib and brace overalls, breeches and shorts (other than swimwear)"
-    },
-    "6204": {
-        "code": "6204",
-        "description": "Women's or girls' suits, ensembles, jackets, blazers, dresses, skirts, divided skirts, trousers, bib and brace overalls, breeches and shorts (other than swimwear)"
-    },
-    "6207": {
-        "code": "6207",
-        "description": "Men's or boys' singlets and other vests, underpants, briefs, nightshirts, pyjamas, bathrobes, dressing gowns and similar articles"
-    },
-    "6208": {
-        "code": "6208",
-        "description": "Women's or girls' singlets and other vests, slips, petticoats, briefs, panties, nightdresses, pyjamas, négligés, bathrobes, dressing gowns and similar articles"
-    },
     "6210 10": {
         "code": "6210 10",
         "description": "Of fabrics of heading 5602 or 5603"
@@ -7270,6 +7210,78 @@
     "6210 50 00": {
         "code": "6210 50 00",
         "description": "Other women's or girls' garments"
+    },
+    "64": {
+        "code": "64",
+        "description": "CHAPTER 64 - FOOTWEAR, GAITERS AND THE LIKE; PARTS OF SUCH ARTICLES"
+    },
+    "65": {
+        "code": "65",
+        "description": "CHAPTER 65 - HEADGEAR AND PARTS THEREOF"
+    },
+    "72": {
+        "code": "72",
+        "description": "CHAPTER 72 - IRON AND STEEL"
+    },
+    "84": {
+        "code": "84",
+        "description": "CHAPTER 84 - NUCLEAR REACTORS, BOILERS, MACHINERY AND MECHANICAL APPLIANCES; PARTS THEREOF"
+    },
+    "85": {
+        "code": "85",
+        "description": "CHAPTER 85 - ELECTRICAL MACHINERY AND EQUIPMENT AND PARTS THEREOF; SOUND RECORDERS AND REPRODUCERS, TELEVISION IMAGE AND SOUND RECORDERS AND REPRODUCERS, AND PARTS AND ACCESSORIES OF SUCH ARTICLES"
+    },
+    "5601": {
+        "code": "5601",
+        "description": "Wadding of textile materials and articles thereof; textile fibres, not exceeding 5 mm in length (flock), textile dust and mill neps"
+    },
+    "6103": {
+        "code": "6103",
+        "description": "Men's or boys' suits, ensembles, jackets, blazers, trousers, bib and brace overalls, breeches and shorts (other than swimwear), knitted or crocheted"
+    },
+    "6104": {
+        "code": "6104",
+        "description": "Women's or girls' suits, ensembles, jackets, blazers, dresses, skirts, divided skirts, trousers, bib and brace overalls, breeches and shorts (other than swimwear), knitted or crocheted"
+    },
+    "6107": {
+        "code": "6107",
+        "description": "Men's or boys' underpants, briefs, nightshirts, pyjamas, bathrobes, dressing gowns and similar articles, knitted or crocheted"
+    },
+    "6108": {
+        "code": "6108",
+        "description": "Women's or girls' slips, petticoats, briefs, panties, nightdresses, pyjamas, négligés, bathrobes, dressing gowns and similar articles, knitted or crocheted"
+    },
+    "6109": {
+        "code": "6109",
+        "description": "T-shirts, singlets and other vests, knitted or crocheted"
+    },
+    "6112": {
+        "code": "6112",
+        "description": "Tracksuits, ski suits and swimwear, knitted or crocheted"
+    },
+    "6115": {
+        "code": "6115",
+        "description": "Pantyhose, tights, stockings, socks and other hosiery, including graduated compression hosiery (for example, stockings for varicose veins) and footwear without applied soles, knitted or crocheted"
+    },
+    "6116": {
+        "code": "6116",
+        "description": "Gloves, mittens and mitts, knitted or crocheted"
+    },
+    "6203": {
+        "code": "6203",
+        "description": "Men's or boys' suits, ensembles, jackets, blazers, trousers, bib and brace overalls, breeches and shorts (other than swimwear)"
+    },
+    "6204": {
+        "code": "6204",
+        "description": "Women's or girls' suits, ensembles, jackets, blazers, dresses, skirts, divided skirts, trousers, bib and brace overalls, breeches and shorts (other than swimwear)"
+    },
+    "6207": {
+        "code": "6207",
+        "description": "Men's or boys' singlets and other vests, underpants, briefs, nightshirts, pyjamas, bathrobes, dressing gowns and similar articles"
+    },
+    "6208": {
+        "code": "6208",
+        "description": "Women's or girls' singlets and other vests, slips, petticoats, briefs, panties, nightdresses, pyjamas, négligés, bathrobes, dressing gowns and similar articles"
     },
     "6211": {
         "code": "6211",
@@ -7467,9 +7479,21 @@
         "code": "6802 99 90",
         "description": "Other"
     },
+    "6810": {
+        "code": "6810",
+        "description": "Articles of cement, of concrete or of artificial stone, whether or not reinforced"
+    },
+    "6811": {
+        "code": "6811",
+        "description": "Articles of asbestos-cement, of cellulose fibre-cement or the like"
+    },
     "6815 99 00": {
         "code": "6815 99 00",
         "description": "Other"
+    },
+    "6910": {
+        "code": "6910",
+        "description": "Ceramic sinks, washbasins, washbasin pedestals, baths, bidets, water closet pans, flushing cisterns, urinals and similar sanitary fixtures"
     },
     "6913 90 93": {
         "code": "6913 90 93",
@@ -7478,6 +7502,10 @@
     "6913 90 98": {
         "code": "6913 90 98",
         "description": "Other"
+    },
+    "6914": {
+        "code": "6914",
+        "description": "Other ceramic articles"
     },
     "7015 10 00": {
         "code": "7015 10 00",
@@ -7502,10 +7530,6 @@
     "7020 00 80": {
         "code": "7020 00 80",
         "description": "Other"
-    },
-    "72": {
-        "code": "72",
-        "description": "CHAPTER 72 - IRON AND STEEL"
     },
     "7223 00": {
         "code": "7223 00",
@@ -7535,9 +7559,17 @@
         "code": "7309 00",
         "description": "Reservoirs, tanks, vats and similar containers for any material (other than compressed or liquefied gas), of iron or steel, of a capacity exceeding 300 l, whether or not lined or heat-insulated, but not fitted with mechanical or thermal equipment"
     },
+    "7310": {
+        "code": "7310",
+        "description": "Tanks, casks, drums, cans, boxes and similar containers, for any material (other than compressed or liquefied gas), of iron or steel, of a capacity not exceeding 300 l, whether or not lined or heat-insulated, but not fitted with mechanical or thermal equipment"
+    },
     "7317 00": {
         "code": "7317 00",
         "description": "Nails, tacks, drawing pins, corrugated nails, staples (other than those of heading 8305) and similar articles, of iron or steel, whether or not with heads of other material, but excluding such articles with heads of copper"
+    },
+    "7318": {
+        "code": "7318",
+        "description": "Screws, bolts, nuts, coach screws, screw hooks, rivets, cotters, cotter pins, washers (including spring washers) and similar articles, of iron or steel"
     },
     "7318 14": {
         "code": "7318 14",
@@ -7599,6 +7631,10 @@
         "code": "7318 29 00",
         "description": "Other"
     },
+    "7324": {
+        "code": "7324",
+        "description": "Sanitary ware and parts thereof, of iron or steel"
+    },
     "7324 90 00": {
         "code": "7324 90 00",
         "description": "Other, including parts"
@@ -7610,6 +7646,10 @@
     "7325 99": {
         "code": "7325 99",
         "description": "Other"
+    },
+    "7326": {
+        "code": "7326",
+        "description": "Other articles of iron or steel"
     },
     "7326 19": {
         "code": "7326 19",
@@ -7655,6 +7695,10 @@
         "code": "7611 00 00",
         "description": "Aluminium reservoirs, tanks, vats and similar containers, for any material (other than compressed or liquefied gas), of a capacity exceeding 300 litres, whether or not lined or heat-insulated, but not fitted with mechanical or thermal equipment"
     },
+    "7612": {
+        "code": "7612",
+        "description": "Aluminium casks, drums, cans, boxes and similar containers (including rigid or collapsible tubular containers), for any material (other than compressed or liquefied gas), of a capacity not exceeding 300 litres, whether or not lined or heat-insulated, but not fitted with mechanical or thermal equipment"
+    },
     "7616 99 90": {
         "code": "7616 99 90",
         "description": "Other"
@@ -7670,70 +7714,6 @@
     "8007 00 80": {
         "code": "8007 00 80",
         "description": "Other"
-    },
-    "84": {
-        "code": "84",
-        "description": "CHAPTER 84 - NUCLEAR REACTORS, BOILERS, MACHINERY AND MECHANICAL APPLIANCES; PARTS THEREOF"
-    },
-    "85": {
-        "code": "85",
-        "description": "CHAPTER 85 - ELECTRICAL MACHINERY AND EQUIPMENT AND PARTS THEREOF; SOUND RECORDERS AND REPRODUCERS, TELEVISION IMAGE AND SOUND RECORDERS AND REPRODUCERS, AND PARTS AND ACCESSORIES OF SUCH ARTICLES"
-    },
-    "87": {
-        "code": "87",
-        "description": "CHAPTER 87 - VEHICLES OTHER THAN RAILWAY OR TRAMWAY ROLLING STOCK, AND PARTS AND ACCESSORIES THEREOF"
-    },
-    "90": {
-        "code": "90",
-        "description": "CHAPTER 90 - OPTICAL, PHOTOGRAPHIC, CINEMATOGRAPHIC, MEASURING, CHECKING, PRECISION, MEDICAL OR SURGICAL INSTRUMENTS AND APPARATUS; PARTS AND ACCESSORIES THEREOF"
-    },
-    "91": {
-        "code": "91",
-        "description": "CHAPTER 91 - CLOCKS AND WATCHES AND PARTS THEREOF"
-    },
-    "94": {
-        "code": "94",
-        "description": "CHAPTER 94 - FURNITURE; BEDDING, MATTRESSES, MATTRESS SUPPORTS, CUSHIONS AND SIMILAR STUFFED FURNISHINGS; LUMINAIRES AND LIGHTING FITTINGS, NOT ELSEWHERE SPECIFIED OR INCLUDED; ILLUMINATED SIGNS, ILLUMINATED NAMEPLATES AND THE LIKE; PREFABRICATED BUILDINGS"
-    },
-    "97": {
-        "code": "97",
-        "description": "CHAPTER 97 - WORKS OF ART, COLLECTORS' PIECES AND ANTIQUES"
-    },
-    "6810": {
-        "code": "6810",
-        "description": "Articles of cement, of concrete or of artificial stone, whether or not reinforced"
-    },
-    "6811": {
-        "code": "6811",
-        "description": "Articles of asbestos-cement, of cellulose fibre-cement or the like"
-    },
-    "6910": {
-        "code": "6910",
-        "description": "Ceramic sinks, washbasins, washbasin pedestals, baths, bidets, water closet pans, flushing cisterns, urinals and similar sanitary fixtures"
-    },
-    "6914": {
-        "code": "6914",
-        "description": "Other ceramic articles"
-    },
-    "7310": {
-        "code": "7310",
-        "description": "Tanks, casks, drums, cans, boxes and similar containers, for any material (other than compressed or liquefied gas), of iron or steel, of a capacity not exceeding 300 l, whether or not lined or heat-insulated, but not fitted with mechanical or thermal equipment"
-    },
-    "7318": {
-        "code": "7318",
-        "description": "Screws, bolts, nuts, coach screws, screw hooks, rivets, cotters, cotter pins, washers (including spring washers) and similar articles, of iron or steel"
-    },
-    "7324": {
-        "code": "7324",
-        "description": "Sanitary ware and parts thereof, of iron or steel"
-    },
-    "7326": {
-        "code": "7326",
-        "description": "Other articles of iron or steel"
-    },
-    "7612": {
-        "code": "7612",
-        "description": "Aluminium casks, drums, cans, boxes and similar containers (including rigid or collapsible tubular containers), for any material (other than compressed or liquefied gas), of a capacity not exceeding 300 litres, whether or not lined or heat-insulated, but not fitted with mechanical or thermal equipment"
     },
     "8108": {
         "code": "8108",
@@ -8015,14 +7995,6 @@
         "code": "8509 80 00",
         "description": "Other appliances"
     },
-    "8512": {
-        "code": "8512",
-        "description": "Electrical lighting or signalling equipment (excluding articles of heading 8539), windscreen wipers, defrosters and demisters, of a kind used for cycles or motor vehicles"
-    },
-    "8517": {
-        "code": "8517",
-        "description": "Telephone sets, including smartphones and other telephones for cellular networks or for other wireless networks; other apparatus for the transmission or reception of voice, images or other data, including apparatus for communication in a wired or wireless network (such as a local or wide area network), other than transmission or reception apparatus of heading 8443, 8525, 8527 or 8528"
-    },
     "8517 11 00": {
         "code": "8517 11 00",
         "description": "Line telephone sets with cordless handsets"
@@ -8055,17 +8027,9 @@
         "code": "8518 40",
         "description": "Audio-frequency electric amplifiers"
     },
-    "8519": {
-        "code": "8519",
-        "description": "Sound recording or sound reproducing apparatus"
-    },
     "8519 81": {
         "code": "8519 81",
         "description": "Using magnetic, optical or semiconductor media"
-    },
-    "8523": {
-        "code": "8523",
-        "description": "Discs, tapes, solid-state non-volatile storage devices, smart cards and other media for the recording of sound or of other phenomena, whether or not recorded, including matrices and masters for the production of discs, but excluding products of Chapter 37"
     },
     "8523 29 19": {
         "code": "8523 29 19",
@@ -8107,14 +8071,6 @@
         "code": "8523 80 90",
         "description": "Other"
     },
-    "8526": {
-        "code": "8526",
-        "description": "Radar apparatus, radio navigational aid apparatus and radio remote control apparatus"
-    },
-    "8528": {
-        "code": "8528",
-        "description": "Monitors and projectors, not incorporating television reception apparatus; reception apparatus for television, whether or not incorporating radio-broadcast receivers or sound or video recording or reproducing apparatus"
-    },
     "8528 52 91": {
         "code": "8528 52 91",
         "description": "With a screen of the liquid crystal display (LCD) technology"
@@ -8126,10 +8082,6 @@
     "8528 59 00": {
         "code": "8528 59 00",
         "description": "Other"
-    },
-    "8531": {
-        "code": "8531",
-        "description": "Electric sound or visual signalling apparatus (for example, bells, sirens, indicator panels, burglar or fire alarms), other than those of heading 8512 or 8530"
     },
     "8531 10 30": {
         "code": "8531 10 30",
@@ -8143,29 +8095,13 @@
         "code": "8531 80 70",
         "description": "Other"
     },
-    "8535": {
-        "code": "8535",
-        "description": "Electrical apparatus for switching or protecting electrical circuits, or for making connections to or in electrical circuits (for example, switches, fuses, lightning arresters, voltage limiters, surge suppressors, plugs and other connectors, junction boxes), for a voltage exceeding 1000 V"
-    },
-    "8536": {
-        "code": "8536",
-        "description": "Electrical apparatus for switching or protecting electrical circuits, or for making connections to or in electrical circuits (for example, switches, relays, fuses, surge suppressors, plugs, sockets, lamp holders and other connectors, junction boxes), for a voltage not exceeding 1000 V; connectors for optical fibres, optical fibre bundles or cables"
-    },
     "8539 52 00": {
         "code": "8539 52 00",
         "description": "Light-emitting diode (LED) lamps"
     },
-    "8541": {
-        "code": "8541",
-        "description": "Semiconductor devices (for example, diodes, transistors, semiconductor-based transducers); photosensitive semiconductor devices, including photovoltaic cells whether or not assembled in modules or made up into panels; light-emitting diodes (LED), whether or not assembled with other light-emitting diodes (LED); mounted piezo-electric crystals"
-    },
     "8541 43 00": {
         "code": "8541 43 00",
         "description": "Photovoltaic cells assembled in modules or made up into panels"
-    },
-    "8543": {
-        "code": "8543",
-        "description": "Electrical machines and apparatus, having individual functions, not specified or included elsewhere in this chapter"
     },
     "8543 70": {
         "code": "8543 70",
@@ -8178,6 +8114,58 @@
     "8544 42 90": {
         "code": "8544 42 90",
         "description": "Other"
+    },
+    "87": {
+        "code": "87",
+        "description": "CHAPTER 87 - VEHICLES OTHER THAN RAILWAY OR TRAMWAY ROLLING STOCK, AND PARTS AND ACCESSORIES THEREOF"
+    },
+    "90": {
+        "code": "90",
+        "description": "CHAPTER 90 - OPTICAL, PHOTOGRAPHIC, CINEMATOGRAPHIC, MEASURING, CHECKING, PRECISION, MEDICAL OR SURGICAL INSTRUMENTS AND APPARATUS; PARTS AND ACCESSORIES THEREOF"
+    },
+    "8512": {
+        "code": "8512",
+        "description": "Electrical lighting or signalling equipment (excluding articles of heading 8539), windscreen wipers, defrosters and demisters, of a kind used for cycles or motor vehicles"
+    },
+    "8517": {
+        "code": "8517",
+        "description": "Telephone sets, including smartphones and other telephones for cellular networks or for other wireless networks; other apparatus for the transmission or reception of voice, images or other data, including apparatus for communication in a wired or wireless network (such as a local or wide area network), other than transmission or reception apparatus of heading 8443, 8525, 8527 or 8528"
+    },
+    "8519": {
+        "code": "8519",
+        "description": "Sound recording or sound reproducing apparatus"
+    },
+    "8523": {
+        "code": "8523",
+        "description": "Discs, tapes, solid-state non-volatile storage devices, smart cards and other media for the recording of sound or of other phenomena, whether or not recorded, including matrices and masters for the production of discs, but excluding products of Chapter 37"
+    },
+    "8526": {
+        "code": "8526",
+        "description": "Radar apparatus, radio navigational aid apparatus and radio remote control apparatus"
+    },
+    "8528": {
+        "code": "8528",
+        "description": "Monitors and projectors, not incorporating television reception apparatus; reception apparatus for television, whether or not incorporating radio-broadcast receivers or sound or video recording or reproducing apparatus"
+    },
+    "8531": {
+        "code": "8531",
+        "description": "Electric sound or visual signalling apparatus (for example, bells, sirens, indicator panels, burglar or fire alarms), other than those of heading 8512 or 8530"
+    },
+    "8535": {
+        "code": "8535",
+        "description": "Electrical apparatus for switching or protecting electrical circuits, or for making connections to or in electrical circuits (for example, switches, fuses, lightning arresters, voltage limiters, surge suppressors, plugs and other connectors, junction boxes), for a voltage exceeding 1000 V"
+    },
+    "8536": {
+        "code": "8536",
+        "description": "Electrical apparatus for switching or protecting electrical circuits, or for making connections to or in electrical circuits (for example, switches, relays, fuses, surge suppressors, plugs, sockets, lamp holders and other connectors, junction boxes), for a voltage not exceeding 1000 V; connectors for optical fibres, optical fibre bundles or cables"
+    },
+    "8541": {
+        "code": "8541",
+        "description": "Semiconductor devices (for example, diodes, transistors, semiconductor-based transducers); photosensitive semiconductor devices, including photovoltaic cells whether or not assembled in modules or made up into panels; light-emitting diodes (LED), whether or not assembled with other light-emitting diodes (LED); mounted piezo-electric crystals"
+    },
+    "8543": {
+        "code": "8543",
+        "description": "Electrical machines and apparatus, having individual functions, not specified or included elsewhere in this chapter"
     },
     "8701": {
         "code": "8701",
@@ -8599,10 +8587,6 @@
         "code": "9027 90 00",
         "description": "Microtomes; parts and accessories"
     },
-    "9031": {
-        "code": "9031",
-        "description": "Measuring or checking instruments, appliances and machines, not specified or included elsewhere in this chapter; profile projectors"
-    },
     "9033 00": {
         "code": "9033 00",
         "description": "Parts and accessories (not specified or included elsewhere in this chapter) for machines, appliances, instruments or apparatus of Chapter 90"
@@ -8610,6 +8594,26 @@
     "9033 00 90": {
         "code": "9033 00 90",
         "description": "Other"
+    },
+    "91": {
+        "code": "91",
+        "description": "CHAPTER 91 - CLOCKS AND WATCHES AND PARTS THEREOF"
+    },
+    "9105 11 00": {
+        "code": "9105 11 00",
+        "description": "Electrically operated"
+    },
+    "9105 19 00": {
+        "code": "9105 19 00",
+        "description": "Other"
+    },
+    "94": {
+        "code": "94",
+        "description": "CHAPTER 94 - FURNITURE; BEDDING, MATTRESSES, MATTRESS SUPPORTS, CUSHIONS AND SIMILAR STUFFED FURNISHINGS; LUMINAIRES AND LIGHTING FITTINGS, NOT ELSEWHERE SPECIFIED OR INCLUDED; ILLUMINATED SIGNS, ILLUMINATED NAMEPLATES AND THE LIKE; PREFABRICATED BUILDINGS"
+    },
+    "9031": {
+        "code": "9031",
+        "description": "Measuring or checking instruments, appliances and machines, not specified or included elsewhere in this chapter; profile projectors"
     },
     "9101": {
         "code": "9101",
@@ -8626,14 +8630,6 @@
     "9105": {
         "code": "9105",
         "description": "Other clocks"
-    },
-    "9105 11 00": {
-        "code": "9105 11 00",
-        "description": "Electrically operated"
-    },
-    "9105 19 00": {
-        "code": "9105 19 00",
-        "description": "Other"
     },
     "9401": {
         "code": "9401",
@@ -8778,6 +8774,10 @@
     "9619 00 89": {
         "code": "9619 00 89",
         "description": "Other (for example, incontinence care articles)"
+    },
+    "97": {
+        "code": "97",
+        "description": "CHAPTER 97 - WORKS OF ART, COLLECTORS' PIECES AND ANTIQUES"
     },
     "9701": {
         "code": "9701",

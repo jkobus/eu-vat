@@ -1299,6 +1299,90 @@
             "memberState": "NL",
             "type": "REDUCED",
             "rate": {
+                "type": "EXEMPTED",
+                "value": 0
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cnCodes": {
+                "code": {
+                    "value": "8541 43 00",
+                    "description": "Photovoltaic cells assembled in modules or made up into panels"
+                }
+            },
+            "cpaCodes": {
+                "code": {
+                    "value": "33.20.70",
+                    "description": "Installation services of plastic pipe systems in industrial plants"
+                }
+            },
+            "category": {
+                "identifier": "SOLAR_PANELS",
+                "description": "Supply and installation of solar panels on and adjacent to private dwellings, housing and public and other buildings used for activities in the public interest"
+            },
+            "comment": "Tabel II prov. a.10: A zero rate is applicable for the supply and installation of solar panels [panels that have the function of generating electricity from sunlight with photovoltaic cells (also known as PV cells or solar cells)] on and adjacent to private dwellings. An important condition for the 0% rate is that the panels are installed on or near a home."
+        },
+        {
+            "memberState": "NL",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 9
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "0106 19 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "49",
+                        "description": "CHAPTER 49 - PRINTED BOOKS, NEWSPAPERS, PICTURES AND OTHER PRODUCTS OF THE PRINTING INDUSTRY; MANUSCRIPTS, TYPESCRIPTS AND PLANS"
+                    },
+                    {
+                        "value": "6602 00 00",
+                        "description": "Walking sticks, seat-sticks, whips, riding-crops and the like"
+                    },
+                    {
+                        "value": "9013 80",
+                        "description": "Other devices, appliances and instruments"
+                    },
+                    {
+                        "value": "9018 90 84",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "91",
+                        "description": "CHAPTER 91 - CLOCKS AND WATCHES AND PARTS THEREOF"
+                    },
+                    {
+                        "value": "8539 52 00",
+                        "description": "Light-emitting diode (LED) lamps"
+                    }
+                ]
+            },
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "33",
+                        "description": "Repair, maintenance and installation services of machinery and equipment"
+                    },
+                    {
+                        "value": "95",
+                        "description": "Repair and maintenance services of computers, personal and household goods, and motor vehicles and motorcycles"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "MEDICAL_EQUIPMENT",
+                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
+            },
+            "comment": "Tabel I prov. a.31 and b.1: certain braille products; clocks, optical reading devices, TV magnifiers, reading platforms, orientation aids, support, tactile and recognition canes designed for personal use of blind and partially sighted persons; guide dogs; other aids designated by ministerial regulation that have been specially designed for exclusive and personal use by blind and partially sighted persons; reading pens and other equipment with similar function, equipment for use by dyslexics."
+        },
+        {
+            "memberState": "NL",
+            "type": "REDUCED",
+            "rate": {
                 "type": "REDUCED_RATE",
                 "value": 9
             },
@@ -1437,90 +1521,6 @@
             "memberState": "NL",
             "type": "REDUCED",
             "rate": {
-                "type": "EXEMPTED",
-                "value": 0
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cnCodes": {
-                "code": {
-                    "value": "8541 43 00",
-                    "description": "Photovoltaic cells assembled in modules or made up into panels"
-                }
-            },
-            "cpaCodes": {
-                "code": {
-                    "value": "33.20.70",
-                    "description": "Installation services of plastic pipe systems in industrial plants"
-                }
-            },
-            "category": {
-                "identifier": "SOLAR_PANELS",
-                "description": "Supply and installation of solar panels on and adjacent to private dwellings, housing and public and other buildings used for activities in the public interest"
-            },
-            "comment": "Tabel II prov. a.10: A zero rate is applicable for the supply and installation of solar panels [panels that have the function of generating electricity from sunlight with photovoltaic cells (also known as PV cells or solar cells)] on and adjacent to private dwellings. An important condition for the 0% rate is that the panels are installed on or near a home."
-        },
-        {
-            "memberState": "NL",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 9
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "0106 19 00",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "49",
-                        "description": "CHAPTER 49 - PRINTED BOOKS, NEWSPAPERS, PICTURES AND OTHER PRODUCTS OF THE PRINTING INDUSTRY; MANUSCRIPTS, TYPESCRIPTS AND PLANS"
-                    },
-                    {
-                        "value": "6602 00 00",
-                        "description": "Walking sticks, seat-sticks, whips, riding-crops and the like"
-                    },
-                    {
-                        "value": "9013 80",
-                        "description": "Other devices, appliances and instruments"
-                    },
-                    {
-                        "value": "9018 90 84",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "91",
-                        "description": "CHAPTER 91 - CLOCKS AND WATCHES AND PARTS THEREOF"
-                    },
-                    {
-                        "value": "8539 52 00",
-                        "description": "Light-emitting diode (LED) lamps"
-                    }
-                ]
-            },
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "33",
-                        "description": "Repair, maintenance and installation services of machinery and equipment"
-                    },
-                    {
-                        "value": "95",
-                        "description": "Repair and maintenance services of computers, personal and household goods, and motor vehicles and motorcycles"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "MEDICAL_EQUIPMENT",
-                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
-            },
-            "comment": "Tabel I prov. a.31 and b.1: certain braille products; clocks, optical reading devices, TV magnifiers, reading platforms, orientation aids, support, tactile and recognition canes designed for personal use of blind and partially sighted persons; guide dogs; other aids designated by ministerial regulation that have been specially designed for exclusive and personal use by blind and partially sighted persons; reading pens and other equipment with similar function, equipment for use by dyslexics."
-        },
-        {
-            "memberState": "NL",
-            "type": "REDUCED",
-            "rate": {
                 "type": "REDUCED_RATE",
                 "value": 9
             },
@@ -1622,6 +1622,74 @@
                 "description": "Pharmaceutical products of a kind normally used for health care, prevention of illness and as treatment for medical and veterinary purposes, including products used for contraception and sanitary protection"
             },
             "comment": "Tabel I prov. a.7: veterinary medicines as referred to in the 'Wet dieren' (Dutch 'Animal Act'), which are used in or on the animal itself (in vivo use). \nExcluded: products that are necessary to make a diagnosis and that are applied to tissue or body fluids originating from animals (in vitro use) are excluded; products that are used in the animal's living environment."
+        },
+        {
+            "memberState": "NL",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 9
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "0601",
+                        "description": "Bulbs, tubers, tuberous roots, corms, crowns and rhizomes, dormant, in growth or in flower; chicory plants and roots other than roots of heading 1212"
+                    },
+                    {
+                        "value": "0602",
+                        "description": "Other live plants (including their roots), cuttings and slips; mushroom spawn"
+                    },
+                    {
+                        "value": "0603",
+                        "description": "Cut flowers and flower buds of a kind suitable for bouquets or for ornamental purposes, fresh, dried, dyed, bleached, impregnated or otherwise prepared"
+                    },
+                    {
+                        "value": "0604 20",
+                        "description": "Fresh"
+                    },
+                    {
+                        "value": "0604 90 11",
+                        "description": "Reindeer moss"
+                    },
+                    {
+                        "value": "0604 90 19",
+                        "description": "Other"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "PLANT",
+                "description": "Live plants and other floricultural products, including bulbs, cotton, roots and the like, cut flowers and ornamental foliage"
+            },
+            "comment": "Tabel I prov. a.48: floricultural products (bulbs, flowers, plants and tree nursery products)"
+        },
+        {
+            "memberState": "NL",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 9
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "2201 90 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "2853 90 10",
+                        "description": "Distilled or conductivity water and water of similar purity"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "SUPPLY_WATER",
+                "description": "Supply of water"
+            },
+            "comment": "Tabel I prov. a.28: including water supplied via the public mains network; distilled water; warm water; and 'other water' (surface water not suitable for human consumption but usable for non-consumptive purposes such as rinsing activities or sprinkling crops).\nExcluded: demineralized, deironed and softened water; river water and sea water (2501 00 10) whether or not intended for scientific purposes; ice and steam."
         },
         {
             "memberState": "NL",
@@ -1926,74 +1994,6 @@
                 "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
             },
             "comment": "Tabel I prov. a.36 and b.1: aids that are usually used for the subcutaneous administration of insulin, with the exception of syringes and needles that are apparently also suitable for other purposes; aids that are usually used for the self-diagnosis of blood sugar levels. \n\nOnly included are the mentioned devices specifically developed for diabetics and offered as such. Generally applicable aids such as individual injection needles and syringes are excluded."
-        },
-        {
-            "memberState": "NL",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 9
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "0601",
-                        "description": "Bulbs, tubers, tuberous roots, corms, crowns and rhizomes, dormant, in growth or in flower; chicory plants and roots other than roots of heading 1212"
-                    },
-                    {
-                        "value": "0602",
-                        "description": "Other live plants (including their roots), cuttings and slips; mushroom spawn"
-                    },
-                    {
-                        "value": "0603",
-                        "description": "Cut flowers and flower buds of a kind suitable for bouquets or for ornamental purposes, fresh, dried, dyed, bleached, impregnated or otherwise prepared"
-                    },
-                    {
-                        "value": "0604 20",
-                        "description": "Fresh"
-                    },
-                    {
-                        "value": "0604 90 11",
-                        "description": "Reindeer moss"
-                    },
-                    {
-                        "value": "0604 90 19",
-                        "description": "Other"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "PLANT",
-                "description": "Live plants and other floricultural products, including bulbs, cotton, roots and the like, cut flowers and ornamental foliage"
-            },
-            "comment": "Tabel I prov. a.48: floricultural products (bulbs, flowers, plants and tree nursery products)"
-        },
-        {
-            "memberState": "NL",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 9
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "2201 90 00",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "2853 90 10",
-                        "description": "Distilled or conductivity water and water of similar purity"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "SUPPLY_WATER",
-                "description": "Supply of water"
-            },
-            "comment": "Tabel I prov. a.28: including water supplied via the public mains network; distilled water; warm water; and 'other water' (surface water not suitable for human consumption but usable for non-consumptive purposes such as rinsing activities or sprinkling crops).\nExcluded: demineralized, deironed and softened water; river water and sea water (2501 00 10) whether or not intended for scientific purposes; ice and steam."
         },
         {
             "memberState": "NL",

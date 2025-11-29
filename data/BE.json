@@ -9,6 +9,82 @@
                 "value": 0
             },
             "situationOn": "2025-07-29+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "3001 90 20",
+                        "description": "Of human origin"
+                    },
+                    {
+                        "value": "3002 90 10",
+                        "description": "Human blood"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "PHARMACEUTICAL_PRODUCTS",
+                "description": "Pharmaceutical products of a kind normally used for health care, prevention of illness and as treatment for medical and veterinary purposes, including products used for contraception and sanitary protection"
+            },
+            "comment": "Article 44, § 2, 1ter of the Belgian VAT Code for the supply of human organs and human blood"
+        },
+        {
+            "memberState": "BE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "EXEMPTED",
+                "value": 0
+            },
+            "situationOn": "2025-07-29+02:00",
+            "cnCodes": {
+                "code": {
+                    "value": "4902",
+                    "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
+                }
+            },
+            "category": {
+                "identifier": "LOAN_LIBRARIES",
+                "description": "Supply, including on loan by libraries, of books, newspapers and periodicals either on physical means of support or supplied electronically or both (including brochures, leaflets and similar printed matter, children's picture, drawing or colouring books, music printed or in manuscript form, maps and hydrographic or similar charts), other than publications wholly or predominantly devoted to advertising and other than publications wholly or predominantly consisting of video content or audible music."
+            },
+            "comment": "Exemption with deduction right - Newspapers and some periodical publications under the conditions provided for in Royal Decree N° 20, Table C, category I  (on paper and digital) and that do not fall under the mentioned exceptions\nThe reduced rate only applies for those goods in 4902"
+        },
+        {
+            "memberState": "BE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "EXEMPTED",
+                "value": 0
+            },
+            "situationOn": "2025-07-29+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "4907 00 10",
+                        "description": "Postage, revenue and similar stamps"
+                    },
+                    {
+                        "value": "4907 00 30",
+                        "description": "Banknotes"
+                    },
+                    {
+                        "value": "4907 00 90",
+                        "description": "Other"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "LOAN_LIBRARIES",
+                "description": "Supply, including on loan by libraries, of books, newspapers and periodicals either on physical means of support or supplied electronically or both (including brochures, leaflets and similar printed matter, children's picture, drawing or colouring books, music printed or in manuscript form, maps and hydrographic or similar charts), other than publications wholly or predominantly devoted to advertising and other than publications wholly or predominantly consisting of video content or audible music."
+            },
+            "comment": "Article 44, § 3, 12° of the Belgian VAT Code, article 44, § 3, 9° of the Belgian VAT Code and article 44, § 3, 10° of the Belgian VAT Code\n\nThe exemptions respectively only applies to:\n- deliveries, at face value, of postage stamps with a franking value within the country, fiscal stamps and other similar stamps in 4907 0010\n- which are legal tender in the issuing country at the time of importation in 4907 0030\n- securities in 4907 0090 \nin the context above"
+        },
+        {
+            "memberState": "BE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "EXEMPTED",
+                "value": 0
+            },
+            "situationOn": "2025-07-29+02:00",
             "cpaCodes": {
                 "code": [
                     {
@@ -343,6 +419,78 @@
             "memberState": "BE",
             "type": "REDUCED",
             "rate": {
+                "type": "REDUCED_RATE",
+                "value": 6
+            },
+            "situationOn": "2025-07-29+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "0106 90 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "4201 00 00",
+                        "description": "Saddlery and harness for any animal (including traces, leads, knee pads, muzzles, saddle-cloths, saddlebags, dog coats and the like), of any material"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "MEDICAL_EQUIPMENT",
+                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
+            },
+            "comment": "Royal Decree N° 20, Table A, category  XXIII, N° 9 \nThe reduced rate only applies for:\n- 0106 1900 if assistance dogs that assist persons with disabilities or illness and are trained in an assistance dog school recognized by the competent authority and equipment specially designed for service dogs\n- 4201 0000 equipment specially designed for those dogs"
+        },
+        {
+            "memberState": "BE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 6
+            },
+            "situationOn": "2025-07-29+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "0301",
+                        "description": "Live fish"
+                    },
+                    {
+                        "value": "0302",
+                        "description": "Fish, fresh or chilled, excluding fish fillets and other fish meat of heading 0304"
+                    },
+                    {
+                        "value": "0303",
+                        "description": "Fish, frozen, excluding fish fillets and other fish meat of heading 0304"
+                    },
+                    {
+                        "value": "0304",
+                        "description": "Fish fillets and other fish meat (whether or not minced), fresh, chilled or frozen"
+                    },
+                    {
+                        "value": "0305",
+                        "description": "Fish, dried, salted or in brine; smoked fish, whether or not cooked before or during the smoking process"
+                    },
+                    {
+                        "value": "0306",
+                        "description": "Crustaceans, whether in shell or not, live, fresh, chilled, frozen, dried, salted or in brine; smoked crustaceans, whether in shell or not, whether or not cooked before or during the smoking process; crustaceans, in shell, cooked by steaming or by boiling in water, whether or not chilled, frozen, dried, salted or in brine"
+                    },
+                    {
+                        "value": "0307",
+                        "description": "Molluscs, whether in shell or not, live, fresh, chilled, frozen, dried, salted or in brine; smoked molluscs, whether in shell or not, whether or not cooked before or during the smoking process"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "FOODSTUFFS",
+                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
+            },
+            "comment": "Royal Decree N° 20, Table A, category III fish, crustaceans, shellfish and mollusks for human consumption, excepted:\n-ornamental fish in 0301 11, 0301 19\n-crawfish 0306 11, 0306 31, 0306 91, lobsters 0306 12, 0306 32, 0306 92, crabs 0306 14, 0306 33, 0306 93, crayfish 0306 19 10, 0306 39 10, 0306 99 10 and oysters 0307 11, 0307 12, 0307 19, fresh (both live and dead), cooked in water, chilled, frozen, dried, salted, in brine, whether or not shelled or scalloped"
+        },
+        {
+            "memberState": "BE",
+            "type": "REDUCED",
+            "rate": {
                 "type": "EXEMPTED",
                 "value": 0
             },
@@ -369,77 +517,161 @@
             "memberState": "BE",
             "type": "REDUCED",
             "rate": {
-                "type": "EXEMPTED",
-                "value": 0
+                "type": "REDUCED_RATE",
+                "value": 6
             },
             "situationOn": "2025-07-29+02:00",
-            "cnCodes": {
+            "cpaCodes": {
                 "code": [
                     {
-                        "value": "3001 90 20",
-                        "description": "Of human origin"
+                        "value": "41.00.1",
+                        "description": "Residential buildings"
                     },
                     {
-                        "value": "3002 90 10",
-                        "description": "Human blood"
+                        "value": "41.00.3",
+                        "description": "Construction works for residential buildings"
+                    },
+                    {
+                        "value": "43.11",
+                        "description": "Demolition works"
+                    },
+                    {
+                        "value": "43.2",
+                        "description": "Electrical, plumbing and other construction installation works"
+                    },
+                    {
+                        "value": "43.3",
+                        "description": "Building completion and finishing works"
+                    },
+                    {
+                        "value": "43.9",
+                        "description": "Other specialised construction works"
                     }
                 ]
             },
             "category": {
-                "identifier": "PHARMACEUTICAL_PRODUCTS",
-                "description": "Pharmaceutical products of a kind normally used for health care, prevention of illness and as treatment for medical and veterinary purposes, including products used for contraception and sanitary protection"
+                "identifier": "CONSTRUCTION",
+                "description": "Supply and construction"
             },
-            "comment": "Article 44, § 2, 1ter of the Belgian VAT Code for the supply of human organs and human blood"
+            "comment": "Under the conditions provided for in Royal Decree N° 20, Table A, categories XXXII, XXXIII, XXXVI, XXXVII and that do not fall under the mentioned exceptions (such as cleaning services (81.22.11), garden maintenance (81.30.11), …)\n\nThe reduced rate only applies to 41.00.1, 41.00.3, 43.2, 43.3, 43.9, 43.11 in that context"
         },
         {
             "memberState": "BE",
             "type": "REDUCED",
             "rate": {
-                "type": "EXEMPTED",
-                "value": 0
+                "type": "REDUCED_RATE",
+                "value": 6
             },
             "situationOn": "2025-07-29+02:00",
-            "cnCodes": {
-                "code": {
-                    "value": "4902",
-                    "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
-                }
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "41.00.1",
+                        "description": "Residential buildings"
+                    },
+                    {
+                        "value": "41.00.3",
+                        "description": "Construction works for residential buildings"
+                    },
+                    {
+                        "value": "43.2",
+                        "description": "Electrical, plumbing and other construction installation works"
+                    },
+                    {
+                        "value": "43.3",
+                        "description": "Building completion and finishing works"
+                    },
+                    {
+                        "value": "43.9",
+                        "description": "Other specialised construction works"
+                    }
+                ]
             },
             "category": {
-                "identifier": "LOAN_LIBRARIES",
-                "description": "Supply, including on loan by libraries, of books, newspapers and periodicals either on physical means of support or supplied electronically or both (including brochures, leaflets and similar printed matter, children's picture, drawing or colouring books, music printed or in manuscript form, maps and hydrographic or similar charts), other than publications wholly or predominantly devoted to advertising and other than publications wholly or predominantly consisting of video content or audible music."
+                "identifier": "RENOVATION",
+                "description": "Renovation, alteration and repair"
             },
-            "comment": "Exemption with deduction right - Newspapers and some periodical publications under the conditions provided for in Royal Decree N° 20, Table C, category I  (on paper and digital) and that do not fall under the mentioned exceptions\nThe reduced rate only applies for those goods in 4902"
+            "comment": "Renovation of private dwellings of more than 10 years old – under the conditions provided for in Royal Decree No. 20, Table A, category XXXI, and that do not fall under the mentioned exceptions (such as cleaning services (81.22.11), garden maintenance (81.30.11), central heating systems that use fossil fuels, including the burners and the control and monitoring devices connected to such systems,...). The reduced rate only applies to 41.00.1, 41.00.3, 43.2, 43.3, 43.9 in that context."
         },
         {
             "memberState": "BE",
             "type": "REDUCED",
             "rate": {
-                "type": "EXEMPTED",
-                "value": 0
+                "type": "REDUCED_RATE",
+                "value": 6
             },
             "situationOn": "2025-07-29+02:00",
-            "cnCodes": {
+            "cpaCodes": {
                 "code": [
                     {
-                        "value": "4907 00 10",
-                        "description": "Postage, revenue and similar stamps"
+                        "value": "41.00.1",
+                        "description": "Residential buildings"
                     },
                     {
-                        "value": "4907 00 30",
-                        "description": "Banknotes"
+                        "value": "41.00.3",
+                        "description": "Construction works for residential buildings"
                     },
                     {
-                        "value": "4907 00 90",
-                        "description": "Other"
+                        "value": "43.2",
+                        "description": "Electrical, plumbing and other construction installation works"
+                    },
+                    {
+                        "value": "43.3",
+                        "description": "Building completion and finishing works"
+                    },
+                    {
+                        "value": "43.9",
+                        "description": "Other specialised construction works"
+                    },
+                    {
+                        "value": "81.30.11",
+                        "description": "Home garden maintenance"
                     }
                 ]
             },
             "category": {
-                "identifier": "LOAN_LIBRARIES",
-                "description": "Supply, including on loan by libraries, of books, newspapers and periodicals either on physical means of support or supplied electronically or both (including brochures, leaflets and similar printed matter, children's picture, drawing or colouring books, music printed or in manuscript form, maps and hydrographic or similar charts), other than publications wholly or predominantly devoted to advertising and other than publications wholly or predominantly consisting of video content or audible music."
+                "identifier": "PRIVATE_DWELLINGS",
+                "description": "The renovation and repair of private dwellings, excluding materials which account for a significant part of the value of the service supplied"
             },
-            "comment": "Article 44, § 3, 12° of the Belgian VAT Code, article 44, § 3, 9° of the Belgian VAT Code and article 44, § 3, 10° of the Belgian VAT Code\n\nThe exemptions respectively only applies to:\n- deliveries, at face value, of postage stamps with a franking value within the country, fiscal stamps and other similar stamps in 4907 0010\n- which are legal tender in the issuing country at the time of importation in 4907 0030\n- securities in 4907 0090 \nin the context above"
+            "comment": "Supply, renovation and leasing of building used for school and supervision of schoolchildren - under the conditions provided for in Royal Decree N° 20, Table A, category XL and which do not fall under the mentioned exceptions (such as cleaning services (81.22.11), …). Garden maintenance (81.30.11) is not excluded contrary to what is mentioned above. The reduced rate only applies to 41.00.1, 41.00.3, 43.2, 43.3, 43.9 in that context"
+        },
+        {
+            "memberState": "BE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 6
+            },
+            "situationOn": "2025-07-29+02:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "49.1",
+                        "description": "Passenger rail transport services"
+                    },
+                    {
+                        "value": "49.3",
+                        "description": "Other passenger land transport services"
+                    },
+                    {
+                        "value": "50.3",
+                        "description": "Inland passenger water transport services"
+                    },
+                    {
+                        "value": "51.10.11",
+                        "description": "Domestic scheduled air transport services of passengers"
+                    },
+                    {
+                        "value": "51.10.12",
+                        "description": "Domestic non-scheduled air transport services of passengers, except for sightseeing"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "TRANSPORT_PASSENGERS",
+                "description": "Transport of passengers and their accompanying luggage"
+            },
+            "comment": "Other transport of passengers as well as their accompanying unchecked luggage and animals - Royal Decree N° 20, Table A, category XXV"
         },
         {
             "memberState": "BE",
@@ -498,56 +730,6 @@
                 "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
             },
             "comment": "Royal Decree N° 20, Table A, cat. X (…)\nThe reduced rate only applies for:\n- products intended for sale for oral human consumption other than beverages in 2936, 3006 6000\n- for the manufacture of foodstuffs in 3002 9050\n- for oral human consumption in 3306\n- proteins\/gelatin for food in 3502 1990 and 3503 0010\n- some semi-finished products for the preparation of products for human consumption 3507 9090\n- artif. sweeteners for human consumption in 3824 6091"
-        },
-        {
-            "memberState": "BE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 6
-            },
-            "situationOn": "2025-07-29+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "3002 90 50",
-                        "description": "Cultures of micro-organisms"
-                    },
-                    {
-                        "value": "3004",
-                        "description": "Medicaments (excluding goods of heading 3002, 3005 or 3006) consisting of mixed or unmixed products for therapeutic or prophylactic uses, put up in measured doses (including those in the form of transdermal administration systems) or in forms or packings for retail sale"
-                    },
-                    {
-                        "value": "3005",
-                        "description": "Wadding, gauze, bandages and similar articles (for example, dressings, adhesive plasters, poultices), impregnated or coated with pharmaceutical substances or put up in forms or packings for retail sale for medical, surgical, dental or veterinary purposes"
-                    },
-                    {
-                        "value": "3006 40 00",
-                        "description": "Dental cements and other dental fillings; bone reconstruction cements"
-                    },
-                    {
-                        "value": "3006 50 00",
-                        "description": "First-aid boxes and kits"
-                    },
-                    {
-                        "value": "3006 60 00",
-                        "description": "Chemical contraceptive preparations based on hormones, on other products of heading 2937 or on spermicides"
-                    },
-                    {
-                        "value": "3304 99 00",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "4014 10 00",
-                        "description": "Sheath contraceptives"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "PHARMACEUTICAL_PRODUCTS",
-                "description": "Pharmaceutical products of a kind normally used for health care, prevention of illness and as treatment for medical and veterinary purposes, including products used for contraception and sanitary protection"
-            },
-            "comment": "Royal Decree N° 20, Table A, category XVII\nThe reduced rate only applies to:\n- products offered for sale for oral consumption by humans, excluding beverages: 3002 9050, 3004, 3006 6000\n- bone cements containing antibiotics having an action accessory to that of the device: 3006 4000\n- sterile viscoelastic substances strictly intended for human or veterinary medical or surgical use: 3304 99"
         },
         {
             "memberState": "BE",
@@ -683,308 +865,6 @@
                 "value": 6
             },
             "situationOn": "2025-07-29+02:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "41.00.1",
-                        "description": "Residential buildings"
-                    },
-                    {
-                        "value": "41.00.3",
-                        "description": "Construction works for residential buildings"
-                    },
-                    {
-                        "value": "43.2",
-                        "description": "Electrical, plumbing and other construction installation works"
-                    },
-                    {
-                        "value": "43.3",
-                        "description": "Building completion and finishing works"
-                    },
-                    {
-                        "value": "43.9",
-                        "description": "Other specialised construction works"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "RENOVATION",
-                "description": "Renovation, alteration and repair"
-            },
-            "comment": "Renovation of private dwellings of more than 10 years old – under the conditions provided for in Royal Decree No. 20, Table A, category XXXI, and that do not fall under the mentioned exceptions (such as cleaning services (81.22.11), garden maintenance (81.30.11), central heating systems that use fossil fuels, including the burners and the control and monitoring devices connected to such systems,...). The reduced rate only applies to 41.00.1, 41.00.3, 43.2, 43.3, 43.9 in that context."
-        },
-        {
-            "memberState": "BE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 6
-            },
-            "situationOn": "2025-07-29+02:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "41.00.1",
-                        "description": "Residential buildings"
-                    },
-                    {
-                        "value": "41.00.3",
-                        "description": "Construction works for residential buildings"
-                    },
-                    {
-                        "value": "43.2",
-                        "description": "Electrical, plumbing and other construction installation works"
-                    },
-                    {
-                        "value": "43.3",
-                        "description": "Building completion and finishing works"
-                    },
-                    {
-                        "value": "43.9",
-                        "description": "Other specialised construction works"
-                    },
-                    {
-                        "value": "81.30.11",
-                        "description": "Home garden maintenance"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "PRIVATE_DWELLINGS",
-                "description": "The renovation and repair of private dwellings, excluding materials which account for a significant part of the value of the service supplied"
-            },
-            "comment": "Supply, renovation and leasing of building used for school and supervision of schoolchildren - under the conditions provided for in Royal Decree N° 20, Table A, category XL and which do not fall under the mentioned exceptions (such as cleaning services (81.22.11), …). Garden maintenance (81.30.11) is not excluded contrary to what is mentioned above. The reduced rate only applies to 41.00.1, 41.00.3, 43.2, 43.3, 43.9 in that context"
-        },
-        {
-            "memberState": "BE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 6
-            },
-            "situationOn": "2025-07-29+02:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "41.00.1",
-                        "description": "Residential buildings"
-                    },
-                    {
-                        "value": "41.00.3",
-                        "description": "Construction works for residential buildings"
-                    },
-                    {
-                        "value": "43.11",
-                        "description": "Demolition works"
-                    },
-                    {
-                        "value": "43.2",
-                        "description": "Electrical, plumbing and other construction installation works"
-                    },
-                    {
-                        "value": "43.3",
-                        "description": "Building completion and finishing works"
-                    },
-                    {
-                        "value": "43.9",
-                        "description": "Other specialised construction works"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "CONSTRUCTION",
-                "description": "Supply and construction"
-            },
-            "comment": "Under the conditions provided for in Royal Decree N° 20, Table A, categories XXXII, XXXIII, XXXVI, XXXVII and that do not fall under the mentioned exceptions (such as cleaning services (81.22.11), garden maintenance (81.30.11), …)\n\nThe reduced rate only applies to 41.00.1, 41.00.3, 43.2, 43.3, 43.9, 43.11 in that context"
-        },
-        {
-            "memberState": "BE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 6
-            },
-            "situationOn": "2025-07-29+02:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "49.1",
-                        "description": "Passenger rail transport services"
-                    },
-                    {
-                        "value": "49.3",
-                        "description": "Other passenger land transport services"
-                    },
-                    {
-                        "value": "50.3",
-                        "description": "Inland passenger water transport services"
-                    },
-                    {
-                        "value": "51.10.11",
-                        "description": "Domestic scheduled air transport services of passengers"
-                    },
-                    {
-                        "value": "51.10.12",
-                        "description": "Domestic non-scheduled air transport services of passengers, except for sightseeing"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "TRANSPORT_PASSENGERS",
-                "description": "Transport of passengers and their accompanying luggage"
-            },
-            "comment": "Other transport of passengers as well as their accompanying unchecked luggage and animals - Royal Decree N° 20, Table A, category XXV"
-        },
-        {
-            "memberState": "BE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 6
-            },
-            "situationOn": "2025-07-29+02:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "55.10",
-                        "description": "Hotel and similar accommodation services"
-                    },
-                    {
-                        "value": "55.30.11",
-                        "description": "Camping ground services"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "ACCOMMODATION",
-                "description": "Accommodation provided in hotels and similar establishments, including the provision of holiday accommodation and the letting of places on camping or caravan sites"
-            },
-            "comment": "Royal Decree N° 20, Table A, category XXX"
-        },
-        {
-            "memberState": "BE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 6
-            },
-            "situationOn": "2025-07-29+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "4901",
-                        "description": "Printed books, brochures, leaflets and similar printed matter, whether or not in single sheets"
-                    },
-                    {
-                        "value": "4902",
-                        "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
-                    },
-                    {
-                        "value": "4903 00 00",
-                        "description": "Children's picture, drawing or colouring books"
-                    },
-                    {
-                        "value": "4904 00 00",
-                        "description": "Music, printed or in manuscript, whether or not bound or illustrated"
-                    },
-                    {
-                        "value": "4911 10 10",
-                        "description": "Commercial catalogues"
-                    },
-                    {
-                        "value": "4911 10 90",
-                        "description": "Other"
-                    }
-                ]
-            },
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "58.11.3",
-                        "description": "Audio books"
-                    },
-                    {
-                        "value": "58.13.2",
-                        "description": "Online journals and periodicals"
-                    },
-                    {
-                        "value": "58.14.2",
-                        "description": "On-line journals and periodicals"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "LOAN_LIBRARIES",
-                "description": "Supply, including on loan by libraries, of books, newspapers and periodicals either on physical means of support or supplied electronically or both (including brochures, leaflets and similar printed matter, children's picture, drawing or colouring books, music printed or in manuscript form, maps and hydrographic or similar charts), other than publications wholly or predominantly devoted to advertising and other than publications wholly or predominantly consisting of video content or audible music."
-            },
-            "comment": "Newspapers, periodicals and books (digital and on paper) - Royal Decree N° 20, Table A, category XIX, excluding publications consisting exclusively or mainly of advertising material and publications consisting exclusively or mainly of video content or listenable music"
-        },
-        {
-            "memberState": "BE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 6
-            },
-            "situationOn": "2025-07-29+02:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "58.11.6",
-                        "description": "Licensing services of books"
-                    },
-                    {
-                        "value": "58.12.3",
-                        "description": "Advertising space in newspapers"
-                    },
-                    {
-                        "value": "58.14.4",
-                        "description": "Licensing services for journals and periodicals"
-                    },
-                    {
-                        "value": "58.19.30",
-                        "description": "Licensing services of other printed matter"
-                    },
-                    {
-                        "value": "59.13.11",
-                        "description": "Licensing services for film rights and their revenues"
-                    },
-                    {
-                        "value": "59.20",
-                        "description": "Sound recording and music publishing services"
-                    },
-                    {
-                        "value": "60.10.12",
-                        "description": "Radio broadcasting originals"
-                    },
-                    {
-                        "value": "60.2",
-                        "description": "Television programming, broadcasting and video distribution services"
-                    },
-                    {
-                        "value": "74.3",
-                        "description": "Translation and interpretation services"
-                    },
-                    {
-                        "value": "77.40.1",
-                        "description": "Licensing services for the right to use intellectual property and similar products, except copyrighted works"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "WRITERS_SERVICES",
-                "description": "Supply of services by writers, composers and performing artists, or of the royalties due to them"
-            },
-            "comment": "The transfer of intellectual property rights according to Royal Decree N° 20, Table A, category XXIX, 1° with the exception of the supply of advertising services (59.11.3) and the transfer and licensing of intellectual property rights on computer programs (58.29.50). The reduced rate only applies to 58.11.6, 58.12.3, 58.14.4, 58.19.30, 59.13.11, 59.20, 60.10.12, 60.2, 74.3, 77.40.1 in that context."
-        },
-        {
-            "memberState": "BE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 6
-            },
-            "situationOn": "2025-07-29+02:00",
             "cnCodes": {
                 "code": [
                     {
@@ -1034,20 +914,44 @@
             "cnCodes": {
                 "code": [
                     {
-                        "value": "0106 90 00",
+                        "value": "3002 90 50",
+                        "description": "Cultures of micro-organisms"
+                    },
+                    {
+                        "value": "3004",
+                        "description": "Medicaments (excluding goods of heading 3002, 3005 or 3006) consisting of mixed or unmixed products for therapeutic or prophylactic uses, put up in measured doses (including those in the form of transdermal administration systems) or in forms or packings for retail sale"
+                    },
+                    {
+                        "value": "3005",
+                        "description": "Wadding, gauze, bandages and similar articles (for example, dressings, adhesive plasters, poultices), impregnated or coated with pharmaceutical substances or put up in forms or packings for retail sale for medical, surgical, dental or veterinary purposes"
+                    },
+                    {
+                        "value": "3006 40 00",
+                        "description": "Dental cements and other dental fillings; bone reconstruction cements"
+                    },
+                    {
+                        "value": "3006 50 00",
+                        "description": "First-aid boxes and kits"
+                    },
+                    {
+                        "value": "3006 60 00",
+                        "description": "Chemical contraceptive preparations based on hormones, on other products of heading 2937 or on spermicides"
+                    },
+                    {
+                        "value": "3304 99 00",
                         "description": "Other"
                     },
                     {
-                        "value": "4201 00 00",
-                        "description": "Saddlery and harness for any animal (including traces, leads, knee pads, muzzles, saddle-cloths, saddlebags, dog coats and the like), of any material"
+                        "value": "4014 10 00",
+                        "description": "Sheath contraceptives"
                     }
                 ]
             },
             "category": {
-                "identifier": "MEDICAL_EQUIPMENT",
-                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
+                "identifier": "PHARMACEUTICAL_PRODUCTS",
+                "description": "Pharmaceutical products of a kind normally used for health care, prevention of illness and as treatment for medical and veterinary purposes, including products used for contraception and sanitary protection"
             },
-            "comment": "Royal Decree N° 20, Table A, category  XXIII, N° 9 \nThe reduced rate only applies for:\n- 0106 1900 if assistance dogs that assist persons with disabilities or illness and are trained in an assistance dog school recognized by the competent authority and equipment specially designed for service dogs\n- 4201 0000 equipment specially designed for those dogs"
+            "comment": "Royal Decree N° 20, Table A, category XVII\nThe reduced rate only applies to:\n- products offered for sale for oral consumption by humans, excluding beverages: 3002 9050, 3004, 3006 6000\n- bone cements containing antibiotics having an action accessory to that of the device: 3006 4000\n- sterile viscoelastic substances strictly intended for human or veterinary medical or surgical use: 3304 99"
         },
         {
             "memberState": "BE",
@@ -1140,6 +1044,566 @@
                 "description": "Live plants and other floricultural products, including bulbs, cotton, roots and the like, cut flowers and ornamental foliage"
             },
             "comment": "Royal Decree N° 20, Table A, category VII, 11°, 12°, 13°, 14°, 15° - Live plants and other floricultural products, including bulbs, roots and the like, cut flowers and cut foliage (*1, see EXTRA INFO) also when supplied for the designing and the maintenance of gardens; wood"
+        },
+        {
+            "memberState": "BE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 6
+            },
+            "situationOn": "2025-07-29+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "4901",
+                        "description": "Printed books, brochures, leaflets and similar printed matter, whether or not in single sheets"
+                    },
+                    {
+                        "value": "4902",
+                        "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
+                    },
+                    {
+                        "value": "4903 00 00",
+                        "description": "Children's picture, drawing or colouring books"
+                    },
+                    {
+                        "value": "4904 00 00",
+                        "description": "Music, printed or in manuscript, whether or not bound or illustrated"
+                    },
+                    {
+                        "value": "4911 10 10",
+                        "description": "Commercial catalogues"
+                    },
+                    {
+                        "value": "4911 10 90",
+                        "description": "Other"
+                    }
+                ]
+            },
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "58.11.3",
+                        "description": "Audio books"
+                    },
+                    {
+                        "value": "58.13.2",
+                        "description": "Online journals and periodicals"
+                    },
+                    {
+                        "value": "58.14.2",
+                        "description": "On-line journals and periodicals"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "LOAN_LIBRARIES",
+                "description": "Supply, including on loan by libraries, of books, newspapers and periodicals either on physical means of support or supplied electronically or both (including brochures, leaflets and similar printed matter, children's picture, drawing or colouring books, music printed or in manuscript form, maps and hydrographic or similar charts), other than publications wholly or predominantly devoted to advertising and other than publications wholly or predominantly consisting of video content or audible music."
+            },
+            "comment": "Newspapers, periodicals and books (digital and on paper) - Royal Decree N° 20, Table A, category XIX, excluding publications consisting exclusively or mainly of advertising material and publications consisting exclusively or mainly of video content or listenable music"
+        },
+        {
+            "memberState": "BE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 6
+            },
+            "situationOn": "2025-07-29+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "4905 91 00",
+                        "description": "In book form"
+                    },
+                    {
+                        "value": "4905 99 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "4911 91 00",
+                        "description": "Pictures, designs and photographs"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "LOAN_LIBRARIES",
+                "description": "Supply, including on loan by libraries, of books, newspapers and periodicals either on physical means of support or supplied electronically or both (including brochures, leaflets and similar printed matter, children's picture, drawing or colouring books, music printed or in manuscript form, maps and hydrographic or similar charts), other than publications wholly or predominantly devoted to advertising and other than publications wholly or predominantly consisting of video content or audible music."
+            },
+            "comment": "Royal Decree N° 20, Table A, category XIX, (…) The reduced rate only applies for \n-atlases; tourist guides and road maps; maps of cities, municipalities and the like in 4905 9100, 4905 9900\n-images which are clearly intended to be pasted or affixed to albums representing a series of images and in particular indicate the sequence number assigned to them in this album and the name of the series of which they are part and icons to be fixed to a wall to report the presence of an ED in 4911 9100 90"
+        },
+        {
+            "memberState": "BE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 6
+            },
+            "situationOn": "2025-07-29+02:00",
+            "cnCodes": {
+                "code": {
+                    "value": "4911 91 00",
+                    "description": "Pictures, designs and photographs"
+                }
+            },
+            "category": {
+                "identifier": "PHOTOGRAPHS",
+                "description": "Photographs taken by the artist, printed by him or under his supervision, signed and numbered and limited to 30 copies, all sizes and mounts included"
+            },
+            "comment": "excluding utensils - Royal Decree N° 20, Table A, category XXI"
+        },
+        {
+            "memberState": "BE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 6
+            },
+            "situationOn": "2025-07-29+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "57",
+                        "description": "CHAPTER 57 - CARPETS AND OTHER TEXTILE FLOOR COVERINGS"
+                    },
+                    {
+                        "value": "5805 00 00",
+                        "description": "Hand-woven tapestries of the type Gobelins, Flanders, Aubusson, Beauvais and the like, and needle-worked tapestries (for example, petit point, cross stitch), whether or not made up"
+                    },
+                    {
+                        "value": "6304 91 00",
+                        "description": "Knitted or crocheted"
+                    },
+                    {
+                        "value": "6304 92 00",
+                        "description": "Not knitted or crocheted, of cotton"
+                    },
+                    {
+                        "value": "6304 93 00",
+                        "description": "Not knitted or crocheted, of synthetic fibres"
+                    },
+                    {
+                        "value": "6304 99 00",
+                        "description": "Not knitted or crocheted, of other textile materials"
+                    },
+                    {
+                        "value": "9701 90 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "9706 00 00",
+                        "description": "Antiques of an age exceeding 100 years"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "TAPESTRIES",
+                "description": "Tapestries (CN code 5805 00 00) and wall textiles (CN code 6304 00 00) made by hand from original designs provided by artists, provided that there are not more than eight copies of each"
+            },
+            "comment": "Royal Decree N° 20, Table A, category XXI"
+        },
+        {
+            "memberState": "BE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 6
+            },
+            "situationOn": "2025-07-29+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "0308",
+                        "description": "Aquatic invertebrates other than crustaceans and molluscs, live, fresh, chilled, frozen, dried, salted or in brine; smoked aquatic invertebrates other than crustaceans and molluscs, whether or not cooked before or during the smoking process"
+                    },
+                    {
+                        "value": "1603 00",
+                        "description": "Extracts and juices of meat, fish or crustaceans, molluscs or other aquatic invertebrates"
+                    },
+                    {
+                        "value": "1604",
+                        "description": "Prepared or preserved fish; caviar and caviar substitutes prepared from fish eggs"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "FOODSTUFFS",
+                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
+            },
+            "comment": "Royal Decree N° 20, Table A, category III fish, crustaceans, shellfish and mollusks for human consumption, excepted:  \n- other than fish, crustaceans and mollusks for human consumption 0308\n- meat extracts and juices 1603 00\n- caviar 1604 3100\n- caviar substitutes 1604 3200"
+        },
+        {
+            "memberState": "BE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 6
+            },
+            "situationOn": "2025-07-29+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "04",
+                        "description": "CHAPTER 4 - DAIRY PRODUCE; BIRDS' EGGS; NATURAL HONEY; EDIBLE PRODUCTS OF ANIMAL ORIGIN, NOT ELSEWHERE SPECIFIED OR INCLUDED"
+                    },
+                    {
+                        "value": "07",
+                        "description": "CHAPTER 7 - EDIBLE VEGETABLES AND CERTAIN ROOTS AND TUBERS"
+                    },
+                    {
+                        "value": "08",
+                        "description": "CHAPTER 8 - EDIBLE FRUIT AND NUTS; PEEL OF CITRUS FRUIT OR MELONS"
+                    },
+                    {
+                        "value": "10",
+                        "description": "CHAPTER 10 - CEREALS"
+                    },
+                    {
+                        "value": "20",
+                        "description": "CHAPTER 20 - PREPARATIONS OF VEGETABLES, FRUIT, NUTS OR OTHER PARTS OF PLANTS"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "FOODSTUFFS",
+                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
+            },
+            "comment": "Royal Decree N° 20, Table A, category IV, V, VI, VII, excepted:\n- breast milk \n- less than 85% standardized or skimmed milk in 0403 9091- 0403 9099\n- jam, fruit jelly, marmalade etc. in 2007\n- unfermented fruit and vegetable juices in 2009\n- goods offered for sale as food for dogs, cats, caged birds such as parrots and songbirds, for aquarium fish, for hamsters, guinea pigs and other small pets in 1001 1900, 1001 9900, 1002 9000, 1003 9000, 1004 9000, 1005 9000, 1006 1030-1006 4000, ..."
+        },
+        {
+            "memberState": "BE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 6
+            },
+            "situationOn": "2025-07-29+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "0511 10 00",
+                        "description": "Bovine semen"
+                    },
+                    {
+                        "value": "0511 91 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "0511 99 85",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "2835 25 00",
+                        "description": "Calcium hydrogenorthophosphate (dicalcium phosphate)"
+                    },
+                    {
+                        "value": "31",
+                        "description": "CHAPTER 31 - FERTILISERS"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "AGRICULTURAL_PRODUCTION",
+                "description": "Supply of goods and services of a kind normally intended for use in agricultural production but excluding capital goods such as machinery or buildings"
+            },
+            "comment": "Royal Decree n° 20, Table A, category XII:\n- 8° fertilizers: the reduced rate only applies for: containing more than 0.01% iron by weight in 2835 2500; fertilizers in 31\n- 9° animal products used for reproduction in 0511 1000, 0511 9190, 0511 9985"
+        },
+        {
+            "memberState": "BE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 6
+            },
+            "situationOn": "2025-07-29+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "0511 99 85",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "2301",
+                        "description": "Flours, meals and pellets, of meat or meat offal, of fish or of crustaceans, molluscs or other aquatic invertebrates, unfit for human consumption; greaves"
+                    },
+                    {
+                        "value": "2302",
+                        "description": "Bran, sharps and other residues, whether or not in the form of pellets, derived from the sifting, milling or other working of cereals or of leguminous plants"
+                    },
+                    {
+                        "value": "2303",
+                        "description": "Residues of starch manufacture and similar residues, beet-pulp, bagasse and other waste of sugar manufacture, brewing or distilling dregs and waste, whether or not in the form of pellets"
+                    },
+                    {
+                        "value": "2304 00 00",
+                        "description": "Oilcake and other solid residues, whether or not ground or in the form of pellets, resulting from the extraction of soya-bean oil"
+                    },
+                    {
+                        "value": "2305 00 00",
+                        "description": "Oilcake and other solid residues, whether or not ground or in the form of pellets, resulting from the extraction of groundnut oil"
+                    },
+                    {
+                        "value": "2306",
+                        "description": "Oilcake and other solid residues, whether or not ground or in the form of pellets, resulting from the extraction of vegetable or microbial fats or oils, other than those of heading 2304 or 2305"
+                    },
+                    {
+                        "value": "2308 00",
+                        "description": "Vegetable materials and vegetable waste, vegetable residues and by-products, whether or not in the form of pellets, of a kind used in animal feeding, not elsewhere specified or included"
+                    },
+                    {
+                        "value": "2309 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "2501 00 99",
+                        "description": "Other"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "FOODSTUFFS",
+                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
+            },
+            "comment": "Royal Decree N° 20, Table A, category XII, the reduced rate only applies to food for animals and goods not offered for sale as food for dogs, cats, caged birds such as parrots and songbirds, for aquarium fish, for hamsters, guinea pigs and other small pets.\nThe reduced rate applies to agricultural salt - Royal Decree of 10 Sept 1987 in 2501 0099\n(The Royal Decree of 8 Feb 1999 for substances intended for animal food)"
+        },
+        {
+            "memberState": "BE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 6
+            },
+            "situationOn": "2025-07-29+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "6112 41",
+                        "description": "Of synthetic fibres"
+                    },
+                    {
+                        "value": "6112 49",
+                        "description": "Of other textile materials"
+                    },
+                    {
+                        "value": "6211 12 00",
+                        "description": "Women's or girls'"
+                    },
+                    {
+                        "value": "6212 10 90",
+                        "description": "Other"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "MEDICAL_EQUIPMENT",
+                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
+            },
+            "comment": "Royal Decree N° 20, Table A, category  XXIII, N° 14 - bras and bathing suits adapted to external breast prosthetics:\n\nThe reduced rate only applies to bras and bathings suits prescribed by a physician, when they are intended to alleviate the effects of a chronic or long-term illness or of a disability in:\n6112 41, 6112 49, 6211 12 00, 6212 10 90"
+        },
+        {
+            "memberState": "BE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 6
+            },
+            "situationOn": "2025-07-29+02:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "55.10",
+                        "description": "Hotel and similar accommodation services"
+                    },
+                    {
+                        "value": "55.30.11",
+                        "description": "Camping ground services"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "ACCOMMODATION",
+                "description": "Accommodation provided in hotels and similar establishments, including the provision of holiday accommodation and the letting of places on camping or caravan sites"
+            },
+            "comment": "Royal Decree N° 20, Table A, category XXX"
+        },
+        {
+            "memberState": "BE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 6
+            },
+            "situationOn": "2025-07-29+02:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "58.11.6",
+                        "description": "Licensing services of books"
+                    },
+                    {
+                        "value": "58.12.3",
+                        "description": "Advertising space in newspapers"
+                    },
+                    {
+                        "value": "58.14.4",
+                        "description": "Licensing services for journals and periodicals"
+                    },
+                    {
+                        "value": "58.19.30",
+                        "description": "Licensing services of other printed matter"
+                    },
+                    {
+                        "value": "59.13.11",
+                        "description": "Licensing services for film rights and their revenues"
+                    },
+                    {
+                        "value": "59.20",
+                        "description": "Sound recording and music publishing services"
+                    },
+                    {
+                        "value": "60.10.12",
+                        "description": "Radio broadcasting originals"
+                    },
+                    {
+                        "value": "60.2",
+                        "description": "Television programming, broadcasting and video distribution services"
+                    },
+                    {
+                        "value": "74.3",
+                        "description": "Translation and interpretation services"
+                    },
+                    {
+                        "value": "77.40.1",
+                        "description": "Licensing services for the right to use intellectual property and similar products, except copyrighted works"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "WRITERS_SERVICES",
+                "description": "Supply of services by writers, composers and performing artists, or of the royalties due to them"
+            },
+            "comment": "The transfer of intellectual property rights according to Royal Decree N° 20, Table A, category XXIX, 1° with the exception of the supply of advertising services (59.11.3) and the transfer and licensing of intellectual property rights on computer programs (58.29.50). The reduced rate only applies to 58.11.6, 58.12.3, 58.14.4, 58.19.30, 59.13.11, 59.20, 60.10.12, 60.2, 74.3, 77.40.1 in that context."
+        },
+        {
+            "memberState": "BE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 6
+            },
+            "situationOn": "2025-07-29+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "09",
+                        "description": "CHAPTER 9 - COFFEE, TEA, MATÉ AND SPICES"
+                    },
+                    {
+                        "value": "1302 11 00",
+                        "description": "Opium"
+                    },
+                    {
+                        "value": "1302 12 00",
+                        "description": "Of liquorice"
+                    },
+                    {
+                        "value": "1302 13 00",
+                        "description": "Of hops"
+                    },
+                    {
+                        "value": "1302 14 00",
+                        "description": "Of ephedra"
+                    },
+                    {
+                        "value": "1302 19 05",
+                        "description": "Vanilla oleoresin"
+                    },
+                    {
+                        "value": "1302 19 70",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "1302 20 10",
+                        "description": "Dry"
+                    },
+                    {
+                        "value": "1302 20 90",
+                        "description": "Other"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "FOODSTUFFS",
+                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
+            },
+            "comment": "Royal Decree N° 20, Table A, cat. X, excluded beers with an actual alcoholic strength by volume > 0.5% vol. and other drinks with an actual alcoholic strength by volume > 1.2% vol. \nThe reduced rate only applies for: \n- certain products not classified as beverages within the meaning of the exc. in 1302 1100 up to and including 1302 1970 \n- pectic substances for the manufacture of jams and jellies in 1302 2010 15, 1302 2010 69, 1302 2010 79, 1302 2090 20, 1302 2090 69, 1302 2090 99"
+        },
+        {
+            "memberState": "BE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 6
+            },
+            "situationOn": "2025-07-29+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "10",
+                        "description": "CHAPTER 10 - CEREALS"
+                    },
+                    {
+                        "value": "12",
+                        "description": "CHAPTER 12 - OIL SEEDS AND OLEAGINOUS FRUITS; MISCELLANEOUS GRAINS, SEEDS AND FRUIT; INDUSTRIAL OR MEDICINAL PLANTS; STRAW AND FODDER"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "FOODSTUFFS",
+                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
+            },
+            "comment": "Royal Decree N° 20, Table A, category IV, V, VI, VII, excepted: \n- goods offered for sale as food for dogs, cats, caged birds (…) in 1007 9000, 1008 1000, 1008 2900-1008 9000, 1201 9000, 1202 4100-1203 0000, 1204 0090, 1205 1090, 1205 9000, 1206 0091, 1206 0099, 1207 1000, 1207 2900, 1207 3000, 1207 4090, 1207 5090, 1207 6000, 1207 7000, 1207 9190, 1207 9991-1209 2980, 1209 9130, 1209 9180, 1209 9999-1210 2090, 1212 9120, 1212 9200-1214 9090"
+        },
+        {
+            "memberState": "BE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 6
+            },
+            "situationOn": "2025-07-29+02:00",
+            "cnCodes": {
+                "code": {
+                    "value": "11",
+                    "description": "CHAPTER 11 - PRODUCTS OF THE MILLING INDUSTRY; MALT; STARCHES; INULIN; WHEAT GLUTEN"
+                }
+            },
+            "category": {
+                "identifier": "FOODSTUFFS",
+                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
+            },
+            "comment": "Royal Decree N° 20, Table A, category VIII\n\nThe reduced rate only applies to :\n- goods that are not offered for sale as dog food, cats, caged birds such as parrots and songbirds, for aquarium fish, for hamsters, guinea pigs, and other small pets: 1101 0011 - 1107 2000\n- other than goods offered for sale as starch:1108 1100-1108 1990\n- inulin for human consumption :1108 2000\n- wheat gluten for human consumption: 1109"
+        },
+        {
+            "memberState": "BE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 6
+            },
+            "situationOn": "2025-07-29+02:00",
+            "cnCodes": {
+                "code": {
+                    "value": "1211",
+                    "description": "Plants and parts of plants (including seeds and fruits), of a kind used primarily in perfumery, in pharmacy or for insecticidal, fungicidal or similar purposes, fresh, chilled, frozen or dried, whether or not cut, crushed or powdered"
+                }
+            },
+            "category": {
+                "identifier": "AGRICULTURAL_PRODUCTION",
+                "description": "Supply of goods and services of a kind normally intended for use in agricultural production but excluding capital goods such as machinery or buildings"
+            },
+            "comment": "Royal Decree N° 20, Table A, category VII, 7°\nPlants and parts of plants, seeds and fruits, of a kind used primarily in perfumery, in pharmacy or for insecticidal, fungicidal or similar purposes"
         },
         {
             "memberState": "BE",
@@ -1291,56 +1755,6 @@
                 "value": 6
             },
             "situationOn": "2025-07-29+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "4905 91 00",
-                        "description": "In book form"
-                    },
-                    {
-                        "value": "4905 99 00",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "4911 91 00",
-                        "description": "Pictures, designs and photographs"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "LOAN_LIBRARIES",
-                "description": "Supply, including on loan by libraries, of books, newspapers and periodicals either on physical means of support or supplied electronically or both (including brochures, leaflets and similar printed matter, children's picture, drawing or colouring books, music printed or in manuscript form, maps and hydrographic or similar charts), other than publications wholly or predominantly devoted to advertising and other than publications wholly or predominantly consisting of video content or audible music."
-            },
-            "comment": "Royal Decree N° 20, Table A, category XIX, (…) The reduced rate only applies for \n-atlases; tourist guides and road maps; maps of cities, municipalities and the like in 4905 9100, 4905 9900\n-images which are clearly intended to be pasted or affixed to albums representing a series of images and in particular indicate the sequence number assigned to them in this album and the name of the series of which they are part and icons to be fixed to a wall to report the presence of an ED in 4911 9100 90"
-        },
-        {
-            "memberState": "BE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 6
-            },
-            "situationOn": "2025-07-29+02:00",
-            "cnCodes": {
-                "code": {
-                    "value": "4911 91 00",
-                    "description": "Pictures, designs and photographs"
-                }
-            },
-            "category": {
-                "identifier": "PHOTOGRAPHS",
-                "description": "Photographs taken by the artist, printed by him or under his supervision, signed and numbered and limited to 30 copies, all sizes and mounts included"
-            },
-            "comment": "excluding utensils - Royal Decree N° 20, Table A, category XXI"
-        },
-        {
-            "memberState": "BE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 6
-            },
-            "situationOn": "2025-07-29+02:00",
             "cpaCodes": {
                 "code": [
                     {
@@ -1477,63 +1891,55 @@
                 "value": 6
             },
             "situationOn": "2025-07-29+02:00",
-            "category": {
-                "identifier": "SOCIAL_WELLBEING",
-                "description": "Supply of goods and services by organisations recognised as being devoted to social wellbeing by Member States and engaged in welfare or social security work"
-            },
-            "comment": "For supplies of goods received for free, with the exception of the goods referred to in article 1, § 8, of the Belgian VAT Code, of goods listed in article 35 of that Code, of goods subject to the tax referred to in article 44, § 3, 1° of that Code, of goods acquired for use as capital goods, of works of art or collectors' items or antiques,  under the conditions as set out in Royal Decree N° 20, Table A, category XXIIIbis"
-        },
-        {
-            "memberState": "BE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 6
-            },
-            "situationOn": "2025-07-29+02:00",
-            "category": {
-                "identifier": "SOCIAL_WELLBEING",
-                "description": "Supply of goods and services by organisations recognised as being devoted to social wellbeing by Member States and engaged in welfare or social security work"
-            },
-            "comment": "For services, with the exception of the work in immovable property within the meaning of article 19, § 2, second paragraph of the Belgian VAT Code, of the operations listed in category XXXI, § 3, 3° to 6°, of the Table A in the Royal Decree N° 20, as well as the maintenance and repair of the goods listed in article 35 of the Code, including the supply of parts, equipment and accessories used to carry out these works, under the conditions as set out in Royal Decree N° 20, Table A, category XXXV"
-        },
-        {
-            "memberState": "BE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 6
-            },
-            "situationOn": "2025-07-29+02:00",
             "cnCodes": {
                 "code": [
                     {
-                        "value": "0301",
-                        "description": "Live fish"
+                        "value": "1404 90 00",
+                        "description": "Other"
                     },
                     {
-                        "value": "0302",
-                        "description": "Fish, fresh or chilled, excluding fish fillets and other fish meat of heading 0304"
+                        "value": "17",
+                        "description": "CHAPTER 17 - SUGARS AND SUGAR CONFECTIONERY"
                     },
                     {
-                        "value": "0303",
-                        "description": "Fish, frozen, excluding fish fillets and other fish meat of heading 0304"
+                        "value": "18",
+                        "description": "CHAPTER 18 - COCOA AND COCOA PREPARATIONS"
                     },
                     {
-                        "value": "0304",
-                        "description": "Fish fillets and other fish meat (whether or not minced), fresh, chilled or frozen"
+                        "value": "19",
+                        "description": "CHAPTER 19 - PREPARATIONS OF CEREALS, FLOUR, STARCH OR MILK; PASTRYCOOKS' PRODUCTS"
                     },
                     {
-                        "value": "0305",
-                        "description": "Fish, dried, salted or in brine; smoked fish, whether or not cooked before or during the smoking process"
+                        "value": "2007",
+                        "description": "Jams, fruit jellies, marmalades, fruit or nut purée and fruit or nut pastes, obtained by cooking, whether or not containing added sugar or other sweetening matter"
                     },
                     {
-                        "value": "0306",
-                        "description": "Crustaceans, whether in shell or not, live, fresh, chilled, frozen, dried, salted or in brine; smoked crustaceans, whether in shell or not, whether or not cooked before or during the smoking process; crustaceans, in shell, cooked by steaming or by boiling in water, whether or not chilled, frozen, dried, salted or in brine"
+                        "value": "2009",
+                        "description": "Fruit or nut juices (including grape must and coconut water) and vegetable juices, unfermented and not containing added spirit, whether or not containing added sugar or other sweetening matter"
                     },
                     {
-                        "value": "0307",
-                        "description": "Molluscs, whether in shell or not, live, fresh, chilled, frozen, dried, salted or in brine; smoked molluscs, whether in shell or not, whether or not cooked before or during the smoking process"
+                        "value": "21",
+                        "description": "CHAPTER 21 - MISCELLANEOUS EDIBLE PREPARATIONS"
+                    },
+                    {
+                        "value": "2201",
+                        "description": "Waters, including natural or artificial mineral waters and aerated waters, not containing added sugar or other sweetening matter nor flavoured; ice and snow"
+                    },
+                    {
+                        "value": "2202",
+                        "description": "Waters, including mineral waters and aerated waters, containing added sugar or other sweetening matter or flavoured, and other non-alcoholic beverages, not including fruit, nut or vegetable juices of heading 2009"
+                    },
+                    {
+                        "value": "2204 30 92",
+                        "description": "Concentrated"
+                    },
+                    {
+                        "value": "2204 30 96",
+                        "description": "Concentrated"
+                    },
+                    {
+                        "value": "2209 00",
+                        "description": "Vinegar and substitutes for vinegar obtained from acetic acid"
                     }
                 ]
             },
@@ -1541,511 +1947,7 @@
                 "identifier": "FOODSTUFFS",
                 "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
             },
-            "comment": "Royal Decree N° 20, Table A, category III fish, crustaceans, shellfish and mollusks for human consumption, excepted:\n-ornamental fish in 0301 11, 0301 19\n-crawfish 0306 11, 0306 31, 0306 91, lobsters 0306 12, 0306 32, 0306 92, crabs 0306 14, 0306 33, 0306 93, crayfish 0306 19 10, 0306 39 10, 0306 99 10 and oysters 0307 11, 0307 12, 0307 19, fresh (both live and dead), cooked in water, chilled, frozen, dried, salted, in brine, whether or not shelled or scalloped"
-        },
-        {
-            "memberState": "BE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 6
-            },
-            "situationOn": "2025-07-29+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "57",
-                        "description": "CHAPTER 57 - CARPETS AND OTHER TEXTILE FLOOR COVERINGS"
-                    },
-                    {
-                        "value": "5805 00 00",
-                        "description": "Hand-woven tapestries of the type Gobelins, Flanders, Aubusson, Beauvais and the like, and needle-worked tapestries (for example, petit point, cross stitch), whether or not made up"
-                    },
-                    {
-                        "value": "6304 91 00",
-                        "description": "Knitted or crocheted"
-                    },
-                    {
-                        "value": "6304 92 00",
-                        "description": "Not knitted or crocheted, of cotton"
-                    },
-                    {
-                        "value": "6304 93 00",
-                        "description": "Not knitted or crocheted, of synthetic fibres"
-                    },
-                    {
-                        "value": "6304 99 00",
-                        "description": "Not knitted or crocheted, of other textile materials"
-                    },
-                    {
-                        "value": "9701 90 00",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "9706 00 00",
-                        "description": "Antiques of an age exceeding 100 years"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "TAPESTRIES",
-                "description": "Tapestries (CN code 5805 00 00) and wall textiles (CN code 6304 00 00) made by hand from original designs provided by artists, provided that there are not more than eight copies of each"
-            },
-            "comment": "Royal Decree N° 20, Table A, category XXI"
-        },
-        {
-            "memberState": "BE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 6
-            },
-            "situationOn": "2025-07-29+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "6112 41",
-                        "description": "Of synthetic fibres"
-                    },
-                    {
-                        "value": "6112 49",
-                        "description": "Of other textile materials"
-                    },
-                    {
-                        "value": "6211 12 00",
-                        "description": "Women's or girls'"
-                    },
-                    {
-                        "value": "6212 10 90",
-                        "description": "Other"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "MEDICAL_EQUIPMENT",
-                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
-            },
-            "comment": "Royal Decree N° 20, Table A, category  XXIII, N° 14 - bras and bathing suits adapted to external breast prosthetics:\n\nThe reduced rate only applies to bras and bathings suits prescribed by a physician, when they are intended to alleviate the effects of a chronic or long-term illness or of a disability in:\n6112 41, 6112 49, 6211 12 00, 6212 10 90"
-        },
-        {
-            "memberState": "BE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 6
-            },
-            "situationOn": "2025-07-29+02:00",
-            "category": {
-                "identifier": "PLANT",
-                "description": "Live plants and other floricultural products, including bulbs, cotton, roots and the like, cut flowers and ornamental foliage"
-            },
-            "comment": "(*1) EXTRA INFO: *1 The reduced rate only applies to flowerpieces, wreaths, baskets, crates and similar composite articles, when at least 80 % of the cost of which is accounted for by the fresh produce specified in 0603 1100-0603 1980, 0604 2011, 0604 2019, 0604 2040, 0604 2090, 0604 9019. The reduced rate doesn’t apply to 0603 9000, 0604 9011, 0604 9091 and 0604 9099."
-        },
-        {
-            "memberState": "BE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 12
-            },
-            "situationOn": "2025-07-29+02:00",
-            "cnCodes": {
-                "code": {
-                    "value": "1517",
-                    "description": "Margarine; edible mixtures or preparations of animal, vegetable or microbial fats or oils or of fractions of different fats or oils of this chapter, other than edible fats or oils or their fractions of heading 1516"
-                }
-            },
-            "category": {
-                "identifier": "FOODSTUFFS",
-                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
-            },
-            "comment": "Royal Decree N° 20, Table B, category VI \n\nThe reduced rate only applies for margarine in 1517"
-        },
-        {
-            "memberState": "BE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 12
-            },
-            "situationOn": "2025-07-29+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "2509 00 00",
-                        "description": "Chalk"
-                    },
-                    {
-                        "value": "2522 20 00",
-                        "description": "Slaked lime"
-                    },
-                    {
-                        "value": "2530 20 00",
-                        "description": "Kieserite, epsomite (natural magnesium sulphates)"
-                    },
-                    {
-                        "value": "2832 30 00",
-                        "description": "Thiosulphates"
-                    },
-                    {
-                        "value": "2833 21 00",
-                        "description": "Of magnesium"
-                    },
-                    {
-                        "value": "2835 24 00",
-                        "description": "Of potassium"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "AGRICULTURAL_PRODUCTION",
-                "description": "Supply of goods and services of a kind normally intended for use in agricultural production but excluding capital goods such as machinery or buildings"
-            },
-            "comment": "The reduced rate only applies for: \n- products that will apparently be used as fertilisers and mixed with recognised plant protection products for agricultural use (2509 0000, 2522 2000), kieserite (2530 2000) or thiosulfates, monopotassium phosphates and magnesium sulfates (2832 3000, 2833 2100, 2835 2400) used as fertilisers and mixed with recognised plant protection products for agricultural use"
-        },
-        {
-            "memberState": "BE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 12
-            },
-            "situationOn": "2025-07-29+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "31",
-                        "description": "CHAPTER 31 - FERTILISERS"
-                    },
-                    {
-                        "value": "3808",
-                        "description": "Insecticides, rodenticides, fungicides, herbicides, anti-sprouting products and plant-growth regulators, disinfectants and similar products, put up in forms or packings for retail sale or as preparations or articles (for example, sulphur-treated bands, wicks and candles, and fly-papers)"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "AGRICULTURAL_PRODUCTION",
-                "description": "Supply of goods and services of a kind normally intended for use in agricultural production but excluding capital goods such as machinery or buildings"
-            },
-            "comment": "Royal Decree N° 20, Table B, category III: plant protection products  \n\nThe reduced rate only applies for: \n- recognised plant protection products for agriculture use in 31 and 3808"
-        },
-        {
-            "memberState": "BE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 12
-            },
-            "situationOn": "2025-07-29+02:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "41.00.1",
-                        "description": "Residential buildings"
-                    },
-                    {
-                        "value": "41.00.3",
-                        "description": "Construction works for residential buildings"
-                    },
-                    {
-                        "value": "43.2",
-                        "description": "Electrical, plumbing and other construction installation works"
-                    },
-                    {
-                        "value": "43.3",
-                        "description": "Building completion and finishing works"
-                    },
-                    {
-                        "value": "43.9",
-                        "description": "Other specialised construction works"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "HOUSING_PROVISION",
-                "description": "Provision, construction, renovation and alteration of housing, as part of a social policy"
-            },
-            "comment": "Under the conditions provided for in Royal Decree N° 20, Table B, categories X and XI and that do not fall under the mentioned exceptions (such as cleaning services (81.22.11), garden maintenance (81.30.11), …)\n\nThe reduced rate only applies to 41.00.1, 41.00.3, 43.2, 43.3, 43.9 in that context"
-        },
-        {
-            "memberState": "BE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 6
-            },
-            "situationOn": "2025-07-29+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "0308",
-                        "description": "Aquatic invertebrates other than crustaceans and molluscs, live, fresh, chilled, frozen, dried, salted or in brine; smoked aquatic invertebrates other than crustaceans and molluscs, whether or not cooked before or during the smoking process"
-                    },
-                    {
-                        "value": "1603 00",
-                        "description": "Extracts and juices of meat, fish or crustaceans, molluscs or other aquatic invertebrates"
-                    },
-                    {
-                        "value": "1604",
-                        "description": "Prepared or preserved fish; caviar and caviar substitutes prepared from fish eggs"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "FOODSTUFFS",
-                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
-            },
-            "comment": "Royal Decree N° 20, Table A, category III fish, crustaceans, shellfish and mollusks for human consumption, excepted:  \n- other than fish, crustaceans and mollusks for human consumption 0308\n- meat extracts and juices 1603 00\n- caviar 1604 3100\n- caviar substitutes 1604 3200"
-        },
-        {
-            "memberState": "BE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 6
-            },
-            "situationOn": "2025-07-29+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "04",
-                        "description": "CHAPTER 4 - DAIRY PRODUCE; BIRDS' EGGS; NATURAL HONEY; EDIBLE PRODUCTS OF ANIMAL ORIGIN, NOT ELSEWHERE SPECIFIED OR INCLUDED"
-                    },
-                    {
-                        "value": "07",
-                        "description": "CHAPTER 7 - EDIBLE VEGETABLES AND CERTAIN ROOTS AND TUBERS"
-                    },
-                    {
-                        "value": "08",
-                        "description": "CHAPTER 8 - EDIBLE FRUIT AND NUTS; PEEL OF CITRUS FRUIT OR MELONS"
-                    },
-                    {
-                        "value": "10",
-                        "description": "CHAPTER 10 - CEREALS"
-                    },
-                    {
-                        "value": "20",
-                        "description": "CHAPTER 20 - PREPARATIONS OF VEGETABLES, FRUIT, NUTS OR OTHER PARTS OF PLANTS"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "FOODSTUFFS",
-                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
-            },
-            "comment": "Royal Decree N° 20, Table A, category IV, V, VI, VII, excepted:\n- breast milk \n- less than 85% standardized or skimmed milk in 0403 9091- 0403 9099\n- jam, fruit jelly, marmalade etc. in 2007\n- unfermented fruit and vegetable juices in 2009\n- goods offered for sale as food for dogs, cats, caged birds such as parrots and songbirds, for aquarium fish, for hamsters, guinea pigs and other small pets in 1001 1900, 1001 9900, 1002 9000, 1003 9000, 1004 9000, 1005 9000, 1006 1030-1006 4000, ..."
-        },
-        {
-            "memberState": "BE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 12
-            },
-            "situationOn": "2025-07-29+02:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "56.1",
-                        "description": "Restaurant and mobile food serving services"
-                    },
-                    {
-                        "value": "56.2",
-                        "description": "Event catering, contract catering services and other food serving services"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "RESTAURANT",
-                "description": "Restaurant and catering services, it being possible to exclude the supply of (alcoholic and\/or non-alcoholic) beverages"
-            },
-            "comment": "Royal Decree N° 20, Table B, category I excluded the provision of beverages"
-        },
-        {
-            "memberState": "BE",
-            "type": "STANDARD",
-            "rate": {
-                "type": "DEFAULT",
-                "value": 21
-            },
-            "situationOn": "2025-07-29+02:00",
-            "comment": "<p>Article 1, paragraph 1, of the Royal Decree n° 20 of 20 July 1970<\/p>"
-        },
-        {
-            "memberState": "BE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 6
-            },
-            "situationOn": "2025-07-29+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "0511 10 00",
-                        "description": "Bovine semen"
-                    },
-                    {
-                        "value": "0511 91 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "0511 99 85",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "2835 25 00",
-                        "description": "Calcium hydrogenorthophosphate (dicalcium phosphate)"
-                    },
-                    {
-                        "value": "31",
-                        "description": "CHAPTER 31 - FERTILISERS"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "AGRICULTURAL_PRODUCTION",
-                "description": "Supply of goods and services of a kind normally intended for use in agricultural production but excluding capital goods such as machinery or buildings"
-            },
-            "comment": "Royal Decree n° 20, Table A, category XII:\n- 8° fertilizers: the reduced rate only applies for: containing more than 0.01% iron by weight in 2835 2500; fertilizers in 31\n- 9° animal products used for reproduction in 0511 1000, 0511 9190, 0511 9985"
-        },
-        {
-            "memberState": "BE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 6
-            },
-            "situationOn": "2025-07-29+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "0511 99 85",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "2301",
-                        "description": "Flours, meals and pellets, of meat or meat offal, of fish or of crustaceans, molluscs or other aquatic invertebrates, unfit for human consumption; greaves"
-                    },
-                    {
-                        "value": "2302",
-                        "description": "Bran, sharps and other residues, whether or not in the form of pellets, derived from the sifting, milling or other working of cereals or of leguminous plants"
-                    },
-                    {
-                        "value": "2303",
-                        "description": "Residues of starch manufacture and similar residues, beet-pulp, bagasse and other waste of sugar manufacture, brewing or distilling dregs and waste, whether or not in the form of pellets"
-                    },
-                    {
-                        "value": "2304 00 00",
-                        "description": "Oilcake and other solid residues, whether or not ground or in the form of pellets, resulting from the extraction of soya-bean oil"
-                    },
-                    {
-                        "value": "2305 00 00",
-                        "description": "Oilcake and other solid residues, whether or not ground or in the form of pellets, resulting from the extraction of groundnut oil"
-                    },
-                    {
-                        "value": "2306",
-                        "description": "Oilcake and other solid residues, whether or not ground or in the form of pellets, resulting from the extraction of vegetable or microbial fats or oils, other than those of heading 2304 or 2305"
-                    },
-                    {
-                        "value": "2308 00",
-                        "description": "Vegetable materials and vegetable waste, vegetable residues and by-products, whether or not in the form of pellets, of a kind used in animal feeding, not elsewhere specified or included"
-                    },
-                    {
-                        "value": "2309 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "2501 00 99",
-                        "description": "Other"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "FOODSTUFFS",
-                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
-            },
-            "comment": "Royal Decree N° 20, Table A, category XII, the reduced rate only applies to food for animals and goods not offered for sale as food for dogs, cats, caged birds such as parrots and songbirds, for aquarium fish, for hamsters, guinea pigs and other small pets.\nThe reduced rate applies to agricultural salt - Royal Decree of 10 Sept 1987 in 2501 0099\n(The Royal Decree of 8 Feb 1999 for substances intended for animal food)"
-        },
-        {
-            "memberState": "BE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 6
-            },
-            "situationOn": "2025-07-29+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "09",
-                        "description": "CHAPTER 9 - COFFEE, TEA, MATÉ AND SPICES"
-                    },
-                    {
-                        "value": "1302 11 00",
-                        "description": "Opium"
-                    },
-                    {
-                        "value": "1302 12 00",
-                        "description": "Of liquorice"
-                    },
-                    {
-                        "value": "1302 13 00",
-                        "description": "Of hops"
-                    },
-                    {
-                        "value": "1302 14 00",
-                        "description": "Of ephedra"
-                    },
-                    {
-                        "value": "1302 19 05",
-                        "description": "Vanilla oleoresin"
-                    },
-                    {
-                        "value": "1302 19 70",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "1302 20 10",
-                        "description": "Dry"
-                    },
-                    {
-                        "value": "1302 20 90",
-                        "description": "Other"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "FOODSTUFFS",
-                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
-            },
-            "comment": "Royal Decree N° 20, Table A, cat. X, excluded beers with an actual alcoholic strength by volume > 0.5% vol. and other drinks with an actual alcoholic strength by volume > 1.2% vol. \nThe reduced rate only applies for: \n- certain products not classified as beverages within the meaning of the exc. in 1302 1100 up to and including 1302 1970 \n- pectic substances for the manufacture of jams and jellies in 1302 2010 15, 1302 2010 69, 1302 2010 79, 1302 2090 20, 1302 2090 69, 1302 2090 99"
-        },
-        {
-            "memberState": "BE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 6
-            },
-            "situationOn": "2025-07-29+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "10",
-                        "description": "CHAPTER 10 - CEREALS"
-                    },
-                    {
-                        "value": "12",
-                        "description": "CHAPTER 12 - OIL SEEDS AND OLEAGINOUS FRUITS; MISCELLANEOUS GRAINS, SEEDS AND FRUIT; INDUSTRIAL OR MEDICINAL PLANTS; STRAW AND FODDER"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "FOODSTUFFS",
-                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
-            },
-            "comment": "Royal Decree N° 20, Table A, category IV, V, VI, VII, excepted: \n- goods offered for sale as food for dogs, cats, caged birds (…) in 1007 9000, 1008 1000, 1008 2900-1008 9000, 1201 9000, 1202 4100-1203 0000, 1204 0090, 1205 1090, 1205 9000, 1206 0091, 1206 0099, 1207 1000, 1207 2900, 1207 3000, 1207 4090, 1207 5090, 1207 6000, 1207 7000, 1207 9190, 1207 9991-1209 2980, 1209 9130, 1209 9180, 1209 9999-1210 2090, 1212 9120, 1212 9200-1214 9090"
+            "comment": "Royal Decree N° 20, Table A, cat. X (…)\n\nThe reduced rate only applies for:\n- pollen, used excl. for food and other products other than beverages for oral human consumption in 1404 9000\n- other beverages than in the exc. in 21\n- goods not offered for sale as food for dogs, cats, caged birds such as parrots and songbirds, for aquarium fish, for hamsters, guinea pigs and other small pets in 21\n- in the form of crystals (grape sugar or grape honey) in 2204 3092 and 2204 3096"
         },
         {
             "memberState": "BE",
@@ -2057,15 +1959,15 @@
             "situationOn": "2025-07-29+02:00",
             "cnCodes": {
                 "code": {
-                    "value": "11",
-                    "description": "CHAPTER 11 - PRODUCTS OF THE MILLING INDUSTRY; MALT; STARCHES; INULIN; WHEAT GLUTEN"
+                    "value": "15",
+                    "description": "CHAPTER 15 - ANIMAL, VEGETABLE OR MICROBIAL FATS AND OILS AND THEIR CLEAVAGE PRODUCTS; PREPARED EDIBLE FATS; ANIMAL OR VEGETABLE WAXES"
                 }
             },
             "category": {
                 "identifier": "FOODSTUFFS",
                 "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
             },
-            "comment": "Royal Decree N° 20, Table A, category VIII\n\nThe reduced rate only applies to :\n- goods that are not offered for sale as dog food, cats, caged birds such as parrots and songbirds, for aquarium fish, for hamsters, guinea pigs, and other small pets: 1101 0011 - 1107 2000\n- other than goods offered for sale as starch:1108 1100-1108 1990\n- inulin for human consumption :1108 2000\n- wheat gluten for human consumption: 1109"
+            "comment": "Royal Decree N° 20, Table A, category IX, \n\nThe reduced rate does not apply for:\n- 1516 2010\n- margarine in 1517 (12%)\n- 1518 0010 - 1518 0091 - 1518 0099\n- 1522 0099"
         },
         {
             "memberState": "BE",
@@ -2077,15 +1979,15 @@
             "situationOn": "2025-07-29+02:00",
             "cnCodes": {
                 "code": {
-                    "value": "1211",
-                    "description": "Plants and parts of plants (including seeds and fruits), of a kind used primarily in perfumery, in pharmacy or for insecticidal, fungicidal or similar purposes, fresh, chilled, frozen or dried, whether or not cut, crushed or powdered"
+                    "value": "1605",
+                    "description": "Crustaceans, molluscs and other aquatic invertebrates, prepared or preserved"
                 }
             },
             "category": {
-                "identifier": "AGRICULTURAL_PRODUCTION",
-                "description": "Supply of goods and services of a kind normally intended for use in agricultural production but excluding capital goods such as machinery or buildings"
+                "identifier": "FOODSTUFFS",
+                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
             },
-            "comment": "Royal Decree N° 20, Table A, category VII, 7°\nPlants and parts of plants, seeds and fruits, of a kind used primarily in perfumery, in pharmacy or for insecticidal, fungicidal or similar purposes"
+            "comment": "Royal Decree N° 20, Table A, category III fish, crustaceans, shellfish and mollusks for human consumption, excepted:\n- crabs, crawfish, lobsters of the Homarus species, crayfish and oysters, boiled only in water, chilled, frozen, dried, salted or in brine; and preparations and preserves of crabs, crawfish, lobsters of the Homarus species, crayfish and oysters, in their shell, whole or in part in 1605 3010, 1605 3090, 1605 1000, 1605 5100, 1605 4000 30, 1605 4000 4, 1605 4000 70, 1605 5900"
         },
         {
             "memberState": "BE",
@@ -2202,92 +2104,6 @@
             "cnCodes": {
                 "code": [
                     {
-                        "value": "1404 90 00",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "17",
-                        "description": "CHAPTER 17 - SUGARS AND SUGAR CONFECTIONERY"
-                    },
-                    {
-                        "value": "18",
-                        "description": "CHAPTER 18 - COCOA AND COCOA PREPARATIONS"
-                    },
-                    {
-                        "value": "19",
-                        "description": "CHAPTER 19 - PREPARATIONS OF CEREALS, FLOUR, STARCH OR MILK; PASTRYCOOKS' PRODUCTS"
-                    },
-                    {
-                        "value": "2007",
-                        "description": "Jams, fruit jellies, marmalades, fruit or nut purée and fruit or nut pastes, obtained by cooking, whether or not containing added sugar or other sweetening matter"
-                    },
-                    {
-                        "value": "2009",
-                        "description": "Fruit or nut juices (including grape must and coconut water) and vegetable juices, unfermented and not containing added spirit, whether or not containing added sugar or other sweetening matter"
-                    },
-                    {
-                        "value": "21",
-                        "description": "CHAPTER 21 - MISCELLANEOUS EDIBLE PREPARATIONS"
-                    },
-                    {
-                        "value": "2201",
-                        "description": "Waters, including natural or artificial mineral waters and aerated waters, not containing added sugar or other sweetening matter nor flavoured; ice and snow"
-                    },
-                    {
-                        "value": "2202",
-                        "description": "Waters, including mineral waters and aerated waters, containing added sugar or other sweetening matter or flavoured, and other non-alcoholic beverages, not including fruit, nut or vegetable juices of heading 2009"
-                    },
-                    {
-                        "value": "2204 30 92",
-                        "description": "Concentrated"
-                    },
-                    {
-                        "value": "2204 30 96",
-                        "description": "Concentrated"
-                    },
-                    {
-                        "value": "2209 00",
-                        "description": "Vinegar and substitutes for vinegar obtained from acetic acid"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "FOODSTUFFS",
-                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
-            },
-            "comment": "Royal Decree N° 20, Table A, cat. X (…)\n\nThe reduced rate only applies for:\n- pollen, used excl. for food and other products other than beverages for oral human consumption in 1404 9000\n- other beverages than in the exc. in 21\n- goods not offered for sale as food for dogs, cats, caged birds such as parrots and songbirds, for aquarium fish, for hamsters, guinea pigs and other small pets in 21\n- in the form of crystals (grape sugar or grape honey) in 2204 3092 and 2204 3096"
-        },
-        {
-            "memberState": "BE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 6
-            },
-            "situationOn": "2025-07-29+02:00",
-            "cnCodes": {
-                "code": {
-                    "value": "15",
-                    "description": "CHAPTER 15 - ANIMAL, VEGETABLE OR MICROBIAL FATS AND OILS AND THEIR CLEAVAGE PRODUCTS; PREPARED EDIBLE FATS; ANIMAL OR VEGETABLE WAXES"
-                }
-            },
-            "category": {
-                "identifier": "FOODSTUFFS",
-                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
-            },
-            "comment": "Royal Decree N° 20, Table A, category IX, \n\nThe reduced rate does not apply for:\n- 1516 2010\n- margarine in 1517 (12%)\n- 1518 0010 - 1518 0091 - 1518 0099\n- 1522 0099"
-        },
-        {
-            "memberState": "BE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 6
-            },
-            "situationOn": "2025-07-29+02:00",
-            "cnCodes": {
-                "code": [
-                    {
                         "value": "7318",
                         "description": "Screws, bolts, nuts, coach screws, screw hooks, rivets, cotters, cotter pins, washers (including spring washers) and similar articles, of iron or steel"
                     },
@@ -2328,6 +2144,110 @@
                 "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
             },
             "comment": "Royal Decree N° 20, Table A, cat. XXIII, N° 2 - dentures, artificial teeth, eyes,  limbs and the like, hearing aids and other aids for remedying or alleviating defects or ailments, which are held by the patient or are otherwise worn or implanted (1)\nThe reduced rate only applies for:\n- batteries whose packaging clearly indicates that they are offered for sale for a specific use in hearing aids in 8506 10, 8506 30, 8506 40, 8506 5010, 8506 5090 10, 8506 5090 30, 8506 5090 90, 8506 60, 8506 80"
+        },
+        {
+            "memberState": "BE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 6
+            },
+            "situationOn": "2025-07-29+02:00",
+            "category": {
+                "identifier": "SOCIAL_WELLBEING",
+                "description": "Supply of goods and services by organisations recognised as being devoted to social wellbeing by Member States and engaged in welfare or social security work"
+            },
+            "comment": "For supplies of goods received for free, with the exception of the goods referred to in article 1, § 8, of the Belgian VAT Code, of goods listed in article 35 of that Code, of goods subject to the tax referred to in article 44, § 3, 1° of that Code, of goods acquired for use as capital goods, of works of art or collectors' items or antiques,  under the conditions as set out in Royal Decree N° 20, Table A, category XXIIIbis"
+        },
+        {
+            "memberState": "BE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 6
+            },
+            "situationOn": "2025-07-29+02:00",
+            "category": {
+                "identifier": "SOCIAL_WELLBEING",
+                "description": "Supply of goods and services by organisations recognised as being devoted to social wellbeing by Member States and engaged in welfare or social security work"
+            },
+            "comment": "For services, with the exception of the work in immovable property within the meaning of article 19, § 2, second paragraph of the Belgian VAT Code, of the operations listed in category XXXI, § 3, 3° to 6°, of the Table A in the Royal Decree N° 20, as well as the maintenance and repair of the goods listed in article 35 of the Code, including the supply of parts, equipment and accessories used to carry out these works, under the conditions as set out in Royal Decree N° 20, Table A, category XXXV"
+        },
+        {
+            "memberState": "BE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 6
+            },
+            "situationOn": "2025-07-29+02:00",
+            "category": {
+                "identifier": "PLANT",
+                "description": "Live plants and other floricultural products, including bulbs, cotton, roots and the like, cut flowers and ornamental foliage"
+            },
+            "comment": "(*1) EXTRA INFO: *1 The reduced rate only applies to flowerpieces, wreaths, baskets, crates and similar composite articles, when at least 80 % of the cost of which is accounted for by the fresh produce specified in 0603 1100-0603 1980, 0604 2011, 0604 2019, 0604 2040, 0604 2090, 0604 9019. The reduced rate doesn’t apply to 0603 9000, 0604 9011, 0604 9091 and 0604 9099."
+        },
+        {
+            "memberState": "BE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 12
+            },
+            "situationOn": "2025-07-29+02:00",
+            "cnCodes": {
+                "code": {
+                    "value": "1517",
+                    "description": "Margarine; edible mixtures or preparations of animal, vegetable or microbial fats or oils or of fractions of different fats or oils of this chapter, other than edible fats or oils or their fractions of heading 1516"
+                }
+            },
+            "category": {
+                "identifier": "FOODSTUFFS",
+                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
+            },
+            "comment": "Royal Decree N° 20, Table B, category VI \n\nThe reduced rate only applies for margarine in 1517"
+        },
+        {
+            "memberState": "BE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 12
+            },
+            "situationOn": "2025-07-29+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "2509 00 00",
+                        "description": "Chalk"
+                    },
+                    {
+                        "value": "2522 20 00",
+                        "description": "Slaked lime"
+                    },
+                    {
+                        "value": "2530 20 00",
+                        "description": "Kieserite, epsomite (natural magnesium sulphates)"
+                    },
+                    {
+                        "value": "2832 30 00",
+                        "description": "Thiosulphates"
+                    },
+                    {
+                        "value": "2833 21 00",
+                        "description": "Of magnesium"
+                    },
+                    {
+                        "value": "2835 24 00",
+                        "description": "Of potassium"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "AGRICULTURAL_PRODUCTION",
+                "description": "Supply of goods and services of a kind normally intended for use in agricultural production but excluding capital goods such as machinery or buildings"
+            },
+            "comment": "The reduced rate only applies for: \n- products that will apparently be used as fertilisers and mixed with recognised plant protection products for agricultural use (2509 0000, 2522 2000), kieserite (2530 2000) or thiosulfates, monopotassium phosphates and magnesium sulfates (2832 3000, 2833 2100, 2835 2400) used as fertilisers and mixed with recognised plant protection products for agricultural use"
         },
         {
             "memberState": "BE",
@@ -2388,26 +2308,6 @@
             },
             "situationOn": "2025-07-29+02:00",
             "cnCodes": {
-                "code": {
-                    "value": "1605",
-                    "description": "Crustaceans, molluscs and other aquatic invertebrates, prepared or preserved"
-                }
-            },
-            "category": {
-                "identifier": "FOODSTUFFS",
-                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
-            },
-            "comment": "Royal Decree N° 20, Table A, category III fish, crustaceans, shellfish and mollusks for human consumption, excepted:\n- crabs, crawfish, lobsters of the Homarus species, crayfish and oysters, boiled only in water, chilled, frozen, dried, salted or in brine; and preparations and preserves of crabs, crawfish, lobsters of the Homarus species, crayfish and oysters, in their shell, whole or in part in 1605 3010, 1605 3090, 1605 1000, 1605 5100, 1605 4000 30, 1605 4000 4, 1605 4000 70, 1605 5900"
-        },
-        {
-            "memberState": "BE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 6
-            },
-            "situationOn": "2025-07-29+02:00",
-            "cnCodes": {
                 "code": [
                     {
                         "value": "8713",
@@ -2446,6 +2346,96 @@
             "type": "REDUCED",
             "rate": {
                 "type": "REDUCED_RATE",
+                "value": 12
+            },
+            "situationOn": "2025-07-29+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "31",
+                        "description": "CHAPTER 31 - FERTILISERS"
+                    },
+                    {
+                        "value": "3808",
+                        "description": "Insecticides, rodenticides, fungicides, herbicides, anti-sprouting products and plant-growth regulators, disinfectants and similar products, put up in forms or packings for retail sale or as preparations or articles (for example, sulphur-treated bands, wicks and candles, and fly-papers)"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "AGRICULTURAL_PRODUCTION",
+                "description": "Supply of goods and services of a kind normally intended for use in agricultural production but excluding capital goods such as machinery or buildings"
+            },
+            "comment": "Royal Decree N° 20, Table B, category III: plant protection products  \n\nThe reduced rate only applies for: \n- recognised plant protection products for agriculture use in 31 and 3808"
+        },
+        {
+            "memberState": "BE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 12
+            },
+            "situationOn": "2025-07-29+02:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "41.00.1",
+                        "description": "Residential buildings"
+                    },
+                    {
+                        "value": "41.00.3",
+                        "description": "Construction works for residential buildings"
+                    },
+                    {
+                        "value": "43.2",
+                        "description": "Electrical, plumbing and other construction installation works"
+                    },
+                    {
+                        "value": "43.3",
+                        "description": "Building completion and finishing works"
+                    },
+                    {
+                        "value": "43.9",
+                        "description": "Other specialised construction works"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "HOUSING_PROVISION",
+                "description": "Provision, construction, renovation and alteration of housing, as part of a social policy"
+            },
+            "comment": "Under the conditions provided for in Royal Decree N° 20, Table B, categories X and XI and that do not fall under the mentioned exceptions (such as cleaning services (81.22.11), garden maintenance (81.30.11), …)\n\nThe reduced rate only applies to 41.00.1, 41.00.3, 43.2, 43.3, 43.9 in that context"
+        },
+        {
+            "memberState": "BE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 12
+            },
+            "situationOn": "2025-07-29+02:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "56.1",
+                        "description": "Restaurant and mobile food serving services"
+                    },
+                    {
+                        "value": "56.2",
+                        "description": "Event catering, contract catering services and other food serving services"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "RESTAURANT",
+                "description": "Restaurant and catering services, it being possible to exclude the supply of (alcoholic and\/or non-alcoholic) beverages"
+            },
+            "comment": "Royal Decree N° 20, Table B, category I excluded the provision of beverages"
+        },
+        {
+            "memberState": "BE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
                 "value": 6
             },
             "situationOn": "2025-07-29+02:00",
@@ -2474,6 +2464,58 @@
                 "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
             },
             "comment": "Royal Decree N° 20, Table A, cat. X (…)\n\nThe reduced rate only applies for:\n- nutritional supplements and preparations and additives (RD of 2\/8\/1999 on the trade and use of substances intended for animal nutrition) 2309 9010 up to and including 2309 1090\n- sodium bicarbonate offered for sale in a packaging normally reserved for domestic use + only for the preparation of ready meals, pastries or desserts, with exclusion of any other possible use in 2836 3000\n9000"
+        },
+        {
+            "memberState": "BE",
+            "type": "STANDARD",
+            "rate": {
+                "type": "DEFAULT",
+                "value": 21
+            },
+            "situationOn": "2025-07-29+02:00",
+            "comment": "<p>Article 1, paragraph 1, of the Royal Decree n° 20 of 20 July 1970<\/p>"
+        },
+        {
+            "memberState": "BE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 6
+            },
+            "situationOn": "2025-07-29+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "2509 00 00",
+                        "description": "Chalk"
+                    },
+                    {
+                        "value": "2522 20 00",
+                        "description": "Slaked lime"
+                    },
+                    {
+                        "value": "2530 20 00",
+                        "description": "Kieserite, epsomite (natural magnesium sulphates)"
+                    },
+                    {
+                        "value": "2832 30 00",
+                        "description": "Thiosulphates"
+                    },
+                    {
+                        "value": "2833 21 00",
+                        "description": "Of magnesium"
+                    },
+                    {
+                        "value": "2835 24 00",
+                        "description": "Of potassium"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "AGRICULTURAL_PRODUCTION",
+                "description": "Supply of goods and services of a kind normally intended for use in agricultural production but excluding capital goods such as machinery or buildings"
+            },
+            "comment": "Royal Decree n° 20, Table A, category XII:\n- 8° fertilizers: the reduced rate only applies for: products that will apparently be used as fertilisers and will not be mixed with recognised plant protection products for agricultural use in 2509 0000 and 2522 2000; kieserite (2530 2000) or thiosulfates, monopotassium phosphates and magnesium sulfates (2832 3000, 2833 2100, 2835 2400) used as fertilisers and not mixed with recognised plant protection products for agricultural use"
         },
         {
             "memberState": "BE",
@@ -2608,48 +2650,6 @@
                 "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
             },
             "comment": "Royal Decree N° 20, Table A, cat. XXIII, n° 7 to 8 \nThe reduced rate only applies to:\n- (PICC) peripheral insertion central catheters, introd. surgically + for a prolonged period into the human body for the purpose of adm. intravenous medications (chemo, parenteral nutrition, etc.) and samples frequent blood: 9018 3900\n- infusion pumps: 9018 9050\n- glucometers, whether\/not accompanied by their accessories: 9027 8017"
-        },
-        {
-            "memberState": "BE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 6
-            },
-            "situationOn": "2025-07-29+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "2509 00 00",
-                        "description": "Chalk"
-                    },
-                    {
-                        "value": "2522 20 00",
-                        "description": "Slaked lime"
-                    },
-                    {
-                        "value": "2530 20 00",
-                        "description": "Kieserite, epsomite (natural magnesium sulphates)"
-                    },
-                    {
-                        "value": "2832 30 00",
-                        "description": "Thiosulphates"
-                    },
-                    {
-                        "value": "2833 21 00",
-                        "description": "Of magnesium"
-                    },
-                    {
-                        "value": "2835 24 00",
-                        "description": "Of potassium"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "AGRICULTURAL_PRODUCTION",
-                "description": "Supply of goods and services of a kind normally intended for use in agricultural production but excluding capital goods such as machinery or buildings"
-            },
-            "comment": "Royal Decree n° 20, Table A, category XII:\n- 8° fertilizers: the reduced rate only applies for: products that will apparently be used as fertilisers and will not be mixed with recognised plant protection products for agricultural use in 2509 0000 and 2522 2000; kieserite (2530 2000) or thiosulfates, monopotassium phosphates and magnesium sulfates (2832 3000, 2833 2100, 2835 2400) used as fertilisers and not mixed with recognised plant protection products for agricultural use"
         },
         {
             "memberState": "BE",
