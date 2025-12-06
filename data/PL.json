@@ -6,6 +6,250 @@
             "type": "REDUCED",
             "rate": {
                 "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "02",
+                        "description": "CHAPTER 2 - MEAT AND EDIBLE MEAT OFFAL"
+                    },
+                    {
+                        "value": "0301",
+                        "description": "Live fish"
+                    },
+                    {
+                        "value": "0302",
+                        "description": "Fish, fresh or chilled, excluding fish fillets and other fish meat of heading 0304"
+                    },
+                    {
+                        "value": "0303",
+                        "description": "Fish, frozen, excluding fish fillets and other fish meat of heading 0304"
+                    },
+                    {
+                        "value": "0304",
+                        "description": "Fish fillets and other fish meat (whether or not minced), fresh, chilled or frozen"
+                    },
+                    {
+                        "value": "0305",
+                        "description": "Fish, dried, salted or in brine; smoked fish, whether or not cooked before or during the smoking process"
+                    },
+                    {
+                        "value": "04",
+                        "description": "CHAPTER 4 - DAIRY PRODUCE; BIRDS' EGGS; NATURAL HONEY; EDIBLE PRODUCTS OF ANIMAL ORIGIN, NOT ELSEWHERE SPECIFIED OR INCLUDED"
+                    },
+                    {
+                        "value": "0504 00 00",
+                        "description": "Guts, bladders and stomachs of animals (other than fish), whole and pieces thereof, fresh, chilled, frozen, salted, in brine, dried or smoked"
+                    },
+                    {
+                        "value": "07",
+                        "description": "CHAPTER 7 - EDIBLE VEGETABLES AND CERTAIN ROOTS AND TUBERS"
+                    },
+                    {
+                        "value": "08",
+                        "description": "CHAPTER 8 - EDIBLE FRUIT AND NUTS; PEEL OF CITRUS FRUIT OR MELONS"
+                    },
+                    {
+                        "value": "10",
+                        "description": "CHAPTER 10 - CEREALS"
+                    },
+                    {
+                        "value": "11",
+                        "description": "CHAPTER 11 - PRODUCTS OF THE MILLING INDUSTRY; MALT; STARCHES; INULIN; WHEAT GLUTEN"
+                    },
+                    {
+                        "value": "12",
+                        "description": "CHAPTER 12 - OIL SEEDS AND OLEAGINOUS FRUITS; MISCELLANEOUS GRAINS, SEEDS AND FRUIT; INDUSTRIAL OR MEDICINAL PLANTS; STRAW AND FODDER"
+                    },
+                    {
+                        "value": "15",
+                        "description": "CHAPTER 15 - ANIMAL, VEGETABLE OR MICROBIAL FATS AND OILS AND THEIR CLEAVAGE PRODUCTS; PREPARED EDIBLE FATS; ANIMAL OR VEGETABLE WAXES"
+                    },
+                    {
+                        "value": "1601 00",
+                        "description": "Sausages and similar products, of meat, meat offal, blood or insects; food preparations based on these products"
+                    },
+                    {
+                        "value": "1602",
+                        "description": "Other prepared or preserved meat, meat offal, blood or insects"
+                    },
+                    {
+                        "value": "1603 00",
+                        "description": "Extracts and juices of meat, fish or crustaceans, molluscs or other aquatic invertebrates"
+                    },
+                    {
+                        "value": "1604",
+                        "description": "Prepared or preserved fish; caviar and caviar substitutes prepared from fish eggs"
+                    },
+                    {
+                        "value": "19",
+                        "description": "CHAPTER 19 - PREPARATIONS OF CEREALS, FLOUR, STARCH OR MILK; PASTRYCOOKS' PRODUCTS"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "FOODSTUFFS",
+                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
+            },
+            "comment": "Dietary foods for special medical purposes regardless of CN code. As regards CN codes 12: (only for human consumption), 15 (only edible products), 1601-1604 (except for products containing sea food CN 1603 00, caviar CN 1604 31 00, caviar substitutes CN 1604 32 00)"
+        },
+        {
+            "memberState": "PL",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "20",
+                        "description": "CHAPTER 20 - PREPARATIONS OF VEGETABLES, FRUIT, NUTS OR OTHER PARTS OF PLANTS"
+                    },
+                    {
+                        "value": "2104",
+                        "description": "Soups and broths and preparations therefor; homogenised composite food preparations"
+                    },
+                    {
+                        "value": "2105 00",
+                        "description": "Ice cream and other edible ice, whether or not containing cocoa"
+                    },
+                    {
+                        "value": "2106",
+                        "description": "Food preparations not elsewhere specified or included"
+                    },
+                    {
+                        "value": "2202",
+                        "description": "Waters, including mineral waters and aerated waters, containing added sugar or other sweetening matter or flavoured, and other non-alcoholic beverages, not including fruit, nut or vegetable juices of heading 2009"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "FOODSTUFFS",
+                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
+            },
+            "comment": "CONTINUATION OF THE ABOVE INDICATION\/COMMENT\n\nAs regards CN codes: 20 (excluding products with alcohol content over 1,2%), 2106 (only fats of plant and\/or animal products, some kinds of cheese, infant milk and follow-on milk), 2202 (only certain yoghurt, buttermilk not falling under chapter 4 of the CN code and not containg extracts, essences and concentrates of coffee, certain non-alcoholic fruit beverages, certain milk, infant milk and follow-on milk)"
+        },
+        {
+            "memberState": "PL",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "3924 90 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "4014 90 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "9619 00",
+                        "description": "Sanitary towels (pads) and tampons, napkins (diapers), napkin liners and similar articles, of any material"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "PHARMACEUTICAL_PRODUCTS",
+                "description": "Pharmaceutical products of a kind normally used for health care, prevention of illness and as treatment for medical and veterinary purposes, including products used for contraception and sanitary protection"
+            },
+            "comment": "Sanitary towels (pads) and tampons, napkins and napkin liners for babies, and similar articles, of any material, menstrual cups (as of 1 April 2025)"
+        },
+        {
+            "memberState": "PL",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "4901",
+                        "description": "Printed books, brochures, leaflets and similar printed matter, whether or not in single sheets"
+                    },
+                    {
+                        "value": "4903 00 00",
+                        "description": "Children's picture, drawing or colouring books"
+                    },
+                    {
+                        "value": "4904 00 00",
+                        "description": "Music, printed or in manuscript, whether or not bound or illustrated"
+                    },
+                    {
+                        "value": "4905",
+                        "description": "Maps and hydrographic or similar charts of all kinds, including atlases, wall maps, topographical plans and globes, printed"
+                    },
+                    {
+                        "value": "8523",
+                        "description": "Discs, tapes, solid-state non-volatile storage devices, smart cards and other media for the recording of sound or of other phenomena, whether or not recorded, including matrices and masters for the production of discs, but excluding products of Chapter 37"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "LOAN_LIBRARIES",
+                "description": "Supply, including on loan by libraries, of books, newspapers and periodicals either on physical means of support or supplied electronically or both (including brochures, leaflets and similar printed matter, children's picture, drawing or colouring books, music printed or in manuscript form, maps and hydrographic or similar charts), other than publications wholly or predominantly devoted to advertising and other than publications wholly or predominantly consisting of video content or audible music."
+            },
+            "comment": "Books, music scores, maps supplied electronically (other than publications wholly or predominantly devoted to advertising and other than publications wholly or predominantly consisting of video content or audible music) are subject to 5% VAT rate regardless of CPA code.\nAs regards CN codes 4901 (excluding leaflets), 8523 (only books, music scores, maps on physical means of support)"
+        },
+        {
+            "memberState": "PL",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "4902",
+                        "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
+                    },
+                    {
+                        "value": "4911",
+                        "description": "Other printed matter, including printed pictures and photographs"
+                    },
+                    {
+                        "value": "8523",
+                        "description": "Discs, tapes, solid-state non-volatile storage devices, smart cards and other media for the recording of sound or of other phenomena, whether or not recorded, including matrices and masters for the production of discs, but excluding products of Chapter 37"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "PERIODICALS",
+                "description": "Periodicals"
+            },
+            "comment": "As regards CN codes: 4902 (only regional or local periodicals), 4911 (only regional or local yearbooks),  8523 (only regional or local periodicals and yearbooks on physical means of support)"
+        },
+        {
+            "memberState": "PL",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2025-07-01+02:00",
+            "category": {
+                "identifier": "CHILDREN_CAR_SEATS",
+                "description": "Supply of children’s car seats"
+            },
+            "comment": "The Polish VAT rules do not provide for CN codes with respect to those items. Pursuant to Article 41(2a), item 23 of Annex 10 to Act of 11 March 2004 on Goods and Services Tax reduced rate is applied to car seats for children regardless of CN Code."
+        },
+        {
+            "memberState": "PL",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
                 "value": 8
             },
             "situationOn": "2025-07-01+02:00",
@@ -942,250 +1186,6 @@
                 "value": 23
             },
             "situationOn": "2025-07-01+02:00"
-        },
-        {
-            "memberState": "PL",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "02",
-                        "description": "CHAPTER 2 - MEAT AND EDIBLE MEAT OFFAL"
-                    },
-                    {
-                        "value": "0301",
-                        "description": "Live fish"
-                    },
-                    {
-                        "value": "0302",
-                        "description": "Fish, fresh or chilled, excluding fish fillets and other fish meat of heading 0304"
-                    },
-                    {
-                        "value": "0303",
-                        "description": "Fish, frozen, excluding fish fillets and other fish meat of heading 0304"
-                    },
-                    {
-                        "value": "0304",
-                        "description": "Fish fillets and other fish meat (whether or not minced), fresh, chilled or frozen"
-                    },
-                    {
-                        "value": "0305",
-                        "description": "Fish, dried, salted or in brine; smoked fish, whether or not cooked before or during the smoking process"
-                    },
-                    {
-                        "value": "04",
-                        "description": "CHAPTER 4 - DAIRY PRODUCE; BIRDS' EGGS; NATURAL HONEY; EDIBLE PRODUCTS OF ANIMAL ORIGIN, NOT ELSEWHERE SPECIFIED OR INCLUDED"
-                    },
-                    {
-                        "value": "0504 00 00",
-                        "description": "Guts, bladders and stomachs of animals (other than fish), whole and pieces thereof, fresh, chilled, frozen, salted, in brine, dried or smoked"
-                    },
-                    {
-                        "value": "07",
-                        "description": "CHAPTER 7 - EDIBLE VEGETABLES AND CERTAIN ROOTS AND TUBERS"
-                    },
-                    {
-                        "value": "08",
-                        "description": "CHAPTER 8 - EDIBLE FRUIT AND NUTS; PEEL OF CITRUS FRUIT OR MELONS"
-                    },
-                    {
-                        "value": "10",
-                        "description": "CHAPTER 10 - CEREALS"
-                    },
-                    {
-                        "value": "11",
-                        "description": "CHAPTER 11 - PRODUCTS OF THE MILLING INDUSTRY; MALT; STARCHES; INULIN; WHEAT GLUTEN"
-                    },
-                    {
-                        "value": "12",
-                        "description": "CHAPTER 12 - OIL SEEDS AND OLEAGINOUS FRUITS; MISCELLANEOUS GRAINS, SEEDS AND FRUIT; INDUSTRIAL OR MEDICINAL PLANTS; STRAW AND FODDER"
-                    },
-                    {
-                        "value": "15",
-                        "description": "CHAPTER 15 - ANIMAL, VEGETABLE OR MICROBIAL FATS AND OILS AND THEIR CLEAVAGE PRODUCTS; PREPARED EDIBLE FATS; ANIMAL OR VEGETABLE WAXES"
-                    },
-                    {
-                        "value": "1601 00",
-                        "description": "Sausages and similar products, of meat, meat offal, blood or insects; food preparations based on these products"
-                    },
-                    {
-                        "value": "1602",
-                        "description": "Other prepared or preserved meat, meat offal, blood or insects"
-                    },
-                    {
-                        "value": "1603 00",
-                        "description": "Extracts and juices of meat, fish or crustaceans, molluscs or other aquatic invertebrates"
-                    },
-                    {
-                        "value": "1604",
-                        "description": "Prepared or preserved fish; caviar and caviar substitutes prepared from fish eggs"
-                    },
-                    {
-                        "value": "19",
-                        "description": "CHAPTER 19 - PREPARATIONS OF CEREALS, FLOUR, STARCH OR MILK; PASTRYCOOKS' PRODUCTS"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "FOODSTUFFS",
-                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
-            },
-            "comment": "Dietary foods for special medical purposes regardless of CN code. As regards CN codes 12: (only for human consumption), 15 (only edible products), 1601-1604 (except for products containing sea food CN 1603 00, caviar CN 1604 31 00, caviar substitutes CN 1604 32 00)"
-        },
-        {
-            "memberState": "PL",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "20",
-                        "description": "CHAPTER 20 - PREPARATIONS OF VEGETABLES, FRUIT, NUTS OR OTHER PARTS OF PLANTS"
-                    },
-                    {
-                        "value": "2104",
-                        "description": "Soups and broths and preparations therefor; homogenised composite food preparations"
-                    },
-                    {
-                        "value": "2105 00",
-                        "description": "Ice cream and other edible ice, whether or not containing cocoa"
-                    },
-                    {
-                        "value": "2106",
-                        "description": "Food preparations not elsewhere specified or included"
-                    },
-                    {
-                        "value": "2202",
-                        "description": "Waters, including mineral waters and aerated waters, containing added sugar or other sweetening matter or flavoured, and other non-alcoholic beverages, not including fruit, nut or vegetable juices of heading 2009"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "FOODSTUFFS",
-                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
-            },
-            "comment": "CONTINUATION OF THE ABOVE INDICATION\/COMMENT\n\nAs regards CN codes: 20 (excluding products with alcohol content over 1,2%), 2106 (only fats of plant and\/or animal products, some kinds of cheese, infant milk and follow-on milk), 2202 (only certain yoghurt, buttermilk not falling under chapter 4 of the CN code and not containg extracts, essences and concentrates of coffee, certain non-alcoholic fruit beverages, certain milk, infant milk and follow-on milk)"
-        },
-        {
-            "memberState": "PL",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "3924 90 00",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "4014 90 00",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "9619 00",
-                        "description": "Sanitary towels (pads) and tampons, napkins (diapers), napkin liners and similar articles, of any material"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "PHARMACEUTICAL_PRODUCTS",
-                "description": "Pharmaceutical products of a kind normally used for health care, prevention of illness and as treatment for medical and veterinary purposes, including products used for contraception and sanitary protection"
-            },
-            "comment": "Sanitary towels (pads) and tampons, napkins and napkin liners for babies, and similar articles, of any material, menstrual cups (as of 1 April 2025)"
-        },
-        {
-            "memberState": "PL",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "4901",
-                        "description": "Printed books, brochures, leaflets and similar printed matter, whether or not in single sheets"
-                    },
-                    {
-                        "value": "4903 00 00",
-                        "description": "Children's picture, drawing or colouring books"
-                    },
-                    {
-                        "value": "4904 00 00",
-                        "description": "Music, printed or in manuscript, whether or not bound or illustrated"
-                    },
-                    {
-                        "value": "4905",
-                        "description": "Maps and hydrographic or similar charts of all kinds, including atlases, wall maps, topographical plans and globes, printed"
-                    },
-                    {
-                        "value": "8523",
-                        "description": "Discs, tapes, solid-state non-volatile storage devices, smart cards and other media for the recording of sound or of other phenomena, whether or not recorded, including matrices and masters for the production of discs, but excluding products of Chapter 37"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "LOAN_LIBRARIES",
-                "description": "Supply, including on loan by libraries, of books, newspapers and periodicals either on physical means of support or supplied electronically or both (including brochures, leaflets and similar printed matter, children's picture, drawing or colouring books, music printed or in manuscript form, maps and hydrographic or similar charts), other than publications wholly or predominantly devoted to advertising and other than publications wholly or predominantly consisting of video content or audible music."
-            },
-            "comment": "Books, music scores, maps supplied electronically (other than publications wholly or predominantly devoted to advertising and other than publications wholly or predominantly consisting of video content or audible music) are subject to 5% VAT rate regardless of CPA code.\nAs regards CN codes 4901 (excluding leaflets), 8523 (only books, music scores, maps on physical means of support)"
-        },
-        {
-            "memberState": "PL",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "4902",
-                        "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
-                    },
-                    {
-                        "value": "4911",
-                        "description": "Other printed matter, including printed pictures and photographs"
-                    },
-                    {
-                        "value": "8523",
-                        "description": "Discs, tapes, solid-state non-volatile storage devices, smart cards and other media for the recording of sound or of other phenomena, whether or not recorded, including matrices and masters for the production of discs, but excluding products of Chapter 37"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "PERIODICALS",
-                "description": "Periodicals"
-            },
-            "comment": "As regards CN codes: 4902 (only regional or local periodicals), 4911 (only regional or local yearbooks),  8523 (only regional or local periodicals and yearbooks on physical means of support)"
-        },
-        {
-            "memberState": "PL",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2025-07-01+02:00",
-            "category": {
-                "identifier": "CHILDREN_CAR_SEATS",
-                "description": "Supply of children’s car seats"
-            },
-            "comment": "The Polish VAT rules do not provide for CN codes with respect to those items. Pursuant to Article 41(2a), item 23 of Annex 10 to Act of 11 March 2004 on Goods and Services Tax reduced rate is applied to car seats for children regardless of CN Code."
         }
     ]
 }

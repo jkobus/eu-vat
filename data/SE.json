@@ -932,64 +932,6 @@
             "type": "REDUCED",
             "rate": {
                 "type": "REDUCED_RATE",
-                "value": 12
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "5805 00 00",
-                        "description": "Hand-woven tapestries of the type Gobelins, Flanders, Aubusson, Beauvais and the like, and needle-worked tapestries (for example, petit point, cross stitch), whether or not made up"
-                    },
-                    {
-                        "value": "6304 91 00",
-                        "description": "Knitted or crocheted"
-                    },
-                    {
-                        "value": "6304 92 00",
-                        "description": "Not knitted or crocheted, of cotton"
-                    },
-                    {
-                        "value": "6304 93 00",
-                        "description": "Not knitted or crocheted, of synthetic fibres"
-                    },
-                    {
-                        "value": "6304 99 00",
-                        "description": "Not knitted or crocheted, of other textile materials"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "TAPESTRIES",
-                "description": "Tapestries (CN code 5805 00 00) and wall textiles (CN code 6304 00 00) made by hand from original designs provided by artists, provided that there are not more than eight copies of each"
-            },
-            "comment": "The reduced rate applies to imports and to supplies made by the artist or the artist’s estate, please see chapter 9 section 6 in the Swedish VAT Act (https:\/\/www.riksdagen.se\/sv\/dokument-lagar\/dokument\/svensk-forfattningssamling\/mervardesskattelag-2023200_sfs-2023-200#K9)."
-        },
-        {
-            "memberState": "SE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 12
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cnCodes": {
-                "code": {
-                    "value": "9701",
-                    "description": "Paintings, drawings and pastels, executed entirely by hand, other than drawings of heading 4906 and other than hand-painted or hand-decorated manufactured articles; collages, mosaics and similar decorative plaques"
-                }
-            },
-            "category": {
-                "identifier": "PICTURES",
-                "description": "Pictures, collages and similar decorative plaques, paintings and drawings, executed entirely by hand by the artist, other than plans and drawings for architectural, engineering, industrial, commercial, topographical or similar purposes, hand-decorated manufactured articles, theatrical scenery, studio back cloths or the like of painted canvas (CN code 9701)"
-            },
-            "comment": "The reduced rate applies to imports and to supplies made by the artist or the artist’s estate, please see chapter 9 section 6 in the Swedish VAT Act (https:\/\/www.riksdagen.se\/sv\/dokument-lagar\/dokument\/svensk-forfattningssamling\/mervardesskattelag-2023200_sfs-2023-200#K9)."
-        },
-        {
-            "memberState": "SE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
                 "value": 6
             },
             "situationOn": "2025-07-01+02:00",
@@ -1102,6 +1044,84 @@
                 "description": "Admission to shows, theatres, circuses, fairs, amusement parks, concerts, museums, zoos, cinemas, exhibitions and similar cultural events and facilities"
             },
             "comment": "Admission to shows, theatres, circuses, concerts, operas, ballets and similar performances are subject to 6 % VAT. The reduced rate also applies to admission to zoos. However, arrangement of public exhibitions in museums and supplies of items to such exhibitions are exempt if the museum is run by the public sector or is supported by the public sector. Admission to amusement parks and cinemas are subject to the standard VAT rate. Please see chapter 9 section 14 in the Swedish VAT Act."
+        },
+        {
+            "memberState": "SE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 6
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "93.1",
+                    "description": "Sporting services"
+                }
+            },
+            "category": {
+                "identifier": "SPORTING_EVENTS",
+                "description": "Admission to sporting events"
+            },
+            "comment": "Usually exempted if supplied by a public body or non-profit making organization. The reduced rate is regulated in chapter 9 section 18 in the Swedish VAT Act (https:\/\/www.riksdagen.se\/sv\/dokument-lagar\/dokument\/svensk-forfattningssamling\/mervardesskattelag-2023200_sfs-2023-200#K9)."
+        },
+        {
+            "memberState": "SE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 12
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "5805 00 00",
+                        "description": "Hand-woven tapestries of the type Gobelins, Flanders, Aubusson, Beauvais and the like, and needle-worked tapestries (for example, petit point, cross stitch), whether or not made up"
+                    },
+                    {
+                        "value": "6304 91 00",
+                        "description": "Knitted or crocheted"
+                    },
+                    {
+                        "value": "6304 92 00",
+                        "description": "Not knitted or crocheted, of cotton"
+                    },
+                    {
+                        "value": "6304 93 00",
+                        "description": "Not knitted or crocheted, of synthetic fibres"
+                    },
+                    {
+                        "value": "6304 99 00",
+                        "description": "Not knitted or crocheted, of other textile materials"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "TAPESTRIES",
+                "description": "Tapestries (CN code 5805 00 00) and wall textiles (CN code 6304 00 00) made by hand from original designs provided by artists, provided that there are not more than eight copies of each"
+            },
+            "comment": "The reduced rate applies to imports and to supplies made by the artist or the artist’s estate, please see chapter 9 section 6 in the Swedish VAT Act (https:\/\/www.riksdagen.se\/sv\/dokument-lagar\/dokument\/svensk-forfattningssamling\/mervardesskattelag-2023200_sfs-2023-200#K9)."
+        },
+        {
+            "memberState": "SE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 12
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cnCodes": {
+                "code": {
+                    "value": "9701",
+                    "description": "Paintings, drawings and pastels, executed entirely by hand, other than drawings of heading 4906 and other than hand-painted or hand-decorated manufactured articles; collages, mosaics and similar decorative plaques"
+                }
+            },
+            "category": {
+                "identifier": "PICTURES",
+                "description": "Pictures, collages and similar decorative plaques, paintings and drawings, executed entirely by hand by the artist, other than plans and drawings for architectural, engineering, industrial, commercial, topographical or similar purposes, hand-decorated manufactured articles, theatrical scenery, studio back cloths or the like of painted canvas (CN code 9701)"
+            },
+            "comment": "The reduced rate applies to imports and to supplies made by the artist or the artist’s estate, please see chapter 9 section 6 in the Swedish VAT Act (https:\/\/www.riksdagen.se\/sv\/dokument-lagar\/dokument\/svensk-forfattningssamling\/mervardesskattelag-2023200_sfs-2023-200#K9)."
         },
         {
             "memberState": "SE",
@@ -1316,26 +1336,6 @@
                 "description": "Minor repairs of clothing and household linen (including mending and alteration)"
             },
             "comment": "Please see chapter 9 section 7 in the Swedish VAT Act (https:\/\/www.riksdagen.se\/sv\/dokument-lagar\/dokument\/svensk-forfattningssamling\/mervardesskattelag-2023200_sfs-2023-200#K9)."
-        },
-        {
-            "memberState": "SE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 6
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cpaCodes": {
-                "code": {
-                    "value": "93.1",
-                    "description": "Sporting services"
-                }
-            },
-            "category": {
-                "identifier": "SPORTING_EVENTS",
-                "description": "Admission to sporting events"
-            },
-            "comment": "Usually exempted if supplied by a public body or non-profit making organization. The reduced rate is regulated in chapter 9 section 18 in the Swedish VAT Act (https:\/\/www.riksdagen.se\/sv\/dokument-lagar\/dokument\/svensk-forfattningssamling\/mervardesskattelag-2023200_sfs-2023-200#K9)."
         },
         {
             "memberState": "SE",
