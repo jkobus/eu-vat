@@ -5,6 +5,162 @@
             "memberState": "FR",
             "type": "REDUCED",
             "rate": {
+                "type": "EXEMPTED",
+                "value": 0
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "86.10.1",
+                        "description": "Hospital services"
+                    },
+                    {
+                        "value": "86.21.10",
+                        "description": "General medical practice services"
+                    },
+                    {
+                        "value": "86.22.1",
+                        "description": "Specialist medical practice services"
+                    },
+                    {
+                        "value": "86.23.1",
+                        "description": "Dental practice services"
+                    },
+                    {
+                        "value": "86.90.11",
+                        "description": "Pregnancy related services"
+                    },
+                    {
+                        "value": "86.90.12",
+                        "description": "Nursing services"
+                    },
+                    {
+                        "value": "86.90.13",
+                        "description": "Physiotherapeutic services"
+                    },
+                    {
+                        "value": "86.90.18",
+                        "description": "Mental health services"
+                    },
+                    {
+                        "value": "96.04.10",
+                        "description": "Physical well-being services"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "MEDICAL_CARE",
+                "description": "Provision of medical and dental care and thermal treatment"
+            },
+            "comment": "Article 261 4. 1° of the general tax code"
+        },
+        {
+            "memberState": "FR",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 0.9
+            },
+            "situationOn": "2025-07-01+02:00",
+            "category": {
+                "identifier": "REGION",
+                "description": "Special reduced rate for specific regions (including articles 104, 105 and 120 of the VAT Directive)"
+            },
+            "comment": "For Corsica: 0.9% on sales of live animals to non-sujected to VAT entities, and on the first performances or circus."
+        },
+        {
+            "memberState": "FR",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 1.05
+            },
+            "situationOn": "2025-07-01+02:00",
+            "category": {
+                "identifier": "REGION",
+                "description": "Special reduced rate for specific regions (including articles 104, 105 and 120 of the VAT Directive)"
+            },
+            "comment": "The super reduced rate in Martinique, Guadeloupe and Réunion is 1.05% (for the press)."
+        },
+        {
+            "memberState": "FR",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5.5
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "01",
+                        "description": "CHAPTER 1 - LIVE ANIMALS"
+                    },
+                    {
+                        "value": "03",
+                        "description": "CHAPTER 3 - FISH AND CRUSTACEANS, MOLLUSCS AND OTHER AQUATIC INVERTEBRATES"
+                    },
+                    {
+                        "value": "04",
+                        "description": "CHAPTER 4 - DAIRY PRODUCE; BIRDS' EGGS; NATURAL HONEY; EDIBLE PRODUCTS OF ANIMAL ORIGIN, NOT ELSEWHERE SPECIFIED OR INCLUDED"
+                    },
+                    {
+                        "value": "05",
+                        "description": "CHAPTER 5 - PRODUCTS OF ANIMAL ORIGIN, NOT ELSEWHERE SPECIFIED OR INCLUDED"
+                    },
+                    {
+                        "value": "07",
+                        "description": "CHAPTER 7 - EDIBLE VEGETABLES AND CERTAIN ROOTS AND TUBERS"
+                    },
+                    {
+                        "value": "10",
+                        "description": "CHAPTER 10 - CEREALS"
+                    },
+                    {
+                        "value": "12",
+                        "description": "CHAPTER 12 - OIL SEEDS AND OLEAGINOUS FRUITS; MISCELLANEOUS GRAINS, SEEDS AND FRUIT; INDUSTRIAL OR MEDICINAL PLANTS; STRAW AND FODDER"
+                    },
+                    {
+                        "value": "1301",
+                        "description": "Lac; natural gums, resins, gum-resins and oleoresins (for example, balsams)"
+                    },
+                    {
+                        "value": "1404 90 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "17",
+                        "description": "CHAPTER 17 - SUGARS AND SUGAR CONFECTIONERY"
+                    },
+                    {
+                        "value": "2308 00 40",
+                        "description": "Acorns and horse-chestnuts; pomace or marc of fruit, other than grapes"
+                    },
+                    {
+                        "value": "4403",
+                        "description": "Wood in the rough, whether or not stripped of bark or sapwood, or roughly squared"
+                    },
+                    {
+                        "value": "5102",
+                        "description": "Fine or coarse animal hair, not carded or combed"
+                    },
+                    {
+                        "value": "5305 00 00",
+                        "description": "Coconut, abaca (Manila hemp or Musa textilis Nee), ramie and other vegetable textile fibres, not elsewhere specified or included, raw or processed but not spun; tow, noils and waste of these fibres (including yarn waste and garnetted stock)"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "FOODSTUFFS",
+                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
+            },
+            "comment": "Comments Products of agricultural, fishery, fish and poultry origin which have not undergone any processing and which are normally intended for use in agricultural production (article 278-0 bis A. 1°-0 bis of the general tax code)."
+        },
+        {
+            "memberState": "FR",
+            "type": "REDUCED",
+            "rate": {
                 "type": "REDUCED_RATE",
                 "value": 5.5
             },
@@ -158,80 +314,6 @@
                 "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
             },
             "comment": "Confectionery products, certain composite products containing chocolate or cocoa, margarines and vegetable fats, caviar are taxed at the normal rate (article 278-0 bis A. 1° of the general tax code). Excepted 1604 31 00, 1604 32 00, 1517 10, 1704, 1803, 1805 00 00, 1806 10, 1806 90"
-        },
-        {
-            "memberState": "FR",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5.5
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "01",
-                        "description": "CHAPTER 1 - LIVE ANIMALS"
-                    },
-                    {
-                        "value": "03",
-                        "description": "CHAPTER 3 - FISH AND CRUSTACEANS, MOLLUSCS AND OTHER AQUATIC INVERTEBRATES"
-                    },
-                    {
-                        "value": "04",
-                        "description": "CHAPTER 4 - DAIRY PRODUCE; BIRDS' EGGS; NATURAL HONEY; EDIBLE PRODUCTS OF ANIMAL ORIGIN, NOT ELSEWHERE SPECIFIED OR INCLUDED"
-                    },
-                    {
-                        "value": "05",
-                        "description": "CHAPTER 5 - PRODUCTS OF ANIMAL ORIGIN, NOT ELSEWHERE SPECIFIED OR INCLUDED"
-                    },
-                    {
-                        "value": "07",
-                        "description": "CHAPTER 7 - EDIBLE VEGETABLES AND CERTAIN ROOTS AND TUBERS"
-                    },
-                    {
-                        "value": "10",
-                        "description": "CHAPTER 10 - CEREALS"
-                    },
-                    {
-                        "value": "12",
-                        "description": "CHAPTER 12 - OIL SEEDS AND OLEAGINOUS FRUITS; MISCELLANEOUS GRAINS, SEEDS AND FRUIT; INDUSTRIAL OR MEDICINAL PLANTS; STRAW AND FODDER"
-                    },
-                    {
-                        "value": "1301",
-                        "description": "Lac; natural gums, resins, gum-resins and oleoresins (for example, balsams)"
-                    },
-                    {
-                        "value": "1404 90 00",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "17",
-                        "description": "CHAPTER 17 - SUGARS AND SUGAR CONFECTIONERY"
-                    },
-                    {
-                        "value": "2308 00 40",
-                        "description": "Acorns and horse-chestnuts; pomace or marc of fruit, other than grapes"
-                    },
-                    {
-                        "value": "4403",
-                        "description": "Wood in the rough, whether or not stripped of bark or sapwood, or roughly squared"
-                    },
-                    {
-                        "value": "5102",
-                        "description": "Fine or coarse animal hair, not carded or combed"
-                    },
-                    {
-                        "value": "5305 00 00",
-                        "description": "Coconut, abaca (Manila hemp or Musa textilis Nee), ramie and other vegetable textile fibres, not elsewhere specified or included, raw or processed but not spun; tow, noils and waste of these fibres (including yarn waste and garnetted stock)"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "FOODSTUFFS",
-                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
-            },
-            "comment": "Comments Products of agricultural, fishery, fish and poultry origin which have not undergone any processing and which are normally intended for use in agricultural production (article 278-0 bis A. 1°-0 bis of the general tax code)."
         },
         {
             "memberState": "FR",
@@ -525,83 +607,1115 @@
             "memberState": "FR",
             "type": "REDUCED",
             "rate": {
-                "type": "EXEMPTED",
-                "value": 0
+                "type": "REDUCED_RATE",
+                "value": 10
             },
             "situationOn": "2025-07-01+02:00",
             "cpaCodes": {
                 "code": [
                     {
-                        "value": "86.10.1",
-                        "description": "Hospital services"
+                        "value": "38.11.11",
+                        "description": "Collection services of non-hazardous recyclable waste, municipal"
                     },
                     {
-                        "value": "86.21.10",
-                        "description": "General medical practice services"
+                        "value": "38.11.21",
+                        "description": "Collection services of non-hazardous non-recyclable waste, municipal"
                     },
                     {
-                        "value": "86.22.1",
-                        "description": "Specialist medical practice services"
+                        "value": "38.11.6",
+                        "description": "Worn clothing and other worn articles"
                     },
                     {
-                        "value": "86.23.1",
-                        "description": "Dental practice services"
+                        "value": "38.12.13",
+                        "description": "Collection services of other hazardous industrial waste"
                     },
                     {
-                        "value": "86.90.11",
-                        "description": "Pregnancy related services"
+                        "value": "38.21.10",
+                        "description": "Non-hazardous waste treatment for final disposal services"
                     },
                     {
-                        "value": "86.90.12",
-                        "description": "Nursing services"
+                        "value": "38.21.2",
+                        "description": "Metal secondary raw materials"
                     },
                     {
-                        "value": "86.90.13",
-                        "description": "Physiotherapeutic services"
+                        "value": "38.22.19",
+                        "description": "Other hazardous waste treatment services"
                     },
                     {
-                        "value": "86.90.18",
-                        "description": "Mental health services"
+                        "value": "38.22.29",
+                        "description": "Other hazardous waste disposal services"
                     },
                     {
-                        "value": "96.04.10",
-                        "description": "Physical well-being services"
+                        "value": "38.32.11",
+                        "description": "Sanitary landfilling services of non-hazardous waste"
+                    },
+                    {
+                        "value": "38.32.12",
+                        "description": "Other non-hazardous waste landfilling or permanent storage services"
+                    },
+                    {
+                        "value": "81.29.12",
+                        "description": "Sweeping and snow removal services"
                     }
                 ]
             },
             "category": {
-                "identifier": "MEDICAL_CARE",
-                "description": "Provision of medical and dental care and thermal treatment"
+                "identifier": "STREET_CLEANING",
+                "description": "Supply of services provided in connection with street cleaning, refuse collection and waste treatment, other than the supply of such services by bodies referred to in Article 13"
             },
-            "comment": "Article 261 4. 1° of the general tax code"
+            "comment": "The rest of the services of treatment of household waste the local authorities (article 279 H of the general tax code)"
         },
         {
             "memberState": "FR",
             "type": "REDUCED",
             "rate": {
                 "type": "REDUCED_RATE",
-                "value": 0.9
+                "value": 10
             },
             "situationOn": "2025-07-01+02:00",
-            "category": {
-                "identifier": "REGION",
-                "description": "Special reduced rate for specific regions (including articles 104, 105 and 120 of the VAT Directive)"
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "41.00.3",
+                        "description": "Construction works for residential buildings"
+                    },
+                    {
+                        "value": "43",
+                        "description": "Specialised construction works"
+                    }
+                ]
             },
-            "comment": "For Corsica: 0.9% on sales of live animals to non-sujected to VAT entities, and on the first performances or circus."
+            "category": {
+                "identifier": "HOUSING_PROVISION",
+                "description": "Provision, construction, renovation and alteration of housing, as part of a social policy"
+            },
+            "comment": "The rest of the social housing works (article 279-0 bis A of the general tax code)"
         },
         {
             "memberState": "FR",
             "type": "REDUCED",
             "rate": {
                 "type": "REDUCED_RATE",
-                "value": 1.05
+                "value": 10
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "41.00.3",
+                        "description": "Construction works for residential buildings"
+                    },
+                    {
+                        "value": "43",
+                        "description": "Specialised construction works"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "PRIVATE_DWELLINGS",
+                "description": "The renovation and repair of private dwellings, excluding materials which account for a significant part of the value of the service supplied"
+            },
+            "comment": "The rest of the renovation works in more than two years old housings is taxed at 10% (article 279-0 bis of the general tax code)"
+        },
+        {
+            "memberState": "FR",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 10
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "49.10.1",
+                        "description": "Passenger rail transport services, interurban"
+                    },
+                    {
+                        "value": "49.3",
+                        "description": "Other passenger land transport services"
+                    },
+                    {
+                        "value": "50.10",
+                        "description": "Sea and coastal passenger water transport services"
+                    },
+                    {
+                        "value": "50.30",
+                        "description": "Inland passenger water transport services"
+                    },
+                    {
+                        "value": "51.10",
+                        "description": "Passenger air transport services"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "TRANSPORT_PASSENGERS",
+                "description": "Transport of passengers and their accompanying luggage"
+            },
+            "comment": "Article 279 b quater of the general tax code"
+        },
+        {
+            "memberState": "FR",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 10
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "55",
+                    "description": "Accommodation services"
+                }
+            },
+            "category": {
+                "identifier": "ACCOMMODATION",
+                "description": "Accommodation provided in hotels and similar establishments, including the provision of holiday accommodation and the letting of places on camping or caravan sites"
+            },
+            "comment": "article 279 a of the general tax code"
+        },
+        {
+            "memberState": "FR",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 10
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "56.10",
+                        "description": "Restaurant and mobile food serving services"
+                    },
+                    {
+                        "value": "56.2",
+                        "description": "Event catering, contract catering services and other food serving services"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "RESTAURANT",
+                "description": "Restaurant and catering services, it being possible to exclude the supply of (alcoholic and\/or non-alcoholic) beverages"
+            },
+            "comment": "Article 279 m of the general tax code (alcoholic beverages excluded)"
+        },
+        {
+            "memberState": "FR",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 10
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "60.20.1",
+                    "description": "Television programming and broadcasting services"
+                }
+            },
+            "category": {
+                "identifier": "BROADCASTING_SERVICES",
+                "description": "Reception of radio and television broadcasting services"
+            },
+            "comment": "Television broadcasting services (article 279 b octies of the general tax code)"
+        },
+        {
+            "memberState": "FR",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5.5
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "3704 00 10",
+                        "description": "Plates and film"
+                    },
+                    {
+                        "value": "3705 00",
+                        "description": "Photographic plates and film, exposed and developed, other than cinematographic film"
+                    },
+                    {
+                        "value": "4820 30 00",
+                        "description": "Binders (other than book covers), folders and file covers"
+                    },
+                    {
+                        "value": "4901",
+                        "description": "Printed books, brochures, leaflets and similar printed matter, whether or not in single sheets"
+                    },
+                    {
+                        "value": "4902",
+                        "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
+                    },
+                    {
+                        "value": "4903 00 00",
+                        "description": "Children's picture, drawing or colouring books"
+                    },
+                    {
+                        "value": "4904 00 00",
+                        "description": "Music, printed or in manuscript, whether or not bound or illustrated"
+                    },
+                    {
+                        "value": "4905 91 00",
+                        "description": "In book form"
+                    },
+                    {
+                        "value": "4905 99 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "4906 00 00",
+                        "description": "Plans and drawings for architectural, engineering, industrial, commercial, topographical or similar purposes, being originals drawn by hand; handwritten texts; photographic reproductions on sensitised paper and carbon copies of the foregoing"
+                    },
+                    {
+                        "value": "4911 10 10",
+                        "description": "Commercial catalogues"
+                    },
+                    {
+                        "value": "4911 10 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "4911 91 00",
+                        "description": "Pictures, designs and photographs"
+                    },
+                    {
+                        "value": "4911 99 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "8442 50 00",
+                        "description": "Plates, cylinders and other printing components; plates, cylinders and lithographic stones, prepared for printing purposes (for example, planed, grained or polished)"
+                    },
+                    {
+                        "value": "8523 29 19",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "8523 49 10",
+                        "description": "Digital versatile discs (DVD)"
+                    },
+                    {
+                        "value": "8523 49 20",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "8523 51 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "9503 00 70",
+                        "description": "Other toys, put up in sets or outfits"
+                    }
+                ]
+            },
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "46.49.21",
+                        "description": "Wholesale trade services of books"
+                    },
+                    {
+                        "value": "46.49.22",
+                        "description": "Wholesale trade services of magazines and newspapers"
+                    },
+                    {
+                        "value": "47.00.61",
+                        "description": "Retail trade services of books"
+                    },
+                    {
+                        "value": "47.00.62",
+                        "description": "Retail trade services of newspapers and magazines"
+                    },
+                    {
+                        "value": "58.11.1",
+                        "description": "Printed books, brochures, leaflets and the like"
+                    },
+                    {
+                        "value": "58.11.20",
+                        "description": "E-books"
+                    },
+                    {
+                        "value": "58.11.30",
+                        "description": "On-line books"
+                    },
+                    {
+                        "value": "58.12.10",
+                        "description": "Printed newspapers"
+                    },
+                    {
+                        "value": "58.12.20",
+                        "description": "Online newspapers"
+                    },
+                    {
+                        "value": "58.13.10",
+                        "description": "Printed newspapers"
+                    },
+                    {
+                        "value": "58.13.20",
+                        "description": "Online journals and periodicals"
+                    },
+                    {
+                        "value": "58.14.1",
+                        "description": "Printed journals and periodicals"
+                    },
+                    {
+                        "value": "58.14.20",
+                        "description": "On-line journals and periodicals"
+                    },
+                    {
+                        "value": "59.20.31",
+                        "description": "Sheet music"
+                    },
+                    {
+                        "value": "77.29.19",
+                        "description": "Rental and leasing services of other personal and household goods n.e.c."
+                    },
+                    {
+                        "value": "91.01.11",
+                        "description": "Library services"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "LOAN_LIBRARIES",
+                "description": "Supply, including on loan by libraries, of books, newspapers and periodicals either on physical means of support or supplied electronically or both (including brochures, leaflets and similar printed matter, children's picture, drawing or colouring books, music printed or in manuscript form, maps and hydrographic or similar charts), other than publications wholly or predominantly devoted to advertising and other than publications wholly or predominantly consisting of video content or audible music."
+            },
+            "comment": "Article 278-0 bis A 3° of the general tax code"
+        },
+        {
+            "memberState": "FR",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 10
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "82.30.1",
+                        "description": "Convention and trade show organisation services"
+                    },
+                    {
+                        "value": "90.04.10",
+                        "description": "Arts facility operation services"
+                    },
+                    {
+                        "value": "91.02.10",
+                        "description": "Museum operation services"
+                    },
+                    {
+                        "value": "91.03.10",
+                        "description": "Operation services of historical sites and buildings and similar visitor attractions"
+                    },
+                    {
+                        "value": "91.04.1",
+                        "description": "Botanical and zoological garden services and nature reserve services"
+                    },
+                    {
+                        "value": "93.11.10",
+                        "description": "Sports facility operation services"
+                    },
+                    {
+                        "value": "93.21.10",
+                        "description": "Amusement park and theme park services"
+                    },
+                    {
+                        "value": "93.29.1",
+                        "description": "Other recreational services"
+                    },
+                    {
+                        "value": "93.29.21",
+                        "description": "Firework and light and sound shows services"
+                    },
+                    {
+                        "value": "93.29.29",
+                        "description": "Other entertainment services n.e.c."
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "CULTURAL_EVENTS",
+                "description": "Admission to shows, theatres, circuses, fairs, amusement parks, concerts, museums, zoos, cinemas, exhibitions and similar cultural events and facilities"
+            },
+            "comment": "Admission to exhibitions, sites and installations of a cultural, recreational, educational or professional nature (article 279 b nonies of the general tax code)"
+        },
+        {
+            "memberState": "FR",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 10
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "90.01.10",
+                        "description": "Services of performing artists"
+                    },
+                    {
+                        "value": "90.03.11",
+                        "description": "Services provided by authors, composers, sculptors and other artists, except performing artists"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "WRITERS_SERVICES",
+                "description": "Supply of services by writers, composers and performing artists, or of the royalties due to them"
+            },
+            "comment": "Royalties (article 279 g of the general tax code)"
+        },
+        {
+            "memberState": "FR",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 13
             },
             "situationOn": "2025-07-01+02:00",
             "category": {
                 "identifier": "REGION",
                 "description": "Special reduced rate for specific regions (including articles 104, 105 and 120 of the VAT Directive)"
             },
-            "comment": "The super reduced rate in Martinique, Guadeloupe and Réunion is 1.05% (for the press)."
+            "comment": "For Corsica: rate of 13% on oil products; 10% on construction works, sales on farm machinery, sales on eaten in products, etc.; 2.1% (reduced rate)."
+        },
+        {
+            "memberState": "FR",
+            "type": "REDUCED",
+            "rate": {
+                "type": "SUPER_REDUCED_RATE",
+                "value": 2.1
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "2941",
+                        "description": "Antibiotics"
+                    },
+                    {
+                        "value": "3002 11 00",
+                        "description": "Malaria diagnostic test kits"
+                    },
+                    {
+                        "value": "3002 12 00",
+                        "description": "Antisera and other blood fractions"
+                    },
+                    {
+                        "value": "3002 13 00",
+                        "description": "Immunological products, unmixed, not put up in measured doses or in forms or packings for retail sale"
+                    },
+                    {
+                        "value": "3002 14 00",
+                        "description": "Immunological products, mixed, not put up in measured doses or in forms or packings for retail sale"
+                    },
+                    {
+                        "value": "3002 15 00",
+                        "description": "Immunological products, put up in measured doses or in forms or packings for retail sale"
+                    },
+                    {
+                        "value": "3002 19 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "3002 20",
+                        "description": "Vaccines for human medicine"
+                    },
+                    {
+                        "value": "3004",
+                        "description": "Medicaments (excluding goods of heading 3002, 3005 or 3006) consisting of mixed or unmixed products for therapeutic or prophylactic uses, put up in measured doses (including those in the form of transdermal administration systems) or in forms or packings for retail sale"
+                    },
+                    {
+                        "value": "3005",
+                        "description": "Wadding, gauze, bandages and similar articles (for example, dressings, adhesive plasters, poultices), impregnated or coated with pharmaceutical substances or put up in forms or packings for retail sale for medical, surgical, dental or veterinary purposes"
+                    },
+                    {
+                        "value": "3006 10 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "3006 20 00",
+                        "description": "Blood-grouping reagents"
+                    },
+                    {
+                        "value": "3006 30 00",
+                        "description": "Opacifying preparations for X-ray examinations; diagnostic reagents designed to be administered to the patient"
+                    },
+                    {
+                        "value": "3006 60 00",
+                        "description": "Chemical contraceptive preparations based on hormones, on other products of heading 2937 or on spermicides"
+                    },
+                    {
+                        "value": "3006 70 00",
+                        "description": "Gel preparations designed to be used in human or veterinary medicine as a lubricant for parts of the body for surgical operations or physical examinations or as a coupling agent between the body and medical instruments"
+                    },
+                    {
+                        "value": "3006 92 00",
+                        "description": "Waste pharmaceuticals"
+                    },
+                    {
+                        "value": "6305 10 10",
+                        "description": "Used"
+                    },
+                    {
+                        "value": "6305 20 00",
+                        "description": "Of cotton"
+                    },
+                    {
+                        "value": "6305 32 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "6305 39 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "6305 90 00",
+                        "description": "Of other textile materials"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "PHARMACEUTICAL_PRODUCTS",
+                "description": "Pharmaceutical products of a kind normally used for health care, prevention of illness and as treatment for medical and veterinary purposes, including products used for contraception and sanitary protection"
+            },
+            "comment": "For reimbursed pharmaceutical products (article 281 octies of the general tax code)"
+        },
+        {
+            "memberState": "FR",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5.5
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "3924 90 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "4014 10 00",
+                        "description": "Sheath contraceptives"
+                    },
+                    {
+                        "value": "9619 00",
+                        "description": "Sanitary towels (pads) and tampons, napkins (diapers), napkin liners and similar articles, of any material"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "PHARMACEUTICAL_PRODUCTS",
+                "description": "Pharmaceutical products of a kind normally used for health care, prevention of illness and as treatment for medical and veterinary purposes, including products used for contraception and sanitary protection"
+            },
+            "comment": "For sanitary protection for women (article 278-0 bis A 1° bis of the general tax code), and condoms (article 278-0 bis A, 1° ter of the general tax code)"
+        },
+        {
+            "memberState": "FR",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5.5
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "4911 91 00",
+                        "description": "Pictures, designs and photographs"
+                    },
+                    {
+                        "value": "5805 00 00",
+                        "description": "Hand-woven tapestries of the type Gobelins, Flanders, Aubusson, Beauvais and the like, and needle-worked tapestries (for example, petit point, cross stitch), whether or not made up"
+                    },
+                    {
+                        "value": "9701",
+                        "description": "Paintings, drawings and pastels, executed entirely by hand, other than drawings of heading 4906 and other than hand-painted or hand-decorated manufactured articles; collages, mosaics and similar decorative plaques"
+                    },
+                    {
+                        "value": "9702 00 00",
+                        "description": "Original engravings, prints and lithographs"
+                    },
+                    {
+                        "value": "9703 00 00",
+                        "description": "Original sculptures and statuary, in any material"
+                    },
+                    {
+                        "value": "9704 00 00",
+                        "description": "Postage or revenue stamps, stamp-postmarks, first-day covers, postal stationery (stamped paper), and the like, used or unused, other than those of heading 4907"
+                    },
+                    {
+                        "value": "9705 00 00",
+                        "description": "Collections and collectors' pieces of zoological, botanical, mineralogical, anatomical, historical, archaeological, palaeontological, ethnographic or numismatic interest"
+                    },
+                    {
+                        "value": "9706 00 00",
+                        "description": "Antiques of an age exceeding 100 years"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "ANTIQUES",
+                "description": "Supply of works of art, collectors' items and antiques listed in Annex IX, Parts A, B and C"
+            },
+            "comment": "The reduced rate do not apply to supplies of such items to which the profit margin scheme is being applied - Article 278-0 bis I of the general tax code"
+        },
+        {
+            "memberState": "FR",
+            "type": "REDUCED",
+            "rate": {
+                "type": "SUPER_REDUCED_RATE",
+                "value": 2.1
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "4901 99 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "4902",
+                        "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
+                    },
+                    {
+                        "value": "4903 00 00",
+                        "description": "Children's picture, drawing or colouring books"
+                    },
+                    {
+                        "value": "4907 00 10",
+                        "description": "Postage, revenue and similar stamps"
+                    },
+                    {
+                        "value": "4911 10 90",
+                        "description": "Other"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "NEWSPAPERS",
+                "description": "Newspapers"
+            },
+            "comment": "Article 298 septies of the general tax code"
+        },
+        {
+            "memberState": "FR",
+            "type": "REDUCED",
+            "rate": {
+                "type": "SUPER_REDUCED_RATE",
+                "value": 2.1
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "4901 99 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "4902",
+                        "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
+                    },
+                    {
+                        "value": "4903 00 00",
+                        "description": "Children's picture, drawing or colouring books"
+                    },
+                    {
+                        "value": "4907 00 10",
+                        "description": "Postage, revenue and similar stamps"
+                    },
+                    {
+                        "value": "4911 10 90",
+                        "description": "Other"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "PERIODICALS",
+                "description": "Periodicals"
+            },
+            "comment": "Publications of general interest with a direct connection to current affairs"
+        },
+        {
+            "memberState": "FR",
+            "type": "STANDARD",
+            "rate": {
+                "type": "DEFAULT",
+                "value": 20
+            },
+            "situationOn": "2025-07-01+02:00",
+            "comment": "<p><a href=\"http:\/\/bofip.impots.gouv.fr\/bofip\/1379-PGP\" target=\"_blank\" rel=\"noopener noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer\">http:\/\/bofip.impots.gouv.fr\/bofip\/1379-PGP<\/a><\/p>\n<p>Article 278 of the General Tax Code<\/p>"
+        },
+        {
+            "memberState": "FR",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5.5
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cnCodes": {
+                "code": {
+                    "value": "8419 12 00",
+                    "description": "Solar water heaters"
+                }
+            },
+            "category": {
+                "identifier": "SOLAR_PANELS",
+                "description": "Supply and installation of solar panels on and adjacent to private dwellings, housing and public and other buildings used for activities in the public interest"
+            },
+            "comment": "From 1 October 2025 - Article 278-0 bis, P of the general tax code"
+        },
+        {
+            "memberState": "FR",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5.5
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "35.11.10",
+                        "description": "Electricity"
+                    },
+                    {
+                        "value": "35.13.10",
+                        "description": "Distribution services of electricity"
+                    },
+                    {
+                        "value": "35.14.10",
+                        "description": "Trade services of electricity"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "SUPPLY_ELECTRICITY",
+                "description": "Supply of electricity"
+            },
+            "comment": "Until 1 August 2025 - For the subscription part of the bill (article 278-0 bis B of the general tax code)"
+        },
+        {
+            "memberState": "FR",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5.5
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "35.2",
+                    "description": "Manufactured gas; distribution services of gaseous fuels through mains"
+                }
+            },
+            "category": {
+                "identifier": "SUPPLY_GAS",
+                "description": "Supply of natural gas"
+            },
+            "comment": "Until 1 August 2025 - For the subscription part of the bill (article 278-0 bis B of the general tax code)"
+        },
+        {
+            "memberState": "FR",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5.5
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "35.30.12",
+                    "description": "Steam and hot water supply services through mains"
+                }
+            },
+            "category": {
+                "identifier": "SUPPLY_HEATING",
+                "description": "Supply of district heating"
+            },
+            "comment": "For the subscription part of the bill. When produced at least 50% from biomass, geothermal, solar thermal energy, waste and recovered energy (article 278-0 bis B of the general tax code)"
+        },
+        {
+            "memberState": "FR",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5.5
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "38.11.11",
+                        "description": "Collection services of non-hazardous recyclable waste, municipal"
+                    },
+                    {
+                        "value": "38.11.21",
+                        "description": "Collection services of non-hazardous non-recyclable waste, municipal"
+                    },
+                    {
+                        "value": "38.11.6",
+                        "description": "Worn clothing and other worn articles"
+                    },
+                    {
+                        "value": "38.12.13",
+                        "description": "Collection services of other hazardous industrial waste"
+                    },
+                    {
+                        "value": "38.21.10",
+                        "description": "Non-hazardous waste treatment for final disposal services"
+                    },
+                    {
+                        "value": "38.21.2",
+                        "description": "Metal secondary raw materials"
+                    },
+                    {
+                        "value": "38.22.19",
+                        "description": "Other hazardous waste treatment services"
+                    },
+                    {
+                        "value": "38.22.29",
+                        "description": "Other hazardous waste disposal services"
+                    },
+                    {
+                        "value": "38.32.11",
+                        "description": "Sanitary landfilling services of non-hazardous waste"
+                    },
+                    {
+                        "value": "38.32.12",
+                        "description": "Other non-hazardous waste landfilling or permanent storage services"
+                    },
+                    {
+                        "value": "81.29.12",
+                        "description": "Sweeping and snow removal services"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "STREET_CLEANING",
+                "description": "Supply of services provided in connection with street cleaning, refuse collection and waste treatment, other than the supply of such services by bodies referred to in Article 13"
+            },
+            "comment": "The services of treatment of household waste the local authorities when the waste is treated separately (article 278-0 bis M of the general tax code)"
+        },
+        {
+            "memberState": "FR",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5.5
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "41.00.3",
+                        "description": "Construction works for residential buildings"
+                    },
+                    {
+                        "value": "43",
+                        "description": "Specialised construction works"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "PRIVATE_DWELLINGS",
+                "description": "The renovation and repair of private dwellings, excluding materials which account for a significant part of the value of the service supplied"
+            },
+            "comment": "Energetic improvement works in more than two years old housings (article 278-0 bis A of the general tax code)"
+        },
+        {
+            "memberState": "FR",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5.5
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "41.00.3",
+                        "description": "Construction works for residential buildings"
+                    },
+                    {
+                        "value": "43",
+                        "description": "Specialised construction works"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "HOUSING_PROVISION",
+                "description": "Provision, construction, renovation and alteration of housing, as part of a social policy"
+            },
+            "comment": "The building land, the construction and some works for social housing (articles 278 sexies, 278 sexies A and 278 sexies-0 A of the general tax code)"
+        },
+        {
+            "memberState": "FR",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5.5
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "49.32.1",
+                        "description": "Taxi operation services"
+                    },
+                    {
+                        "value": "53.20.12",
+                        "description": "Food home delivery services"
+                    },
+                    {
+                        "value": "53.20.19",
+                        "description": "Other postal and courier services n.e.c."
+                    },
+                    {
+                        "value": "56.21.1",
+                        "description": "Event catering services"
+                    },
+                    {
+                        "value": "74.30.12",
+                        "description": "Interpretation services"
+                    },
+                    {
+                        "value": "81.21.10",
+                        "description": "General cleaning services of buildings"
+                    },
+                    {
+                        "value": "85.59.19",
+                        "description": "Education services n.e.c."
+                    },
+                    {
+                        "value": "88.10.1",
+                        "description": "Social work services without accommodation for the elderly and disabled"
+                    },
+                    {
+                        "value": "88.91.11",
+                        "description": "Child day-care services excluding day-care services for the disabled"
+                    },
+                    {
+                        "value": "88.91.12",
+                        "description": "Day-care services for disabled children and young people"
+                    },
+                    {
+                        "value": "88.91.13",
+                        "description": "Baby-sitting services"
+                    },
+                    {
+                        "value": "96.01.19",
+                        "description": "Other textile cleaning services"
+                    },
+                    {
+                        "value": "96.02.13",
+                        "description": "Cosmetic treatment, manicuring and pedicuring services"
+                    },
+                    {
+                        "value": "96.02.19",
+                        "description": "Other beauty treatment services"
+                    },
+                    {
+                        "value": "96.09.11",
+                        "description": "Pet care services"
+                    },
+                    {
+                        "value": "96.09.19",
+                        "description": "Other miscellaneous services n.e.c."
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "DOMESTIC_CARE",
+                "description": "Domestic care services such as home help and care of the young, elderly, sick or disabled"
+            },
+            "comment": "Article 278-0 bis D of the general tax code"
+        },
+        {
+            "memberState": "FR",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5.5
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "59.14.10",
+                        "description": "Motion picture projection services"
+                    },
+                    {
+                        "value": "90.02",
+                        "description": "Support services to performing arts"
+                    },
+                    {
+                        "value": "90.04.10",
+                        "description": "Arts facility operation services"
+                    },
+                    {
+                        "value": "91.04.11",
+                        "description": "Botanical and zoological garden services"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "CULTURAL_EVENTS",
+                "description": "Admission to shows, theatres, circuses, fairs, amusement parks, concerts, museums, zoos, cinemas, exhibitions and similar cultural events and facilities"
+            },
+            "comment": "Shows, theatres, circuses, concerts, cinemas, admission to zoologic parcs, teaching and practice of horseback riding, entry fees for video gaming competitions (article 278-0 bis F, G, L and O of the general tax code)"
+        },
+        {
+            "memberState": "FR",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5.5
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "93.11.10",
+                        "description": "Sports facility operation services"
+                    },
+                    {
+                        "value": "93.12.10",
+                        "description": "Services of sport clubs"
+                    },
+                    {
+                        "value": "93.19.11",
+                        "description": "Sports and recreational sports event promotion services"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "SPORTING_EVENTS",
+                "description": "Admission to sporting events"
+            },
+            "comment": "Article 278-0 bis J of the general tax code"
+        },
+        {
+            "memberState": "FR",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 8.5
+            },
+            "situationOn": "2025-07-01+02:00",
+            "category": {
+                "identifier": "REGION",
+                "description": "Special reduced rate for specific regions (including articles 104, 105 and 120 of the VAT Directive)"
+            },
+            "comment": "The standard VAT rate in Martinique, Guadeloupe and Réunion is 8.5%. The reduced rate is 2.1%. There is also a zero VAT rate for essential goods in Martinique and Guadeloupe."
         },
         {
             "memberState": "FR",
@@ -812,172 +1926,6 @@
             "type": "REDUCED",
             "rate": {
                 "type": "REDUCED_RATE",
-                "value": 5.5
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "3704 00 10",
-                        "description": "Plates and film"
-                    },
-                    {
-                        "value": "3705 00",
-                        "description": "Photographic plates and film, exposed and developed, other than cinematographic film"
-                    },
-                    {
-                        "value": "4820 30 00",
-                        "description": "Binders (other than book covers), folders and file covers"
-                    },
-                    {
-                        "value": "4901",
-                        "description": "Printed books, brochures, leaflets and similar printed matter, whether or not in single sheets"
-                    },
-                    {
-                        "value": "4902",
-                        "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
-                    },
-                    {
-                        "value": "4903 00 00",
-                        "description": "Children's picture, drawing or colouring books"
-                    },
-                    {
-                        "value": "4904 00 00",
-                        "description": "Music, printed or in manuscript, whether or not bound or illustrated"
-                    },
-                    {
-                        "value": "4905 91 00",
-                        "description": "In book form"
-                    },
-                    {
-                        "value": "4905 99 00",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "4906 00 00",
-                        "description": "Plans and drawings for architectural, engineering, industrial, commercial, topographical or similar purposes, being originals drawn by hand; handwritten texts; photographic reproductions on sensitised paper and carbon copies of the foregoing"
-                    },
-                    {
-                        "value": "4911 10 10",
-                        "description": "Commercial catalogues"
-                    },
-                    {
-                        "value": "4911 10 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "4911 91 00",
-                        "description": "Pictures, designs and photographs"
-                    },
-                    {
-                        "value": "4911 99 00",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "8442 50 00",
-                        "description": "Plates, cylinders and other printing components; plates, cylinders and lithographic stones, prepared for printing purposes (for example, planed, grained or polished)"
-                    },
-                    {
-                        "value": "8523 29 19",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "8523 49 10",
-                        "description": "Digital versatile discs (DVD)"
-                    },
-                    {
-                        "value": "8523 49 20",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "8523 51 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "9503 00 70",
-                        "description": "Other toys, put up in sets or outfits"
-                    }
-                ]
-            },
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "46.49.21",
-                        "description": "Wholesale trade services of books"
-                    },
-                    {
-                        "value": "46.49.22",
-                        "description": "Wholesale trade services of magazines and newspapers"
-                    },
-                    {
-                        "value": "47.00.61",
-                        "description": "Retail trade services of books"
-                    },
-                    {
-                        "value": "47.00.62",
-                        "description": "Retail trade services of newspapers and magazines"
-                    },
-                    {
-                        "value": "58.11.1",
-                        "description": "Printed books, brochures, leaflets and the like"
-                    },
-                    {
-                        "value": "58.11.20",
-                        "description": "E-books"
-                    },
-                    {
-                        "value": "58.11.30",
-                        "description": "On-line books"
-                    },
-                    {
-                        "value": "58.12.10",
-                        "description": "Printed newspapers"
-                    },
-                    {
-                        "value": "58.12.20",
-                        "description": "Online newspapers"
-                    },
-                    {
-                        "value": "58.13.10",
-                        "description": "Printed newspapers"
-                    },
-                    {
-                        "value": "58.13.20",
-                        "description": "Online journals and periodicals"
-                    },
-                    {
-                        "value": "58.14.1",
-                        "description": "Printed journals and periodicals"
-                    },
-                    {
-                        "value": "58.14.20",
-                        "description": "On-line journals and periodicals"
-                    },
-                    {
-                        "value": "59.20.31",
-                        "description": "Sheet music"
-                    },
-                    {
-                        "value": "77.29.19",
-                        "description": "Rental and leasing services of other personal and household goods n.e.c."
-                    },
-                    {
-                        "value": "91.01.11",
-                        "description": "Library services"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "LOAN_LIBRARIES",
-                "description": "Supply, including on loan by libraries, of books, newspapers and periodicals either on physical means of support or supplied electronically or both (including brochures, leaflets and similar printed matter, children's picture, drawing or colouring books, music printed or in manuscript form, maps and hydrographic or similar charts), other than publications wholly or predominantly devoted to advertising and other than publications wholly or predominantly consisting of video content or audible music."
-            },
-            "comment": "Article 278-0 bis A 3° of the general tax code"
-        },
-        {
-            "memberState": "FR",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
                 "value": 10
             },
             "situationOn": "2025-07-01+02:00",
@@ -1092,86 +2040,6 @@
             "type": "REDUCED",
             "rate": {
                 "type": "REDUCED_RATE",
-                "value": 5.5
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "3924 90 00",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "4014 10 00",
-                        "description": "Sheath contraceptives"
-                    },
-                    {
-                        "value": "9619 00",
-                        "description": "Sanitary towels (pads) and tampons, napkins (diapers), napkin liners and similar articles, of any material"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "PHARMACEUTICAL_PRODUCTS",
-                "description": "Pharmaceutical products of a kind normally used for health care, prevention of illness and as treatment for medical and veterinary purposes, including products used for contraception and sanitary protection"
-            },
-            "comment": "For sanitary protection for women (article 278-0 bis A 1° bis of the general tax code), and condoms (article 278-0 bis A, 1° ter of the general tax code)"
-        },
-        {
-            "memberState": "FR",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5.5
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "4911 91 00",
-                        "description": "Pictures, designs and photographs"
-                    },
-                    {
-                        "value": "5805 00 00",
-                        "description": "Hand-woven tapestries of the type Gobelins, Flanders, Aubusson, Beauvais and the like, and needle-worked tapestries (for example, petit point, cross stitch), whether or not made up"
-                    },
-                    {
-                        "value": "9701",
-                        "description": "Paintings, drawings and pastels, executed entirely by hand, other than drawings of heading 4906 and other than hand-painted or hand-decorated manufactured articles; collages, mosaics and similar decorative plaques"
-                    },
-                    {
-                        "value": "9702 00 00",
-                        "description": "Original engravings, prints and lithographs"
-                    },
-                    {
-                        "value": "9703 00 00",
-                        "description": "Original sculptures and statuary, in any material"
-                    },
-                    {
-                        "value": "9704 00 00",
-                        "description": "Postage or revenue stamps, stamp-postmarks, first-day covers, postal stationery (stamped paper), and the like, used or unused, other than those of heading 4907"
-                    },
-                    {
-                        "value": "9705 00 00",
-                        "description": "Collections and collectors' pieces of zoological, botanical, mineralogical, anatomical, historical, archaeological, palaeontological, ethnographic or numismatic interest"
-                    },
-                    {
-                        "value": "9706 00 00",
-                        "description": "Antiques of an age exceeding 100 years"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "ANTIQUES",
-                "description": "Supply of works of art, collectors' items and antiques listed in Annex IX, Parts A, B and C"
-            },
-            "comment": "The reduced rate do not apply to supplies of such items to which the profit margin scheme is being applied - Article 278-0 bis I of the general tax code"
-        },
-        {
-            "memberState": "FR",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
                 "value": 10
             },
             "situationOn": "2025-07-01+02:00",
@@ -1186,874 +2054,6 @@
                 "description": "Supply of water"
             },
             "comment": "Article 279 b 2° of the general tax code"
-        },
-        {
-            "memberState": "FR",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 10
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "38.11.11",
-                        "description": "Collection services of non-hazardous recyclable waste, municipal"
-                    },
-                    {
-                        "value": "38.11.21",
-                        "description": "Collection services of non-hazardous non-recyclable waste, municipal"
-                    },
-                    {
-                        "value": "38.11.6",
-                        "description": "Worn clothing and other worn articles"
-                    },
-                    {
-                        "value": "38.12.13",
-                        "description": "Collection services of other hazardous industrial waste"
-                    },
-                    {
-                        "value": "38.21.10",
-                        "description": "Non-hazardous waste treatment for final disposal services"
-                    },
-                    {
-                        "value": "38.21.2",
-                        "description": "Metal secondary raw materials"
-                    },
-                    {
-                        "value": "38.22.19",
-                        "description": "Other hazardous waste treatment services"
-                    },
-                    {
-                        "value": "38.22.29",
-                        "description": "Other hazardous waste disposal services"
-                    },
-                    {
-                        "value": "38.32.11",
-                        "description": "Sanitary landfilling services of non-hazardous waste"
-                    },
-                    {
-                        "value": "38.32.12",
-                        "description": "Other non-hazardous waste landfilling or permanent storage services"
-                    },
-                    {
-                        "value": "81.29.12",
-                        "description": "Sweeping and snow removal services"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "STREET_CLEANING",
-                "description": "Supply of services provided in connection with street cleaning, refuse collection and waste treatment, other than the supply of such services by bodies referred to in Article 13"
-            },
-            "comment": "The rest of the services of treatment of household waste the local authorities (article 279 H of the general tax code)"
-        },
-        {
-            "memberState": "FR",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5.5
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cnCodes": {
-                "code": {
-                    "value": "8419 12 00",
-                    "description": "Solar water heaters"
-                }
-            },
-            "category": {
-                "identifier": "SOLAR_PANELS",
-                "description": "Supply and installation of solar panels on and adjacent to private dwellings, housing and public and other buildings used for activities in the public interest"
-            },
-            "comment": "From 1 October 2025 - Article 278-0 bis, P of the general tax code"
-        },
-        {
-            "memberState": "FR",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5.5
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "35.11.10",
-                        "description": "Electricity"
-                    },
-                    {
-                        "value": "35.13.10",
-                        "description": "Distribution services of electricity"
-                    },
-                    {
-                        "value": "35.14.10",
-                        "description": "Trade services of electricity"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "SUPPLY_ELECTRICITY",
-                "description": "Supply of electricity"
-            },
-            "comment": "Until 1 August 2025 - For the subscription part of the bill (article 278-0 bis B of the general tax code)"
-        },
-        {
-            "memberState": "FR",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5.5
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cpaCodes": {
-                "code": {
-                    "value": "35.2",
-                    "description": "Manufactured gas; distribution services of gaseous fuels through mains"
-                }
-            },
-            "category": {
-                "identifier": "SUPPLY_GAS",
-                "description": "Supply of natural gas"
-            },
-            "comment": "Until 1 August 2025 - For the subscription part of the bill (article 278-0 bis B of the general tax code)"
-        },
-        {
-            "memberState": "FR",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5.5
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cpaCodes": {
-                "code": {
-                    "value": "35.30.12",
-                    "description": "Steam and hot water supply services through mains"
-                }
-            },
-            "category": {
-                "identifier": "SUPPLY_HEATING",
-                "description": "Supply of district heating"
-            },
-            "comment": "For the subscription part of the bill. When produced at least 50% from biomass, geothermal, solar thermal energy, waste and recovered energy (article 278-0 bis B of the general tax code)"
-        },
-        {
-            "memberState": "FR",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5.5
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "38.11.11",
-                        "description": "Collection services of non-hazardous recyclable waste, municipal"
-                    },
-                    {
-                        "value": "38.11.21",
-                        "description": "Collection services of non-hazardous non-recyclable waste, municipal"
-                    },
-                    {
-                        "value": "38.11.6",
-                        "description": "Worn clothing and other worn articles"
-                    },
-                    {
-                        "value": "38.12.13",
-                        "description": "Collection services of other hazardous industrial waste"
-                    },
-                    {
-                        "value": "38.21.10",
-                        "description": "Non-hazardous waste treatment for final disposal services"
-                    },
-                    {
-                        "value": "38.21.2",
-                        "description": "Metal secondary raw materials"
-                    },
-                    {
-                        "value": "38.22.19",
-                        "description": "Other hazardous waste treatment services"
-                    },
-                    {
-                        "value": "38.22.29",
-                        "description": "Other hazardous waste disposal services"
-                    },
-                    {
-                        "value": "38.32.11",
-                        "description": "Sanitary landfilling services of non-hazardous waste"
-                    },
-                    {
-                        "value": "38.32.12",
-                        "description": "Other non-hazardous waste landfilling or permanent storage services"
-                    },
-                    {
-                        "value": "81.29.12",
-                        "description": "Sweeping and snow removal services"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "STREET_CLEANING",
-                "description": "Supply of services provided in connection with street cleaning, refuse collection and waste treatment, other than the supply of such services by bodies referred to in Article 13"
-            },
-            "comment": "The services of treatment of household waste the local authorities when the waste is treated separately (article 278-0 bis M of the general tax code)"
-        },
-        {
-            "memberState": "FR",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 10
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "41.00.3",
-                        "description": "Construction works for residential buildings"
-                    },
-                    {
-                        "value": "43",
-                        "description": "Specialised construction works"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "HOUSING_PROVISION",
-                "description": "Provision, construction, renovation and alteration of housing, as part of a social policy"
-            },
-            "comment": "The rest of the social housing works (article 279-0 bis A of the general tax code)"
-        },
-        {
-            "memberState": "FR",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 10
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "41.00.3",
-                        "description": "Construction works for residential buildings"
-                    },
-                    {
-                        "value": "43",
-                        "description": "Specialised construction works"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "PRIVATE_DWELLINGS",
-                "description": "The renovation and repair of private dwellings, excluding materials which account for a significant part of the value of the service supplied"
-            },
-            "comment": "The rest of the renovation works in more than two years old housings is taxed at 10% (article 279-0 bis of the general tax code)"
-        },
-        {
-            "memberState": "FR",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 10
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "49.10.1",
-                        "description": "Passenger rail transport services, interurban"
-                    },
-                    {
-                        "value": "49.3",
-                        "description": "Other passenger land transport services"
-                    },
-                    {
-                        "value": "50.10",
-                        "description": "Sea and coastal passenger water transport services"
-                    },
-                    {
-                        "value": "50.30",
-                        "description": "Inland passenger water transport services"
-                    },
-                    {
-                        "value": "51.10",
-                        "description": "Passenger air transport services"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "TRANSPORT_PASSENGERS",
-                "description": "Transport of passengers and their accompanying luggage"
-            },
-            "comment": "Article 279 b quater of the general tax code"
-        },
-        {
-            "memberState": "FR",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 10
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cpaCodes": {
-                "code": {
-                    "value": "55",
-                    "description": "Accommodation services"
-                }
-            },
-            "category": {
-                "identifier": "ACCOMMODATION",
-                "description": "Accommodation provided in hotels and similar establishments, including the provision of holiday accommodation and the letting of places on camping or caravan sites"
-            },
-            "comment": "article 279 a of the general tax code"
-        },
-        {
-            "memberState": "FR",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 10
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "56.10",
-                        "description": "Restaurant and mobile food serving services"
-                    },
-                    {
-                        "value": "56.2",
-                        "description": "Event catering, contract catering services and other food serving services"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "RESTAURANT",
-                "description": "Restaurant and catering services, it being possible to exclude the supply of (alcoholic and\/or non-alcoholic) beverages"
-            },
-            "comment": "Article 279 m of the general tax code (alcoholic beverages excluded)"
-        },
-        {
-            "memberState": "FR",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 10
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cpaCodes": {
-                "code": {
-                    "value": "60.20.1",
-                    "description": "Television programming and broadcasting services"
-                }
-            },
-            "category": {
-                "identifier": "BROADCASTING_SERVICES",
-                "description": "Reception of radio and television broadcasting services"
-            },
-            "comment": "Television broadcasting services (article 279 b octies of the general tax code)"
-        },
-        {
-            "memberState": "FR",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 10
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "82.30.1",
-                        "description": "Convention and trade show organisation services"
-                    },
-                    {
-                        "value": "90.04.10",
-                        "description": "Arts facility operation services"
-                    },
-                    {
-                        "value": "91.02.10",
-                        "description": "Museum operation services"
-                    },
-                    {
-                        "value": "91.03.10",
-                        "description": "Operation services of historical sites and buildings and similar visitor attractions"
-                    },
-                    {
-                        "value": "91.04.1",
-                        "description": "Botanical and zoological garden services and nature reserve services"
-                    },
-                    {
-                        "value": "93.11.10",
-                        "description": "Sports facility operation services"
-                    },
-                    {
-                        "value": "93.21.10",
-                        "description": "Amusement park and theme park services"
-                    },
-                    {
-                        "value": "93.29.1",
-                        "description": "Other recreational services"
-                    },
-                    {
-                        "value": "93.29.21",
-                        "description": "Firework and light and sound shows services"
-                    },
-                    {
-                        "value": "93.29.29",
-                        "description": "Other entertainment services n.e.c."
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "CULTURAL_EVENTS",
-                "description": "Admission to shows, theatres, circuses, fairs, amusement parks, concerts, museums, zoos, cinemas, exhibitions and similar cultural events and facilities"
-            },
-            "comment": "Admission to exhibitions, sites and installations of a cultural, recreational, educational or professional nature (article 279 b nonies of the general tax code)"
-        },
-        {
-            "memberState": "FR",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 10
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "90.01.10",
-                        "description": "Services of performing artists"
-                    },
-                    {
-                        "value": "90.03.11",
-                        "description": "Services provided by authors, composers, sculptors and other artists, except performing artists"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "WRITERS_SERVICES",
-                "description": "Supply of services by writers, composers and performing artists, or of the royalties due to them"
-            },
-            "comment": "Royalties (article 279 g of the general tax code)"
-        },
-        {
-            "memberState": "FR",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5.5
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "41.00.3",
-                        "description": "Construction works for residential buildings"
-                    },
-                    {
-                        "value": "43",
-                        "description": "Specialised construction works"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "PRIVATE_DWELLINGS",
-                "description": "The renovation and repair of private dwellings, excluding materials which account for a significant part of the value of the service supplied"
-            },
-            "comment": "Energetic improvement works in more than two years old housings (article 278-0 bis A of the general tax code)"
-        },
-        {
-            "memberState": "FR",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5.5
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "41.00.3",
-                        "description": "Construction works for residential buildings"
-                    },
-                    {
-                        "value": "43",
-                        "description": "Specialised construction works"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "HOUSING_PROVISION",
-                "description": "Provision, construction, renovation and alteration of housing, as part of a social policy"
-            },
-            "comment": "The building land, the construction and some works for social housing (articles 278 sexies, 278 sexies A and 278 sexies-0 A of the general tax code)"
-        },
-        {
-            "memberState": "FR",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5.5
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "49.32.1",
-                        "description": "Taxi operation services"
-                    },
-                    {
-                        "value": "53.20.12",
-                        "description": "Food home delivery services"
-                    },
-                    {
-                        "value": "53.20.19",
-                        "description": "Other postal and courier services n.e.c."
-                    },
-                    {
-                        "value": "56.21.1",
-                        "description": "Event catering services"
-                    },
-                    {
-                        "value": "74.30.12",
-                        "description": "Interpretation services"
-                    },
-                    {
-                        "value": "81.21.10",
-                        "description": "General cleaning services of buildings"
-                    },
-                    {
-                        "value": "85.59.19",
-                        "description": "Education services n.e.c."
-                    },
-                    {
-                        "value": "88.10.1",
-                        "description": "Social work services without accommodation for the elderly and disabled"
-                    },
-                    {
-                        "value": "88.91.11",
-                        "description": "Child day-care services excluding day-care services for the disabled"
-                    },
-                    {
-                        "value": "88.91.12",
-                        "description": "Day-care services for disabled children and young people"
-                    },
-                    {
-                        "value": "88.91.13",
-                        "description": "Baby-sitting services"
-                    },
-                    {
-                        "value": "96.01.19",
-                        "description": "Other textile cleaning services"
-                    },
-                    {
-                        "value": "96.02.13",
-                        "description": "Cosmetic treatment, manicuring and pedicuring services"
-                    },
-                    {
-                        "value": "96.02.19",
-                        "description": "Other beauty treatment services"
-                    },
-                    {
-                        "value": "96.09.11",
-                        "description": "Pet care services"
-                    },
-                    {
-                        "value": "96.09.19",
-                        "description": "Other miscellaneous services n.e.c."
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "DOMESTIC_CARE",
-                "description": "Domestic care services such as home help and care of the young, elderly, sick or disabled"
-            },
-            "comment": "Article 278-0 bis D of the general tax code"
-        },
-        {
-            "memberState": "FR",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 13
-            },
-            "situationOn": "2025-07-01+02:00",
-            "category": {
-                "identifier": "REGION",
-                "description": "Special reduced rate for specific regions (including articles 104, 105 and 120 of the VAT Directive)"
-            },
-            "comment": "For Corsica: rate of 13% on oil products; 10% on construction works, sales on farm machinery, sales on eaten in products, etc.; 2.1% (reduced rate)."
-        },
-        {
-            "memberState": "FR",
-            "type": "REDUCED",
-            "rate": {
-                "type": "SUPER_REDUCED_RATE",
-                "value": 2.1
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "2941",
-                        "description": "Antibiotics"
-                    },
-                    {
-                        "value": "3002 11 00",
-                        "description": "Malaria diagnostic test kits"
-                    },
-                    {
-                        "value": "3002 12 00",
-                        "description": "Antisera and other blood fractions"
-                    },
-                    {
-                        "value": "3002 13 00",
-                        "description": "Immunological products, unmixed, not put up in measured doses or in forms or packings for retail sale"
-                    },
-                    {
-                        "value": "3002 14 00",
-                        "description": "Immunological products, mixed, not put up in measured doses or in forms or packings for retail sale"
-                    },
-                    {
-                        "value": "3002 15 00",
-                        "description": "Immunological products, put up in measured doses or in forms or packings for retail sale"
-                    },
-                    {
-                        "value": "3002 19 00",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "3002 20",
-                        "description": "Vaccines for human medicine"
-                    },
-                    {
-                        "value": "3004",
-                        "description": "Medicaments (excluding goods of heading 3002, 3005 or 3006) consisting of mixed or unmixed products for therapeutic or prophylactic uses, put up in measured doses (including those in the form of transdermal administration systems) or in forms or packings for retail sale"
-                    },
-                    {
-                        "value": "3005",
-                        "description": "Wadding, gauze, bandages and similar articles (for example, dressings, adhesive plasters, poultices), impregnated or coated with pharmaceutical substances or put up in forms or packings for retail sale for medical, surgical, dental or veterinary purposes"
-                    },
-                    {
-                        "value": "3006 10 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "3006 20 00",
-                        "description": "Blood-grouping reagents"
-                    },
-                    {
-                        "value": "3006 30 00",
-                        "description": "Opacifying preparations for X-ray examinations; diagnostic reagents designed to be administered to the patient"
-                    },
-                    {
-                        "value": "3006 60 00",
-                        "description": "Chemical contraceptive preparations based on hormones, on other products of heading 2937 or on spermicides"
-                    },
-                    {
-                        "value": "3006 70 00",
-                        "description": "Gel preparations designed to be used in human or veterinary medicine as a lubricant for parts of the body for surgical operations or physical examinations or as a coupling agent between the body and medical instruments"
-                    },
-                    {
-                        "value": "3006 92 00",
-                        "description": "Waste pharmaceuticals"
-                    },
-                    {
-                        "value": "6305 10 10",
-                        "description": "Used"
-                    },
-                    {
-                        "value": "6305 20 00",
-                        "description": "Of cotton"
-                    },
-                    {
-                        "value": "6305 32 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "6305 39 00",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "6305 90 00",
-                        "description": "Of other textile materials"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "PHARMACEUTICAL_PRODUCTS",
-                "description": "Pharmaceutical products of a kind normally used for health care, prevention of illness and as treatment for medical and veterinary purposes, including products used for contraception and sanitary protection"
-            },
-            "comment": "For reimbursed pharmaceutical products (article 281 octies of the general tax code)"
-        },
-        {
-            "memberState": "FR",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5.5
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "59.14.10",
-                        "description": "Motion picture projection services"
-                    },
-                    {
-                        "value": "90.02",
-                        "description": "Support services to performing arts"
-                    },
-                    {
-                        "value": "90.04.10",
-                        "description": "Arts facility operation services"
-                    },
-                    {
-                        "value": "91.04.11",
-                        "description": "Botanical and zoological garden services"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "CULTURAL_EVENTS",
-                "description": "Admission to shows, theatres, circuses, fairs, amusement parks, concerts, museums, zoos, cinemas, exhibitions and similar cultural events and facilities"
-            },
-            "comment": "Shows, theatres, circuses, concerts, cinemas, admission to zoologic parcs, teaching and practice of horseback riding, entry fees for video gaming competitions (article 278-0 bis F, G, L and O of the general tax code)"
-        },
-        {
-            "memberState": "FR",
-            "type": "REDUCED",
-            "rate": {
-                "type": "SUPER_REDUCED_RATE",
-                "value": 2.1
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "4901 99 00",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "4902",
-                        "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
-                    },
-                    {
-                        "value": "4903 00 00",
-                        "description": "Children's picture, drawing or colouring books"
-                    },
-                    {
-                        "value": "4907 00 10",
-                        "description": "Postage, revenue and similar stamps"
-                    },
-                    {
-                        "value": "4911 10 90",
-                        "description": "Other"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "NEWSPAPERS",
-                "description": "Newspapers"
-            },
-            "comment": "Article 298 septies of the general tax code"
-        },
-        {
-            "memberState": "FR",
-            "type": "REDUCED",
-            "rate": {
-                "type": "SUPER_REDUCED_RATE",
-                "value": 2.1
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "4901 99 00",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "4902",
-                        "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
-                    },
-                    {
-                        "value": "4903 00 00",
-                        "description": "Children's picture, drawing or colouring books"
-                    },
-                    {
-                        "value": "4907 00 10",
-                        "description": "Postage, revenue and similar stamps"
-                    },
-                    {
-                        "value": "4911 10 90",
-                        "description": "Other"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "PERIODICALS",
-                "description": "Periodicals"
-            },
-            "comment": "Publications of general interest with a direct connection to current affairs"
-        },
-        {
-            "memberState": "FR",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5.5
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "93.11.10",
-                        "description": "Sports facility operation services"
-                    },
-                    {
-                        "value": "93.12.10",
-                        "description": "Services of sport clubs"
-                    },
-                    {
-                        "value": "93.19.11",
-                        "description": "Sports and recreational sports event promotion services"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "SPORTING_EVENTS",
-                "description": "Admission to sporting events"
-            },
-            "comment": "Article 278-0 bis J of the general tax code"
-        },
-        {
-            "memberState": "FR",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 8.5
-            },
-            "situationOn": "2025-07-01+02:00",
-            "category": {
-                "identifier": "REGION",
-                "description": "Special reduced rate for specific regions (including articles 104, 105 and 120 of the VAT Directive)"
-            },
-            "comment": "The standard VAT rate in Martinique, Guadeloupe and Réunion is 8.5%. The reduced rate is 2.1%. There is also a zero VAT rate for essential goods in Martinique and Guadeloupe."
-        },
-        {
-            "memberState": "FR",
-            "type": "STANDARD",
-            "rate": {
-                "type": "DEFAULT",
-                "value": 20
-            },
-            "situationOn": "2025-07-01+02:00",
-            "comment": "<p><a href=\"http:\/\/bofip.impots.gouv.fr\/bofip\/1379-PGP\" target=\"_blank\" rel=\"noopener noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer\">http:\/\/bofip.impots.gouv.fr\/bofip\/1379-PGP<\/a><\/p>\n<p>Article 278 of the General Tax Code<\/p>"
         }
     ]
 }

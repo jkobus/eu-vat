@@ -713,6 +713,130 @@
             "memberState": "DE",
             "type": "REDUCED",
             "rate": {
+                "type": "EXEMPTED",
+                "value": 0
+            },
+            "situationOn": "2025-07-01+02:00",
+            "category": {
+                "identifier": "SUPPLY_ELECTRICITY",
+                "description": "Supply of electricity"
+            },
+            "comment": "VAT - Import - Article 12 paragraph 3 of the German VAT Act contains a list of services falling under the zero rate e.g. the supply of certain photovoltaic power. For legal certainty please have a look at the German VAT Act."
+        },
+        {
+            "memberState": "DE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "EXEMPTED",
+                "value": 0
+            },
+            "situationOn": "2025-07-01+02:00",
+            "category": {
+                "identifier": "SUPPLY_ELECTRICITY",
+                "description": "Supply of electricity"
+            },
+            "comment": "Article 12 paragraph 3 of the German VAT Act contains a list of services falling under the zero rate e.g. the supply of certain photovoltaic power. For legal certainty please have a look at the German VAT Act."
+        },
+        {
+            "memberState": "DE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "OUT_OF_SCOPE",
+                "value": 0
+            },
+            "situationOn": "2025-07-01+02:00",
+            "category": {
+                "identifier": "BROADCASTING_SERVICES",
+                "description": "Reception of radio and television broadcasting services"
+            },
+            "comment": "VAT - Import - Public radio and television broadcasting services are out of scope."
+        },
+        {
+            "memberState": "DE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "OUT_OF_SCOPE",
+                "value": 0
+            },
+            "situationOn": "2025-07-01+02:00",
+            "category": {
+                "identifier": "BROADCASTING_SERVICES",
+                "description": "Reception of radio and television broadcasting services"
+            },
+            "comment": "Public radio and television broadcasting services are out of scope."
+        },
+        {
+            "memberState": "DE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 7
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "0511 99 39",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "3924 90 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "4014 90 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "9619 00",
+                        "description": "Sanitary towels (pads) and tampons, napkins (diapers), napkin liners and similar articles, of any material"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "PHARMACEUTICAL_PRODUCTS",
+                "description": "Pharmaceutical products of a kind normally used for health care, prevention of illness and as treatment for medical and veterinary purposes, including products used for contraception and sanitary protection"
+            },
+            "comment": "VAT - Import - Article 98 (2) and Annex III of the VAT Directive: Annex 2 of the German VAT Act contains a list of goods falling under the reduced rate of 7% such as products for monthly hygiene purposes and so on. For legal certainty please have a look at the German VAT Act."
+        },
+        {
+            "memberState": "DE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 7
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "0511 99 39",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "3924 90 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "4014 90 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "9619 00",
+                        "description": "Sanitary towels (pads) and tampons, napkins (diapers), napkin liners and similar articles, of any material"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "PHARMACEUTICAL_PRODUCTS",
+                "description": "Pharmaceutical products of a kind normally used for health care, prevention of illness and as treatment for medical and veterinary purposes, including products used for contraception and sanitary protection"
+            },
+            "comment": "Article 98 (2) and Annex III of the VAT Directive: Annex 2 of the German VAT Act contains a list of goods falling under the reduced rate of 7% such as products for monthly hygiene purposes and so on. For legal certainty please have a look at the German VAT Act."
+        },
+        {
+            "memberState": "DE",
+            "type": "REDUCED",
+            "rate": {
                 "type": "REDUCED_RATE",
                 "value": 7
             },
@@ -784,6 +908,46 @@
                 "description": "Live plants and other floricultural products, including bulbs, cotton, roots and the like, cut flowers and ornamental foliage"
             },
             "comment": "Annex 2 of the German VAT Act contains a list of goods falling under the reduced rate of 7% such as live plants, bulbs, roots and so on. For legal certainty please have a look at the German VAT Act."
+        },
+        {
+            "memberState": "DE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 7
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cnCodes": {
+                "code": {
+                    "value": "2201 90 00",
+                    "description": "Other"
+                }
+            },
+            "category": {
+                "identifier": "SUPPLY_WATER",
+                "description": "Supply of water"
+            },
+            "comment": "VAT - Import - No reduced rate for bottled water, healing water and steam"
+        },
+        {
+            "memberState": "DE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 7
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cnCodes": {
+                "code": {
+                    "value": "2201 90 00",
+                    "description": "Other"
+                }
+            },
+            "category": {
+                "identifier": "SUPPLY_WATER",
+                "description": "Supply of water"
+            },
+            "comment": "No reduced rate for bottled water, healing water and steam"
         },
         {
             "memberState": "DE",
@@ -1108,74 +1272,6 @@
                 "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
             },
             "comment": "Annex 2 of the German VAT Act contains a list of goods falling under the reduced rate of 7% such as wheelchairs, orthopaedic appliances, human body replacement parts and so on. For legal certainty please have a look at the German VAT Act."
-        },
-        {
-            "memberState": "DE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 7
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "0511 99 39",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "3924 90 00",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "4014 90 00",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "9619 00",
-                        "description": "Sanitary towels (pads) and tampons, napkins (diapers), napkin liners and similar articles, of any material"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "PHARMACEUTICAL_PRODUCTS",
-                "description": "Pharmaceutical products of a kind normally used for health care, prevention of illness and as treatment for medical and veterinary purposes, including products used for contraception and sanitary protection"
-            },
-            "comment": "VAT - Import - Article 98 (2) and Annex III of the VAT Directive: Annex 2 of the German VAT Act contains a list of goods falling under the reduced rate of 7% such as products for monthly hygiene purposes and so on. For legal certainty please have a look at the German VAT Act."
-        },
-        {
-            "memberState": "DE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 7
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "0511 99 39",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "3924 90 00",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "4014 90 00",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "9619 00",
-                        "description": "Sanitary towels (pads) and tampons, napkins (diapers), napkin liners and similar articles, of any material"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "PHARMACEUTICAL_PRODUCTS",
-                "description": "Pharmaceutical products of a kind normally used for health care, prevention of illness and as treatment for medical and veterinary purposes, including products used for contraception and sanitary protection"
-            },
-            "comment": "Article 98 (2) and Annex III of the VAT Directive: Annex 2 of the German VAT Act contains a list of goods falling under the reduced rate of 7% such as products for monthly hygiene purposes and so on. For legal certainty please have a look at the German VAT Act."
         },
         {
             "memberState": "DE",
@@ -1535,102 +1631,6 @@
                 "value": 19
             },
             "situationOn": "2025-07-01+02:00"
-        },
-        {
-            "memberState": "DE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "EXEMPTED",
-                "value": 0
-            },
-            "situationOn": "2025-07-01+02:00",
-            "category": {
-                "identifier": "SUPPLY_ELECTRICITY",
-                "description": "Supply of electricity"
-            },
-            "comment": "VAT - Import - Article 12 paragraph 3 of the German VAT Act contains a list of services falling under the zero rate e.g. the supply of certain photovoltaic power. For legal certainty please have a look at the German VAT Act."
-        },
-        {
-            "memberState": "DE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "EXEMPTED",
-                "value": 0
-            },
-            "situationOn": "2025-07-01+02:00",
-            "category": {
-                "identifier": "SUPPLY_ELECTRICITY",
-                "description": "Supply of electricity"
-            },
-            "comment": "Article 12 paragraph 3 of the German VAT Act contains a list of services falling under the zero rate e.g. the supply of certain photovoltaic power. For legal certainty please have a look at the German VAT Act."
-        },
-        {
-            "memberState": "DE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "OUT_OF_SCOPE",
-                "value": 0
-            },
-            "situationOn": "2025-07-01+02:00",
-            "category": {
-                "identifier": "BROADCASTING_SERVICES",
-                "description": "Reception of radio and television broadcasting services"
-            },
-            "comment": "VAT - Import - Public radio and television broadcasting services are out of scope."
-        },
-        {
-            "memberState": "DE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "OUT_OF_SCOPE",
-                "value": 0
-            },
-            "situationOn": "2025-07-01+02:00",
-            "category": {
-                "identifier": "BROADCASTING_SERVICES",
-                "description": "Reception of radio and television broadcasting services"
-            },
-            "comment": "Public radio and television broadcasting services are out of scope."
-        },
-        {
-            "memberState": "DE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 7
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cnCodes": {
-                "code": {
-                    "value": "2201 90 00",
-                    "description": "Other"
-                }
-            },
-            "category": {
-                "identifier": "SUPPLY_WATER",
-                "description": "Supply of water"
-            },
-            "comment": "VAT - Import - No reduced rate for bottled water, healing water and steam"
-        },
-        {
-            "memberState": "DE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 7
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cnCodes": {
-                "code": {
-                    "value": "2201 90 00",
-                    "description": "Other"
-                }
-            },
-            "category": {
-                "identifier": "SUPPLY_WATER",
-                "description": "Supply of water"
-            },
-            "comment": "No reduced rate for bottled water, healing water and steam"
         }
     ]
 }
