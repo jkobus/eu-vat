@@ -123,6 +123,818 @@
             "memberState": "LU",
             "type": "REDUCED",
             "rate": {
+                "type": "PARKING_RATE",
+                "value": 14
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "2701 20 00",
+                        "description": "Briquettes, ovoids and similar solid fuels manufactured from coal"
+                    },
+                    {
+                        "value": "2702 20 00",
+                        "description": "Agglomerated lignite"
+                    },
+                    {
+                        "value": "2703 00 00",
+                        "description": "Peat (including peat litter), whether or not agglomerated"
+                    },
+                    {
+                        "value": "2710 19",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "4403",
+                        "description": "Wood in the rough, whether or not stripped of bark or sapwood, or roughly squared"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "NEW_PARKING_RATE",
+                "description": "Parking rates (Article 105a(3) of the VAT Directive)"
+            },
+            "comment": "Fuels: solid mineral fuels; mineral oils; wood other than for use as firewood"
+        },
+        {
+            "memberState": "LU",
+            "type": "REDUCED",
+            "rate": {
+                "type": "PARKING_RATE",
+                "value": 14
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cnCodes": {
+                "code": {
+                    "value": "3402",
+                    "description": "Organic surface-active agents (other than soap); surface-active preparations, washing preparations (including auxiliary washing preparations) and cleaning preparations, whether or not containing soap, other than those of heading 3401"
+                }
+            },
+            "category": {
+                "identifier": "CLEANING_PRODUCT",
+                "description": "Washing and cleaning preparations"
+            }
+        },
+        {
+            "memberState": "LU",
+            "type": "REDUCED",
+            "rate": {
+                "type": "PARKING_RATE",
+                "value": 14
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cnCodes": {
+                "code": {
+                    "value": "3402 20 90",
+                    "description": "Washing preparations and cleaning preparations"
+                }
+            },
+            "category": {
+                "identifier": "NEW_PARKING_RATE",
+                "description": "Parking rates (Article 105a(3) of the VAT Directive)"
+            },
+            "comment": "Preparations for washing and cleaning"
+        },
+        {
+            "memberState": "LU",
+            "type": "REDUCED",
+            "rate": {
+                "type": "SUPER_REDUCED_RATE",
+                "value": 3
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "0201",
+                        "description": "Meat of bovine animals, fresh or chilled"
+                    },
+                    {
+                        "value": "0202",
+                        "description": "Meat of bovine animals, frozen"
+                    },
+                    {
+                        "value": "0203",
+                        "description": "Meat of swine, fresh, chilled or frozen"
+                    },
+                    {
+                        "value": "0204",
+                        "description": "Meat of sheep or goats, fresh, chilled or frozen"
+                    },
+                    {
+                        "value": "0205 00",
+                        "description": "Meat of horses, asses, mules or hinnies, fresh, chilled or frozen"
+                    },
+                    {
+                        "value": "0206",
+                        "description": "Edible offal of bovine animals, swine, sheep, goats, horses, asses, mules or hinnies, fresh, chilled or frozen"
+                    },
+                    {
+                        "value": "0207",
+                        "description": "Meat and edible offal, of the poultry of heading 0105, fresh, chilled or frozen"
+                    },
+                    {
+                        "value": "0208",
+                        "description": "Other meat and edible meat offal, fresh, chilled or frozen"
+                    },
+                    {
+                        "value": "0209",
+                        "description": "Pig fat, free of lean meat, and poultry fat, not rendered or otherwise extracted, fresh, chilled, frozen, salted, in brine, dried or smoked"
+                    },
+                    {
+                        "value": "0210",
+                        "description": "Meat and edible meat offal, salted, in brine, dried or smoked; edible flours and meals of meat or meat offal"
+                    },
+                    {
+                        "value": "0302",
+                        "description": "Fish, fresh or chilled, excluding fish fillets and other fish meat of heading 0304"
+                    },
+                    {
+                        "value": "0303",
+                        "description": "Fish, frozen, excluding fish fillets and other fish meat of heading 0304"
+                    },
+                    {
+                        "value": "0304",
+                        "description": "Fish fillets and other fish meat (whether or not minced), fresh, chilled or frozen"
+                    },
+                    {
+                        "value": "0305",
+                        "description": "Fish, dried, salted or in brine; smoked fish, whether or not cooked before or during the smoking process"
+                    },
+                    {
+                        "value": "0306",
+                        "description": "Crustaceans, whether in shell or not, live, fresh, chilled, frozen, dried, salted or in brine; smoked crustaceans, whether in shell or not, whether or not cooked before or during the smoking process; crustaceans, in shell, cooked by steaming or by boiling in water, whether or not chilled, frozen, dried, salted or in brine"
+                    },
+                    {
+                        "value": "0307",
+                        "description": "Molluscs, whether in shell or not, live, fresh, chilled, frozen, dried, salted or in brine; smoked molluscs, whether in shell or not, whether or not cooked before or during the smoking process"
+                    },
+                    {
+                        "value": "0401",
+                        "description": "Milk and cream, not concentrated nor containing added sugar or other sweetening matter"
+                    },
+                    {
+                        "value": "0402",
+                        "description": "Milk and cream, concentrated or containing added sugar or other sweetening matter"
+                    },
+                    {
+                        "value": "0403",
+                        "description": "Yogurt; buttermilk, curdled milk and cream, kephir and other fermented or acidified milk and cream, whether or not concentrated or containing added sugar or other sweetening matter or flavoured or containing added fruit, nuts or cocoa"
+                    },
+                    {
+                        "value": "0404",
+                        "description": "Whey, whether or not concentrated or containing added sugar or other sweetening matter; products consisting of natural milk constituents, whether or not containing added sugar or other sweetening matter, not elsewhere specified or included"
+                    },
+                    {
+                        "value": "0405",
+                        "description": "Butter and other fats and oils derived from milk; dairy spreads"
+                    },
+                    {
+                        "value": "0406",
+                        "description": "Cheese and curd"
+                    },
+                    {
+                        "value": "0407",
+                        "description": "Birds' eggs, in shell, fresh, preserved or cooked"
+                    },
+                    {
+                        "value": "0408 11 80",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "0408 19 81",
+                        "description": "Liquid"
+                    },
+                    {
+                        "value": "0408 19 89",
+                        "description": "Other, including frozen"
+                    },
+                    {
+                        "value": "0408 91 80",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "0408 99 80",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "0409 00 00",
+                        "description": "Natural honey"
+                    },
+                    {
+                        "value": "0701",
+                        "description": "Potatoes, fresh or chilled"
+                    },
+                    {
+                        "value": "0702 00 00",
+                        "description": "Tomatoes, fresh or chilled"
+                    },
+                    {
+                        "value": "0703",
+                        "description": "Onions, shallots, garlic, leeks and other alliaceous vegetables, fresh or chilled"
+                    },
+                    {
+                        "value": "0704",
+                        "description": "Cabbages, cauliflowers, kohlrabi, kale and similar edible brassicas, fresh or chilled"
+                    },
+                    {
+                        "value": "0705",
+                        "description": "Lettuce (Lactuca sativa) and chicory (Cichorium spp.), fresh or chilled"
+                    },
+                    {
+                        "value": "0706",
+                        "description": "Carrots, turnips, salad beetroot, salsify, celeriac, radishes and similar edible roots, fresh or chilled"
+                    },
+                    {
+                        "value": "0707 00",
+                        "description": "Cucumbers and gherkins, fresh or chilled"
+                    },
+                    {
+                        "value": "0708",
+                        "description": "Leguminous vegetables, shelled or unshelled, fresh or chilled"
+                    },
+                    {
+                        "value": "0709",
+                        "description": "Other vegetables, fresh or chilled"
+                    },
+                    {
+                        "value": "0710",
+                        "description": "Vegetables (uncooked or cooked by steaming or boiling in water), frozen"
+                    },
+                    {
+                        "value": "0711",
+                        "description": "Vegetables provisionally preserved, but unsuitable in that state for immediate consumption"
+                    },
+                    {
+                        "value": "0712",
+                        "description": "Dried vegetables, whole, cut, sliced, broken or in powder, but not further prepared"
+                    },
+                    {
+                        "value": "0713",
+                        "description": "Dried leguminous vegetables, shelled, whether or not skinned or split"
+                    },
+                    {
+                        "value": "0714",
+                        "description": "Manioc, arrowroot, salep, Jerusalem artichokes, sweet potatoes and similar roots and tubers with high starch or inulin content, fresh, chilled, frozen or dried, whether or not sliced or in the form of pellets; sago pith"
+                    },
+                    {
+                        "value": "0801",
+                        "description": "Coconuts, Brazil nuts and cashew nuts, fresh or dried, whether or not shelled or peeled"
+                    },
+                    {
+                        "value": "0802",
+                        "description": "Other nuts, fresh or dried, whether or not shelled or peeled"
+                    },
+                    {
+                        "value": "0803",
+                        "description": "Bananas, including plantains, fresh or dried"
+                    },
+                    {
+                        "value": "0804",
+                        "description": "Dates, figs, pineapples, avocados, guavas, mangoes and mangosteens, fresh or dried"
+                    },
+                    {
+                        "value": "0805",
+                        "description": "Citrus fruit, fresh or dried"
+                    },
+                    {
+                        "value": "0806",
+                        "description": "Grapes, fresh or dried"
+                    },
+                    {
+                        "value": "0807",
+                        "description": "Melons (including watermelons) and papaws (papayas), fresh"
+                    },
+                    {
+                        "value": "0808",
+                        "description": "Apples, pears and quinces, fresh"
+                    },
+                    {
+                        "value": "0809",
+                        "description": "Apricots, cherries, peaches (including nectarines), plums and sloes, fresh"
+                    },
+                    {
+                        "value": "0810",
+                        "description": "Other fruit, fresh"
+                    },
+                    {
+                        "value": "0811",
+                        "description": "Fruit and nuts, uncooked or cooked by steaming or boiling in water, frozen, whether or not containing added sugar or other sweetening matter"
+                    },
+                    {
+                        "value": "0812",
+                        "description": "Fruit and nuts provisionally preserved, but unsuitable in that state for immediate consumption"
+                    },
+                    {
+                        "value": "0813",
+                        "description": "Fruit, dried, other than that of headings 0801 to 0806; mixtures of nuts or dried fruits of this chapter"
+                    },
+                    {
+                        "value": "0814 00 00",
+                        "description": "Peel of citrus fruit or melons (including watermelons), fresh, frozen, dried or provisionally preserved in brine, in sulphur water or in other preservative solutions"
+                    },
+                    {
+                        "value": "0901",
+                        "description": "Coffee, whether or not roasted or decaffeinated; coffee husks and skins; coffee substitutes containing coffee in any proportion"
+                    },
+                    {
+                        "value": "0902",
+                        "description": "Tea, whether or not flavoured"
+                    },
+                    {
+                        "value": "0903 00 00",
+                        "description": "Maté"
+                    },
+                    {
+                        "value": "0904",
+                        "description": "Pepper of the genus Piper; dried or crushed or ground fruit of the genus Capsicum or of the genus Pimenta"
+                    },
+                    {
+                        "value": "0905",
+                        "description": "Vanilla"
+                    },
+                    {
+                        "value": "0906",
+                        "description": "Cinnamon and cinnamon-tree flowers"
+                    },
+                    {
+                        "value": "0907",
+                        "description": "Cloves (whole fruit, cloves and stems)"
+                    },
+                    {
+                        "value": "0908",
+                        "description": "Nutmeg, mace and cardamoms"
+                    },
+                    {
+                        "value": "0909",
+                        "description": "Seeds of anise, badian, fennel, coriander, cumin or caraway; juniper berries"
+                    },
+                    {
+                        "value": "0910",
+                        "description": "Ginger, saffron, turmeric (curcuma), thyme, bay leaves, curry and other spices"
+                    },
+                    {
+                        "value": "1101 00",
+                        "description": "Wheat or meslin flour"
+                    },
+                    {
+                        "value": "1102",
+                        "description": "Cereal flours other than of wheat or meslin"
+                    },
+                    {
+                        "value": "1103",
+                        "description": "Cereal groats, meal and pellets"
+                    },
+                    {
+                        "value": "1104",
+                        "description": "Cereal grains otherwise worked (for example, hulled, rolled, flaked, pearled, sliced or kibbled), except rice of heading 1006; germ of cereals, whole, rolled, flaked or ground"
+                    },
+                    {
+                        "value": "1105",
+                        "description": "Flour, meal, powder, flakes, granules and pellets of potatoes"
+                    },
+                    {
+                        "value": "1106",
+                        "description": "Flour, meal and powder of the dried leguminous vegetables of heading 0713, of sago or of roots or tubers of heading 0714 or of the products of Chapter 8"
+                    },
+                    {
+                        "value": "1107",
+                        "description": "Malt, whether or not roasted"
+                    },
+                    {
+                        "value": "1108",
+                        "description": "Starches; inulin"
+                    },
+                    {
+                        "value": "1109 00 00",
+                        "description": "Wheat gluten, whether or not dried"
+                    },
+                    {
+                        "value": "1212 94 00",
+                        "description": "Chicory roots"
+                    },
+                    {
+                        "value": "1214",
+                        "description": "Swedes, mangolds, fodder roots, hay, lucerne (alfalfa), clover, sainfoin, forage kale, lupines, vetches and similar forage products, whether or not in the form of pellets"
+                    },
+                    {
+                        "value": "1517",
+                        "description": "Margarine; edible mixtures or preparations of animal, vegetable or microbial fats or oils or of fractions of different fats or oils of this chapter, other than edible fats or oils or their fractions of heading 1516"
+                    },
+                    {
+                        "value": "1601 00",
+                        "description": "Sausages and similar products, of meat, meat offal, blood or insects; food preparations based on these products"
+                    },
+                    {
+                        "value": "1602",
+                        "description": "Other prepared or preserved meat, meat offal, blood or insects"
+                    },
+                    {
+                        "value": "1603 00",
+                        "description": "Extracts and juices of meat, fish or crustaceans, molluscs or other aquatic invertebrates"
+                    },
+                    {
+                        "value": "1604",
+                        "description": "Prepared or preserved fish; caviar and caviar substitutes prepared from fish eggs"
+                    },
+                    {
+                        "value": "1605",
+                        "description": "Crustaceans, molluscs and other aquatic invertebrates, prepared or preserved"
+                    },
+                    {
+                        "value": "1701 12 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "1701 13 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "1701 14 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "1701 91 00",
+                        "description": "Containing added flavouring or colouring matter"
+                    },
+                    {
+                        "value": "1701 99",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "1702 30",
+                        "description": "Glucose and glucose syrup, not containing fructose or containing in the dry state less than 20 % by weight of fructose"
+                    },
+                    {
+                        "value": "1703",
+                        "description": "Molasses resulting from the extraction or refining of sugar"
+                    },
+                    {
+                        "value": "1704 10 10",
+                        "description": "Containing less than 60 % by weight of sucrose (including invert sugar expressed as sucrose)"
+                    },
+                    {
+                        "value": "1801 00 00",
+                        "description": "Cocoa beans, whole or broken, raw or roasted"
+                    },
+                    {
+                        "value": "1802 00 00",
+                        "description": "Cocoa shells, husks, skins and other cocoa waste"
+                    },
+                    {
+                        "value": "1803",
+                        "description": "Cocoa paste, whether or not defatted"
+                    },
+                    {
+                        "value": "1804 00 00",
+                        "description": "Cocoa butter, fat and oil"
+                    },
+                    {
+                        "value": "1805 00 00",
+                        "description": "Cocoa powder, not containing added sugar or other sweetening matter"
+                    },
+                    {
+                        "value": "1806 20",
+                        "description": "Other preparations in blocks, slabs or bars weighing more than 2 kg or in liquid, paste, powder, granular or other bulk form in containers or immediate packings, of a content exceeding 2 kg"
+                    },
+                    {
+                        "value": "1901",
+                        "description": "Malt extract; food preparations of flour, groats, meal, starch or malt extract, not containing cocoa or containing less than 40 % by weight of cocoa calculated on a totally defatted basis, not elsewhere specified or included; food preparations of goods of headings 0401 to 0404, not containing cocoa or containing less than 5 % by weight of cocoa calculated on a totally defatted basis, not elsewhere specified or included"
+                    },
+                    {
+                        "value": "1902 20 10",
+                        "description": "Containing more than 20 % by weight of fish, crustaceans, molluscs or other aquatic invertebrates"
+                    },
+                    {
+                        "value": "1903 00 00",
+                        "description": "Tapioca and substitutes therefor prepared from starch, in the form of flakes, grains, pearls, siftings or similar forms"
+                    },
+                    {
+                        "value": "1904",
+                        "description": "Prepared foods obtained by the swelling or roasting of cereals or cereal products (for example, corn flakes); cereals (other than maize (corn)) in grain form or in the form of flakes or other worked grains (except flour, groats and meal), pre-cooked or otherwise prepared, not elsewhere specified or included"
+                    },
+                    {
+                        "value": "1905 10 00",
+                        "description": "Crispbread"
+                    },
+                    {
+                        "value": "2001 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "2002 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "2003 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "2004 10",
+                        "description": "Potatoes"
+                    },
+                    {
+                        "value": "2005 10 00",
+                        "description": "Homogenised vegetables"
+                    },
+                    {
+                        "value": "2006 00",
+                        "description": "Vegetables, fruit, nuts, fruit-peel and other parts of plants, preserved by sugar (drained, glacé or crystallised)"
+                    },
+                    {
+                        "value": "2007",
+                        "description": "Jams, fruit jellies, marmalades, fruit or nut purée and fruit or nut pastes, obtained by cooking, whether or not containing added sugar or other sweetening matter"
+                    },
+                    {
+                        "value": "2008",
+                        "description": "Fruit, nuts and other edible parts of plants, otherwise prepared or preserved, whether or not containing added sugar or other sweetening matter or spirit, not elsewhere specified or included"
+                    },
+                    {
+                        "value": "2009",
+                        "description": "Fruit or nut juices (including grape must and coconut water) and vegetable juices, unfermented and not containing added spirit, whether or not containing added sugar or other sweetening matter"
+                    },
+                    {
+                        "value": "2101",
+                        "description": "Extracts, essences and concentrates, of coffee, tea or maté and preparations with a basis of these products or with a basis of coffee, tea or maté; roasted chicory and other roasted coffee substitutes, and extracts, essences and concentrates thereof"
+                    },
+                    {
+                        "value": "2102",
+                        "description": "Yeasts (active or inactive); other single-cell micro-organisms, dead (but not including vaccines of heading 3002); prepared baking powders"
+                    },
+                    {
+                        "value": "2103",
+                        "description": "Sauces and preparations therefor; mixed condiments and mixed seasonings; mustard flour and meal and prepared mustard"
+                    },
+                    {
+                        "value": "2104",
+                        "description": "Soups and broths and preparations therefor; homogenised composite food preparations"
+                    },
+                    {
+                        "value": "2105 00",
+                        "description": "Ice cream and other edible ice, whether or not containing cocoa"
+                    },
+                    {
+                        "value": "2106",
+                        "description": "Food preparations not elsewhere specified or included"
+                    },
+                    {
+                        "value": "2202",
+                        "description": "Waters, including mineral waters and aerated waters, containing added sugar or other sweetening matter or flavoured, and other non-alcoholic beverages, not including fruit, nut or vegetable juices of heading 2009"
+                    },
+                    {
+                        "value": "2209 00",
+                        "description": "Vinegar and substitutes for vinegar obtained from acetic acid"
+                    },
+                    {
+                        "value": "2301",
+                        "description": "Flours, meals and pellets, of meat or meat offal, of fish or of crustaceans, molluscs or other aquatic invertebrates, unfit for human consumption; greaves"
+                    },
+                    {
+                        "value": "2302",
+                        "description": "Bran, sharps and other residues, whether or not in the form of pellets, derived from the sifting, milling or other working of cereals or of leguminous plants"
+                    },
+                    {
+                        "value": "2303",
+                        "description": "Residues of starch manufacture and similar residues, beet-pulp, bagasse and other waste of sugar manufacture, brewing or distilling dregs and waste, whether or not in the form of pellets"
+                    },
+                    {
+                        "value": "2304 00 00",
+                        "description": "Oilcake and other solid residues, whether or not ground or in the form of pellets, resulting from the extraction of soya-bean oil"
+                    },
+                    {
+                        "value": "2305 00 00",
+                        "description": "Oilcake and other solid residues, whether or not ground or in the form of pellets, resulting from the extraction of groundnut oil"
+                    },
+                    {
+                        "value": "2306",
+                        "description": "Oilcake and other solid residues, whether or not ground or in the form of pellets, resulting from the extraction of vegetable or microbial fats or oils, other than those of heading 2304 or 2305"
+                    },
+                    {
+                        "value": "2307 00",
+                        "description": "Wine lees; argol"
+                    },
+                    {
+                        "value": "2308 00",
+                        "description": "Vegetable materials and vegetable waste, vegetable residues and by-products, whether or not in the form of pellets, of a kind used in animal feeding, not elsewhere specified or included"
+                    },
+                    {
+                        "value": "2309",
+                        "description": "Preparations of a kind used in animal feeding"
+                    },
+                    {
+                        "value": "2501 00 91",
+                        "description": "Salt suitable for human consumption"
+                    },
+                    {
+                        "value": "0410",
+                        "description": "Insects and other edible products of animal origin, not elsewhere specified or included"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "FOODSTUFFS",
+                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
+            }
+        },
+        {
+            "memberState": "LU",
+            "type": "REDUCED",
+            "rate": {
+                "type": "PARKING_RATE",
+                "value": 14
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "4401 31 00",
+                        "description": "Wood pellets"
+                    },
+                    {
+                        "value": "4401 39 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "4403",
+                        "description": "Wood in the rough, whether or not stripped of bark or sapwood, or roughly squared"
+                    },
+                    {
+                        "value": "4401 32 00",
+                        "description": "Wood briquettes"
+                    },
+                    {
+                        "value": "4401 41 00",
+                        "description": "Sawdust"
+                    },
+                    {
+                        "value": "4401 49 00",
+                        "description": "Other"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "FUEL_MINERAL_OIL",
+                "description": "Solid mineral fuels; mineral oils and wood for use as fuel"
+            },
+            "comment": "Wood other than used as firewood"
+        },
+        {
+            "memberState": "LU",
+            "type": "REDUCED",
+            "rate": {
+                "type": "PARKING_RATE",
+                "value": 14
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cnCodes": {
+                "code": {
+                    "value": "4911 10",
+                    "description": "Trade advertising material, commercial catalogues and the like"
+                }
+            },
+            "category": {
+                "identifier": "NEW_PARKING_RATE",
+                "description": "Parking rates (Article 105a(3) of the VAT Directive)"
+            },
+            "comment": "Trade advertising material; commercial catalogues and the like; tourist publicity"
+        },
+        {
+            "memberState": "LU",
+            "type": "REDUCED",
+            "rate": {
+                "type": "PARKING_RATE",
+                "value": 14
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cnCodes": {
+                "code": {
+                    "value": "4911 10",
+                    "description": "Trade advertising material, commercial catalogues and the like"
+                }
+            },
+            "category": {
+                "identifier": "PRINTED_ADVERTISING_MATERIAL",
+                "description": "Printed advertising material, trade catalogues and the like; tourist propaganda publications"
+            }
+        },
+        {
+            "memberState": "LU",
+            "type": "REDUCED",
+            "rate": {
+                "type": "PARKING_RATE",
+                "value": 14
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "35.3",
+                    "description": "Steam and air conditioning supply services"
+                }
+            },
+            "category": {
+                "identifier": "NEW_PARKING_RATE",
+                "description": "Parking rates (Article 105a(3) of the VAT Directive)"
+            },
+            "comment": "Supply of heat other than supply of district heating; supply of air conditioning"
+        },
+        {
+            "memberState": "LU",
+            "type": "REDUCED",
+            "rate": {
+                "type": "PARKING_RATE",
+                "value": 14
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "35.3",
+                    "description": "Steam and air conditioning supply services"
+                }
+            },
+            "category": {
+                "identifier": "HEAT_COOLING_STEAM",
+                "description": "Heat, cooling and steam, except heat supplied by means of certain heating networks"
+            }
+        },
+        {
+            "memberState": "LU",
+            "type": "REDUCED",
+            "rate": {
+                "type": "PARKING_RATE",
+                "value": 14
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "64.92.1",
+                    "description": "Other credit granting services, other than by monetary institutions"
+                }
+            },
+            "category": {
+                "identifier": "CREDIT_MANAGEMENT",
+                "description": "Management of credits and credit guarantees by a person or body other than those who granted the credits"
+            }
+        },
+        {
+            "memberState": "LU",
+            "type": "REDUCED",
+            "rate": {
+                "type": "PARKING_RATE",
+                "value": 14
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "66.19",
+                        "description": "Other services auxiliary to financial services, except insurance and pension funding"
+                    },
+                    {
+                        "value": "66.30",
+                        "description": "Fund management services"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "SECURITY_MANAGEMENT",
+                "description": "Custody and management of securities"
+            }
+        },
+        {
+            "memberState": "LU",
+            "type": "REDUCED",
+            "rate": {
+                "type": "PARKING_RATE",
+                "value": 14
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "66.19.32",
+                        "description": "Custody services"
+                    },
+                    {
+                        "value": "66.19.99",
+                        "description": "Other miscellaneous services auxiliary to financial services, except insurance and pension funding, n.e.c."
+                    },
+                    {
+                        "value": "66.30.11",
+                        "description": "Portfolio management services, except pension funds"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "NEW_PARKING_RATE",
+                "description": "Parking rates (Article 105a(3) of the VAT Directive)"
+            },
+            "comment": "Management and safekeeping of securities; management of credit and credit guarantees by a person other than the person who granted the credits"
+        },
+        {
+            "memberState": "LU",
+            "type": "REDUCED",
+            "rate": {
                 "type": "REDUCED_RATE",
                 "value": 8
             },
@@ -775,547 +1587,6 @@
             "memberState": "LU",
             "type": "REDUCED",
             "rate": {
-                "type": "SUPER_REDUCED_RATE",
-                "value": 3
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "0201",
-                        "description": "Meat of bovine animals, fresh or chilled"
-                    },
-                    {
-                        "value": "0202",
-                        "description": "Meat of bovine animals, frozen"
-                    },
-                    {
-                        "value": "0203",
-                        "description": "Meat of swine, fresh, chilled or frozen"
-                    },
-                    {
-                        "value": "0204",
-                        "description": "Meat of sheep or goats, fresh, chilled or frozen"
-                    },
-                    {
-                        "value": "0205 00",
-                        "description": "Meat of horses, asses, mules or hinnies, fresh, chilled or frozen"
-                    },
-                    {
-                        "value": "0206",
-                        "description": "Edible offal of bovine animals, swine, sheep, goats, horses, asses, mules or hinnies, fresh, chilled or frozen"
-                    },
-                    {
-                        "value": "0207",
-                        "description": "Meat and edible offal, of the poultry of heading 0105, fresh, chilled or frozen"
-                    },
-                    {
-                        "value": "0208",
-                        "description": "Other meat and edible meat offal, fresh, chilled or frozen"
-                    },
-                    {
-                        "value": "0209",
-                        "description": "Pig fat, free of lean meat, and poultry fat, not rendered or otherwise extracted, fresh, chilled, frozen, salted, in brine, dried or smoked"
-                    },
-                    {
-                        "value": "0210",
-                        "description": "Meat and edible meat offal, salted, in brine, dried or smoked; edible flours and meals of meat or meat offal"
-                    },
-                    {
-                        "value": "0302",
-                        "description": "Fish, fresh or chilled, excluding fish fillets and other fish meat of heading 0304"
-                    },
-                    {
-                        "value": "0303",
-                        "description": "Fish, frozen, excluding fish fillets and other fish meat of heading 0304"
-                    },
-                    {
-                        "value": "0304",
-                        "description": "Fish fillets and other fish meat (whether or not minced), fresh, chilled or frozen"
-                    },
-                    {
-                        "value": "0305",
-                        "description": "Fish, dried, salted or in brine; smoked fish, whether or not cooked before or during the smoking process"
-                    },
-                    {
-                        "value": "0306",
-                        "description": "Crustaceans, whether in shell or not, live, fresh, chilled, frozen, dried, salted or in brine; smoked crustaceans, whether in shell or not, whether or not cooked before or during the smoking process; crustaceans, in shell, cooked by steaming or by boiling in water, whether or not chilled, frozen, dried, salted or in brine"
-                    },
-                    {
-                        "value": "0307",
-                        "description": "Molluscs, whether in shell or not, live, fresh, chilled, frozen, dried, salted or in brine; smoked molluscs, whether in shell or not, whether or not cooked before or during the smoking process"
-                    },
-                    {
-                        "value": "0401",
-                        "description": "Milk and cream, not concentrated nor containing added sugar or other sweetening matter"
-                    },
-                    {
-                        "value": "0402",
-                        "description": "Milk and cream, concentrated or containing added sugar or other sweetening matter"
-                    },
-                    {
-                        "value": "0403",
-                        "description": "Yogurt; buttermilk, curdled milk and cream, kephir and other fermented or acidified milk and cream, whether or not concentrated or containing added sugar or other sweetening matter or flavoured or containing added fruit, nuts or cocoa"
-                    },
-                    {
-                        "value": "0404",
-                        "description": "Whey, whether or not concentrated or containing added sugar or other sweetening matter; products consisting of natural milk constituents, whether or not containing added sugar or other sweetening matter, not elsewhere specified or included"
-                    },
-                    {
-                        "value": "0405",
-                        "description": "Butter and other fats and oils derived from milk; dairy spreads"
-                    },
-                    {
-                        "value": "0406",
-                        "description": "Cheese and curd"
-                    },
-                    {
-                        "value": "0407",
-                        "description": "Birds' eggs, in shell, fresh, preserved or cooked"
-                    },
-                    {
-                        "value": "0408 11 80",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "0408 19 81",
-                        "description": "Liquid"
-                    },
-                    {
-                        "value": "0408 19 89",
-                        "description": "Other, including frozen"
-                    },
-                    {
-                        "value": "0408 91 80",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "0408 99 80",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "0409 00 00",
-                        "description": "Natural honey"
-                    },
-                    {
-                        "value": "0701",
-                        "description": "Potatoes, fresh or chilled"
-                    },
-                    {
-                        "value": "0702 00 00",
-                        "description": "Tomatoes, fresh or chilled"
-                    },
-                    {
-                        "value": "0703",
-                        "description": "Onions, shallots, garlic, leeks and other alliaceous vegetables, fresh or chilled"
-                    },
-                    {
-                        "value": "0704",
-                        "description": "Cabbages, cauliflowers, kohlrabi, kale and similar edible brassicas, fresh or chilled"
-                    },
-                    {
-                        "value": "0705",
-                        "description": "Lettuce (Lactuca sativa) and chicory (Cichorium spp.), fresh or chilled"
-                    },
-                    {
-                        "value": "0706",
-                        "description": "Carrots, turnips, salad beetroot, salsify, celeriac, radishes and similar edible roots, fresh or chilled"
-                    },
-                    {
-                        "value": "0707 00",
-                        "description": "Cucumbers and gherkins, fresh or chilled"
-                    },
-                    {
-                        "value": "0708",
-                        "description": "Leguminous vegetables, shelled or unshelled, fresh or chilled"
-                    },
-                    {
-                        "value": "0709",
-                        "description": "Other vegetables, fresh or chilled"
-                    },
-                    {
-                        "value": "0710",
-                        "description": "Vegetables (uncooked or cooked by steaming or boiling in water), frozen"
-                    },
-                    {
-                        "value": "0711",
-                        "description": "Vegetables provisionally preserved, but unsuitable in that state for immediate consumption"
-                    },
-                    {
-                        "value": "0712",
-                        "description": "Dried vegetables, whole, cut, sliced, broken or in powder, but not further prepared"
-                    },
-                    {
-                        "value": "0713",
-                        "description": "Dried leguminous vegetables, shelled, whether or not skinned or split"
-                    },
-                    {
-                        "value": "0714",
-                        "description": "Manioc, arrowroot, salep, Jerusalem artichokes, sweet potatoes and similar roots and tubers with high starch or inulin content, fresh, chilled, frozen or dried, whether or not sliced or in the form of pellets; sago pith"
-                    },
-                    {
-                        "value": "0801",
-                        "description": "Coconuts, Brazil nuts and cashew nuts, fresh or dried, whether or not shelled or peeled"
-                    },
-                    {
-                        "value": "0802",
-                        "description": "Other nuts, fresh or dried, whether or not shelled or peeled"
-                    },
-                    {
-                        "value": "0803",
-                        "description": "Bananas, including plantains, fresh or dried"
-                    },
-                    {
-                        "value": "0804",
-                        "description": "Dates, figs, pineapples, avocados, guavas, mangoes and mangosteens, fresh or dried"
-                    },
-                    {
-                        "value": "0805",
-                        "description": "Citrus fruit, fresh or dried"
-                    },
-                    {
-                        "value": "0806",
-                        "description": "Grapes, fresh or dried"
-                    },
-                    {
-                        "value": "0807",
-                        "description": "Melons (including watermelons) and papaws (papayas), fresh"
-                    },
-                    {
-                        "value": "0808",
-                        "description": "Apples, pears and quinces, fresh"
-                    },
-                    {
-                        "value": "0809",
-                        "description": "Apricots, cherries, peaches (including nectarines), plums and sloes, fresh"
-                    },
-                    {
-                        "value": "0810",
-                        "description": "Other fruit, fresh"
-                    },
-                    {
-                        "value": "0811",
-                        "description": "Fruit and nuts, uncooked or cooked by steaming or boiling in water, frozen, whether or not containing added sugar or other sweetening matter"
-                    },
-                    {
-                        "value": "0812",
-                        "description": "Fruit and nuts provisionally preserved, but unsuitable in that state for immediate consumption"
-                    },
-                    {
-                        "value": "0813",
-                        "description": "Fruit, dried, other than that of headings 0801 to 0806; mixtures of nuts or dried fruits of this chapter"
-                    },
-                    {
-                        "value": "0814 00 00",
-                        "description": "Peel of citrus fruit or melons (including watermelons), fresh, frozen, dried or provisionally preserved in brine, in sulphur water or in other preservative solutions"
-                    },
-                    {
-                        "value": "0901",
-                        "description": "Coffee, whether or not roasted or decaffeinated; coffee husks and skins; coffee substitutes containing coffee in any proportion"
-                    },
-                    {
-                        "value": "0902",
-                        "description": "Tea, whether or not flavoured"
-                    },
-                    {
-                        "value": "0903 00 00",
-                        "description": "Maté"
-                    },
-                    {
-                        "value": "0904",
-                        "description": "Pepper of the genus Piper; dried or crushed or ground fruit of the genus Capsicum or of the genus Pimenta"
-                    },
-                    {
-                        "value": "0905",
-                        "description": "Vanilla"
-                    },
-                    {
-                        "value": "0906",
-                        "description": "Cinnamon and cinnamon-tree flowers"
-                    },
-                    {
-                        "value": "0907",
-                        "description": "Cloves (whole fruit, cloves and stems)"
-                    },
-                    {
-                        "value": "0908",
-                        "description": "Nutmeg, mace and cardamoms"
-                    },
-                    {
-                        "value": "0909",
-                        "description": "Seeds of anise, badian, fennel, coriander, cumin or caraway; juniper berries"
-                    },
-                    {
-                        "value": "0910",
-                        "description": "Ginger, saffron, turmeric (curcuma), thyme, bay leaves, curry and other spices"
-                    },
-                    {
-                        "value": "1101 00",
-                        "description": "Wheat or meslin flour"
-                    },
-                    {
-                        "value": "1102",
-                        "description": "Cereal flours other than of wheat or meslin"
-                    },
-                    {
-                        "value": "1103",
-                        "description": "Cereal groats, meal and pellets"
-                    },
-                    {
-                        "value": "1104",
-                        "description": "Cereal grains otherwise worked (for example, hulled, rolled, flaked, pearled, sliced or kibbled), except rice of heading 1006; germ of cereals, whole, rolled, flaked or ground"
-                    },
-                    {
-                        "value": "1105",
-                        "description": "Flour, meal, powder, flakes, granules and pellets of potatoes"
-                    },
-                    {
-                        "value": "1106",
-                        "description": "Flour, meal and powder of the dried leguminous vegetables of heading 0713, of sago or of roots or tubers of heading 0714 or of the products of Chapter 8"
-                    },
-                    {
-                        "value": "1107",
-                        "description": "Malt, whether or not roasted"
-                    },
-                    {
-                        "value": "1108",
-                        "description": "Starches; inulin"
-                    },
-                    {
-                        "value": "1109 00 00",
-                        "description": "Wheat gluten, whether or not dried"
-                    },
-                    {
-                        "value": "1212 94 00",
-                        "description": "Chicory roots"
-                    },
-                    {
-                        "value": "1214",
-                        "description": "Swedes, mangolds, fodder roots, hay, lucerne (alfalfa), clover, sainfoin, forage kale, lupines, vetches and similar forage products, whether or not in the form of pellets"
-                    },
-                    {
-                        "value": "1517",
-                        "description": "Margarine; edible mixtures or preparations of animal, vegetable or microbial fats or oils or of fractions of different fats or oils of this chapter, other than edible fats or oils or their fractions of heading 1516"
-                    },
-                    {
-                        "value": "1601 00",
-                        "description": "Sausages and similar products, of meat, meat offal, blood or insects; food preparations based on these products"
-                    },
-                    {
-                        "value": "1602",
-                        "description": "Other prepared or preserved meat, meat offal, blood or insects"
-                    },
-                    {
-                        "value": "1603 00",
-                        "description": "Extracts and juices of meat, fish or crustaceans, molluscs or other aquatic invertebrates"
-                    },
-                    {
-                        "value": "1604",
-                        "description": "Prepared or preserved fish; caviar and caviar substitutes prepared from fish eggs"
-                    },
-                    {
-                        "value": "1605",
-                        "description": "Crustaceans, molluscs and other aquatic invertebrates, prepared or preserved"
-                    },
-                    {
-                        "value": "1701 12 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "1701 13 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "1701 14 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "1701 91 00",
-                        "description": "Containing added flavouring or colouring matter"
-                    },
-                    {
-                        "value": "1701 99",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "1702 30",
-                        "description": "Glucose and glucose syrup, not containing fructose or containing in the dry state less than 20 % by weight of fructose"
-                    },
-                    {
-                        "value": "1703",
-                        "description": "Molasses resulting from the extraction or refining of sugar"
-                    },
-                    {
-                        "value": "1704 10 10",
-                        "description": "Containing less than 60 % by weight of sucrose (including invert sugar expressed as sucrose)"
-                    },
-                    {
-                        "value": "1801 00 00",
-                        "description": "Cocoa beans, whole or broken, raw or roasted"
-                    },
-                    {
-                        "value": "1802 00 00",
-                        "description": "Cocoa shells, husks, skins and other cocoa waste"
-                    },
-                    {
-                        "value": "1803",
-                        "description": "Cocoa paste, whether or not defatted"
-                    },
-                    {
-                        "value": "1804 00 00",
-                        "description": "Cocoa butter, fat and oil"
-                    },
-                    {
-                        "value": "1805 00 00",
-                        "description": "Cocoa powder, not containing added sugar or other sweetening matter"
-                    },
-                    {
-                        "value": "1806 20",
-                        "description": "Other preparations in blocks, slabs or bars weighing more than 2 kg or in liquid, paste, powder, granular or other bulk form in containers or immediate packings, of a content exceeding 2 kg"
-                    },
-                    {
-                        "value": "1901",
-                        "description": "Malt extract; food preparations of flour, groats, meal, starch or malt extract, not containing cocoa or containing less than 40 % by weight of cocoa calculated on a totally defatted basis, not elsewhere specified or included; food preparations of goods of headings 0401 to 0404, not containing cocoa or containing less than 5 % by weight of cocoa calculated on a totally defatted basis, not elsewhere specified or included"
-                    },
-                    {
-                        "value": "1902 20 10",
-                        "description": "Containing more than 20 % by weight of fish, crustaceans, molluscs or other aquatic invertebrates"
-                    },
-                    {
-                        "value": "1903 00 00",
-                        "description": "Tapioca and substitutes therefor prepared from starch, in the form of flakes, grains, pearls, siftings or similar forms"
-                    },
-                    {
-                        "value": "1904",
-                        "description": "Prepared foods obtained by the swelling or roasting of cereals or cereal products (for example, corn flakes); cereals (other than maize (corn)) in grain form or in the form of flakes or other worked grains (except flour, groats and meal), pre-cooked or otherwise prepared, not elsewhere specified or included"
-                    },
-                    {
-                        "value": "1905 10 00",
-                        "description": "Crispbread"
-                    },
-                    {
-                        "value": "2001 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "2002 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "2003 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "2004 10",
-                        "description": "Potatoes"
-                    },
-                    {
-                        "value": "2005 10 00",
-                        "description": "Homogenised vegetables"
-                    },
-                    {
-                        "value": "2006 00",
-                        "description": "Vegetables, fruit, nuts, fruit-peel and other parts of plants, preserved by sugar (drained, glacé or crystallised)"
-                    },
-                    {
-                        "value": "2007",
-                        "description": "Jams, fruit jellies, marmalades, fruit or nut purée and fruit or nut pastes, obtained by cooking, whether or not containing added sugar or other sweetening matter"
-                    },
-                    {
-                        "value": "2008",
-                        "description": "Fruit, nuts and other edible parts of plants, otherwise prepared or preserved, whether or not containing added sugar or other sweetening matter or spirit, not elsewhere specified or included"
-                    },
-                    {
-                        "value": "2009",
-                        "description": "Fruit or nut juices (including grape must and coconut water) and vegetable juices, unfermented and not containing added spirit, whether or not containing added sugar or other sweetening matter"
-                    },
-                    {
-                        "value": "2101",
-                        "description": "Extracts, essences and concentrates, of coffee, tea or maté and preparations with a basis of these products or with a basis of coffee, tea or maté; roasted chicory and other roasted coffee substitutes, and extracts, essences and concentrates thereof"
-                    },
-                    {
-                        "value": "2102",
-                        "description": "Yeasts (active or inactive); other single-cell micro-organisms, dead (but not including vaccines of heading 3002); prepared baking powders"
-                    },
-                    {
-                        "value": "2103",
-                        "description": "Sauces and preparations therefor; mixed condiments and mixed seasonings; mustard flour and meal and prepared mustard"
-                    },
-                    {
-                        "value": "2104",
-                        "description": "Soups and broths and preparations therefor; homogenised composite food preparations"
-                    },
-                    {
-                        "value": "2105 00",
-                        "description": "Ice cream and other edible ice, whether or not containing cocoa"
-                    },
-                    {
-                        "value": "2106",
-                        "description": "Food preparations not elsewhere specified or included"
-                    },
-                    {
-                        "value": "2202",
-                        "description": "Waters, including mineral waters and aerated waters, containing added sugar or other sweetening matter or flavoured, and other non-alcoholic beverages, not including fruit, nut or vegetable juices of heading 2009"
-                    },
-                    {
-                        "value": "2209 00",
-                        "description": "Vinegar and substitutes for vinegar obtained from acetic acid"
-                    },
-                    {
-                        "value": "2301",
-                        "description": "Flours, meals and pellets, of meat or meat offal, of fish or of crustaceans, molluscs or other aquatic invertebrates, unfit for human consumption; greaves"
-                    },
-                    {
-                        "value": "2302",
-                        "description": "Bran, sharps and other residues, whether or not in the form of pellets, derived from the sifting, milling or other working of cereals or of leguminous plants"
-                    },
-                    {
-                        "value": "2303",
-                        "description": "Residues of starch manufacture and similar residues, beet-pulp, bagasse and other waste of sugar manufacture, brewing or distilling dregs and waste, whether or not in the form of pellets"
-                    },
-                    {
-                        "value": "2304 00 00",
-                        "description": "Oilcake and other solid residues, whether or not ground or in the form of pellets, resulting from the extraction of soya-bean oil"
-                    },
-                    {
-                        "value": "2305 00 00",
-                        "description": "Oilcake and other solid residues, whether or not ground or in the form of pellets, resulting from the extraction of groundnut oil"
-                    },
-                    {
-                        "value": "2306",
-                        "description": "Oilcake and other solid residues, whether or not ground or in the form of pellets, resulting from the extraction of vegetable or microbial fats or oils, other than those of heading 2304 or 2305"
-                    },
-                    {
-                        "value": "2307 00",
-                        "description": "Wine lees; argol"
-                    },
-                    {
-                        "value": "2308 00",
-                        "description": "Vegetable materials and vegetable waste, vegetable residues and by-products, whether or not in the form of pellets, of a kind used in animal feeding, not elsewhere specified or included"
-                    },
-                    {
-                        "value": "2309",
-                        "description": "Preparations of a kind used in animal feeding"
-                    },
-                    {
-                        "value": "2501 00 91",
-                        "description": "Salt suitable for human consumption"
-                    },
-                    {
-                        "value": "0410",
-                        "description": "Insects and other edible products of animal origin, not elsewhere specified or included"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "FOODSTUFFS",
-                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
-            }
-        },
-        {
-            "memberState": "LU",
-            "type": "REDUCED",
-            "rate": {
                 "type": "REDUCED_RATE",
                 "value": 8
             },
@@ -1433,6 +1704,36 @@
             "memberState": "LU",
             "type": "REDUCED",
             "rate": {
+                "type": "SUPER_REDUCED_RATE",
+                "value": 3
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "2201 10 11",
+                        "description": "Not carbonated"
+                    },
+                    {
+                        "value": "2201 10 19",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "2201 10 90",
+                        "description": "Other"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "FOODSTUFFS",
+                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
+            },
+            "comment": "Waters, including natural or artificial mineral waters and aerated waters, not containing added sugar or other sweetening matter nor flavoured"
+        },
+        {
+            "memberState": "LU",
+            "type": "REDUCED",
+            "rate": {
                 "type": "REDUCED_RATE",
                 "value": 8
             },
@@ -1502,247 +1803,6 @@
                 "description": "Supply of works of art, collectors' items and antiques listed in Annex IX, Parts A, B and C"
             },
             "comment": "Original engravings, prints and lithographs, being impressions produced in limited numbers directly in black and white or in colour of one or of several plates executed entirely by hand by the artist, irrespective of the process or of the material employed, but not including any mechanical or photomechanical process"
-        },
-        {
-            "memberState": "LU",
-            "type": "REDUCED",
-            "rate": {
-                "type": "PARKING_RATE",
-                "value": 14
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "2701 20 00",
-                        "description": "Briquettes, ovoids and similar solid fuels manufactured from coal"
-                    },
-                    {
-                        "value": "2702 20 00",
-                        "description": "Agglomerated lignite"
-                    },
-                    {
-                        "value": "2703 00 00",
-                        "description": "Peat (including peat litter), whether or not agglomerated"
-                    },
-                    {
-                        "value": "2710 19",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "4403",
-                        "description": "Wood in the rough, whether or not stripped of bark or sapwood, or roughly squared"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "NEW_PARKING_RATE",
-                "description": "Parking rates (Article 105a(3) of the VAT Directive)"
-            },
-            "comment": "Fuels: solid mineral fuels; mineral oils; wood other than for use as firewood"
-        },
-        {
-            "memberState": "LU",
-            "type": "REDUCED",
-            "rate": {
-                "type": "PARKING_RATE",
-                "value": 14
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cnCodes": {
-                "code": {
-                    "value": "3402",
-                    "description": "Organic surface-active agents (other than soap); surface-active preparations, washing preparations (including auxiliary washing preparations) and cleaning preparations, whether or not containing soap, other than those of heading 3401"
-                }
-            },
-            "category": {
-                "identifier": "CLEANING_PRODUCT",
-                "description": "Washing and cleaning preparations"
-            }
-        },
-        {
-            "memberState": "LU",
-            "type": "REDUCED",
-            "rate": {
-                "type": "PARKING_RATE",
-                "value": 14
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cnCodes": {
-                "code": {
-                    "value": "3402 20 90",
-                    "description": "Washing preparations and cleaning preparations"
-                }
-            },
-            "category": {
-                "identifier": "NEW_PARKING_RATE",
-                "description": "Parking rates (Article 105a(3) of the VAT Directive)"
-            },
-            "comment": "Preparations for washing and cleaning"
-        },
-        {
-            "memberState": "LU",
-            "type": "REDUCED",
-            "rate": {
-                "type": "PARKING_RATE",
-                "value": 14
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "4401 31 00",
-                        "description": "Wood pellets"
-                    },
-                    {
-                        "value": "4401 39 00",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "4403",
-                        "description": "Wood in the rough, whether or not stripped of bark or sapwood, or roughly squared"
-                    },
-                    {
-                        "value": "4401 32 00",
-                        "description": "Wood briquettes"
-                    },
-                    {
-                        "value": "4401 41 00",
-                        "description": "Sawdust"
-                    },
-                    {
-                        "value": "4401 49 00",
-                        "description": "Other"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "FUEL_MINERAL_OIL",
-                "description": "Solid mineral fuels; mineral oils and wood for use as fuel"
-            },
-            "comment": "Wood other than used as firewood"
-        },
-        {
-            "memberState": "LU",
-            "type": "REDUCED",
-            "rate": {
-                "type": "PARKING_RATE",
-                "value": 14
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cnCodes": {
-                "code": {
-                    "value": "4911 10",
-                    "description": "Trade advertising material, commercial catalogues and the like"
-                }
-            },
-            "category": {
-                "identifier": "NEW_PARKING_RATE",
-                "description": "Parking rates (Article 105a(3) of the VAT Directive)"
-            },
-            "comment": "Trade advertising material; commercial catalogues and the like; tourist publicity"
-        },
-        {
-            "memberState": "LU",
-            "type": "REDUCED",
-            "rate": {
-                "type": "PARKING_RATE",
-                "value": 14
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cnCodes": {
-                "code": {
-                    "value": "4911 10",
-                    "description": "Trade advertising material, commercial catalogues and the like"
-                }
-            },
-            "category": {
-                "identifier": "PRINTED_ADVERTISING_MATERIAL",
-                "description": "Printed advertising material, trade catalogues and the like; tourist propaganda publications"
-            }
-        },
-        {
-            "memberState": "LU",
-            "type": "REDUCED",
-            "rate": {
-                "type": "PARKING_RATE",
-                "value": 14
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cpaCodes": {
-                "code": {
-                    "value": "35.3",
-                    "description": "Steam and air conditioning supply services"
-                }
-            },
-            "category": {
-                "identifier": "NEW_PARKING_RATE",
-                "description": "Parking rates (Article 105a(3) of the VAT Directive)"
-            },
-            "comment": "Supply of heat other than supply of district heating; supply of air conditioning"
-        },
-        {
-            "memberState": "LU",
-            "type": "REDUCED",
-            "rate": {
-                "type": "PARKING_RATE",
-                "value": 14
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cpaCodes": {
-                "code": {
-                    "value": "35.3",
-                    "description": "Steam and air conditioning supply services"
-                }
-            },
-            "category": {
-                "identifier": "HEAT_COOLING_STEAM",
-                "description": "Heat, cooling and steam, except heat supplied by means of certain heating networks"
-            }
-        },
-        {
-            "memberState": "LU",
-            "type": "REDUCED",
-            "rate": {
-                "type": "PARKING_RATE",
-                "value": 14
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cpaCodes": {
-                "code": {
-                    "value": "64.92.1",
-                    "description": "Other credit granting services, other than by monetary institutions"
-                }
-            },
-            "category": {
-                "identifier": "CREDIT_MANAGEMENT",
-                "description": "Management of credits and credit guarantees by a person or body other than those who granted the credits"
-            }
-        },
-        {
-            "memberState": "LU",
-            "type": "REDUCED",
-            "rate": {
-                "type": "PARKING_RATE",
-                "value": 14
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "66.19",
-                        "description": "Other services auxiliary to financial services, except insurance and pension funding"
-                    },
-                    {
-                        "value": "66.30",
-                        "description": "Fund management services"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "SECURITY_MANAGEMENT",
-                "description": "Custody and management of securities"
-            }
         },
         {
             "memberState": "LU",
@@ -2049,36 +2109,6 @@
             "memberState": "LU",
             "type": "REDUCED",
             "rate": {
-                "type": "PARKING_RATE",
-                "value": 14
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "66.19.32",
-                        "description": "Custody services"
-                    },
-                    {
-                        "value": "66.19.99",
-                        "description": "Other miscellaneous services auxiliary to financial services, except insurance and pension funding, n.e.c."
-                    },
-                    {
-                        "value": "66.30.11",
-                        "description": "Portfolio management services, except pension funds"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "NEW_PARKING_RATE",
-                "description": "Parking rates (Article 105a(3) of the VAT Directive)"
-            },
-            "comment": "Management and safekeeping of securities; management of credit and credit guarantees by a person other than the person who granted the credits"
-        },
-        {
-            "memberState": "LU",
-            "type": "REDUCED",
-            "rate": {
                 "type": "SUPER_REDUCED_RATE",
                 "value": 3
             },
@@ -2154,6 +2184,36 @@
                 "description": "Certain agricultural inputs"
             },
             "comment": "Live mules and hinnies"
+        },
+        {
+            "memberState": "LU",
+            "type": "REDUCED",
+            "rate": {
+                "type": "SUPER_REDUCED_RATE",
+                "value": 3
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "1211",
+                        "description": "Plants and parts of plants (including seeds and fruits), of a kind used primarily in perfumery, in pharmacy or for insecticidal, fungicidal or similar purposes, fresh, chilled, frozen or dried, whether or not cut, crushed or powdered"
+                    },
+                    {
+                        "value": "3003",
+                        "description": "Medicaments (excluding goods of heading 3002, 3005 or 3006) consisting of two or more constituents which have been mixed together for therapeutic or prophylactic uses, not put up in measured doses or in forms or packings for retail sale"
+                    },
+                    {
+                        "value": "3004",
+                        "description": "Medicaments (excluding goods of heading 3002, 3005 or 3006) consisting of mixed or unmixed products for therapeutic or prophylactic uses, put up in measured doses (including those in the form of transdermal administration systems) or in forms or packings for retail sale"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "FOODSTUFFS",
+                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
+            },
+            "comment": "Plants and part of plants, seeds and grains, used for preparing infusions or teas"
         },
         {
             "memberState": "LU",
@@ -2455,6 +2515,308 @@
                 "value": 3
             },
             "situationOn": "2025-07-01+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "0511 99 31",
+                        "description": "Raw"
+                    },
+                    {
+                        "value": "0511 99 39",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "3924 90 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "4014 10 00",
+                        "description": "Sheath contraceptives"
+                    },
+                    {
+                        "value": "4014 90 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "9619 00 30",
+                        "description": "Of wadding of textile materials"
+                    },
+                    {
+                        "value": "9619 00 40",
+                        "description": "Sanitary towels (pads), tampons and similar articles"
+                    },
+                    {
+                        "value": "9619 00 71",
+                        "description": "Sanitary towels (pads)"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "PHARMACEUTICAL_PRODUCTS",
+                "description": "Pharmaceutical products of a kind normally used for health care, prevention of illness and as treatment for medical and veterinary purposes, including products used for contraception and sanitary protection"
+            },
+            "comment": "Products used for sanitary protection: sanitary towels (pads), tampons, panty liners, period panties, menstrual cups, menstrual sponges and similar feminine hygiene products; Sheath contraceptives"
+        },
+        {
+            "memberState": "LU",
+            "type": "REDUCED",
+            "rate": {
+                "type": "SUPER_REDUCED_RATE",
+                "value": 3
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cnCodes": {
+                "code": {
+                    "value": "0511 99 85",
+                    "description": "Other"
+                }
+            },
+            "category": {
+                "identifier": "CERTAIN_AGRICULTURAL_INPUT",
+                "description": "Certain agricultural inputs"
+            },
+            "comment": "Semen (other than 0511 10 00) and ova of animals used in agricultural production"
+        },
+        {
+            "memberState": "LU",
+            "type": "REDUCED",
+            "rate": {
+                "type": "SUPER_REDUCED_RATE",
+                "value": 3
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "0601 10 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "0601 20 90",
+                        "description": "Other"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "CERTAIN_AGRICULTURAL_INPUT",
+                "description": "Certain agricultural inputs"
+            },
+            "comment": "Rhubarb rhizomes; Asparagus crowns"
+        },
+        {
+            "memberState": "LU",
+            "type": "REDUCED",
+            "rate": {
+                "type": "SUPER_REDUCED_RATE",
+                "value": 3
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "55.10",
+                        "description": "Hotel and similar accommodation services"
+                    },
+                    {
+                        "value": "55.20",
+                        "description": "Holiday and other short-stay accommodation services"
+                    },
+                    {
+                        "value": "55.30",
+                        "description": "Camping grounds and recreational vehicle parks services"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "EXEMPTION_SUPERREDUCED",
+                "description": "Exemptions and super-reduced rates (Article 105a(1) of the VAT Directive)"
+            },
+            "comment": "Accommodation provided in hotels and similar establishments, including the provision of holiday accommodation and the letting of places on camping or caravan sites"
+        },
+        {
+            "memberState": "LU",
+            "type": "REDUCED",
+            "rate": {
+                "type": "SUPER_REDUCED_RATE",
+                "value": 3
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "55.10",
+                        "description": "Hotel and similar accommodation services"
+                    },
+                    {
+                        "value": "55.20",
+                        "description": "Holiday and other short-stay accommodation services"
+                    },
+                    {
+                        "value": "55.30",
+                        "description": "Camping grounds and recreational vehicle parks services"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "HOLIDAY_ACCOMMODATION",
+                "description": "Transient accommodation of persons and the letting of holiday camps or camping sites"
+            }
+        },
+        {
+            "memberState": "LU",
+            "type": "REDUCED",
+            "rate": {
+                "type": "SUPER_REDUCED_RATE",
+                "value": 3
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "56.1",
+                        "description": "Restaurant and mobile food serving services"
+                    },
+                    {
+                        "value": "56.2",
+                        "description": "Event catering, contract catering services and other food serving services"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "EXEMPTION_SUPERREDUCED",
+                "description": "Exemptions and super-reduced rates (Article 105a(1) of the VAT Directive)"
+            },
+            "comment": "Restaurant and catering services, excluding services involving alcoholic beverages"
+        },
+        {
+            "memberState": "LU",
+            "type": "REDUCED",
+            "rate": {
+                "type": "SUPER_REDUCED_RATE",
+                "value": 3
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "56.1",
+                        "description": "Restaurant and mobile food serving services"
+                    },
+                    {
+                        "value": "56.2",
+                        "description": "Event catering, contract catering services and other food serving services"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "FOOD_SERVICE",
+                "description": "Restaurant and catering services, excluding services involving alcoholic beverages"
+            }
+        },
+        {
+            "memberState": "LU",
+            "type": "REDUCED",
+            "rate": {
+                "type": "SUPER_REDUCED_RATE",
+                "value": 3
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "4901",
+                        "description": "Printed books, brochures, leaflets and similar printed matter, whether or not in single sheets"
+                    },
+                    {
+                        "value": "4902",
+                        "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
+                    },
+                    {
+                        "value": "4903 00 00",
+                        "description": "Children's picture, drawing or colouring books"
+                    },
+                    {
+                        "value": "4904 00 00",
+                        "description": "Music, printed or in manuscript, whether or not bound or illustrated"
+                    },
+                    {
+                        "value": "4905",
+                        "description": "Maps and hydrographic or similar charts of all kinds, including atlases, wall maps, topographical plans and globes, printed"
+                    }
+                ]
+            },
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "58.11.30",
+                        "description": "On-line books"
+                    },
+                    {
+                        "value": "58.13.20",
+                        "description": "Online journals and periodicals"
+                    },
+                    {
+                        "value": "58.14.20",
+                        "description": "On-line journals and periodicals"
+                    },
+                    {
+                        "value": "91.01.11",
+                        "description": "Library services"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "LOAN_LIBRARIES",
+                "description": "Supply, including on loan by libraries, of books, newspapers and periodicals either on physical means of support or supplied electronically or both (including brochures, leaflets and similar printed matter, children's picture, drawing or colouring books, music printed or in manuscript form, maps and hydrographic or similar charts), other than publications wholly or predominantly devoted to advertising and other than publications wholly or predominantly consisting of video content or audible music."
+            },
+            "comment": "Excluding materials with predominately adult content"
+        },
+        {
+            "memberState": "LU",
+            "type": "REDUCED",
+            "rate": {
+                "type": "SUPER_REDUCED_RATE",
+                "value": 3
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "58.11.60",
+                        "description": "Licensing services for books"
+                    },
+                    {
+                        "value": "58.14.40",
+                        "description": "Licensing services for journals and periodicals"
+                    },
+                    {
+                        "value": "59.20.40",
+                        "description": "Licensing services of the right to use acoustic originals"
+                    },
+                    {
+                        "value": "90.01",
+                        "description": "Services of performing artists"
+                    },
+                    {
+                        "value": "90.03.11",
+                        "description": "Services provided by authors, composers, sculptors and other artists, except performing artists"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "EXEMPTION_SUPERREDUCED",
+                "description": "Exemptions and super-reduced rates (Article 105a(1) of the VAT Directive)"
+            },
+            "comment": "Services provided by writers, composers and performers and the royalties due to them"
+        },
+        {
+            "memberState": "LU",
+            "type": "REDUCED",
+            "rate": {
+                "type": "SUPER_REDUCED_RATE",
+                "value": 3
+            },
+            "situationOn": "2025-07-01+02:00",
             "cpaCodes": {
                 "code": [
                     {
@@ -2543,102 +2905,6 @@
                 "description": "Reception of certain radio and television broadcasting services"
             },
             "comment": "Excluding reception of adult content"
-        },
-        {
-            "memberState": "LU",
-            "type": "REDUCED",
-            "rate": {
-                "type": "SUPER_REDUCED_RATE",
-                "value": 3
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "58.11.60",
-                        "description": "Licensing services for books"
-                    },
-                    {
-                        "value": "58.14.40",
-                        "description": "Licensing services for journals and periodicals"
-                    },
-                    {
-                        "value": "59.20.40",
-                        "description": "Licensing services of the right to use acoustic originals"
-                    },
-                    {
-                        "value": "90.01",
-                        "description": "Services of performing artists"
-                    },
-                    {
-                        "value": "90.03.11",
-                        "description": "Services provided by authors, composers, sculptors and other artists, except performing artists"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "EXEMPTION_SUPERREDUCED",
-                "description": "Exemptions and super-reduced rates (Article 105a(1) of the VAT Directive)"
-            },
-            "comment": "Services provided by writers, composers and performers and the royalties due to them"
-        },
-        {
-            "memberState": "LU",
-            "type": "REDUCED",
-            "rate": {
-                "type": "SUPER_REDUCED_RATE",
-                "value": 3
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "4901",
-                        "description": "Printed books, brochures, leaflets and similar printed matter, whether or not in single sheets"
-                    },
-                    {
-                        "value": "4902",
-                        "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
-                    },
-                    {
-                        "value": "4903 00 00",
-                        "description": "Children's picture, drawing or colouring books"
-                    },
-                    {
-                        "value": "4904 00 00",
-                        "description": "Music, printed or in manuscript, whether or not bound or illustrated"
-                    },
-                    {
-                        "value": "4905",
-                        "description": "Maps and hydrographic or similar charts of all kinds, including atlases, wall maps, topographical plans and globes, printed"
-                    }
-                ]
-            },
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "58.11.30",
-                        "description": "On-line books"
-                    },
-                    {
-                        "value": "58.13.20",
-                        "description": "Online journals and periodicals"
-                    },
-                    {
-                        "value": "58.14.20",
-                        "description": "On-line journals and periodicals"
-                    },
-                    {
-                        "value": "91.01.11",
-                        "description": "Library services"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "LOAN_LIBRARIES",
-                "description": "Supply, including on loan by libraries, of books, newspapers and periodicals either on physical means of support or supplied electronically or both (including brochures, leaflets and similar printed matter, children's picture, drawing or colouring books, music printed or in manuscript form, maps and hydrographic or similar charts), other than publications wholly or predominantly devoted to advertising and other than publications wholly or predominantly consisting of video content or audible music."
-            },
-            "comment": "Excluding materials with predominately adult content"
         },
         {
             "memberState": "LU",
@@ -2811,33 +3077,13 @@
         },
         {
             "memberState": "LU",
-            "type": "REDUCED",
+            "type": "STANDARD",
             "rate": {
-                "type": "SUPER_REDUCED_RATE",
-                "value": 3
+                "type": "DEFAULT",
+                "value": 17
             },
             "situationOn": "2025-07-01+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "2201 10 11",
-                        "description": "Not carbonated"
-                    },
-                    {
-                        "value": "2201 10 19",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "2201 10 90",
-                        "description": "Other"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "FOODSTUFFS",
-                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
-            },
-            "comment": "Waters, including natural or artificial mineral waters and aerated waters, not containing added sugar or other sweetening matter nor flavoured"
+            "comment": "<p>Art. 39(3) of VAT law<\/p>"
         },
         {
             "memberState": "LU",
@@ -2889,36 +3135,6 @@
                 "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
             },
             "comment": "Agricultural salt, salt lick"
-        },
-        {
-            "memberState": "LU",
-            "type": "REDUCED",
-            "rate": {
-                "type": "SUPER_REDUCED_RATE",
-                "value": 3
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "1211",
-                        "description": "Plants and parts of plants (including seeds and fruits), of a kind used primarily in perfumery, in pharmacy or for insecticidal, fungicidal or similar purposes, fresh, chilled, frozen or dried, whether or not cut, crushed or powdered"
-                    },
-                    {
-                        "value": "3003",
-                        "description": "Medicaments (excluding goods of heading 3002, 3005 or 3006) consisting of two or more constituents which have been mixed together for therapeutic or prophylactic uses, not put up in measured doses or in forms or packings for retail sale"
-                    },
-                    {
-                        "value": "3004",
-                        "description": "Medicaments (excluding goods of heading 3002, 3005 or 3006) consisting of mixed or unmixed products for therapeutic or prophylactic uses, put up in measured doses (including those in the form of transdermal administration systems) or in forms or packings for retail sale"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "FOODSTUFFS",
-                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
-            },
-            "comment": "Plants and part of plants, seeds and grains, used for preparing infusions or teas"
         },
         {
             "memberState": "LU",
@@ -3058,56 +3274,6 @@
                 "identifier": "CHEMICAL_FERTILISERS",
                 "description": "Until 1 January 2032: Chemical fertilisers"
             }
-        },
-        {
-            "memberState": "LU",
-            "type": "REDUCED",
-            "rate": {
-                "type": "SUPER_REDUCED_RATE",
-                "value": 3
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "0511 99 31",
-                        "description": "Raw"
-                    },
-                    {
-                        "value": "0511 99 39",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "3924 90 00",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "4014 10 00",
-                        "description": "Sheath contraceptives"
-                    },
-                    {
-                        "value": "4014 90 00",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "9619 00 30",
-                        "description": "Of wadding of textile materials"
-                    },
-                    {
-                        "value": "9619 00 40",
-                        "description": "Sanitary towels (pads), tampons and similar articles"
-                    },
-                    {
-                        "value": "9619 00 71",
-                        "description": "Sanitary towels (pads)"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "PHARMACEUTICAL_PRODUCTS",
-                "description": "Pharmaceutical products of a kind normally used for health care, prevention of illness and as treatment for medical and veterinary purposes, including products used for contraception and sanitary protection"
-            },
-            "comment": "Products used for sanitary protection: sanitary towels (pads), tampons, panty liners, period panties, menstrual cups, menstrual sponges and similar feminine hygiene products; Sheath contraceptives"
         },
         {
             "memberState": "LU",
@@ -3397,172 +3563,6 @@
                 "description": "Transport of passengers and their accompanying luggage"
             },
             "comment": "Point of departure and point of arrival and transport within the national territory"
-        },
-        {
-            "memberState": "LU",
-            "type": "REDUCED",
-            "rate": {
-                "type": "SUPER_REDUCED_RATE",
-                "value": 3
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cnCodes": {
-                "code": {
-                    "value": "0511 99 85",
-                    "description": "Other"
-                }
-            },
-            "category": {
-                "identifier": "CERTAIN_AGRICULTURAL_INPUT",
-                "description": "Certain agricultural inputs"
-            },
-            "comment": "Semen (other than 0511 10 00) and ova of animals used in agricultural production"
-        },
-        {
-            "memberState": "LU",
-            "type": "REDUCED",
-            "rate": {
-                "type": "SUPER_REDUCED_RATE",
-                "value": 3
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "0601 10 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "0601 20 90",
-                        "description": "Other"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "CERTAIN_AGRICULTURAL_INPUT",
-                "description": "Certain agricultural inputs"
-            },
-            "comment": "Rhubarb rhizomes; Asparagus crowns"
-        },
-        {
-            "memberState": "LU",
-            "type": "REDUCED",
-            "rate": {
-                "type": "SUPER_REDUCED_RATE",
-                "value": 3
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "55.10",
-                        "description": "Hotel and similar accommodation services"
-                    },
-                    {
-                        "value": "55.20",
-                        "description": "Holiday and other short-stay accommodation services"
-                    },
-                    {
-                        "value": "55.30",
-                        "description": "Camping grounds and recreational vehicle parks services"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "EXEMPTION_SUPERREDUCED",
-                "description": "Exemptions and super-reduced rates (Article 105a(1) of the VAT Directive)"
-            },
-            "comment": "Accommodation provided in hotels and similar establishments, including the provision of holiday accommodation and the letting of places on camping or caravan sites"
-        },
-        {
-            "memberState": "LU",
-            "type": "REDUCED",
-            "rate": {
-                "type": "SUPER_REDUCED_RATE",
-                "value": 3
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "55.10",
-                        "description": "Hotel and similar accommodation services"
-                    },
-                    {
-                        "value": "55.20",
-                        "description": "Holiday and other short-stay accommodation services"
-                    },
-                    {
-                        "value": "55.30",
-                        "description": "Camping grounds and recreational vehicle parks services"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "HOLIDAY_ACCOMMODATION",
-                "description": "Transient accommodation of persons and the letting of holiday camps or camping sites"
-            }
-        },
-        {
-            "memberState": "LU",
-            "type": "REDUCED",
-            "rate": {
-                "type": "SUPER_REDUCED_RATE",
-                "value": 3
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "56.1",
-                        "description": "Restaurant and mobile food serving services"
-                    },
-                    {
-                        "value": "56.2",
-                        "description": "Event catering, contract catering services and other food serving services"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "EXEMPTION_SUPERREDUCED",
-                "description": "Exemptions and super-reduced rates (Article 105a(1) of the VAT Directive)"
-            },
-            "comment": "Restaurant and catering services, excluding services involving alcoholic beverages"
-        },
-        {
-            "memberState": "LU",
-            "type": "REDUCED",
-            "rate": {
-                "type": "SUPER_REDUCED_RATE",
-                "value": 3
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "56.1",
-                        "description": "Restaurant and mobile food serving services"
-                    },
-                    {
-                        "value": "56.2",
-                        "description": "Event catering, contract catering services and other food serving services"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "FOOD_SERVICE",
-                "description": "Restaurant and catering services, excluding services involving alcoholic beverages"
-            }
-        },
-        {
-            "memberState": "LU",
-            "type": "STANDARD",
-            "rate": {
-                "type": "DEFAULT",
-                "value": 17
-            },
-            "situationOn": "2025-07-01+02:00",
-            "comment": "<p>Art. 39(3) of VAT law<\/p>"
         }
     ]
 }
