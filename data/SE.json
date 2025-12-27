@@ -825,6 +825,15 @@
         },
         {
             "memberState": "SE",
+            "type": "STANDARD",
+            "rate": {
+                "type": "DEFAULT",
+                "value": 25
+            },
+            "situationOn": "2025-07-01+02:00"
+        },
+        {
+            "memberState": "SE",
             "type": "REDUCED",
             "rate": {
                 "type": "REDUCED_RATE",
@@ -1064,15 +1073,6 @@
                 "description": "Admission to sporting events"
             },
             "comment": "Usually exempted if supplied by a public body or non-profit making organization. The reduced rate is regulated in chapter 9 section 18 in the Swedish VAT Act (https:\/\/www.riksdagen.se\/sv\/dokument-lagar\/dokument\/svensk-forfattningssamling\/mervardesskattelag-2023200_sfs-2023-200#K9)."
-        },
-        {
-            "memberState": "SE",
-            "type": "STANDARD",
-            "rate": {
-                "type": "DEFAULT",
-                "value": 25
-            },
-            "situationOn": "2025-07-01+02:00"
         },
         {
             "memberState": "SE",

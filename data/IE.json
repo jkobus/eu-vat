@@ -327,76 +327,6 @@
             "type": "REDUCED",
             "rate": {
                 "type": "REDUCED_RATE",
-                "value": 9
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cnCodes": {
-                "code": {
-                    "value": "4902",
-                    "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
-                }
-            },
-            "category": {
-                "identifier": "LOAN_LIBRARIES",
-                "description": "Supply, including on loan by libraries, of books, newspapers and periodicals either on physical means of support or supplied electronically or both (including brochures, leaflets and similar printed matter, children's picture, drawing or colouring books, music printed or in manuscript form, maps and hydrographic or similar charts), other than publications wholly or predominantly devoted to advertising and other than publications wholly or predominantly consisting of video content or audible music."
-            },
-            "comment": "9% applies to periodicals (in printed form or electronically supplied), and electronically supplied books, excluding publications wholly or predominantly dedicated to advertising, and electronic publications which consist wholly or predominantly of audible music or video content."
-        },
-        {
-            "memberState": "IE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 13.5
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "1905",
-                        "description": "Bread, pastry, cakes, biscuits and other bakers' wares, whether or not containing cocoa; communion wafers, empty cachets of a kind suitable for pharmaceutical use, sealing wafers, rice paper and similar products"
-                    },
-                    {
-                        "value": "1905 31",
-                        "description": "Sweet biscuits"
-                    },
-                    {
-                        "value": "1905 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "2106",
-                        "description": "Food preparations not elsewhere specified or included"
-                    }
-                ]
-            },
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "56.10",
-                        "description": "Restaurant and mobile food serving services"
-                    },
-                    {
-                        "value": "56.10.1",
-                        "description": "Restaurant and mobile food serving services"
-                    },
-                    {
-                        "value": "56.29",
-                        "description": "Other food serving services"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "FOODSTUFFS",
-                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
-            },
-            "comment": "Restaurant food, food served in canteens, and take away food is subject to the reduced rate of VAT of 13.5%."
-        },
-        {
-            "memberState": "IE",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
                 "value": 13.5
             },
             "situationOn": "2025-07-01+02:00",
@@ -788,6 +718,56 @@
                 "value": 13.5
             },
             "situationOn": "2025-07-01+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "1905",
+                        "description": "Bread, pastry, cakes, biscuits and other bakers' wares, whether or not containing cocoa; communion wafers, empty cachets of a kind suitable for pharmaceutical use, sealing wafers, rice paper and similar products"
+                    },
+                    {
+                        "value": "1905 31",
+                        "description": "Sweet biscuits"
+                    },
+                    {
+                        "value": "1905 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "2106",
+                        "description": "Food preparations not elsewhere specified or included"
+                    }
+                ]
+            },
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "56.10",
+                        "description": "Restaurant and mobile food serving services"
+                    },
+                    {
+                        "value": "56.10.1",
+                        "description": "Restaurant and mobile food serving services"
+                    },
+                    {
+                        "value": "56.29",
+                        "description": "Other food serving services"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "FOODSTUFFS",
+                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
+            },
+            "comment": "Restaurant food, food served in canteens, and take away food is subject to the reduced rate of VAT of 13.5%."
+        },
+        {
+            "memberState": "IE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 13.5
+            },
+            "situationOn": "2025-07-01+02:00",
             "cpaCodes": {
                 "code": [
                     {
@@ -885,6 +865,26 @@
             },
             "situationOn": "2025-07-01+02:00",
             "comment": "<p>The Standard Rate of VAT was temporarily reduced from 23% to 21% from 1 September 2020 to 28 February 2021. It has been restored to 23% from 1 March 2021.<\/p>"
+        },
+        {
+            "memberState": "IE",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 9
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cnCodes": {
+                "code": {
+                    "value": "4902",
+                    "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
+                }
+            },
+            "category": {
+                "identifier": "LOAN_LIBRARIES",
+                "description": "Supply, including on loan by libraries, of books, newspapers and periodicals either on physical means of support or supplied electronically or both (including brochures, leaflets and similar printed matter, children's picture, drawing or colouring books, music printed or in manuscript form, maps and hydrographic or similar charts), other than publications wholly or predominantly devoted to advertising and other than publications wholly or predominantly consisting of video content or audible music."
+            },
+            "comment": "9% applies to periodicals (in printed form or electronically supplied), and electronically supplied books, excluding publications wholly or predominantly dedicated to advertising, and electronic publications which consist wholly or predominantly of audible music or video content."
         }
     ]
 }

@@ -12,88 +12,6 @@
             "cpaCodes": {
                 "code": [
                     {
-                        "value": "49.10",
-                        "description": "Passenger rail transport services, interurban"
-                    },
-                    {
-                        "value": "49.31",
-                        "description": "Scheduled passenger transport services by road"
-                    },
-                    {
-                        "value": "49.32",
-                        "description": "Non-scheduled passenger transport services by road"
-                    },
-                    {
-                        "value": "49.39.1",
-                        "description": "Interurban and special-purpose scheduled passenger land transport services"
-                    },
-                    {
-                        "value": "49.39.2",
-                        "description": "Passenger transport services by funiculars, teleferics and ski-lifts"
-                    },
-                    {
-                        "value": "49.39.35",
-                        "description": "Road transport services of passengers by man- or animal-drawn vehicles"
-                    },
-                    {
-                        "value": "49.39.39",
-                        "description": "Passenger land transport services n.e.c."
-                    },
-                    {
-                        "value": "50.1",
-                        "description": "Sea and coastal passenger water transport services"
-                    },
-                    {
-                        "value": "50.3",
-                        "description": "Inland passenger water transport services"
-                    },
-                    {
-                        "value": "51.10.1",
-                        "description": "Passenger air transport services, except rental services"
-                    },
-                    {
-                        "value": "51.10.2",
-                        "description": "Rental services of passenger air transport equipment with operator"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "TRANSPORT_PASSENGERS",
-                "description": "Transport of passengers and their accompanying luggage"
-            },
-            "comment": "Taxis, scheduled busses, trains and air transport are exempted. In connection with international transportation of passengers the exemption also covers accompanying luggage.\nPassenger transport in tourist busses and similar vehicles (CPA 49.39.32, 49.39.33, 49.39.34) are subject to VAT in Denmark (Standard rate)."
-        },
-        {
-            "memberState": "DK",
-            "type": "REDUCED",
-            "rate": {
-                "type": "EXEMPTED",
-                "value": 0
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cpaCodes": {
-                "code": {
-                    "value": "88.99.1",
-                    "description": "Other social work services without accommodation n.e.c."
-                }
-            },
-            "category": {
-                "identifier": "SOCIAL_WELLBEING",
-                "description": "Supply of goods and services by organisations recognised as being devoted to social wellbeing by Member States and engaged in welfare or social security work"
-            },
-            "comment": "Delivery of goods and services related to charitable events - e.g. collection and sale of used items of little value - is exempt under certain conditions according to section 13(1)(17). Exemption obtained by prior application to the tax authorities on condition that the event does not distort competition in relation to commercial enterprises. An application for exemption is based on a specific assessment (event has a charitable purpose or has a commercial character)."
-        },
-        {
-            "memberState": "DK",
-            "type": "REDUCED",
-            "rate": {
-                "type": "EXEMPTED",
-                "value": 0
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cpaCodes": {
-                "code": [
-                    {
                         "value": "90.01",
                         "description": "Services of performing artists"
                     },
@@ -176,6 +94,88 @@
                 "value": 25
             },
             "situationOn": "2025-07-01+02:00"
+        },
+        {
+            "memberState": "DK",
+            "type": "REDUCED",
+            "rate": {
+                "type": "EXEMPTED",
+                "value": 0
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "49.10",
+                        "description": "Passenger rail transport services, interurban"
+                    },
+                    {
+                        "value": "49.31",
+                        "description": "Scheduled passenger transport services by road"
+                    },
+                    {
+                        "value": "49.32",
+                        "description": "Non-scheduled passenger transport services by road"
+                    },
+                    {
+                        "value": "49.39.1",
+                        "description": "Interurban and special-purpose scheduled passenger land transport services"
+                    },
+                    {
+                        "value": "49.39.2",
+                        "description": "Passenger transport services by funiculars, teleferics and ski-lifts"
+                    },
+                    {
+                        "value": "49.39.35",
+                        "description": "Road transport services of passengers by man- or animal-drawn vehicles"
+                    },
+                    {
+                        "value": "49.39.39",
+                        "description": "Passenger land transport services n.e.c."
+                    },
+                    {
+                        "value": "50.1",
+                        "description": "Sea and coastal passenger water transport services"
+                    },
+                    {
+                        "value": "50.3",
+                        "description": "Inland passenger water transport services"
+                    },
+                    {
+                        "value": "51.10.1",
+                        "description": "Passenger air transport services, except rental services"
+                    },
+                    {
+                        "value": "51.10.2",
+                        "description": "Rental services of passenger air transport equipment with operator"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "TRANSPORT_PASSENGERS",
+                "description": "Transport of passengers and their accompanying luggage"
+            },
+            "comment": "Taxis, scheduled busses, trains and air transport are exempted. In connection with international transportation of passengers the exemption also covers accompanying luggage.\nPassenger transport in tourist busses and similar vehicles (CPA 49.39.32, 49.39.33, 49.39.34) are subject to VAT in Denmark (Standard rate)."
+        },
+        {
+            "memberState": "DK",
+            "type": "REDUCED",
+            "rate": {
+                "type": "EXEMPTED",
+                "value": 0
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "88.99.1",
+                    "description": "Other social work services without accommodation n.e.c."
+                }
+            },
+            "category": {
+                "identifier": "SOCIAL_WELLBEING",
+                "description": "Supply of goods and services by organisations recognised as being devoted to social wellbeing by Member States and engaged in welfare or social security work"
+            },
+            "comment": "Delivery of goods and services related to charitable events - e.g. collection and sale of used items of little value - is exempt under certain conditions according to section 13(1)(17). Exemption obtained by prior application to the tax authorities on condition that the event does not distort competition in relation to commercial enterprises. An application for exemption is based on a specific assessment (event has a charitable purpose or has a commercial character)."
         }
     ]
 }

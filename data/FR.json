@@ -5,6 +5,608 @@
             "memberState": "FR",
             "type": "REDUCED",
             "rate": {
+                "type": "EXEMPTED",
+                "value": 0
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "86.10.1",
+                        "description": "Hospital services"
+                    },
+                    {
+                        "value": "86.21.10",
+                        "description": "General medical practice services"
+                    },
+                    {
+                        "value": "86.22.1",
+                        "description": "Specialist medical practice services"
+                    },
+                    {
+                        "value": "86.23.1",
+                        "description": "Dental practice services"
+                    },
+                    {
+                        "value": "86.90.11",
+                        "description": "Pregnancy related services"
+                    },
+                    {
+                        "value": "86.90.12",
+                        "description": "Nursing services"
+                    },
+                    {
+                        "value": "86.90.13",
+                        "description": "Physiotherapeutic services"
+                    },
+                    {
+                        "value": "86.90.18",
+                        "description": "Mental health services"
+                    },
+                    {
+                        "value": "96.04.10",
+                        "description": "Physical well-being services"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "MEDICAL_CARE",
+                "description": "Provision of medical and dental care and thermal treatment"
+            },
+            "comment": "Article 261 4. 1° of the general tax code"
+        },
+        {
+            "memberState": "FR",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 0.9
+            },
+            "situationOn": "2025-07-01+02:00",
+            "category": {
+                "identifier": "REGION",
+                "description": "Special reduced rate for specific regions (including articles 104, 105 and 120 of the VAT Directive)"
+            },
+            "comment": "For Corsica: 0.9% on sales of live animals to non-sujected to VAT entities, and on the first performances or circus."
+        },
+        {
+            "memberState": "FR",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 1.05
+            },
+            "situationOn": "2025-07-01+02:00",
+            "category": {
+                "identifier": "REGION",
+                "description": "Special reduced rate for specific regions (including articles 104, 105 and 120 of the VAT Directive)"
+            },
+            "comment": "The super reduced rate in Martinique, Guadeloupe and Réunion is 1.05% (for the press)."
+        },
+        {
+            "memberState": "FR",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5.5
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "01",
+                        "description": "CHAPTER 1 - LIVE ANIMALS"
+                    },
+                    {
+                        "value": "03",
+                        "description": "CHAPTER 3 - FISH AND CRUSTACEANS, MOLLUSCS AND OTHER AQUATIC INVERTEBRATES"
+                    },
+                    {
+                        "value": "04",
+                        "description": "CHAPTER 4 - DAIRY PRODUCE; BIRDS' EGGS; NATURAL HONEY; EDIBLE PRODUCTS OF ANIMAL ORIGIN, NOT ELSEWHERE SPECIFIED OR INCLUDED"
+                    },
+                    {
+                        "value": "05",
+                        "description": "CHAPTER 5 - PRODUCTS OF ANIMAL ORIGIN, NOT ELSEWHERE SPECIFIED OR INCLUDED"
+                    },
+                    {
+                        "value": "07",
+                        "description": "CHAPTER 7 - EDIBLE VEGETABLES AND CERTAIN ROOTS AND TUBERS"
+                    },
+                    {
+                        "value": "10",
+                        "description": "CHAPTER 10 - CEREALS"
+                    },
+                    {
+                        "value": "12",
+                        "description": "CHAPTER 12 - OIL SEEDS AND OLEAGINOUS FRUITS; MISCELLANEOUS GRAINS, SEEDS AND FRUIT; INDUSTRIAL OR MEDICINAL PLANTS; STRAW AND FODDER"
+                    },
+                    {
+                        "value": "1301",
+                        "description": "Lac; natural gums, resins, gum-resins and oleoresins (for example, balsams)"
+                    },
+                    {
+                        "value": "1404 90 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "17",
+                        "description": "CHAPTER 17 - SUGARS AND SUGAR CONFECTIONERY"
+                    },
+                    {
+                        "value": "2308 00 40",
+                        "description": "Acorns and horse-chestnuts; pomace or marc of fruit, other than grapes"
+                    },
+                    {
+                        "value": "4403",
+                        "description": "Wood in the rough, whether or not stripped of bark or sapwood, or roughly squared"
+                    },
+                    {
+                        "value": "5102",
+                        "description": "Fine or coarse animal hair, not carded or combed"
+                    },
+                    {
+                        "value": "5305 00 00",
+                        "description": "Coconut, abaca (Manila hemp or Musa textilis Nee), ramie and other vegetable textile fibres, not elsewhere specified or included, raw or processed but not spun; tow, noils and waste of these fibres (including yarn waste and garnetted stock)"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "FOODSTUFFS",
+                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
+            },
+            "comment": "Comments Products of agricultural, fishery, fish and poultry origin which have not undergone any processing and which are normally intended for use in agricultural production (article 278-0 bis A. 1°-0 bis of the general tax code)."
+        },
+        {
+            "memberState": "FR",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5.5
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "02",
+                        "description": "CHAPTER 2 - MEAT AND EDIBLE MEAT OFFAL"
+                    },
+                    {
+                        "value": "03",
+                        "description": "CHAPTER 3 - FISH AND CRUSTACEANS, MOLLUSCS AND OTHER AQUATIC INVERTEBRATES"
+                    },
+                    {
+                        "value": "04",
+                        "description": "CHAPTER 4 - DAIRY PRODUCE; BIRDS' EGGS; NATURAL HONEY; EDIBLE PRODUCTS OF ANIMAL ORIGIN, NOT ELSEWHERE SPECIFIED OR INCLUDED"
+                    },
+                    {
+                        "value": "0504 00 00",
+                        "description": "Guts, bladders and stomachs of animals (other than fish), whole and pieces thereof, fresh, chilled, frozen, salted, in brine, dried or smoked"
+                    },
+                    {
+                        "value": "07",
+                        "description": "CHAPTER 7 - EDIBLE VEGETABLES AND CERTAIN ROOTS AND TUBERS"
+                    },
+                    {
+                        "value": "08",
+                        "description": "CHAPTER 8 - EDIBLE FRUIT AND NUTS; PEEL OF CITRUS FRUIT OR MELONS"
+                    },
+                    {
+                        "value": "11",
+                        "description": "CHAPTER 11 - PRODUCTS OF THE MILLING INDUSTRY; MALT; STARCHES; INULIN; WHEAT GLUTEN"
+                    },
+                    {
+                        "value": "1302",
+                        "description": "Vegetable saps and extracts; pectic substances, pectinates and pectates; agar-agar and other mucilages and thickeners, whether or not modified, derived from vegetable products"
+                    },
+                    {
+                        "value": "15",
+                        "description": "CHAPTER 15 - ANIMAL, VEGETABLE OR MICROBIAL FATS AND OILS AND THEIR CLEAVAGE PRODUCTS; PREPARED EDIBLE FATS; ANIMAL OR VEGETABLE WAXES"
+                    },
+                    {
+                        "value": "16",
+                        "description": "CHAPTER 16 - PREPARATIONS OF MEAT, OF FISH, OF CRUSTACEANS, MOLLUSCS OR OTHER AQUATIC INVERTEBRATES, OR OF INSECTS"
+                    },
+                    {
+                        "value": "17",
+                        "description": "CHAPTER 17 - SUGARS AND SUGAR CONFECTIONERY"
+                    },
+                    {
+                        "value": "18",
+                        "description": "CHAPTER 18 - COCOA AND COCOA PREPARATIONS"
+                    },
+                    {
+                        "value": "19",
+                        "description": "CHAPTER 19 - PREPARATIONS OF CEREALS, FLOUR, STARCH OR MILK; PASTRYCOOKS' PRODUCTS"
+                    },
+                    {
+                        "value": "20",
+                        "description": "CHAPTER 20 - PREPARATIONS OF VEGETABLES, FRUIT, NUTS OR OTHER PARTS OF PLANTS"
+                    },
+                    {
+                        "value": "21",
+                        "description": "CHAPTER 21 - MISCELLANEOUS EDIBLE PREPARATIONS"
+                    },
+                    {
+                        "value": "22",
+                        "description": "CHAPTER 22 - BEVERAGES, SPIRITS AND VINEGAR"
+                    },
+                    {
+                        "value": "2307 00",
+                        "description": "Wine lees; argol"
+                    },
+                    {
+                        "value": "2501 00 91",
+                        "description": "Salt suitable for human consumption"
+                    },
+                    {
+                        "value": "2912 41 00",
+                        "description": "Vanillin (4-hydroxy-3-methoxybenzaldehyde)"
+                    },
+                    {
+                        "value": "2923 20 00",
+                        "description": "Lecithins and other phosphoaminolipids"
+                    },
+                    {
+                        "value": "2936",
+                        "description": "Provitamins and vitamins, natural or reproduced by synthesis (including natural concentrates), derivatives thereof used primarily as vitamins, and intermixtures of the foregoing, whether or not in any solvent"
+                    },
+                    {
+                        "value": "2938 90 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "3204 12 00",
+                        "description": "Acid dyes, whether or not premetallised, and preparations based thereon; mordant dyes and preparations based thereon"
+                    },
+                    {
+                        "value": "3301 90 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "3501 10 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "3501 90 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "3502 11 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "3502 19 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "3502 20 91",
+                        "description": "Dried (for example, in sheets, scales, flakes, powder)"
+                    },
+                    {
+                        "value": "3502 20 99",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "3502 90 70",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "3502 90 90",
+                        "description": "Albuminates and other albumin derivatives"
+                    },
+                    {
+                        "value": "3503 00 10",
+                        "description": "Gelatin and derivatives thereof"
+                    },
+                    {
+                        "value": "3504 00",
+                        "description": "Peptones and their derivatives; other protein substances and their derivatives, not elsewhere specified or included; hide powder, whether or not chromed"
+                    },
+                    {
+                        "value": "3505 10 90",
+                        "description": "Other"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "FOODSTUFFS",
+                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
+            },
+            "comment": "Confectionery products, certain composite products containing chocolate or cocoa, margarines and vegetable fats, caviar are taxed at the normal rate (article 278-0 bis A. 1° of the general tax code). Excepted 1604 31 00, 1604 32 00, 1517 10, 1704, 1803, 1805 00 00, 1806 10, 1806 90"
+        },
+        {
+            "memberState": "FR",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5.5
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "0505",
+                        "description": "Skins and other parts of birds, with their feathers or down, feathers and parts of feathers (whether or not with trimmed edges) and down, not further worked than cleaned, disinfected or treated for preservation; powder and waste of feathers or parts of feathers"
+                    },
+                    {
+                        "value": "0506 90 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "0507",
+                        "description": "Ivory, tortoiseshell, whalebone and whalebone hair, horns, antlers, hooves, nails, claws and beaks, unworked or simply prepared but not cut to shape; powder and waste of these products"
+                    },
+                    {
+                        "value": "0511",
+                        "description": "Animal products not elsewhere specified or included; dead animals of Chapter 1 or 3, unfit for human consumption"
+                    },
+                    {
+                        "value": "0714",
+                        "description": "Manioc, arrowroot, salep, Jerusalem artichokes, sweet potatoes and similar roots and tubers with high starch or inulin content, fresh, chilled, frozen or dried, whether or not sliced or in the form of pellets; sago pith"
+                    },
+                    {
+                        "value": "1006",
+                        "description": "Rice"
+                    },
+                    {
+                        "value": "1211 50 00",
+                        "description": "Ephedra"
+                    },
+                    {
+                        "value": "1211 90 86",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "1212 21 00",
+                        "description": "Fit for human consumption"
+                    },
+                    {
+                        "value": "1212 29 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "15",
+                        "description": "CHAPTER 15 - ANIMAL, VEGETABLE OR MICROBIAL FATS AND OILS AND THEIR CLEAVAGE PRODUCTS; PREPARED EDIBLE FATS; ANIMAL OR VEGETABLE WAXES"
+                    },
+                    {
+                        "value": "1703",
+                        "description": "Molasses resulting from the extraction or refining of sugar"
+                    },
+                    {
+                        "value": "1802 00 00",
+                        "description": "Cocoa shells, husks, skins and other cocoa waste"
+                    },
+                    {
+                        "value": "1904",
+                        "description": "Prepared foods obtained by the swelling or roasting of cereals or cereal products (for example, corn flakes); cereals (other than maize (corn)) in grain form or in the form of flakes or other worked grains (except flour, groats and meal), pre-cooked or otherwise prepared, not elsewhere specified or included"
+                    },
+                    {
+                        "value": "2102 20 19",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "2102 20 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "23",
+                        "description": "CHAPTER 23 - RESIDUES AND WASTE FROM THE FOOD INDUSTRIES; PREPARED ANIMAL FODDER"
+                    },
+                    {
+                        "value": "2501 00 99",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "2509 00 00",
+                        "description": "Chalk"
+                    },
+                    {
+                        "value": "2510",
+                        "description": "Natural calcium phosphates, natural aluminium calcium phosphates and phosphatic chalk"
+                    },
+                    {
+                        "value": "2519 90 30",
+                        "description": "Dead-burned (sintered) magnesia"
+                    },
+                    {
+                        "value": "2801 20 00",
+                        "description": "Iodine"
+                    },
+                    {
+                        "value": "2817 00 00",
+                        "description": "Zinc oxide; zinc peroxide"
+                    },
+                    {
+                        "value": "2833 21 00",
+                        "description": "Of magnesium"
+                    },
+                    {
+                        "value": "2833 25 00",
+                        "description": "Of copper"
+                    },
+                    {
+                        "value": "2833 29 20",
+                        "description": "Of cadmium; of chromium; of zinc"
+                    },
+                    {
+                        "value": "2835 24 00",
+                        "description": "Of potassium"
+                    },
+                    {
+                        "value": "2835 25 00",
+                        "description": "Calcium hydrogenorthophosphate (dicalcium phosphate)"
+                    },
+                    {
+                        "value": "2903 39 11",
+                        "description": "Bromomethane (methyl bromide)"
+                    },
+                    {
+                        "value": "2912 41 00",
+                        "description": "Vanillin (4-hydroxy-3-methoxybenzaldehyde)"
+                    },
+                    {
+                        "value": "2914 71 00",
+                        "description": "Chlordecone (ISO)"
+                    },
+                    {
+                        "value": "2914 79 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "2915 29 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "2918 12 00",
+                        "description": "Tartaric acid"
+                    },
+                    {
+                        "value": "2918 15 00",
+                        "description": "Salts and esters of citric acid"
+                    },
+                    {
+                        "value": "2922 41 00",
+                        "description": "Lysine and its esters; salts thereof"
+                    },
+                    {
+                        "value": "2922 50 00",
+                        "description": "Amino-alcohol-phenols, amino-acid-phenols and other amino-compounds with oxygen function"
+                    },
+                    {
+                        "value": "2923 10 00",
+                        "description": "Choline and its salts"
+                    },
+                    {
+                        "value": "2923 20 00",
+                        "description": "Lecithins and other phosphoaminolipids"
+                    },
+                    {
+                        "value": "2930",
+                        "description": "Organo-sulphur compounds"
+                    },
+                    {
+                        "value": "2936",
+                        "description": "Provitamins and vitamins, natural or reproduced by synthesis (including natural concentrates), derivatives thereof used primarily as vitamins, and intermixtures of the foregoing, whether or not in any solvent"
+                    },
+                    {
+                        "value": "2942 00 00",
+                        "description": "Other organic compounds"
+                    },
+                    {
+                        "value": "3501 10 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "3501 90 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "3502 11 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "3502 19 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "3502 20 91",
+                        "description": "Dried (for example, in sheets, scales, flakes, powder)"
+                    },
+                    {
+                        "value": "3502 20 99",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "3502 90 70",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "3502 90 90",
+                        "description": "Albuminates and other albumin derivatives"
+                    },
+                    {
+                        "value": "3504 00",
+                        "description": "Peptones and their derivatives; other protein substances and their derivatives, not elsewhere specified or included; hide powder, whether or not chromed"
+                    },
+                    {
+                        "value": "3505 10 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "3804 00 00",
+                        "description": "Residual lyes from the manufacture of wood pulp, whether or not concentrated, desugared or chemically treated, including lignin sulphonates, but excluding tall oil of heading 3803"
+                    },
+                    {
+                        "value": "0508 00",
+                        "description": "Coral and similar materials, unworked or simply prepared but not otherwise worked; shells of molluscs, crustaceans or echinoderms and cuttle-bone, unworked or simply prepared but not cut to shape, powder and waste thereof"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "FOODSTUFFS",
+                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
+            },
+            "comment": "Foodstuffs for animal consumption (article 278-0 bis A. 1°-00 bis of the general tax code). Excepted foodstuffs intended for pet food (2309 10)"
+        },
+        {
+            "memberState": "FR",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5.5
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "3006 10 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "4014 10 00",
+                        "description": "Sheath contraceptives"
+                    },
+                    {
+                        "value": "6305 10 10",
+                        "description": "Used"
+                    },
+                    {
+                        "value": "6305 20 00",
+                        "description": "Of cotton"
+                    },
+                    {
+                        "value": "6305 32 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "6305 39 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "6305 90 00",
+                        "description": "Of other textile materials"
+                    },
+                    {
+                        "value": "9018 31",
+                        "description": "Syringes, with or without needles"
+                    },
+                    {
+                        "value": "9018 39 00",
+                        "description": "Other"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "MEDICAL_EQUIPMENT",
+                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
+            },
+            "comment": "Article 278-0 bis A 2° of the general tax code"
+        },
+        {
+            "memberState": "FR",
+            "type": "REDUCED",
+            "rate": {
                 "type": "REDUCED_RATE",
                 "value": 10
             },
@@ -324,398 +926,6 @@
             "type": "REDUCED",
             "rate": {
                 "type": "REDUCED_RATE",
-                "value": 5.5
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "0505",
-                        "description": "Skins and other parts of birds, with their feathers or down, feathers and parts of feathers (whether or not with trimmed edges) and down, not further worked than cleaned, disinfected or treated for preservation; powder and waste of feathers or parts of feathers"
-                    },
-                    {
-                        "value": "0506 90 00",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "0507",
-                        "description": "Ivory, tortoiseshell, whalebone and whalebone hair, horns, antlers, hooves, nails, claws and beaks, unworked or simply prepared but not cut to shape; powder and waste of these products"
-                    },
-                    {
-                        "value": "0511",
-                        "description": "Animal products not elsewhere specified or included; dead animals of Chapter 1 or 3, unfit for human consumption"
-                    },
-                    {
-                        "value": "0714",
-                        "description": "Manioc, arrowroot, salep, Jerusalem artichokes, sweet potatoes and similar roots and tubers with high starch or inulin content, fresh, chilled, frozen or dried, whether or not sliced or in the form of pellets; sago pith"
-                    },
-                    {
-                        "value": "1006",
-                        "description": "Rice"
-                    },
-                    {
-                        "value": "1211 50 00",
-                        "description": "Ephedra"
-                    },
-                    {
-                        "value": "1211 90 86",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "1212 21 00",
-                        "description": "Fit for human consumption"
-                    },
-                    {
-                        "value": "1212 29 00",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "15",
-                        "description": "CHAPTER 15 - ANIMAL, VEGETABLE OR MICROBIAL FATS AND OILS AND THEIR CLEAVAGE PRODUCTS; PREPARED EDIBLE FATS; ANIMAL OR VEGETABLE WAXES"
-                    },
-                    {
-                        "value": "1703",
-                        "description": "Molasses resulting from the extraction or refining of sugar"
-                    },
-                    {
-                        "value": "1802 00 00",
-                        "description": "Cocoa shells, husks, skins and other cocoa waste"
-                    },
-                    {
-                        "value": "1904",
-                        "description": "Prepared foods obtained by the swelling or roasting of cereals or cereal products (for example, corn flakes); cereals (other than maize (corn)) in grain form or in the form of flakes or other worked grains (except flour, groats and meal), pre-cooked or otherwise prepared, not elsewhere specified or included"
-                    },
-                    {
-                        "value": "2102 20 19",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "2102 20 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "23",
-                        "description": "CHAPTER 23 - RESIDUES AND WASTE FROM THE FOOD INDUSTRIES; PREPARED ANIMAL FODDER"
-                    },
-                    {
-                        "value": "2501 00 99",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "2509 00 00",
-                        "description": "Chalk"
-                    },
-                    {
-                        "value": "2510",
-                        "description": "Natural calcium phosphates, natural aluminium calcium phosphates and phosphatic chalk"
-                    },
-                    {
-                        "value": "2519 90 30",
-                        "description": "Dead-burned (sintered) magnesia"
-                    },
-                    {
-                        "value": "2801 20 00",
-                        "description": "Iodine"
-                    },
-                    {
-                        "value": "2817 00 00",
-                        "description": "Zinc oxide; zinc peroxide"
-                    },
-                    {
-                        "value": "2833 21 00",
-                        "description": "Of magnesium"
-                    },
-                    {
-                        "value": "2833 25 00",
-                        "description": "Of copper"
-                    },
-                    {
-                        "value": "2833 29 20",
-                        "description": "Of cadmium; of chromium; of zinc"
-                    },
-                    {
-                        "value": "2835 24 00",
-                        "description": "Of potassium"
-                    },
-                    {
-                        "value": "2835 25 00",
-                        "description": "Calcium hydrogenorthophosphate (dicalcium phosphate)"
-                    },
-                    {
-                        "value": "2903 39 11",
-                        "description": "Bromomethane (methyl bromide)"
-                    },
-                    {
-                        "value": "2912 41 00",
-                        "description": "Vanillin (4-hydroxy-3-methoxybenzaldehyde)"
-                    },
-                    {
-                        "value": "2914 71 00",
-                        "description": "Chlordecone (ISO)"
-                    },
-                    {
-                        "value": "2914 79 00",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "2915 29 00",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "2918 12 00",
-                        "description": "Tartaric acid"
-                    },
-                    {
-                        "value": "2918 15 00",
-                        "description": "Salts and esters of citric acid"
-                    },
-                    {
-                        "value": "2922 41 00",
-                        "description": "Lysine and its esters; salts thereof"
-                    },
-                    {
-                        "value": "2922 50 00",
-                        "description": "Amino-alcohol-phenols, amino-acid-phenols and other amino-compounds with oxygen function"
-                    },
-                    {
-                        "value": "2923 10 00",
-                        "description": "Choline and its salts"
-                    },
-                    {
-                        "value": "2923 20 00",
-                        "description": "Lecithins and other phosphoaminolipids"
-                    },
-                    {
-                        "value": "2930",
-                        "description": "Organo-sulphur compounds"
-                    },
-                    {
-                        "value": "2936",
-                        "description": "Provitamins and vitamins, natural or reproduced by synthesis (including natural concentrates), derivatives thereof used primarily as vitamins, and intermixtures of the foregoing, whether or not in any solvent"
-                    },
-                    {
-                        "value": "2942 00 00",
-                        "description": "Other organic compounds"
-                    },
-                    {
-                        "value": "3501 10 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "3501 90 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "3502 11 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "3502 19 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "3502 20 91",
-                        "description": "Dried (for example, in sheets, scales, flakes, powder)"
-                    },
-                    {
-                        "value": "3502 20 99",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "3502 90 70",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "3502 90 90",
-                        "description": "Albuminates and other albumin derivatives"
-                    },
-                    {
-                        "value": "3504 00",
-                        "description": "Peptones and their derivatives; other protein substances and their derivatives, not elsewhere specified or included; hide powder, whether or not chromed"
-                    },
-                    {
-                        "value": "3505 10 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "3804 00 00",
-                        "description": "Residual lyes from the manufacture of wood pulp, whether or not concentrated, desugared or chemically treated, including lignin sulphonates, but excluding tall oil of heading 3803"
-                    },
-                    {
-                        "value": "0508 00",
-                        "description": "Coral and similar materials, unworked or simply prepared but not otherwise worked; shells of molluscs, crustaceans or echinoderms and cuttle-bone, unworked or simply prepared but not cut to shape, powder and waste thereof"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "FOODSTUFFS",
-                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
-            },
-            "comment": "Foodstuffs for animal consumption (article 278-0 bis A. 1°-00 bis of the general tax code). Excepted foodstuffs intended for pet food (2309 10)"
-        },
-        {
-            "memberState": "FR",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5.5
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "02",
-                        "description": "CHAPTER 2 - MEAT AND EDIBLE MEAT OFFAL"
-                    },
-                    {
-                        "value": "03",
-                        "description": "CHAPTER 3 - FISH AND CRUSTACEANS, MOLLUSCS AND OTHER AQUATIC INVERTEBRATES"
-                    },
-                    {
-                        "value": "04",
-                        "description": "CHAPTER 4 - DAIRY PRODUCE; BIRDS' EGGS; NATURAL HONEY; EDIBLE PRODUCTS OF ANIMAL ORIGIN, NOT ELSEWHERE SPECIFIED OR INCLUDED"
-                    },
-                    {
-                        "value": "0504 00 00",
-                        "description": "Guts, bladders and stomachs of animals (other than fish), whole and pieces thereof, fresh, chilled, frozen, salted, in brine, dried or smoked"
-                    },
-                    {
-                        "value": "07",
-                        "description": "CHAPTER 7 - EDIBLE VEGETABLES AND CERTAIN ROOTS AND TUBERS"
-                    },
-                    {
-                        "value": "08",
-                        "description": "CHAPTER 8 - EDIBLE FRUIT AND NUTS; PEEL OF CITRUS FRUIT OR MELONS"
-                    },
-                    {
-                        "value": "11",
-                        "description": "CHAPTER 11 - PRODUCTS OF THE MILLING INDUSTRY; MALT; STARCHES; INULIN; WHEAT GLUTEN"
-                    },
-                    {
-                        "value": "1302",
-                        "description": "Vegetable saps and extracts; pectic substances, pectinates and pectates; agar-agar and other mucilages and thickeners, whether or not modified, derived from vegetable products"
-                    },
-                    {
-                        "value": "15",
-                        "description": "CHAPTER 15 - ANIMAL, VEGETABLE OR MICROBIAL FATS AND OILS AND THEIR CLEAVAGE PRODUCTS; PREPARED EDIBLE FATS; ANIMAL OR VEGETABLE WAXES"
-                    },
-                    {
-                        "value": "16",
-                        "description": "CHAPTER 16 - PREPARATIONS OF MEAT, OF FISH, OF CRUSTACEANS, MOLLUSCS OR OTHER AQUATIC INVERTEBRATES, OR OF INSECTS"
-                    },
-                    {
-                        "value": "17",
-                        "description": "CHAPTER 17 - SUGARS AND SUGAR CONFECTIONERY"
-                    },
-                    {
-                        "value": "18",
-                        "description": "CHAPTER 18 - COCOA AND COCOA PREPARATIONS"
-                    },
-                    {
-                        "value": "19",
-                        "description": "CHAPTER 19 - PREPARATIONS OF CEREALS, FLOUR, STARCH OR MILK; PASTRYCOOKS' PRODUCTS"
-                    },
-                    {
-                        "value": "20",
-                        "description": "CHAPTER 20 - PREPARATIONS OF VEGETABLES, FRUIT, NUTS OR OTHER PARTS OF PLANTS"
-                    },
-                    {
-                        "value": "21",
-                        "description": "CHAPTER 21 - MISCELLANEOUS EDIBLE PREPARATIONS"
-                    },
-                    {
-                        "value": "22",
-                        "description": "CHAPTER 22 - BEVERAGES, SPIRITS AND VINEGAR"
-                    },
-                    {
-                        "value": "2307 00",
-                        "description": "Wine lees; argol"
-                    },
-                    {
-                        "value": "2501 00 91",
-                        "description": "Salt suitable for human consumption"
-                    },
-                    {
-                        "value": "2912 41 00",
-                        "description": "Vanillin (4-hydroxy-3-methoxybenzaldehyde)"
-                    },
-                    {
-                        "value": "2923 20 00",
-                        "description": "Lecithins and other phosphoaminolipids"
-                    },
-                    {
-                        "value": "2936",
-                        "description": "Provitamins and vitamins, natural or reproduced by synthesis (including natural concentrates), derivatives thereof used primarily as vitamins, and intermixtures of the foregoing, whether or not in any solvent"
-                    },
-                    {
-                        "value": "2938 90 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "3204 12 00",
-                        "description": "Acid dyes, whether or not premetallised, and preparations based thereon; mordant dyes and preparations based thereon"
-                    },
-                    {
-                        "value": "3301 90 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "3501 10 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "3501 90 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "3502 11 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "3502 19 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "3502 20 91",
-                        "description": "Dried (for example, in sheets, scales, flakes, powder)"
-                    },
-                    {
-                        "value": "3502 20 99",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "3502 90 70",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "3502 90 90",
-                        "description": "Albuminates and other albumin derivatives"
-                    },
-                    {
-                        "value": "3503 00 10",
-                        "description": "Gelatin and derivatives thereof"
-                    },
-                    {
-                        "value": "3504 00",
-                        "description": "Peptones and their derivatives; other protein substances and their derivatives, not elsewhere specified or included; hide powder, whether or not chromed"
-                    },
-                    {
-                        "value": "3505 10 90",
-                        "description": "Other"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "FOODSTUFFS",
-                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
-            },
-            "comment": "Confectionery products, certain composite products containing chocolate or cocoa, margarines and vegetable fats, caviar are taxed at the normal rate (article 278-0 bis A. 1° of the general tax code). Excepted 1604 31 00, 1604 32 00, 1517 10, 1704, 1803, 1805 00 00, 1806 10, 1806 90"
-        },
-        {
-            "memberState": "FR",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
                 "value": 10
             },
             "situationOn": "2025-07-01+02:00",
@@ -730,60 +940,6 @@
                 "description": "Supply of water"
             },
             "comment": "Article 279 b 2° of the general tax code"
-        },
-        {
-            "memberState": "FR",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5.5
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "3006 10 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "4014 10 00",
-                        "description": "Sheath contraceptives"
-                    },
-                    {
-                        "value": "6305 10 10",
-                        "description": "Used"
-                    },
-                    {
-                        "value": "6305 20 00",
-                        "description": "Of cotton"
-                    },
-                    {
-                        "value": "6305 32 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "6305 39 00",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "6305 90 00",
-                        "description": "Of other textile materials"
-                    },
-                    {
-                        "value": "9018 31",
-                        "description": "Syringes, with or without needles"
-                    },
-                    {
-                        "value": "9018 39 00",
-                        "description": "Other"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "MEDICAL_EQUIPMENT",
-                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
-            },
-            "comment": "Article 278-0 bis A 2° of the general tax code"
         },
         {
             "memberState": "FR",
@@ -1288,80 +1444,6 @@
             "type": "REDUCED",
             "rate": {
                 "type": "REDUCED_RATE",
-                "value": 5.5
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "01",
-                        "description": "CHAPTER 1 - LIVE ANIMALS"
-                    },
-                    {
-                        "value": "03",
-                        "description": "CHAPTER 3 - FISH AND CRUSTACEANS, MOLLUSCS AND OTHER AQUATIC INVERTEBRATES"
-                    },
-                    {
-                        "value": "04",
-                        "description": "CHAPTER 4 - DAIRY PRODUCE; BIRDS' EGGS; NATURAL HONEY; EDIBLE PRODUCTS OF ANIMAL ORIGIN, NOT ELSEWHERE SPECIFIED OR INCLUDED"
-                    },
-                    {
-                        "value": "05",
-                        "description": "CHAPTER 5 - PRODUCTS OF ANIMAL ORIGIN, NOT ELSEWHERE SPECIFIED OR INCLUDED"
-                    },
-                    {
-                        "value": "07",
-                        "description": "CHAPTER 7 - EDIBLE VEGETABLES AND CERTAIN ROOTS AND TUBERS"
-                    },
-                    {
-                        "value": "10",
-                        "description": "CHAPTER 10 - CEREALS"
-                    },
-                    {
-                        "value": "12",
-                        "description": "CHAPTER 12 - OIL SEEDS AND OLEAGINOUS FRUITS; MISCELLANEOUS GRAINS, SEEDS AND FRUIT; INDUSTRIAL OR MEDICINAL PLANTS; STRAW AND FODDER"
-                    },
-                    {
-                        "value": "1301",
-                        "description": "Lac; natural gums, resins, gum-resins and oleoresins (for example, balsams)"
-                    },
-                    {
-                        "value": "1404 90 00",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "17",
-                        "description": "CHAPTER 17 - SUGARS AND SUGAR CONFECTIONERY"
-                    },
-                    {
-                        "value": "2308 00 40",
-                        "description": "Acorns and horse-chestnuts; pomace or marc of fruit, other than grapes"
-                    },
-                    {
-                        "value": "4403",
-                        "description": "Wood in the rough, whether or not stripped of bark or sapwood, or roughly squared"
-                    },
-                    {
-                        "value": "5102",
-                        "description": "Fine or coarse animal hair, not carded or combed"
-                    },
-                    {
-                        "value": "5305 00 00",
-                        "description": "Coconut, abaca (Manila hemp or Musa textilis Nee), ramie and other vegetable textile fibres, not elsewhere specified or included, raw or processed but not spun; tow, noils and waste of these fibres (including yarn waste and garnetted stock)"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "FOODSTUFFS",
-                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
-            },
-            "comment": "Comments Products of agricultural, fishery, fish and poultry origin which have not undergone any processing and which are normally intended for use in agricultural production (article 278-0 bis A. 1°-0 bis of the general tax code)."
-        },
-        {
-            "memberState": "FR",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
                 "value": 13
             },
             "situationOn": "2025-07-01+02:00",
@@ -1753,57 +1835,13 @@
         },
         {
             "memberState": "FR",
-            "type": "REDUCED",
+            "type": "STANDARD",
             "rate": {
-                "type": "EXEMPTED",
-                "value": 0
+                "type": "DEFAULT",
+                "value": 20
             },
             "situationOn": "2025-07-01+02:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "86.10.1",
-                        "description": "Hospital services"
-                    },
-                    {
-                        "value": "86.21.10",
-                        "description": "General medical practice services"
-                    },
-                    {
-                        "value": "86.22.1",
-                        "description": "Specialist medical practice services"
-                    },
-                    {
-                        "value": "86.23.1",
-                        "description": "Dental practice services"
-                    },
-                    {
-                        "value": "86.90.11",
-                        "description": "Pregnancy related services"
-                    },
-                    {
-                        "value": "86.90.12",
-                        "description": "Nursing services"
-                    },
-                    {
-                        "value": "86.90.13",
-                        "description": "Physiotherapeutic services"
-                    },
-                    {
-                        "value": "86.90.18",
-                        "description": "Mental health services"
-                    },
-                    {
-                        "value": "96.04.10",
-                        "description": "Physical well-being services"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "MEDICAL_CARE",
-                "description": "Provision of medical and dental care and thermal treatment"
-            },
-            "comment": "Article 261 4. 1° of the general tax code"
+            "comment": "<p><a href=\"http:\/\/bofip.impots.gouv.fr\/bofip\/1379-PGP\" target=\"_blank\" rel=\"noopener noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer\">http:\/\/bofip.impots.gouv.fr\/bofip\/1379-PGP<\/a><\/p>\n<p>Article 278 of the General Tax Code<\/p>"
         },
         {
             "memberState": "FR",
@@ -1856,34 +1894,6 @@
                 "description": "Provision, construction, renovation and alteration of housing, as part of a social policy"
             },
             "comment": "The building land, the construction and some works for social housing (articles 278 sexies, 278 sexies A and 278 sexies-0 A of the general tax code)"
-        },
-        {
-            "memberState": "FR",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 0.9
-            },
-            "situationOn": "2025-07-01+02:00",
-            "category": {
-                "identifier": "REGION",
-                "description": "Special reduced rate for specific regions (including articles 104, 105 and 120 of the VAT Directive)"
-            },
-            "comment": "For Corsica: 0.9% on sales of live animals to non-sujected to VAT entities, and on the first performances or circus."
-        },
-        {
-            "memberState": "FR",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 1.05
-            },
-            "situationOn": "2025-07-01+02:00",
-            "category": {
-                "identifier": "REGION",
-                "description": "Special reduced rate for specific regions (including articles 104, 105 and 120 of the VAT Directive)"
-            },
-            "comment": "The super reduced rate in Martinique, Guadeloupe and Réunion is 1.05% (for the press)."
         },
         {
             "memberState": "FR",
@@ -2044,16 +2054,6 @@
                 "description": "Special reduced rate for specific regions (including articles 104, 105 and 120 of the VAT Directive)"
             },
             "comment": "The standard VAT rate in Martinique, Guadeloupe and Réunion is 8.5%. The reduced rate is 2.1%. There is also a zero VAT rate for essential goods in Martinique and Guadeloupe."
-        },
-        {
-            "memberState": "FR",
-            "type": "STANDARD",
-            "rate": {
-                "type": "DEFAULT",
-                "value": 20
-            },
-            "situationOn": "2025-07-01+02:00",
-            "comment": "<p><a href=\"http:\/\/bofip.impots.gouv.fr\/bofip\/1379-PGP\" target=\"_blank\" rel=\"noopener noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer\">http:\/\/bofip.impots.gouv.fr\/bofip\/1379-PGP<\/a><\/p>\n<p>Article 278 of the General Tax Code<\/p>"
         }
     ]
 }
