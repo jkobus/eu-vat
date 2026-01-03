@@ -5,6 +5,61 @@
             "memberState": "CY",
             "type": "REDUCED",
             "rate": {
+                "type": "EXEMPTED",
+                "value": 0
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "91",
+                        "description": "Libraries, archives, museums and other cultural services"
+                    },
+                    {
+                        "value": "93",
+                        "description": "Sporting services and amusement and recreation services"
+                    },
+                    {
+                        "value": "94",
+                        "description": "Services furnished by membership organisations"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "CULTURAL_EVENTS",
+                "description": "Admission to shows, theatres, circuses, fairs, amusement parks, concerts, museums, zoos, cinemas, exhibitions and similar cultural events and facilities"
+            },
+            "comment": "When organized by non-profit organizations and does not distort competition between them and profit organizations"
+        },
+        {
+            "memberState": "CY",
+            "type": "REDUCED",
+            "rate": {
+                "type": "NOT_APPLICABLE",
+                "value": 0
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "41",
+                        "description": "Residential and non-residential buildings, residential and non-residential buildings construction works"
+                    },
+                    {
+                        "value": "43",
+                        "description": "Specialised construction works"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "PRIVATE_DWELLINGS",
+                "description": "The renovation and repair of private dwellings, excluding materials which account for a significant part of the value of the service supplied"
+            }
+        },
+        {
+            "memberState": "CY",
+            "type": "REDUCED",
+            "rate": {
                 "type": "NOT_APPLICABLE",
                 "value": 0
             },
@@ -705,61 +760,6 @@
                 "value": 19
             },
             "situationOn": "2025-07-01+02:00"
-        },
-        {
-            "memberState": "CY",
-            "type": "REDUCED",
-            "rate": {
-                "type": "EXEMPTED",
-                "value": 0
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "91",
-                        "description": "Libraries, archives, museums and other cultural services"
-                    },
-                    {
-                        "value": "93",
-                        "description": "Sporting services and amusement and recreation services"
-                    },
-                    {
-                        "value": "94",
-                        "description": "Services furnished by membership organisations"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "CULTURAL_EVENTS",
-                "description": "Admission to shows, theatres, circuses, fairs, amusement parks, concerts, museums, zoos, cinemas, exhibitions and similar cultural events and facilities"
-            },
-            "comment": "When organized by non-profit organizations and does not distort competition between them and profit organizations"
-        },
-        {
-            "memberState": "CY",
-            "type": "REDUCED",
-            "rate": {
-                "type": "NOT_APPLICABLE",
-                "value": 0
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "41",
-                        "description": "Residential and non-residential buildings, residential and non-residential buildings construction works"
-                    },
-                    {
-                        "value": "43",
-                        "description": "Specialised construction works"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "PRIVATE_DWELLINGS",
-                "description": "The renovation and repair of private dwellings, excluding materials which account for a significant part of the value of the service supplied"
-            }
         }
     ]
 }

@@ -8,7 +8,7 @@
                 "type": "REDUCED_RATE",
                 "value": 10
             },
-            "situationOn": "2025-07-01+02:00",
+            "situationOn": "2026-01-01+01:00",
             "cnCodes": {
                 "code": [
                     {
@@ -610,14 +610,6 @@
                     {
                         "value": "3824 99 93",
                         "description": "Other"
-                    },
-                    {
-                        "value": "3924 90 00",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "4014 90 00",
-                        "description": "Other"
                     }
                 ]
             },
@@ -625,89 +617,72 @@
                 "identifier": "FOODSTUFFS",
                 "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
             },
-            "comment": "Annex 1 to Sec. 10 of the Austrian VAT Act 1994 contains a list of goods falling under the reduced rate of 10% such as meal, milk, cereals and so on (https:\/\/www.ris.bka.gv.at\/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10004873&Artikel=&Paragraf=&Anlage=1&Uebergangsrecht=).\n For legal certainty please have a look at the Austrian VAT Act 1994 (can be found at www.ris.bka.gv.at)."
+            "comment": "Annex 1 to Sec. 10 of the Austrian VAT Act 1994 contains a list of goods falling under the reduced rate of 10% such as meal, milk, cereals and so on (https:\/\/www.ris.bka.gv.at\/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10004873&Artikel=&Paragraf=&Anlage=1&Uebergangsrecht=).\n\nFor legal certainty please see the Austrian VAT Act 1994 (https:\/\/www.ris.bka.gv.at)."
         },
         {
             "memberState": "AT",
             "type": "REDUCED",
             "rate": {
                 "type": "REDUCED_RATE",
-                "value": 13
+                "value": 10
             },
-            "situationOn": "2025-07-01+02:00",
+            "situationOn": "2026-01-01+01:00",
+            "cnCodes": {
+                "code": {
+                    "value": "2201 90 00",
+                    "description": "Other"
+                }
+            },
+            "category": {
+                "identifier": "SUPPLY_WATER",
+                "description": "Supply of water"
+            }
+        },
+        {
+            "memberState": "AT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "EXEMPTED",
+                "value": 0
+            },
+            "situationOn": "2026-01-01+01:00",
             "cnCodes": {
                 "code": [
                     {
-                        "value": "0101 29 10",
-                        "description": "For slaughter"
-                    },
-                    {
-                        "value": "0101 30 00",
-                        "description": "Asses"
-                    },
-                    {
-                        "value": "0101 90 00",
+                        "value": "0511 99 39",
                         "description": "Other"
                     },
                     {
-                        "value": "0102",
-                        "description": "Live bovine animals"
+                        "value": "30",
+                        "description": "CHAPTER 30 - PHARMACEUTICAL PRODUCTS"
                     },
                     {
-                        "value": "0103",
-                        "description": "Live swine"
+                        "value": "39",
+                        "description": "CHAPTER 39 - PLASTICS AND ARTICLES THEREOF"
                     },
                     {
-                        "value": "0104",
-                        "description": "Live sheep and goats"
+                        "value": "3924 90 00",
+                        "description": "Other"
                     },
                     {
-                        "value": "0105",
-                        "description": "Live poultry, that is to say, fowls of the species Gallus domesticus, ducks, geese, turkeys and guinea fowls"
+                        "value": "40",
+                        "description": "CHAPTER 40 - RUBBER AND ARTICLES THEREOF"
                     },
                     {
-                        "value": "0601",
-                        "description": "Bulbs, tubers, tuberous roots, corms, crowns and rhizomes, dormant, in growth or in flower; chicory plants and roots other than roots of heading 1212"
+                        "value": "4014 90 00",
+                        "description": "Other"
                     },
                     {
-                        "value": "0602",
-                        "description": "Other live plants (including their roots), cuttings and slips; mushroom spawn"
-                    },
-                    {
-                        "value": "0603",
-                        "description": "Cut flowers and flower buds of a kind suitable for bouquets or for ornamental purposes, fresh, dried, dyed, bleached, impregnated or otherwise prepared"
-                    },
-                    {
-                        "value": "0604 20",
-                        "description": "Fresh"
-                    },
-                    {
-                        "value": "1209",
-                        "description": "Seeds, fruit and spores, of a kind used for sowing"
-                    },
-                    {
-                        "value": "1214",
-                        "description": "Swedes, mangolds, fodder roots, hay, lucerne (alfalfa), clover, sainfoin, forage kale, lupines, vetches and similar forage products, whether or not in the form of pellets"
-                    },
-                    {
-                        "value": "23",
-                        "description": "CHAPTER 23 - RESIDUES AND WASTE FROM THE FOOD INDUSTRIES; PREPARED ANIMAL FODDER"
-                    },
-                    {
-                        "value": "3101 00 00",
-                        "description": "Animal or vegetable fertilisers, whether or not mixed together or chemically treated; fertilisers produced by the mixing or chemical treatment of animal or vegetable products"
-                    },
-                    {
-                        "value": "4401",
-                        "description": "Fuel wood, in logs, in billets, in twigs, in faggots or in similar forms; wood in chips or particles; sawdust and wood waste and scrap, whether or not agglomerated in logs, briquettes, pellets or similar forms"
+                        "value": "9619 00",
+                        "description": "Sanitary towels (pads) and tampons, napkins (diapers), napkin liners and similar articles, of any material"
                     }
                 ]
             },
             "category": {
-                "identifier": "AGRICULTURAL_PRODUCTION",
-                "description": "Supply of goods and services of a kind normally intended for use in agricultural production but excluding capital goods such as machinery or buildings"
+                "identifier": "PHARMACEUTICAL_PRODUCTS",
+                "description": "Pharmaceutical products of a kind normally used for health care, prevention of illness and as treatment for medical and veterinary purposes, including products used for contraception and sanitary protection"
             },
-            "comment": "Annex 2 to Sec. 10 of the Austrian VAT Act 1994 contains a list of goods falling under the reduced rate of 13% such as life-stock, living plants (https:\/\/www.ris.bka.gv.at\/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10004873&FassungVom=2016-01-01&Artikel=&Paragraf=&Anlage=2&Uebergangsrecht=).\nFor legal certainty please have a look at the Austrian VAT Act 1994 (can be found at www.ris.bka.gv.at)."
+            "comment": "From January 1, 2026 the supply of chemical, hormonal and mechanical contraceptives and of all kinds of feminine hygiene products are zero tax rated.\n\nPlease notice that until December 31, 2025, all kinds of feminine hygiene products were subject to a reduced tax rate of 10% and the standard tax rate of 20% was applied to contraceptives."
         },
         {
             "memberState": "AT",
@@ -716,7 +691,7 @@
                 "type": "REDUCED_RATE",
                 "value": 13
             },
-            "situationOn": "2025-07-01+02:00",
+            "situationOn": "2026-01-01+01:00",
             "cnCodes": {
                 "code": [
                     {
@@ -793,26 +768,143 @@
                 "identifier": "FOODSTUFFS",
                 "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
             },
-            "comment": "Annex 2 to Sec. 10 of the Austrian VAT Act 1994 contains a list of goods falling under the reduced rate of 13% such as life-stock, living plants (https:\/\/www.ris.bka.gv.at\/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10004873&FassungVom=2016-01-01&Artikel=&Paragraf=&Anlage=2&Uebergangsrecht=).\nFor legal certainty please have a look at the Austrian VAT Act 1994 (can be found at www.ris.bka.gv.at)."
+            "comment": "Annex 2 to Sec. 10 of the Austrian VAT Act 1994 contains a list of goods falling under the reduced rate of 13% such as life-stock, living plants (https:\/\/www.ris.bka.gv.at\/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10004873&FassungVom=2016-01-01&Artikel=&Paragraf=&Anlage=2&Uebergangsrecht=).\n\nFor legal certainty please see the Austrian VAT Act 1994 (https:\/\/www.ris.bka.gv.at)."
         },
         {
             "memberState": "AT",
             "type": "REDUCED",
             "rate": {
                 "type": "REDUCED_RATE",
-                "value": 10
+                "value": 13
             },
-            "situationOn": "2025-07-01+02:00",
+            "situationOn": "2026-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "0101 29 10",
+                        "description": "For slaughter"
+                    },
+                    {
+                        "value": "0101 30 00",
+                        "description": "Asses"
+                    },
+                    {
+                        "value": "0101 90 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "0102",
+                        "description": "Live bovine animals"
+                    },
+                    {
+                        "value": "0103",
+                        "description": "Live swine"
+                    },
+                    {
+                        "value": "0104",
+                        "description": "Live sheep and goats"
+                    },
+                    {
+                        "value": "0105",
+                        "description": "Live poultry, that is to say, fowls of the species Gallus domesticus, ducks, geese, turkeys and guinea fowls"
+                    },
+                    {
+                        "value": "0601",
+                        "description": "Bulbs, tubers, tuberous roots, corms, crowns and rhizomes, dormant, in growth or in flower; chicory plants and roots other than roots of heading 1212"
+                    },
+                    {
+                        "value": "0602",
+                        "description": "Other live plants (including their roots), cuttings and slips; mushroom spawn"
+                    },
+                    {
+                        "value": "0603",
+                        "description": "Cut flowers and flower buds of a kind suitable for bouquets or for ornamental purposes, fresh, dried, dyed, bleached, impregnated or otherwise prepared"
+                    },
+                    {
+                        "value": "0604 20",
+                        "description": "Fresh"
+                    },
+                    {
+                        "value": "1209",
+                        "description": "Seeds, fruit and spores, of a kind used for sowing"
+                    },
+                    {
+                        "value": "1214",
+                        "description": "Swedes, mangolds, fodder roots, hay, lucerne (alfalfa), clover, sainfoin, forage kale, lupines, vetches and similar forage products, whether or not in the form of pellets"
+                    },
+                    {
+                        "value": "23",
+                        "description": "CHAPTER 23 - RESIDUES AND WASTE FROM THE FOOD INDUSTRIES; PREPARED ANIMAL FODDER"
+                    },
+                    {
+                        "value": "3101 00 00",
+                        "description": "Animal or vegetable fertilisers, whether or not mixed together or chemically treated; fertilisers produced by the mixing or chemical treatment of animal or vegetable products"
+                    },
+                    {
+                        "value": "4401",
+                        "description": "Fuel wood, in logs, in billets, in twigs, in faggots or in similar forms; wood in chips or particles; sawdust and wood waste and scrap, whether or not agglomerated in logs, briquettes, pellets or similar forms"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "AGRICULTURAL_PRODUCTION",
+                "description": "Supply of goods and services of a kind normally intended for use in agricultural production but excluding capital goods such as machinery or buildings"
+            },
+            "comment": "Annex 2 to Sec. 10 of the Austrian VAT Act 1994 contains a list of goods falling under the reduced rate of 13% such as life-stock, living plants (https:\/\/www.ris.bka.gv.at\/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10004873&FassungVom=2016-01-01&Artikel=&Paragraf=&Anlage=2&Uebergangsrecht=).\n\nFor legal certainty please see the Austrian VAT Act 1994 (https:\/\/www.ris.bka.gv.at)."
+        },
+        {
+            "memberState": "AT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "EXEMPTED",
+                "value": 0
+            },
+            "situationOn": "2026-01-01+01:00",
             "cnCodes": {
                 "code": {
-                    "value": "2201 90 00",
-                    "description": "Other"
+                    "value": "8541",
+                    "description": "Semiconductor devices (for example, diodes, transistors, semiconductor-based transducers); photosensitive semiconductor devices, including photovoltaic cells whether or not assembled in modules or made up into panels; light-emitting diodes (LED), whether or not assembled with other light-emitting diodes (LED); mounted piezo-electric crystals"
                 }
             },
             "category": {
-                "identifier": "SUPPLY_WATER",
-                "description": "Supply of water"
-            }
+                "identifier": "SOLAR_PANELS",
+                "description": "Supply and installation of solar panels on and adjacent to private dwellings, housing and public and other buildings used for activities in the public interest"
+            },
+            "comment": "From January 1, 2024 to March 30, 2025 the supply, the intra-community acquisition, the import and the installation of photovoltaic modules are zero tax rated (https:\/\/www.bmf.gv.at\/themen\/steuern\/fuer-unternehmen\/umsatzsteuer\/informationen)."
+        },
+        {
+            "memberState": "AT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "EXEMPTED",
+                "value": 0
+            },
+            "situationOn": "2026-01-01+01:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "49.3",
+                    "description": "Other passenger land transport services"
+                }
+            },
+            "category": {
+                "identifier": "TRANSPORT_PASSENGERS",
+                "description": "Transport of passengers and their accompanying luggage"
+            },
+            "comment": "The Austrian section of the journey in cross-border rail passenger transport is zero tax rated."
+        },
+        {
+            "memberState": "AT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "EXEMPTED",
+                "value": 0
+            },
+            "situationOn": "2026-01-01+01:00",
+            "category": {
+                "identifier": "FOODSTUFFS",
+                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
+            },
+            "comment": "From August 1, 2024 donations for charitable purposes of  food listed in Annex 1 to Sec. 10 of the Austrian VAT Act 1994, concerning CN Codes please see above"
         },
         {
             "memberState": "AT",
@@ -821,7 +913,7 @@
                 "type": "REDUCED_RATE",
                 "value": 10
             },
-            "situationOn": "2025-07-01+02:00",
+            "situationOn": "2026-01-01+01:00",
             "cnCodes": {
                 "code": [
                     {
@@ -858,7 +950,7 @@
                 "type": "REDUCED_RATE",
                 "value": 10
             },
-            "situationOn": "2025-07-01+02:00",
+            "situationOn": "2026-01-01+01:00",
             "cnCodes": {
                 "code": {
                     "value": "4902",
@@ -877,7 +969,7 @@
                 "type": "REDUCED_RATE",
                 "value": 10
             },
-            "situationOn": "2025-07-01+02:00",
+            "situationOn": "2026-01-01+01:00",
             "cnCodes": {
                 "code": {
                     "value": "4902",
@@ -896,7 +988,7 @@
                 "type": "REDUCED_RATE",
                 "value": 10
             },
-            "situationOn": "2025-07-01+02:00",
+            "situationOn": "2026-01-01+01:00",
             "cpaCodes": {
                 "code": [
                     {
@@ -921,7 +1013,7 @@
                 "type": "REDUCED_RATE",
                 "value": 10
             },
-            "situationOn": "2025-07-01+02:00",
+            "situationOn": "2026-01-01+01:00",
             "cpaCodes": {
                 "code": [
                     {
@@ -946,7 +1038,7 @@
                 "type": "REDUCED_RATE",
                 "value": 10
             },
-            "situationOn": "2025-07-01+02:00",
+            "situationOn": "2026-01-01+01:00",
             "cpaCodes": {
                 "code": [
                     {
@@ -971,7 +1063,7 @@
                 "type": "REDUCED_RATE",
                 "value": 10
             },
-            "situationOn": "2025-07-01+02:00",
+            "situationOn": "2026-01-01+01:00",
             "cpaCodes": {
                 "code": [
                     {
@@ -1004,7 +1096,7 @@
                 "type": "REDUCED_RATE",
                 "value": 10
             },
-            "situationOn": "2025-07-01+02:00",
+            "situationOn": "2026-01-01+01:00",
             "cpaCodes": {
                 "code": [
                     {
@@ -1033,7 +1125,7 @@
                 "type": "REDUCED_RATE",
                 "value": 10
             },
-            "situationOn": "2025-07-01+02:00",
+            "situationOn": "2026-01-01+01:00",
             "cpaCodes": {
                 "code": {
                     "value": "88",
@@ -1053,7 +1145,7 @@
                 "type": "REDUCED_RATE",
                 "value": 10
             },
-            "situationOn": "2025-07-01+02:00",
+            "situationOn": "2026-01-01+01:00",
             "cpaCodes": {
                 "code": {
                     "value": "95.2",
@@ -1072,7 +1164,7 @@
                 "type": "REDUCED_RATE",
                 "value": 10
             },
-            "situationOn": "2025-07-01+02:00",
+            "situationOn": "2026-01-01+01:00",
             "cpaCodes": {
                 "code": {
                     "value": "95.23.1",
@@ -1088,73 +1180,10 @@
             "memberState": "AT",
             "type": "REDUCED",
             "rate": {
-                "type": "EXEMPTED",
-                "value": 0
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cnCodes": {
-                "code": {
-                    "value": "8541",
-                    "description": "Semiconductor devices (for example, diodes, transistors, semiconductor-based transducers); photosensitive semiconductor devices, including photovoltaic cells whether or not assembled in modules or made up into panels; light-emitting diodes (LED), whether or not assembled with other light-emitting diodes (LED); mounted piezo-electric crystals"
-                }
-            },
-            "category": {
-                "identifier": "SOLAR_PANELS",
-                "description": "Supply and installation of solar panels on and adjacent to private dwellings, housing and public and other buildings used for activities in the public interest"
-            },
-            "comment": "From January 1, 2024 to March 30, 2025 the supply, the intra-community acquisition, the import and the installation of photovoltaic modules are zero tax rated (https:\/\/www.bmf.gv.at\/themen\/steuern\/fuer-unternehmen\/umsatzsteuer\/informationen)"
-        },
-        {
-            "memberState": "AT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "EXEMPTED",
-                "value": 0
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cpaCodes": {
-                "code": {
-                    "value": "49.3",
-                    "description": "Other passenger land transport services"
-                }
-            },
-            "category": {
-                "identifier": "TRANSPORT_PASSENGERS",
-                "description": "Transport of passengers and their accompanying luggage"
-            },
-            "comment": "The Austrian section of the journey in cross-border rail passenger transport is zero tax rated"
-        },
-        {
-            "memberState": "AT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "EXEMPTED",
-                "value": 0
-            },
-            "situationOn": "2025-07-01+02:00",
-            "category": {
-                "identifier": "FOODSTUFFS",
-                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
-            },
-            "comment": "From August 1, 2024 donations for charitable purposes of  food listed in Annex 1 to Sec. 10 of the Austrian VAT Act 1994, concerning CN Codes please see above"
-        },
-        {
-            "memberState": "AT",
-            "type": "STANDARD",
-            "rate": {
-                "type": "DEFAULT",
-                "value": 20
-            },
-            "situationOn": "2025-07-01+02:00"
-        },
-        {
-            "memberState": "AT",
-            "type": "REDUCED",
-            "rate": {
                 "type": "REDUCED_RATE",
                 "value": 13
             },
-            "situationOn": "2025-07-01+02:00",
+            "situationOn": "2026-01-01+01:00",
             "cnCodes": {
                 "code": [
                     {
@@ -1179,7 +1208,7 @@
                 "type": "REDUCED_RATE",
                 "value": 13
             },
-            "situationOn": "2025-07-01+02:00",
+            "situationOn": "2026-01-01+01:00",
             "cnCodes": {
                 "code": {
                     "value": "9701",
@@ -1198,7 +1227,7 @@
                 "type": "REDUCED_RATE",
                 "value": 13
             },
-            "situationOn": "2025-07-01+02:00",
+            "situationOn": "2026-01-01+01:00",
             "cnCodes": {
                 "code": {
                     "value": "9702 00 00",
@@ -1217,7 +1246,7 @@
                 "type": "REDUCED_RATE",
                 "value": 13
             },
-            "situationOn": "2025-07-01+02:00",
+            "situationOn": "2026-01-01+01:00",
             "cnCodes": {
                 "code": {
                     "value": "9703 00 00",
@@ -1236,7 +1265,7 @@
                 "type": "REDUCED_RATE",
                 "value": 13
             },
-            "situationOn": "2025-07-01+02:00",
+            "situationOn": "2026-01-01+01:00",
             "cnCodes": {
                 "code": [
                     {
@@ -1262,7 +1291,7 @@
                 "type": "REDUCED_RATE",
                 "value": 13
             },
-            "situationOn": "2025-07-01+02:00",
+            "situationOn": "2026-01-01+01:00",
             "cnCodes": {
                 "code": {
                     "value": "9706 00 00",
@@ -1282,7 +1311,7 @@
                 "type": "REDUCED_RATE",
                 "value": 13
             },
-            "situationOn": "2025-07-01+02:00",
+            "situationOn": "2026-01-01+01:00",
             "cpaCodes": {
                 "code": {
                     "value": "51.10",
@@ -1302,7 +1331,7 @@
                 "type": "REDUCED_RATE",
                 "value": 13
             },
-            "situationOn": "2025-07-01+02:00",
+            "situationOn": "2026-01-01+01:00",
             "cpaCodes": {
                 "code": {
                     "value": "90.0",
@@ -1321,7 +1350,7 @@
                 "type": "REDUCED_RATE",
                 "value": 13
             },
-            "situationOn": "2025-07-01+02:00",
+            "situationOn": "2026-01-01+01:00",
             "cpaCodes": {
                 "code": [
                     {
@@ -1351,7 +1380,7 @@
                 "type": "REDUCED_RATE",
                 "value": 13
             },
-            "situationOn": "2025-07-01+02:00",
+            "situationOn": "2026-01-01+01:00",
             "cpaCodes": {
                 "code": {
                     "value": "93.11",
@@ -1370,12 +1399,21 @@
                 "type": "REDUCED_RATE",
                 "value": 19
             },
-            "situationOn": "2025-07-01+02:00",
+            "situationOn": "2026-01-01+01:00",
             "category": {
                 "identifier": "REGION",
                 "description": "Special reduced rate for specific regions (including articles 104, 105 and 120 of the VAT Directive)"
             },
             "comment": "Jungholz, Mittelberg"
+        },
+        {
+            "memberState": "AT",
+            "type": "STANDARD",
+            "rate": {
+                "type": "DEFAULT",
+                "value": 20
+            },
+            "situationOn": "2026-01-01+01:00"
         }
     ]
 }
