@@ -5,309 +5,6 @@
             "memberState": "CY",
             "type": "REDUCED",
             "rate": {
-                "type": "EXEMPTED",
-                "value": 0
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "91",
-                        "description": "Libraries, archives, museums and other cultural services"
-                    },
-                    {
-                        "value": "93",
-                        "description": "Sporting services and amusement and recreation services"
-                    },
-                    {
-                        "value": "94",
-                        "description": "Services furnished by membership organisations"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "CULTURAL_EVENTS",
-                "description": "Admission to shows, theatres, circuses, fairs, amusement parks, concerts, museums, zoos, cinemas, exhibitions and similar cultural events and facilities"
-            },
-            "comment": "When organized by non-profit organizations and does not distort competition between them and profit organizations"
-        },
-        {
-            "memberState": "CY",
-            "type": "REDUCED",
-            "rate": {
-                "type": "NOT_APPLICABLE",
-                "value": 0
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "41",
-                        "description": "Residential and non-residential buildings, residential and non-residential buildings construction works"
-                    },
-                    {
-                        "value": "43",
-                        "description": "Specialised construction works"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "PRIVATE_DWELLINGS",
-                "description": "The renovation and repair of private dwellings, excluding materials which account for a significant part of the value of the service supplied"
-            }
-        },
-        {
-            "memberState": "CY",
-            "type": "REDUCED",
-            "rate": {
-                "type": "NOT_APPLICABLE",
-                "value": 0
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "82",
-                        "description": "Office administrative, office support and other business support services"
-                    },
-                    {
-                        "value": "85",
-                        "description": "Education services"
-                    },
-                    {
-                        "value": "86",
-                        "description": "Human health services"
-                    },
-                    {
-                        "value": "87",
-                        "description": "Residential care services"
-                    },
-                    {
-                        "value": "88",
-                        "description": "Social work services without accommodation"
-                    },
-                    {
-                        "value": "90",
-                        "description": "Arts creation and performing arts services"
-                    },
-                    {
-                        "value": "91",
-                        "description": "Libraries, archives, museums and other cultural services"
-                    },
-                    {
-                        "value": "93",
-                        "description": "Sporting services and amusement and recreation services"
-                    },
-                    {
-                        "value": "94",
-                        "description": "Services furnished by membership organisations"
-                    },
-                    {
-                        "value": "99",
-                        "description": "Services provided by extraterritorial organisations and bodies"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "SOCIAL_WELLBEING",
-                "description": "Supply of goods and services by organisations recognised as being devoted to social wellbeing by Member States and engaged in welfare or social security work"
-            }
-        },
-        {
-            "memberState": "CY",
-            "type": "REDUCED",
-            "rate": {
-                "type": "NOT_APPLICABLE",
-                "value": 0
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cpaCodes": {
-                "code": {
-                    "value": "96",
-                    "description": "Personal services"
-                }
-            },
-            "category": {
-                "identifier": "UNDERTAKERS_SERVICES",
-                "description": "Supply of services by undertakers and cremation services, and the supply of goods related thereto"
-            }
-        },
-        {
-            "memberState": "CY",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cnCodes": {
-                "code": {
-                    "value": "01",
-                    "description": "CHAPTER 1 - LIVE ANIMALS"
-                }
-            },
-            "category": {
-                "identifier": "AGRICULTURAL_PRODUCTION",
-                "description": "Supply of goods and services of a kind normally intended for use in agricultural production but excluding capital goods such as machinery or buildings"
-            },
-            "comment": "Live animals, feeding stuffs (including food for birds and fish)"
-        },
-        {
-            "memberState": "CY",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "02",
-                        "description": "CHAPTER 2 - MEAT AND EDIBLE MEAT OFFAL"
-                    },
-                    {
-                        "value": "03",
-                        "description": "CHAPTER 3 - FISH AND CRUSTACEANS, MOLLUSCS AND OTHER AQUATIC INVERTEBRATES"
-                    },
-                    {
-                        "value": "04",
-                        "description": "CHAPTER 4 - DAIRY PRODUCE; BIRDS' EGGS; NATURAL HONEY; EDIBLE PRODUCTS OF ANIMAL ORIGIN, NOT ELSEWHERE SPECIFIED OR INCLUDED"
-                    },
-                    {
-                        "value": "07",
-                        "description": "CHAPTER 7 - EDIBLE VEGETABLES AND CERTAIN ROOTS AND TUBERS"
-                    },
-                    {
-                        "value": "08",
-                        "description": "CHAPTER 8 - EDIBLE FRUIT AND NUTS; PEEL OF CITRUS FRUIT OR MELONS"
-                    },
-                    {
-                        "value": "09",
-                        "description": "CHAPTER 9 - COFFEE, TEA, MATÉ AND SPICES"
-                    },
-                    {
-                        "value": "10",
-                        "description": "CHAPTER 10 - CEREALS"
-                    },
-                    {
-                        "value": "11",
-                        "description": "CHAPTER 11 - PRODUCTS OF THE MILLING INDUSTRY; MALT; STARCHES; INULIN; WHEAT GLUTEN"
-                    },
-                    {
-                        "value": "12",
-                        "description": "CHAPTER 12 - OIL SEEDS AND OLEAGINOUS FRUITS; MISCELLANEOUS GRAINS, SEEDS AND FRUIT; INDUSTRIAL OR MEDICINAL PLANTS; STRAW AND FODDER"
-                    },
-                    {
-                        "value": "14",
-                        "description": "CHAPTER 14 - VEGETABLE PLAITING MATERIALS; VEGETABLE PRODUCTS NOT ELSEWHERE SPECIFIED OR INCLUDED"
-                    },
-                    {
-                        "value": "15",
-                        "description": "CHAPTER 15 - ANIMAL, VEGETABLE OR MICROBIAL FATS AND OILS AND THEIR CLEAVAGE PRODUCTS; PREPARED EDIBLE FATS; ANIMAL OR VEGETABLE WAXES"
-                    },
-                    {
-                        "value": "17",
-                        "description": "CHAPTER 17 - SUGARS AND SUGAR CONFECTIONERY"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "FOODSTUFFS",
-                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
-            },
-            "comment": "From 5\/5\/2023 up until 30\/9\/2024 the sale of the following: bread, milk, eggs, baby food were liable at the 0% VAT. From 01\/10\/24 back to 5%.\n\nFrom 1\/11\/23 up until 30\/09\/24 the sale of sugar and coffee are liable at the 0% VAT. From 01\/10\/24 back to 5%.\n\nFrom 1\/12\/2023 up until 30\/9\/2024 - the sale of  raw meat (frozen or refrigerated) and meat byproducts are liable at the 0% VAT. From 01\/10\/24 back to 5%."
-        },
-        {
-            "memberState": "CY",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cnCodes": {
-                "code": {
-                    "value": "30",
-                    "description": "CHAPTER 30 - PHARMACEUTICAL PRODUCTS"
-                }
-            },
-            "category": {
-                "identifier": "PHARMACEUTICAL_PRODUCTS",
-                "description": "Pharmaceutical products of a kind normally used for health care, prevention of illness and as treatment for medical and veterinary purposes, including products used for contraception and sanitary protection"
-            },
-            "comment": "The sale of in vitro products and vaccines related to virus covid 19 are liable at 0% from 13\/01\/2023 until 31\/5\/2023\n\nFrom 5\/5\/2023 up until 31\/12\/2025 until the sale of the following: baby milk (liquid or powder), baby diapers, adult diapers, products related to feminine hygiene protection are liable at the 0%\n\nFrom 1\/12\/23 up until 31\/12\/25 sale of fresh or refrigerated vegetables of all kinds for human consumption are liable at the 0% VAT"
-        },
-        {
-            "memberState": "CY",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cnCodes": {
-                "code": {
-                    "value": "31",
-                    "description": "CHAPTER 31 - FERTILISERS"
-                }
-            },
-            "category": {
-                "identifier": "AGRICULTURAL_PRODUCTION",
-                "description": "Supply of goods and services of a kind normally intended for use in agricultural production but excluding capital goods such as machinery or buildings"
-            },
-            "comment": "Fertilizers, insecticides, rodenticides, fungicides, herbicides, disinfectants (under tariff code 31)"
-        },
-        {
-            "memberState": "CY",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "84",
-                        "description": "CHAPTER 84 - NUCLEAR REACTORS, BOILERS, MACHINERY AND MECHANICAL APPLIANCES; PARTS THEREOF"
-                    },
-                    {
-                        "value": "90",
-                        "description": "CHAPTER 90 - OPTICAL, PHOTOGRAPHIC, CINEMATOGRAPHIC, MEASURING, CHECKING, PRECISION, MEDICAL OR SURGICAL INSTRUMENTS AND APPARATUS; PARTS AND ACCESSORIES THEREOF"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "MEDICAL_EQUIPMENT",
-                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
-            },
-            "comment": "Lifting devices for the disabled \n(under tariff code 84.28)\nBraille typewriters and pocket size specialized electronic communication devices for the disabled (under tariff code 84.69)\nHearing aids and orthopedic devices (under tariff code 90.21)\nWheelchairs for the disabled  \n(under tariff code 87.13)\nRepair services of the aforementioned goods - standard rate"
-        },
-        {
-            "memberState": "CY",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cnCodes": {
-                "code": {
-                    "value": "87",
-                    "description": "CHAPTER 87 - VEHICLES OTHER THAN RAILWAY OR TRAMWAY ROLLING STOCK, AND PARTS AND ACCESSORIES THEREOF"
-                }
-            },
-            "category": {
-                "identifier": "CHILDREN_CAR_SEATS",
-                "description": "Supply of children’s car seats"
-            },
-            "comment": "Children's car seats to be used by land vehicles and specially designed for children up to 12 years old"
-        },
-        {
-            "memberState": "CY",
-            "type": "REDUCED",
-            "rate": {
                 "type": "REDUCED_RATE",
                 "value": 5
             },
@@ -760,6 +457,309 @@
                 "value": 19
             },
             "situationOn": "2025-07-01+02:00"
+        },
+        {
+            "memberState": "CY",
+            "type": "REDUCED",
+            "rate": {
+                "type": "EXEMPTED",
+                "value": 0
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "91",
+                        "description": "Libraries, archives, museums and other cultural services"
+                    },
+                    {
+                        "value": "93",
+                        "description": "Sporting services and amusement and recreation services"
+                    },
+                    {
+                        "value": "94",
+                        "description": "Services furnished by membership organisations"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "CULTURAL_EVENTS",
+                "description": "Admission to shows, theatres, circuses, fairs, amusement parks, concerts, museums, zoos, cinemas, exhibitions and similar cultural events and facilities"
+            },
+            "comment": "When organized by non-profit organizations and does not distort competition between them and profit organizations"
+        },
+        {
+            "memberState": "CY",
+            "type": "REDUCED",
+            "rate": {
+                "type": "NOT_APPLICABLE",
+                "value": 0
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "41",
+                        "description": "Residential and non-residential buildings, residential and non-residential buildings construction works"
+                    },
+                    {
+                        "value": "43",
+                        "description": "Specialised construction works"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "PRIVATE_DWELLINGS",
+                "description": "The renovation and repair of private dwellings, excluding materials which account for a significant part of the value of the service supplied"
+            }
+        },
+        {
+            "memberState": "CY",
+            "type": "REDUCED",
+            "rate": {
+                "type": "NOT_APPLICABLE",
+                "value": 0
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "82",
+                        "description": "Office administrative, office support and other business support services"
+                    },
+                    {
+                        "value": "85",
+                        "description": "Education services"
+                    },
+                    {
+                        "value": "86",
+                        "description": "Human health services"
+                    },
+                    {
+                        "value": "87",
+                        "description": "Residential care services"
+                    },
+                    {
+                        "value": "88",
+                        "description": "Social work services without accommodation"
+                    },
+                    {
+                        "value": "90",
+                        "description": "Arts creation and performing arts services"
+                    },
+                    {
+                        "value": "91",
+                        "description": "Libraries, archives, museums and other cultural services"
+                    },
+                    {
+                        "value": "93",
+                        "description": "Sporting services and amusement and recreation services"
+                    },
+                    {
+                        "value": "94",
+                        "description": "Services furnished by membership organisations"
+                    },
+                    {
+                        "value": "99",
+                        "description": "Services provided by extraterritorial organisations and bodies"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "SOCIAL_WELLBEING",
+                "description": "Supply of goods and services by organisations recognised as being devoted to social wellbeing by Member States and engaged in welfare or social security work"
+            }
+        },
+        {
+            "memberState": "CY",
+            "type": "REDUCED",
+            "rate": {
+                "type": "NOT_APPLICABLE",
+                "value": 0
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "96",
+                    "description": "Personal services"
+                }
+            },
+            "category": {
+                "identifier": "UNDERTAKERS_SERVICES",
+                "description": "Supply of services by undertakers and cremation services, and the supply of goods related thereto"
+            }
+        },
+        {
+            "memberState": "CY",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cnCodes": {
+                "code": {
+                    "value": "01",
+                    "description": "CHAPTER 1 - LIVE ANIMALS"
+                }
+            },
+            "category": {
+                "identifier": "AGRICULTURAL_PRODUCTION",
+                "description": "Supply of goods and services of a kind normally intended for use in agricultural production but excluding capital goods such as machinery or buildings"
+            },
+            "comment": "Live animals, feeding stuffs (including food for birds and fish)"
+        },
+        {
+            "memberState": "CY",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "02",
+                        "description": "CHAPTER 2 - MEAT AND EDIBLE MEAT OFFAL"
+                    },
+                    {
+                        "value": "03",
+                        "description": "CHAPTER 3 - FISH AND CRUSTACEANS, MOLLUSCS AND OTHER AQUATIC INVERTEBRATES"
+                    },
+                    {
+                        "value": "04",
+                        "description": "CHAPTER 4 - DAIRY PRODUCE; BIRDS' EGGS; NATURAL HONEY; EDIBLE PRODUCTS OF ANIMAL ORIGIN, NOT ELSEWHERE SPECIFIED OR INCLUDED"
+                    },
+                    {
+                        "value": "07",
+                        "description": "CHAPTER 7 - EDIBLE VEGETABLES AND CERTAIN ROOTS AND TUBERS"
+                    },
+                    {
+                        "value": "08",
+                        "description": "CHAPTER 8 - EDIBLE FRUIT AND NUTS; PEEL OF CITRUS FRUIT OR MELONS"
+                    },
+                    {
+                        "value": "09",
+                        "description": "CHAPTER 9 - COFFEE, TEA, MATÉ AND SPICES"
+                    },
+                    {
+                        "value": "10",
+                        "description": "CHAPTER 10 - CEREALS"
+                    },
+                    {
+                        "value": "11",
+                        "description": "CHAPTER 11 - PRODUCTS OF THE MILLING INDUSTRY; MALT; STARCHES; INULIN; WHEAT GLUTEN"
+                    },
+                    {
+                        "value": "12",
+                        "description": "CHAPTER 12 - OIL SEEDS AND OLEAGINOUS FRUITS; MISCELLANEOUS GRAINS, SEEDS AND FRUIT; INDUSTRIAL OR MEDICINAL PLANTS; STRAW AND FODDER"
+                    },
+                    {
+                        "value": "14",
+                        "description": "CHAPTER 14 - VEGETABLE PLAITING MATERIALS; VEGETABLE PRODUCTS NOT ELSEWHERE SPECIFIED OR INCLUDED"
+                    },
+                    {
+                        "value": "15",
+                        "description": "CHAPTER 15 - ANIMAL, VEGETABLE OR MICROBIAL FATS AND OILS AND THEIR CLEAVAGE PRODUCTS; PREPARED EDIBLE FATS; ANIMAL OR VEGETABLE WAXES"
+                    },
+                    {
+                        "value": "17",
+                        "description": "CHAPTER 17 - SUGARS AND SUGAR CONFECTIONERY"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "FOODSTUFFS",
+                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
+            },
+            "comment": "From 5\/5\/2023 up until 30\/9\/2024 the sale of the following: bread, milk, eggs, baby food were liable at the 0% VAT. From 01\/10\/24 back to 5%.\n\nFrom 1\/11\/23 up until 30\/09\/24 the sale of sugar and coffee are liable at the 0% VAT. From 01\/10\/24 back to 5%.\n\nFrom 1\/12\/2023 up until 30\/9\/2024 - the sale of  raw meat (frozen or refrigerated) and meat byproducts are liable at the 0% VAT. From 01\/10\/24 back to 5%."
+        },
+        {
+            "memberState": "CY",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cnCodes": {
+                "code": {
+                    "value": "30",
+                    "description": "CHAPTER 30 - PHARMACEUTICAL PRODUCTS"
+                }
+            },
+            "category": {
+                "identifier": "PHARMACEUTICAL_PRODUCTS",
+                "description": "Pharmaceutical products of a kind normally used for health care, prevention of illness and as treatment for medical and veterinary purposes, including products used for contraception and sanitary protection"
+            },
+            "comment": "The sale of in vitro products and vaccines related to virus covid 19 are liable at 0% from 13\/01\/2023 until 31\/5\/2023\n\nFrom 5\/5\/2023 up until 31\/12\/2025 until the sale of the following: baby milk (liquid or powder), baby diapers, adult diapers, products related to feminine hygiene protection are liable at the 0%\n\nFrom 1\/12\/23 up until 31\/12\/25 sale of fresh or refrigerated vegetables of all kinds for human consumption are liable at the 0% VAT"
+        },
+        {
+            "memberState": "CY",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cnCodes": {
+                "code": {
+                    "value": "31",
+                    "description": "CHAPTER 31 - FERTILISERS"
+                }
+            },
+            "category": {
+                "identifier": "AGRICULTURAL_PRODUCTION",
+                "description": "Supply of goods and services of a kind normally intended for use in agricultural production but excluding capital goods such as machinery or buildings"
+            },
+            "comment": "Fertilizers, insecticides, rodenticides, fungicides, herbicides, disinfectants (under tariff code 31)"
+        },
+        {
+            "memberState": "CY",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "84",
+                        "description": "CHAPTER 84 - NUCLEAR REACTORS, BOILERS, MACHINERY AND MECHANICAL APPLIANCES; PARTS THEREOF"
+                    },
+                    {
+                        "value": "90",
+                        "description": "CHAPTER 90 - OPTICAL, PHOTOGRAPHIC, CINEMATOGRAPHIC, MEASURING, CHECKING, PRECISION, MEDICAL OR SURGICAL INSTRUMENTS AND APPARATUS; PARTS AND ACCESSORIES THEREOF"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "MEDICAL_EQUIPMENT",
+                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
+            },
+            "comment": "Lifting devices for the disabled \n(under tariff code 84.28)\nBraille typewriters and pocket size specialized electronic communication devices for the disabled (under tariff code 84.69)\nHearing aids and orthopedic devices (under tariff code 90.21)\nWheelchairs for the disabled  \n(under tariff code 87.13)\nRepair services of the aforementioned goods - standard rate"
+        },
+        {
+            "memberState": "CY",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2025-07-01+02:00",
+            "cnCodes": {
+                "code": {
+                    "value": "87",
+                    "description": "CHAPTER 87 - VEHICLES OTHER THAN RAILWAY OR TRAMWAY ROLLING STOCK, AND PARTS AND ACCESSORIES THEREOF"
+                }
+            },
+            "category": {
+                "identifier": "CHILDREN_CAR_SEATS",
+                "description": "Supply of children’s car seats"
+            },
+            "comment": "Children's car seats to be used by land vehicles and specially designed for children up to 12 years old"
         }
     ]
 }

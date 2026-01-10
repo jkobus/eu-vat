@@ -5,10 +5,206 @@
             "memberState": "MT",
             "type": "REDUCED",
             "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2026-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "2905 45 00",
+                        "description": "Glycerol"
+                    },
+                    {
+                        "value": "3001",
+                        "description": "Glands and other organs for organo-therapeutic uses, dried, whether or not powdered; extracts of glands or other organs or of their secretions for organo-therapeutic uses; heparin and its salts; other human or animal substances prepared for therapeutic or prophylactic uses, not elsewhere specified or included"
+                    },
+                    {
+                        "value": "3002",
+                        "description": "Human blood; animal blood prepared for therapeutic, prophylactic or diagnostic uses; antisera, other blood fractions and immunological products, whether or not modified or obtained by means of biotechnological processes; vaccines, toxins, cultures of micro-organisms (excluding yeasts) and similar products; cell cultures, whether or not modified"
+                    },
+                    {
+                        "value": "3005",
+                        "description": "Wadding, gauze, bandages and similar articles (for example, dressings, adhesive plasters, poultices), impregnated or coated with pharmaceutical substances or put up in forms or packings for retail sale for medical, surgical, dental or veterinary purposes"
+                    },
+                    {
+                        "value": "3006",
+                        "description": "Pharmaceutical goods specified in note 4 to this chapter"
+                    },
+                    {
+                        "value": "3306",
+                        "description": "Preparations for oral or dental hygiene, including denture fixative pastes and powders; yarn used to clean between the teeth (dental floss), in individual retail packages"
+                    },
+                    {
+                        "value": "3307 90 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "3407 00 00",
+                        "description": "Modelling pastes, including those put up for children's amusement; preparations known as dental wax or as dental impression compounds, put up in sets, in packings for retail sale or in plates, horseshoe shapes, sticks or similar forms; other preparations for use in dentistry, with a basis of plaster (of calcined gypsum or calcium sulphate)"
+                    },
+                    {
+                        "value": "3822 00 00",
+                        "description": "Diagnostic or laboratory reagents on a backing, prepared diagnostic or laboratory reagents whether or not on a backing, other than those of heading 3002 or 3006; certified reference materials"
+                    },
+                    {
+                        "value": "3926 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "4818 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "6307 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "7015 10 00",
+                        "description": "Glasses for corrective spectacles"
+                    },
+                    {
+                        "value": "9001 30 00",
+                        "description": "Contact lenses"
+                    },
+                    {
+                        "value": "9001 40 41",
+                        "description": "Single focal"
+                    },
+                    {
+                        "value": "9001 40 49",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "9001 40 80",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "9001 50 41",
+                        "description": "Single focal"
+                    },
+                    {
+                        "value": "9001 50 49",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "9001 50 80",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "9004 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "9004 90 10",
+                        "description": "With lenses of plastics"
+                    },
+                    {
+                        "value": "9004 90 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "9020 00 00",
+                        "description": "Other breathing appliances and gas masks, excluding protective masks having neither mechanical parts nor replaceable filters"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "PHARMACEUTICAL_PRODUCTS",
+                "description": "Pharmaceutical products of a kind normally used for health care, prevention of illness and as treatment for medical and veterinary purposes, including products used for contraception and sanitary protection"
+            },
+            "comment": "- Medical accessories: This reduced rate does not apply to medical accessories falling under CN codes 3001 and 3002 where such items are used for therapeutic or prophylactic purposes;\n\n- For code 3307 90 00, the reduced rate applies solely to solutions for contact lenses.\n\n- In May 2020, the reduced rate has been extended to protective face masks and visors, excluding diving equipment."
+        },
+        {
+            "memberState": "MT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2026-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "3924 90 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "4014 90 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "4016 95 00",
+                        "description": "Other inflatable articles"
+                    },
+                    {
+                        "value": "4016 99",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "6306 40 00",
+                        "description": "Pneumatic mattresses"
+                    },
+                    {
+                        "value": "6602 00 00",
+                        "description": "Walking sticks, seat-sticks, whips, riding-crops and the like"
+                    },
+                    {
+                        "value": "6603 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "7325 10 00",
+                        "description": "Of non-malleable cast iron"
+                    },
+                    {
+                        "value": "7325 99",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "7326 19",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "7326 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "7907 00 00",
+                        "description": "Other articles of zinc"
+                    },
+                    {
+                        "value": "8714 20 00",
+                        "description": "Of carriages for disabled persons"
+                    },
+                    {
+                        "value": "9404 21",
+                        "description": "Of cellular rubber or plastics, whether or not covered"
+                    },
+                    {
+                        "value": "9404 29",
+                        "description": "Of other materials"
+                    },
+                    {
+                        "value": "9404 90",
+                        "description": "Other"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "MEDICAL_EQUIPMENT",
+                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
+            },
+            "comment": "This reduced rate applies to the following items (and CN codes) for the exclusive use of the disabled (part 1):\n- raised toilet seats (3924 90 00);\n- pressure relief cushions (4014 90, 8714 20 00 and 9404 90);\n- padded\/inflatable toilet seats (4016 95 00 and 4016 99 98);\n- pressure relief mattresses (6306 41 00, 6306 49 00, 9404 21 and 9404 29);\n- white sticks (6602 00 00);\n- walking sticks and ferrules (6603 90 00);\n- gutter frames (7325 10, 7325 99, 7326 19, 7326 90 and 7907 00);"
+        },
+        {
+            "memberState": "MT",
+            "type": "REDUCED",
+            "rate": {
                 "type": "EXEMPTED",
                 "value": 0
             },
-            "situationOn": "2025-07-01+02:00",
+            "situationOn": "2026-01-01+01:00",
             "cnCodes": {
                 "code": [
                     {
@@ -131,10 +327,176 @@
             "memberState": "MT",
             "type": "REDUCED",
             "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2026-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "4820 20 00",
+                        "description": "Exercise books"
+                    },
+                    {
+                        "value": "4901",
+                        "description": "Printed books, brochures, leaflets and similar printed matter, whether or not in single sheets"
+                    },
+                    {
+                        "value": "4903 00 00",
+                        "description": "Children's picture, drawing or colouring books"
+                    },
+                    {
+                        "value": "4904 00 00",
+                        "description": "Music, printed or in manuscript, whether or not bound or illustrated"
+                    },
+                    {
+                        "value": "4905 91 00",
+                        "description": "In book form"
+                    },
+                    {
+                        "value": "4905 99 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "4910 00 00",
+                        "description": "Calendars of any kind, printed, including calendar blocks"
+                    },
+                    {
+                        "value": "4911 10",
+                        "description": "Trade advertising material, commercial catalogues and the like"
+                    },
+                    {
+                        "value": "4911 99 00",
+                        "description": "Other"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "LOAN_LIBRARIES",
+                "description": "Supply, including on loan by libraries, of books, newspapers and periodicals either on physical means of support or supplied electronically or both (including brochures, leaflets and similar printed matter, children's picture, drawing or colouring books, music printed or in manuscript form, maps and hydrographic or similar charts), other than publications wholly or predominantly devoted to advertising and other than publications wholly or predominantly consisting of video content or audible music."
+            },
+            "comment": "(i) Not applicable to library loans, and \"production of publications of non-profit-making organisations and services related to such production\".\n\n(ii) This reduced rate has been extended to also include e-books."
+        },
+        {
+            "memberState": "MT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2026-01-01+01:00",
+            "cnCodes": {
+                "code": {
+                    "value": "4902",
+                    "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
+                }
+            },
+            "category": {
+                "identifier": "NEWSPAPERS",
+                "description": "Newspapers"
+            },
+            "comment": "This reduced rate has been extended to also include e-newspapers."
+        },
+        {
+            "memberState": "MT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2026-01-01+01:00",
+            "cnCodes": {
+                "code": {
+                    "value": "4902",
+                    "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
+                }
+            },
+            "category": {
+                "identifier": "PERIODICALS",
+                "description": "Periodicals"
+            },
+            "comment": "This reduced rate has been extended to also include periodicals provided electronically."
+        },
+        {
+            "memberState": "MT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2026-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "8425 11 00",
+                        "description": "Powered by electric motor"
+                    },
+                    {
+                        "value": "8425 19 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "8428 10",
+                        "description": "Lifts and skip hoists"
+                    },
+                    {
+                        "value": "8428 20",
+                        "description": "Pneumatic elevators and conveyors"
+                    },
+                    {
+                        "value": "8428 60 00",
+                        "description": "Teleferics, chairlifts, ski-draglines; traction mechanisms for funiculars"
+                    },
+                    {
+                        "value": "8428 90",
+                        "description": "Other machinery"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "MEDICAL_EQUIPMENT",
+                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
+            },
+            "comment": "This reduced rate applies to the following items (and CN codes) for the exclusive use of the disabled (part 2):\n- hoists (8425 11 90 and 8425 19 91);\n- platform lift\/swimming pool lifters (8428 10 91 and 8428 20 99);\n- chairlifts (8428 60 00);\n- bath tub lifters (8428 90 98);\n- lifts to get wheelchair into a car (8428 90 98);\n- braille typewriters (8469 12 00, 8469 20 00 and 8469 30 00);"
+        },
+        {
+            "memberState": "MT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2026-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "8518 40",
+                        "description": "Audio-frequency electric amplifiers"
+                    },
+                    {
+                        "value": "8713 10 00",
+                        "description": "Not mechanically propelled"
+                    },
+                    {
+                        "value": "8713 90 00",
+                        "description": "Other"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "MEDICAL_EQUIPMENT",
+                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
+            },
+            "comment": "This reduced rate applies to the following items (and CN codes) for the exclusive use of the disabled (part 3):\n- amplifiers for communication devices for people with impaired hearing (8518 40 91 and 8518 40 99);\n- children special walkers, prone standers, wheelchairs (manual), special seats\/buggies\/wheelchairs (8713 10 00);\n- wheelchairs (electrical) (8713 90 00)"
+        },
+        {
+            "memberState": "MT",
+            "type": "REDUCED",
+            "rate": {
                 "type": "EXEMPTED",
                 "value": 0
             },
-            "situationOn": "2025-07-01+02:00",
+            "situationOn": "2026-01-01+01:00",
             "cnCodes": {
                 "code": [
                     {
@@ -160,7 +522,7 @@
                 "type": "EXEMPTED",
                 "value": 0
             },
-            "situationOn": "2025-07-01+02:00",
+            "situationOn": "2026-01-01+01:00",
             "cnCodes": {
                 "code": [
                     {
@@ -234,121 +596,7 @@
                 "type": "REDUCED_RATE",
                 "value": 5
             },
-            "situationOn": "2025-07-01+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "2905 45 00",
-                        "description": "Glycerol"
-                    },
-                    {
-                        "value": "3001",
-                        "description": "Glands and other organs for organo-therapeutic uses, dried, whether or not powdered; extracts of glands or other organs or of their secretions for organo-therapeutic uses; heparin and its salts; other human or animal substances prepared for therapeutic or prophylactic uses, not elsewhere specified or included"
-                    },
-                    {
-                        "value": "3002",
-                        "description": "Human blood; animal blood prepared for therapeutic, prophylactic or diagnostic uses; antisera, other blood fractions and immunological products, whether or not modified or obtained by means of biotechnological processes; vaccines, toxins, cultures of micro-organisms (excluding yeasts) and similar products; cell cultures, whether or not modified"
-                    },
-                    {
-                        "value": "3005",
-                        "description": "Wadding, gauze, bandages and similar articles (for example, dressings, adhesive plasters, poultices), impregnated or coated with pharmaceutical substances or put up in forms or packings for retail sale for medical, surgical, dental or veterinary purposes"
-                    },
-                    {
-                        "value": "3006",
-                        "description": "Pharmaceutical goods specified in note 4 to this chapter"
-                    },
-                    {
-                        "value": "3306",
-                        "description": "Preparations for oral or dental hygiene, including denture fixative pastes and powders; yarn used to clean between the teeth (dental floss), in individual retail packages"
-                    },
-                    {
-                        "value": "3307 90 00",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "3407 00 00",
-                        "description": "Modelling pastes, including those put up for children's amusement; preparations known as dental wax or as dental impression compounds, put up in sets, in packings for retail sale or in plates, horseshoe shapes, sticks or similar forms; other preparations for use in dentistry, with a basis of plaster (of calcined gypsum or calcium sulphate)"
-                    },
-                    {
-                        "value": "3822 00 00",
-                        "description": "Diagnostic or laboratory reagents on a backing, prepared diagnostic or laboratory reagents whether or not on a backing, other than those of heading 3002 or 3006; certified reference materials"
-                    },
-                    {
-                        "value": "3926 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "4818 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "6307 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "7015 10 00",
-                        "description": "Glasses for corrective spectacles"
-                    },
-                    {
-                        "value": "9001 30 00",
-                        "description": "Contact lenses"
-                    },
-                    {
-                        "value": "9001 40 41",
-                        "description": "Single focal"
-                    },
-                    {
-                        "value": "9001 40 49",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "9001 40 80",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "9001 50 41",
-                        "description": "Single focal"
-                    },
-                    {
-                        "value": "9001 50 49",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "9001 50 80",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "9004 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "9004 90 10",
-                        "description": "With lenses of plastics"
-                    },
-                    {
-                        "value": "9004 90 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "9020 00 00",
-                        "description": "Other breathing appliances and gas masks, excluding protective masks having neither mechanical parts nor replaceable filters"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "PHARMACEUTICAL_PRODUCTS",
-                "description": "Pharmaceutical products of a kind normally used for health care, prevention of illness and as treatment for medical and veterinary purposes, including products used for contraception and sanitary protection"
-            },
-            "comment": "- Medical accessories: This reduced rate does not apply to medical accessories falling under CN codes 3001 and 3002 where such items are used for therapeutic or prophylactic purposes;\n\n- For code 3307 90 00, the reduced rate applies solely to solutions for contact lenses.\n\n- In May 2020, the reduced rate has been extended to protective face masks and visors, excluding diving equipment."
-        },
-        {
-            "memberState": "MT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2025-07-01+02:00",
+            "situationOn": "2026-01-01+01:00",
             "cnCodes": {
                 "code": [
                     {
@@ -378,89 +626,7 @@
                 "type": "REDUCED_RATE",
                 "value": 5
             },
-            "situationOn": "2025-07-01+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "3924 90 00",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "4014 90 00",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "4016 95 00",
-                        "description": "Other inflatable articles"
-                    },
-                    {
-                        "value": "4016 99",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "6306 40 00",
-                        "description": "Pneumatic mattresses"
-                    },
-                    {
-                        "value": "6602 00 00",
-                        "description": "Walking sticks, seat-sticks, whips, riding-crops and the like"
-                    },
-                    {
-                        "value": "6603 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "7325 10 00",
-                        "description": "Of non-malleable cast iron"
-                    },
-                    {
-                        "value": "7325 99",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "7326 19",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "7326 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "7907 00 00",
-                        "description": "Other articles of zinc"
-                    },
-                    {
-                        "value": "8714 20 00",
-                        "description": "Of carriages for disabled persons"
-                    },
-                    {
-                        "value": "9404 21",
-                        "description": "Of cellular rubber or plastics, whether or not covered"
-                    },
-                    {
-                        "value": "9404 29",
-                        "description": "Of other materials"
-                    },
-                    {
-                        "value": "9404 90",
-                        "description": "Other"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "MEDICAL_EQUIPMENT",
-                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
-            },
-            "comment": "This reduced rate applies to the following items (and CN codes) for the exclusive use of the disabled (part 1):\n- raised toilet seats (3924 90 00);\n- pressure relief cushions (4014 90, 8714 20 00 and 9404 90);\n- padded\/inflatable toilet seats (4016 95 00 and 4016 99 98);\n- pressure relief mattresses (6306 41 00, 6306 49 00, 9404 21 and 9404 29);\n- white sticks (6602 00 00);\n- walking sticks and ferrules (6603 90 00);\n- gutter frames (7325 10, 7325 99, 7326 19, 7326 90 and 7907 00);"
-        },
-        {
-            "memberState": "MT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2025-07-01+02:00",
+            "situationOn": "2026-01-01+01:00",
             "cnCodes": {
                 "code": {
                     "value": "9701",
@@ -480,7 +646,7 @@
                 "type": "REDUCED_RATE",
                 "value": 5
             },
-            "situationOn": "2025-07-01+02:00",
+            "situationOn": "2026-01-01+01:00",
             "cnCodes": {
                 "code": {
                     "value": "9702 00 00",
@@ -500,7 +666,7 @@
                 "type": "REDUCED_RATE",
                 "value": 5
             },
-            "situationOn": "2025-07-01+02:00",
+            "situationOn": "2026-01-01+01:00",
             "cnCodes": {
                 "code": {
                     "value": "9703 00 00",
@@ -520,7 +686,7 @@
                 "type": "REDUCED_RATE",
                 "value": 5
             },
-            "situationOn": "2025-07-01+02:00",
+            "situationOn": "2026-01-01+01:00",
             "cnCodes": {
                 "code": {
                     "value": "9704 00 00",
@@ -540,7 +706,7 @@
                 "type": "REDUCED_RATE",
                 "value": 5
             },
-            "situationOn": "2025-07-01+02:00",
+            "situationOn": "2026-01-01+01:00",
             "cnCodes": {
                 "code": {
                     "value": "9705 00 00",
@@ -560,7 +726,7 @@
                 "type": "REDUCED_RATE",
                 "value": 5
             },
-            "situationOn": "2025-07-01+02:00",
+            "situationOn": "2026-01-01+01:00",
             "cnCodes": {
                 "code": {
                     "value": "9706 00 00",
@@ -580,7 +746,7 @@
                 "type": "REDUCED_RATE",
                 "value": 5
             },
-            "situationOn": "2025-07-01+02:00",
+            "situationOn": "2026-01-01+01:00",
             "cpaCodes": {
                 "code": {
                     "value": "88",
@@ -599,7 +765,7 @@
                 "type": "REDUCED_RATE",
                 "value": 5
             },
-            "situationOn": "2025-07-01+02:00",
+            "situationOn": "2026-01-01+01:00",
             "cpaCodes": {
                 "code": {
                     "value": "95.2",
@@ -619,7 +785,7 @@
                 "type": "REDUCED_RATE",
                 "value": 5
             },
-            "situationOn": "2025-07-01+02:00",
+            "situationOn": "2026-01-01+01:00",
             "cpaCodes": {
                 "code": {
                     "value": "95.2",
@@ -639,7 +805,7 @@
                 "type": "REDUCED_RATE",
                 "value": 5
             },
-            "situationOn": "2025-07-01+02:00",
+            "situationOn": "2026-01-01+01:00",
             "category": {
                 "identifier": "CULTURAL_EVENTS",
                 "description": "Admission to shows, theatres, circuses, fairs, amusement parks, concerts, museums, zoos, cinemas, exhibitions and similar cultural events and facilities"
@@ -653,7 +819,7 @@
                 "type": "REDUCED_RATE",
                 "value": 5
             },
-            "situationOn": "2025-07-01+02:00",
+            "situationOn": "2026-01-01+01:00",
             "category": {
                 "identifier": "SCULPTURE_CASTS",
                 "description": "Sculpture casts the production of which is limited to eight copies and supervised by the artist or his successors in title (CN code 9703 00 00) on an exceptional basis, in cases determined by the Member States, the limit of eight copies may be exceeded for statuary casts produced before 1 January 1989"
@@ -667,7 +833,7 @@
                 "type": "REDUCED_RATE",
                 "value": 5
             },
-            "situationOn": "2025-07-01+02:00",
+            "situationOn": "2026-01-01+01:00",
             "category": {
                 "identifier": "ENAMELS",
                 "description": "Enamels on copper, executed entirely by hand, limited to eight numbered copies bearing the signature of the artist or the studio, excluding articles of jewellery and goldsmith’s and silversmith’s wares"
@@ -681,7 +847,7 @@
                 "type": "REDUCED_RATE",
                 "value": 5
             },
-            "situationOn": "2025-07-01+02:00",
+            "situationOn": "2026-01-01+01:00",
             "category": {
                 "identifier": "TAPESTRIES",
                 "description": "Tapestries (CN code 5805 00 00) and wall textiles (CN code 6304 00 00) made by hand from original designs provided by artists, provided that there are not more than eight copies of each"
@@ -695,7 +861,7 @@
                 "type": "REDUCED_RATE",
                 "value": 5
             },
-            "situationOn": "2025-07-01+02:00",
+            "situationOn": "2026-01-01+01:00",
             "category": {
                 "identifier": "CERAMICS",
                 "description": "Individual pieces of ceramics executed entirely by the artist and signed by him"
@@ -706,66 +872,10 @@
             "memberState": "MT",
             "type": "REDUCED",
             "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2025-07-01+02:00",
-            "category": {
-                "identifier": "PHOTOGRAPHS",
-                "description": "Photographs taken by the artist, printed by him or under his supervision, signed and numbered and limited to 30 copies, all sizes and mounts included"
-            },
-            "comment": "Reduced rate only applicable to the importation of works of art, collector’s items and antiques as defined in the VAT Act."
-        },
-        {
-            "memberState": "MT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 7
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "55.1",
-                        "description": "Hotel and similar accommodation services"
-                    },
-                    {
-                        "value": "55.2",
-                        "description": "Holiday and other short-stay accommodation services"
-                    },
-                    {
-                        "value": "55.3",
-                        "description": "Camping grounds and recreational vehicle parks services"
-                    },
-                    {
-                        "value": "55.90.11",
-                        "description": "Room or unit accommodation services for students in student residences and school dormitories"
-                    },
-                    {
-                        "value": "55.90.12",
-                        "description": "Room or unit accommodation services for workers in workers hostels or camps"
-                    },
-                    {
-                        "value": "55.90.19",
-                        "description": "Other accommodation services n.e.c."
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "ACCOMMODATION",
-                "description": "Accommodation provided in hotels and similar establishments, including the provision of holiday accommodation and the letting of places on camping or caravan sites"
-            },
-            "comment": "The reduced rate is limited to accommodation required to be licensed in virtue of the Malta Travel and Tourism Services Act (or any Act substituted therefor)."
-        },
-        {
-            "memberState": "MT",
-            "type": "REDUCED",
-            "rate": {
                 "type": "EXEMPTED",
                 "value": 0
             },
-            "situationOn": "2025-07-01+02:00",
+            "situationOn": "2026-01-01+01:00",
             "cnCodes": {
                 "code": [
                     {
@@ -870,12 +980,68 @@
         },
         {
             "memberState": "MT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2026-01-01+01:00",
+            "category": {
+                "identifier": "PHOTOGRAPHS",
+                "description": "Photographs taken by the artist, printed by him or under his supervision, signed and numbered and limited to 30 copies, all sizes and mounts included"
+            },
+            "comment": "Reduced rate only applicable to the importation of works of art, collector’s items and antiques as defined in the VAT Act."
+        },
+        {
+            "memberState": "MT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 7
+            },
+            "situationOn": "2026-01-01+01:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "55.1",
+                        "description": "Hotel and similar accommodation services"
+                    },
+                    {
+                        "value": "55.2",
+                        "description": "Holiday and other short-stay accommodation services"
+                    },
+                    {
+                        "value": "55.3",
+                        "description": "Camping grounds and recreational vehicle parks services"
+                    },
+                    {
+                        "value": "55.90.11",
+                        "description": "Room or unit accommodation services for students in student residences and school dormitories"
+                    },
+                    {
+                        "value": "55.90.12",
+                        "description": "Room or unit accommodation services for workers in workers hostels or camps"
+                    },
+                    {
+                        "value": "55.90.19",
+                        "description": "Other accommodation services n.e.c."
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "ACCOMMODATION",
+                "description": "Accommodation provided in hotels and similar establishments, including the provision of holiday accommodation and the letting of places on camping or caravan sites"
+            },
+            "comment": "The reduced rate is limited to accommodation required to be licensed in virtue of the Malta Travel and Tourism Services Act (or any Act substituted therefor)."
+        },
+        {
+            "memberState": "MT",
             "type": "STANDARD",
             "rate": {
                 "type": "DEFAULT",
                 "value": 18
             },
-            "situationOn": "2025-07-01+02:00"
+            "situationOn": "2026-01-01+01:00"
         },
         {
             "memberState": "MT",
@@ -884,7 +1050,7 @@
                 "type": "EXEMPTED",
                 "value": 0
             },
-            "situationOn": "2025-07-01+02:00",
+            "situationOn": "2026-01-01+01:00",
             "cnCodes": {
                 "code": [
                     {
@@ -950,7 +1116,7 @@
                 "type": "EXEMPTED",
                 "value": 0
             },
-            "situationOn": "2025-07-01+02:00",
+            "situationOn": "2026-01-01+01:00",
             "cnCodes": {
                 "code": [
                     {
@@ -1008,7 +1174,7 @@
                 "type": "EXEMPTED",
                 "value": 0
             },
-            "situationOn": "2025-07-01+02:00",
+            "situationOn": "2026-01-01+01:00",
             "cpaCodes": {
                 "code": [
                     {
@@ -1038,7 +1204,7 @@
                 "type": "EXEMPTED",
                 "value": 0
             },
-            "situationOn": "2025-07-01+02:00",
+            "situationOn": "2026-01-01+01:00",
             "cpaCodes": {
                 "code": [
                     {
@@ -1072,7 +1238,7 @@
                 "type": "EXEMPTED",
                 "value": 0
             },
-            "situationOn": "2025-07-01+02:00",
+            "situationOn": "2026-01-01+01:00",
             "cpaCodes": {
                 "code": {
                     "value": "86",
@@ -1092,7 +1258,7 @@
                 "type": "EXEMPTED",
                 "value": 0
             },
-            "situationOn": "2025-07-01+02:00",
+            "situationOn": "2026-01-01+01:00",
             "cpaCodes": {
                 "code": {
                     "value": "86",
@@ -1112,7 +1278,7 @@
                 "type": "EXEMPTED",
                 "value": 0
             },
-            "situationOn": "2025-07-01+02:00",
+            "situationOn": "2026-01-01+01:00",
             "category": {
                 "identifier": "SUPPLY_WATER",
                 "description": "Supply of water"
@@ -1126,7 +1292,7 @@
                 "type": "EXEMPTED",
                 "value": 0
             },
-            "situationOn": "2025-07-01+02:00",
+            "situationOn": "2026-01-01+01:00",
             "category": {
                 "identifier": "SOCIAL_WELLBEING",
                 "description": "Supply of goods and services by organisations recognised as being devoted to social wellbeing by Member States and engaged in welfare or social security work"
@@ -1140,7 +1306,7 @@
                 "type": "PARKING_RATE",
                 "value": 12
             },
-            "situationOn": "2025-07-01+02:00",
+            "situationOn": "2026-01-01+01:00",
             "category": {
                 "identifier": "SECURITY_MANAGEMENT",
                 "description": "Custody and management of securities"
@@ -1153,7 +1319,7 @@
                 "type": "PARKING_RATE",
                 "value": 12
             },
-            "situationOn": "2025-07-01+02:00",
+            "situationOn": "2026-01-01+01:00",
             "category": {
                 "identifier": "CREDIT_MANAGEMENT",
                 "description": "Management of credits and credit guarantees by a person or body other than those who granted the credits"
@@ -1166,7 +1332,7 @@
                 "type": "PARKING_RATE",
                 "value": 12
             },
-            "situationOn": "2025-07-01+02:00",
+            "situationOn": "2026-01-01+01:00",
             "category": {
                 "identifier": "HIRING_SHORT_PERIOD",
                 "description": "Hiring for short period"
@@ -1180,7 +1346,7 @@
                 "type": "PARKING_RATE",
                 "value": 12
             },
-            "situationOn": "2025-07-01+02:00",
+            "situationOn": "2026-01-01+01:00",
             "category": {
                 "identifier": "BODY_CARE_SERVICES",
                 "description": "Certain services consisting of the care of the human body"
@@ -1194,7 +1360,7 @@
                 "type": "REDUCED_RATE",
                 "value": 5
             },
-            "situationOn": "2025-07-01+02:00",
+            "situationOn": "2026-01-01+01:00",
             "cnCodes": {
                 "code": [
                     {
@@ -1312,172 +1478,6 @@
                 "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
             },
             "comment": "Some confectionery & similar items are taxed at the reduced rate of 5%."
-        },
-        {
-            "memberState": "MT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "4820 20 00",
-                        "description": "Exercise books"
-                    },
-                    {
-                        "value": "4901",
-                        "description": "Printed books, brochures, leaflets and similar printed matter, whether or not in single sheets"
-                    },
-                    {
-                        "value": "4903 00 00",
-                        "description": "Children's picture, drawing or colouring books"
-                    },
-                    {
-                        "value": "4904 00 00",
-                        "description": "Music, printed or in manuscript, whether or not bound or illustrated"
-                    },
-                    {
-                        "value": "4905 91 00",
-                        "description": "In book form"
-                    },
-                    {
-                        "value": "4905 99 00",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "4910 00 00",
-                        "description": "Calendars of any kind, printed, including calendar blocks"
-                    },
-                    {
-                        "value": "4911 10",
-                        "description": "Trade advertising material, commercial catalogues and the like"
-                    },
-                    {
-                        "value": "4911 99 00",
-                        "description": "Other"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "LOAN_LIBRARIES",
-                "description": "Supply, including on loan by libraries, of books, newspapers and periodicals either on physical means of support or supplied electronically or both (including brochures, leaflets and similar printed matter, children's picture, drawing or colouring books, music printed or in manuscript form, maps and hydrographic or similar charts), other than publications wholly or predominantly devoted to advertising and other than publications wholly or predominantly consisting of video content or audible music."
-            },
-            "comment": "(i) Not applicable to library loans, and \"production of publications of non-profit-making organisations and services related to such production\".\n\n(ii) This reduced rate has been extended to also include e-books."
-        },
-        {
-            "memberState": "MT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cnCodes": {
-                "code": {
-                    "value": "4902",
-                    "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
-                }
-            },
-            "category": {
-                "identifier": "NEWSPAPERS",
-                "description": "Newspapers"
-            },
-            "comment": "This reduced rate has been extended to also include e-newspapers."
-        },
-        {
-            "memberState": "MT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cnCodes": {
-                "code": {
-                    "value": "4902",
-                    "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
-                }
-            },
-            "category": {
-                "identifier": "PERIODICALS",
-                "description": "Periodicals"
-            },
-            "comment": "This reduced rate has been extended to also include periodicals provided electronically."
-        },
-        {
-            "memberState": "MT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "8425 11 00",
-                        "description": "Powered by electric motor"
-                    },
-                    {
-                        "value": "8425 19 00",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "8428 10",
-                        "description": "Lifts and skip hoists"
-                    },
-                    {
-                        "value": "8428 20",
-                        "description": "Pneumatic elevators and conveyors"
-                    },
-                    {
-                        "value": "8428 60 00",
-                        "description": "Teleferics, chairlifts, ski-draglines; traction mechanisms for funiculars"
-                    },
-                    {
-                        "value": "8428 90",
-                        "description": "Other machinery"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "MEDICAL_EQUIPMENT",
-                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
-            },
-            "comment": "This reduced rate applies to the following items (and CN codes) for the exclusive use of the disabled (part 2):\n- hoists (8425 11 90 and 8425 19 91);\n- platform lift\/swimming pool lifters (8428 10 91 and 8428 20 99);\n- chairlifts (8428 60 00);\n- bath tub lifters (8428 90 98);\n- lifts to get wheelchair into a car (8428 90 98);\n- braille typewriters (8469 12 00, 8469 20 00 and 8469 30 00);"
-        },
-        {
-            "memberState": "MT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2025-07-01+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "8518 40",
-                        "description": "Audio-frequency electric amplifiers"
-                    },
-                    {
-                        "value": "8713 10 00",
-                        "description": "Not mechanically propelled"
-                    },
-                    {
-                        "value": "8713 90 00",
-                        "description": "Other"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "MEDICAL_EQUIPMENT",
-                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
-            },
-            "comment": "This reduced rate applies to the following items (and CN codes) for the exclusive use of the disabled (part 3):\n- amplifiers for communication devices for people with impaired hearing (8518 40 91 and 8518 40 99);\n- children special walkers, prone standers, wheelchairs (manual), special seats\/buggies\/wheelchairs (8713 10 00);\n- wheelchairs (electrical) (8713 90 00)"
         }
     ]
 }
