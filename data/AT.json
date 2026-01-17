@@ -5,6 +5,106 @@
             "memberState": "AT",
             "type": "REDUCED",
             "rate": {
+                "type": "EXEMPTED",
+                "value": 0
+            },
+            "situationOn": "2026-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "0511 99 39",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "30",
+                        "description": "CHAPTER 30 - PHARMACEUTICAL PRODUCTS"
+                    },
+                    {
+                        "value": "39",
+                        "description": "CHAPTER 39 - PLASTICS AND ARTICLES THEREOF"
+                    },
+                    {
+                        "value": "3924 90 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "40",
+                        "description": "CHAPTER 40 - RUBBER AND ARTICLES THEREOF"
+                    },
+                    {
+                        "value": "4014 90 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "9619 00",
+                        "description": "Sanitary towels (pads) and tampons, napkins (diapers), napkin liners and similar articles, of any material"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "PHARMACEUTICAL_PRODUCTS",
+                "description": "Pharmaceutical products of a kind normally used for health care, prevention of illness and as treatment for medical and veterinary purposes, including products used for contraception and sanitary protection"
+            },
+            "comment": "From January 1, 2026 the supply of chemical, hormonal and mechanical contraceptives and of all kinds of feminine hygiene products are zero tax rated.\n\nPlease notice that until December 31, 2025, all kinds of feminine hygiene products were subject to a reduced tax rate of 10% and the standard tax rate of 20% was applied to contraceptives."
+        },
+        {
+            "memberState": "AT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "EXEMPTED",
+                "value": 0
+            },
+            "situationOn": "2026-01-01+01:00",
+            "cnCodes": {
+                "code": {
+                    "value": "8541",
+                    "description": "Semiconductor devices (for example, diodes, transistors, semiconductor-based transducers); photosensitive semiconductor devices, including photovoltaic cells whether or not assembled in modules or made up into panels; light-emitting diodes (LED), whether or not assembled with other light-emitting diodes (LED); mounted piezo-electric crystals"
+                }
+            },
+            "category": {
+                "identifier": "SOLAR_PANELS",
+                "description": "Supply and installation of solar panels on and adjacent to private dwellings, housing and public and other buildings used for activities in the public interest"
+            },
+            "comment": "From January 1, 2024 to March 30, 2025 the supply, the intra-community acquisition, the import and the installation of photovoltaic modules are zero tax rated (https:\/\/www.bmf.gv.at\/themen\/steuern\/fuer-unternehmen\/umsatzsteuer\/informationen)."
+        },
+        {
+            "memberState": "AT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "EXEMPTED",
+                "value": 0
+            },
+            "situationOn": "2026-01-01+01:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "49.3",
+                    "description": "Other passenger land transport services"
+                }
+            },
+            "category": {
+                "identifier": "TRANSPORT_PASSENGERS",
+                "description": "Transport of passengers and their accompanying luggage"
+            },
+            "comment": "The Austrian section of the journey in cross-border rail passenger transport is zero tax rated."
+        },
+        {
+            "memberState": "AT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "EXEMPTED",
+                "value": 0
+            },
+            "situationOn": "2026-01-01+01:00",
+            "category": {
+                "identifier": "FOODSTUFFS",
+                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
+            },
+            "comment": "From August 1, 2024 donations for charitable purposes of  food listed in Annex 1 to Sec. 10 of the Austrian VAT Act 1994, concerning CN Codes please see above"
+        },
+        {
+            "memberState": "AT",
+            "type": "REDUCED",
+            "rate": {
                 "type": "REDUCED_RATE",
                 "value": 10
             },
@@ -623,101 +723,39 @@
             "memberState": "AT",
             "type": "REDUCED",
             "rate": {
-                "type": "EXEMPTED",
-                "value": 0
-            },
-            "situationOn": "2026-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "0511 99 39",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "30",
-                        "description": "CHAPTER 30 - PHARMACEUTICAL PRODUCTS"
-                    },
-                    {
-                        "value": "39",
-                        "description": "CHAPTER 39 - PLASTICS AND ARTICLES THEREOF"
-                    },
-                    {
-                        "value": "3924 90 00",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "40",
-                        "description": "CHAPTER 40 - RUBBER AND ARTICLES THEREOF"
-                    },
-                    {
-                        "value": "4014 90 00",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "9619 00",
-                        "description": "Sanitary towels (pads) and tampons, napkins (diapers), napkin liners and similar articles, of any material"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "PHARMACEUTICAL_PRODUCTS",
-                "description": "Pharmaceutical products of a kind normally used for health care, prevention of illness and as treatment for medical and veterinary purposes, including products used for contraception and sanitary protection"
-            },
-            "comment": "From January 1, 2026 the supply of chemical, hormonal and mechanical contraceptives and of all kinds of feminine hygiene products are zero tax rated.\n\nPlease notice that until December 31, 2025, all kinds of feminine hygiene products were subject to a reduced tax rate of 10% and the standard tax rate of 20% was applied to contraceptives."
-        },
-        {
-            "memberState": "AT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "EXEMPTED",
-                "value": 0
-            },
-            "situationOn": "2026-01-01+01:00",
-            "cnCodes": {
-                "code": {
-                    "value": "8541",
-                    "description": "Semiconductor devices (for example, diodes, transistors, semiconductor-based transducers); photosensitive semiconductor devices, including photovoltaic cells whether or not assembled in modules or made up into panels; light-emitting diodes (LED), whether or not assembled with other light-emitting diodes (LED); mounted piezo-electric crystals"
-                }
-            },
-            "category": {
-                "identifier": "SOLAR_PANELS",
-                "description": "Supply and installation of solar panels on and adjacent to private dwellings, housing and public and other buildings used for activities in the public interest"
-            },
-            "comment": "From January 1, 2024 to March 30, 2025 the supply, the intra-community acquisition, the import and the installation of photovoltaic modules are zero tax rated (https:\/\/www.bmf.gv.at\/themen\/steuern\/fuer-unternehmen\/umsatzsteuer\/informationen)."
-        },
-        {
-            "memberState": "AT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "EXEMPTED",
-                "value": 0
+                "type": "REDUCED_RATE",
+                "value": 10
             },
             "situationOn": "2026-01-01+01:00",
             "cpaCodes": {
                 "code": {
-                    "value": "49.3",
-                    "description": "Other passenger land transport services"
+                    "value": "95.2",
+                    "description": "Repair and maintenance services of personal and household goods"
                 }
             },
             "category": {
-                "identifier": "TRANSPORT_PASSENGERS",
-                "description": "Transport of passengers and their accompanying luggage"
-            },
-            "comment": "The Austrian section of the journey in cross-border rail passenger transport is zero tax rated."
+                "identifier": "CLOTHING_REPAIR",
+                "description": "Minor repairs of clothing and household linen (including mending and alteration)"
+            }
         },
         {
             "memberState": "AT",
             "type": "REDUCED",
             "rate": {
-                "type": "EXEMPTED",
-                "value": 0
+                "type": "REDUCED_RATE",
+                "value": 10
             },
             "situationOn": "2026-01-01+01:00",
-            "category": {
-                "identifier": "FOODSTUFFS",
-                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
+            "cpaCodes": {
+                "code": {
+                    "value": "95.23.1",
+                    "description": "Repair services of footwear and leather goods"
+                }
             },
-            "comment": "From August 1, 2024 donations for charitable purposes of  food listed in Annex 1 to Sec. 10 of the Austrian VAT Act 1994, concerning CN Codes please see above"
+            "category": {
+                "identifier": "SHOES_REPAIR",
+                "description": "Minor repairs of shoes and leather goods"
+            }
         },
         {
             "memberState": "AT",
@@ -1376,44 +1414,6 @@
                 "description": "Supply of goods and services by organisations recognised as being devoted to social wellbeing by Member States and engaged in welfare or social security work"
             },
             "comment": "if not exempted (for information about the type of organisations falling under the exemption please see Sec. 6 of the Austrian VAT Act 1994)"
-        },
-        {
-            "memberState": "AT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 10
-            },
-            "situationOn": "2026-01-01+01:00",
-            "cpaCodes": {
-                "code": {
-                    "value": "95.2",
-                    "description": "Repair and maintenance services of personal and household goods"
-                }
-            },
-            "category": {
-                "identifier": "CLOTHING_REPAIR",
-                "description": "Minor repairs of clothing and household linen (including mending and alteration)"
-            }
-        },
-        {
-            "memberState": "AT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 10
-            },
-            "situationOn": "2026-01-01+01:00",
-            "cpaCodes": {
-                "code": {
-                    "value": "95.23.1",
-                    "description": "Repair services of footwear and leather goods"
-                }
-            },
-            "category": {
-                "identifier": "SHOES_REPAIR",
-                "description": "Minor repairs of shoes and leather goods"
-            }
         }
     ]
 }
