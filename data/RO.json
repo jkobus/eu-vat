@@ -962,6 +962,136 @@
             "cnCodes": {
                 "code": [
                     {
+                        "value": "3001 20",
+                        "description": "Extracts of glands or other organs or of their secretions"
+                    },
+                    {
+                        "value": "3001 90 20",
+                        "description": "Of human origin"
+                    },
+                    {
+                        "value": "3001 90 91",
+                        "description": "Heparin and its salts"
+                    },
+                    {
+                        "value": "3001 90 98",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "3002 12 00",
+                        "description": "Antisera and other blood fractions"
+                    },
+                    {
+                        "value": "3002 13 00",
+                        "description": "Immunological products, unmixed, not put up in measured doses or in forms or packings for retail sale"
+                    },
+                    {
+                        "value": "3002 14 00",
+                        "description": "Immunological products, mixed, not put up in measured doses or in forms or packings for retail sale"
+                    },
+                    {
+                        "value": "3002 15 00",
+                        "description": "Immunological products, put up in measured doses or in forms or packings for retail sale"
+                    },
+                    {
+                        "value": "3002 90 30",
+                        "description": "Animal blood prepared for therapeutic, prophylactic or diagnostic uses"
+                    },
+                    {
+                        "value": "3003",
+                        "description": "Medicaments (excluding goods of heading 3002, 3005 or 3006) consisting of two or more constituents which have been mixed together for therapeutic or prophylactic uses, not put up in measured doses or in forms or packings for retail sale"
+                    },
+                    {
+                        "value": "3004",
+                        "description": "Medicaments (excluding goods of heading 3002, 3005 or 3006) consisting of mixed or unmixed products for therapeutic or prophylactic uses, put up in measured doses (including those in the form of transdermal administration systems) or in forms or packings for retail sale"
+                    },
+                    {
+                        "value": "3005",
+                        "description": "Wadding, gauze, bandages and similar articles (for example, dressings, adhesive plasters, poultices), impregnated or coated with pharmaceutical substances or put up in forms or packings for retail sale for medical, surgical, dental or veterinary purposes"
+                    },
+                    {
+                        "value": "3006 10",
+                        "description": "Sterile surgical catgut, similar sterile suture materials (including sterile absorbable surgical or dental yarns) and sterile tissue adhesives for surgical wound closure; sterile laminaria and sterile laminaria tents; sterile absorbable surgical or dental haemostatics; sterile surgical or dental adhesion barriers, whether or not absorbable"
+                    },
+                    {
+                        "value": "3006 30 00",
+                        "description": "Opacifying preparations for X-ray examinations; diagnostic reagents designed to be administered to the patient"
+                    },
+                    {
+                        "value": "3006 40 00",
+                        "description": "Dental cements and other dental fillings; bone reconstruction cements"
+                    },
+                    {
+                        "value": "3006 50 00",
+                        "description": "First-aid boxes and kits"
+                    },
+                    {
+                        "value": "3006 60 00",
+                        "description": "Chemical contraceptive preparations based on hormones, on other products of heading 2937 or on spermicides"
+                    },
+                    {
+                        "value": "3006 70 00",
+                        "description": "Gel preparations designed to be used in human or veterinary medicine as a lubricant for parts of the body for surgical operations or physical examinations or as a coupling agent between the body and medical instruments"
+                    },
+                    {
+                        "value": "3305 10 00",
+                        "description": "Shampoos"
+                    },
+                    {
+                        "value": "3002 41",
+                        "description": "Vaccines for human medicine"
+                    },
+                    {
+                        "value": "3002 49 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "3002 51 00",
+                        "description": "Cell therapy products"
+                    },
+                    {
+                        "value": "3002 59 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "3006 93 00",
+                        "description": "Placebos and blinded (or double-blinded) clinical trial kits for a recognised clinical trial, put up in measured doses"
+                    },
+                    {
+                        "value": "3822 11 00",
+                        "description": "For malaria"
+                    },
+                    {
+                        "value": "3822 12 00",
+                        "description": "For Zika and other diseases transmitted by mosquitoes of the genus Aedes"
+                    },
+                    {
+                        "value": "3822 13 00",
+                        "description": "For blood-grouping"
+                    },
+                    {
+                        "value": "3822 19 00",
+                        "description": "Other"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "PHARMACEUTICAL_PRODUCTS",
+                "description": "Pharmaceutical products of a kind normally used for health care, prevention of illness and as treatment for medical and veterinary purposes, including products used for contraception and sanitary protection"
+            },
+            "comment": "The reduced TVA rate is applied for the supply of medicines for human use. See art. 291 para. (2) letter a) of the Fiscal Code."
+        },
+        {
+            "memberState": "RO",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 11
+            },
+            "situationOn": "2026-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
                         "value": "0601",
                         "description": "Bulbs, tubers, tuberous roots, corms, crowns and rhizomes, dormant, in growth or in flower; chicory plants and roots other than roots of heading 1212"
                     },
@@ -1096,76 +1226,28 @@
             "cnCodes": {
                 "code": [
                     {
-                        "value": "1108",
-                        "description": "Starches; inulin"
+                        "value": "4401 11 00",
+                        "description": "Coniferous"
                     },
                     {
-                        "value": "1207 10 00",
-                        "description": "Palm nuts and kernels"
+                        "value": "4401 12 00",
+                        "description": "Non-coniferous"
                     },
                     {
-                        "value": "1207 29 00",
-                        "description": "Other"
+                        "value": "4401 31 00",
+                        "description": "Wood pellets"
                     },
                     {
-                        "value": "1207 30 00",
-                        "description": "Castor oil seeds"
-                    },
-                    {
-                        "value": "1207 40 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "1207 50 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "1207 60 00",
-                        "description": "Safflower (Carthamus tinctorius) seeds"
-                    },
-                    {
-                        "value": "1207 70 00",
-                        "description": "Melon seeds"
-                    },
-                    {
-                        "value": "1207 91 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "1207 99 91",
-                        "description": "Hemp seeds"
-                    },
-                    {
-                        "value": "1207 99 96",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "1212",
-                        "description": "Locust beans, seaweeds and other algae, sugar beet and sugar cane, fresh, chilled, frozen or dried, whether or not ground; fruit stones and kernels and other vegetable products (including unroasted chicory roots of the variety Cichorium intybus sativum) of a kind used primarily for human consumption, not elsewhere specified or included"
-                    },
-                    {
-                        "value": "1213 00 00",
-                        "description": "Cereal straw and husks, unprepared, whether or not chopped, ground, pressed or in the form of pellets"
-                    },
-                    {
-                        "value": "2303",
-                        "description": "Residues of starch manufacture and similar residues, beet-pulp, bagasse and other waste of sugar manufacture, brewing or distilling dregs and waste, whether or not in the form of pellets"
-                    },
-                    {
-                        "value": "2307 00",
-                        "description": "Wine lees; argol"
-                    },
-                    {
-                        "value": "2501 00",
-                        "description": "Salt (including table salt and denatured salt) and pure sodium chloride, whether or not in aqueous solution or containing added anti-caking or free-flowing agents; sea water"
+                        "value": "4401 32 00",
+                        "description": "Wood briquettes"
                     }
                 ]
             },
             "category": {
-                "identifier": "FOODSTUFFS",
-                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
+                "identifier": "WOOD_ARTICLE98",
+                "description": "Wood used as firewood (until 1 January 2030)"
             },
-            "comment": "The reduced rate is applied only if the supplier can prove that the goods, except foods with added sugar, whose total sugar content is at least 10g\/100g product, are used as food for human or animal consumption. When those goods are imported from a third territory or a third country, the application of the reduced rate is conditioned by the submission of the Commitment Declaration regarding the destination of the goods. Point 37 para.(5)-(9) of Norms."
+            "comment": "Supply of firewood in the form of logs, in billets, in twigs, in faggots or in similar forms, and sawdust and wood waste and scrap, agglomerated in logs, briquettes, pellets or similar forms. See art. 291 para. (2) letters i), j) of the Fiscal Code."
         },
         {
             "memberState": "RO",
@@ -1175,17 +1257,23 @@
                 "value": 11
             },
             "situationOn": "2026-01-01+01:00",
-            "cpaCodes": {
-                "code": {
-                    "value": "43.99.90",
-                    "description": "Specialised construction works n.e.c."
-                }
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "4401 41 00",
+                        "description": "Sawdust"
+                    },
+                    {
+                        "value": "4401 49 00",
+                        "description": "Other"
+                    }
+                ]
             },
             "category": {
-                "identifier": "AGRICULTURAL_PRODUCTION",
-                "description": "Supply of goods and services of a kind normally intended for use in agricultural production but excluding capital goods such as machinery or buildings"
+                "identifier": "WOOD_ARTICLE98",
+                "description": "Wood used as firewood (until 1 January 2030)"
             },
-            "comment": "The reduced rate shall be applied for Operations for installing protected spaces, respectively greenhouses and\/or solariums; Installation of hail and rain protection systems in vineyards and orchards. For details see art. 291 para. (2) letter e) of the Fiscal Code and points 26 and 39 of the Annex to the Order no. 4634\/2022."
+            "comment": "The supply for the use as heating fuel of sawdust, waste and non-agglomerated wood scraps, carried out to final beneficiaries, on the basis of a statement of liability made available to the supplier. See art. 291 para. (2) letters i), j) of the Fiscal Code."
         },
         {
             "memberState": "RO",
@@ -1268,6 +1356,254 @@
                 "description": "Supply, including on loan by libraries, of books, newspapers and periodicals either on physical means of support or supplied electronically or both (including brochures, leaflets and similar printed matter, children's picture, drawing or colouring books, music printed or in manuscript form, maps and hydrographic or similar charts), other than publications wholly or predominantly devoted to advertising and other than publications wholly or predominantly consisting of video content or audible music."
             },
             "comment": "The reduced VAT rate is applied for the supply of school textbooks, books, newspapers and magazines, either on physical means of support and\/or supplied electronically, except for those which have, wholly or predominantly, video or music audio content and those intended exclusively or mainly for advertising. See art. 291 para. (2) letter g) of the Fiscal Code corroborated with point 38 para. (1) of the Methodological Norms."
+        },
+        {
+            "memberState": "RO",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 11
+            },
+            "situationOn": "2026-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "1108",
+                        "description": "Starches; inulin"
+                    },
+                    {
+                        "value": "1207 10 00",
+                        "description": "Palm nuts and kernels"
+                    },
+                    {
+                        "value": "1207 29 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "1207 30 00",
+                        "description": "Castor oil seeds"
+                    },
+                    {
+                        "value": "1207 40 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "1207 50 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "1207 60 00",
+                        "description": "Safflower (Carthamus tinctorius) seeds"
+                    },
+                    {
+                        "value": "1207 70 00",
+                        "description": "Melon seeds"
+                    },
+                    {
+                        "value": "1207 91 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "1207 99 91",
+                        "description": "Hemp seeds"
+                    },
+                    {
+                        "value": "1207 99 96",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "1212",
+                        "description": "Locust beans, seaweeds and other algae, sugar beet and sugar cane, fresh, chilled, frozen or dried, whether or not ground; fruit stones and kernels and other vegetable products (including unroasted chicory roots of the variety Cichorium intybus sativum) of a kind used primarily for human consumption, not elsewhere specified or included"
+                    },
+                    {
+                        "value": "1213 00 00",
+                        "description": "Cereal straw and husks, unprepared, whether or not chopped, ground, pressed or in the form of pellets"
+                    },
+                    {
+                        "value": "2303",
+                        "description": "Residues of starch manufacture and similar residues, beet-pulp, bagasse and other waste of sugar manufacture, brewing or distilling dregs and waste, whether or not in the form of pellets"
+                    },
+                    {
+                        "value": "2307 00",
+                        "description": "Wine lees; argol"
+                    },
+                    {
+                        "value": "2501 00",
+                        "description": "Salt (including table salt and denatured salt) and pure sodium chloride, whether or not in aqueous solution or containing added anti-caking or free-flowing agents; sea water"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "FOODSTUFFS",
+                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
+            },
+            "comment": "The reduced rate is applied only if the supplier can prove that the goods, except foods with added sugar, whose total sugar content is at least 10g\/100g product, are used as food for human or animal consumption. When those goods are imported from a third territory or a third country, the application of the reduced rate is conditioned by the submission of the Commitment Declaration regarding the destination of the goods. Point 37 para.(5)-(9) of Norms."
+        },
+        {
+            "memberState": "RO",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 11
+            },
+            "situationOn": "2026-01-01+01:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "01.61.10",
+                    "description": "Support services to crop production"
+                }
+            },
+            "category": {
+                "identifier": "AGRICULTURAL_PRODUCTION",
+                "description": "Supply of goods and services of a kind normally intended for use in agricultural production but excluding capital goods such as machinery or buildings"
+            },
+            "comment": "Fertilization; Ploughing; Harrowing; Preparing the seedbed with combine and moulding soil; Seed sowing or planting; Land rolling; Spraying, dusting - fight diseases and pests, herbicide; Harvesting or crop dislocation; Collecting and baling the vegetal material, by pressing in bales; Hoeing crops; Pots planting for potatoes and vegetables. For details see art. 291 para. (2) lett. e) of the Fiscal Code and points 1 - 7, 9, 10, 12, 15 of the Annex to the Order no. 4634\/2022."
+        },
+        {
+            "memberState": "RO",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 11
+            },
+            "situationOn": "2026-01-01+01:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "01.61.10",
+                    "description": "Support services to crop production"
+                }
+            },
+            "category": {
+                "identifier": "AGRICULTURAL_PRODUCTION",
+                "description": "Supply of goods and services of a kind normally intended for use in agricultural production but excluding capital goods such as machinery or buildings"
+            },
+            "comment": "The reduced rate shall be applied for Mowing; Raking; Digging holes for planting trees and vines; Cleaning of unwanted vegetation and destruction of heaps on pastures and hayfields; Meadow overseeding; Planting horticultural grape vines, trees; Deforestation of vineyards and orchards; Installation of support, growing and palisade system for vineyards and orchards. See art. 291 para. (2) letter e) of the Fiscal Code and points 18, 19, 23, 27, 28, 35 - 37 of the Annex to the Order no. 4634\/2022."
+        },
+        {
+            "memberState": "RO",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 11
+            },
+            "situationOn": "2026-01-01+01:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "35.30.12",
+                    "description": "Steam and hot water supply services through mains"
+                }
+            },
+            "category": {
+                "identifier": "SUSTAINABLE_ENERGY",
+                "description": "Supply of electricity, district heating and district cooling, and biogas produced by the feedstock listed in Annex IX, Part A, to Directive (EU) 2018\/2001 of the European Parliament and of the Council; supply and installation of highly efficient low emissions heating systems meeting the emission (PM) benchmarks laid down in Annex V to Commission Regulation (EU) 2015\/1189 and in Annex V to Commission Regulation (EU) 2015\/1185 and having been attributed an EU energy label to show that the criterion referred to in Article 7(2) of Regulation (EU) 2017\/1369 of the European Parliament and of the Council is met; and, until 1 January 2030, natural gas and wood used as firewood"
+            },
+            "comment": "Supply of district heating in the cold season (the 5-month period between November 1 of the current year and March 31 of the following year), intended for: the population, public and private hospitals, public and private educational institutions, non-governmental organizations, religious institutions, accredited public and private social service providers. See Art. 291 para. (2), letters k) of the Fiscal Code."
+        },
+        {
+            "memberState": "RO",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 11
+            },
+            "situationOn": "2026-01-01+01:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "36.00.30",
+                        "description": "Trade services of water through mains"
+                    },
+                    {
+                        "value": "37.00.11",
+                        "description": "Sewage removal and treatment services"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "SUPPLY_WATER",
+                "description": "Supply of water"
+            },
+            "comment": "The reduced VAT rate is applied for the supply of water for irrigation in agriculture and for water supply and sewerage services. See art. 291 para. (2) letters c) and d) of the Fiscal Code and point 37 para. (13) of the Methodological Norms."
+        },
+        {
+            "memberState": "RO",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 11
+            },
+            "situationOn": "2026-01-01+01:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "42.21.13",
+                    "description": "Irrigation systems (canals); water main and line constructions; water treatment plants, sewage disposal plants and pumping stations"
+                }
+            },
+            "category": {
+                "identifier": "AGRICULTURAL_PRODUCTION",
+                "description": "Supply of goods and services of a kind normally intended for use in agricultural production but excluding capital goods such as machinery or buildings"
+            },
+            "comment": "The reduced rate shall be applied for Installation of irrigation\/fertigation system in vineyards and orchards, as well as in vegetable growing. For details see art. 291 para. (2) letter e) of the Fiscal Code and point 38 of the Annex to the Order no. 4634\/2022."
+        },
+        {
+            "memberState": "RO",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 11
+            },
+            "situationOn": "2026-01-01+01:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "42.21.23",
+                    "description": "Construction works for irrigation systems (canals), water mains and lines, water treatment plants, sewage disposal plants and pumping stations"
+                }
+            },
+            "category": {
+                "identifier": "AGRICULTURAL_PRODUCTION",
+                "description": "Supply of goods and services of a kind normally intended for use in agricultural production but excluding capital goods such as machinery or buildings"
+            },
+            "comment": "The reduced rate shall be applied for Clearing or cleaning irrigation and\/or drainage channels. For details see art. 291 para. (2) letter e) of the Fiscal Code and point 34 of the Annex to the Order no. 4634\/2022."
+        },
+        {
+            "memberState": "RO",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 11
+            },
+            "situationOn": "2026-01-01+01:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "42.91.20",
+                    "description": "Construction works for coastal and port constructions, dams, locks and related hydro-mechanical structures"
+                }
+            },
+            "category": {
+                "identifier": "AGRICULTURAL_PRODUCTION",
+                "description": "Supply of goods and services of a kind normally intended for use in agricultural production but excluding capital goods such as machinery or buildings"
+            },
+            "comment": "The reduced rate shall be applied for Services to combat soil erosion such as coastal and port construction works, dams, locks and other hydromechanical structures (for the case of water erosion); Flood defense services. For details see art. 291 para. (2) letter e) of the Fiscal Code and point 42 of the Annex to the Order no. 4634\/2022, respectively in Order no. 157\/2011."
+        },
+        {
+            "memberState": "RO",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 11
+            },
+            "situationOn": "2026-01-01+01:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "43.99.90",
+                    "description": "Specialised construction works n.e.c."
+                }
+            },
+            "category": {
+                "identifier": "AGRICULTURAL_PRODUCTION",
+                "description": "Supply of goods and services of a kind normally intended for use in agricultural production but excluding capital goods such as machinery or buildings"
+            },
+            "comment": "The reduced rate shall be applied for Operations for installing protected spaces, respectively greenhouses and\/or solariums; Installation of hail and rain protection systems in vineyards and orchards. For details see art. 291 para. (2) letter e) of the Fiscal Code and points 26 and 39 of the Annex to the Order no. 4634\/2022."
         },
         {
             "memberState": "RO",
@@ -1865,136 +2201,6 @@
             "cnCodes": {
                 "code": [
                     {
-                        "value": "3001 20",
-                        "description": "Extracts of glands or other organs or of their secretions"
-                    },
-                    {
-                        "value": "3001 90 20",
-                        "description": "Of human origin"
-                    },
-                    {
-                        "value": "3001 90 91",
-                        "description": "Heparin and its salts"
-                    },
-                    {
-                        "value": "3001 90 98",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "3002 12 00",
-                        "description": "Antisera and other blood fractions"
-                    },
-                    {
-                        "value": "3002 13 00",
-                        "description": "Immunological products, unmixed, not put up in measured doses or in forms or packings for retail sale"
-                    },
-                    {
-                        "value": "3002 14 00",
-                        "description": "Immunological products, mixed, not put up in measured doses or in forms or packings for retail sale"
-                    },
-                    {
-                        "value": "3002 15 00",
-                        "description": "Immunological products, put up in measured doses or in forms or packings for retail sale"
-                    },
-                    {
-                        "value": "3002 90 30",
-                        "description": "Animal blood prepared for therapeutic, prophylactic or diagnostic uses"
-                    },
-                    {
-                        "value": "3003",
-                        "description": "Medicaments (excluding goods of heading 3002, 3005 or 3006) consisting of two or more constituents which have been mixed together for therapeutic or prophylactic uses, not put up in measured doses or in forms or packings for retail sale"
-                    },
-                    {
-                        "value": "3004",
-                        "description": "Medicaments (excluding goods of heading 3002, 3005 or 3006) consisting of mixed or unmixed products for therapeutic or prophylactic uses, put up in measured doses (including those in the form of transdermal administration systems) or in forms or packings for retail sale"
-                    },
-                    {
-                        "value": "3005",
-                        "description": "Wadding, gauze, bandages and similar articles (for example, dressings, adhesive plasters, poultices), impregnated or coated with pharmaceutical substances or put up in forms or packings for retail sale for medical, surgical, dental or veterinary purposes"
-                    },
-                    {
-                        "value": "3006 10",
-                        "description": "Sterile surgical catgut, similar sterile suture materials (including sterile absorbable surgical or dental yarns) and sterile tissue adhesives for surgical wound closure; sterile laminaria and sterile laminaria tents; sterile absorbable surgical or dental haemostatics; sterile surgical or dental adhesion barriers, whether or not absorbable"
-                    },
-                    {
-                        "value": "3006 30 00",
-                        "description": "Opacifying preparations for X-ray examinations; diagnostic reagents designed to be administered to the patient"
-                    },
-                    {
-                        "value": "3006 40 00",
-                        "description": "Dental cements and other dental fillings; bone reconstruction cements"
-                    },
-                    {
-                        "value": "3006 50 00",
-                        "description": "First-aid boxes and kits"
-                    },
-                    {
-                        "value": "3006 60 00",
-                        "description": "Chemical contraceptive preparations based on hormones, on other products of heading 2937 or on spermicides"
-                    },
-                    {
-                        "value": "3006 70 00",
-                        "description": "Gel preparations designed to be used in human or veterinary medicine as a lubricant for parts of the body for surgical operations or physical examinations or as a coupling agent between the body and medical instruments"
-                    },
-                    {
-                        "value": "3305 10 00",
-                        "description": "Shampoos"
-                    },
-                    {
-                        "value": "3002 41",
-                        "description": "Vaccines for human medicine"
-                    },
-                    {
-                        "value": "3002 49 00",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "3002 51 00",
-                        "description": "Cell therapy products"
-                    },
-                    {
-                        "value": "3002 59 00",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "3006 93 00",
-                        "description": "Placebos and blinded (or double-blinded) clinical trial kits for a recognised clinical trial, put up in measured doses"
-                    },
-                    {
-                        "value": "3822 11 00",
-                        "description": "For malaria"
-                    },
-                    {
-                        "value": "3822 12 00",
-                        "description": "For Zika and other diseases transmitted by mosquitoes of the genus Aedes"
-                    },
-                    {
-                        "value": "3822 13 00",
-                        "description": "For blood-grouping"
-                    },
-                    {
-                        "value": "3822 19 00",
-                        "description": "Other"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "PHARMACEUTICAL_PRODUCTS",
-                "description": "Pharmaceutical products of a kind normally used for health care, prevention of illness and as treatment for medical and veterinary purposes, including products used for contraception and sanitary protection"
-            },
-            "comment": "The reduced TVA rate is applied for the supply of medicines for human use. See art. 291 para. (2) letter a) of the Fiscal Code."
-        },
-        {
-            "memberState": "RO",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 11
-            },
-            "situationOn": "2026-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
                         "value": "3102",
                         "description": "Mineral or chemical fertilisers, nitrogenous"
                     },
@@ -2053,212 +2259,6 @@
                 "description": "Supply of goods and services of a kind normally intended for use in agricultural production but excluding capital goods such as machinery or buildings"
             },
             "comment": "The reduced VAT rate shall be applied for the supply of chemical fertilizers and chemical pesticides used in agriculture, corresponding to the CN codes mentioned below. For details see art. 291 para. (2) letter f) of the Fiscal Code and art. 1 para. (2) of the Order no. 4634\/2022. The provisions shall apply until 31st of December 2031."
-        },
-        {
-            "memberState": "RO",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 11
-            },
-            "situationOn": "2026-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "4401 11 00",
-                        "description": "Coniferous"
-                    },
-                    {
-                        "value": "4401 12 00",
-                        "description": "Non-coniferous"
-                    },
-                    {
-                        "value": "4401 31 00",
-                        "description": "Wood pellets"
-                    },
-                    {
-                        "value": "4401 32 00",
-                        "description": "Wood briquettes"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "WOOD_ARTICLE98",
-                "description": "Wood used as firewood (until 1 January 2030)"
-            },
-            "comment": "Supply of firewood in the form of logs, in billets, in twigs, in faggots or in similar forms, and sawdust and wood waste and scrap, agglomerated in logs, briquettes, pellets or similar forms. See art. 291 para. (2) letters i), j) of the Fiscal Code."
-        },
-        {
-            "memberState": "RO",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 11
-            },
-            "situationOn": "2026-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "4401 41 00",
-                        "description": "Sawdust"
-                    },
-                    {
-                        "value": "4401 49 00",
-                        "description": "Other"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "WOOD_ARTICLE98",
-                "description": "Wood used as firewood (until 1 January 2030)"
-            },
-            "comment": "The supply for the use as heating fuel of sawdust, waste and non-agglomerated wood scraps, carried out to final beneficiaries, on the basis of a statement of liability made available to the supplier. See art. 291 para. (2) letters i), j) of the Fiscal Code."
-        },
-        {
-            "memberState": "RO",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 11
-            },
-            "situationOn": "2026-01-01+01:00",
-            "cpaCodes": {
-                "code": {
-                    "value": "01.61.10",
-                    "description": "Support services to crop production"
-                }
-            },
-            "category": {
-                "identifier": "AGRICULTURAL_PRODUCTION",
-                "description": "Supply of goods and services of a kind normally intended for use in agricultural production but excluding capital goods such as machinery or buildings"
-            },
-            "comment": "Fertilization; Ploughing; Harrowing; Preparing the seedbed with combine and moulding soil; Seed sowing or planting; Land rolling; Spraying, dusting - fight diseases and pests, herbicide; Harvesting or crop dislocation; Collecting and baling the vegetal material, by pressing in bales; Hoeing crops; Pots planting for potatoes and vegetables. For details see art. 291 para. (2) lett. e) of the Fiscal Code and points 1 - 7, 9, 10, 12, 15 of the Annex to the Order no. 4634\/2022."
-        },
-        {
-            "memberState": "RO",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 11
-            },
-            "situationOn": "2026-01-01+01:00",
-            "cpaCodes": {
-                "code": {
-                    "value": "01.61.10",
-                    "description": "Support services to crop production"
-                }
-            },
-            "category": {
-                "identifier": "AGRICULTURAL_PRODUCTION",
-                "description": "Supply of goods and services of a kind normally intended for use in agricultural production but excluding capital goods such as machinery or buildings"
-            },
-            "comment": "The reduced rate shall be applied for Mowing; Raking; Digging holes for planting trees and vines; Cleaning of unwanted vegetation and destruction of heaps on pastures and hayfields; Meadow overseeding; Planting horticultural grape vines, trees; Deforestation of vineyards and orchards; Installation of support, growing and palisade system for vineyards and orchards. See art. 291 para. (2) letter e) of the Fiscal Code and points 18, 19, 23, 27, 28, 35 - 37 of the Annex to the Order no. 4634\/2022."
-        },
-        {
-            "memberState": "RO",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 11
-            },
-            "situationOn": "2026-01-01+01:00",
-            "cpaCodes": {
-                "code": {
-                    "value": "35.30.12",
-                    "description": "Steam and hot water supply services through mains"
-                }
-            },
-            "category": {
-                "identifier": "SUSTAINABLE_ENERGY",
-                "description": "Supply of electricity, district heating and district cooling, and biogas produced by the feedstock listed in Annex IX, Part A, to Directive (EU) 2018\/2001 of the European Parliament and of the Council; supply and installation of highly efficient low emissions heating systems meeting the emission (PM) benchmarks laid down in Annex V to Commission Regulation (EU) 2015\/1189 and in Annex V to Commission Regulation (EU) 2015\/1185 and having been attributed an EU energy label to show that the criterion referred to in Article 7(2) of Regulation (EU) 2017\/1369 of the European Parliament and of the Council is met; and, until 1 January 2030, natural gas and wood used as firewood"
-            },
-            "comment": "Supply of district heating in the cold season (the 5-month period between November 1 of the current year and March 31 of the following year), intended for: the population, public and private hospitals, public and private educational institutions, non-governmental organizations, religious institutions, accredited public and private social service providers. See Art. 291 para. (2), letters k) of the Fiscal Code."
-        },
-        {
-            "memberState": "RO",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 11
-            },
-            "situationOn": "2026-01-01+01:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "36.00.30",
-                        "description": "Trade services of water through mains"
-                    },
-                    {
-                        "value": "37.00.11",
-                        "description": "Sewage removal and treatment services"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "SUPPLY_WATER",
-                "description": "Supply of water"
-            },
-            "comment": "The reduced VAT rate is applied for the supply of water for irrigation in agriculture and for water supply and sewerage services. See art. 291 para. (2) letters c) and d) of the Fiscal Code and point 37 para. (13) of the Methodological Norms."
-        },
-        {
-            "memberState": "RO",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 11
-            },
-            "situationOn": "2026-01-01+01:00",
-            "cpaCodes": {
-                "code": {
-                    "value": "42.21.13",
-                    "description": "Irrigation systems (canals); water main and line constructions; water treatment plants, sewage disposal plants and pumping stations"
-                }
-            },
-            "category": {
-                "identifier": "AGRICULTURAL_PRODUCTION",
-                "description": "Supply of goods and services of a kind normally intended for use in agricultural production but excluding capital goods such as machinery or buildings"
-            },
-            "comment": "The reduced rate shall be applied for Installation of irrigation\/fertigation system in vineyards and orchards, as well as in vegetable growing. For details see art. 291 para. (2) letter e) of the Fiscal Code and point 38 of the Annex to the Order no. 4634\/2022."
-        },
-        {
-            "memberState": "RO",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 11
-            },
-            "situationOn": "2026-01-01+01:00",
-            "cpaCodes": {
-                "code": {
-                    "value": "42.21.23",
-                    "description": "Construction works for irrigation systems (canals), water mains and lines, water treatment plants, sewage disposal plants and pumping stations"
-                }
-            },
-            "category": {
-                "identifier": "AGRICULTURAL_PRODUCTION",
-                "description": "Supply of goods and services of a kind normally intended for use in agricultural production but excluding capital goods such as machinery or buildings"
-            },
-            "comment": "The reduced rate shall be applied for Clearing or cleaning irrigation and\/or drainage channels. For details see art. 291 para. (2) letter e) of the Fiscal Code and point 34 of the Annex to the Order no. 4634\/2022."
-        },
-        {
-            "memberState": "RO",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 11
-            },
-            "situationOn": "2026-01-01+01:00",
-            "cpaCodes": {
-                "code": {
-                    "value": "42.91.20",
-                    "description": "Construction works for coastal and port constructions, dams, locks and related hydro-mechanical structures"
-                }
-            },
-            "category": {
-                "identifier": "AGRICULTURAL_PRODUCTION",
-                "description": "Supply of goods and services of a kind normally intended for use in agricultural production but excluding capital goods such as machinery or buildings"
-            },
-            "comment": "The reduced rate shall be applied for Services to combat soil erosion such as coastal and port construction works, dams, locks and other hydromechanical structures (for the case of water erosion); Flood defense services. For details see art. 291 para. (2) letter e) of the Fiscal Code and point 42 of the Annex to the Order no. 4634\/2022, respectively in Order no. 157\/2011."
         }
     ]
 }

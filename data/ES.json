@@ -436,6 +436,25 @@
         },
         {
             "memberState": "ES",
+            "type": "STANDARD",
+            "rate": {
+                "type": "DEFAULT",
+                "value": 7
+            },
+            "situationOn": "2025-07-01+02:00",
+            "comment": "VAT - Canary Islands - "
+        },
+        {
+            "memberState": "ES",
+            "type": "STANDARD",
+            "rate": {
+                "type": "DEFAULT",
+                "value": 21
+            },
+            "situationOn": "2025-07-01+02:00"
+        },
+        {
+            "memberState": "ES",
             "type": "REDUCED",
             "rate": {
                 "type": "REDUCED_RATE",
@@ -1050,25 +1069,6 @@
                 "description": "Exemptions and super-reduced rates (Article 105a(1) of the VAT Directive)"
             },
             "comment": "-"
-        },
-        {
-            "memberState": "ES",
-            "type": "STANDARD",
-            "rate": {
-                "type": "DEFAULT",
-                "value": 7
-            },
-            "situationOn": "2025-07-01+02:00",
-            "comment": "VAT - Canary Islands - "
-        },
-        {
-            "memberState": "ES",
-            "type": "STANDARD",
-            "rate": {
-                "type": "DEFAULT",
-                "value": 21
-            },
-            "situationOn": "2025-07-01+02:00"
         }
     ]
 }

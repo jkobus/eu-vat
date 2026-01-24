@@ -1065,6 +1065,36 @@
             "type": "REDUCED",
             "rate": {
                 "type": "REDUCED_RATE",
+                "value": 13
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "0603",
+                        "description": "Cut flowers and flower buds of a kind suitable for bouquets or for ornamental purposes, fresh, dried, dyed, bleached, impregnated or otherwise prepared"
+                    },
+                    {
+                        "value": "0604",
+                        "description": "Foliage, branches and other parts of plants, without flowers or flower buds, and grasses, mosses and lichens, being goods of a kind suitable for bouquets or for ornamental purposes, fresh, dried, dyed, bleached, impregnated or otherwise prepared"
+                    },
+                    {
+                        "value": "1108",
+                        "description": "Starches; inulin"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "FOODSTUFFS",
+                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
+            },
+            "comment": "•For tariff heading 0603,0604, reduced rate applies only on flowers and flower buds,  and other parts of plants, without flowers nor flower buds, and greenery, moss and lichens, for bouquets or decorations, fresh.\n•For tariff heading 1108, reduced rate applies only on flour milling products, starches of all kinds."
+        },
+        {
+            "memberState": "EL",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
                 "value": 6
             },
             "situationOn": "2025-01-01+01:00",
@@ -1393,6 +1423,40 @@
                 "description": "Admission to shows, theatres, circuses, fairs, amusement parks, concerts, museums, zoos, cinemas, exhibitions and similar cultural events and facilities"
             },
             "comment": "The reduced rate applies on admission to theatres' plays and to concerts"
+        },
+        {
+            "memberState": "EL",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 13
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "1301",
+                        "description": "Lac; natural gums, resins, gum-resins and oleoresins (for example, balsams)"
+                    },
+                    {
+                        "value": "1512",
+                        "description": "Sunflower-seed, safflower or cotton-seed oil and fractions thereof, whether or not refined, but not chemically modified"
+                    },
+                    {
+                        "value": "1515",
+                        "description": "Other fixed vegetable or microbial fats and oils (including jojoba oil) and their fractions, whether or not refined, but not chemically modified"
+                    },
+                    {
+                        "value": "1516",
+                        "description": "Animal, vegetable or microbial fats and oils and their fractions, partly or wholly hydrogenated, inter-esterified, re-esterified or elaidinised, whether or not refined, but not further prepared"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "FOODSTUFFS",
+                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
+            },
+            "comment": "•For tariff heading 1301 reduced rate applies only on mastic (white or not) raw\n•For tariff headings 1512,1515 reduced rate applies only on soybean oil, peanut oil, sunflower oil, cotton oil (cottonseed oil), corn oil, sesame oil and their fractions, whether or not refined but not chemically transformed\n•For tariff heading 1516 reduced rate applies only on edible mixtures or preparations of animal fats or oils or vegetable or from fractions of various fats or oils of Chapter 15"
         },
         {
             "memberState": "EL",
@@ -1997,36 +2061,6 @@
             },
             "situationOn": "2025-01-01+01:00",
             "cnCodes": {
-                "code": [
-                    {
-                        "value": "0603",
-                        "description": "Cut flowers and flower buds of a kind suitable for bouquets or for ornamental purposes, fresh, dried, dyed, bleached, impregnated or otherwise prepared"
-                    },
-                    {
-                        "value": "0604",
-                        "description": "Foliage, branches and other parts of plants, without flowers or flower buds, and grasses, mosses and lichens, being goods of a kind suitable for bouquets or for ornamental purposes, fresh, dried, dyed, bleached, impregnated or otherwise prepared"
-                    },
-                    {
-                        "value": "1108",
-                        "description": "Starches; inulin"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "FOODSTUFFS",
-                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
-            },
-            "comment": "•For tariff heading 0603,0604, reduced rate applies only on flowers and flower buds,  and other parts of plants, without flowers nor flower buds, and greenery, moss and lichens, for bouquets or decorations, fresh.\n•For tariff heading 1108, reduced rate applies only on flour milling products, starches of all kinds."
-        },
-        {
-            "memberState": "EL",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 13
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cnCodes": {
                 "code": {
                     "value": "9706 00 00",
                     "description": "Antiques of an age exceeding 100 years"
@@ -2323,40 +2357,6 @@
                 "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
             },
             "comment": "For tariff heading 1212 reduced rate applies only on carob, sugar beet, cane, chilled, frozen or dried, whether or not powdered. Pits and almonds fruits and other vegetable products (including roots) chicory, not roasted, of the variety CICHORIUM INTYBUS SATIVUM), which mainly for human consumption and not named nor are they included elsewhere"
-        },
-        {
-            "memberState": "EL",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 13
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "1301",
-                        "description": "Lac; natural gums, resins, gum-resins and oleoresins (for example, balsams)"
-                    },
-                    {
-                        "value": "1512",
-                        "description": "Sunflower-seed, safflower or cotton-seed oil and fractions thereof, whether or not refined, but not chemically modified"
-                    },
-                    {
-                        "value": "1515",
-                        "description": "Other fixed vegetable or microbial fats and oils (including jojoba oil) and their fractions, whether or not refined, but not chemically modified"
-                    },
-                    {
-                        "value": "1516",
-                        "description": "Animal, vegetable or microbial fats and oils and their fractions, partly or wholly hydrogenated, inter-esterified, re-esterified or elaidinised, whether or not refined, but not further prepared"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "FOODSTUFFS",
-                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
-            },
-            "comment": "•For tariff heading 1301 reduced rate applies only on mastic (white or not) raw\n•For tariff headings 1512,1515 reduced rate applies only on soybean oil, peanut oil, sunflower oil, cotton oil (cottonseed oil), corn oil, sesame oil and their fractions, whether or not refined but not chemically transformed\n•For tariff heading 1516 reduced rate applies only on edible mixtures or preparations of animal fats or oils or vegetable or from fractions of various fats or oils of Chapter 15"
         }
     ]
 }
