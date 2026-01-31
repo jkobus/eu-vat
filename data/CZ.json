@@ -208,28 +208,46 @@
             },
             "situationOn": "2026-01-01+01:00",
             "cnCodes": {
-                "code": {
-                    "value": "2201",
-                    "description": "Waters, including natural or artificial mineral waters and aerated waters, not containing added sugar or other sweetening matter nor flavoured; ice and snow"
-                }
-            },
-            "cpaCodes": {
                 "code": [
                     {
-                        "value": "36.00.2",
-                        "description": "Treatment and distribution services of water"
+                        "value": "0601",
+                        "description": "Bulbs, tubers, tuberous roots, corms, crowns and rhizomes, dormant, in growth or in flower; chicory plants and roots other than roots of heading 1212"
                     },
                     {
-                        "value": "37",
-                        "description": "Sewerage services; sewage sludge"
+                        "value": "0602",
+                        "description": "Other live plants (including their roots), cuttings and slips; mushroom spawn"
+                    },
+                    {
+                        "value": "07",
+                        "description": "CHAPTER 7 - EDIBLE VEGETABLES AND CERTAIN ROOTS AND TUBERS"
+                    },
+                    {
+                        "value": "08",
+                        "description": "CHAPTER 8 - EDIBLE FRUIT AND NUTS; PEEL OF CITRUS FRUIT OR MELONS"
+                    },
+                    {
+                        "value": "09",
+                        "description": "CHAPTER 9 - COFFEE, TEA, MATÉ AND SPICES"
+                    },
+                    {
+                        "value": "10",
+                        "description": "CHAPTER 10 - CEREALS"
+                    },
+                    {
+                        "value": "11",
+                        "description": "CHAPTER 11 - PRODUCTS OF THE MILLING INDUSTRY; MALT; STARCHES; INULIN; WHEAT GLUTEN"
+                    },
+                    {
+                        "value": "12",
+                        "description": "CHAPTER 12 - OIL SEEDS AND OLEAGINOUS FRUITS; MISCELLANEOUS GRAINS, SEEDS AND FRUIT; INDUSTRIAL OR MEDICINAL PLANTS; STRAW AND FODDER"
                     }
                 ]
             },
             "category": {
-                "identifier": "SUPPLY_WATER",
-                "description": "Supply of water"
+                "identifier": "PLANT",
+                "description": "Live plants and other floricultural products, including bulbs, cotton, roots and the like, cut flowers and ornamental foliage"
             },
-            "comment": "Drinking water.\nTreatment and distribution services of water through mains. Collection and treatment of wastewater and sewage."
+            "comment": "Live trees and other plants; bulbs, roots and the like. Plants and seeds."
         },
         {
             "memberState": "CZ",
@@ -451,47 +469,81 @@
                 "value": 12
             },
             "situationOn": "2026-01-01+01:00",
+            "category": {
+                "identifier": "HOUSING_PROVISION",
+                "description": "Provision, construction, renovation and alteration of housing, as part of a social policy"
+            },
+            "comment": "The construction, renovation, alteration and transfer of residential property provided as a part of a social policy (apartments of up to 120 m2 of the floor area and family houses of up to 350 m2 of the floor area, other social buildings designed for living)."
+        },
+        {
+            "memberState": "CZ",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 12
+            },
+            "situationOn": "2026-01-01+01:00",
+            "category": {
+                "identifier": "PRIVATE_DWELLINGS",
+                "description": "The renovation and repair of private dwellings, excluding materials which account for a significant part of the value of the service supplied"
+            },
+            "comment": "The renovation and repairing of residential property."
+        },
+        {
+            "memberState": "CZ",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 12
+            },
+            "situationOn": "2026-01-01+01:00",
+            "category": {
+                "identifier": "SUPPLY_HEATING",
+                "description": "Supply of district heating"
+            },
+            "comment": "Heat and cold supply."
+        },
+        {
+            "memberState": "CZ",
+            "type": "STANDARD",
+            "rate": {
+                "type": "DEFAULT",
+                "value": 21
+            },
+            "situationOn": "2026-01-01+01:00",
+            "comment": "<p>Art. 47 of the VAT Act.<\/p>"
+        },
+        {
+            "memberState": "CZ",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 12
+            },
+            "situationOn": "2026-01-01+01:00",
             "cnCodes": {
+                "code": {
+                    "value": "2201",
+                    "description": "Waters, including natural or artificial mineral waters and aerated waters, not containing added sugar or other sweetening matter nor flavoured; ice and snow"
+                }
+            },
+            "cpaCodes": {
                 "code": [
                     {
-                        "value": "0601",
-                        "description": "Bulbs, tubers, tuberous roots, corms, crowns and rhizomes, dormant, in growth or in flower; chicory plants and roots other than roots of heading 1212"
+                        "value": "36.00.2",
+                        "description": "Treatment and distribution services of water"
                     },
                     {
-                        "value": "0602",
-                        "description": "Other live plants (including their roots), cuttings and slips; mushroom spawn"
-                    },
-                    {
-                        "value": "07",
-                        "description": "CHAPTER 7 - EDIBLE VEGETABLES AND CERTAIN ROOTS AND TUBERS"
-                    },
-                    {
-                        "value": "08",
-                        "description": "CHAPTER 8 - EDIBLE FRUIT AND NUTS; PEEL OF CITRUS FRUIT OR MELONS"
-                    },
-                    {
-                        "value": "09",
-                        "description": "CHAPTER 9 - COFFEE, TEA, MATÉ AND SPICES"
-                    },
-                    {
-                        "value": "10",
-                        "description": "CHAPTER 10 - CEREALS"
-                    },
-                    {
-                        "value": "11",
-                        "description": "CHAPTER 11 - PRODUCTS OF THE MILLING INDUSTRY; MALT; STARCHES; INULIN; WHEAT GLUTEN"
-                    },
-                    {
-                        "value": "12",
-                        "description": "CHAPTER 12 - OIL SEEDS AND OLEAGINOUS FRUITS; MISCELLANEOUS GRAINS, SEEDS AND FRUIT; INDUSTRIAL OR MEDICINAL PLANTS; STRAW AND FODDER"
+                        "value": "37",
+                        "description": "Sewerage services; sewage sludge"
                     }
                 ]
             },
             "category": {
-                "identifier": "PLANT",
-                "description": "Live plants and other floricultural products, including bulbs, cotton, roots and the like, cut flowers and ornamental foliage"
+                "identifier": "SUPPLY_WATER",
+                "description": "Supply of water"
             },
-            "comment": "Live trees and other plants; bulbs, roots and the like. Plants and seeds."
+            "comment": "Drinking water.\nTreatment and distribution services of water through mains. Collection and treatment of wastewater and sewage."
         },
         {
             "memberState": "CZ",
@@ -594,58 +646,6 @@
                 "description": "Transport of passengers and their accompanying luggage"
             },
             "comment": "Mass land and waterway transport services of passengers and their luggage and passenger transport services by ski lifts."
-        },
-        {
-            "memberState": "CZ",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 12
-            },
-            "situationOn": "2026-01-01+01:00",
-            "category": {
-                "identifier": "HOUSING_PROVISION",
-                "description": "Provision, construction, renovation and alteration of housing, as part of a social policy"
-            },
-            "comment": "The construction, renovation, alteration and transfer of residential property provided as a part of a social policy (apartments of up to 120 m2 of the floor area and family houses of up to 350 m2 of the floor area, other social buildings designed for living)."
-        },
-        {
-            "memberState": "CZ",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 12
-            },
-            "situationOn": "2026-01-01+01:00",
-            "category": {
-                "identifier": "PRIVATE_DWELLINGS",
-                "description": "The renovation and repair of private dwellings, excluding materials which account for a significant part of the value of the service supplied"
-            },
-            "comment": "The renovation and repairing of residential property."
-        },
-        {
-            "memberState": "CZ",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 12
-            },
-            "situationOn": "2026-01-01+01:00",
-            "category": {
-                "identifier": "SUPPLY_HEATING",
-                "description": "Supply of district heating"
-            },
-            "comment": "Heat and cold supply."
-        },
-        {
-            "memberState": "CZ",
-            "type": "STANDARD",
-            "rate": {
-                "type": "DEFAULT",
-                "value": 21
-            },
-            "situationOn": "2026-01-01+01:00",
-            "comment": "<p>Art. 47 of the VAT Act.<\/p>"
         }
     ]
 }
