@@ -1159,6 +1159,397 @@
                 "value": 6
             },
             "situationOn": "2026-01-01+01:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "41.00.3",
+                    "description": "Construction works for residential buildings"
+                }
+            },
+            "category": {
+                "identifier": "PRIVATE_DWELLINGS",
+                "description": "The renovation and repair of private dwellings, excluding materials which account for a significant part of the value of the service supplied"
+            },
+            "comment": "The reduced rate on the repairing of private dwellings excludes cleaning, garden upkeep, swimming pools, sauna, tennis court, golf or mini-golf court, or similar. Includes materials that accounts for less than 20% of the value of the service supplied."
+        },
+        {
+            "memberState": "PT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 6
+            },
+            "situationOn": "2026-01-01+01:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "49.1",
+                        "description": "Passenger rail transport services"
+                    },
+                    {
+                        "value": "49.3",
+                        "description": "Other passenger land transport services"
+                    },
+                    {
+                        "value": "50.1",
+                        "description": "Sea and coastal passenger water transport services"
+                    },
+                    {
+                        "value": "50.3",
+                        "description": "Inland passenger water transport services"
+                    },
+                    {
+                        "value": "51.1",
+                        "description": "Passenger air transport services"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "TRANSPORT_PASSENGERS",
+                "description": "Transport of passengers and their accompanying luggage"
+            },
+            "comment": "International transport of passengers is subject to a zero rate."
+        },
+        {
+            "memberState": "PT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 6
+            },
+            "situationOn": "2026-01-01+01:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "55.1",
+                        "description": "Hotel and similar accommodation services"
+                    },
+                    {
+                        "value": "55.2",
+                        "description": "Holiday and other short-stay accommodation services"
+                    },
+                    {
+                        "value": "55.30.11",
+                        "description": "Camping ground services"
+                    },
+                    {
+                        "value": "55.9",
+                        "description": "Other accommodation services"
+                    },
+                    {
+                        "value": "55.90.13",
+                        "description": "Sleeping car and similar services in other transport media"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "ACCOMMODATION",
+                "description": "Accommodation provided in hotels and similar establishments, including the provision of holiday accommodation and the letting of places on camping or caravan sites"
+            },
+            "comment": "The reduced rate applies only to accommodation including breakfast, if not separately invoiced, being equivalent to half of the full board price, or ¾ of the half board price."
+        },
+        {
+            "memberState": "PT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 6
+            },
+            "situationOn": "2026-01-01+01:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "86.10",
+                    "description": "Hospital services"
+                }
+            },
+            "category": {
+                "identifier": "MEDICAL_CARE",
+                "description": "Provision of medical and dental care and thermal treatment"
+            },
+            "comment": "When not exempt under Article 132 (1) (b) to (e)"
+        },
+        {
+            "memberState": "PT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 6
+            },
+            "situationOn": "2026-01-01+01:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "88.10.11",
+                        "description": "Visiting and assistance services for the elderly"
+                    },
+                    {
+                        "value": "88.10.14",
+                        "description": "Visiting and assistance services for persons with disabilities"
+                    },
+                    {
+                        "value": "88.91.13",
+                        "description": "Baby-sitting services"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "DOMESTIC_CARE",
+                "description": "Domestic care services such as home help and care of the young, elderly, sick or disabled"
+            },
+            "comment": "Supplies of home help services to children, the elderly, drug addicts, the sick or the disabled. Assistance services by telephone to the elderly and chronic patients."
+        },
+        {
+            "memberState": "PT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 13
+            },
+            "situationOn": "2026-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "1104 30 90",
+                        "description": "Of other cereals"
+                    },
+                    {
+                        "value": "2201",
+                        "description": "Waters, including natural or artificial mineral waters and aerated waters, not containing added sugar or other sweetening matter nor flavoured; ice and snow"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "FOODSTUFFS",
+                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
+            }
+        },
+        {
+            "memberState": "PT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 13
+            },
+            "situationOn": "2026-01-01+01:00",
+            "cnCodes": {
+                "code": {
+                    "value": "2201",
+                    "description": "Waters, including natural or artificial mineral waters and aerated waters, not containing added sugar or other sweetening matter nor flavoured; ice and snow"
+                }
+            },
+            "category": {
+                "identifier": "SUPPLY_WATER",
+                "description": "Supply of water"
+            }
+        },
+        {
+            "memberState": "PT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 13
+            },
+            "situationOn": "2026-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "2710 19 31",
+                        "description": "For undergoing a specific process"
+                    },
+                    {
+                        "value": "2710 19 43",
+                        "description": "With a sulphur content not exceeding 0,001 % by weight"
+                    },
+                    {
+                        "value": "2710 19 46",
+                        "description": "With a sulphur content exceeding 0,001 % by weight but not exceeding 0,002 % by weight"
+                    },
+                    {
+                        "value": "2710 19 48",
+                        "description": "With a sulphur content exceeding 0,1 % by weight"
+                    },
+                    {
+                        "value": "2710 19 51",
+                        "description": "For undergoing a specific process"
+                    },
+                    {
+                        "value": "2710 19 55",
+                        "description": "For undergoing chemical transformation by a process other than those specified in respect of subheading 27101951"
+                    },
+                    {
+                        "value": "2710 19 62",
+                        "description": "With a sulphur content not exceeding 0,1 % by weight"
+                    },
+                    {
+                        "value": "2710 19 64",
+                        "description": "With a sulphur content exceeding 0,1 % by weight but not exceeding 1 % by weight"
+                    },
+                    {
+                        "value": "2710 20 11",
+                        "description": "With a sulphur content not exceeding 0,001 % by weight"
+                    },
+                    {
+                        "value": "2710 20 15",
+                        "description": "With a sulphur content exceeding 0,001 % by weight but not exceeding 0,002 % by weight"
+                    },
+                    {
+                        "value": "2710 20 17",
+                        "description": "With a sulphur content exceeding 0,002 % by weight but not exceeding 0,1 % by weight"
+                    },
+                    {
+                        "value": "2710 20 19",
+                        "description": "With a sulphur content exceeding 0,1 % by weight"
+                    },
+                    {
+                        "value": "2710 19 66",
+                        "description": "With a sulphur content exceeding 0,1 % by weight but not exceeding 0,5 % by weight"
+                    },
+                    {
+                        "value": "2710 19 67",
+                        "description": "With a sulphur content exceeding 0,5 % by weight"
+                    },
+                    {
+                        "value": "2710 20 16",
+                        "description": "With a sulphur content exceeding 0,001 % by weight but not exceeding 0,1 % by weight"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "FOSSIL_FUEL",
+                "description": "Until 1 January 2030: Fossil fuels"
+            },
+            "comment": "Colored and marked diesel sold under the conditions and legally defined purposes, and fuel oil and respective mixtures."
+        },
+        {
+            "memberState": "PT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 13
+            },
+            "situationOn": "2026-01-01+01:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "56.1",
+                        "description": "Restaurant and mobile food serving services"
+                    },
+                    {
+                        "value": "56.10",
+                        "description": "Restaurant and mobile food serving services"
+                    },
+                    {
+                        "value": "56.10.1",
+                        "description": "Restaurant and mobile food serving services"
+                    },
+                    {
+                        "value": "56.10.11",
+                        "description": "Meal serving services with full restaurant service"
+                    },
+                    {
+                        "value": "56.10.12",
+                        "description": "Meal serving services in railway dining cars and on ships"
+                    },
+                    {
+                        "value": "56.10.13",
+                        "description": "Meal serving services in self-service establishments"
+                    },
+                    {
+                        "value": "56.10.19",
+                        "description": "Other meal serving services"
+                    },
+                    {
+                        "value": "56.2",
+                        "description": "Event catering, contract catering services and other food serving services"
+                    },
+                    {
+                        "value": "56.21",
+                        "description": "Event catering services"
+                    },
+                    {
+                        "value": "56.21.11",
+                        "description": "Event catering services for private households"
+                    },
+                    {
+                        "value": "56.21.19",
+                        "description": "Other event catering services"
+                    },
+                    {
+                        "value": "56.29",
+                        "description": "Other food serving services"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "RESTAURANT",
+                "description": "Restaurant and catering services, it being possible to exclude the supply of (alcoholic and\/or non-alcoholic) beverages"
+            },
+            "comment": "The reduced rate excludes alcoholic beverages and soft drinks ."
+        },
+        {
+            "memberState": "PT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 16
+            },
+            "situationOn": "2026-01-01+01:00",
+            "category": {
+                "identifier": "REGION",
+                "description": "Special reduced rate for specific regions (including articles 104, 105 and 120 of the VAT Directive)"
+            },
+            "comment": "Azores Autonomous Region"
+        },
+        {
+            "memberState": "PT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 22
+            },
+            "situationOn": "2026-01-01+01:00",
+            "category": {
+                "identifier": "REGION",
+                "description": "Special reduced rate for specific regions (including articles 104, 105 and 120 of the VAT Directive)"
+            },
+            "comment": "Madeira Autonomous Region"
+        },
+        {
+            "memberState": "PT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "SUPER_REDUCED_RATE",
+                "value": 6
+            },
+            "situationOn": "2026-01-01+01:00",
+            "cnCodes": {
+                "code": {
+                    "value": "4801 00 00",
+                    "description": "Newsprint, in rolls or sheets"
+                }
+            },
+            "category": {
+                "identifier": "TEMPORARY_EXEMPTION_RATE",
+                "description": "Temporary Exemptions, super-reduced or reduced rates (Article 105a(2) of the VAT Directive)"
+            },
+            "comment": "newsprint"
+        },
+        {
+            "memberState": "PT",
+            "type": "STANDARD",
+            "rate": {
+                "type": "DEFAULT",
+                "value": 23
+            },
+            "situationOn": "2026-01-01+01:00"
+        },
+        {
+            "memberState": "PT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 6
+            },
+            "situationOn": "2026-01-01+01:00",
             "cnCodes": {
                 "code": {
                     "value": "2201",
@@ -1551,397 +1942,6 @@
                 "description": "Provision, construction, renovation and alteration of housing, as part of a social policy"
             },
             "comment": "Construction services on social housing or houses with controlled costs; whose promoters are cooperatives, where the dwellings fall within the scope of the social housing policy."
-        },
-        {
-            "memberState": "PT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 6
-            },
-            "situationOn": "2026-01-01+01:00",
-            "cpaCodes": {
-                "code": {
-                    "value": "41.00.3",
-                    "description": "Construction works for residential buildings"
-                }
-            },
-            "category": {
-                "identifier": "PRIVATE_DWELLINGS",
-                "description": "The renovation and repair of private dwellings, excluding materials which account for a significant part of the value of the service supplied"
-            },
-            "comment": "The reduced rate on the repairing of private dwellings excludes cleaning, garden upkeep, swimming pools, sauna, tennis court, golf or mini-golf court, or similar. Includes materials that accounts for less than 20% of the value of the service supplied."
-        },
-        {
-            "memberState": "PT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 6
-            },
-            "situationOn": "2026-01-01+01:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "49.1",
-                        "description": "Passenger rail transport services"
-                    },
-                    {
-                        "value": "49.3",
-                        "description": "Other passenger land transport services"
-                    },
-                    {
-                        "value": "50.1",
-                        "description": "Sea and coastal passenger water transport services"
-                    },
-                    {
-                        "value": "50.3",
-                        "description": "Inland passenger water transport services"
-                    },
-                    {
-                        "value": "51.1",
-                        "description": "Passenger air transport services"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "TRANSPORT_PASSENGERS",
-                "description": "Transport of passengers and their accompanying luggage"
-            },
-            "comment": "International transport of passengers is subject to a zero rate."
-        },
-        {
-            "memberState": "PT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 6
-            },
-            "situationOn": "2026-01-01+01:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "55.1",
-                        "description": "Hotel and similar accommodation services"
-                    },
-                    {
-                        "value": "55.2",
-                        "description": "Holiday and other short-stay accommodation services"
-                    },
-                    {
-                        "value": "55.30.11",
-                        "description": "Camping ground services"
-                    },
-                    {
-                        "value": "55.9",
-                        "description": "Other accommodation services"
-                    },
-                    {
-                        "value": "55.90.13",
-                        "description": "Sleeping car and similar services in other transport media"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "ACCOMMODATION",
-                "description": "Accommodation provided in hotels and similar establishments, including the provision of holiday accommodation and the letting of places on camping or caravan sites"
-            },
-            "comment": "The reduced rate applies only to accommodation including breakfast, if not separately invoiced, being equivalent to half of the full board price, or ¾ of the half board price."
-        },
-        {
-            "memberState": "PT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 6
-            },
-            "situationOn": "2026-01-01+01:00",
-            "cpaCodes": {
-                "code": {
-                    "value": "86.10",
-                    "description": "Hospital services"
-                }
-            },
-            "category": {
-                "identifier": "MEDICAL_CARE",
-                "description": "Provision of medical and dental care and thermal treatment"
-            },
-            "comment": "When not exempt under Article 132 (1) (b) to (e)"
-        },
-        {
-            "memberState": "PT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 6
-            },
-            "situationOn": "2026-01-01+01:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "88.10.11",
-                        "description": "Visiting and assistance services for the elderly"
-                    },
-                    {
-                        "value": "88.10.14",
-                        "description": "Visiting and assistance services for persons with disabilities"
-                    },
-                    {
-                        "value": "88.91.13",
-                        "description": "Baby-sitting services"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "DOMESTIC_CARE",
-                "description": "Domestic care services such as home help and care of the young, elderly, sick or disabled"
-            },
-            "comment": "Supplies of home help services to children, the elderly, drug addicts, the sick or the disabled. Assistance services by telephone to the elderly and chronic patients."
-        },
-        {
-            "memberState": "PT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 13
-            },
-            "situationOn": "2026-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "1104 30 90",
-                        "description": "Of other cereals"
-                    },
-                    {
-                        "value": "2201",
-                        "description": "Waters, including natural or artificial mineral waters and aerated waters, not containing added sugar or other sweetening matter nor flavoured; ice and snow"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "FOODSTUFFS",
-                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
-            }
-        },
-        {
-            "memberState": "PT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 13
-            },
-            "situationOn": "2026-01-01+01:00",
-            "cnCodes": {
-                "code": {
-                    "value": "2201",
-                    "description": "Waters, including natural or artificial mineral waters and aerated waters, not containing added sugar or other sweetening matter nor flavoured; ice and snow"
-                }
-            },
-            "category": {
-                "identifier": "SUPPLY_WATER",
-                "description": "Supply of water"
-            }
-        },
-        {
-            "memberState": "PT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 13
-            },
-            "situationOn": "2026-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "2710 19 31",
-                        "description": "For undergoing a specific process"
-                    },
-                    {
-                        "value": "2710 19 43",
-                        "description": "With a sulphur content not exceeding 0,001 % by weight"
-                    },
-                    {
-                        "value": "2710 19 46",
-                        "description": "With a sulphur content exceeding 0,001 % by weight but not exceeding 0,002 % by weight"
-                    },
-                    {
-                        "value": "2710 19 48",
-                        "description": "With a sulphur content exceeding 0,1 % by weight"
-                    },
-                    {
-                        "value": "2710 19 51",
-                        "description": "For undergoing a specific process"
-                    },
-                    {
-                        "value": "2710 19 55",
-                        "description": "For undergoing chemical transformation by a process other than those specified in respect of subheading 27101951"
-                    },
-                    {
-                        "value": "2710 19 62",
-                        "description": "With a sulphur content not exceeding 0,1 % by weight"
-                    },
-                    {
-                        "value": "2710 19 64",
-                        "description": "With a sulphur content exceeding 0,1 % by weight but not exceeding 1 % by weight"
-                    },
-                    {
-                        "value": "2710 20 11",
-                        "description": "With a sulphur content not exceeding 0,001 % by weight"
-                    },
-                    {
-                        "value": "2710 20 15",
-                        "description": "With a sulphur content exceeding 0,001 % by weight but not exceeding 0,002 % by weight"
-                    },
-                    {
-                        "value": "2710 20 17",
-                        "description": "With a sulphur content exceeding 0,002 % by weight but not exceeding 0,1 % by weight"
-                    },
-                    {
-                        "value": "2710 20 19",
-                        "description": "With a sulphur content exceeding 0,1 % by weight"
-                    },
-                    {
-                        "value": "2710 19 66",
-                        "description": "With a sulphur content exceeding 0,1 % by weight but not exceeding 0,5 % by weight"
-                    },
-                    {
-                        "value": "2710 19 67",
-                        "description": "With a sulphur content exceeding 0,5 % by weight"
-                    },
-                    {
-                        "value": "2710 20 16",
-                        "description": "With a sulphur content exceeding 0,001 % by weight but not exceeding 0,1 % by weight"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "FOSSIL_FUEL",
-                "description": "Until 1 January 2030: Fossil fuels"
-            },
-            "comment": "Colored and marked diesel sold under the conditions and legally defined purposes, and fuel oil and respective mixtures."
-        },
-        {
-            "memberState": "PT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 13
-            },
-            "situationOn": "2026-01-01+01:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "56.1",
-                        "description": "Restaurant and mobile food serving services"
-                    },
-                    {
-                        "value": "56.10",
-                        "description": "Restaurant and mobile food serving services"
-                    },
-                    {
-                        "value": "56.10.1",
-                        "description": "Restaurant and mobile food serving services"
-                    },
-                    {
-                        "value": "56.10.11",
-                        "description": "Meal serving services with full restaurant service"
-                    },
-                    {
-                        "value": "56.10.12",
-                        "description": "Meal serving services in railway dining cars and on ships"
-                    },
-                    {
-                        "value": "56.10.13",
-                        "description": "Meal serving services in self-service establishments"
-                    },
-                    {
-                        "value": "56.10.19",
-                        "description": "Other meal serving services"
-                    },
-                    {
-                        "value": "56.2",
-                        "description": "Event catering, contract catering services and other food serving services"
-                    },
-                    {
-                        "value": "56.21",
-                        "description": "Event catering services"
-                    },
-                    {
-                        "value": "56.21.11",
-                        "description": "Event catering services for private households"
-                    },
-                    {
-                        "value": "56.21.19",
-                        "description": "Other event catering services"
-                    },
-                    {
-                        "value": "56.29",
-                        "description": "Other food serving services"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "RESTAURANT",
-                "description": "Restaurant and catering services, it being possible to exclude the supply of (alcoholic and\/or non-alcoholic) beverages"
-            },
-            "comment": "The reduced rate excludes alcoholic beverages and soft drinks ."
-        },
-        {
-            "memberState": "PT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 16
-            },
-            "situationOn": "2026-01-01+01:00",
-            "category": {
-                "identifier": "REGION",
-                "description": "Special reduced rate for specific regions (including articles 104, 105 and 120 of the VAT Directive)"
-            },
-            "comment": "Azores Autonomous Region"
-        },
-        {
-            "memberState": "PT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 22
-            },
-            "situationOn": "2026-01-01+01:00",
-            "category": {
-                "identifier": "REGION",
-                "description": "Special reduced rate for specific regions (including articles 104, 105 and 120 of the VAT Directive)"
-            },
-            "comment": "Madeira Autonomous Region"
-        },
-        {
-            "memberState": "PT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "SUPER_REDUCED_RATE",
-                "value": 6
-            },
-            "situationOn": "2026-01-01+01:00",
-            "cnCodes": {
-                "code": {
-                    "value": "4801 00 00",
-                    "description": "Newsprint, in rolls or sheets"
-                }
-            },
-            "category": {
-                "identifier": "TEMPORARY_EXEMPTION_RATE",
-                "description": "Temporary Exemptions, super-reduced or reduced rates (Article 105a(2) of the VAT Directive)"
-            },
-            "comment": "newsprint"
-        },
-        {
-            "memberState": "PT",
-            "type": "STANDARD",
-            "rate": {
-                "type": "DEFAULT",
-                "value": 23
-            },
-            "situationOn": "2026-01-01+01:00"
         }
     ]
 }
