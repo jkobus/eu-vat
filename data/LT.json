@@ -6,6 +6,45 @@
             "type": "REDUCED",
             "rate": {
                 "type": "REDUCED_RATE",
+                "value": 12
+            },
+            "situationOn": "2026-01-01+01:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "55.10.0",
+                        "description": "Hotel and similar accommodation services"
+                    },
+                    {
+                        "value": "55.20.0",
+                        "description": "Holiday and other short-stay accommodation services"
+                    },
+                    {
+                        "value": "55.30.0",
+                        "description": "Camping grounds and recreational vehicle parks services"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "ACCOMMODATION",
+                "description": "Accommodation provided in hotels and similar establishments, including the provision of holiday accommodation and the letting of places on camping or caravan sites"
+            },
+            "comment": "In accordance with the procedure laid down in the legislation governing tourism (therein Law on turism)"
+        },
+        {
+            "memberState": "LT",
+            "type": "STANDARD",
+            "rate": {
+                "type": "DEFAULT",
+                "value": 21
+            },
+            "situationOn": "2026-01-01+01:00"
+        },
+        {
+            "memberState": "LT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
                 "value": 5
             },
             "situationOn": "2026-01-01+01:00",
@@ -418,45 +457,6 @@
                 "description": "Admission to shows, theatres, circuses, fairs, amusement parks, concerts, museums, zoos, cinemas, exhibitions and similar cultural events and facilities"
             },
             "comment": "for visiting all types of art and cultural institutions, art and cultural events, other than VAT-exempt services provided by non-profit legal entities"
-        },
-        {
-            "memberState": "LT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 12
-            },
-            "situationOn": "2026-01-01+01:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "55.10.0",
-                        "description": "Hotel and similar accommodation services"
-                    },
-                    {
-                        "value": "55.20.0",
-                        "description": "Holiday and other short-stay accommodation services"
-                    },
-                    {
-                        "value": "55.30.0",
-                        "description": "Camping grounds and recreational vehicle parks services"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "ACCOMMODATION",
-                "description": "Accommodation provided in hotels and similar establishments, including the provision of holiday accommodation and the letting of places on camping or caravan sites"
-            },
-            "comment": "In accordance with the procedure laid down in the legislation governing tourism (therein Law on turism)"
-        },
-        {
-            "memberState": "LT",
-            "type": "STANDARD",
-            "rate": {
-                "type": "DEFAULT",
-                "value": 21
-            },
-            "situationOn": "2026-01-01+01:00"
         }
     ]
 }
