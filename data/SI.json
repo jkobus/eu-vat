@@ -9,6 +9,353 @@
                 "value": 9.5
             },
             "situationOn": "2026-01-01+01:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "88.10",
+                        "description": "Social work services without accommodation for older persons or persons with disabilities"
+                    },
+                    {
+                        "value": "88.91",
+                        "description": "Child day-care services"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "DOMESTIC_CARE",
+                "description": "Domestic care services such as home help and care of the young, elderly, sick or disabled"
+            }
+        },
+        {
+            "memberState": "SI",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 9.5
+            },
+            "situationOn": "2026-01-01+01:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "90",
+                        "description": "Arts creation and performing arts services"
+                    },
+                    {
+                        "value": "91",
+                        "description": "Libraries, archives, museums and other cultural services"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "CULTURAL_EVENTS",
+                "description": "Admission to shows, theatres, circuses, fairs, amusement parks, concerts, museums, zoos, cinemas, exhibitions and similar cultural events and facilities"
+            },
+            "comment": "In the VATA-1 and the Rules on the Implementation of VATA-1, there is only a descriptive name of services without exact determination by CPA codes."
+        },
+        {
+            "memberState": "SI",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 9.5
+            },
+            "situationOn": "2026-01-01+01:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "90.01",
+                        "description": "Services of performing artists"
+                    },
+                    {
+                        "value": "90.02",
+                        "description": "Support services to performing arts"
+                    },
+                    {
+                        "value": "90.03.11",
+                        "description": "Services provided by authors, composers, sculptors and other artists, except performing artists"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "WRITERS_SERVICES",
+                "description": "Supply of services by writers, composers and performing artists, or of the royalties due to them"
+            }
+        },
+        {
+            "memberState": "SI",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 9.5
+            },
+            "situationOn": "2026-01-01+01:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "93",
+                    "description": "Sporting services and amusement and recreation services"
+                }
+            },
+            "category": {
+                "identifier": "SPORTING_EVENTS",
+                "description": "Admission to sporting events"
+            },
+            "comment": "In the VATA-1 and the Rules on the Implementation of VATA-1, there is only a descriptive name of services without exact determination by CN and\/or CPA codes."
+        },
+        {
+            "memberState": "SI",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 9.5
+            },
+            "situationOn": "2026-01-01+01:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "95.23",
+                    "description": "Repair and maintenance services of footwear and leather goods"
+                }
+            },
+            "category": {
+                "identifier": "SHOES_REPAIR",
+                "description": "Minor repairs of shoes and leather goods"
+            }
+        },
+        {
+            "memberState": "SI",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 9.5
+            },
+            "situationOn": "2026-01-01+01:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "95.29",
+                    "description": "Repair and maintenance services of other personal and household goods"
+                }
+            },
+            "category": {
+                "identifier": "CLOTHING_REPAIR",
+                "description": "Minor repairs of clothing and household linen (including mending and alteration)"
+            }
+        },
+        {
+            "memberState": "SI",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 9.5
+            },
+            "situationOn": "2026-01-01+01:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "F",
+                        "description": "CONSTRUCTIONS AND CONSTRUCTION WORKS"
+                    },
+                    {
+                        "value": "68.12.0",
+                        "description": "Development services of building projects; development services of civil engineering projects"
+                    },
+                    {
+                        "value": "81.22.02",
+                        "description": "Specialised cleaning services"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "HOUSING_PROVISION",
+                "description": "Provision, construction, renovation and alteration of housing, as part of a social policy"
+            },
+            "comment": "Housing is part of social policy if it does not exceed 120 m2 in a multi-apartment building or 250 m2 in a single-apartment building, of the usable area of the residential building"
+        },
+        {
+            "memberState": "SI",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 9.5
+            },
+            "situationOn": "2026-01-01+01:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "37.00",
+                        "description": "Sewerage services; sewage sludge"
+                    },
+                    {
+                        "value": "38.1",
+                        "description": "Waste collection services"
+                    },
+                    {
+                        "value": "38.3",
+                        "description": "Waste disposal services without recovery"
+                    },
+                    {
+                        "value": "81.23",
+                        "description": "Other cleaning services"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "STREET_CLEANING",
+                "description": "Supply of services provided in connection with street cleaning, refuse collection and waste treatment, other than the supply of such services by bodies referred to in Article 13"
+            }
+        },
+        {
+            "memberState": "SI",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 9.5
+            },
+            "situationOn": "2026-01-01+01:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "95.29.02",
+                    "description": "Repair and maintenance services of bicycles"
+                }
+            },
+            "category": {
+                "identifier": "BICYCLES_RENTAL",
+                "description": "Rental and repair of bicycles"
+            },
+            "comment": "Only minor bicycle repairs"
+        },
+        {
+            "memberState": "SI",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 9.5
+            },
+            "situationOn": "2026-01-01+01:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "96.21",
+                    "description": "Hairdressing and barber services and human hair, unworked"
+                }
+            },
+            "category": {
+                "identifier": "HAIRDRESSING",
+                "description": "Hairdressing"
+            }
+        },
+        {
+            "memberState": "SI",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 9.5
+            },
+            "situationOn": "2026-01-01+01:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "96.30",
+                    "description": "Funeral and related services"
+                }
+            },
+            "category": {
+                "identifier": "UNDERTAKERS_SERVICES",
+                "description": "Supply of services by undertakers and cremation services, and the supply of goods related thereto"
+            },
+            "comment": "Includes only: burial and cremation; preparing the dead for burial or cremation and embalming, and the services of gravediggers; preparation of funeral and cremation rites; rental of equipped premises and mortuaries; transport of deceased, supply of goods directly related to funeral services, provided by the provider of these services."
+        },
+        {
+            "memberState": "SI",
+            "type": "STANDARD",
+            "rate": {
+                "type": "DEFAULT",
+                "value": 22
+            },
+            "situationOn": "2026-01-01+01:00"
+        },
+        {
+            "memberState": "SI",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 9.5
+            },
+            "situationOn": "2026-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "0101",
+                        "description": "Live horses, asses, mules and hinnies"
+                    },
+                    {
+                        "value": "0102",
+                        "description": "Live bovine animals"
+                    },
+                    {
+                        "value": "0103",
+                        "description": "Live swine"
+                    },
+                    {
+                        "value": "0104",
+                        "description": "Live sheep and goats"
+                    },
+                    {
+                        "value": "0105",
+                        "description": "Live poultry, that is to say, fowls of the species Gallus domesticus, ducks, geese, turkeys and guinea fowls"
+                    },
+                    {
+                        "value": "0301",
+                        "description": "Live fish"
+                    },
+                    {
+                        "value": "0306",
+                        "description": "Crustaceans, whether in shell or not, live, fresh, chilled, frozen, dried, salted or in brine; smoked crustaceans, whether in shell or not, whether or not cooked before or during the smoking process; crustaceans, in shell, cooked by steaming or by boiling in water, whether or not chilled, frozen, dried, salted or in brine"
+                    },
+                    {
+                        "value": "0307",
+                        "description": "Molluscs, whether in shell or not, live, fresh, chilled, frozen, dried, salted or in brine; smoked molluscs, whether in shell or not, whether or not cooked before or during the smoking process"
+                    },
+                    {
+                        "value": "0407 11 00",
+                        "description": "Of fowls of the species Gallus domesticus"
+                    },
+                    {
+                        "value": "0407 19 11",
+                        "description": "Of turkeys or geese"
+                    },
+                    {
+                        "value": "0407 19 19",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "0407 19 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "0511 10 00",
+                        "description": "Bovine semen"
+                    },
+                    {
+                        "value": "0511 91 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "0511 99 85",
+                        "description": "Other"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "AGRICULTURAL_PRODUCTION",
+                "description": "Supply of goods and services of a kind normally intended for use in agricultural production but excluding capital goods such as machinery or buildings"
+            },
+            "comment": "Animals for fattening include domestic animals, normally intended for reproduction and breeding within livestock activities and aquaculture activities, including rabbits and bees.\n0511 91 90: only inedible fish eggs\nExcept: 0301 11 00, 0301 19 00, eggs for hatching ornamental birds"
+        },
+        {
+            "memberState": "SI",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 9.5
+            },
+            "situationOn": "2026-01-01+01:00",
             "cnCodes": {
                 "code": [
                     {
@@ -906,122 +1253,6 @@
             "cnCodes": {
                 "code": [
                     {
-                        "value": "0101",
-                        "description": "Live horses, asses, mules and hinnies"
-                    },
-                    {
-                        "value": "0102",
-                        "description": "Live bovine animals"
-                    },
-                    {
-                        "value": "0103",
-                        "description": "Live swine"
-                    },
-                    {
-                        "value": "0104",
-                        "description": "Live sheep and goats"
-                    },
-                    {
-                        "value": "0105",
-                        "description": "Live poultry, that is to say, fowls of the species Gallus domesticus, ducks, geese, turkeys and guinea fowls"
-                    },
-                    {
-                        "value": "0301",
-                        "description": "Live fish"
-                    },
-                    {
-                        "value": "0306",
-                        "description": "Crustaceans, whether in shell or not, live, fresh, chilled, frozen, dried, salted or in brine; smoked crustaceans, whether in shell or not, whether or not cooked before or during the smoking process; crustaceans, in shell, cooked by steaming or by boiling in water, whether or not chilled, frozen, dried, salted or in brine"
-                    },
-                    {
-                        "value": "0307",
-                        "description": "Molluscs, whether in shell or not, live, fresh, chilled, frozen, dried, salted or in brine; smoked molluscs, whether in shell or not, whether or not cooked before or during the smoking process"
-                    },
-                    {
-                        "value": "0407 11 00",
-                        "description": "Of fowls of the species Gallus domesticus"
-                    },
-                    {
-                        "value": "0407 19 11",
-                        "description": "Of turkeys or geese"
-                    },
-                    {
-                        "value": "0407 19 19",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "0407 19 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "0511 10 00",
-                        "description": "Bovine semen"
-                    },
-                    {
-                        "value": "0511 91 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "0511 99 85",
-                        "description": "Other"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "AGRICULTURAL_PRODUCTION",
-                "description": "Supply of goods and services of a kind normally intended for use in agricultural production but excluding capital goods such as machinery or buildings"
-            },
-            "comment": "Animals for fattening include domestic animals, normally intended for reproduction and breeding within livestock activities and aquaculture activities, including rabbits and bees.\n0511 91 90: only inedible fish eggs\nExcept: 0301 11 00, 0301 19 00, eggs for hatching ornamental birds"
-        },
-        {
-            "memberState": "SI",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 9.5
-            },
-            "situationOn": "2026-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "0601",
-                        "description": "Bulbs, tubers, tuberous roots, corms, crowns and rhizomes, dormant, in growth or in flower; chicory plants and roots other than roots of heading 1212"
-                    },
-                    {
-                        "value": "0602",
-                        "description": "Other live plants (including their roots), cuttings and slips; mushroom spawn"
-                    },
-                    {
-                        "value": "0603",
-                        "description": "Cut flowers and flower buds of a kind suitable for bouquets or for ornamental purposes, fresh, dried, dyed, bleached, impregnated or otherwise prepared"
-                    },
-                    {
-                        "value": "0604",
-                        "description": "Foliage, branches and other parts of plants, without flowers or flower buds, and grasses, mosses and lichens, being goods of a kind suitable for bouquets or for ornamental purposes, fresh, dried, dyed, bleached, impregnated or otherwise prepared"
-                    },
-                    {
-                        "value": "1209",
-                        "description": "Seeds, fruit and spores, of a kind used for sowing"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "PLANT",
-                "description": "Live plants and other floricultural products, including bulbs, cotton, roots and the like, cut flowers and ornamental foliage"
-            },
-            "comment": "1209: only ornamental plant seeds"
-        },
-        {
-            "memberState": "SI",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 9.5
-            },
-            "situationOn": "2026-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
                         "value": "0602 10",
                         "description": "Unrooted cuttings and slips"
                     },
@@ -1140,6 +1371,44 @@
                 "description": "Supply of goods and services of a kind normally intended for use in agricultural production but excluding capital goods such as machinery or buildings"
             },
             "comment": "Seeds and seedlings of agricultural and forestry plants placed on the market in accordance with the regulations governing the trade in seeds and seedlings.\nExcept: 1209 30 00, 1209 99 91"
+        },
+        {
+            "memberState": "SI",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 9.5
+            },
+            "situationOn": "2026-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "0601",
+                        "description": "Bulbs, tubers, tuberous roots, corms, crowns and rhizomes, dormant, in growth or in flower; chicory plants and roots other than roots of heading 1212"
+                    },
+                    {
+                        "value": "0602",
+                        "description": "Other live plants (including their roots), cuttings and slips; mushroom spawn"
+                    },
+                    {
+                        "value": "0603",
+                        "description": "Cut flowers and flower buds of a kind suitable for bouquets or for ornamental purposes, fresh, dried, dyed, bleached, impregnated or otherwise prepared"
+                    },
+                    {
+                        "value": "0604",
+                        "description": "Foliage, branches and other parts of plants, without flowers or flower buds, and grasses, mosses and lichens, being goods of a kind suitable for bouquets or for ornamental purposes, fresh, dried, dyed, bleached, impregnated or otherwise prepared"
+                    },
+                    {
+                        "value": "1209",
+                        "description": "Seeds, fruit and spores, of a kind used for sowing"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "PLANT",
+                "description": "Live plants and other floricultural products, including bulbs, cotton, roots and the like, cut flowers and ornamental foliage"
+            },
+            "comment": "1209: only ornamental plant seeds"
         },
         {
             "memberState": "SI",
@@ -1461,108 +1730,15 @@
             "situationOn": "2026-01-01+01:00",
             "cnCodes": {
                 "code": {
-                    "value": "3926 90 97",
-                    "description": "Other"
+                    "value": "9021",
+                    "description": "Orthopaedic appliances, including crutches, surgical belts and trusses; splints and other fracture appliances; artificial parts of the body; hearing aids and other appliances which are worn or carried, or implanted in the body, to compensate for a defect or disability"
                 }
             },
             "category": {
                 "identifier": "MEDICAL_EQUIPMENT",
                 "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
             },
-            "comment": "Breast prosthesis"
-        },
-        {
-            "memberState": "SI",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 9.5
-            },
-            "situationOn": "2026-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "3926 90 97",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "8428 90 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "8712 00 70",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "9401",
-                        "description": "Seats (other than those of heading 9402), whether or not convertible into beds, and parts thereof"
-                    },
-                    {
-                        "value": "9506",
-                        "description": "Articles and equipment for general physical exercise, gymnastics, athletics, other sports (including table tennis) or outdoor games, not specified or included elsewhere in this chapter; swimming pools and paddling pools"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "MEDICAL_EQUIPMENT",
-                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
-            },
-            "comment": "Children's tricycle for children with motor impairments, wooden chair for children with motor impairment; therapeutic rollers, therapeutic balls, therapeutic exercise boards and therapeutic pillows for children with motor impairments; room lift and bathroom lift"
-        },
-        {
-            "memberState": "SI",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 9.5
-            },
-            "situationOn": "2026-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "4203 29 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "6115",
-                        "description": "Pantyhose, tights, stockings, socks and other hosiery, including graduated compression hosiery (for example, stockings for varicose veins) and footwear without applied soles, knitted or crocheted"
-                    },
-                    {
-                        "value": "6216 00 00",
-                        "description": "Gloves, mittens and mitts"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "MEDICAL_EQUIPMENT",
-                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
-            },
-            "comment": "Trolley-driving gloves: stump covers, therapeutic compression stockings if they have a compression ratio of 18 mmHg or more"
-        },
-        {
-            "memberState": "SI",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 9.5
-            },
-            "situationOn": "2026-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "5805 00 00",
-                        "description": "Hand-woven tapestries of the type Gobelins, Flanders, Aubusson, Beauvais and the like, and needle-worked tapestries (for example, petit point, cross stitch), whether or not made up"
-                    },
-                    {
-                        "value": "6304",
-                        "description": "Other furnishing articles, excluding those of heading 9404"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "TAPESTRIES",
-                "description": "Tapestries (CN code 5805 00 00) and wall textiles (CN code 6304 00 00) made by hand from original designs provided by artists, provided that there are not more than eight copies of each"
-            }
+            "comment": "Orthopaedic appliances, including crutches, surgical and hernia belts; braces and other fracture\naids; artificial body parts; hearing aids and other appliances worn on the body or incorporated into the body to remedy a defect or disability"
         },
         {
             "memberState": "SI",
@@ -1589,6 +1765,68 @@
                 "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
             },
             "comment": "Custom-made orthopaedic shoes and temporary shoes intended for use after major operations on the feet"
+        },
+        {
+            "memberState": "SI",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 9.5
+            },
+            "situationOn": "2026-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "8413",
+                        "description": "Pumps for liquids, whether or not fitted with a measuring device; liquid elevators"
+                    },
+                    {
+                        "value": "8543 70 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "9018 19",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "9018 31 10",
+                        "description": "Of plastics"
+                    },
+                    {
+                        "value": "9018 31 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "9018 32 10",
+                        "description": "Tubular metal needles"
+                    },
+                    {
+                        "value": "9018 39 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "9018 90 84",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "9021 90 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "9027",
+                        "description": "Instruments and apparatus for physical or chemical analysis (for example, polarimeters, refractometers, spectrometers, gas or smoke analysis apparatus); instruments and apparatus for measuring or checking viscosity, porosity, expansion, surface tension or the like; instruments and apparatus for measuring or checking quantities of heat, sound or light (including exposure meters); microtomes"
+                    },
+                    {
+                        "value": "3822 19 00",
+                        "description": "Other"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "MEDICAL_EQUIPMENT",
+                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
+            },
+            "comment": "Blood glucose meters and continuous glucose meters, parts and accessories; diagnostic strips meters; sensors  transmitters for glucose meters; test strips with reagent ; mechanical injectors; needles for injector; trigger device with attached lancet; device for inserting sensors; disposable syringe, needles; diagnostic scanning tapes and tests; lancet; insulin pump, reservoir pump; infusion set for insulin pump; threaded push rod; puncture set; pumps as part of an insulin dosing device"
         },
         {
             "memberState": "SI",
@@ -1671,48 +1909,24 @@
             "cnCodes": {
                 "code": [
                     {
-                        "value": "8413",
-                        "description": "Pumps for liquids, whether or not fitted with a measuring device; liquid elevators"
-                    },
-                    {
-                        "value": "8543 70 90",
+                        "value": "3926 90 97",
                         "description": "Other"
                     },
                     {
-                        "value": "9018 19",
+                        "value": "8428 90 90",
                         "description": "Other"
                     },
                     {
-                        "value": "9018 31 10",
-                        "description": "Of plastics"
-                    },
-                    {
-                        "value": "9018 31 90",
+                        "value": "8712 00 70",
                         "description": "Other"
                     },
                     {
-                        "value": "9018 32 10",
-                        "description": "Tubular metal needles"
+                        "value": "9401",
+                        "description": "Seats (other than those of heading 9402), whether or not convertible into beds, and parts thereof"
                     },
                     {
-                        "value": "9018 39 00",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "9018 90 84",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "9021 90 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "9027",
-                        "description": "Instruments and apparatus for physical or chemical analysis (for example, polarimeters, refractometers, spectrometers, gas or smoke analysis apparatus); instruments and apparatus for measuring or checking viscosity, porosity, expansion, surface tension or the like; instruments and apparatus for measuring or checking quantities of heat, sound or light (including exposure meters); microtomes"
-                    },
-                    {
-                        "value": "3822 19 00",
-                        "description": "Other"
+                        "value": "9506",
+                        "description": "Articles and equipment for general physical exercise, gymnastics, athletics, other sports (including table tennis) or outdoor games, not specified or included elsewhere in this chapter; swimming pools and paddling pools"
                     }
                 ]
             },
@@ -1720,33 +1934,7 @@
                 "identifier": "MEDICAL_EQUIPMENT",
                 "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
             },
-            "comment": "Blood glucose meters and continuous glucose meters, parts and accessories; diagnostic strips meters; sensors  transmitters for glucose meters; test strips with reagent ; mechanical injectors; needles for injector; trigger device with attached lancet; device for inserting sensors; disposable syringe, needles; diagnostic scanning tapes and tests; lancet; insulin pump, reservoir pump; infusion set for insulin pump; threaded push rod; puncture set; pumps as part of an insulin dosing device"
-        },
-        {
-            "memberState": "SI",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 9.5
-            },
-            "situationOn": "2026-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "8713",
-                        "description": "Carriages for disabled persons, whether or not motorised or otherwise mechanically propelled"
-                    },
-                    {
-                        "value": "8714 20 00",
-                        "description": "Of carriages for disabled persons"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "MEDICAL_EQUIPMENT",
-                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
-            },
-            "comment": "Comments:\nIncluding: parts and accessories of the products if they are classified under the same tariff code as the product and the maintenance and repair of the products\nExcept: please see Article 50 of the Rules on the implementation of the Valued Added Tax Act\n\nWheelchairs and parts and accessories for wheelchairs"
+            "comment": "Children's tricycle for children with motor impairments, wooden chair for children with motor impairment; therapeutic rollers, therapeutic balls, therapeutic exercise boards and therapeutic pillows for children with motor impairments; room lift and bathroom lift"
         },
         {
             "memberState": "SI",
@@ -1758,7 +1946,7 @@
             "situationOn": "2026-01-01+01:00",
             "cnCodes": {
                 "code": {
-                    "value": "9018 39 00",
+                    "value": "3926 90 97",
                     "description": "Other"
                 }
             },
@@ -1766,7 +1954,7 @@
                 "identifier": "MEDICAL_EQUIPMENT",
                 "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
             },
-            "comment": "Probes (rectal, duodenal, nutritional, and gastric), cannulas and catheters, including accessories and parts suitable for use solely with these products"
+            "comment": "Breast prosthesis"
         },
         {
             "memberState": "SI",
@@ -1776,17 +1964,47 @@
                 "value": 9.5
             },
             "situationOn": "2026-01-01+01:00",
-            "cnCodes": {
-                "code": {
-                    "value": "9018 90 75",
-                    "description": "Apparatus for nerve stimulation"
-                }
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "01.61",
+                        "description": "Support services to crop production"
+                    },
+                    {
+                        "value": "01.62",
+                        "description": "Support services to animal production; services of preparing farmyard manure and slurry for energy production"
+                    },
+                    {
+                        "value": "01.63",
+                        "description": "Post-harvest crop services and seed processing services of propagation; services of preparing plant silages for energy production"
+                    },
+                    {
+                        "value": "02.1",
+                        "description": "Forest trees and nursery services"
+                    },
+                    {
+                        "value": "02.2",
+                        "description": "Wood in the rough"
+                    },
+                    {
+                        "value": "02.4",
+                        "description": "Support services to forestry"
+                    },
+                    {
+                        "value": "03.0",
+                        "description": "Fish and other fishing products; aquaculture products; support services to fishing"
+                    },
+                    {
+                        "value": "75.0",
+                        "description": "Veterinary services"
+                    }
+                ]
             },
             "category": {
-                "identifier": "MEDICAL_EQUIPMENT",
-                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
+                "identifier": "AGRICULTURAL_PRODUCTION",
+                "description": "Supply of goods and services of a kind normally intended for use in agricultural production but excluding capital goods such as machinery or buildings"
             },
-            "comment": "Electrical stimulators for faecal and urinary incontinence and musculoskeletal stimulators"
+            "comment": "Crop production services, crop preparation services, seed treatment services, livestock services, forestry services except forestry consultancy, forest cultivation and protection services, and logging services, services for fisheries and aquaculture, veterinary services for fattening animals"
         },
         {
             "memberState": "SI",
@@ -1799,12 +2017,16 @@
             "cnCodes": {
                 "code": [
                     {
-                        "value": "9018 90 84",
+                        "value": "4203 29 90",
                         "description": "Other"
                     },
                     {
-                        "value": "9019 20",
-                        "description": "Ozone therapy, oxygen therapy, aerosol therapy, artificial respiration or other therapeutic respiration apparatus"
+                        "value": "6115",
+                        "description": "Pantyhose, tights, stockings, socks and other hosiery, including graduated compression hosiery (for example, stockings for varicose veins) and footwear without applied soles, knitted or crocheted"
+                    },
+                    {
+                        "value": "6216 00 00",
+                        "description": "Gloves, mittens and mitts"
                     }
                 ]
             },
@@ -1812,7 +2034,7 @@
                 "identifier": "MEDICAL_EQUIPMENT",
                 "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
             },
-            "comment": "Breathing apparatus; maximum expiratory flow meter (PEF) for monitoring lung disease"
+            "comment": "Trolley-driving gloves: stump covers, therapeutic compression stockings if they have a compression ratio of 18 mmHg or more"
         },
         {
             "memberState": "SI",
@@ -1823,16 +2045,21 @@
             },
             "situationOn": "2026-01-01+01:00",
             "cnCodes": {
-                "code": {
-                    "value": "9021",
-                    "description": "Orthopaedic appliances, including crutches, surgical belts and trusses; splints and other fracture appliances; artificial parts of the body; hearing aids and other appliances which are worn or carried, or implanted in the body, to compensate for a defect or disability"
-                }
+                "code": [
+                    {
+                        "value": "5805 00 00",
+                        "description": "Hand-woven tapestries of the type Gobelins, Flanders, Aubusson, Beauvais and the like, and needle-worked tapestries (for example, petit point, cross stitch), whether or not made up"
+                    },
+                    {
+                        "value": "6304",
+                        "description": "Other furnishing articles, excluding those of heading 9404"
+                    }
+                ]
             },
             "category": {
-                "identifier": "MEDICAL_EQUIPMENT",
-                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
-            },
-            "comment": "Orthopaedic appliances, including crutches, surgical and hernia belts; braces and other fracture\naids; artificial body parts; hearing aids and other appliances worn on the body or incorporated into the body to remedy a defect or disability"
+                "identifier": "TAPESTRIES",
+                "description": "Tapestries (CN code 5805 00 00) and wall textiles (CN code 6304 00 00) made by hand from original designs provided by artists, provided that there are not more than eight copies of each"
+            }
         },
         {
             "memberState": "SI",
@@ -1959,6 +2186,32 @@
             },
             "situationOn": "2026-01-01+01:00",
             "cnCodes": {
+                "code": [
+                    {
+                        "value": "8713",
+                        "description": "Carriages for disabled persons, whether or not motorised or otherwise mechanically propelled"
+                    },
+                    {
+                        "value": "8714 20 00",
+                        "description": "Of carriages for disabled persons"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "MEDICAL_EQUIPMENT",
+                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
+            },
+            "comment": "Comments:\nIncluding: parts and accessories of the products if they are classified under the same tariff code as the product and the maintenance and repair of the products\nExcept: please see Article 50 of the Rules on the implementation of the Valued Added Tax Act\n\nWheelchairs and parts and accessories for wheelchairs"
+        },
+        {
+            "memberState": "SI",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 9.5
+            },
+            "situationOn": "2026-01-01+01:00",
+            "cnCodes": {
                 "code": {
                     "value": "9703 00 00",
                     "description": "Original sculptures and statuary, in any material"
@@ -2035,47 +2288,23 @@
                 "value": 9.5
             },
             "situationOn": "2026-01-01+01:00",
-            "cpaCodes": {
+            "cnCodes": {
                 "code": [
                     {
-                        "value": "01.61",
-                        "description": "Support services to crop production"
+                        "value": "9018 90 84",
+                        "description": "Other"
                     },
                     {
-                        "value": "01.62",
-                        "description": "Support services to animal production; services of preparing farmyard manure and slurry for energy production"
-                    },
-                    {
-                        "value": "01.63",
-                        "description": "Post-harvest crop services and seed processing services of propagation; services of preparing plant silages for energy production"
-                    },
-                    {
-                        "value": "02.1",
-                        "description": "Forest trees and nursery services"
-                    },
-                    {
-                        "value": "02.2",
-                        "description": "Wood in the rough"
-                    },
-                    {
-                        "value": "02.4",
-                        "description": "Support services to forestry"
-                    },
-                    {
-                        "value": "03.0",
-                        "description": "Fish and other fishing products; aquaculture products; support services to fishing"
-                    },
-                    {
-                        "value": "75.0",
-                        "description": "Veterinary services"
+                        "value": "9019 20",
+                        "description": "Ozone therapy, oxygen therapy, aerosol therapy, artificial respiration or other therapeutic respiration apparatus"
                     }
                 ]
             },
             "category": {
-                "identifier": "AGRICULTURAL_PRODUCTION",
-                "description": "Supply of goods and services of a kind normally intended for use in agricultural production but excluding capital goods such as machinery or buildings"
+                "identifier": "MEDICAL_EQUIPMENT",
+                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
             },
-            "comment": "Crop production services, crop preparation services, seed treatment services, livestock services, forestry services except forestry consultancy, forest cultivation and protection services, and logging services, services for fisheries and aquaculture, veterinary services for fattening animals"
+            "comment": "Breathing apparatus; maximum expiratory flow meter (PEF) for monitoring lung disease"
         },
         {
             "memberState": "SI",
@@ -2095,69 +2324,6 @@
                 "identifier": "SUPPLY_WATER",
                 "description": "Supply of water"
             }
-        },
-        {
-            "memberState": "SI",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 9.5
-            },
-            "situationOn": "2026-01-01+01:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "37.00",
-                        "description": "Sewerage services; sewage sludge"
-                    },
-                    {
-                        "value": "38.1",
-                        "description": "Waste collection services"
-                    },
-                    {
-                        "value": "38.3",
-                        "description": "Waste disposal services without recovery"
-                    },
-                    {
-                        "value": "81.23",
-                        "description": "Other cleaning services"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "STREET_CLEANING",
-                "description": "Supply of services provided in connection with street cleaning, refuse collection and waste treatment, other than the supply of such services by bodies referred to in Article 13"
-            }
-        },
-        {
-            "memberState": "SI",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 9.5
-            },
-            "situationOn": "2026-01-01+01:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "F",
-                        "description": "CONSTRUCTIONS AND CONSTRUCTION WORKS"
-                    },
-                    {
-                        "value": "68.12.0",
-                        "description": "Development services of building projects; development services of civil engineering projects"
-                    },
-                    {
-                        "value": "81.22.02",
-                        "description": "Specialised cleaning services"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "HOUSING_PROVISION",
-                "description": "Provision, construction, renovation and alteration of housing, as part of a social policy"
-            },
-            "comment": "Housing is part of social policy if it does not exceed 120 m2 in a multi-apartment building or 250 m2 in a single-apartment building, of the usable area of the residential building"
         },
         {
             "memberState": "SI",
@@ -2285,97 +2451,17 @@
                 "value": 9.5
             },
             "situationOn": "2026-01-01+01:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "88.10",
-                        "description": "Social work services without accommodation for older persons or persons with disabilities"
-                    },
-                    {
-                        "value": "88.91",
-                        "description": "Child day-care services"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "DOMESTIC_CARE",
-                "description": "Domestic care services such as home help and care of the young, elderly, sick or disabled"
-            }
-        },
-        {
-            "memberState": "SI",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 9.5
-            },
-            "situationOn": "2026-01-01+01:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "90",
-                        "description": "Arts creation and performing arts services"
-                    },
-                    {
-                        "value": "91",
-                        "description": "Libraries, archives, museums and other cultural services"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "CULTURAL_EVENTS",
-                "description": "Admission to shows, theatres, circuses, fairs, amusement parks, concerts, museums, zoos, cinemas, exhibitions and similar cultural events and facilities"
-            },
-            "comment": "In the VATA-1 and the Rules on the Implementation of VATA-1, there is only a descriptive name of services without exact determination by CPA codes."
-        },
-        {
-            "memberState": "SI",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 9.5
-            },
-            "situationOn": "2026-01-01+01:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "90.01",
-                        "description": "Services of performing artists"
-                    },
-                    {
-                        "value": "90.02",
-                        "description": "Support services to performing arts"
-                    },
-                    {
-                        "value": "90.03.11",
-                        "description": "Services provided by authors, composers, sculptors and other artists, except performing artists"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "WRITERS_SERVICES",
-                "description": "Supply of services by writers, composers and performing artists, or of the royalties due to them"
-            }
-        },
-        {
-            "memberState": "SI",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 9.5
-            },
-            "situationOn": "2026-01-01+01:00",
-            "cpaCodes": {
+            "cnCodes": {
                 "code": {
-                    "value": "93",
-                    "description": "Sporting services and amusement and recreation services"
+                    "value": "9018 39 00",
+                    "description": "Other"
                 }
             },
             "category": {
-                "identifier": "SPORTING_EVENTS",
-                "description": "Admission to sporting events"
+                "identifier": "MEDICAL_EQUIPMENT",
+                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
             },
-            "comment": "In the VATA-1 and the Rules on the Implementation of VATA-1, there is only a descriptive name of services without exact determination by CN and\/or CPA codes."
+            "comment": "Probes (rectal, duodenal, nutritional, and gastric), cannulas and catheters, including accessories and parts suitable for use solely with these products"
         },
         {
             "memberState": "SI",
@@ -2385,103 +2471,17 @@
                 "value": 9.5
             },
             "situationOn": "2026-01-01+01:00",
-            "cpaCodes": {
+            "cnCodes": {
                 "code": {
-                    "value": "95.23",
-                    "description": "Repair and maintenance services of footwear and leather goods"
+                    "value": "9018 90 75",
+                    "description": "Apparatus for nerve stimulation"
                 }
             },
             "category": {
-                "identifier": "SHOES_REPAIR",
-                "description": "Minor repairs of shoes and leather goods"
-            }
-        },
-        {
-            "memberState": "SI",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 9.5
+                "identifier": "MEDICAL_EQUIPMENT",
+                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
             },
-            "situationOn": "2026-01-01+01:00",
-            "cpaCodes": {
-                "code": {
-                    "value": "95.29",
-                    "description": "Repair and maintenance services of other personal and household goods"
-                }
-            },
-            "category": {
-                "identifier": "CLOTHING_REPAIR",
-                "description": "Minor repairs of clothing and household linen (including mending and alteration)"
-            }
-        },
-        {
-            "memberState": "SI",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 9.5
-            },
-            "situationOn": "2026-01-01+01:00",
-            "cpaCodes": {
-                "code": {
-                    "value": "95.29.02",
-                    "description": "Repair and maintenance services of bicycles"
-                }
-            },
-            "category": {
-                "identifier": "BICYCLES_RENTAL",
-                "description": "Rental and repair of bicycles"
-            },
-            "comment": "Only minor bicycle repairs"
-        },
-        {
-            "memberState": "SI",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 9.5
-            },
-            "situationOn": "2026-01-01+01:00",
-            "cpaCodes": {
-                "code": {
-                    "value": "96.21",
-                    "description": "Hairdressing and barber services and human hair, unworked"
-                }
-            },
-            "category": {
-                "identifier": "HAIRDRESSING",
-                "description": "Hairdressing"
-            }
-        },
-        {
-            "memberState": "SI",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 9.5
-            },
-            "situationOn": "2026-01-01+01:00",
-            "cpaCodes": {
-                "code": {
-                    "value": "96.30",
-                    "description": "Funeral and related services"
-                }
-            },
-            "category": {
-                "identifier": "UNDERTAKERS_SERVICES",
-                "description": "Supply of services by undertakers and cremation services, and the supply of goods related thereto"
-            },
-            "comment": "Includes only: burial and cremation; preparing the dead for burial or cremation and embalming, and the services of gravediggers; preparation of funeral and cremation rites; rental of equipped premises and mortuaries; transport of deceased, supply of goods directly related to funeral services, provided by the provider of these services."
-        },
-        {
-            "memberState": "SI",
-            "type": "STANDARD",
-            "rate": {
-                "type": "DEFAULT",
-                "value": 22
-            },
-            "situationOn": "2026-01-01+01:00"
+            "comment": "Electrical stimulators for faecal and urinary incontinence and musculoskeletal stimulators"
         }
     ]
 }
