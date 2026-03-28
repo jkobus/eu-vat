@@ -248,32 +248,6 @@
             "cnCodes": {
                 "code": [
                     {
-                        "value": "0101 21 00",
-                        "description": "Pure-bred breeding animals"
-                    },
-                    {
-                        "value": "0101 29 90",
-                        "description": "Other"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "LIVE_EQUINES",
-                "description": "Live equines and the supply services related to live equines"
-            },
-            "comment": "DL 113\/2024 -live horses intended for purposes other than food for sales that take place by 31 December of the year following the year of birth"
-        },
-        {
-            "memberState": "IT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2026-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
                         "value": "3401 11 00",
                         "description": "For toilet use (including medicated products)"
                     },
@@ -376,6 +350,32 @@
             "cnCodes": {
                 "code": [
                     {
+                        "value": "0101 21 00",
+                        "description": "Pure-bred breeding animals"
+                    },
+                    {
+                        "value": "0101 29 90",
+                        "description": "Other"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "LIVE_EQUINES",
+                "description": "Live equines and the supply services related to live equines"
+            },
+            "comment": "DL 113\/2024 -live horses intended for purposes other than food for sales that take place by 31 December of the year following the year of birth"
+        },
+        {
+            "memberState": "IT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2026-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
                         "value": "3002 90 90",
                         "description": "Other"
                     },
@@ -398,6 +398,110 @@
                 "description": "Pharmaceutical products of a kind normally used for health care, prevention of illness and as treatment for medical and veterinary purposes, including products used for contraception and sanitary protection"
             },
             "comment": "Instrumentation for in vitro diagnostics for COVID-19: 1.1) COVID-19 diagnostic and reactive kits based on immunologic reactions; 1.2) Kit for COVID-19 diagnosis consisting of: vial containing a culture medium for the maintenance of a viral sample and a swab with a cotton tip to collect the sample; 1.3) Instrumentation for sampling. \nThe CN code 3822 19 00 10 is also included."
+        },
+        {
+            "memberState": "IT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2026-01-01+01:00",
+            "cnCodes": {
+                "code": {
+                    "value": "0709 56 00",
+                    "description": "Truffles (Tuber spp.)"
+                }
+            },
+            "category": {
+                "identifier": "FOODSTUFFS",
+                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
+            },
+            "comment": "Fresh or chilled truffles"
+        },
+        {
+            "memberState": "IT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2026-01-01+01:00",
+            "cnCodes": {
+                "code": {
+                    "value": "9027 89 90",
+                    "description": "Other"
+                }
+            },
+            "category": {
+                "identifier": "PHARMACEUTICAL_PRODUCTS",
+                "description": "Pharmaceutical products of a kind normally used for health care, prevention of illness and as treatment for medical and veterinary purposes, including products used for contraception and sanitary protection"
+            },
+            "comment": "Instrumentation for in vitro diagnostics for COVID-19: 1.4) Diagnostic reagents based on the polymerase chain nucleic acid (PCR) test; 1.5) Instruments used in clinical laboratories for in vitro diagnosis.\nThe CN code 3822 19 10 is also included."
+        },
+        {
+            "memberState": "IT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2026-01-01+01:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "50.1",
+                        "description": "Sea and coastal passenger water transport services"
+                    },
+                    {
+                        "value": "50.3",
+                        "description": "Inland passenger water transport services"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "TRANSPORT_PASSENGERS",
+                "description": "Transport of passengers and their accompanying luggage"
+            },
+            "comment": "Passenger transport services provided by means of transport entitled to execute sea, lake, river and lagoon transport services.\nUrban passenger transport service by water with the exception of transport for tourism, cruises and exempt transport."
+        },
+        {
+            "memberState": "IT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2026-01-01+01:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "85.59",
+                        "description": "Other education services n.e.c."
+                    },
+                    {
+                        "value": "86",
+                        "description": "Human health services"
+                    },
+                    {
+                        "value": "87",
+                        "description": "Residential care services"
+                    },
+                    {
+                        "value": "88",
+                        "description": "Social work services without accommodation"
+                    },
+                    {
+                        "value": "94.99.13",
+                        "description": "Special group protection services"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "SOCIAL_WELLBEING",
+                "description": "Supply of goods and services by organisations recognised as being devoted to social wellbeing by Member States and engaged in welfare or social security work"
+            },
+            "comment": "The services referred to in Nos 18), 19), 20), 21) and 27-ter) of Article 10, paragraph 1, rendered in favour of the persons indicated in No 27-ter) by social cooperatives and their consortia; [health services, hospitalization and care services, educational services for children and youth and instruction, services of children's homes, orphanages, kindergartens, retirement homes for the elderly and the like; social and health services, home or outpatient care, community and similar services]."
         },
         {
             "memberState": "IT",
@@ -696,108 +800,6 @@
             "cnCodes": {
                 "code": [
                     {
-                        "value": "1602 10 00",
-                        "description": "Homogenised preparations"
-                    },
-                    {
-                        "value": "1602 20 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "1602 31",
-                        "description": "Of turkeys"
-                    },
-                    {
-                        "value": "1602 32",
-                        "description": "Of fowls of the species Gallus domesticus"
-                    },
-                    {
-                        "value": "1602 39",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "1602 41",
-                        "description": "Hams and cuts thereof"
-                    },
-                    {
-                        "value": "1602 42",
-                        "description": "Shoulders and cuts thereof"
-                    },
-                    {
-                        "value": "1602 49",
-                        "description": "Other, including mixtures"
-                    },
-                    {
-                        "value": "1602 50",
-                        "description": "Of bovine animals"
-                    },
-                    {
-                        "value": "1602 90 10",
-                        "description": "Preparations of blood of any animal"
-                    },
-                    {
-                        "value": "1602 90 51",
-                        "description": "Containing meat or meat offal of domestic swine"
-                    },
-                    {
-                        "value": "1602 90 61",
-                        "description": "Uncooked; mixtures of cooked meat or offal and uncooked meat or offal"
-                    },
-                    {
-                        "value": "1602 90 69",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "1602 90 91",
-                        "description": "Of sheep"
-                    },
-                    {
-                        "value": "1602 90 95",
-                        "description": "Of goats"
-                    },
-                    {
-                        "value": "1602 90 99",
-                        "description": "Other"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "FOODSTUFFS",
-                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
-            },
-            "comment": "Other prepared or preserved meat or meat offal with the exception of goose or duck liver and game"
-        },
-        {
-            "memberState": "IT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 10
-            },
-            "situationOn": "2026-01-01+01:00",
-            "cnCodes": {
-                "code": {
-                    "value": "1603 00",
-                    "description": "Extracts and juices of meat, fish or crustaceans, molluscs or other aquatic invertebrates"
-                }
-            },
-            "category": {
-                "identifier": "FOODSTUFFS",
-                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
-            },
-            "comment": "Meat extracts and sauces and fish extracts"
-        },
-        {
-            "memberState": "IT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 10
-            },
-            "situationOn": "2026-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
                         "value": "1604 11 00",
                         "description": "Salmon"
                     },
@@ -904,508 +906,6 @@
                 "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
             },
             "comment": "Prepared and preserved fish, except caviar and its substitutes; crustaceans and molluscs (including testaceans), excluding lobsters, crawfish and oysters, prepared or preserved.\nThe CN codes 1605 400020, 1605 400030,1605 400040 are included."
-        },
-        {
-            "memberState": "IT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 10
-            },
-            "situationOn": "2026-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "2705 00 00",
-                        "description": "Coal gas, water gas, producer gas and similar gases, other than petroleum gases and other gaseous hydrocarbons"
-                    },
-                    {
-                        "value": "2711",
-                        "description": "Petroleum gases and other gaseous hydrocarbons"
-                    },
-                    {
-                        "value": "2716 00 00",
-                        "description": "Electrical energy"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "FOSSIL_FUEL",
-                "description": "Until 1 January 2030: Fossil fuels"
-            },
-            "comment": "Electricity for domestic use; electricity&gas for use by mining agricultural&manufacturing enterprises including printing publishing&similar enterprises; electricity for irrigation, lifting&water drainage systems used by consorzi di bonifica&irrigation consortia; electricity supplied to wholesale customers referred LD 79\/1999; gas methane gas&liquefied petroleum gases directly in pipes of distribution networks subsequently supplied or for enterprises for production of electricity"
-        },
-        {
-            "memberState": "IT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 10
-            },
-            "situationOn": "2026-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "2709 00",
-                        "description": "Petroleum oils and oils obtained from bituminous minerals, crude"
-                    },
-                    {
-                        "value": "2710",
-                        "description": "Petroleum oils and oils obtained from bituminous minerals, other than crude; preparations not elsewhere specified or included, containing by weight 70 % or more of petroleum oils or of oils obtained from bituminous minerals, these oils being the basic constituents of the preparations; waste oils"
-                    },
-                    {
-                        "value": "2711",
-                        "description": "Petroleum gases and other gaseous hydrocarbons"
-                    },
-                    {
-                        "value": "2713",
-                        "description": "Petroleum coke, petroleum bitumen and other residues of petroleum oils or of oils obtained from bituminous minerals"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "FOSSIL_FUEL",
-                "description": "Until 1 January 2030: Fossil fuels"
-            },
-            "comment": "Crude mineral oils, fuel oils and aromatic extracts used to generate electricity, either directly or indirectly, provided that the installed power is not less than 1 Kw; crude mineral oils, fuel oils (except fluid heating oils) and filter earths remaining from the processing of lubricating oils, containing not more than 45% by weight of petroleum products, for use directly as fuels in boilers and furnaces"
-        },
-        {
-            "memberState": "IT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 10
-            },
-            "situationOn": "2026-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "2709 00",
-                        "description": "Petroleum oils and oils obtained from bituminous minerals, crude"
-                    },
-                    {
-                        "value": "2710",
-                        "description": "Petroleum oils and oils obtained from bituminous minerals, other than crude; preparations not elsewhere specified or included, containing by weight 70 % or more of petroleum oils or of oils obtained from bituminous minerals, these oils being the basic constituents of the preparations; waste oils"
-                    },
-                    {
-                        "value": "2711",
-                        "description": "Petroleum gases and other gaseous hydrocarbons"
-                    },
-                    {
-                        "value": "2713",
-                        "description": "Petroleum coke, petroleum bitumen and other residues of petroleum oils or of oils obtained from bituminous minerals"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "FOSSIL_FUEL",
-                "description": "Until 1 January 2030: Fossil fuels"
-            },
-            "comment": "fuel oils used for direct generation of motive power with fixed engines in industrial and agricultural-industrial establishments, laboratories, construction sites; fuel oils other than special ones intended for transformation into gas to be fed into city distribution networks;"
-        },
-        {
-            "memberState": "IT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 10
-            },
-            "situationOn": "2026-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "2709 00",
-                        "description": "Petroleum oils and oils obtained from bituminous minerals, crude"
-                    },
-                    {
-                        "value": "2710",
-                        "description": "Petroleum oils and oils obtained from bituminous minerals, other than crude; preparations not elsewhere specified or included, containing by weight 70 % or more of petroleum oils or of oils obtained from bituminous minerals, these oils being the basic constituents of the preparations; waste oils"
-                    },
-                    {
-                        "value": "2711",
-                        "description": "Petroleum gases and other gaseous hydrocarbons"
-                    },
-                    {
-                        "value": "2713",
-                        "description": "Petroleum coke, petroleum bitumen and other residues of petroleum oils or of oils obtained from bituminous minerals"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "FOSSIL_FUEL",
-                "description": "Until 1 January 2030: Fossil fuels"
-            },
-            "comment": "unrefined mineral oils from the primary distillation of crude natural oil or from the processing in establishments that transform mineral oils into chemical products of a different nature, with a flash point (closed cup test) below 55°C, in which the distillate at 225°C is less than 95% by volume and at 300°C is at least 90% by volume, intended for transformation into gas to be fed into city distribution networks;"
-        },
-        {
-            "memberState": "IT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 10
-            },
-            "situationOn": "2026-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "2709 00",
-                        "description": "Petroleum oils and oils obtained from bituminous minerals, crude"
-                    },
-                    {
-                        "value": "2710",
-                        "description": "Petroleum oils and oils obtained from bituminous minerals, other than crude; preparations not elsewhere specified or included, containing by weight 70 % or more of petroleum oils or of oils obtained from bituminous minerals, these oils being the basic constituents of the preparations; waste oils"
-                    },
-                    {
-                        "value": "2711",
-                        "description": "Petroleum gases and other gaseous hydrocarbons"
-                    },
-                    {
-                        "value": "2713",
-                        "description": "Petroleum coke, petroleum bitumen and other residues of petroleum oils or of oils obtained from bituminous minerals"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "FOSSIL_FUEL",
-                "description": "Until 1 January 2030: Fossil fuels"
-            },
-            "comment": "Petroleum products for agricultural use and for inland fishing."
-        },
-        {
-            "memberState": "IT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 10
-            },
-            "situationOn": "2026-01-01+01:00",
-            "cnCodes": {
-                "code": {
-                    "value": "2716 00 00",
-                    "description": "Electrical energy"
-                }
-            },
-            "category": {
-                "identifier": "SUPPLY_ELECTRICITY",
-                "description": "Supply of electricity"
-            },
-            "comment": "Electricity for household use; electricity for use by mining, agricultural and manufacturing companies including printing, publishing and similar businesses; electricity for the operation of irrigation, lifting and drainage systems, used by reclamation and irrigation consortia; electricity supplied to wholesale customers referred to in Article 2, paragraph 5, of Legislative Decree No 79.\n2716 electricity for the uses indicated above."
-        },
-        {
-            "memberState": "IT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 10
-            },
-            "situationOn": "2026-01-01+01:00",
-            "cnCodes": {
-                "code": {
-                    "value": "2916 19 95",
-                    "description": "Other"
-                }
-            },
-            "category": {
-                "identifier": "FOODSTUFFS",
-                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
-            },
-            "comment": "Products of mineral and chemical-industrial origin and additives for animal consumption.\n1301 20, 1301 90, 1302 20, 1302 31 if additives for animal consumption."
-        },
-        {
-            "memberState": "IT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 10
-            },
-            "situationOn": "2026-01-01+01:00",
-            "cnCodes": {
-                "code": {
-                    "value": "2923 20 00",
-                    "description": "Lecithins and other phosphoaminolipids"
-                }
-            },
-            "category": {
-                "identifier": "FOODSTUFFS",
-                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
-            },
-            "comment": "lecithins intended for human or animal consumption.\n2923 20 if for human or animal consumption"
-        },
-        {
-            "memberState": "IT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "SUPER_REDUCED_RATE",
-                "value": 4
-            },
-            "situationOn": "2026-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "1001",
-                        "description": "Wheat and meslin"
-                    },
-                    {
-                        "value": "1002",
-                        "description": "Rye"
-                    },
-                    {
-                        "value": "1003 90 00",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "1004 90 00",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "1006 10",
-                        "description": "Rice in the husk (paddy or rough)"
-                    },
-                    {
-                        "value": "1006 20",
-                        "description": "Husked (brown) rice"
-                    },
-                    {
-                        "value": "1006 30",
-                        "description": "Semi-milled or wholly milled rice, whether or not polished or glazed"
-                    },
-                    {
-                        "value": "1006 40 00",
-                        "description": "Broken rice"
-                    },
-                    {
-                        "value": "1007 90 00",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "1008 10 00",
-                        "description": "Buckwheat"
-                    },
-                    {
-                        "value": "1008 29 00",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "1008 30 00",
-                        "description": "Canary seed"
-                    },
-                    {
-                        "value": "1008 40 00",
-                        "description": "Fonio (Digitaria spp.)"
-                    },
-                    {
-                        "value": "1008 50 00",
-                        "description": "Quinoa (Chenopodium quinoa)"
-                    },
-                    {
-                        "value": "1008 60 00",
-                        "description": "Triticale"
-                    },
-                    {
-                        "value": "1008 90 00",
-                        "description": "Other cereals"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "FOODSTUFFS",
-                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
-            },
-            "comment": "Wheat, including rye, rye; maize; rice; paddy rice; barley, excluding that intended for sowing; oats, buckwheat, millet, canary seed, sorghum and other minor cereals, intended for zootechnical use\n1004 90  if intended for zootechnical use, 1006 20 (rice, not broken or crushed, intended for zootechnical use), 1006 30,1006 40, 1007 90, 1008 10, 1008 29 00, 1008 30, 100840,100850, 1008 60, 1008 90 if intended for zootechnical use"
-        },
-        {
-            "memberState": "IT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "SUPER_REDUCED_RATE",
-                "value": 4
-            },
-            "situationOn": "2026-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "1006 20",
-                        "description": "Husked (brown) rice"
-                    },
-                    {
-                        "value": "1006 30",
-                        "description": "Semi-milled or wholly milled rice, whether or not polished or glazed"
-                    },
-                    {
-                        "value": "1006 40 00",
-                        "description": "Broken rice"
-                    },
-                    {
-                        "value": "1104 12 10",
-                        "description": "Rolled"
-                    },
-                    {
-                        "value": "1104 19 10",
-                        "description": "Of wheat"
-                    },
-                    {
-                        "value": "1104 19 30",
-                        "description": "Of rye"
-                    },
-                    {
-                        "value": "1104 19 50",
-                        "description": "Of maize"
-                    },
-                    {
-                        "value": "1104 19 61",
-                        "description": "Rolled"
-                    },
-                    {
-                        "value": "1104 19 99",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "1104 22 95",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "1104 23 98",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "1104 29 08",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "1104 29 51",
-                        "description": "Of wheat"
-                    },
-                    {
-                        "value": "1104 29 55",
-                        "description": "Of rye"
-                    },
-                    {
-                        "value": "1104 29 59",
-                        "description": "Other"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "FOODSTUFFS",
-                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
-            },
-            "comment": "Wheat, maize, rye and barley, broken or crushed; rice, oats and other minor cereals, broken or crushed, intended for zootechnical use.\n1006 20, 1006 30, 1006 40 rice if broken or crushed, for zootechnical use;  1104 1910, 1104 1930, 1104 1950, 1104 2398, 1104 2908 if broken or crushed; 1104 1210, 1104 2295, 1104 2959, 1104 1999 if broken or crushed, intended for zootechnical use."
-        },
-        {
-            "memberState": "IT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "SUPER_REDUCED_RATE",
-                "value": 4
-            },
-            "situationOn": "2026-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "9001 30 00",
-                        "description": "Contact lenses"
-                    },
-                    {
-                        "value": "9001 40 20",
-                        "description": "Not for the correction of vision"
-                    },
-                    {
-                        "value": "9001 40 41",
-                        "description": "Single focal"
-                    },
-                    {
-                        "value": "9001 40 49",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "9001 40 80",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "9001 50 41",
-                        "description": "Single focal"
-                    },
-                    {
-                        "value": "9001 50 49",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "9001 50 80",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "9001 90 00",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "9004",
-                        "description": "Spectacles, goggles and the like, corrective, protective or other"
-                    },
-                    {
-                        "value": "9404 21",
-                        "description": "Of cellular rubber or plastics, whether or not covered"
-                    },
-                    {
-                        "value": "9404 29",
-                        "description": "Of other materials"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "MEDICAL_EQUIPMENT",
-                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
-            },
-            "comment": "Prostheses and aids related to permanent functional impairments.\n9001 30, 9001 4020, 900190, 9001 4020, 90014080, 90015049, 90015080, 9004(corrective glasses), 9404 21 e 9404 29 if prostheses and aids related to permanent functional."
-        },
-        {
-            "memberState": "IT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "SUPER_REDUCED_RATE",
-                "value": 4
-            },
-            "situationOn": "2026-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "2804 30 00",
-                        "description": "Nitrogen"
-                    },
-                    {
-                        "value": "2804 40 00",
-                        "description": "Oxygen"
-                    },
-                    {
-                        "value": "9018 90 30",
-                        "description": "Renal dialysis equipment (artificial kidneys, kidney machines and dialysers)"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "MEDICAL_EQUIPMENT",
-                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
-            },
-            "comment": "Gas for therapeutic use; artificial kidneys"
-        },
-        {
-            "memberState": "IT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "SUPER_REDUCED_RATE",
-                "value": 4
-            },
-            "situationOn": "2026-01-01+01:00",
-            "cnCodes": {
-                "code": {
-                    "value": "9021",
-                    "description": "Orthopaedic appliances, including crutches, surgical belts and trusses; splints and other fracture appliances; artificial parts of the body; hearing aids and other appliances which are worn or carried, or implanted in the body, to compensate for a defect or disability"
-                }
-            },
-            "category": {
-                "identifier": "MEDICAL_EQUIPMENT",
-                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
-            },
-            "comment": "Orthopedic appliances (including medical-surgical belts); fracture objects and appliances (showers, splints and the like); objects and apparatus of dental prostheses, ophthalmology and others; apparatus to facilitate hearing for the deaf and other apparatus to be held in the hand, to be worn on the person or to be inserted into the body, to compensate for a deficiency or infirmity."
         },
         {
             "memberState": "IT",
@@ -1590,6 +1090,88 @@
             "cnCodes": {
                 "code": [
                     {
+                        "value": "1001",
+                        "description": "Wheat and meslin"
+                    },
+                    {
+                        "value": "1002",
+                        "description": "Rye"
+                    },
+                    {
+                        "value": "1003 90 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "1004 90 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "1006 10",
+                        "description": "Rice in the husk (paddy or rough)"
+                    },
+                    {
+                        "value": "1006 20",
+                        "description": "Husked (brown) rice"
+                    },
+                    {
+                        "value": "1006 30",
+                        "description": "Semi-milled or wholly milled rice, whether or not polished or glazed"
+                    },
+                    {
+                        "value": "1006 40 00",
+                        "description": "Broken rice"
+                    },
+                    {
+                        "value": "1007 90 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "1008 10 00",
+                        "description": "Buckwheat"
+                    },
+                    {
+                        "value": "1008 29 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "1008 30 00",
+                        "description": "Canary seed"
+                    },
+                    {
+                        "value": "1008 40 00",
+                        "description": "Fonio (Digitaria spp.)"
+                    },
+                    {
+                        "value": "1008 50 00",
+                        "description": "Quinoa (Chenopodium quinoa)"
+                    },
+                    {
+                        "value": "1008 60 00",
+                        "description": "Triticale"
+                    },
+                    {
+                        "value": "1008 90 00",
+                        "description": "Other cereals"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "FOODSTUFFS",
+                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
+            },
+            "comment": "Wheat, including rye, rye; maize; rice; paddy rice; barley, excluding that intended for sowing; oats, buckwheat, millet, canary seed, sorghum and other minor cereals, intended for zootechnical use\n1004 90  if intended for zootechnical use, 1006 20 (rice, not broken or crushed, intended for zootechnical use), 1006 30,1006 40, 1007 90, 1008 10, 1008 29 00, 1008 30, 100840,100850, 1008 60, 1008 90 if intended for zootechnical use"
+        },
+        {
+            "memberState": "IT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "SUPER_REDUCED_RATE",
+                "value": 4
+            },
+            "situationOn": "2026-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
                         "value": "1101 00",
                         "description": "Wheat or meslin flour"
                     },
@@ -1632,6 +1214,72 @@
                 "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
             },
             "comment": "Flour and groats of wheat, maize and rye; barley flours; oat flours, rice flours and other minor cereals intended for zootechnical use.\n1102 9030, 1102 9050, 1102 9090 if intended for zootechnical use.\nThe reduced rate of 4% applies also to the following item: 1103 192090"
+        },
+        {
+            "memberState": "IT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "SUPER_REDUCED_RATE",
+                "value": 4
+            },
+            "situationOn": "2026-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "9001 30 00",
+                        "description": "Contact lenses"
+                    },
+                    {
+                        "value": "9001 40 20",
+                        "description": "Not for the correction of vision"
+                    },
+                    {
+                        "value": "9001 40 41",
+                        "description": "Single focal"
+                    },
+                    {
+                        "value": "9001 40 49",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "9001 40 80",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "9001 50 41",
+                        "description": "Single focal"
+                    },
+                    {
+                        "value": "9001 50 49",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "9001 50 80",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "9001 90 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "9004",
+                        "description": "Spectacles, goggles and the like, corrective, protective or other"
+                    },
+                    {
+                        "value": "9404 21",
+                        "description": "Of cellular rubber or plastics, whether or not covered"
+                    },
+                    {
+                        "value": "9404 29",
+                        "description": "Of other materials"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "MEDICAL_EQUIPMENT",
+                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
+            },
+            "comment": "Prostheses and aids related to permanent functional impairments.\n9001 30, 9001 4020, 900190, 9001 4020, 90014080, 90015049, 90015080, 9004(corrective glasses), 9404 21 e 9404 29 if prostheses and aids related to permanent functional."
         },
         {
             "memberState": "IT",
@@ -2214,6 +1862,84 @@
                 "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
             },
             "comment": "Other animal fats and oils intended for animal nutrition; crude vegetable oils intended for human or animal consumption.\n1506 if for human or animal consumption; 15071090, 15081090,15111090,15121191, 15121199,15122190,15131191,15131199,1532130,15132190, 15141190,15149190,151511, 15152190,15153090,15155019,15159011,15159029,15159051,15159059 raw, if for human or animal consumption."
+        },
+        {
+            "memberState": "IT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "SUPER_REDUCED_RATE",
+                "value": 4
+            },
+            "situationOn": "2026-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "1006 20",
+                        "description": "Husked (brown) rice"
+                    },
+                    {
+                        "value": "1006 30",
+                        "description": "Semi-milled or wholly milled rice, whether or not polished or glazed"
+                    },
+                    {
+                        "value": "1006 40 00",
+                        "description": "Broken rice"
+                    },
+                    {
+                        "value": "1104 12 10",
+                        "description": "Rolled"
+                    },
+                    {
+                        "value": "1104 19 10",
+                        "description": "Of wheat"
+                    },
+                    {
+                        "value": "1104 19 30",
+                        "description": "Of rye"
+                    },
+                    {
+                        "value": "1104 19 50",
+                        "description": "Of maize"
+                    },
+                    {
+                        "value": "1104 19 61",
+                        "description": "Rolled"
+                    },
+                    {
+                        "value": "1104 19 99",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "1104 22 95",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "1104 23 98",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "1104 29 08",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "1104 29 51",
+                        "description": "Of wheat"
+                    },
+                    {
+                        "value": "1104 29 55",
+                        "description": "Of rye"
+                    },
+                    {
+                        "value": "1104 29 59",
+                        "description": "Other"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "FOODSTUFFS",
+                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
+            },
+            "comment": "Wheat, maize, rye and barley, broken or crushed; rice, oats and other minor cereals, broken or crushed, intended for zootechnical use.\n1006 20, 1006 30, 1006 40 rice if broken or crushed, for zootechnical use;  1104 1910, 1104 1930, 1104 1950, 1104 2398, 1104 2908 if broken or crushed; 1104 1210, 1104 2295, 1104 2959, 1104 1999 if broken or crushed, intended for zootechnical use."
         },
         {
             "memberState": "IT",
@@ -2813,110 +2539,6 @@
             "type": "REDUCED",
             "rate": {
                 "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2026-01-01+01:00",
-            "cnCodes": {
-                "code": {
-                    "value": "0709 56 00",
-                    "description": "Truffles (Tuber spp.)"
-                }
-            },
-            "category": {
-                "identifier": "FOODSTUFFS",
-                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
-            },
-            "comment": "Fresh or chilled truffles"
-        },
-        {
-            "memberState": "IT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2026-01-01+01:00",
-            "cnCodes": {
-                "code": {
-                    "value": "9027 89 90",
-                    "description": "Other"
-                }
-            },
-            "category": {
-                "identifier": "PHARMACEUTICAL_PRODUCTS",
-                "description": "Pharmaceutical products of a kind normally used for health care, prevention of illness and as treatment for medical and veterinary purposes, including products used for contraception and sanitary protection"
-            },
-            "comment": "Instrumentation for in vitro diagnostics for COVID-19: 1.4) Diagnostic reagents based on the polymerase chain nucleic acid (PCR) test; 1.5) Instruments used in clinical laboratories for in vitro diagnosis.\nThe CN code 3822 19 10 is also included."
-        },
-        {
-            "memberState": "IT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2026-01-01+01:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "50.1",
-                        "description": "Sea and coastal passenger water transport services"
-                    },
-                    {
-                        "value": "50.3",
-                        "description": "Inland passenger water transport services"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "TRANSPORT_PASSENGERS",
-                "description": "Transport of passengers and their accompanying luggage"
-            },
-            "comment": "Passenger transport services provided by means of transport entitled to execute sea, lake, river and lagoon transport services.\nUrban passenger transport service by water with the exception of transport for tourism, cruises and exempt transport."
-        },
-        {
-            "memberState": "IT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2026-01-01+01:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "85.59",
-                        "description": "Other education services n.e.c."
-                    },
-                    {
-                        "value": "86",
-                        "description": "Human health services"
-                    },
-                    {
-                        "value": "87",
-                        "description": "Residential care services"
-                    },
-                    {
-                        "value": "88",
-                        "description": "Social work services without accommodation"
-                    },
-                    {
-                        "value": "94.99.13",
-                        "description": "Special group protection services"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "SOCIAL_WELLBEING",
-                "description": "Supply of goods and services by organisations recognised as being devoted to social wellbeing by Member States and engaged in welfare or social security work"
-            },
-            "comment": "The services referred to in Nos 18), 19), 20), 21) and 27-ter) of Article 10, paragraph 1, rendered in favour of the persons indicated in No 27-ter) by social cooperatives and their consortia; [health services, hospitalization and care services, educational services for children and youth and instruction, services of children's homes, orphanages, kindergartens, retirement homes for the elderly and the like; social and health services, home or outpatient care, community and similar services]."
-        },
-        {
-            "memberState": "IT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
                 "value": 10
             },
             "situationOn": "2026-01-01+01:00",
@@ -3482,36 +3104,6 @@
             },
             "situationOn": "2026-01-01+01:00",
             "cnCodes": {
-                "code": [
-                    {
-                        "value": "0102",
-                        "description": "Live bovine animals"
-                    },
-                    {
-                        "value": "0103",
-                        "description": "Live swine"
-                    },
-                    {
-                        "value": "0104",
-                        "description": "Live sheep and goats"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "FOODSTUFFS",
-                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
-            },
-            "comment": "live bovine animals, including animals of the genus buffalo, swine, sheep and goats"
-        },
-        {
-            "memberState": "IT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 10
-            },
-            "situationOn": "2026-01-01+01:00",
-            "cnCodes": {
                 "code": {
                     "value": "0806 10 90",
                     "description": "Other"
@@ -4040,6 +3632,36 @@
             },
             "situationOn": "2026-01-01+01:00",
             "cnCodes": {
+                "code": [
+                    {
+                        "value": "0102",
+                        "description": "Live bovine animals"
+                    },
+                    {
+                        "value": "0103",
+                        "description": "Live swine"
+                    },
+                    {
+                        "value": "0104",
+                        "description": "Live sheep and goats"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "FOODSTUFFS",
+                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
+            },
+            "comment": "live bovine animals, including animals of the genus buffalo, swine, sheep and goats"
+        },
+        {
+            "memberState": "IT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 10
+            },
+            "situationOn": "2026-01-01+01:00",
+            "cnCodes": {
                 "code": {
                     "value": "0105",
                     "description": "Live poultry, that is to say, fowls of the species Gallus domesticus, ducks, geese, turkeys and guinea fowls"
@@ -4138,72 +3760,6 @@
                 "description": "Supply of goods and services of a kind normally intended for use in agricultural production but excluding capital goods such as machinery or buildings"
             },
             "comment": "Bees and silkworms. The CN code 0106 49 is only for silkworms."
-        },
-        {
-            "memberState": "IT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 10
-            },
-            "situationOn": "2026-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "0201",
-                        "description": "Meat of bovine animals, fresh or chilled"
-                    },
-                    {
-                        "value": "0202",
-                        "description": "Meat of bovine animals, frozen"
-                    },
-                    {
-                        "value": "0203",
-                        "description": "Meat of swine, fresh, chilled or frozen"
-                    },
-                    {
-                        "value": "0204",
-                        "description": "Meat of sheep or goats, fresh, chilled or frozen"
-                    },
-                    {
-                        "value": "0205 00",
-                        "description": "Meat of horses, asses, mules or hinnies, fresh, chilled or frozen"
-                    },
-                    {
-                        "value": "0210 11",
-                        "description": "Hams, shoulders and cuts thereof, with bone in"
-                    },
-                    {
-                        "value": "0210 12",
-                        "description": "Bellies (streaky) and cuts thereof"
-                    },
-                    {
-                        "value": "0210 19",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "0210 20",
-                        "description": "Meat of bovine animals"
-                    },
-                    {
-                        "value": "0210 99 10",
-                        "description": "Of horses, salted, in brine or dried"
-                    },
-                    {
-                        "value": "0210 99 21",
-                        "description": "With bone in"
-                    },
-                    {
-                        "value": "0210 99 29",
-                        "description": "Boneless"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "FOODSTUFFS",
-                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
-            },
-            "comment": "meat and edible parts of  horses, asses, mules and hinnies, bovine animals  (including the buffalo genus), swine, sheep and goats, fresh, chilled, frozen or deep-frozen, salted or in brine, dried or smoked"
         },
         {
             "memberState": "IT",
@@ -4829,6 +4385,102 @@
             "memberState": "IT",
             "type": "REDUCED",
             "rate": {
+                "type": "SUPER_REDUCED_RATE",
+                "value": 4
+            },
+            "situationOn": "2026-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "0405 10",
+                        "description": "Butter"
+                    },
+                    {
+                        "value": "0405 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "0406",
+                        "description": "Cheese and curd"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "FOODSTUFFS",
+                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
+            },
+            "comment": "butter, cheese and dairy products"
+        },
+        {
+            "memberState": "IT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 10
+            },
+            "situationOn": "2026-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "0201",
+                        "description": "Meat of bovine animals, fresh or chilled"
+                    },
+                    {
+                        "value": "0202",
+                        "description": "Meat of bovine animals, frozen"
+                    },
+                    {
+                        "value": "0203",
+                        "description": "Meat of swine, fresh, chilled or frozen"
+                    },
+                    {
+                        "value": "0204",
+                        "description": "Meat of sheep or goats, fresh, chilled or frozen"
+                    },
+                    {
+                        "value": "0205 00",
+                        "description": "Meat of horses, asses, mules or hinnies, fresh, chilled or frozen"
+                    },
+                    {
+                        "value": "0210 11",
+                        "description": "Hams, shoulders and cuts thereof, with bone in"
+                    },
+                    {
+                        "value": "0210 12",
+                        "description": "Bellies (streaky) and cuts thereof"
+                    },
+                    {
+                        "value": "0210 19",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "0210 20",
+                        "description": "Meat of bovine animals"
+                    },
+                    {
+                        "value": "0210 99 10",
+                        "description": "Of horses, salted, in brine or dried"
+                    },
+                    {
+                        "value": "0210 99 21",
+                        "description": "With bone in"
+                    },
+                    {
+                        "value": "0210 99 29",
+                        "description": "Boneless"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "FOODSTUFFS",
+                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
+            },
+            "comment": "meat and edible parts of  horses, asses, mules and hinnies, bovine animals  (including the buffalo genus), swine, sheep and goats, fresh, chilled, frozen or deep-frozen, salted or in brine, dried or smoked"
+        },
+        {
+            "memberState": "IT",
+            "type": "REDUCED",
+            "rate": {
                 "type": "REDUCED_RATE",
                 "value": 10
             },
@@ -5026,36 +4678,6 @@
                 "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
             },
             "comment": "Groats and meal of barley, oats and other minor cereals; hulled, pearled, flaked cereals; germs of cereals also flour"
-        },
-        {
-            "memberState": "IT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "SUPER_REDUCED_RATE",
-                "value": 4
-            },
-            "situationOn": "2026-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "0405 10",
-                        "description": "Butter"
-                    },
-                    {
-                        "value": "0405 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "0406",
-                        "description": "Cheese and curd"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "FOODSTUFFS",
-                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
-            },
-            "comment": "butter, cheese and dairy products"
         },
         {
             "memberState": "IT",
@@ -5538,6 +5160,36 @@
                 "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
             },
             "comment": "Simple feed of vegetable origin; integrated feed containing cereals and\/or related flours and\/or sugar; simple compound feed containing, in excess of 50%, cereals included in this part of the table."
+        },
+        {
+            "memberState": "IT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "SUPER_REDUCED_RATE",
+                "value": 4
+            },
+            "situationOn": "2026-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "2804 30 00",
+                        "description": "Nitrogen"
+                    },
+                    {
+                        "value": "2804 40 00",
+                        "description": "Oxygen"
+                    },
+                    {
+                        "value": "9018 90 30",
+                        "description": "Renal dialysis equipment (artificial kidneys, kidney machines and dialysers)"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "MEDICAL_EQUIPMENT",
+                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
+            },
+            "comment": "Gas for therapeutic use; artificial kidneys"
         },
         {
             "memberState": "IT",
@@ -6422,6 +6074,88 @@
             "cnCodes": {
                 "code": [
                     {
+                        "value": "1602 10 00",
+                        "description": "Homogenised preparations"
+                    },
+                    {
+                        "value": "1602 20 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "1602 31",
+                        "description": "Of turkeys"
+                    },
+                    {
+                        "value": "1602 32",
+                        "description": "Of fowls of the species Gallus domesticus"
+                    },
+                    {
+                        "value": "1602 39",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "1602 41",
+                        "description": "Hams and cuts thereof"
+                    },
+                    {
+                        "value": "1602 42",
+                        "description": "Shoulders and cuts thereof"
+                    },
+                    {
+                        "value": "1602 49",
+                        "description": "Other, including mixtures"
+                    },
+                    {
+                        "value": "1602 50",
+                        "description": "Of bovine animals"
+                    },
+                    {
+                        "value": "1602 90 10",
+                        "description": "Preparations of blood of any animal"
+                    },
+                    {
+                        "value": "1602 90 51",
+                        "description": "Containing meat or meat offal of domestic swine"
+                    },
+                    {
+                        "value": "1602 90 61",
+                        "description": "Uncooked; mixtures of cooked meat or offal and uncooked meat or offal"
+                    },
+                    {
+                        "value": "1602 90 69",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "1602 90 91",
+                        "description": "Of sheep"
+                    },
+                    {
+                        "value": "1602 90 95",
+                        "description": "Of goats"
+                    },
+                    {
+                        "value": "1602 90 99",
+                        "description": "Other"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "FOODSTUFFS",
+                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
+            },
+            "comment": "Other prepared or preserved meat or meat offal with the exception of goose or duck liver and game"
+        },
+        {
+            "memberState": "IT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 10
+            },
+            "situationOn": "2026-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
                         "value": "2705 00 00",
                         "description": "Coal gas, water gas, producer gas and similar gases, other than petroleum gases and other gaseous hydrocarbons"
                     },
@@ -6436,6 +6170,272 @@
                 "description": "Supply of natural gas"
             },
             "comment": "Gas for use by mining, agricultural and manufacturing companies including printing, publishing and similar businesses; gas, methane gas and liquefied petroleum gas, intended to be injected directly into the pipes of the distribution networks to be subsequently supplied, or destined to companies that use them for the production of electricity.\n2705 and 2711 gas for the uses indicated above."
+        },
+        {
+            "memberState": "IT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 10
+            },
+            "situationOn": "2026-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "2705 00 00",
+                        "description": "Coal gas, water gas, producer gas and similar gases, other than petroleum gases and other gaseous hydrocarbons"
+                    },
+                    {
+                        "value": "2711",
+                        "description": "Petroleum gases and other gaseous hydrocarbons"
+                    },
+                    {
+                        "value": "2716 00 00",
+                        "description": "Electrical energy"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "FOSSIL_FUEL",
+                "description": "Until 1 January 2030: Fossil fuels"
+            },
+            "comment": "Electricity for domestic use; electricity&gas for use by mining agricultural&manufacturing enterprises including printing publishing&similar enterprises; electricity for irrigation, lifting&water drainage systems used by consorzi di bonifica&irrigation consortia; electricity supplied to wholesale customers referred LD 79\/1999; gas methane gas&liquefied petroleum gases directly in pipes of distribution networks subsequently supplied or for enterprises for production of electricity"
+        },
+        {
+            "memberState": "IT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 10
+            },
+            "situationOn": "2026-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "2709 00",
+                        "description": "Petroleum oils and oils obtained from bituminous minerals, crude"
+                    },
+                    {
+                        "value": "2710",
+                        "description": "Petroleum oils and oils obtained from bituminous minerals, other than crude; preparations not elsewhere specified or included, containing by weight 70 % or more of petroleum oils or of oils obtained from bituminous minerals, these oils being the basic constituents of the preparations; waste oils"
+                    },
+                    {
+                        "value": "2711",
+                        "description": "Petroleum gases and other gaseous hydrocarbons"
+                    },
+                    {
+                        "value": "2713",
+                        "description": "Petroleum coke, petroleum bitumen and other residues of petroleum oils or of oils obtained from bituminous minerals"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "FOSSIL_FUEL",
+                "description": "Until 1 January 2030: Fossil fuels"
+            },
+            "comment": "Crude mineral oils, fuel oils and aromatic extracts used to generate electricity, either directly or indirectly, provided that the installed power is not less than 1 Kw; crude mineral oils, fuel oils (except fluid heating oils) and filter earths remaining from the processing of lubricating oils, containing not more than 45% by weight of petroleum products, for use directly as fuels in boilers and furnaces"
+        },
+        {
+            "memberState": "IT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 10
+            },
+            "situationOn": "2026-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "2709 00",
+                        "description": "Petroleum oils and oils obtained from bituminous minerals, crude"
+                    },
+                    {
+                        "value": "2710",
+                        "description": "Petroleum oils and oils obtained from bituminous minerals, other than crude; preparations not elsewhere specified or included, containing by weight 70 % or more of petroleum oils or of oils obtained from bituminous minerals, these oils being the basic constituents of the preparations; waste oils"
+                    },
+                    {
+                        "value": "2711",
+                        "description": "Petroleum gases and other gaseous hydrocarbons"
+                    },
+                    {
+                        "value": "2713",
+                        "description": "Petroleum coke, petroleum bitumen and other residues of petroleum oils or of oils obtained from bituminous minerals"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "FOSSIL_FUEL",
+                "description": "Until 1 January 2030: Fossil fuels"
+            },
+            "comment": "fuel oils used for direct generation of motive power with fixed engines in industrial and agricultural-industrial establishments, laboratories, construction sites; fuel oils other than special ones intended for transformation into gas to be fed into city distribution networks;"
+        },
+        {
+            "memberState": "IT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 10
+            },
+            "situationOn": "2026-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "2709 00",
+                        "description": "Petroleum oils and oils obtained from bituminous minerals, crude"
+                    },
+                    {
+                        "value": "2710",
+                        "description": "Petroleum oils and oils obtained from bituminous minerals, other than crude; preparations not elsewhere specified or included, containing by weight 70 % or more of petroleum oils or of oils obtained from bituminous minerals, these oils being the basic constituents of the preparations; waste oils"
+                    },
+                    {
+                        "value": "2711",
+                        "description": "Petroleum gases and other gaseous hydrocarbons"
+                    },
+                    {
+                        "value": "2713",
+                        "description": "Petroleum coke, petroleum bitumen and other residues of petroleum oils or of oils obtained from bituminous minerals"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "FOSSIL_FUEL",
+                "description": "Until 1 January 2030: Fossil fuels"
+            },
+            "comment": "unrefined mineral oils from the primary distillation of crude natural oil or from the processing in establishments that transform mineral oils into chemical products of a different nature, with a flash point (closed cup test) below 55°C, in which the distillate at 225°C is less than 95% by volume and at 300°C is at least 90% by volume, intended for transformation into gas to be fed into city distribution networks;"
+        },
+        {
+            "memberState": "IT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 10
+            },
+            "situationOn": "2026-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "2709 00",
+                        "description": "Petroleum oils and oils obtained from bituminous minerals, crude"
+                    },
+                    {
+                        "value": "2710",
+                        "description": "Petroleum oils and oils obtained from bituminous minerals, other than crude; preparations not elsewhere specified or included, containing by weight 70 % or more of petroleum oils or of oils obtained from bituminous minerals, these oils being the basic constituents of the preparations; waste oils"
+                    },
+                    {
+                        "value": "2711",
+                        "description": "Petroleum gases and other gaseous hydrocarbons"
+                    },
+                    {
+                        "value": "2713",
+                        "description": "Petroleum coke, petroleum bitumen and other residues of petroleum oils or of oils obtained from bituminous minerals"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "FOSSIL_FUEL",
+                "description": "Until 1 January 2030: Fossil fuels"
+            },
+            "comment": "Petroleum products for agricultural use and for inland fishing."
+        },
+        {
+            "memberState": "IT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 10
+            },
+            "situationOn": "2026-01-01+01:00",
+            "cnCodes": {
+                "code": {
+                    "value": "1603 00",
+                    "description": "Extracts and juices of meat, fish or crustaceans, molluscs or other aquatic invertebrates"
+                }
+            },
+            "category": {
+                "identifier": "FOODSTUFFS",
+                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
+            },
+            "comment": "Meat extracts and sauces and fish extracts"
+        },
+        {
+            "memberState": "IT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 10
+            },
+            "situationOn": "2026-01-01+01:00",
+            "cnCodes": {
+                "code": {
+                    "value": "2716 00 00",
+                    "description": "Electrical energy"
+                }
+            },
+            "category": {
+                "identifier": "SUPPLY_ELECTRICITY",
+                "description": "Supply of electricity"
+            },
+            "comment": "Electricity for household use; electricity for use by mining, agricultural and manufacturing companies including printing, publishing and similar businesses; electricity for the operation of irrigation, lifting and drainage systems, used by reclamation and irrigation consortia; electricity supplied to wholesale customers referred to in Article 2, paragraph 5, of Legislative Decree No 79.\n2716 electricity for the uses indicated above."
+        },
+        {
+            "memberState": "IT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 10
+            },
+            "situationOn": "2026-01-01+01:00",
+            "cnCodes": {
+                "code": {
+                    "value": "2916 19 95",
+                    "description": "Other"
+                }
+            },
+            "category": {
+                "identifier": "FOODSTUFFS",
+                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
+            },
+            "comment": "Products of mineral and chemical-industrial origin and additives for animal consumption.\n1301 20, 1301 90, 1302 20, 1302 31 if additives for animal consumption."
+        },
+        {
+            "memberState": "IT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 10
+            },
+            "situationOn": "2026-01-01+01:00",
+            "cnCodes": {
+                "code": {
+                    "value": "2923 20 00",
+                    "description": "Lecithins and other phosphoaminolipids"
+                }
+            },
+            "category": {
+                "identifier": "FOODSTUFFS",
+                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
+            },
+            "comment": "lecithins intended for human or animal consumption.\n2923 20 if for human or animal consumption"
+        },
+        {
+            "memberState": "IT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "SUPER_REDUCED_RATE",
+                "value": 4
+            },
+            "situationOn": "2026-01-01+01:00",
+            "cnCodes": {
+                "code": {
+                    "value": "9021",
+                    "description": "Orthopaedic appliances, including crutches, surgical belts and trusses; splints and other fracture appliances; artificial parts of the body; hearing aids and other appliances which are worn or carried, or implanted in the body, to compensate for a defect or disability"
+                }
+            },
+            "category": {
+                "identifier": "MEDICAL_EQUIPMENT",
+                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
+            },
+            "comment": "Orthopedic appliances (including medical-surgical belts); fracture objects and appliances (showers, splints and the like); objects and apparatus of dental prostheses, ophthalmology and others; apparatus to facilitate hearing for the deaf and other apparatus to be held in the hand, to be worn on the person or to be inserted into the body, to compensate for a deficiency or infirmity."
         }
     ]
 }
