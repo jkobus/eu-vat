@@ -2024,6 +2024,88 @@
             "type": "REDUCED",
             "rate": {
                 "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2026-04-01+02:00",
+            "category": {
+                "identifier": "CULTURAL_EVENTS",
+                "description": "Admission to shows, theatres, circuses, fairs, amusement parks, concerts, museums, zoos, cinemas, exhibitions and similar cultural events and facilities"
+            },
+            "comment": "Applies to tickets for cinema, tickets for concerts and cultural events."
+        },
+        {
+            "memberState": "HR",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2026-04-01+02:00",
+            "category": {
+                "identifier": "SPORTING_EVENTS",
+                "description": "Admission to sporting events"
+            },
+            "comment": "Applies to tickets for sporting events of a competitive or revival character."
+        },
+        {
+            "memberState": "HR",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2026-04-01+02:00",
+            "category": {
+                "identifier": "SUPPLY_HEATING",
+                "description": "Supply of district heating"
+            },
+            "comment": "Applies to supply of heating from heating stations, including charges relating to such supplies made until March 31, 2027."
+        },
+        {
+            "memberState": "HR",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 13
+            },
+            "situationOn": "2026-04-01+02:00",
+            "cnCodes": {
+                "code": {
+                    "value": "2201 90 00",
+                    "description": "Other"
+                }
+            },
+            "category": {
+                "identifier": "SUPPLY_WATER",
+                "description": "Supply of water"
+            },
+            "comment": "Applies to supply of water, other than water marketed in bottles or other packaging, in terms of public water supply and public drainage under special regulation."
+        },
+        {
+            "memberState": "HR",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 13
+            },
+            "situationOn": "2026-04-01+02:00",
+            "cnCodes": {
+                "code": {
+                    "value": "2716 00 00",
+                    "description": "Electrical energy"
+                }
+            },
+            "category": {
+                "identifier": "SUPPLY_ELECTRICITY",
+                "description": "Supply of electricity"
+            },
+            "comment": "Applies to supply of electricity towards other supplier or end-user, including fees related to the supply."
+        },
+        {
+            "memberState": "HR",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
                 "value": 13
             },
             "situationOn": "2026-04-01+02:00",
@@ -2283,88 +2365,6 @@
                 "value": 25
             },
             "situationOn": "2026-04-01+02:00"
-        },
-        {
-            "memberState": "HR",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2026-04-01+02:00",
-            "category": {
-                "identifier": "CULTURAL_EVENTS",
-                "description": "Admission to shows, theatres, circuses, fairs, amusement parks, concerts, museums, zoos, cinemas, exhibitions and similar cultural events and facilities"
-            },
-            "comment": "Applies to tickets for cinema, tickets for concerts and cultural events."
-        },
-        {
-            "memberState": "HR",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2026-04-01+02:00",
-            "category": {
-                "identifier": "SPORTING_EVENTS",
-                "description": "Admission to sporting events"
-            },
-            "comment": "Applies to tickets for sporting events of a competitive or revival character."
-        },
-        {
-            "memberState": "HR",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2026-04-01+02:00",
-            "category": {
-                "identifier": "SUPPLY_HEATING",
-                "description": "Supply of district heating"
-            },
-            "comment": "Applies to supply of heating from heating stations, including charges relating to such supplies made until March 31, 2027."
-        },
-        {
-            "memberState": "HR",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 13
-            },
-            "situationOn": "2026-04-01+02:00",
-            "cnCodes": {
-                "code": {
-                    "value": "2201 90 00",
-                    "description": "Other"
-                }
-            },
-            "category": {
-                "identifier": "SUPPLY_WATER",
-                "description": "Supply of water"
-            },
-            "comment": "Applies to supply of water, other than water marketed in bottles or other packaging, in terms of public water supply and public drainage under special regulation."
-        },
-        {
-            "memberState": "HR",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 13
-            },
-            "situationOn": "2026-04-01+02:00",
-            "cnCodes": {
-                "code": {
-                    "value": "2716 00 00",
-                    "description": "Electrical energy"
-                }
-            },
-            "category": {
-                "identifier": "SUPPLY_ELECTRICITY",
-                "description": "Supply of electricity"
-            },
-            "comment": "Applies to supply of electricity towards other supplier or end-user, including fees related to the supply."
         }
     ]
 }
