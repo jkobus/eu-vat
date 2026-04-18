@@ -3,15 +3,6 @@
     "vatRateResults": [
         {
             "memberState": "BG",
-            "type": "STANDARD",
-            "rate": {
-                "type": "DEFAULT",
-                "value": 20
-            },
-            "situationOn": "2026-01-01+01:00"
-        },
-        {
-            "memberState": "BG",
             "type": "REDUCED",
             "rate": {
                 "type": "REDUCED_RATE",
@@ -181,6 +172,15 @@
                 "description": "Accommodation provided in hotels and similar establishments, including the provision of holiday accommodation and the letting of places on camping or caravan sites"
             },
             "comment": "The supply of accommodation services provided in hotels and similar establishments, including the provision of holiday accommodation and the rental of places for camping or caravans, with a place of supply in the territory of the country."
+        },
+        {
+            "memberState": "BG",
+            "type": "STANDARD",
+            "rate": {
+                "type": "DEFAULT",
+                "value": 20
+            },
+            "situationOn": "2026-01-01+01:00"
         }
     ]
 }

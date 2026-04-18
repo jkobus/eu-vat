@@ -5,6 +5,424 @@
             "memberState": "EL",
             "type": "REDUCED",
             "rate": {
+                "type": "EXEMPTED",
+                "value": 0
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cnCodes": {
+                "code": {
+                    "value": "3002",
+                    "description": "Human blood; animal blood prepared for therapeutic, prophylactic or diagnostic uses; antisera, other blood fractions and immunological products, whether or not modified or obtained by means of biotechnological processes; vaccines, toxins, cultures of micro-organisms (excluding yeasts) and similar products; cell cultures, whether or not modified"
+                }
+            },
+            "category": {
+                "identifier": "PHARMACEUTICAL_PRODUCTS",
+                "description": "Pharmaceutical products of a kind normally used for health care, prevention of illness and as treatment for medical and veterinary purposes, including products used for contraception and sanitary protection"
+            },
+            "comment": "Zero rate is applied only on vaccines  for the prevention and diagnosis of Covid-19 disease for tariff heading 3002"
+        },
+        {
+            "memberState": "EL",
+            "type": "REDUCED",
+            "rate": {
+                "type": "PARKING_RATE",
+                "value": 13
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "3925",
+                        "description": "Builders' ware of plastics, not elsewhere specified or included"
+                    },
+                    {
+                        "value": "3926",
+                        "description": "Other articles of plastics and articles of other materials of headings 3901 to 3914"
+                    },
+                    {
+                        "value": "6810",
+                        "description": "Articles of cement, of concrete or of artificial stone, whether or not reinforced"
+                    },
+                    {
+                        "value": "6811",
+                        "description": "Articles of asbestos-cement, of cellulose fibre-cement or the like"
+                    },
+                    {
+                        "value": "7309 00",
+                        "description": "Reservoirs, tanks, vats and similar containers for any material (other than compressed or liquefied gas), of iron or steel, of a capacity exceeding 300 l, whether or not lined or heat-insulated, but not fitted with mechanical or thermal equipment"
+                    },
+                    {
+                        "value": "7310",
+                        "description": "Tanks, casks, drums, cans, boxes and similar containers, for any material (other than compressed or liquefied gas), of iron or steel, of a capacity not exceeding 300 l, whether or not lined or heat-insulated, but not fitted with mechanical or thermal equipment"
+                    },
+                    {
+                        "value": "7611 00 00",
+                        "description": "Aluminium reservoirs, tanks, vats and similar containers, for any material (other than compressed or liquefied gas), of a capacity exceeding 300 litres, whether or not lined or heat-insulated, but not fitted with mechanical or thermal equipment"
+                    },
+                    {
+                        "value": "7612",
+                        "description": "Aluminium casks, drums, cans, boxes and similar containers (including rigid or collapsible tubular containers), for any material (other than compressed or liquefied gas), of a capacity not exceeding 300 litres, whether or not lined or heat-insulated, but not fitted with mechanical or thermal equipment"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "AGRICULTURAL_EQUIPMENT",
+                "description": "Certain agricultural tools and equipment"
+            },
+            "comment": "Reduced rate applies only on water storage tanks that can be used to store water for irrigation or drainage or firefighting or fish farming of tariff headings 3925, 3926, 6810, 6811, 7309, 7310, 7611, 7612"
+        },
+        {
+            "memberState": "EL",
+            "type": "REDUCED",
+            "rate": {
+                "type": "PARKING_RATE",
+                "value": 13
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "7020 00",
+                        "description": "Other articles of glass"
+                    },
+                    {
+                        "value": "8413",
+                        "description": "Pumps for liquids, whether or not fitted with a measuring device; liquid elevators"
+                    },
+                    {
+                        "value": "8414",
+                        "description": "Air or vacuum pumps, air or other gas compressors and fans; ventilating or recycling hoods incorporating a fan, whether or not fitted with filters; gas-tight biological safety cabinets, whether or not fitted with filters"
+                    },
+                    {
+                        "value": "8479",
+                        "description": "Machines and mechanical appliances having individual functions, not specified or included elsewhere in this chapter"
+                    },
+                    {
+                        "value": "8716",
+                        "description": "Trailers and semi-trailers; other vehicles, not mechanically propelled; parts thereof"
+                    },
+                    {
+                        "value": "8907",
+                        "description": "Other floating structures (for example, rafts, tanks, coffer-dams, landing stages, buoys and beacons)"
+                    },
+                    {
+                        "value": "9406",
+                        "description": "Prefabricated buildings"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "AGRICULTURAL_EQUIPMENT",
+                "description": "Certain agricultural tools and equipment"
+            },
+            "comment": "Reduced rate applies only on pumps for liquids, air pumps and air compressors for fish tanks, mobile silos, greenhouses, fish tanks made of glass, accumulator shells, floating fish farming structures of tariff headings 8413, 8414, 8716, 9406, 7020, 8479, 8907 which by their nature and characteristics are intended mainly or exclusively for agriculture, animal husbandry or forestry"
+        },
+        {
+            "memberState": "EL",
+            "type": "REDUCED",
+            "rate": {
+                "type": "PARKING_RATE",
+                "value": 13
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "8201",
+                        "description": "Hand tools, the following: spades, shovels, mattocks, picks, hoes, forks and rakes; axes, billhooks and similar hewing tools; secateurs and pruners of any kind; scythes, sickles, hay knives, hedge shears, timber wedges and other tools of a kind used in agriculture, horticulture or forestry"
+                    },
+                    {
+                        "value": "8413",
+                        "description": "Pumps for liquids, whether or not fitted with a measuring device; liquid elevators"
+                    },
+                    {
+                        "value": "8419",
+                        "description": "Machinery, plant or laboratory equipment, whether or not electrically heated (excluding furnaces, ovens and other equipment of heading 8514), for the treatment of materials by a process involving a change of temperature such as heating, cooking, roasting, distilling, rectifying, sterilising, pasteurising, steaming, drying, evaporating, vaporising, condensing or cooling, other than machinery or plant of a kind used for domestic purposes; instantaneous or storage water heaters, non-electric"
+                    },
+                    {
+                        "value": "8424",
+                        "description": "Mechanical appliances (whether or not hand-operated) for projecting, dispersing or spraying liquids or powders; fire extinguishers, whether or not charged; spray guns and similar appliances; steam or sandblasting machines and similar jet projecting machines"
+                    },
+                    {
+                        "value": "8432",
+                        "description": "Agricultural, horticultural or forestry machinery for soil preparation or cultivation; lawn or sports-ground rollers"
+                    },
+                    {
+                        "value": "8433",
+                        "description": "Harvesting or threshing machinery, including straw or fodder balers; grass or hay mowers; machines for cleaning, sorting or grading eggs, fruit or other agricultural produce, other than machinery of heading 8437"
+                    },
+                    {
+                        "value": "8434",
+                        "description": "Milking machines and dairy machinery"
+                    },
+                    {
+                        "value": "8435",
+                        "description": "Presses, crushers and similar machinery used in the manufacture of wine, cider, fruit juices or similar beverages"
+                    },
+                    {
+                        "value": "8436",
+                        "description": "Other agricultural, horticultural, forestry, poultry-keeping or bee-keeping machinery, including germination plant fitted with mechanical or thermal equipment; poultry incubators and brooders"
+                    },
+                    {
+                        "value": "8437",
+                        "description": "Machines for cleaning, sorting or grading seed, grain or dried leguminous vegetables; machinery used in the milling industry or for the working of cereals or dried leguminous vegetables, other than farm-type machinery"
+                    },
+                    {
+                        "value": "8701",
+                        "description": "Tractors (other than tractors of heading 8709)"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "AGRICULTURAL_EQUIPMENT",
+                "description": "Certain agricultural tools and equipment"
+            },
+            "comment": "Reduced rate applies only on agricultural and forestry tractors, agricultural machines, devices and tools of tariff headings 8701, 8201, 8413, 8419, 8424, 8432, 8433, 8434, 8435, 8436, 8437, which by their nature and characteristics are intended mainly or exclusively for agriculture, animal husbandry or forestry"
+        },
+        {
+            "memberState": "EL",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 6
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "3926",
+                        "description": "Other articles of plastics and articles of other materials of headings 3901 to 3914"
+                    },
+                    {
+                        "value": "6602 00 00",
+                        "description": "Walking sticks, seat-sticks, whips, riding-crops and the like"
+                    },
+                    {
+                        "value": "7326",
+                        "description": "Other articles of iron or steel"
+                    },
+                    {
+                        "value": "8443",
+                        "description": "Printing machinery used for printing by means of plates, cylinders and other printing components of heading 8442; other printers, copying machines and facsimile machines, whether or not combined; parts and accessories thereof"
+                    },
+                    {
+                        "value": "8472",
+                        "description": "Other office machines (for example, hectograph or stencil duplicating machines, addressing machines, automatic banknote dispensers, coin-sorting machines, coin-counting or -wrapping machines, pencil-sharpening machines, perforating or stapling machines)"
+                    },
+                    {
+                        "value": "8523",
+                        "description": "Discs, tapes, solid-state non-volatile storage devices, smart cards and other media for the recording of sound or of other phenomena, whether or not recorded, including matrices and masters for the production of discs, but excluding products of Chapter 37"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "MEDICAL_EQUIPMENT",
+                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
+            },
+            "comment": "For tariff headings of goods intended to service people with vision disabilities the reduced rate applies only on white sticks (6602) Braille typewriters  (8472), on computer programs (jaws, supernova, hall, loudspeaker, fine reader, cellphone programs in Greek and foreign version-mobile speak, speaking phone) (8523), on  Braille printers (8443)  writing frames for people with reduced abilities vision (Braille) (3926)"
+        },
+        {
+            "memberState": "EL",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 6
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "6602 00 00",
+                        "description": "Walking sticks, seat-sticks, whips, riding-crops and the like"
+                    },
+                    {
+                        "value": "8471",
+                        "description": "Automatic data-processing machines and units thereof; magnetic or optical readers, machines for transcribing data onto data media in coded form and machines for processing such data, not elsewhere specified or included"
+                    },
+                    {
+                        "value": "8472 90 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "8519",
+                        "description": "Sound recording or sound reproducing apparatus"
+                    },
+                    {
+                        "value": "8528",
+                        "description": "Monitors and projectors, not incorporating television reception apparatus; reception apparatus for television, whether or not incorporating radio-broadcast receivers or sound or video recording or reproducing apparatus"
+                    },
+                    {
+                        "value": "9017",
+                        "description": "Drawing, marking-out or mathematical calculating instruments (for example, drafting machines, pantographs, protractors, drawing sets, slide rules, disc calculators); instruments for measuring length, for use in the hand (for example, measuring rods and tapes, micrometers, callipers), not specified or included elsewhere in this chapter"
+                    },
+                    {
+                        "value": "9102",
+                        "description": "Wristwatches, pocket-watches and other watches, including stopwatches, other than those of heading 9101"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "MEDICAL_EQUIPMENT",
+                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
+            },
+            "comment": "For tariff headings of goods intended for the service of persons with vision disabilities , the reduced rate applies only on wristwatches (Braille) (9102), on writing boards (Braille), measures (Braille) (9017), electronic sticks (6602), 4 track cassette tapes (Braille) (8519), Braille display (8528), scanner (8471), Braille note taker (8472)"
+        },
+        {
+            "memberState": "EL",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 6
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "3822 00 00",
+                        "description": "Diagnostic or laboratory reagents on a backing, prepared diagnostic or laboratory reagents whether or not on a backing, other than those of heading 3002 or 3006; certified reference materials"
+                    },
+                    {
+                        "value": "8517",
+                        "description": "Telephone sets, including smartphones and other telephones for cellular networks or for other wireless networks; other apparatus for the transmission or reception of voice, images or other data, including apparatus for communication in a wired or wireless network (such as a local or wide area network), other than transmission or reception apparatus of heading 8443, 8525, 8527 or 8528"
+                    },
+                    {
+                        "value": "8531",
+                        "description": "Electric sound or visual signalling apparatus (for example, bells, sirens, indicator panels, burglar or fire alarms), other than those of heading 8512 or 8530"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "MEDICAL_EQUIPMENT",
+                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
+            },
+            "comment": "For tariff headings of goods intended for the service of persons with disabilities needs, the reduced rate applies only on sugar measuring tapes (3822),luminous system alarm (8531), light signal receiver (8517)"
+        },
+        {
+            "memberState": "EL",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 6
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "4901",
+                        "description": "Printed books, brochures, leaflets and similar printed matter, whether or not in single sheets"
+                    },
+                    {
+                        "value": "4903 00 00",
+                        "description": "Children's picture, drawing or colouring books"
+                    },
+                    {
+                        "value": "4904 00 00",
+                        "description": "Music, printed or in manuscript, whether or not bound or illustrated"
+                    },
+                    {
+                        "value": "8519",
+                        "description": "Sound recording or sound reproducing apparatus"
+                    },
+                    {
+                        "value": "8523",
+                        "description": "Discs, tapes, solid-state non-volatile storage devices, smart cards and other media for the recording of sound or of other phenomena, whether or not recorded, including matrices and masters for the production of discs, but excluding products of Chapter 37"
+                    },
+                    {
+                        "value": "8543",
+                        "description": "Electrical machines and apparatus, having individual functions, not specified or included elsewhere in this chapter"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "LOAN_LIBRARIES",
+                "description": "Supply, including on loan by libraries, of books, newspapers and periodicals either on physical means of support or supplied electronically or both (including brochures, leaflets and similar printed matter, children's picture, drawing or colouring books, music printed or in manuscript form, maps and hydrographic or similar charts), other than publications wholly or predominantly devoted to advertising and other than publications wholly or predominantly consisting of video content or audible music."
+            },
+            "comment": "Reduced rate applies only on books and books for children of tariff headings 4901 and 4903, editions thereof, visual or audio, inscribed on a material backing of tariff headings 8523 and 8543 and on devices of tariff heading 8519.  Also, reduced rate applies on music handwritten or printed, illustrated or not, whether or not bound of tariff heading 4904."
+        },
+        {
+            "memberState": "EL",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 6
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cnCodes": {
+                "code": {
+                    "value": "9018",
+                    "description": "Instruments and appliances used in medical, surgical, dental or veterinary sciences, including scintigraphic apparatus, other electromedical apparatus and sight-testing instruments"
+                }
+            },
+            "category": {
+                "identifier": "MEDICAL_EQUIPMENT",
+                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
+            },
+            "comment": "Reduced rate applies only on dialysis filters, hemodialysis, hemodialysis and plasmapheresis of tariff heading 9018 and  lines dialysis, hemodialysis, hemodialysis and plasmapheresis of tariff heading 9018."
+        },
+        {
+            "memberState": "EL",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 6
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cnCodes": {
+                "code": {
+                    "value": "9018",
+                    "description": "Instruments and appliances used in medical, surgical, dental or veterinary sciences, including scintigraphic apparatus, other electromedical apparatus and sight-testing instruments"
+                }
+            },
+            "category": {
+                "identifier": "MEDICAL_EQUIPMENT",
+                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
+            },
+            "comment": "For tariff heading 9018, reduced rate applies only on defibrillators"
+        },
+        {
+            "memberState": "EL",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 6
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "58.11.3",
+                    "description": "Audio books"
+                }
+            },
+            "category": {
+                "identifier": "LOAN_LIBRARIES",
+                "description": "Supply, including on loan by libraries, of books, newspapers and periodicals either on physical means of support or supplied electronically or both (including brochures, leaflets and similar printed matter, children's picture, drawing or colouring books, music printed or in manuscript form, maps and hydrographic or similar charts), other than publications wholly or predominantly devoted to advertising and other than publications wholly or predominantly consisting of video content or audible music."
+            },
+            "comment": "On line publications of audiovisual books"
+        },
+        {
+            "memberState": "EL",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 6
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "59.14",
+                    "description": "Motion picture projection services"
+                }
+            },
+            "category": {
+                "identifier": "CULTURAL_EVENTS",
+                "description": "Admission to shows, theatres, circuses, fairs, amusement parks, concerts, museums, zoos, cinemas, exhibitions and similar cultural events and facilities"
+            },
+            "comment": "The reduced rate applies on admission to cinemas"
+        },
+        {
+            "memberState": "EL",
+            "type": "REDUCED",
+            "rate": {
                 "type": "REDUCED_RATE",
                 "value": 13
             },
@@ -566,48 +984,6 @@
             "cnCodes": {
                 "code": [
                     {
-                        "value": "3101 00 00",
-                        "description": "Animal or vegetable fertilisers, whether or not mixed together or chemically treated; fertilisers produced by the mixing or chemical treatment of animal or vegetable products"
-                    },
-                    {
-                        "value": "3102",
-                        "description": "Mineral or chemical fertilisers, nitrogenous"
-                    },
-                    {
-                        "value": "3103",
-                        "description": "Mineral or chemical fertilisers, phosphatic"
-                    },
-                    {
-                        "value": "3104",
-                        "description": "Mineral or chemical fertilisers, potassic"
-                    },
-                    {
-                        "value": "3104 20",
-                        "description": "Potassium chloride"
-                    },
-                    {
-                        "value": "3105",
-                        "description": "Mineral or chemical fertilisers containing two or three of the fertilising elements nitrogen, phosphorus and potassium; other fertilisers; goods of this chapter in tablets or similar forms or in packages of a gross weight not exceeding 10 kg"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "AGRICULTURAL_PRODUCTION",
-                "description": "Supply of goods and services of a kind normally intended for use in agricultural production but excluding capital goods such as machinery or buildings"
-            },
-            "comment": "Fertilizers"
-        },
-        {
-            "memberState": "EL",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 6
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
                         "value": "2828",
                         "description": "Hypochlorites; commercial calcium hypochlorite; chlorites; hypobromites"
                     },
@@ -696,78 +1072,6 @@
             "cnCodes": {
                 "code": [
                     {
-                        "value": "3822 00 00",
-                        "description": "Diagnostic or laboratory reagents on a backing, prepared diagnostic or laboratory reagents whether or not on a backing, other than those of heading 3002 or 3006; certified reference materials"
-                    },
-                    {
-                        "value": "8517",
-                        "description": "Telephone sets, including smartphones and other telephones for cellular networks or for other wireless networks; other apparatus for the transmission or reception of voice, images or other data, including apparatus for communication in a wired or wireless network (such as a local or wide area network), other than transmission or reception apparatus of heading 8443, 8525, 8527 or 8528"
-                    },
-                    {
-                        "value": "8531",
-                        "description": "Electric sound or visual signalling apparatus (for example, bells, sirens, indicator panels, burglar or fire alarms), other than those of heading 8512 or 8530"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "MEDICAL_EQUIPMENT",
-                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
-            },
-            "comment": "For tariff headings of goods intended for the service of persons with disabilities needs, the reduced rate applies only on sugar measuring tapes (3822),luminous system alarm (8531), light signal receiver (8517)"
-        },
-        {
-            "memberState": "EL",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 6
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "3926",
-                        "description": "Other articles of plastics and articles of other materials of headings 3901 to 3914"
-                    },
-                    {
-                        "value": "6602 00 00",
-                        "description": "Walking sticks, seat-sticks, whips, riding-crops and the like"
-                    },
-                    {
-                        "value": "7326",
-                        "description": "Other articles of iron or steel"
-                    },
-                    {
-                        "value": "8443",
-                        "description": "Printing machinery used for printing by means of plates, cylinders and other printing components of heading 8442; other printers, copying machines and facsimile machines, whether or not combined; parts and accessories thereof"
-                    },
-                    {
-                        "value": "8472",
-                        "description": "Other office machines (for example, hectograph or stencil duplicating machines, addressing machines, automatic banknote dispensers, coin-sorting machines, coin-counting or -wrapping machines, pencil-sharpening machines, perforating or stapling machines)"
-                    },
-                    {
-                        "value": "8523",
-                        "description": "Discs, tapes, solid-state non-volatile storage devices, smart cards and other media for the recording of sound or of other phenomena, whether or not recorded, including matrices and masters for the production of discs, but excluding products of Chapter 37"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "MEDICAL_EQUIPMENT",
-                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
-            },
-            "comment": "For tariff headings of goods intended to service people with vision disabilities the reduced rate applies only on white sticks (6602) Braille typewriters  (8472), on computer programs (jaws, supernova, hall, loudspeaker, fine reader, cellphone programs in Greek and foreign version-mobile speak, speaking phone) (8523), on  Braille printers (8443)  writing frames for people with reduced abilities vision (Braille) (3926)"
-        },
-        {
-            "memberState": "EL",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 6
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
                         "value": "3926",
                         "description": "Other articles of plastics and articles of other materials of headings 3901 to 3914"
                     },
@@ -790,194 +1094,6 @@
                 "description": "Pharmaceutical products of a kind normally used for health care, prevention of illness and as treatment for medical and veterinary purposes, including products used for contraception and sanitary protection"
             },
             "comment": "For tariff headings 3926, 4015, 4818, 6307, reduced rate applies only on protective masks and gloves for medicine (for protection against viruses and prevention of disease transmission for hospital and private use)"
-        },
-        {
-            "memberState": "EL",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 6
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "4901",
-                        "description": "Printed books, brochures, leaflets and similar printed matter, whether or not in single sheets"
-                    },
-                    {
-                        "value": "4903 00 00",
-                        "description": "Children's picture, drawing or colouring books"
-                    },
-                    {
-                        "value": "4904 00 00",
-                        "description": "Music, printed or in manuscript, whether or not bound or illustrated"
-                    },
-                    {
-                        "value": "8519",
-                        "description": "Sound recording or sound reproducing apparatus"
-                    },
-                    {
-                        "value": "8523",
-                        "description": "Discs, tapes, solid-state non-volatile storage devices, smart cards and other media for the recording of sound or of other phenomena, whether or not recorded, including matrices and masters for the production of discs, but excluding products of Chapter 37"
-                    },
-                    {
-                        "value": "8543",
-                        "description": "Electrical machines and apparatus, having individual functions, not specified or included elsewhere in this chapter"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "LOAN_LIBRARIES",
-                "description": "Supply, including on loan by libraries, of books, newspapers and periodicals either on physical means of support or supplied electronically or both (including brochures, leaflets and similar printed matter, children's picture, drawing or colouring books, music printed or in manuscript form, maps and hydrographic or similar charts), other than publications wholly or predominantly devoted to advertising and other than publications wholly or predominantly consisting of video content or audible music."
-            },
-            "comment": "Reduced rate applies only on books and books for children of tariff headings 4901 and 4903, editions thereof, visual or audio, inscribed on a material backing of tariff headings 8523 and 8543 and on devices of tariff heading 8519.  Also, reduced rate applies on music handwritten or printed, illustrated or not, whether or not bound of tariff heading 4904."
-        },
-        {
-            "memberState": "EL",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 6
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cnCodes": {
-                "code": {
-                    "value": "4902",
-                    "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
-                }
-            },
-            "category": {
-                "identifier": "NEWSPAPERS",
-                "description": "Newspapers"
-            },
-            "comment": "Reduced rate applies only on newspapers and periodicals printed, whether illustrated or with advertisements of tariff heading 4902"
-        },
-        {
-            "memberState": "EL",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 6
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "6602 00 00",
-                        "description": "Walking sticks, seat-sticks, whips, riding-crops and the like"
-                    },
-                    {
-                        "value": "8471",
-                        "description": "Automatic data-processing machines and units thereof; magnetic or optical readers, machines for transcribing data onto data media in coded form and machines for processing such data, not elsewhere specified or included"
-                    },
-                    {
-                        "value": "8472 90 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "8519",
-                        "description": "Sound recording or sound reproducing apparatus"
-                    },
-                    {
-                        "value": "8528",
-                        "description": "Monitors and projectors, not incorporating television reception apparatus; reception apparatus for television, whether or not incorporating radio-broadcast receivers or sound or video recording or reproducing apparatus"
-                    },
-                    {
-                        "value": "9017",
-                        "description": "Drawing, marking-out or mathematical calculating instruments (for example, drafting machines, pantographs, protractors, drawing sets, slide rules, disc calculators); instruments for measuring length, for use in the hand (for example, measuring rods and tapes, micrometers, callipers), not specified or included elsewhere in this chapter"
-                    },
-                    {
-                        "value": "9102",
-                        "description": "Wristwatches, pocket-watches and other watches, including stopwatches, other than those of heading 9101"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "MEDICAL_EQUIPMENT",
-                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
-            },
-            "comment": "For tariff headings of goods intended for the service of persons with vision disabilities , the reduced rate applies only on wristwatches (Braille) (9102), on writing boards (Braille), measures (Braille) (9017), electronic sticks (6602), 4 track cassette tapes (Braille) (8519), Braille display (8528), scanner (8471), Braille note taker (8472)"
-        },
-        {
-            "memberState": "EL",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 6
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cnCodes": {
-                "code": {
-                    "value": "9018",
-                    "description": "Instruments and appliances used in medical, surgical, dental or veterinary sciences, including scintigraphic apparatus, other electromedical apparatus and sight-testing instruments"
-                }
-            },
-            "category": {
-                "identifier": "MEDICAL_EQUIPMENT",
-                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
-            },
-            "comment": "Reduced rate applies only on dialysis filters, hemodialysis, hemodialysis and plasmapheresis of tariff heading 9018 and  lines dialysis, hemodialysis, hemodialysis and plasmapheresis of tariff heading 9018."
-        },
-        {
-            "memberState": "EL",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 6
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cnCodes": {
-                "code": {
-                    "value": "9018",
-                    "description": "Instruments and appliances used in medical, surgical, dental or veterinary sciences, including scintigraphic apparatus, other electromedical apparatus and sight-testing instruments"
-                }
-            },
-            "category": {
-                "identifier": "MEDICAL_EQUIPMENT",
-                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
-            },
-            "comment": "For tariff heading 9018, reduced rate applies only on defibrillators"
-        },
-        {
-            "memberState": "EL",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 6
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cpaCodes": {
-                "code": {
-                    "value": "58.11.3",
-                    "description": "Audio books"
-                }
-            },
-            "category": {
-                "identifier": "LOAN_LIBRARIES",
-                "description": "Supply, including on loan by libraries, of books, newspapers and periodicals either on physical means of support or supplied electronically or both (including brochures, leaflets and similar printed matter, children's picture, drawing or colouring books, music printed or in manuscript form, maps and hydrographic or similar charts), other than publications wholly or predominantly devoted to advertising and other than publications wholly or predominantly consisting of video content or audible music."
-            },
-            "comment": "On line publications of audiovisual books"
-        },
-        {
-            "memberState": "EL",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 6
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cpaCodes": {
-                "code": {
-                    "value": "59.14",
-                    "description": "Motion picture projection services"
-                }
-            },
-            "category": {
-                "identifier": "CULTURAL_EVENTS",
-                "description": "Admission to shows, theatres, circuses, fairs, amusement parks, concerts, museums, zoos, cinemas, exhibitions and similar cultural events and facilities"
-            },
-            "comment": "The reduced rate applies on admission to cinemas"
         },
         {
             "memberState": "EL",
@@ -1018,314 +1134,6 @@
                 "description": "Admission to shows, theatres, circuses, fairs, amusement parks, concerts, museums, zoos, cinemas, exhibitions and similar cultural events and facilities"
             },
             "comment": "The reduced rate applies on admission to theatres' plays and to concerts"
-        },
-        {
-            "memberState": "EL",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 13
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "0603",
-                        "description": "Cut flowers and flower buds of a kind suitable for bouquets or for ornamental purposes, fresh, dried, dyed, bleached, impregnated or otherwise prepared"
-                    },
-                    {
-                        "value": "0604",
-                        "description": "Foliage, branches and other parts of plants, without flowers or flower buds, and grasses, mosses and lichens, being goods of a kind suitable for bouquets or for ornamental purposes, fresh, dried, dyed, bleached, impregnated or otherwise prepared"
-                    },
-                    {
-                        "value": "1108",
-                        "description": "Starches; inulin"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "FOODSTUFFS",
-                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
-            },
-            "comment": "•For tariff heading 0603,0604, reduced rate applies only on flowers and flower buds,  and other parts of plants, without flowers nor flower buds, and greenery, moss and lichens, for bouquets or decorations, fresh.\n•For tariff heading 1108, reduced rate applies only on flour milling products, starches of all kinds."
-        },
-        {
-            "memberState": "EL",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 13
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cnCodes": {
-                "code": {
-                    "value": "1211",
-                    "description": "Plants and parts of plants (including seeds and fruits), of a kind used primarily in perfumery, in pharmacy or for insecticidal, fungicidal or similar purposes, fresh, chilled, frozen or dried, whether or not cut, crushed or powdered"
-                }
-            },
-            "category": {
-                "identifier": "FOODSTUFFS",
-                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
-            },
-            "comment": "For tariff heading 1211 reduced rate applies only artemisia, basil, chamomile, common marjoram, mallow, rosemary, peppermint (mint) of all varieties, oregano, rosemary, sage, mountain tea, bittersweet, hot and spicy cloves, fresh or dry, whether or not cut, broken or powdered"
-        },
-        {
-            "memberState": "EL",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 13
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cnCodes": {
-                "code": {
-                    "value": "1212",
-                    "description": "Locust beans, seaweeds and other algae, sugar beet and sugar cane, fresh, chilled, frozen or dried, whether or not ground; fruit stones and kernels and other vegetable products (including unroasted chicory roots of the variety Cichorium intybus sativum) of a kind used primarily for human consumption, not elsewhere specified or included"
-                }
-            },
-            "category": {
-                "identifier": "FOODSTUFFS",
-                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
-            },
-            "comment": "For tariff heading 1212 reduced rate applies only on carob, sugar beet, cane, chilled, frozen or dried, whether or not powdered. Pits and almonds fruits and other vegetable products (including roots) chicory, not roasted, of the variety CICHORIUM INTYBUS SATIVUM), which mainly for human consumption and not named nor are they included elsewhere"
-        },
-        {
-            "memberState": "EL",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 13
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "1301",
-                        "description": "Lac; natural gums, resins, gum-resins and oleoresins (for example, balsams)"
-                    },
-                    {
-                        "value": "1512",
-                        "description": "Sunflower-seed, safflower or cotton-seed oil and fractions thereof, whether or not refined, but not chemically modified"
-                    },
-                    {
-                        "value": "1515",
-                        "description": "Other fixed vegetable or microbial fats and oils (including jojoba oil) and their fractions, whether or not refined, but not chemically modified"
-                    },
-                    {
-                        "value": "1516",
-                        "description": "Animal, vegetable or microbial fats and oils and their fractions, partly or wholly hydrogenated, inter-esterified, re-esterified or elaidinised, whether or not refined, but not further prepared"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "FOODSTUFFS",
-                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
-            },
-            "comment": "•For tariff heading 1301 reduced rate applies only on mastic (white or not) raw\n•For tariff headings 1512,1515 reduced rate applies only on soybean oil, peanut oil, sunflower oil, cotton oil (cottonseed oil), corn oil, sesame oil and their fractions, whether or not refined but not chemically transformed\n•For tariff heading 1516 reduced rate applies only on edible mixtures or preparations of animal fats or oils or vegetable or from fractions of various fats or oils of Chapter 15"
-        },
-        {
-            "memberState": "EL",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 13
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "1604",
-                        "description": "Prepared or preserved fish; caviar and caviar substitutes prepared from fish eggs"
-                    },
-                    {
-                        "value": "2009",
-                        "description": "Fruit or nut juices (including grape must and coconut water) and vegetable juices, unfermented and not containing added spirit, whether or not containing added sugar or other sweetening matter"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "FOODSTUFFS",
-                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
-            },
-            "comment": "•For tariff heading 1604 excluded caviar\n•For tariff heading 2009 reduced rate applies only on preparations of vegetables , fruits and fruit or other parts of plants , as well as fruit and vegetable juices"
-        },
-        {
-            "memberState": "EL",
-            "type": "REDUCED",
-            "rate": {
-                "type": "EXEMPTED",
-                "value": 0
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cnCodes": {
-                "code": {
-                    "value": "3002",
-                    "description": "Human blood; animal blood prepared for therapeutic, prophylactic or diagnostic uses; antisera, other blood fractions and immunological products, whether or not modified or obtained by means of biotechnological processes; vaccines, toxins, cultures of micro-organisms (excluding yeasts) and similar products; cell cultures, whether or not modified"
-                }
-            },
-            "category": {
-                "identifier": "PHARMACEUTICAL_PRODUCTS",
-                "description": "Pharmaceutical products of a kind normally used for health care, prevention of illness and as treatment for medical and veterinary purposes, including products used for contraception and sanitary protection"
-            },
-            "comment": "Zero rate is applied only on vaccines  for the prevention and diagnosis of Covid-19 disease for tariff heading 3002"
-        },
-        {
-            "memberState": "EL",
-            "type": "REDUCED",
-            "rate": {
-                "type": "PARKING_RATE",
-                "value": 13
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "3925",
-                        "description": "Builders' ware of plastics, not elsewhere specified or included"
-                    },
-                    {
-                        "value": "3926",
-                        "description": "Other articles of plastics and articles of other materials of headings 3901 to 3914"
-                    },
-                    {
-                        "value": "6810",
-                        "description": "Articles of cement, of concrete or of artificial stone, whether or not reinforced"
-                    },
-                    {
-                        "value": "6811",
-                        "description": "Articles of asbestos-cement, of cellulose fibre-cement or the like"
-                    },
-                    {
-                        "value": "7309 00",
-                        "description": "Reservoirs, tanks, vats and similar containers for any material (other than compressed or liquefied gas), of iron or steel, of a capacity exceeding 300 l, whether or not lined or heat-insulated, but not fitted with mechanical or thermal equipment"
-                    },
-                    {
-                        "value": "7310",
-                        "description": "Tanks, casks, drums, cans, boxes and similar containers, for any material (other than compressed or liquefied gas), of iron or steel, of a capacity not exceeding 300 l, whether or not lined or heat-insulated, but not fitted with mechanical or thermal equipment"
-                    },
-                    {
-                        "value": "7611 00 00",
-                        "description": "Aluminium reservoirs, tanks, vats and similar containers, for any material (other than compressed or liquefied gas), of a capacity exceeding 300 litres, whether or not lined or heat-insulated, but not fitted with mechanical or thermal equipment"
-                    },
-                    {
-                        "value": "7612",
-                        "description": "Aluminium casks, drums, cans, boxes and similar containers (including rigid or collapsible tubular containers), for any material (other than compressed or liquefied gas), of a capacity not exceeding 300 litres, whether or not lined or heat-insulated, but not fitted with mechanical or thermal equipment"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "AGRICULTURAL_EQUIPMENT",
-                "description": "Certain agricultural tools and equipment"
-            },
-            "comment": "Reduced rate applies only on water storage tanks that can be used to store water for irrigation or drainage or firefighting or fish farming of tariff headings 3925, 3926, 6810, 6811, 7309, 7310, 7611, 7612"
-        },
-        {
-            "memberState": "EL",
-            "type": "REDUCED",
-            "rate": {
-                "type": "PARKING_RATE",
-                "value": 13
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "7020 00",
-                        "description": "Other articles of glass"
-                    },
-                    {
-                        "value": "8413",
-                        "description": "Pumps for liquids, whether or not fitted with a measuring device; liquid elevators"
-                    },
-                    {
-                        "value": "8414",
-                        "description": "Air or vacuum pumps, air or other gas compressors and fans; ventilating or recycling hoods incorporating a fan, whether or not fitted with filters; gas-tight biological safety cabinets, whether or not fitted with filters"
-                    },
-                    {
-                        "value": "8479",
-                        "description": "Machines and mechanical appliances having individual functions, not specified or included elsewhere in this chapter"
-                    },
-                    {
-                        "value": "8716",
-                        "description": "Trailers and semi-trailers; other vehicles, not mechanically propelled; parts thereof"
-                    },
-                    {
-                        "value": "8907",
-                        "description": "Other floating structures (for example, rafts, tanks, coffer-dams, landing stages, buoys and beacons)"
-                    },
-                    {
-                        "value": "9406",
-                        "description": "Prefabricated buildings"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "AGRICULTURAL_EQUIPMENT",
-                "description": "Certain agricultural tools and equipment"
-            },
-            "comment": "Reduced rate applies only on pumps for liquids, air pumps and air compressors for fish tanks, mobile silos, greenhouses, fish tanks made of glass, accumulator shells, floating fish farming structures of tariff headings 8413, 8414, 8716, 9406, 7020, 8479, 8907 which by their nature and characteristics are intended mainly or exclusively for agriculture, animal husbandry or forestry"
-        },
-        {
-            "memberState": "EL",
-            "type": "REDUCED",
-            "rate": {
-                "type": "PARKING_RATE",
-                "value": 13
-            },
-            "situationOn": "2025-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "8201",
-                        "description": "Hand tools, the following: spades, shovels, mattocks, picks, hoes, forks and rakes; axes, billhooks and similar hewing tools; secateurs and pruners of any kind; scythes, sickles, hay knives, hedge shears, timber wedges and other tools of a kind used in agriculture, horticulture or forestry"
-                    },
-                    {
-                        "value": "8413",
-                        "description": "Pumps for liquids, whether or not fitted with a measuring device; liquid elevators"
-                    },
-                    {
-                        "value": "8419",
-                        "description": "Machinery, plant or laboratory equipment, whether or not electrically heated (excluding furnaces, ovens and other equipment of heading 8514), for the treatment of materials by a process involving a change of temperature such as heating, cooking, roasting, distilling, rectifying, sterilising, pasteurising, steaming, drying, evaporating, vaporising, condensing or cooling, other than machinery or plant of a kind used for domestic purposes; instantaneous or storage water heaters, non-electric"
-                    },
-                    {
-                        "value": "8424",
-                        "description": "Mechanical appliances (whether or not hand-operated) for projecting, dispersing or spraying liquids or powders; fire extinguishers, whether or not charged; spray guns and similar appliances; steam or sandblasting machines and similar jet projecting machines"
-                    },
-                    {
-                        "value": "8432",
-                        "description": "Agricultural, horticultural or forestry machinery for soil preparation or cultivation; lawn or sports-ground rollers"
-                    },
-                    {
-                        "value": "8433",
-                        "description": "Harvesting or threshing machinery, including straw or fodder balers; grass or hay mowers; machines for cleaning, sorting or grading eggs, fruit or other agricultural produce, other than machinery of heading 8437"
-                    },
-                    {
-                        "value": "8434",
-                        "description": "Milking machines and dairy machinery"
-                    },
-                    {
-                        "value": "8435",
-                        "description": "Presses, crushers and similar machinery used in the manufacture of wine, cider, fruit juices or similar beverages"
-                    },
-                    {
-                        "value": "8436",
-                        "description": "Other agricultural, horticultural, forestry, poultry-keeping or bee-keeping machinery, including germination plant fitted with mechanical or thermal equipment; poultry incubators and brooders"
-                    },
-                    {
-                        "value": "8437",
-                        "description": "Machines for cleaning, sorting or grading seed, grain or dried leguminous vegetables; machinery used in the milling industry or for the working of cereals or dried leguminous vegetables, other than farm-type machinery"
-                    },
-                    {
-                        "value": "8701",
-                        "description": "Tractors (other than tractors of heading 8709)"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "AGRICULTURAL_EQUIPMENT",
-                "description": "Certain agricultural tools and equipment"
-            },
-            "comment": "Reduced rate applies only on agricultural and forestry tractors, agricultural machines, devices and tools of tariff headings 8701, 8201, 8413, 8419, 8424, 8432, 8433, 8434, 8435, 8436, 8437, which by their nature and characteristics are intended mainly or exclusively for agriculture, animal husbandry or forestry"
         },
         {
             "memberState": "EL",
@@ -1445,6 +1253,26 @@
             "situationOn": "2025-01-01+01:00",
             "cnCodes": {
                 "code": {
+                    "value": "4902",
+                    "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
+                }
+            },
+            "category": {
+                "identifier": "NEWSPAPERS",
+                "description": "Newspapers"
+            },
+            "comment": "Reduced rate applies only on newspapers and periodicals printed, whether illustrated or with advertisements of tariff heading 4902"
+        },
+        {
+            "memberState": "EL",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 6
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cnCodes": {
+                "code": {
                     "value": "2309",
                     "description": "Preparations of a kind used in animal feeding"
                 }
@@ -1523,6 +1351,104 @@
                 "description": "Pharmaceutical products of a kind normally used for health care, prevention of illness and as treatment for medical and veterinary purposes, including products used for contraception and sanitary protection"
             },
             "comment": "Reduced rate applies only on medicaments for human medicine of tariff heading 3003 and 3004 and vaccines and immunological products for human medicine of tariff heading 3002"
+        },
+        {
+            "memberState": "EL",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 6
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "3101 00 00",
+                        "description": "Animal or vegetable fertilisers, whether or not mixed together or chemically treated; fertilisers produced by the mixing or chemical treatment of animal or vegetable products"
+                    },
+                    {
+                        "value": "3102",
+                        "description": "Mineral or chemical fertilisers, nitrogenous"
+                    },
+                    {
+                        "value": "3103",
+                        "description": "Mineral or chemical fertilisers, phosphatic"
+                    },
+                    {
+                        "value": "3104",
+                        "description": "Mineral or chemical fertilisers, potassic"
+                    },
+                    {
+                        "value": "3104 20",
+                        "description": "Potassium chloride"
+                    },
+                    {
+                        "value": "3105",
+                        "description": "Mineral or chemical fertilisers containing two or three of the fertilising elements nitrogen, phosphorus and potassium; other fertilisers; goods of this chapter in tablets or similar forms or in packages of a gross weight not exceeding 10 kg"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "AGRICULTURAL_PRODUCTION",
+                "description": "Supply of goods and services of a kind normally intended for use in agricultural production but excluding capital goods such as machinery or buildings"
+            },
+            "comment": "Fertilizers"
+        },
+        {
+            "memberState": "EL",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 13
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "0603",
+                        "description": "Cut flowers and flower buds of a kind suitable for bouquets or for ornamental purposes, fresh, dried, dyed, bleached, impregnated or otherwise prepared"
+                    },
+                    {
+                        "value": "0604",
+                        "description": "Foliage, branches and other parts of plants, without flowers or flower buds, and grasses, mosses and lichens, being goods of a kind suitable for bouquets or for ornamental purposes, fresh, dried, dyed, bleached, impregnated or otherwise prepared"
+                    },
+                    {
+                        "value": "1108",
+                        "description": "Starches; inulin"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "FOODSTUFFS",
+                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
+            },
+            "comment": "•For tariff heading 0603,0604, reduced rate applies only on flowers and flower buds,  and other parts of plants, without flowers nor flower buds, and greenery, moss and lichens, for bouquets or decorations, fresh.\n•For tariff heading 1108, reduced rate applies only on flour milling products, starches of all kinds."
+        },
+        {
+            "memberState": "EL",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 13
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "1604",
+                        "description": "Prepared or preserved fish; caviar and caviar substitutes prepared from fish eggs"
+                    },
+                    {
+                        "value": "2009",
+                        "description": "Fruit or nut juices (including grape must and coconut water) and vegetable juices, unfermented and not containing added spirit, whether or not containing added sugar or other sweetening matter"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "FOODSTUFFS",
+                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
+            },
+            "comment": "•For tariff heading 1604 excluded caviar\n•For tariff heading 2009 reduced rate applies only on preparations of vegetables , fruits and fruit or other parts of plants , as well as fruit and vegetable juices"
         },
         {
             "memberState": "EL",
@@ -2357,6 +2283,80 @@
                 "value": 24
             },
             "situationOn": "2025-01-01+01:00"
+        },
+        {
+            "memberState": "EL",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 13
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cnCodes": {
+                "code": {
+                    "value": "1211",
+                    "description": "Plants and parts of plants (including seeds and fruits), of a kind used primarily in perfumery, in pharmacy or for insecticidal, fungicidal or similar purposes, fresh, chilled, frozen or dried, whether or not cut, crushed or powdered"
+                }
+            },
+            "category": {
+                "identifier": "FOODSTUFFS",
+                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
+            },
+            "comment": "For tariff heading 1211 reduced rate applies only artemisia, basil, chamomile, common marjoram, mallow, rosemary, peppermint (mint) of all varieties, oregano, rosemary, sage, mountain tea, bittersweet, hot and spicy cloves, fresh or dry, whether or not cut, broken or powdered"
+        },
+        {
+            "memberState": "EL",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 13
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cnCodes": {
+                "code": {
+                    "value": "1212",
+                    "description": "Locust beans, seaweeds and other algae, sugar beet and sugar cane, fresh, chilled, frozen or dried, whether or not ground; fruit stones and kernels and other vegetable products (including unroasted chicory roots of the variety Cichorium intybus sativum) of a kind used primarily for human consumption, not elsewhere specified or included"
+                }
+            },
+            "category": {
+                "identifier": "FOODSTUFFS",
+                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
+            },
+            "comment": "For tariff heading 1212 reduced rate applies only on carob, sugar beet, cane, chilled, frozen or dried, whether or not powdered. Pits and almonds fruits and other vegetable products (including roots) chicory, not roasted, of the variety CICHORIUM INTYBUS SATIVUM), which mainly for human consumption and not named nor are they included elsewhere"
+        },
+        {
+            "memberState": "EL",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 13
+            },
+            "situationOn": "2025-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "1301",
+                        "description": "Lac; natural gums, resins, gum-resins and oleoresins (for example, balsams)"
+                    },
+                    {
+                        "value": "1512",
+                        "description": "Sunflower-seed, safflower or cotton-seed oil and fractions thereof, whether or not refined, but not chemically modified"
+                    },
+                    {
+                        "value": "1515",
+                        "description": "Other fixed vegetable or microbial fats and oils (including jojoba oil) and their fractions, whether or not refined, but not chemically modified"
+                    },
+                    {
+                        "value": "1516",
+                        "description": "Animal, vegetable or microbial fats and oils and their fractions, partly or wholly hydrogenated, inter-esterified, re-esterified or elaidinised, whether or not refined, but not further prepared"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "FOODSTUFFS",
+                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
+            },
+            "comment": "•For tariff heading 1301 reduced rate applies only on mastic (white or not) raw\n•For tariff headings 1512,1515 reduced rate applies only on soybean oil, peanut oil, sunflower oil, cotton oil (cottonseed oil), corn oil, sesame oil and their fractions, whether or not refined but not chemically transformed\n•For tariff heading 1516 reduced rate applies only on edible mixtures or preparations of animal fats or oils or vegetable or from fractions of various fats or oils of Chapter 15"
         }
     ]
 }
