@@ -5,6 +5,61 @@
             "memberState": "CY",
             "type": "REDUCED",
             "rate": {
+                "type": "EXEMPTED",
+                "value": 0
+            },
+            "situationOn": "2026-01-01+01:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "91",
+                        "description": "Libraries, archives, museums and other cultural services"
+                    },
+                    {
+                        "value": "93",
+                        "description": "Sporting services and amusement and recreation services"
+                    },
+                    {
+                        "value": "94",
+                        "description": "Services furnished by membership organisations"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "CULTURAL_EVENTS",
+                "description": "Admission to shows, theatres, circuses, fairs, amusement parks, concerts, museums, zoos, cinemas, exhibitions and similar cultural events and facilities"
+            },
+            "comment": "When organized by non-profit organizations and does not distort competition between them and profit organizations"
+        },
+        {
+            "memberState": "CY",
+            "type": "REDUCED",
+            "rate": {
+                "type": "NOT_APPLICABLE",
+                "value": 0
+            },
+            "situationOn": "2026-01-01+01:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "41",
+                        "description": "Residential and non-residential buildings, residential and non-residential buildings construction works"
+                    },
+                    {
+                        "value": "43",
+                        "description": "Specialised construction works"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "PRIVATE_DWELLINGS",
+                "description": "The renovation and repair of private dwellings, excluding materials which account for a significant part of the value of the service supplied"
+            }
+        },
+        {
+            "memberState": "CY",
+            "type": "REDUCED",
+            "rate": {
                 "type": "NOT_APPLICABLE",
                 "value": 0
             },
@@ -56,6 +111,25 @@
             "category": {
                 "identifier": "SOCIAL_WELLBEING",
                 "description": "Supply of goods and services by organisations recognised as being devoted to social wellbeing by Member States and engaged in welfare or social security work"
+            }
+        },
+        {
+            "memberState": "CY",
+            "type": "REDUCED",
+            "rate": {
+                "type": "NOT_APPLICABLE",
+                "value": 0
+            },
+            "situationOn": "2026-01-01+01:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "96",
+                    "description": "Personal services"
+                }
+            },
+            "category": {
+                "identifier": "UNDERTAKERS_SERVICES",
+                "description": "Supply of services by undertakers and cremation services, and the supply of goods related thereto"
             }
         },
         {
@@ -508,80 +582,6 @@
                 "description": "Accommodation provided in hotels and similar establishments, including the provision of holiday accommodation and the letting of places on camping or caravan sites"
             },
             "comment": "Until 31\/8\/2022 was 5% - from 1\/9\/2022 is 9%"
-        },
-        {
-            "memberState": "CY",
-            "type": "REDUCED",
-            "rate": {
-                "type": "EXEMPTED",
-                "value": 0
-            },
-            "situationOn": "2026-01-01+01:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "91",
-                        "description": "Libraries, archives, museums and other cultural services"
-                    },
-                    {
-                        "value": "93",
-                        "description": "Sporting services and amusement and recreation services"
-                    },
-                    {
-                        "value": "94",
-                        "description": "Services furnished by membership organisations"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "CULTURAL_EVENTS",
-                "description": "Admission to shows, theatres, circuses, fairs, amusement parks, concerts, museums, zoos, cinemas, exhibitions and similar cultural events and facilities"
-            },
-            "comment": "When organized by non-profit organizations and does not distort competition between them and profit organizations"
-        },
-        {
-            "memberState": "CY",
-            "type": "REDUCED",
-            "rate": {
-                "type": "NOT_APPLICABLE",
-                "value": 0
-            },
-            "situationOn": "2026-01-01+01:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "41",
-                        "description": "Residential and non-residential buildings, residential and non-residential buildings construction works"
-                    },
-                    {
-                        "value": "43",
-                        "description": "Specialised construction works"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "PRIVATE_DWELLINGS",
-                "description": "The renovation and repair of private dwellings, excluding materials which account for a significant part of the value of the service supplied"
-            }
-        },
-        {
-            "memberState": "CY",
-            "type": "REDUCED",
-            "rate": {
-                "type": "NOT_APPLICABLE",
-                "value": 0
-            },
-            "situationOn": "2026-01-01+01:00",
-            "cpaCodes": {
-                "code": {
-                    "value": "96",
-                    "description": "Personal services"
-                }
-            },
-            "category": {
-                "identifier": "UNDERTAKERS_SERVICES",
-                "description": "Supply of services by undertakers and cremation services, and the supply of goods related thereto"
-            }
         },
         {
             "memberState": "CY",

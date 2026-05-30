@@ -1471,20 +1471,6 @@
             "memberState": "PT",
             "type": "REDUCED",
             "rate": {
-                "type": "PARKING_RATE",
-                "value": 13
-            },
-            "situationOn": "2026-01-01+01:00",
-            "category": {
-                "identifier": "NEW_PARKING_RATE",
-                "description": "Parking rates (Article 105a(3) of the VAT Directive)"
-            },
-            "comment": "The parking rate of 13% applies to: 1. Wine, with the exclusion of “special wines” as fortified wines, liqueur wines or sparkling wines. 2. Agricultural tools and utensils, mobile silos, tractors, pumps and other machinery designed exclusively or mainly for the purpose of agriculture, cattle breeding or forestry. 3. Diesel for agriculture."
-        },
-        {
-            "memberState": "PT",
-            "type": "REDUCED",
-            "rate": {
                 "type": "REDUCED_RATE",
                 "value": 6
             },
@@ -1525,6 +1511,20 @@
                 "identifier": "STREET_CLEANING",
                 "description": "Supply of services provided in connection with street cleaning, refuse collection and waste treatment, other than the supply of such services by bodies referred to in Article 13"
             }
+        },
+        {
+            "memberState": "PT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "PARKING_RATE",
+                "value": 13
+            },
+            "situationOn": "2026-01-01+01:00",
+            "category": {
+                "identifier": "NEW_PARKING_RATE",
+                "description": "Parking rates (Article 105a(3) of the VAT Directive)"
+            },
+            "comment": "The parking rate of 13% applies to: 1. Wine, with the exclusion of “special wines” as fortified wines, liqueur wines or sparkling wines. 2. Agricultural tools and utensils, mobile silos, tractors, pumps and other machinery designed exclusively or mainly for the purpose of agriculture, cattle breeding or forestry. 3. Diesel for agriculture."
         },
         {
             "memberState": "PT",
