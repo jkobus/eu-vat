@@ -92,6 +92,44 @@
             },
             "situationOn": "2026-01-01+01:00",
             "cnCodes": {
+                "code": [
+                    {
+                        "value": "1901 10 00",
+                        "description": "Preparations suitable for infants or young children, put up for retail sale"
+                    },
+                    {
+                        "value": "2106 90 92",
+                        "description": "Containing no milkfats, sucrose, isoglucose, glucose or starch or containing, by weight, less than 1,5 % milkfat, 5 % sucrose or isoglucose, 5 % glucose or starch"
+                    },
+                    {
+                        "value": "2106 90 98",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "2202 99",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "3004 50 00",
+                        "description": "Other, containing vitamins or other products of heading 2936"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "FOODSTUFFS",
+                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
+            },
+            "comment": "Dietary supplements for special medicinal purposes (foodstuffs), mother’s milk substitutes and supplements (foodstuffs)"
+        },
+        {
+            "memberState": "HU",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2026-01-01+01:00",
+            "cnCodes": {
                 "code": {
                     "value": "3926 90",
                     "description": "Other"
@@ -1688,44 +1726,6 @@
                 "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
             },
             "comment": "Birds’ eggs, in shell, fresh"
-        },
-        {
-            "memberState": "HU",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2026-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "1901 10 00",
-                        "description": "Preparations suitable for infants or young children, put up for retail sale"
-                    },
-                    {
-                        "value": "2106 90 92",
-                        "description": "Containing no milkfats, sucrose, isoglucose, glucose or starch or containing, by weight, less than 1,5 % milkfat, 5 % sucrose or isoglucose, 5 % glucose or starch"
-                    },
-                    {
-                        "value": "2106 90 98",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "2202 99",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "3004 50 00",
-                        "description": "Other, containing vitamins or other products of heading 2936"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "FOODSTUFFS",
-                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
-            },
-            "comment": "Dietary supplements for special medicinal purposes (foodstuffs), mother’s milk substitutes and supplements (foodstuffs)"
         }
     ]
 }
