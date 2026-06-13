@@ -424,6 +424,25 @@
             },
             "situationOn": "2026-01-01+01:00",
             "cnCodes": {
+                "code": {
+                    "value": "2201",
+                    "description": "Waters, including natural or artificial mineral waters and aerated waters, not containing added sugar or other sweetening matter nor flavoured; ice and snow"
+                }
+            },
+            "category": {
+                "identifier": "SUPPLY_WATER",
+                "description": "Supply of water"
+            }
+        },
+        {
+            "memberState": "ES",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 10
+            },
+            "situationOn": "2026-01-01+01:00",
+            "cnCodes": {
                 "code": [
                     {
                         "value": "2701 20 00",
@@ -1065,25 +1084,6 @@
                 "description": "Exemptions and super-reduced rates (Article 105a(1) of the VAT Directive)"
             },
             "comment": "-"
-        },
-        {
-            "memberState": "ES",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 10
-            },
-            "situationOn": "2026-01-01+01:00",
-            "cnCodes": {
-                "code": {
-                    "value": "2201",
-                    "description": "Waters, including natural or artificial mineral waters and aerated waters, not containing added sugar or other sweetening matter nor flavoured; ice and snow"
-                }
-            },
-            "category": {
-                "identifier": "SUPPLY_WATER",
-                "description": "Supply of water"
-            }
         },
         {
             "memberState": "ES",
