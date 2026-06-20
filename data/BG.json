@@ -57,6 +57,64 @@
         },
         {
             "memberState": "BG",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 9
+            },
+            "situationOn": "2026-01-01+01:00",
+            "cnCodes": {
+                "code": {
+                    "value": "9619 00 81",
+                    "description": "Napkins and napkin liners for babies"
+                }
+            },
+            "category": {
+                "identifier": "PHARMACEUTICAL_PRODUCTS",
+                "description": "Pharmaceutical products of a kind normally used for health care, prevention of illness and as treatment for medical and veterinary purposes, including products used for contraception and sanitary protection"
+            },
+            "comment": "The reduced rate is applicable for supply of baby diapers and similar baby hygiene items."
+        },
+        {
+            "memberState": "BG",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 9
+            },
+            "situationOn": "2026-01-01+01:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "55.10.10",
+                        "description": "Room or unit accommodation services for visitors, with daily housekeeping (except time-share)"
+                    },
+                    {
+                        "value": "55.20.11",
+                        "description": "Room or unit accommodation services for visitors in youth hostels and holiday cabins"
+                    },
+                    {
+                        "value": "55.20.12",
+                        "description": "Room or unit accommodation services for visitors in time-share properties"
+                    },
+                    {
+                        "value": "55.20.19",
+                        "description": "Other room or unit accommodation services for visitors, without daily housekeeping"
+                    },
+                    {
+                        "value": "55.30.11",
+                        "description": "Camping ground services"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "ACCOMMODATION",
+                "description": "Accommodation provided in hotels and similar establishments, including the provision of holiday accommodation and the letting of places on camping or caravan sites"
+            },
+            "comment": "The supply of accommodation services provided in hotels and similar establishments, including the provision of holiday accommodation and the rental of places for camping or caravans, with a place of supply in the territory of the country."
+        },
+        {
+            "memberState": "BG",
             "type": "STANDARD",
             "rate": {
                 "type": "DEFAULT",
@@ -123,64 +181,6 @@
                 "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
             },
             "comment": "The reduced rate is applicable for supply of specialised milk formulas (with partially hydrolysed protein and those for children with allergies) and dietetic foods for special medical purposes intended for infants."
-        },
-        {
-            "memberState": "BG",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 9
-            },
-            "situationOn": "2026-01-01+01:00",
-            "cnCodes": {
-                "code": {
-                    "value": "9619 00 81",
-                    "description": "Napkins and napkin liners for babies"
-                }
-            },
-            "category": {
-                "identifier": "PHARMACEUTICAL_PRODUCTS",
-                "description": "Pharmaceutical products of a kind normally used for health care, prevention of illness and as treatment for medical and veterinary purposes, including products used for contraception and sanitary protection"
-            },
-            "comment": "The reduced rate is applicable for supply of baby diapers and similar baby hygiene items."
-        },
-        {
-            "memberState": "BG",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 9
-            },
-            "situationOn": "2026-01-01+01:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "55.10.10",
-                        "description": "Room or unit accommodation services for visitors, with daily housekeeping (except time-share)"
-                    },
-                    {
-                        "value": "55.20.11",
-                        "description": "Room or unit accommodation services for visitors in youth hostels and holiday cabins"
-                    },
-                    {
-                        "value": "55.20.12",
-                        "description": "Room or unit accommodation services for visitors in time-share properties"
-                    },
-                    {
-                        "value": "55.20.19",
-                        "description": "Other room or unit accommodation services for visitors, without daily housekeeping"
-                    },
-                    {
-                        "value": "55.30.11",
-                        "description": "Camping ground services"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "ACCOMMODATION",
-                "description": "Accommodation provided in hotels and similar establishments, including the provision of holiday accommodation and the letting of places on camping or caravan sites"
-            },
-            "comment": "The supply of accommodation services provided in hotels and similar establishments, including the provision of holiday accommodation and the rental of places for camping or caravans, with a place of supply in the territory of the country."
         }
     ]
 }
