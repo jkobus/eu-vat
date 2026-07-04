@@ -6,30 +6,62 @@
             "type": "REDUCED",
             "rate": {
                 "type": "REDUCED_RATE",
-                "value": 12
+                "value": 5
             },
-            "situationOn": "2026-01-01+01:00",
+            "situationOn": "2026-07-01+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "4901",
+                        "description": "Printed books, brochures, leaflets and similar printed matter, whether or not in single sheets"
+                    },
+                    {
+                        "value": "4903 00 00",
+                        "description": "Children's picture, drawing or colouring books"
+                    },
+                    {
+                        "value": "4904 00 00",
+                        "description": "Music, printed or in manuscript, whether or not bound or illustrated"
+                    },
+                    {
+                        "value": "4905",
+                        "description": "Maps and hydrographic or similar charts of all kinds, including atlases, wall maps, topographical plans and globes, printed"
+                    },
+                    {
+                        "value": "4906 00 00",
+                        "description": "Plans and drawings for architectural, engineering, industrial, commercial, topographical or similar purposes, being originals drawn by hand; handwritten texts; photographic reproductions on sensitised paper and carbon copies of the foregoing"
+                    },
+                    {
+                        "value": "4911",
+                        "description": "Other printed matter, including printed pictures and photographs"
+                    }
+                ]
+            },
             "cpaCodes": {
                 "code": [
                     {
-                        "value": "55.10.0",
-                        "description": "Hotel and similar accommodation services"
+                        "value": "58.11.20",
+                        "description": "E-books"
                     },
                     {
-                        "value": "55.20.0",
-                        "description": "Holiday and other short-stay accommodation services"
+                        "value": "58.11.50",
+                        "description": "Publishing of books on a fee or contract basis"
                     },
                     {
-                        "value": "55.30.0",
-                        "description": "Camping grounds and recreational vehicle parks services"
+                        "value": "58.11.32",
+                        "description": "Online audio books"
+                    },
+                    {
+                        "value": "91.11.00",
+                        "description": "Library services"
                     }
                 ]
             },
             "category": {
-                "identifier": "ACCOMMODATION",
-                "description": "Accommodation provided in hotels and similar establishments, including the provision of holiday accommodation and the letting of places on camping or caravan sites"
+                "identifier": "LOAN_LIBRARIES",
+                "description": "Supply, including on loan by libraries, of books, newspapers and periodicals either on physical means of support or supplied electronically or both (including brochures, leaflets and similar printed matter, children's picture, drawing or colouring books, music printed or in manuscript form, maps and hydrographic or similar charts), other than publications wholly or predominantly devoted to advertising and other than publications wholly or predominantly consisting of video content or audible music."
             },
-            "comment": "In accordance with the procedure laid down in the legislation governing tourism (therein Law on turism)"
+            "comment": "Applies for printed and electronic books as well as printed and electronic non-periodical information publications (see non-exhaustive most common publications supplied list in Comment of VAT Law on the STI website)"
         },
         {
             "memberState": "LT",
@@ -38,7 +70,7 @@
                 "type": "REDUCED_RATE",
                 "value": 5
             },
-            "situationOn": "2026-01-01+01:00",
+            "situationOn": "2026-07-01+02:00",
             "cnCodes": {
                 "code": [
                     {
@@ -115,21 +147,12 @@
         },
         {
             "memberState": "LT",
-            "type": "STANDARD",
-            "rate": {
-                "type": "DEFAULT",
-                "value": 21
-            },
-            "situationOn": "2026-01-01+01:00"
-        },
-        {
-            "memberState": "LT",
             "type": "REDUCED",
             "rate": {
                 "type": "REDUCED_RATE",
                 "value": 5
             },
-            "situationOn": "2026-01-01+01:00",
+            "situationOn": "2026-07-01+02:00",
             "cnCodes": {
                 "code": [
                     {
@@ -245,12 +268,24 @@
                         "description": "Repair and maintenance services of irradiation, electromedical and electrotherapeutic equipment"
                     },
                     {
+                        "value": "33.17.09",
+                        "description": "Repair and maintenance services of other civilian transport equipment n.e.c."
+                    },
+                    {
+                        "value": "33.19.00",
+                        "description": "Repair and maintenance services of other equipment"
+                    },
+                    {
                         "value": "77.22.09",
                         "description": "Rental and leasing services of other personal and household goods n.e.c."
                     },
                     {
                         "value": "77.39.09",
                         "description": "Rental and leasing services of other machinery and equipment without operator and tangible goods n.e.c."
+                    },
+                    {
+                        "value": "95.29.09",
+                        "description": "Repair and maintenance services of other personal and household goods n.e.c."
                     }
                 ]
             },
@@ -267,61 +302,7 @@
                 "type": "REDUCED_RATE",
                 "value": 5
             },
-            "situationOn": "2026-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "4901",
-                        "description": "Printed books, brochures, leaflets and similar printed matter, whether or not in single sheets"
-                    },
-                    {
-                        "value": "4903 00 00",
-                        "description": "Children's picture, drawing or colouring books"
-                    },
-                    {
-                        "value": "4904 00 00",
-                        "description": "Music, printed or in manuscript, whether or not bound or illustrated"
-                    },
-                    {
-                        "value": "4905",
-                        "description": "Maps and hydrographic or similar charts of all kinds, including atlases, wall maps, topographical plans and globes, printed"
-                    },
-                    {
-                        "value": "4906 00 00",
-                        "description": "Plans and drawings for architectural, engineering, industrial, commercial, topographical or similar purposes, being originals drawn by hand; handwritten texts; photographic reproductions on sensitised paper and carbon copies of the foregoing"
-                    },
-                    {
-                        "value": "4911",
-                        "description": "Other printed matter, including printed pictures and photographs"
-                    }
-                ]
-            },
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "58.11.2",
-                        "description": "E-books"
-                    },
-                    {
-                        "value": "58.11.3",
-                        "description": "Audio books"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "LOAN_LIBRARIES",
-                "description": "Supply, including on loan by libraries, of books, newspapers and periodicals either on physical means of support or supplied electronically or both (including brochures, leaflets and similar printed matter, children's picture, drawing or colouring books, music printed or in manuscript form, maps and hydrographic or similar charts), other than publications wholly or predominantly devoted to advertising and other than publications wholly or predominantly consisting of video content or audible music."
-            },
-            "comment": "Applies for printed and electronic books as well as printed and electronic non-periodical information publications (see non-exhaustive most common publications supplied list in Comment of VAT Law on the STI website)"
-        },
-        {
-            "memberState": "LT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2026-01-01+01:00",
+            "situationOn": "2026-07-01+02:00",
             "cnCodes": {
                 "code": {
                     "value": "4902",
@@ -330,7 +311,7 @@
             },
             "cpaCodes": {
                 "code": {
-                    "value": "58.12.2",
+                    "value": "58.12.20",
                     "description": "Online newspapers"
                 }
             },
@@ -347,7 +328,7 @@
                 "type": "REDUCED_RATE",
                 "value": 5
             },
-            "situationOn": "2026-01-01+01:00",
+            "situationOn": "2026-07-01+02:00",
             "cnCodes": {
                 "code": {
                     "value": "4902",
@@ -356,7 +337,7 @@
             },
             "cpaCodes": {
                 "code": {
-                    "value": "58.13.2",
+                    "value": "58.13.20",
                     "description": "Online journals and periodicals"
                 }
             },
@@ -373,7 +354,7 @@
                 "type": "REDUCED_RATE",
                 "value": 12
             },
-            "situationOn": "2026-01-01+01:00",
+            "situationOn": "2026-07-01+02:00",
             "cpaCodes": {
                 "code": [
                     {
@@ -383,6 +364,14 @@
                     {
                         "value": "49.31.22",
                         "description": "Other interurban scheduled passenger transport services by road"
+                    },
+                    {
+                        "value": "50.10.11",
+                        "description": "Sea and coastal passenger water transport services by ferries"
+                    },
+                    {
+                        "value": "50.10.19",
+                        "description": "Sea and coastal passenger water transport services n.e.c."
                     },
                     {
                         "value": "50.30.11",
@@ -423,32 +412,32 @@
                 "type": "REDUCED_RATE",
                 "value": 12
             },
-            "situationOn": "2026-01-01+01:00",
+            "situationOn": "2026-07-01+02:00",
             "cpaCodes": {
                 "code": [
                     {
-                        "value": "90.01",
-                        "description": "Services of performing artists"
+                        "value": "93.21.10",
+                        "description": "Amusement park and theme park services"
                     },
                     {
-                        "value": "90.04",
-                        "description": "Arts facility operation services"
+                        "value": "59.14.00",
+                        "description": "Motion picture projection services"
                     },
                     {
-                        "value": "91.01",
+                        "value": "90.20.00",
+                        "description": "Services of performing arts"
+                    },
+                    {
+                        "value": "91.1",
                         "description": "Library and archive services"
                     },
                     {
-                        "value": "91.02",
-                        "description": "Museum services"
+                        "value": "91.2",
+                        "description": "Museum, collection, historical site and monument services"
                     },
                     {
-                        "value": "91.03",
-                        "description": "Operation services of historical sites and buildings and similar visitor attractions"
-                    },
-                    {
-                        "value": "91.04",
-                        "description": "Botanical and zoological garden services and nature reserve services"
+                        "value": "91.4",
+                        "description": "Botanical and zoological garden and nature reserve services"
                     }
                 ]
             },
@@ -457,6 +446,53 @@
                 "description": "Admission to shows, theatres, circuses, fairs, amusement parks, concerts, museums, zoos, cinemas, exhibitions and similar cultural events and facilities"
             },
             "comment": "for visiting all types of art and cultural institutions, art and cultural events, other than VAT-exempt services provided by non-profit legal entities"
+        },
+        {
+            "memberState": "LT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 12
+            },
+            "situationOn": "2026-07-01+02:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "55.10.00",
+                        "description": "Hotel and similar accommodation services"
+                    },
+                    {
+                        "value": "55.20.01",
+                        "description": "Room or unit accommodation services in youth hostels and holiday cabins"
+                    },
+                    {
+                        "value": "55.20.02",
+                        "description": "Room or unit accommodation services in time-share properties"
+                    },
+                    {
+                        "value": "55.20.03",
+                        "description": "Other room or unit accommodation services, without daily housekeeping"
+                    },
+                    {
+                        "value": "55.30.00",
+                        "description": "Camping grounds and recreational vehicle parks services"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "ACCOMMODATION",
+                "description": "Accommodation provided in hotels and similar establishments, including the provision of holiday accommodation and the letting of places on camping or caravan sites"
+            },
+            "comment": "In accordance with the procedure laid down in the legislation governing tourism (therein Law on turism)"
+        },
+        {
+            "memberState": "LT",
+            "type": "STANDARD",
+            "rate": {
+                "type": "DEFAULT",
+                "value": 21
+            },
+            "situationOn": "2026-07-01+02:00"
         }
     ]
 }
