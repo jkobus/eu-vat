@@ -79,160 +79,111 @@
             "memberState": "MT",
             "type": "REDUCED",
             "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
+                "type": "EXEMPTED",
+                "value": 0
             },
             "situationOn": "2026-01-01+01:00",
             "cnCodes": {
-                "code": {
-                    "value": "9701",
-                    "description": "Paintings, drawings and pastels, executed entirely by hand, other than drawings of heading 4906 and other than hand-painted or hand-decorated manufactured articles; collages, mosaics and similar decorative plaques"
-                }
+                "code": [
+                    {
+                        "value": "1515 19 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "1515 21 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "1515 29 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "1515 50 19",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "1515 50 99",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "1515 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "1516",
+                        "description": "Animal, vegetable or microbial fats and oils and their fractions, partly or wholly hydrogenated, inter-esterified, re-esterified or elaidinised, whether or not refined, but not further prepared"
+                    },
+                    {
+                        "value": "1517",
+                        "description": "Margarine; edible mixtures or preparations of animal, vegetable or microbial fats or oils or of fractions of different fats or oils of this chapter, other than edible fats or oils or their fractions of heading 1516"
+                    },
+                    {
+                        "value": "1521 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "1522 00 99",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "1704 90 30",
+                        "description": "White chocolate"
+                    },
+                    {
+                        "value": "1704 90 51",
+                        "description": "Pastes, including marzipan, in immediate packings of a net content of 1 kg or more"
+                    },
+                    {
+                        "value": "1704 90 99",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "20",
+                        "description": "CHAPTER 20 - PREPARATIONS OF VEGETABLES, FRUIT, NUTS OR OTHER PARTS OF PLANTS"
+                    },
+                    {
+                        "value": "21",
+                        "description": "CHAPTER 21 - MISCELLANEOUS EDIBLE PREPARATIONS"
+                    },
+                    {
+                        "value": "2202 99",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "2209 00",
+                        "description": "Vinegar and substitutes for vinegar obtained from acetic acid"
+                    },
+                    {
+                        "value": "23",
+                        "description": "CHAPTER 23 - RESIDUES AND WASTE FROM THE FOOD INDUSTRIES; PREPARED ANIMAL FODDER"
+                    },
+                    {
+                        "value": "2501 00 91",
+                        "description": "Salt suitable for human consumption"
+                    },
+                    {
+                        "value": "3301 90 21",
+                        "description": "Of liquorice and hops"
+                    },
+                    {
+                        "value": "3302 10 29",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "3302 10 40",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "3302 10 90",
+                        "description": "Of a kind used in the food industries"
+                    }
+                ]
             },
             "category": {
-                "identifier": "PICTURES",
-                "description": "Pictures, collages and similar decorative plaques, paintings and drawings, executed entirely by hand by the artist, other than plans and drawings for architectural, engineering, industrial, commercial, topographical or similar purposes, hand-decorated manufactured articles, theatrical scenery, studio back cloths or the like of painted canvas (CN code 9701)"
+                "identifier": "FOODSTUFFS",
+                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
             },
-            "comment": "Reduced rate only limited to the importation of works of art, collector’s items and antiques as defined in the VAT Act."
-        },
-        {
-            "memberState": "MT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2026-01-01+01:00",
-            "cnCodes": {
-                "code": {
-                    "value": "9702 00 00",
-                    "description": "Original engravings, prints and lithographs"
-                }
-            },
-            "category": {
-                "identifier": "IMPRESSIONS",
-                "description": "Original engravings, prints and lithographs, being impressions produced in the limited numbers directly in black and white or in colour of one or of several plates executed entirely by hand by the artist, irrespective of the process or of the material employed, but not including any mechanical or photomechanical process (CN code 9702 00 00)"
-            },
-            "comment": "Reduced rate only applicable to the importation of works of art, collector’s items and antiques as defined in the VAT Act."
-        },
-        {
-            "memberState": "MT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2026-01-01+01:00",
-            "cnCodes": {
-                "code": {
-                    "value": "9703 00 00",
-                    "description": "Original sculptures and statuary, in any material"
-                }
-            },
-            "category": {
-                "identifier": "SCULPTURES",
-                "description": "Original sculptures and statuary, in any material, provided that they are executed entirely by the artists"
-            },
-            "comment": "Reduced rate only applicable to the importation of works of art, collector’s items and antiques as defined in the VAT Act."
-        },
-        {
-            "memberState": "MT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2026-01-01+01:00",
-            "cnCodes": {
-                "code": {
-                    "value": "9704 00 00",
-                    "description": "Postage or revenue stamps, stamp-postmarks, first-day covers, postal stationery (stamped paper), and the like, used or unused, other than those of heading 4907"
-                }
-            },
-            "category": {
-                "identifier": "POSTAGE",
-                "description": "Postage or revenue stamps, postmarks, first-day covers, pre-stamped stationery and the like, used, or if unused not current and not intended to be current (CN code 9704 00 00)"
-            },
-            "comment": "Reduced rate only applicable to the importation of works of art, collector’s items and antiques as defined in the VAT Act."
-        },
-        {
-            "memberState": "MT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2026-01-01+01:00",
-            "cnCodes": {
-                "code": {
-                    "value": "9705 00 00",
-                    "description": "Collections and collectors' pieces of zoological, botanical, mineralogical, anatomical, historical, archaeological, palaeontological, ethnographic or numismatic interest"
-                }
-            },
-            "category": {
-                "identifier": "ZOOLOGICAL",
-                "description": "Importation of collections and collectors' pieces of zoological, botanical, mineralogical, anatomical, historical, archaeological, paleontological, ethnographic or numismatic interest (CN code 9705 00 00)"
-            },
-            "comment": "Reduced rate only applicable to the importation of works of art, collector’s items and antiques as defined in the VAT Act."
-        },
-        {
-            "memberState": "MT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2026-01-01+01:00",
-            "cnCodes": {
-                "code": {
-                    "value": "9706 00 00",
-                    "description": "Antiques of an age exceeding 100 years"
-                }
-            },
-            "category": {
-                "identifier": "100_YEARS_OLD",
-                "description": "Goods, other than works of art or collector’s items, which are more than 100 years old (CN code 9706 00 00)"
-            },
-            "comment": "Reduced rate only applicable to antiques as defined in the VAT Act."
-        },
-        {
-            "memberState": "MT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2026-01-01+01:00",
-            "cpaCodes": {
-                "code": {
-                    "value": "88",
-                    "description": "Social work services without accommodation"
-                }
-            },
-            "category": {
-                "identifier": "DOMESTIC_CARE",
-                "description": "Domestic care services such as home help and care of the young, elderly, sick or disabled"
-            }
-        },
-        {
-            "memberState": "MT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2026-01-01+01:00",
-            "cpaCodes": {
-                "code": {
-                    "value": "95.2",
-                    "description": "Repair and maintenance services of personal and household goods"
-                }
-            },
-            "category": {
-                "identifier": "CLOTHING_REPAIR",
-                "description": "Minor repairs of clothing and household linen (including mending and alteration)"
-            },
-            "comment": "Reduced rate applies to the minor repairing of clothing and household linen (including mending and alteration)."
+            "comment": "Food for human consumption, excluding food supplied for catering, is taxed at 0% (exempt with credit) (part 4).  \n\nThe above exemption does not apply to items classified under the following subheadings in the First Schedule of the Import Duties Act:\n\n(1) 1515.90.15.00;1515.90.15.90;1515.90.21.00; 1515.90.31.00;1515.90.40.00;1515.90.60.00; 1516.20.10.00; 1517.90.93; 1521.90.10.00\n\n(2) 2006.00.10; 2009\n\n(3) 2105.00; 2106.90.20.00; 2106.90.98.33; 2106.90.98.37; 2106.90.98.39\n\n(4) 2307.00"
         },
         {
             "memberState": "MT",
@@ -379,116 +330,6 @@
                 "description": "Accommodation provided in hotels and similar establishments, including the provision of holiday accommodation and the letting of places on camping or caravan sites"
             },
             "comment": "The reduced rate is limited to accommodation required to be licensed in virtue of the Malta Travel and Tourism Services Act (or any Act substituted therefor)."
-        },
-        {
-            "memberState": "MT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "EXEMPTED",
-                "value": 0
-            },
-            "situationOn": "2026-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "1515 19 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "1515 21 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "1515 29 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "1515 50 19",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "1515 50 99",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "1515 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "1516",
-                        "description": "Animal, vegetable or microbial fats and oils and their fractions, partly or wholly hydrogenated, inter-esterified, re-esterified or elaidinised, whether or not refined, but not further prepared"
-                    },
-                    {
-                        "value": "1517",
-                        "description": "Margarine; edible mixtures or preparations of animal, vegetable or microbial fats or oils or of fractions of different fats or oils of this chapter, other than edible fats or oils or their fractions of heading 1516"
-                    },
-                    {
-                        "value": "1521 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "1522 00 99",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "1704 90 30",
-                        "description": "White chocolate"
-                    },
-                    {
-                        "value": "1704 90 51",
-                        "description": "Pastes, including marzipan, in immediate packings of a net content of 1 kg or more"
-                    },
-                    {
-                        "value": "1704 90 99",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "20",
-                        "description": "CHAPTER 20 - PREPARATIONS OF VEGETABLES, FRUIT, NUTS OR OTHER PARTS OF PLANTS"
-                    },
-                    {
-                        "value": "21",
-                        "description": "CHAPTER 21 - MISCELLANEOUS EDIBLE PREPARATIONS"
-                    },
-                    {
-                        "value": "2202 99",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "2209 00",
-                        "description": "Vinegar and substitutes for vinegar obtained from acetic acid"
-                    },
-                    {
-                        "value": "23",
-                        "description": "CHAPTER 23 - RESIDUES AND WASTE FROM THE FOOD INDUSTRIES; PREPARED ANIMAL FODDER"
-                    },
-                    {
-                        "value": "2501 00 91",
-                        "description": "Salt suitable for human consumption"
-                    },
-                    {
-                        "value": "3301 90 21",
-                        "description": "Of liquorice and hops"
-                    },
-                    {
-                        "value": "3302 10 29",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "3302 10 40",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "3302 10 90",
-                        "description": "Of a kind used in the food industries"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "FOODSTUFFS",
-                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
-            },
-            "comment": "Food for human consumption, excluding food supplied for catering, is taxed at 0% (exempt with credit) (part 4).  \n\nThe above exemption does not apply to items classified under the following subheadings in the First Schedule of the Import Duties Act:\n\n(1) 1515.90.15.00;1515.90.15.90;1515.90.21.00; 1515.90.31.00;1515.90.40.00;1515.90.60.00; 1516.20.10.00; 1517.90.93; 1521.90.10.00\n\n(2) 2006.00.10; 2009\n\n(3) 2105.00; 2106.90.20.00; 2106.90.98.33; 2106.90.98.37; 2106.90.98.39\n\n(4) 2307.00"
         },
         {
             "memberState": "MT",
@@ -1135,6 +976,100 @@
             "memberState": "MT",
             "type": "REDUCED",
             "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2026-01-01+01:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "4820 20 00",
+                        "description": "Exercise books"
+                    },
+                    {
+                        "value": "4901",
+                        "description": "Printed books, brochures, leaflets and similar printed matter, whether or not in single sheets"
+                    },
+                    {
+                        "value": "4903 00 00",
+                        "description": "Children's picture, drawing or colouring books"
+                    },
+                    {
+                        "value": "4904 00 00",
+                        "description": "Music, printed or in manuscript, whether or not bound or illustrated"
+                    },
+                    {
+                        "value": "4905 91 00",
+                        "description": "In book form"
+                    },
+                    {
+                        "value": "4905 99 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "4910 00 00",
+                        "description": "Calendars of any kind, printed, including calendar blocks"
+                    },
+                    {
+                        "value": "4911 10",
+                        "description": "Trade advertising material, commercial catalogues and the like"
+                    },
+                    {
+                        "value": "4911 99 00",
+                        "description": "Other"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "LOAN_LIBRARIES",
+                "description": "Supply, including on loan by libraries, of books, newspapers and periodicals either on physical means of support or supplied electronically or both (including brochures, leaflets and similar printed matter, children's picture, drawing or colouring books, music printed or in manuscript form, maps and hydrographic or similar charts), other than publications wholly or predominantly devoted to advertising and other than publications wholly or predominantly consisting of video content or audible music."
+            },
+            "comment": "(i) Not applicable to library loans, and \"production of publications of non-profit-making organisations and services related to such production\".\n\n(ii) This reduced rate has been extended to also include e-books."
+        },
+        {
+            "memberState": "MT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2026-01-01+01:00",
+            "cnCodes": {
+                "code": {
+                    "value": "4902",
+                    "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
+                }
+            },
+            "category": {
+                "identifier": "NEWSPAPERS",
+                "description": "Newspapers"
+            },
+            "comment": "This reduced rate has been extended to also include e-newspapers."
+        },
+        {
+            "memberState": "MT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2026-01-01+01:00",
+            "cnCodes": {
+                "code": {
+                    "value": "4902",
+                    "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
+                }
+            },
+            "category": {
+                "identifier": "PERIODICALS",
+                "description": "Periodicals"
+            },
+            "comment": "This reduced rate has been extended to also include periodicals provided electronically."
+        },
+        {
+            "memberState": "MT",
+            "type": "REDUCED",
+            "rate": {
                 "type": "EXEMPTED",
                 "value": 0
             },
@@ -1268,100 +1203,6 @@
             "cnCodes": {
                 "code": [
                     {
-                        "value": "4820 20 00",
-                        "description": "Exercise books"
-                    },
-                    {
-                        "value": "4901",
-                        "description": "Printed books, brochures, leaflets and similar printed matter, whether or not in single sheets"
-                    },
-                    {
-                        "value": "4903 00 00",
-                        "description": "Children's picture, drawing or colouring books"
-                    },
-                    {
-                        "value": "4904 00 00",
-                        "description": "Music, printed or in manuscript, whether or not bound or illustrated"
-                    },
-                    {
-                        "value": "4905 91 00",
-                        "description": "In book form"
-                    },
-                    {
-                        "value": "4905 99 00",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "4910 00 00",
-                        "description": "Calendars of any kind, printed, including calendar blocks"
-                    },
-                    {
-                        "value": "4911 10",
-                        "description": "Trade advertising material, commercial catalogues and the like"
-                    },
-                    {
-                        "value": "4911 99 00",
-                        "description": "Other"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "LOAN_LIBRARIES",
-                "description": "Supply, including on loan by libraries, of books, newspapers and periodicals either on physical means of support or supplied electronically or both (including brochures, leaflets and similar printed matter, children's picture, drawing or colouring books, music printed or in manuscript form, maps and hydrographic or similar charts), other than publications wholly or predominantly devoted to advertising and other than publications wholly or predominantly consisting of video content or audible music."
-            },
-            "comment": "(i) Not applicable to library loans, and \"production of publications of non-profit-making organisations and services related to such production\".\n\n(ii) This reduced rate has been extended to also include e-books."
-        },
-        {
-            "memberState": "MT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2026-01-01+01:00",
-            "cnCodes": {
-                "code": {
-                    "value": "4902",
-                    "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
-                }
-            },
-            "category": {
-                "identifier": "NEWSPAPERS",
-                "description": "Newspapers"
-            },
-            "comment": "This reduced rate has been extended to also include e-newspapers."
-        },
-        {
-            "memberState": "MT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2026-01-01+01:00",
-            "cnCodes": {
-                "code": {
-                    "value": "4902",
-                    "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
-                }
-            },
-            "category": {
-                "identifier": "PERIODICALS",
-                "description": "Periodicals"
-            },
-            "comment": "This reduced rate has been extended to also include periodicals provided electronically."
-        },
-        {
-            "memberState": "MT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5
-            },
-            "situationOn": "2026-01-01+01:00",
-            "cnCodes": {
-                "code": [
-                    {
                         "value": "8425 11 00",
                         "description": "Powered by electric motor"
                     },
@@ -1478,6 +1319,165 @@
                 "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
             },
             "comment": "This reduced rate applies to the following items (and CN codes) for the exclusive use of the disabled (part 4):\n- car adaptation-handcontrols, swivel seats (9401 30 10 and 9401 30 90);\n- toilet frames\/surrounds (9401 79 00);\n- special feeder chairs (9402 90 00);\n- mouthsticks (9608 39 90)"
+        },
+        {
+            "memberState": "MT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2026-01-01+01:00",
+            "cnCodes": {
+                "code": {
+                    "value": "9701",
+                    "description": "Paintings, drawings and pastels, executed entirely by hand, other than drawings of heading 4906 and other than hand-painted or hand-decorated manufactured articles; collages, mosaics and similar decorative plaques"
+                }
+            },
+            "category": {
+                "identifier": "PICTURES",
+                "description": "Pictures, collages and similar decorative plaques, paintings and drawings, executed entirely by hand by the artist, other than plans and drawings for architectural, engineering, industrial, commercial, topographical or similar purposes, hand-decorated manufactured articles, theatrical scenery, studio back cloths or the like of painted canvas (CN code 9701)"
+            },
+            "comment": "Reduced rate only limited to the importation of works of art, collector’s items and antiques as defined in the VAT Act."
+        },
+        {
+            "memberState": "MT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2026-01-01+01:00",
+            "cnCodes": {
+                "code": {
+                    "value": "9702 00 00",
+                    "description": "Original engravings, prints and lithographs"
+                }
+            },
+            "category": {
+                "identifier": "IMPRESSIONS",
+                "description": "Original engravings, prints and lithographs, being impressions produced in the limited numbers directly in black and white or in colour of one or of several plates executed entirely by hand by the artist, irrespective of the process or of the material employed, but not including any mechanical or photomechanical process (CN code 9702 00 00)"
+            },
+            "comment": "Reduced rate only applicable to the importation of works of art, collector’s items and antiques as defined in the VAT Act."
+        },
+        {
+            "memberState": "MT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2026-01-01+01:00",
+            "cnCodes": {
+                "code": {
+                    "value": "9703 00 00",
+                    "description": "Original sculptures and statuary, in any material"
+                }
+            },
+            "category": {
+                "identifier": "SCULPTURES",
+                "description": "Original sculptures and statuary, in any material, provided that they are executed entirely by the artists"
+            },
+            "comment": "Reduced rate only applicable to the importation of works of art, collector’s items and antiques as defined in the VAT Act."
+        },
+        {
+            "memberState": "MT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2026-01-01+01:00",
+            "cnCodes": {
+                "code": {
+                    "value": "9704 00 00",
+                    "description": "Postage or revenue stamps, stamp-postmarks, first-day covers, postal stationery (stamped paper), and the like, used or unused, other than those of heading 4907"
+                }
+            },
+            "category": {
+                "identifier": "POSTAGE",
+                "description": "Postage or revenue stamps, postmarks, first-day covers, pre-stamped stationery and the like, used, or if unused not current and not intended to be current (CN code 9704 00 00)"
+            },
+            "comment": "Reduced rate only applicable to the importation of works of art, collector’s items and antiques as defined in the VAT Act."
+        },
+        {
+            "memberState": "MT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2026-01-01+01:00",
+            "cnCodes": {
+                "code": {
+                    "value": "9705 00 00",
+                    "description": "Collections and collectors' pieces of zoological, botanical, mineralogical, anatomical, historical, archaeological, palaeontological, ethnographic or numismatic interest"
+                }
+            },
+            "category": {
+                "identifier": "ZOOLOGICAL",
+                "description": "Importation of collections and collectors' pieces of zoological, botanical, mineralogical, anatomical, historical, archaeological, paleontological, ethnographic or numismatic interest (CN code 9705 00 00)"
+            },
+            "comment": "Reduced rate only applicable to the importation of works of art, collector’s items and antiques as defined in the VAT Act."
+        },
+        {
+            "memberState": "MT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2026-01-01+01:00",
+            "cnCodes": {
+                "code": {
+                    "value": "9706 00 00",
+                    "description": "Antiques of an age exceeding 100 years"
+                }
+            },
+            "category": {
+                "identifier": "100_YEARS_OLD",
+                "description": "Goods, other than works of art or collector’s items, which are more than 100 years old (CN code 9706 00 00)"
+            },
+            "comment": "Reduced rate only applicable to antiques as defined in the VAT Act."
+        },
+        {
+            "memberState": "MT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2026-01-01+01:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "88",
+                    "description": "Social work services without accommodation"
+                }
+            },
+            "category": {
+                "identifier": "DOMESTIC_CARE",
+                "description": "Domestic care services such as home help and care of the young, elderly, sick or disabled"
+            }
+        },
+        {
+            "memberState": "MT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5
+            },
+            "situationOn": "2026-01-01+01:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "95.2",
+                    "description": "Repair and maintenance services of personal and household goods"
+                }
+            },
+            "category": {
+                "identifier": "CLOTHING_REPAIR",
+                "description": "Minor repairs of clothing and household linen (including mending and alteration)"
+            },
+            "comment": "Reduced rate applies to the minor repairing of clothing and household linen (including mending and alteration)."
         }
     ]
 }
