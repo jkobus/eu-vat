@@ -3,6 +3,16 @@
     "vatRateResults": [
         {
             "memberState": "LV",
+            "type": "STANDARD",
+            "rate": {
+                "type": "DEFAULT",
+                "value": 21
+            },
+            "situationOn": "2026-07-01+02:00",
+            "comment": "<p>Section 41, Paragraph 1, Clause 1 of the <a href=\"https:\/\/likumi.lv\/ta\/en\/en\/id\/253451-value-added-tax-law\" rel=\"noopener noreferrer\" target=\"_blank\">Law<\/a>.<\/p>"
+        },
+        {
+            "memberState": "LV",
             "type": "REDUCED",
             "rate": {
                 "type": "EXEMPTED",
@@ -434,16 +444,6 @@
                 "description": "Accommodation provided in hotels and similar establishments, including the provision of holiday accommodation and the letting of places on camping or caravan sites"
             },
             "comment": "Accommodation services in tourist accommodation sites.\n(Section 42, Paragraph 10 of the Law; https:\/\/likumi.lv\/ta\/en\/en\/id\/253451)"
-        },
-        {
-            "memberState": "LV",
-            "type": "STANDARD",
-            "rate": {
-                "type": "DEFAULT",
-                "value": 21
-            },
-            "situationOn": "2026-07-01+02:00",
-            "comment": "<p>Section 41, Paragraph 1, Clause 1 of the <a href=\"https:\/\/likumi.lv\/ta\/en\/en\/id\/253451-value-added-tax-law\" rel=\"noopener noreferrer\" target=\"_blank\">Law<\/a>.<\/p>"
         }
     ]
 }

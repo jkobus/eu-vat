@@ -397,88 +397,6 @@
             "memberState": "FR",
             "type": "REDUCED",
             "rate": {
-                "type": "EXEMPTED",
-                "value": 0
-            },
-            "situationOn": "2026-07-01+02:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "86.10.1",
-                        "description": "Hospital services"
-                    },
-                    {
-                        "value": "86.21.10",
-                        "description": "General medical practice services"
-                    },
-                    {
-                        "value": "86.22.1",
-                        "description": "Specialist medical practice services"
-                    },
-                    {
-                        "value": "86.23.1",
-                        "description": "Dental practice services"
-                    },
-                    {
-                        "value": "86.90.11",
-                        "description": "Pregnancy related services"
-                    },
-                    {
-                        "value": "86.90.12",
-                        "description": "Nursing services"
-                    },
-                    {
-                        "value": "86.90.13",
-                        "description": "Physiotherapeutic services"
-                    },
-                    {
-                        "value": "86.90.18",
-                        "description": "Mental health services"
-                    },
-                    {
-                        "value": "96.04.10",
-                        "description": "Physical well-being services"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "MEDICAL_CARE",
-                "description": "Provision of medical and dental care and thermal treatment"
-            },
-            "comment": "Article 261 4. 1° of the general tax code"
-        },
-        {
-            "memberState": "FR",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 0.9
-            },
-            "situationOn": "2026-07-01+02:00",
-            "category": {
-                "identifier": "REGION",
-                "description": "Special reduced rate for specific regions (including articles 104, 105 and 120 of the VAT Directive)"
-            },
-            "comment": "For Corsica: 0.9% on sales of live animals to non-sujected to VAT entities, and on the first performances or circus."
-        },
-        {
-            "memberState": "FR",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 1.05
-            },
-            "situationOn": "2026-07-01+02:00",
-            "category": {
-                "identifier": "REGION",
-                "description": "Special reduced rate for specific regions (including articles 104, 105 and 120 of the VAT Directive)"
-            },
-            "comment": "The super reduced rate in Martinique, Guadeloupe and Réunion is 1.05% (for the press)."
-        },
-        {
-            "memberState": "FR",
-            "type": "REDUCED",
-            "rate": {
                 "type": "REDUCED_RATE",
                 "value": 5.5
             },
@@ -486,68 +404,48 @@
             "cnCodes": {
                 "code": [
                     {
-                        "value": "01",
-                        "description": "CHAPTER 1 - LIVE ANIMALS"
-                    },
-                    {
-                        "value": "03",
-                        "description": "CHAPTER 3 - FISH AND CRUSTACEANS, MOLLUSCS AND OTHER AQUATIC INVERTEBRATES"
-                    },
-                    {
-                        "value": "04",
-                        "description": "CHAPTER 4 - DAIRY PRODUCE; BIRDS' EGGS; NATURAL HONEY; EDIBLE PRODUCTS OF ANIMAL ORIGIN, NOT ELSEWHERE SPECIFIED OR INCLUDED"
-                    },
-                    {
-                        "value": "05",
-                        "description": "CHAPTER 5 - PRODUCTS OF ANIMAL ORIGIN, NOT ELSEWHERE SPECIFIED OR INCLUDED"
-                    },
-                    {
-                        "value": "07",
-                        "description": "CHAPTER 7 - EDIBLE VEGETABLES AND CERTAIN ROOTS AND TUBERS"
-                    },
-                    {
-                        "value": "10",
-                        "description": "CHAPTER 10 - CEREALS"
-                    },
-                    {
-                        "value": "12",
-                        "description": "CHAPTER 12 - OIL SEEDS AND OLEAGINOUS FRUITS; MISCELLANEOUS GRAINS, SEEDS AND FRUIT; INDUSTRIAL OR MEDICINAL PLANTS; STRAW AND FODDER"
-                    },
-                    {
-                        "value": "1301",
-                        "description": "Lac; natural gums, resins, gum-resins and oleoresins (for example, balsams)"
-                    },
-                    {
-                        "value": "1404 90 00",
+                        "value": "3006 10 90",
                         "description": "Other"
                     },
                     {
-                        "value": "17",
-                        "description": "CHAPTER 17 - SUGARS AND SUGAR CONFECTIONERY"
+                        "value": "4014 10 00",
+                        "description": "Sheath contraceptives"
                     },
                     {
-                        "value": "2308 00 40",
-                        "description": "Acorns and horse-chestnuts; pomace or marc of fruit, other than grapes"
+                        "value": "6305 10 10",
+                        "description": "Used"
                     },
                     {
-                        "value": "4403",
-                        "description": "Wood in the rough, whether or not stripped of bark or sapwood, or roughly squared"
+                        "value": "6305 20 00",
+                        "description": "Of cotton"
                     },
                     {
-                        "value": "5102",
-                        "description": "Fine or coarse animal hair, not carded or combed"
+                        "value": "6305 32 90",
+                        "description": "Other"
                     },
                     {
-                        "value": "5305 00 00",
-                        "description": "Coconut, abaca (Manila hemp or Musa textilis Nee), ramie and other vegetable textile fibres, not elsewhere specified or included, raw or processed but not spun; tow, noils and waste of these fibres (including yarn waste and garnetted stock)"
+                        "value": "6305 39 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "6305 90 00",
+                        "description": "Of other textile materials"
+                    },
+                    {
+                        "value": "9018 31",
+                        "description": "Syringes, with or without needles"
+                    },
+                    {
+                        "value": "9018 39 00",
+                        "description": "Other"
                     }
                 ]
             },
             "category": {
-                "identifier": "FOODSTUFFS",
-                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
+                "identifier": "MEDICAL_EQUIPMENT",
+                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
             },
-            "comment": "Comments Products of agricultural, fishery, fish and poultry origin which have not undergone any processing and which are normally intended for use in agricultural production (article 278-0 bis A. 1°-0 bis of the general tax code)."
+            "comment": "Article 278-0 bis A 2° of the general tax code"
         },
         {
             "memberState": "FR",
@@ -756,48 +654,68 @@
             "cnCodes": {
                 "code": [
                     {
-                        "value": "3006 10 90",
+                        "value": "01",
+                        "description": "CHAPTER 1 - LIVE ANIMALS"
+                    },
+                    {
+                        "value": "03",
+                        "description": "CHAPTER 3 - FISH AND CRUSTACEANS, MOLLUSCS AND OTHER AQUATIC INVERTEBRATES"
+                    },
+                    {
+                        "value": "04",
+                        "description": "CHAPTER 4 - DAIRY PRODUCE; BIRDS' EGGS; NATURAL HONEY; EDIBLE PRODUCTS OF ANIMAL ORIGIN, NOT ELSEWHERE SPECIFIED OR INCLUDED"
+                    },
+                    {
+                        "value": "05",
+                        "description": "CHAPTER 5 - PRODUCTS OF ANIMAL ORIGIN, NOT ELSEWHERE SPECIFIED OR INCLUDED"
+                    },
+                    {
+                        "value": "07",
+                        "description": "CHAPTER 7 - EDIBLE VEGETABLES AND CERTAIN ROOTS AND TUBERS"
+                    },
+                    {
+                        "value": "10",
+                        "description": "CHAPTER 10 - CEREALS"
+                    },
+                    {
+                        "value": "12",
+                        "description": "CHAPTER 12 - OIL SEEDS AND OLEAGINOUS FRUITS; MISCELLANEOUS GRAINS, SEEDS AND FRUIT; INDUSTRIAL OR MEDICINAL PLANTS; STRAW AND FODDER"
+                    },
+                    {
+                        "value": "1301",
+                        "description": "Lac; natural gums, resins, gum-resins and oleoresins (for example, balsams)"
+                    },
+                    {
+                        "value": "1404 90 00",
                         "description": "Other"
                     },
                     {
-                        "value": "4014 10 00",
-                        "description": "Sheath contraceptives"
+                        "value": "17",
+                        "description": "CHAPTER 17 - SUGARS AND SUGAR CONFECTIONERY"
                     },
                     {
-                        "value": "6305 10 10",
-                        "description": "Used"
+                        "value": "2308 00 40",
+                        "description": "Acorns and horse-chestnuts; pomace or marc of fruit, other than grapes"
                     },
                     {
-                        "value": "6305 20 00",
-                        "description": "Of cotton"
+                        "value": "4403",
+                        "description": "Wood in the rough, whether or not stripped of bark or sapwood, or roughly squared"
                     },
                     {
-                        "value": "6305 32 90",
-                        "description": "Other"
+                        "value": "5102",
+                        "description": "Fine or coarse animal hair, not carded or combed"
                     },
                     {
-                        "value": "6305 39 00",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "6305 90 00",
-                        "description": "Of other textile materials"
-                    },
-                    {
-                        "value": "9018 31",
-                        "description": "Syringes, with or without needles"
-                    },
-                    {
-                        "value": "9018 39 00",
-                        "description": "Other"
+                        "value": "5305 00 00",
+                        "description": "Coconut, abaca (Manila hemp or Musa textilis Nee), ramie and other vegetable textile fibres, not elsewhere specified or included, raw or processed but not spun; tow, noils and waste of these fibres (including yarn waste and garnetted stock)"
                     }
                 ]
             },
             "category": {
-                "identifier": "MEDICAL_EQUIPMENT",
-                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
+                "identifier": "FOODSTUFFS",
+                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
             },
-            "comment": "Article 278-0 bis A 2° of the general tax code"
+            "comment": "Comments Products of agricultural, fishery, fish and poultry origin which have not undergone any processing and which are normally intended for use in agricultural production (article 278-0 bis A. 1°-0 bis of the general tax code)."
         },
         {
             "memberState": "FR",
@@ -848,56 +766,6 @@
                 "description": "Supply of works of art, collectors' items and antiques listed in Annex IX, Parts A, B and C"
             },
             "comment": "The reduced rate do not apply to supplies of such items to which the profit margin scheme is being applied - Article 278-0 bis I of the general tax code"
-        },
-        {
-            "memberState": "FR",
-            "type": "STANDARD",
-            "rate": {
-                "type": "DEFAULT",
-                "value": 20
-            },
-            "situationOn": "2026-07-01+02:00",
-            "comment": "<p><a href=\"http:\/\/bofip.impots.gouv.fr\/bofip\/1379-PGP\" target=\"_blank\" rel=\"noopener noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer\">http:\/\/bofip.impots.gouv.fr\/bofip\/1379-PGP<\/a><\/p>\n<p>Article 278 of the General Tax Code<\/p>"
-        },
-        {
-            "memberState": "FR",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5.5
-            },
-            "situationOn": "2026-07-01+02:00",
-            "cnCodes": {
-                "code": {
-                    "value": "8419 12 00",
-                    "description": "Solar water heaters"
-                }
-            },
-            "category": {
-                "identifier": "SOLAR_PANELS",
-                "description": "Supply and installation of solar panels on and adjacent to private dwellings, housing and public and other buildings used for activities in the public interest"
-            },
-            "comment": "From 1 October 2025 - Article 278-0 bis, P of the general tax code"
-        },
-        {
-            "memberState": "FR",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 5.5
-            },
-            "situationOn": "2026-07-01+02:00",
-            "cpaCodes": {
-                "code": {
-                    "value": "35.30.12",
-                    "description": "Steam and hot water supply services through mains"
-                }
-            },
-            "category": {
-                "identifier": "SUPPLY_HEATING",
-                "description": "Supply of district heating"
-            },
-            "comment": "Subscriptions to deliveries of heat energy distributed by networks, as well as the supply of heat when produced at least 50% from biomass, geothermal, solar thermal energy, waste and recovered energy, and delivery of chilled energy distributed by networks (article 278-0 bis B and B bis of the general tax code)"
         },
         {
             "memberState": "FR",
@@ -1103,6 +971,100 @@
                 "value": 5.5
             },
             "situationOn": "2026-07-01+02:00",
+            "cnCodes": {
+                "code": {
+                    "value": "8419 12 00",
+                    "description": "Solar water heaters"
+                }
+            },
+            "category": {
+                "identifier": "SOLAR_PANELS",
+                "description": "Supply and installation of solar panels on and adjacent to private dwellings, housing and public and other buildings used for activities in the public interest"
+            },
+            "comment": "From 1 October 2025 - Article 278-0 bis, P of the general tax code"
+        },
+        {
+            "memberState": "FR",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5.5
+            },
+            "situationOn": "2026-07-01+02:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "35.30.12",
+                    "description": "Steam and hot water supply services through mains"
+                }
+            },
+            "category": {
+                "identifier": "SUPPLY_HEATING",
+                "description": "Supply of district heating"
+            },
+            "comment": "Subscriptions to deliveries of heat energy distributed by networks, as well as the supply of heat when produced at least 50% from biomass, geothermal, solar thermal energy, waste and recovered energy, and delivery of chilled energy distributed by networks (article 278-0 bis B and B bis of the general tax code)"
+        },
+        {
+            "memberState": "FR",
+            "type": "REDUCED",
+            "rate": {
+                "type": "EXEMPTED",
+                "value": 0
+            },
+            "situationOn": "2026-07-01+02:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "86.10.1",
+                        "description": "Hospital services"
+                    },
+                    {
+                        "value": "86.21.10",
+                        "description": "General medical practice services"
+                    },
+                    {
+                        "value": "86.22.1",
+                        "description": "Specialist medical practice services"
+                    },
+                    {
+                        "value": "86.23.1",
+                        "description": "Dental practice services"
+                    },
+                    {
+                        "value": "86.90.11",
+                        "description": "Pregnancy related services"
+                    },
+                    {
+                        "value": "86.90.12",
+                        "description": "Nursing services"
+                    },
+                    {
+                        "value": "86.90.13",
+                        "description": "Physiotherapeutic services"
+                    },
+                    {
+                        "value": "86.90.18",
+                        "description": "Mental health services"
+                    },
+                    {
+                        "value": "96.04.10",
+                        "description": "Physical well-being services"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "MEDICAL_CARE",
+                "description": "Provision of medical and dental care and thermal treatment"
+            },
+            "comment": "Article 261 4. 1° of the general tax code"
+        },
+        {
+            "memberState": "FR",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5.5
+            },
+            "situationOn": "2026-07-01+02:00",
             "cpaCodes": {
                 "code": [
                     {
@@ -1134,44 +1096,28 @@
             "type": "REDUCED",
             "rate": {
                 "type": "REDUCED_RATE",
-                "value": 5.5
-            },
-            "situationOn": "2026-07-01+02:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "93.11.10",
-                        "description": "Sports facility operation services"
-                    },
-                    {
-                        "value": "93.12.10",
-                        "description": "Services of sport clubs"
-                    },
-                    {
-                        "value": "93.19.11",
-                        "description": "Sports and recreational sports event promotion services"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "SPORTING_EVENTS",
-                "description": "Admission to sporting events"
-            },
-            "comment": "Article 278-0 bis J of the general tax code"
-        },
-        {
-            "memberState": "FR",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 8.5
+                "value": 0.9
             },
             "situationOn": "2026-07-01+02:00",
             "category": {
                 "identifier": "REGION",
                 "description": "Special reduced rate for specific regions (including articles 104, 105 and 120 of the VAT Directive)"
             },
-            "comment": "The standard VAT rate in Martinique, Guadeloupe and Réunion is 8.5%. The reduced rate is 2.1%. There is also a zero VAT rate in Martinique, Guadeloupe and La Reunion, particularly for essential goods and air and see transport."
+            "comment": "For Corsica: 0.9% on sales of live animals to non-sujected to VAT entities, and on the first performances or circus."
+        },
+        {
+            "memberState": "FR",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 1.05
+            },
+            "situationOn": "2026-07-01+02:00",
+            "category": {
+                "identifier": "REGION",
+                "description": "Special reduced rate for specific regions (including articles 104, 105 and 120 of the VAT Directive)"
+            },
+            "comment": "The super reduced rate in Martinique, Guadeloupe and Réunion is 1.05% (for the press)."
         },
         {
             "memberState": "FR",
@@ -1942,6 +1888,60 @@
                 "description": "Periodicals"
             },
             "comment": "Publications of general interest with a direct connection to current affairs"
+        },
+        {
+            "memberState": "FR",
+            "type": "STANDARD",
+            "rate": {
+                "type": "DEFAULT",
+                "value": 20
+            },
+            "situationOn": "2026-07-01+02:00",
+            "comment": "<p><a href=\"http:\/\/bofip.impots.gouv.fr\/bofip\/1379-PGP\" target=\"_blank\" rel=\"noopener noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer noopener noreferrer\">http:\/\/bofip.impots.gouv.fr\/bofip\/1379-PGP<\/a><\/p>\n<p>Article 278 of the General Tax Code<\/p>"
+        },
+        {
+            "memberState": "FR",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 5.5
+            },
+            "situationOn": "2026-07-01+02:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "93.11.10",
+                        "description": "Sports facility operation services"
+                    },
+                    {
+                        "value": "93.12.10",
+                        "description": "Services of sport clubs"
+                    },
+                    {
+                        "value": "93.19.11",
+                        "description": "Sports and recreational sports event promotion services"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "SPORTING_EVENTS",
+                "description": "Admission to sporting events"
+            },
+            "comment": "Article 278-0 bis J of the general tax code"
+        },
+        {
+            "memberState": "FR",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 8.5
+            },
+            "situationOn": "2026-07-01+02:00",
+            "category": {
+                "identifier": "REGION",
+                "description": "Special reduced rate for specific regions (including articles 104, 105 and 120 of the VAT Directive)"
+            },
+            "comment": "The standard VAT rate in Martinique, Guadeloupe and Réunion is 8.5%. The reduced rate is 2.1%. There is also a zero VAT rate in Martinique, Guadeloupe and La Reunion, particularly for essential goods and air and see transport."
         }
     ]
 }
