@@ -1093,136 +1093,6 @@
                 "value": 11
             },
             "situationOn": "2026-07-01+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "3001 20",
-                        "description": "Extracts of glands or other organs or of their secretions"
-                    },
-                    {
-                        "value": "3001 90 20",
-                        "description": "Of human origin"
-                    },
-                    {
-                        "value": "3001 90 91",
-                        "description": "Heparin and its salts"
-                    },
-                    {
-                        "value": "3001 90 98",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "3002 12 00",
-                        "description": "Antisera and other blood fractions"
-                    },
-                    {
-                        "value": "3002 13 00",
-                        "description": "Immunological products, unmixed, not put up in measured doses or in forms or packings for retail sale"
-                    },
-                    {
-                        "value": "3002 14 00",
-                        "description": "Immunological products, mixed, not put up in measured doses or in forms or packings for retail sale"
-                    },
-                    {
-                        "value": "3002 15 00",
-                        "description": "Immunological products, put up in measured doses or in forms or packings for retail sale"
-                    },
-                    {
-                        "value": "3002 90 30",
-                        "description": "Animal blood prepared for therapeutic, prophylactic or diagnostic uses"
-                    },
-                    {
-                        "value": "3003",
-                        "description": "Medicaments (excluding goods of heading 3002, 3005 or 3006) consisting of two or more constituents which have been mixed together for therapeutic or prophylactic uses, not put up in measured doses or in forms or packings for retail sale"
-                    },
-                    {
-                        "value": "3004",
-                        "description": "Medicaments (excluding goods of heading 3002, 3005 or 3006) consisting of mixed or unmixed products for therapeutic or prophylactic uses, put up in measured doses (including those in the form of transdermal administration systems) or in forms or packings for retail sale"
-                    },
-                    {
-                        "value": "3005",
-                        "description": "Wadding, gauze, bandages and similar articles (for example, dressings, adhesive plasters, poultices), impregnated or coated with pharmaceutical substances or put up in forms or packings for retail sale for medical, surgical, dental or veterinary purposes"
-                    },
-                    {
-                        "value": "3006 10",
-                        "description": "Sterile surgical catgut, similar sterile suture materials (including sterile absorbable surgical or dental yarns) and sterile tissue adhesives for surgical wound closure; sterile laminaria and sterile laminaria tents; sterile absorbable surgical or dental haemostatics; sterile surgical or dental adhesion barriers, whether or not absorbable"
-                    },
-                    {
-                        "value": "3006 30 00",
-                        "description": "Opacifying preparations for X-ray examinations; diagnostic reagents designed to be administered to the patient"
-                    },
-                    {
-                        "value": "3006 40 00",
-                        "description": "Dental cements and other dental fillings; bone reconstruction cements"
-                    },
-                    {
-                        "value": "3006 50 00",
-                        "description": "First-aid boxes and kits"
-                    },
-                    {
-                        "value": "3006 60 00",
-                        "description": "Chemical contraceptive preparations based on hormones, on other products of heading 2937 or on spermicides"
-                    },
-                    {
-                        "value": "3006 70 00",
-                        "description": "Gel preparations designed to be used in human or veterinary medicine as a lubricant for parts of the body for surgical operations or physical examinations or as a coupling agent between the body and medical instruments"
-                    },
-                    {
-                        "value": "3305 10 00",
-                        "description": "Shampoos"
-                    },
-                    {
-                        "value": "3002 41",
-                        "description": "Vaccines for human medicine"
-                    },
-                    {
-                        "value": "3002 49 00",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "3002 51 00",
-                        "description": "Cell therapy products"
-                    },
-                    {
-                        "value": "3002 59 00",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "3006 93 00",
-                        "description": "Placebos and blinded (or double-blinded) clinical trial kits for a recognised clinical trial, put up in measured doses"
-                    },
-                    {
-                        "value": "3822 11 00",
-                        "description": "For malaria"
-                    },
-                    {
-                        "value": "3822 12 00",
-                        "description": "For Zika and other diseases transmitted by mosquitoes of the genus Aedes"
-                    },
-                    {
-                        "value": "3822 13 00",
-                        "description": "For blood-grouping"
-                    },
-                    {
-                        "value": "3822 19 00",
-                        "description": "Other"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "PHARMACEUTICAL_PRODUCTS",
-                "description": "Pharmaceutical products of a kind normally used for health care, prevention of illness and as treatment for medical and veterinary purposes, including products used for contraception and sanitary protection"
-            },
-            "comment": "The reduced TVA rate is applied for the supply of medicines for human use. See art. 291 para. (2) letter a) of the Fiscal Code."
-        },
-        {
-            "memberState": "RO",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 11
-            },
-            "situationOn": "2026-07-01+02:00",
             "cpaCodes": {
                 "code": [
                     {
@@ -1390,6 +1260,15 @@
                 "description": "Admission to shows, theatres, circuses, fairs, amusement parks, concerts, museums, zoos, cinemas, exhibitions and similar cultural events and facilities"
             },
             "comment": "The reduced VAT rate is applied for the services consisting in allowing access to castles, museums, memorial houses, historical monuments, architectural and archaeological monuments, zoological and botanical gardens. See art. 291 para. (2) letter h) of the Fiscal Code."
+        },
+        {
+            "memberState": "RO",
+            "type": "STANDARD",
+            "rate": {
+                "type": "DEFAULT",
+                "value": 21
+            },
+            "situationOn": "2026-07-01+02:00"
         },
         {
             "memberState": "RO",
@@ -1666,6 +1545,136 @@
             "cnCodes": {
                 "code": [
                     {
+                        "value": "3001 20",
+                        "description": "Extracts of glands or other organs or of their secretions"
+                    },
+                    {
+                        "value": "3001 90 20",
+                        "description": "Of human origin"
+                    },
+                    {
+                        "value": "3001 90 91",
+                        "description": "Heparin and its salts"
+                    },
+                    {
+                        "value": "3001 90 98",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "3002 12 00",
+                        "description": "Antisera and other blood fractions"
+                    },
+                    {
+                        "value": "3002 13 00",
+                        "description": "Immunological products, unmixed, not put up in measured doses or in forms or packings for retail sale"
+                    },
+                    {
+                        "value": "3002 14 00",
+                        "description": "Immunological products, mixed, not put up in measured doses or in forms or packings for retail sale"
+                    },
+                    {
+                        "value": "3002 15 00",
+                        "description": "Immunological products, put up in measured doses or in forms or packings for retail sale"
+                    },
+                    {
+                        "value": "3002 90 30",
+                        "description": "Animal blood prepared for therapeutic, prophylactic or diagnostic uses"
+                    },
+                    {
+                        "value": "3003",
+                        "description": "Medicaments (excluding goods of heading 3002, 3005 or 3006) consisting of two or more constituents which have been mixed together for therapeutic or prophylactic uses, not put up in measured doses or in forms or packings for retail sale"
+                    },
+                    {
+                        "value": "3004",
+                        "description": "Medicaments (excluding goods of heading 3002, 3005 or 3006) consisting of mixed or unmixed products for therapeutic or prophylactic uses, put up in measured doses (including those in the form of transdermal administration systems) or in forms or packings for retail sale"
+                    },
+                    {
+                        "value": "3005",
+                        "description": "Wadding, gauze, bandages and similar articles (for example, dressings, adhesive plasters, poultices), impregnated or coated with pharmaceutical substances or put up in forms or packings for retail sale for medical, surgical, dental or veterinary purposes"
+                    },
+                    {
+                        "value": "3006 10",
+                        "description": "Sterile surgical catgut, similar sterile suture materials (including sterile absorbable surgical or dental yarns) and sterile tissue adhesives for surgical wound closure; sterile laminaria and sterile laminaria tents; sterile absorbable surgical or dental haemostatics; sterile surgical or dental adhesion barriers, whether or not absorbable"
+                    },
+                    {
+                        "value": "3006 30 00",
+                        "description": "Opacifying preparations for X-ray examinations; diagnostic reagents designed to be administered to the patient"
+                    },
+                    {
+                        "value": "3006 40 00",
+                        "description": "Dental cements and other dental fillings; bone reconstruction cements"
+                    },
+                    {
+                        "value": "3006 50 00",
+                        "description": "First-aid boxes and kits"
+                    },
+                    {
+                        "value": "3006 60 00",
+                        "description": "Chemical contraceptive preparations based on hormones, on other products of heading 2937 or on spermicides"
+                    },
+                    {
+                        "value": "3006 70 00",
+                        "description": "Gel preparations designed to be used in human or veterinary medicine as a lubricant for parts of the body for surgical operations or physical examinations or as a coupling agent between the body and medical instruments"
+                    },
+                    {
+                        "value": "3305 10 00",
+                        "description": "Shampoos"
+                    },
+                    {
+                        "value": "3002 41",
+                        "description": "Vaccines for human medicine"
+                    },
+                    {
+                        "value": "3002 49 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "3002 51 00",
+                        "description": "Cell therapy products"
+                    },
+                    {
+                        "value": "3002 59 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "3006 93 00",
+                        "description": "Placebos and blinded (or double-blinded) clinical trial kits for a recognised clinical trial, put up in measured doses"
+                    },
+                    {
+                        "value": "3822 11 00",
+                        "description": "For malaria"
+                    },
+                    {
+                        "value": "3822 12 00",
+                        "description": "For Zika and other diseases transmitted by mosquitoes of the genus Aedes"
+                    },
+                    {
+                        "value": "3822 13 00",
+                        "description": "For blood-grouping"
+                    },
+                    {
+                        "value": "3822 19 00",
+                        "description": "Other"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "PHARMACEUTICAL_PRODUCTS",
+                "description": "Pharmaceutical products of a kind normally used for health care, prevention of illness and as treatment for medical and veterinary purposes, including products used for contraception and sanitary protection"
+            },
+            "comment": "The reduced TVA rate is applied for the supply of medicines for human use. See art. 291 para. (2) letter a) of the Fiscal Code."
+        },
+        {
+            "memberState": "RO",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 11
+            },
+            "situationOn": "2026-07-01+02:00",
+            "cnCodes": {
+                "code": [
+                    {
                         "value": "3102",
                         "description": "Mineral or chemical fertilisers, nitrogenous"
                     },
@@ -1724,15 +1733,6 @@
                 "description": "Supply of goods and services of a kind normally intended for use in agricultural production but excluding capital goods such as machinery or buildings"
             },
             "comment": "The reduced VAT rate shall be applied for the supply of chemical fertilizers and chemical pesticides used in agriculture, corresponding to the CN codes mentioned below. For details see art. 291 para. (2) letter f) of the Fiscal Code and art. 1 para. (2) of the Order no. 4634\/2022. The provisions shall apply until 31st of December 2031."
-        },
-        {
-            "memberState": "RO",
-            "type": "STANDARD",
-            "rate": {
-                "type": "DEFAULT",
-                "value": 21
-            },
-            "situationOn": "2026-07-01+02:00"
         },
         {
             "memberState": "RO",
