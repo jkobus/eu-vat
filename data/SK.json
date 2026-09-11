@@ -340,6 +340,55 @@
             "type": "REDUCED",
             "rate": {
                 "type": "REDUCED_RATE",
+                "value": 19
+            },
+            "situationOn": "2026-07-01+02:00",
+            "cnCodes": {
+                "code": {
+                    "value": "2716 00 00",
+                    "description": "Electrical energy"
+                }
+            },
+            "category": {
+                "identifier": "SUPPLY_ELECTRICITY",
+                "description": "Supply of electricity"
+            },
+            "comment": "Reduced VAT rate on electricity."
+        },
+        {
+            "memberState": "SK",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 19
+            },
+            "situationOn": "2026-07-01+02:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "56",
+                    "description": "Food and beverage serving services"
+                }
+            },
+            "category": {
+                "identifier": "RESTAURANT",
+                "description": "Restaurant and catering services, it being possible to exclude the supply of (alcoholic and\/or non-alcoholic) beverages"
+            },
+            "comment": "Reduced VAT rate on restaurant services (only non-alcoholic beverages). Alcoholic beverages in restaurants to be taxed at a standard rate of 23 %."
+        },
+        {
+            "memberState": "SK",
+            "type": "STANDARD",
+            "rate": {
+                "type": "DEFAULT",
+                "value": 23
+            },
+            "situationOn": "2026-07-01+02:00"
+        },
+        {
+            "memberState": "SK",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
                 "value": 5
             },
             "situationOn": "2026-07-01+02:00",
@@ -460,55 +509,6 @@
                 "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
             },
             "comment": "Only selected items - fresh or chilled meat, live fish, fresh or chilled fish, milk, butter, bread and other selected foodstuffs (inluding gluten-free pastries, flour and bread). List can be found in Annex 7 of Act No. 222\/2004 Coll. on Value Added Tax as amended via the following link https:\/\/www.mfsr.sk\/en\/taxes-customs-accounting\/indirect-taxes\/vat\/"
-        },
-        {
-            "memberState": "SK",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 19
-            },
-            "situationOn": "2026-07-01+02:00",
-            "cnCodes": {
-                "code": {
-                    "value": "2716 00 00",
-                    "description": "Electrical energy"
-                }
-            },
-            "category": {
-                "identifier": "SUPPLY_ELECTRICITY",
-                "description": "Supply of electricity"
-            },
-            "comment": "Reduced VAT rate on electricity."
-        },
-        {
-            "memberState": "SK",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 19
-            },
-            "situationOn": "2026-07-01+02:00",
-            "cpaCodes": {
-                "code": {
-                    "value": "56",
-                    "description": "Food and beverage serving services"
-                }
-            },
-            "category": {
-                "identifier": "RESTAURANT",
-                "description": "Restaurant and catering services, it being possible to exclude the supply of (alcoholic and\/or non-alcoholic) beverages"
-            },
-            "comment": "Reduced VAT rate on restaurant services (only non-alcoholic beverages). Alcoholic beverages in restaurants to be taxed at a standard rate of 23 %."
-        },
-        {
-            "memberState": "SK",
-            "type": "STANDARD",
-            "rate": {
-                "type": "DEFAULT",
-                "value": 23
-            },
-            "situationOn": "2026-07-01+02:00"
         },
         {
             "memberState": "SK",
