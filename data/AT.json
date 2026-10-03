@@ -580,6 +580,208 @@
             "type": "REDUCED",
             "rate": {
                 "type": "REDUCED_RATE",
+                "value": 10
+            },
+            "situationOn": "2026-07-01+02:00",
+            "cnCodes": {
+                "code": {
+                    "value": "2201 90 00",
+                    "description": "Other"
+                }
+            },
+            "category": {
+                "identifier": "SUPPLY_WATER",
+                "description": "Supply of water"
+            }
+        },
+        {
+            "memberState": "AT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 10
+            },
+            "situationOn": "2026-07-01+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "4901",
+                        "description": "Printed books, brochures, leaflets and similar printed matter, whether or not in single sheets"
+                    },
+                    {
+                        "value": "4902",
+                        "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
+                    },
+                    {
+                        "value": "4903 00 00",
+                        "description": "Children's picture, drawing or colouring books"
+                    },
+                    {
+                        "value": "4904 00 00",
+                        "description": "Music, printed or in manuscript, whether or not bound or illustrated"
+                    },
+                    {
+                        "value": "4905",
+                        "description": "Maps and hydrographic or similar charts of all kinds, including atlases, wall maps, topographical plans and globes, printed"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "LOAN_LIBRARIES",
+                "description": "Supply, including on loan by libraries, of books, newspapers and periodicals either on physical means of support or supplied electronically or both (including brochures, leaflets and similar printed matter, children's picture, drawing or colouring books, music printed or in manuscript form, maps and hydrographic or similar charts), other than publications wholly or predominantly devoted to advertising and other than publications wholly or predominantly consisting of video content or audible music."
+            }
+        },
+        {
+            "memberState": "AT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 10
+            },
+            "situationOn": "2026-07-01+02:00",
+            "cnCodes": {
+                "code": {
+                    "value": "4902",
+                    "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
+                }
+            },
+            "category": {
+                "identifier": "NEWSPAPERS",
+                "description": "Newspapers"
+            }
+        },
+        {
+            "memberState": "AT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 10
+            },
+            "situationOn": "2026-07-01+02:00",
+            "cnCodes": {
+                "code": {
+                    "value": "4902",
+                    "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
+                }
+            },
+            "category": {
+                "identifier": "PERIODICALS",
+                "description": "Periodicals"
+            }
+        },
+        {
+            "memberState": "AT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 10
+            },
+            "situationOn": "2026-07-01+02:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "37",
+                        "description": "Sewerage services; sewage sludge"
+                    },
+                    {
+                        "value": "38",
+                        "description": "Waste collection, recovery and disposal services"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "STREET_CLEANING",
+                "description": "Supply of services provided in connection with street cleaning, refuse collection and waste treatment, other than the supply of such services by bodies referred to in Article 13"
+            }
+        },
+        {
+            "memberState": "AT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 10
+            },
+            "situationOn": "2026-07-01+02:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "55",
+                        "description": "Accommodation services"
+                    },
+                    {
+                        "value": "55.10",
+                        "description": "Hotel and similar accommodation services"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "ACCOMMODATION",
+                "description": "Accommodation provided in hotels and similar establishments, including the provision of holiday accommodation and the letting of places on camping or caravan sites"
+            }
+        },
+        {
+            "memberState": "AT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 10
+            },
+            "situationOn": "2026-07-01+02:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "56.1",
+                        "description": "Restaurant and mobile food serving services"
+                    },
+                    {
+                        "value": "56.2",
+                        "description": "Event catering, contract catering services and other food serving services"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "RESTAURANT",
+                "description": "Restaurant and catering services, it being possible to exclude the supply of (alcoholic and\/or non-alcoholic) beverages"
+            }
+        },
+        {
+            "memberState": "AT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 10
+            },
+            "situationOn": "2026-07-01+02:00",
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "58.11.2",
+                        "description": "E-books"
+                    },
+                    {
+                        "value": "58.11.3",
+                        "description": "Audio books"
+                    },
+                    {
+                        "value": "58.13.2",
+                        "description": "Online journals and periodicals"
+                    },
+                    {
+                        "value": "58.14.2",
+                        "description": "On-line journals and periodicals"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "LOAN_LIBRARIES",
+                "description": "Supply, including on loan by libraries, of books, newspapers and periodicals either on physical means of support or supplied electronically or both (including brochures, leaflets and similar printed matter, children's picture, drawing or colouring books, music printed or in manuscript form, maps and hydrographic or similar charts), other than publications wholly or predominantly devoted to advertising and other than publications wholly or predominantly consisting of video content or audible music."
+            }
+        },
+        {
+            "memberState": "AT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
                 "value": 13
             },
             "situationOn": "2026-07-01+02:00",
@@ -793,6 +995,124 @@
             "memberState": "AT",
             "type": "REDUCED",
             "rate": {
+                "type": "SUPER_REDUCED_RATE",
+                "value": 4.9
+            },
+            "situationOn": "2026-07-01+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "0401 10",
+                        "description": "Of a fat content, by weight, not exceeding 1 %"
+                    },
+                    {
+                        "value": "0401 20",
+                        "description": "Of a fat content, by weight, exceeding 1 % but not exceeding 6 %"
+                    },
+                    {
+                        "value": "0405 10",
+                        "description": "Butter"
+                    },
+                    {
+                        "value": "0407 21 00",
+                        "description": "Of fowls of the species Gallus domesticus"
+                    },
+                    {
+                        "value": "0701 90 50",
+                        "description": "New, from 1 January to 30 June"
+                    },
+                    {
+                        "value": "0701 90 90",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "0703",
+                        "description": "Onions, shallots, garlic, leeks and other alliaceous vegetables, fresh or chilled"
+                    },
+                    {
+                        "value": "0704",
+                        "description": "Cabbages, cauliflowers, kohlrabi, kale and similar edible brassicas, fresh or chilled"
+                    },
+                    {
+                        "value": "0705",
+                        "description": "Lettuce (Lactuca sativa) and chicory (Cichorium spp.), fresh or chilled"
+                    },
+                    {
+                        "value": "0706",
+                        "description": "Carrots, turnips, salad beetroot, salsify, celeriac, radishes and similar edible roots, fresh or chilled"
+                    },
+                    {
+                        "value": "0707 00",
+                        "description": "Cucumbers and gherkins, fresh or chilled"
+                    },
+                    {
+                        "value": "0708",
+                        "description": "Leguminous vegetables, shelled or unshelled, fresh or chilled"
+                    },
+                    {
+                        "value": "0709",
+                        "description": "Other vegetables, fresh or chilled"
+                    },
+                    {
+                        "value": "0710",
+                        "description": "Vegetables (uncooked or cooked by steaming or boiling in water), frozen"
+                    },
+                    {
+                        "value": "0808",
+                        "description": "Apples, pears and quinces, fresh"
+                    },
+                    {
+                        "value": "0809",
+                        "description": "Apricots, cherries, peaches (including nectarines), plums and sloes, fresh"
+                    },
+                    {
+                        "value": "1006",
+                        "description": "Rice"
+                    },
+                    {
+                        "value": "1101 00",
+                        "description": "Wheat or meslin flour"
+                    },
+                    {
+                        "value": "1103 11",
+                        "description": "Of wheat"
+                    },
+                    {
+                        "value": "1902 11 00",
+                        "description": "Containing eggs"
+                    },
+                    {
+                        "value": "1902 19",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "1905 90 30",
+                        "description": "Bread, not containing added honey, eggs, cheese or fruit, and containing by weight in the dry matter state not more than 5 % of sugars and not more than 5 % of fat"
+                    },
+                    {
+                        "value": "2501 00 91",
+                        "description": "Salt suitable for human consumption"
+                    },
+                    {
+                        "value": "0403 20",
+                        "description": "Yogurt"
+                    },
+                    {
+                        "value": "0702",
+                        "description": "Tomatoes, fresh or chilled"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "FOODSTUFFS",
+                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
+            },
+            "comment": "From July 1, 2026, the tax rate of 4.9% applies to the foodstuffs listed in Annex 3 to Sec. 10 of the Austrian VAT Act 1994. Please note, among other things, that the reduced tax rate of 10% continues to apply to CN subheadings 0703 1011, 0709 5400, 0709 5500, and 0709 5600."
+        },
+        {
+            "memberState": "AT",
+            "type": "REDUCED",
+            "rate": {
                 "type": "EXEMPTED",
                 "value": 0
             },
@@ -848,24 +1168,28 @@
             "type": "REDUCED",
             "rate": {
                 "type": "REDUCED_RATE",
-                "value": 13
+                "value": 10
             },
             "situationOn": "2026-07-01+02:00",
-            "cnCodes": {
+            "cpaCodes": {
                 "code": [
                     {
-                        "value": "5805 00 00",
-                        "description": "Hand-woven tapestries of the type Gobelins, Flanders, Aubusson, Beauvais and the like, and needle-worked tapestries (for example, petit point, cross stitch), whether or not made up"
+                        "value": "60",
+                        "description": "Programming, broadcasting, news agency and other content distribution services"
                     },
                     {
-                        "value": "6304",
-                        "description": "Other furnishing articles, excluding those of heading 9404"
+                        "value": "60.10",
+                        "description": "Radio broadcasting and audio distribution services"
+                    },
+                    {
+                        "value": "60.2",
+                        "description": "Television programming, broadcasting and video distribution services"
                     }
                 ]
             },
             "category": {
-                "identifier": "TAPESTRIES",
-                "description": "Tapestries (CN code 5805 00 00) and wall textiles (CN code 6304 00 00) made by hand from original designs provided by artists, provided that there are not more than eight copies of each"
+                "identifier": "BROADCASTING_SERVICES",
+                "description": "Reception of radio and television broadcasting services"
             }
         },
         {
@@ -873,18 +1197,38 @@
             "type": "REDUCED",
             "rate": {
                 "type": "REDUCED_RATE",
-                "value": 13
+                "value": 10
             },
             "situationOn": "2026-07-01+02:00",
-            "cnCodes": {
+            "cpaCodes": {
                 "code": {
-                    "value": "9701",
-                    "description": "Paintings, drawings and pastels, executed entirely by hand, other than drawings of heading 4906 and other than hand-painted or hand-decorated manufactured articles; collages, mosaics and similar decorative plaques"
+                    "value": "88",
+                    "description": "Social work services without accommodation"
                 }
             },
             "category": {
-                "identifier": "PICTURES",
-                "description": "Pictures, collages and similar decorative plaques, paintings and drawings, executed entirely by hand by the artist, other than plans and drawings for architectural, engineering, industrial, commercial, topographical or similar purposes, hand-decorated manufactured articles, theatrical scenery, studio back cloths or the like of painted canvas (CN code 9701)"
+                "identifier": "SOCIAL_WELLBEING",
+                "description": "Supply of goods and services by organisations recognised as being devoted to social wellbeing by Member States and engaged in welfare or social security work"
+            },
+            "comment": "if not exempted (for information about the type of organisations falling under the exemption please see Sec. 6 of the Austrian VAT Act 1994)"
+        },
+        {
+            "memberState": "AT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 10
+            },
+            "situationOn": "2026-07-01+02:00",
+            "cpaCodes": {
+                "code": {
+                    "value": "95.2",
+                    "description": "Repair and maintenance services of personal and household goods"
+                }
+            },
+            "category": {
+                "identifier": "CLOTHING_REPAIR",
+                "description": "Minor repairs of clothing and household linen (including mending and alteration)"
             }
         },
         {
@@ -892,37 +1236,18 @@
             "type": "REDUCED",
             "rate": {
                 "type": "REDUCED_RATE",
-                "value": 13
+                "value": 10
             },
             "situationOn": "2026-07-01+02:00",
-            "cnCodes": {
+            "cpaCodes": {
                 "code": {
-                    "value": "9702 00 00",
-                    "description": "Original engravings, prints and lithographs"
+                    "value": "95.23.1",
+                    "description": "Repair services of footwear and leather goods"
                 }
             },
             "category": {
-                "identifier": "IMPRESSIONS",
-                "description": "Original engravings, prints and lithographs, being impressions produced in the limited numbers directly in black and white or in colour of one or of several plates executed entirely by hand by the artist, irrespective of the process or of the material employed, but not including any mechanical or photomechanical process (CN code 9702 00 00)"
-            }
-        },
-        {
-            "memberState": "AT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 13
-            },
-            "situationOn": "2026-07-01+02:00",
-            "cnCodes": {
-                "code": {
-                    "value": "9703 00 00",
-                    "description": "Original sculptures and statuary, in any material"
-                }
-            },
-            "category": {
-                "identifier": "SCULPTURES",
-                "description": "Original sculptures and statuary, in any material, provided that they are executed entirely by the artists"
+                "identifier": "SHOES_REPAIR",
+                "description": "Minor repairs of shoes and leather goods"
             }
         },
         {
@@ -1075,143 +1400,6 @@
         },
         {
             "memberState": "AT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "SUPER_REDUCED_RATE",
-                "value": 4.9
-            },
-            "situationOn": "2026-07-01+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "0401 10",
-                        "description": "Of a fat content, by weight, not exceeding 1 %"
-                    },
-                    {
-                        "value": "0401 20",
-                        "description": "Of a fat content, by weight, exceeding 1 % but not exceeding 6 %"
-                    },
-                    {
-                        "value": "0405 10",
-                        "description": "Butter"
-                    },
-                    {
-                        "value": "0407 21 00",
-                        "description": "Of fowls of the species Gallus domesticus"
-                    },
-                    {
-                        "value": "0701 90 50",
-                        "description": "New, from 1 January to 30 June"
-                    },
-                    {
-                        "value": "0701 90 90",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "0703",
-                        "description": "Onions, shallots, garlic, leeks and other alliaceous vegetables, fresh or chilled"
-                    },
-                    {
-                        "value": "0704",
-                        "description": "Cabbages, cauliflowers, kohlrabi, kale and similar edible brassicas, fresh or chilled"
-                    },
-                    {
-                        "value": "0705",
-                        "description": "Lettuce (Lactuca sativa) and chicory (Cichorium spp.), fresh or chilled"
-                    },
-                    {
-                        "value": "0706",
-                        "description": "Carrots, turnips, salad beetroot, salsify, celeriac, radishes and similar edible roots, fresh or chilled"
-                    },
-                    {
-                        "value": "0707 00",
-                        "description": "Cucumbers and gherkins, fresh or chilled"
-                    },
-                    {
-                        "value": "0708",
-                        "description": "Leguminous vegetables, shelled or unshelled, fresh or chilled"
-                    },
-                    {
-                        "value": "0709",
-                        "description": "Other vegetables, fresh or chilled"
-                    },
-                    {
-                        "value": "0710",
-                        "description": "Vegetables (uncooked or cooked by steaming or boiling in water), frozen"
-                    },
-                    {
-                        "value": "0808",
-                        "description": "Apples, pears and quinces, fresh"
-                    },
-                    {
-                        "value": "0809",
-                        "description": "Apricots, cherries, peaches (including nectarines), plums and sloes, fresh"
-                    },
-                    {
-                        "value": "1006",
-                        "description": "Rice"
-                    },
-                    {
-                        "value": "1101 00",
-                        "description": "Wheat or meslin flour"
-                    },
-                    {
-                        "value": "1103 11",
-                        "description": "Of wheat"
-                    },
-                    {
-                        "value": "1902 11 00",
-                        "description": "Containing eggs"
-                    },
-                    {
-                        "value": "1902 19",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "1905 90 30",
-                        "description": "Bread, not containing added honey, eggs, cheese or fruit, and containing by weight in the dry matter state not more than 5 % of sugars and not more than 5 % of fat"
-                    },
-                    {
-                        "value": "2501 00 91",
-                        "description": "Salt suitable for human consumption"
-                    },
-                    {
-                        "value": "0403 20",
-                        "description": "Yogurt"
-                    },
-                    {
-                        "value": "0702",
-                        "description": "Tomatoes, fresh or chilled"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "FOODSTUFFS",
-                "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
-            },
-            "comment": "From July 1, 2026, the tax rate of 4.9% applies to the foodstuffs listed in Annex 3 to Sec. 10 of the Austrian VAT Act 1994. Please note, among other things, that the reduced tax rate of 10% continues to apply to CN subheadings 0703 1011, 0709 5400, 0709 5500, and 0709 5600."
-        },
-        {
-            "memberState": "AT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 10
-            },
-            "situationOn": "2026-07-01+02:00",
-            "cnCodes": {
-                "code": {
-                    "value": "2201 90 00",
-                    "description": "Other"
-                }
-            },
-            "category": {
-                "identifier": "SUPPLY_WATER",
-                "description": "Supply of water"
-            }
-        },
-        {
-            "memberState": "AT",
             "type": "STANDARD",
             "rate": {
                 "type": "DEFAULT",
@@ -1224,36 +1412,24 @@
             "type": "REDUCED",
             "rate": {
                 "type": "REDUCED_RATE",
-                "value": 10
+                "value": 13
             },
             "situationOn": "2026-07-01+02:00",
             "cnCodes": {
                 "code": [
                     {
-                        "value": "4901",
-                        "description": "Printed books, brochures, leaflets and similar printed matter, whether or not in single sheets"
+                        "value": "5805 00 00",
+                        "description": "Hand-woven tapestries of the type Gobelins, Flanders, Aubusson, Beauvais and the like, and needle-worked tapestries (for example, petit point, cross stitch), whether or not made up"
                     },
                     {
-                        "value": "4902",
-                        "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
-                    },
-                    {
-                        "value": "4903 00 00",
-                        "description": "Children's picture, drawing or colouring books"
-                    },
-                    {
-                        "value": "4904 00 00",
-                        "description": "Music, printed or in manuscript, whether or not bound or illustrated"
-                    },
-                    {
-                        "value": "4905",
-                        "description": "Maps and hydrographic or similar charts of all kinds, including atlases, wall maps, topographical plans and globes, printed"
+                        "value": "6304",
+                        "description": "Other furnishing articles, excluding those of heading 9404"
                     }
                 ]
             },
             "category": {
-                "identifier": "LOAN_LIBRARIES",
-                "description": "Supply, including on loan by libraries, of books, newspapers and periodicals either on physical means of support or supplied electronically or both (including brochures, leaflets and similar printed matter, children's picture, drawing or colouring books, music printed or in manuscript form, maps and hydrographic or similar charts), other than publications wholly or predominantly devoted to advertising and other than publications wholly or predominantly consisting of video content or audible music."
+                "identifier": "TAPESTRIES",
+                "description": "Tapestries (CN code 5805 00 00) and wall textiles (CN code 6304 00 00) made by hand from original designs provided by artists, provided that there are not more than eight copies of each"
             }
         },
         {
@@ -1261,18 +1437,18 @@
             "type": "REDUCED",
             "rate": {
                 "type": "REDUCED_RATE",
-                "value": 10
+                "value": 13
             },
             "situationOn": "2026-07-01+02:00",
             "cnCodes": {
                 "code": {
-                    "value": "4902",
-                    "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
+                    "value": "9701",
+                    "description": "Paintings, drawings and pastels, executed entirely by hand, other than drawings of heading 4906 and other than hand-painted or hand-decorated manufactured articles; collages, mosaics and similar decorative plaques"
                 }
             },
             "category": {
-                "identifier": "NEWSPAPERS",
-                "description": "Newspapers"
+                "identifier": "PICTURES",
+                "description": "Pictures, collages and similar decorative plaques, paintings and drawings, executed entirely by hand by the artist, other than plans and drawings for architectural, engineering, industrial, commercial, topographical or similar purposes, hand-decorated manufactured articles, theatrical scenery, studio back cloths or the like of painted canvas (CN code 9701)"
             }
         },
         {
@@ -1280,18 +1456,18 @@
             "type": "REDUCED",
             "rate": {
                 "type": "REDUCED_RATE",
-                "value": 10
+                "value": 13
             },
             "situationOn": "2026-07-01+02:00",
             "cnCodes": {
                 "code": {
-                    "value": "4902",
-                    "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material"
+                    "value": "9702 00 00",
+                    "description": "Original engravings, prints and lithographs"
                 }
             },
             "category": {
-                "identifier": "PERIODICALS",
-                "description": "Periodicals"
+                "identifier": "IMPRESSIONS",
+                "description": "Original engravings, prints and lithographs, being impressions produced in the limited numbers directly in black and white or in colour of one or of several plates executed entirely by hand by the artist, irrespective of the process or of the material employed, but not including any mechanical or photomechanical process (CN code 9702 00 00)"
             }
         },
         {
@@ -1299,194 +1475,18 @@
             "type": "REDUCED",
             "rate": {
                 "type": "REDUCED_RATE",
-                "value": 10
+                "value": 13
             },
             "situationOn": "2026-07-01+02:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "37",
-                        "description": "Sewerage services; sewage sludge"
-                    },
-                    {
-                        "value": "38",
-                        "description": "Waste collection, recovery and disposal services"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "STREET_CLEANING",
-                "description": "Supply of services provided in connection with street cleaning, refuse collection and waste treatment, other than the supply of such services by bodies referred to in Article 13"
-            }
-        },
-        {
-            "memberState": "AT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 10
-            },
-            "situationOn": "2026-07-01+02:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "55",
-                        "description": "Accommodation services"
-                    },
-                    {
-                        "value": "55.10",
-                        "description": "Hotel and similar accommodation services"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "ACCOMMODATION",
-                "description": "Accommodation provided in hotels and similar establishments, including the provision of holiday accommodation and the letting of places on camping or caravan sites"
-            }
-        },
-        {
-            "memberState": "AT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 10
-            },
-            "situationOn": "2026-07-01+02:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "56.1",
-                        "description": "Restaurant and mobile food serving services"
-                    },
-                    {
-                        "value": "56.2",
-                        "description": "Event catering, contract catering services and other food serving services"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "RESTAURANT",
-                "description": "Restaurant and catering services, it being possible to exclude the supply of (alcoholic and\/or non-alcoholic) beverages"
-            }
-        },
-        {
-            "memberState": "AT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 10
-            },
-            "situationOn": "2026-07-01+02:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "58.11.2",
-                        "description": "E-books"
-                    },
-                    {
-                        "value": "58.11.3",
-                        "description": "Audio books"
-                    },
-                    {
-                        "value": "58.13.2",
-                        "description": "Online journals and periodicals"
-                    },
-                    {
-                        "value": "58.14.2",
-                        "description": "On-line journals and periodicals"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "LOAN_LIBRARIES",
-                "description": "Supply, including on loan by libraries, of books, newspapers and periodicals either on physical means of support or supplied electronically or both (including brochures, leaflets and similar printed matter, children's picture, drawing or colouring books, music printed or in manuscript form, maps and hydrographic or similar charts), other than publications wholly or predominantly devoted to advertising and other than publications wholly or predominantly consisting of video content or audible music."
-            }
-        },
-        {
-            "memberState": "AT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 10
-            },
-            "situationOn": "2026-07-01+02:00",
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "60",
-                        "description": "Programming, broadcasting, news agency and other content distribution services"
-                    },
-                    {
-                        "value": "60.10",
-                        "description": "Radio broadcasting and audio distribution services"
-                    },
-                    {
-                        "value": "60.2",
-                        "description": "Television programming, broadcasting and video distribution services"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "BROADCASTING_SERVICES",
-                "description": "Reception of radio and television broadcasting services"
-            }
-        },
-        {
-            "memberState": "AT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 10
-            },
-            "situationOn": "2026-07-01+02:00",
-            "cpaCodes": {
+            "cnCodes": {
                 "code": {
-                    "value": "88",
-                    "description": "Social work services without accommodation"
+                    "value": "9703 00 00",
+                    "description": "Original sculptures and statuary, in any material"
                 }
             },
             "category": {
-                "identifier": "SOCIAL_WELLBEING",
-                "description": "Supply of goods and services by organisations recognised as being devoted to social wellbeing by Member States and engaged in welfare or social security work"
-            },
-            "comment": "if not exempted (for information about the type of organisations falling under the exemption please see Sec. 6 of the Austrian VAT Act 1994)"
-        },
-        {
-            "memberState": "AT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 10
-            },
-            "situationOn": "2026-07-01+02:00",
-            "cpaCodes": {
-                "code": {
-                    "value": "95.2",
-                    "description": "Repair and maintenance services of personal and household goods"
-                }
-            },
-            "category": {
-                "identifier": "CLOTHING_REPAIR",
-                "description": "Minor repairs of clothing and household linen (including mending and alteration)"
-            }
-        },
-        {
-            "memberState": "AT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 10
-            },
-            "situationOn": "2026-07-01+02:00",
-            "cpaCodes": {
-                "code": {
-                    "value": "95.23.1",
-                    "description": "Repair services of footwear and leather goods"
-                }
-            },
-            "category": {
-                "identifier": "SHOES_REPAIR",
-                "description": "Minor repairs of shoes and leather goods"
+                "identifier": "SCULPTURES",
+                "description": "Original sculptures and statuary, in any material, provided that they are executed entirely by the artists"
             }
         }
     ]
