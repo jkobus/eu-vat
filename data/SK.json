@@ -377,15 +377,6 @@
         },
         {
             "memberState": "SK",
-            "type": "STANDARD",
-            "rate": {
-                "type": "DEFAULT",
-                "value": 23
-            },
-            "situationOn": "2026-07-01+02:00"
-        },
-        {
-            "memberState": "SK",
             "type": "REDUCED",
             "rate": {
                 "type": "REDUCED_RATE",
@@ -837,6 +828,15 @@
                 "description": "Admission to sporting events"
             },
             "comment": "Reduced rate only on fitness facilities\/centres services."
+        },
+        {
+            "memberState": "SK",
+            "type": "STANDARD",
+            "rate": {
+                "type": "DEFAULT",
+                "value": 23
+            },
+            "situationOn": "2026-07-01+02:00"
         }
     ]
 }

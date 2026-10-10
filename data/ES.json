@@ -424,6 +424,112 @@
             },
             "situationOn": "2026-07-01+02:00",
             "cnCodes": {
+                "code": [
+                    {
+                        "value": "9001 30 00",
+                        "description": "Contact lenses"
+                    },
+                    {
+                        "value": "9001 40 41",
+                        "description": "Single focal"
+                    },
+                    {
+                        "value": "9001 40 49",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "9001 40 80",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "9001 50 41",
+                        "description": "Single focal"
+                    },
+                    {
+                        "value": "9001 50 49",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "9001 50 80",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "9004 10 10",
+                        "description": "With lenses optically worked"
+                    },
+                    {
+                        "value": "9018 31",
+                        "description": "Syringes, with or without needles"
+                    },
+                    {
+                        "value": "9018 32",
+                        "description": "Tubular metal needles and needles for sutures"
+                    },
+                    {
+                        "value": "9018 39 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "9018 90 10",
+                        "description": "Instruments and apparatus for measuring blood-pressure"
+                    },
+                    {
+                        "value": "9021 10",
+                        "description": "Orthopaedic or fracture appliances"
+                    },
+                    {
+                        "value": "9021 21",
+                        "description": "Artificial teeth"
+                    },
+                    {
+                        "value": "9021 29 00",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "9021 31 00",
+                        "description": "Artificial joints"
+                    },
+                    {
+                        "value": "9021 39",
+                        "description": "Other"
+                    },
+                    {
+                        "value": "9021 40 00",
+                        "description": "Hearing aids, excluding parts and accessories"
+                    },
+                    {
+                        "value": "9619 00 40",
+                        "description": "Sanitary towels (pads), tampons and similar articles"
+                    },
+                    {
+                        "value": "9619 00 71",
+                        "description": "Sanitary towels (pads)"
+                    },
+                    {
+                        "value": "9619 00 75",
+                        "description": "Tampons"
+                    },
+                    {
+                        "value": "9619 00 79",
+                        "description": "Other"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "MEDICAL_EQUIPMENT",
+                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
+            },
+            "comment": "excluding 9018 90 30 subject to 4%"
+        },
+        {
+            "memberState": "ES",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 10
+            },
+            "situationOn": "2026-07-01+02:00",
+            "cnCodes": {
                 "code": {
                     "value": "2201",
                     "description": "Waters, including natural or artificial mineral waters and aerated waters, not containing added sugar or other sweetening matter nor flavoured; ice and snow"
@@ -521,184 +627,6 @@
                 "description": "Pharmaceutical products of a kind normally used for health care, prevention of illness and as treatment for medical and veterinary purposes, including products used for contraception and sanitary protection"
             },
             "comment": "products used for contraception and sanitary protection will be taxed at a VAT reduced 4% VAT rate from now on (see below)"
-        },
-        {
-            "memberState": "ES",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 10
-            },
-            "situationOn": "2026-07-01+02:00",
-            "cnCodes": {
-                "code": {
-                    "value": "31",
-                    "description": "CHAPTER 31 - FERTILISERS"
-                }
-            },
-            "cpaCodes": {
-                "code": [
-                    {
-                        "value": "01.61",
-                        "description": "Support services to crop production"
-                    },
-                    {
-                        "value": "01.62",
-                        "description": "Support services to animal production; services of preparing farmyard manure and slurry for energy production"
-                    },
-                    {
-                        "value": "01.64",
-                        "description": "Seed processing services for propagation"
-                    },
-                    {
-                        "value": "75",
-                        "description": "Veterinary services"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "AGRICULTURAL_PRODUCTION",
-                "description": "Supply of goods and services of a kind normally intended for use in agricultural production but excluding capital goods such as machinery or buildings"
-            }
-        },
-        {
-            "memberState": "ES",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 10
-            },
-            "situationOn": "2026-07-01+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "5805 00 00",
-                        "description": "Hand-woven tapestries of the type Gobelins, Flanders, Aubusson, Beauvais and the like, and needle-worked tapestries (for example, petit point, cross stitch), whether or not made up"
-                    },
-                    {
-                        "value": "6304 91 00",
-                        "description": "Knitted or crocheted"
-                    },
-                    {
-                        "value": "6304 92 00",
-                        "description": "Not knitted or crocheted, of cotton"
-                    },
-                    {
-                        "value": "6304 99 00",
-                        "description": "Not knitted or crocheted, of other textile materials"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "TAPESTRIES",
-                "description": "Tapestries (CN code 5805 00 00) and wall textiles (CN code 6304 00 00) made by hand from original designs provided by artists, provided that there are not more than eight copies of each"
-            }
-        },
-        {
-            "memberState": "ES",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 10
-            },
-            "situationOn": "2026-07-01+02:00",
-            "cnCodes": {
-                "code": [
-                    {
-                        "value": "9001 30 00",
-                        "description": "Contact lenses"
-                    },
-                    {
-                        "value": "9001 40 41",
-                        "description": "Single focal"
-                    },
-                    {
-                        "value": "9001 40 49",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "9001 40 80",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "9001 50 41",
-                        "description": "Single focal"
-                    },
-                    {
-                        "value": "9001 50 49",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "9001 50 80",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "9004 10 10",
-                        "description": "With lenses optically worked"
-                    },
-                    {
-                        "value": "9018 31",
-                        "description": "Syringes, with or without needles"
-                    },
-                    {
-                        "value": "9018 32",
-                        "description": "Tubular metal needles and needles for sutures"
-                    },
-                    {
-                        "value": "9018 39 00",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "9018 90 10",
-                        "description": "Instruments and apparatus for measuring blood-pressure"
-                    },
-                    {
-                        "value": "9021 10",
-                        "description": "Orthopaedic or fracture appliances"
-                    },
-                    {
-                        "value": "9021 21",
-                        "description": "Artificial teeth"
-                    },
-                    {
-                        "value": "9021 29 00",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "9021 31 00",
-                        "description": "Artificial joints"
-                    },
-                    {
-                        "value": "9021 39",
-                        "description": "Other"
-                    },
-                    {
-                        "value": "9021 40 00",
-                        "description": "Hearing aids, excluding parts and accessories"
-                    },
-                    {
-                        "value": "9619 00 40",
-                        "description": "Sanitary towels (pads), tampons and similar articles"
-                    },
-                    {
-                        "value": "9619 00 71",
-                        "description": "Sanitary towels (pads)"
-                    },
-                    {
-                        "value": "9619 00 75",
-                        "description": "Tampons"
-                    },
-                    {
-                        "value": "9619 00 79",
-                        "description": "Other"
-                    }
-                ]
-            },
-            "category": {
-                "identifier": "MEDICAL_EQUIPMENT",
-                "description": "Medical equipment, aids and other appliances normally intended to alleviate or treat disability, for the exclusive personal use of the disabled, including the repair of such goods"
-            },
-            "comment": "excluding 9018 90 30 subject to 4%"
         },
         {
             "memberState": "ES",
@@ -896,6 +824,78 @@
                 "description": "Goods, other than works of art or collector’s items, which are more than 100 years old (CN code 9706 00 00)"
             },
             "comment": "9706.00.00"
+        },
+        {
+            "memberState": "ES",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 10
+            },
+            "situationOn": "2026-07-01+02:00",
+            "cnCodes": {
+                "code": {
+                    "value": "31",
+                    "description": "CHAPTER 31 - FERTILISERS"
+                }
+            },
+            "cpaCodes": {
+                "code": [
+                    {
+                        "value": "01.61",
+                        "description": "Support services to crop production"
+                    },
+                    {
+                        "value": "01.62",
+                        "description": "Support services to animal production; services of preparing farmyard manure and slurry for energy production"
+                    },
+                    {
+                        "value": "01.64",
+                        "description": "Seed processing services for propagation"
+                    },
+                    {
+                        "value": "75",
+                        "description": "Veterinary services"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "AGRICULTURAL_PRODUCTION",
+                "description": "Supply of goods and services of a kind normally intended for use in agricultural production but excluding capital goods such as machinery or buildings"
+            }
+        },
+        {
+            "memberState": "ES",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 10
+            },
+            "situationOn": "2026-07-01+02:00",
+            "cnCodes": {
+                "code": [
+                    {
+                        "value": "5805 00 00",
+                        "description": "Hand-woven tapestries of the type Gobelins, Flanders, Aubusson, Beauvais and the like, and needle-worked tapestries (for example, petit point, cross stitch), whether or not made up"
+                    },
+                    {
+                        "value": "6304 91 00",
+                        "description": "Knitted or crocheted"
+                    },
+                    {
+                        "value": "6304 92 00",
+                        "description": "Not knitted or crocheted, of cotton"
+                    },
+                    {
+                        "value": "6304 99 00",
+                        "description": "Not knitted or crocheted, of other textile materials"
+                    }
+                ]
+            },
+            "category": {
+                "identifier": "TAPESTRIES",
+                "description": "Tapestries (CN code 5805 00 00) and wall textiles (CN code 6304 00 00) made by hand from original designs provided by artists, provided that there are not more than eight copies of each"
+            }
         },
         {
             "memberState": "ES",

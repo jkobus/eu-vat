@@ -3,15 +3,6 @@
     "vatRateResults": [
         {
             "memberState": "LT",
-            "type": "STANDARD",
-            "rate": {
-                "type": "DEFAULT",
-                "value": 21
-            },
-            "situationOn": "2026-07-01+02:00"
-        },
-        {
-            "memberState": "LT",
             "type": "REDUCED",
             "rate": {
                 "type": "REDUCED_RATE",
@@ -493,6 +484,15 @@
                 "description": "Accommodation provided in hotels and similar establishments, including the provision of holiday accommodation and the letting of places on camping or caravan sites"
             },
             "comment": "In accordance with the procedure laid down in the legislation governing tourism (therein Law on turism)"
+        },
+        {
+            "memberState": "LT",
+            "type": "STANDARD",
+            "rate": {
+                "type": "DEFAULT",
+                "value": 21
+            },
+            "situationOn": "2026-07-01+02:00"
         }
     ]
 }
