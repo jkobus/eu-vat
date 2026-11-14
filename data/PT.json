@@ -21,7 +21,7 @@
                     },
                     {
                         "value": "0202 30 10",
-                        "description": "Forequarters, whole or cut into a maximum of five pieces, each quarter being in a single block; compensated quarters in two blocks, one of which contains the forequarter, whole or cut into a maximum of five pieces, and the other, the hindquarter, excluding the tenderloin, in one piece"
+                        "description": "Forequarters, whole or cut into a maximum of five pieces, each quarter being in a single block; ‘compensated’ quarters in two blocks, one of which contains the forequarter, whole or cut into a maximum of five pieces, and the other, the hindquarter, excluding the tenderloin, in one piece"
                     },
                     {
                         "value": "0202 30 50",
@@ -737,7 +737,7 @@
                     },
                     {
                         "value": "1604 19 31",
-                        "description": "Fillets known as loins"
+                        "description": "Fillets known as ‘loins’"
                     },
                     {
                         "value": "1604 19 39",
@@ -850,6 +850,26 @@
                 "description": "Foodstuffs (including beverages but excluding alcoholic beverages) for human and animal consumption; live animals, seeds, plants and ingredients normally intended for use in the preparation of foodstuffs; products normally used to supplement foodstuffs or as a substitute for foodstuffs"
             },
             "comment": "Foodstuffs are also taxed at 0%,13% and 23%."
+        },
+        {
+            "memberState": "PT",
+            "type": "REDUCED",
+            "rate": {
+                "type": "REDUCED_RATE",
+                "value": 6
+            },
+            "situationOn": "2026-01-01+01:00",
+            "cnCodes": {
+                "code": {
+                    "value": "2201",
+                    "description": "Waters, including natural or artificial mineral waters and aerated waters, not containing added sugar or other sweetening matter nor flavoured; ice and snow"
+                }
+            },
+            "category": {
+                "identifier": "SUPPLY_WATER",
+                "description": "Supply of water"
+            },
+            "comment": "Supply of bottled water is also taxed at 13%."
         },
         {
             "memberState": "PT",
@@ -979,7 +999,7 @@
                 "code": [
                     {
                         "value": "01.11.6",
-                        "description": "Fresh leguminous vegetables, unshelled"
+                        "description": "Green leguminous vegetables"
                     },
                     {
                         "value": "01.11.8",
@@ -1027,7 +1047,7 @@
                     },
                     {
                         "value": "01.42.2",
-                        "description": "Bovine semen of meat breeds"
+                        "description": "Cattle and buffalo semen"
                     },
                     {
                         "value": "01.43.1",
@@ -1039,7 +1059,7 @@
                     },
                     {
                         "value": "01.45.3",
-                        "description": "Shorn wool from sheep and goats, greasy"
+                        "description": "Shorn wool from sheep and goats, greasy, including fleece-washed shorn wool"
                     },
                     {
                         "value": "01.46.1",
@@ -1063,11 +1083,11 @@
                     },
                     {
                         "value": "01.62",
-                        "description": "Support services to animal production; services of preparing farmyard manure and slurry for energy production"
+                        "description": "Support services to animal production"
                     },
                     {
                         "value": "01.63",
-                        "description": "Post-harvest crop services and seed processing services of propagation; services of preparing plant silages for energy production"
+                        "description": "Post-harvest crop services"
                     },
                     {
                         "value": "01.64",
@@ -1083,7 +1103,7 @@
                     },
                     {
                         "value": "02.10.2",
-                        "description": "Forest trees nursery services"
+                        "description": "Forest trees nurseries services"
                     },
                     {
                         "value": "02.10.3",
@@ -1115,7 +1135,7 @@
                     },
                     {
                         "value": "20.20",
-                        "description": "Pesticides, disinfectants and other agrochemical products"
+                        "description": "Pesticides and other agrochemical products"
                     },
                     {
                         "value": "33.12.21",
@@ -1136,26 +1156,6 @@
                 "description": "Supply of goods and services of a kind normally intended for use in agricultural production but excluding capital goods such as machinery or buildings"
             },
             "comment": "Some products are taxed at 13%. \nThe tax rate on animals applies only to live stock, agricultural labor and reproductive."
-        },
-        {
-            "memberState": "PT",
-            "type": "REDUCED",
-            "rate": {
-                "type": "REDUCED_RATE",
-                "value": 6
-            },
-            "situationOn": "2026-01-01+01:00",
-            "cnCodes": {
-                "code": {
-                    "value": "2201",
-                    "description": "Waters, including natural or artificial mineral waters and aerated waters, not containing added sugar or other sweetening matter nor flavoured; ice and snow"
-                }
-            },
-            "category": {
-                "identifier": "SUPPLY_WATER",
-                "description": "Supply of water"
-            },
-            "comment": "Supply of bottled water is also taxed at 13%."
         },
         {
             "memberState": "PT",
@@ -1501,23 +1501,23 @@
                     },
                     {
                         "value": "38.12.1",
-                        "description": "Hazardous waste collection services"
+                        "description": "Collection services of hazardous waste"
                     },
                     {
                         "value": "38.21.1",
-                        "description": "Materials recovery services"
+                        "description": "Non-hazardous waste treatment for final disposal services"
                     },
                     {
                         "value": "38.21.2",
-                        "description": "Metal secondary raw materials"
+                        "description": "Non-hazardous waste disposal services"
                     },
                     {
                         "value": "38.22.1",
-                        "description": "Energy recovery services"
+                        "description": "Nuclear and other hazardous waste treatment services"
                     },
                     {
                         "value": "38.22.2",
-                        "description": "Pellets of municipal waste for incineration with energy recovery"
+                        "description": "Nuclear and other hazardous waste disposal services"
                     }
                 ]
             },
@@ -1538,11 +1538,11 @@
                 "code": [
                     {
                         "value": "41.00",
-                        "description": "Residential and non-residential buildings, residential and non-residential buildings construction works"
+                        "description": "Buildings and building construction works"
                     },
                     {
                         "value": "41.00.3",
-                        "description": "Construction works for residential buildings"
+                        "description": "Construction works for residential buildings (new works, additions, alterations and renovation works)"
                     }
                 ]
             },
@@ -1563,7 +1563,7 @@
             "cpaCodes": {
                 "code": {
                     "value": "41.00.3",
-                    "description": "Construction works for residential buildings"
+                    "description": "Construction works for residential buildings (new works, additions, alterations and renovation works)"
                 }
             },
             "category": {
@@ -1584,7 +1584,7 @@
                 "code": [
                     {
                         "value": "49.1",
-                        "description": "Passenger rail transport services"
+                        "description": "Passenger rail transport services, interurban"
                     },
                     {
                         "value": "49.3",
@@ -1626,7 +1626,7 @@
                     },
                     {
                         "value": "55.2",
-                        "description": "Holiday and other short-stay accommodation services"
+                        "description": "Holiday and other short stay accommodation services"
                     },
                     {
                         "value": "55.30.11",
@@ -1860,7 +1860,7 @@
                     },
                     {
                         "value": "56.2",
-                        "description": "Event catering, contract catering services and other food serving services"
+                        "description": "Event catering services and other food serving services"
                     },
                     {
                         "value": "56.21",
